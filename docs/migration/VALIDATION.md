@@ -18,3 +18,7 @@ A permission warning from elevated Git concerned research/stage1/stage1_contract
 First native macOS run 34997893015 failed installation because host-Windows cross-resolution omitted the macOS-conditional hf-xet dependency. Added hf-xet1.6.0 and its official PyPI ARM64 wheel SHA; lock now contains43 packages. This is a migration dependency defect, not a preexisting model failure.
 
 Native macOS run34998120644 passed ARM64 dependency installation, V6 source bootstrap, CPU/import/codec smoke and archived metric replay. Review test failed because cases.js had been excluded with video assets. Included its existing approximately2MB metadata unchanged (no images) so original UI tests work after clone; the original external capture also contains this now-Git-managed file.
+
+Final native macOS15 ARM64 clean-clone run: SUCCESS, https://github.com/Hangi-n42/blackbox-accident-ai/actions/runs/34998418543 . Tested code commit b0eff50f5d2092604d3f61319d2dfb7f96ab2059. Python3.12.10, Node24 series. All43 locked dependencies installed; V6 source bootstrap, CPU/import/codec smoke, archived metric replay and both UI tests passed. The following commit only records this result. No model weights or external media were used.
+
+Indexed content and original remote history credential-pattern scan had zero findings. The one retained XLSX was also scanned through its XML members; zero findings. Profiling files and partial download tails were removed from Git tracking while their local copies were preserved. Frozen V6 indexed source hashes matched the source manifest.
