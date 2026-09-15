@@ -16,3 +16,5 @@ Limitations: heuristic secret scanning cannot prove absence of all possible secr
 A permission warning from elevated Git concerned research/stage1/stage1_contract_f2bsqec4. Its two MP4 copies are intentionally excluded from Git and are present in the hashed external manifest; no source was lost. A migration metadata generator's Windows cp949 decode error was corrected by specifying UTF-8; subsequent generation passed.
 
 First native macOS run 34997893015 failed installation because host-Windows cross-resolution omitted the macOS-conditional hf-xet dependency. Added hf-xet1.6.0 and its official PyPI ARM64 wheel SHA; lock now contains43 packages. This is a migration dependency defect, not a preexisting model failure.
+
+Native macOS run34998120644 passed ARM64 dependency installation, V6 source bootstrap, CPU/import/codec smoke and archived metric replay. Review test failed because cases.js had been excluded with video assets. Included its existing approximately2MB metadata unchanged (no images) so original UI tests work after clone; the original external capture also contains this now-Git-managed file.

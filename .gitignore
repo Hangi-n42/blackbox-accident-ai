@@ -283,7 +283,7 @@ credentials*.json
 !/research/v6_review_tool/dist/NEXAR_LICENSE.txt
 # Generated UI case catalog and case data travel with the evidence assets.
 /research/v6_review_tool/dist/cases/
-/research/v6_review_tool/dist/cases.js
+!/research/v6_review_tool/dist/cases.js
 
 # Profiling output and partial download tails are reproducible caches.
 *.prof

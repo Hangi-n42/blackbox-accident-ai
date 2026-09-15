@@ -37,7 +37,7 @@ V7의 여러 후보가 실패한 이유를 검증하던 상태입니다. 마지�
 | releases/v6/source/ | 제출 ZIP에서 추출한 25개 코드·라이선스 파일, 바이트 보존 |
 | releases/v6/*.json | 원본 제출 47개 파일 및 소스 해시 |
 | research/v6_stage2/, research/v7/ | 검수 정답, 프로토콜, 실패 실험과 근거 |
-| research/v6_review_tool/dist/ | 실제 수작업 HTML/JS/CSS 소스. 생성물처럼 일괄 제외하면 안 됨 |
+| research/v6_review_tool/dist/ | 실제 수작업 HTML/JS/CSS 소스와 프레임 메타데이터. 생성물처럼 일괄 제외하면 안 됨 |
 | Baseline/data/ | 공식 공개 자료, Git 제외 |
 | model/, external_data/, artifacts/ | 모델·외부 자료·실험 산출물, Git 제외 |
 | docs/migration/ | 환경 실사, macOS wheel 목록, 외부 파일 목록 |
@@ -77,7 +77,7 @@ macOS ARM64 Python 3.12 의존성은 `requirements/macos-arm64.txt`, 전이 의�
 - external_data/: 기존 학습용 외부 데이터. 하위 모든 경로는 자산 목록 기준 복사.
 - model/: 커스텀 가중치와 provenance. 공개 모델 이름만으로 재현되지 않는 학습 결과 포함.
 - research/ 아래 Git 제외 미디어·배열·학습 자산: 검수 프레임, 원본 Nexar 영상, 평가용 시각 대응과 외부 데이터.
-- research/v6_review_tool/dist/cases.js 및 cases/: 검수 UI의 사례 목록·프레임. HTML/JS/CSS만 clone하면 영상은 없습니다.
+- research/v6_review_tool/dist/cases/: 검수 프레임은 별도 복사. cases.js의 약2MB 프레임 메타데이터는 검수 테스트에 필요하여 Git에 포함했습니다. 초기 외부 자산 목록에도 중복 기록되어 있으므로 clone 후 이미 존재하는 이 파일은 복사하지 않아도 해시 검증됩니다.
 - artifacts/submissions/submit_v6.zip: 정확한 마지막 제출 복원용.
 
 개인 외장 SSD 등으로 자산 목록의 상대경로를 유지해 옮기십시오. 기존 목적지와 다른 파일을 무조건 덮어쓰지 말고 비교해야 합니다. `verify_assets.py`로 핵심 목록 전체를 검증합니다. 선택 보관 자료까지 옮길 경우 --all. 원본 Downloads 검수 JSON의 프로젝트 내부 사본은 research에 보존되어 있습니다. 브라우저 localStorage 자체는 이전하지 않았으므로 브라우저에만 남은 초안의 존재 여부는 별도 확인 필요입니다.
