@@ -1,0 +1,134 @@
+{
+  "scope": "24 uniformly spaced images per external clip versus all250 public PNG frames; no crop/mirror/temporal alignment search.",
+  "limitation": "No exact match or large nearest distance does not prove no common camera/source or hidden duplicate.",
+  "clips": [
+    {
+      "ID": "DADA_10_120",
+      "sampled": 24,
+      "closest_phash_hamming_63bit": 14,
+      "closest_external_frame": "0029.png",
+      "closest_public_frame": "research\\v5_inputs\\canonical\\images\\S2_001\\frame_000008.png",
+      "sampled_exact_rgb_matches": []
+    },
+    {
+      "ID": "DADA_10_142",
+      "sampled": 24,
+      "closest_phash_hamming_63bit": 18,
+      "closest_external_frame": "0212.png",
+      "closest_public_frame": "research\\v5_inputs\\canonical\\images\\S2_002\\frame_000014.png",
+      "sampled_exact_rgb_matches": []
+    },
+    {
+      "ID": "DADA_10_155",
+      "sampled": 24,
+      "closest_phash_hamming_63bit": 20,
+      "closest_external_frame": "0001.png",
+      "closest_public_frame": "research\\v5_inputs\\canonical\\images\\S2_003\\frame_000038.png",
+      "sampled_exact_rgb_matches": []
+    },
+    {
+      "ID": "DADA_11_045",
+      "sampled": 24,
+      "closest_phash_hamming_63bit": 16,
+      "closest_external_frame": "0094.png",
+      "closest_public_frame": "research\\v5_inputs\\canonical\\images\\S2_003\\frame_000000.png",
+      "sampled_exact_rgb_matches": []
+    },
+    {
+      "ID": "DADA_11_129",
+      "sampled": 24,
+      "closest_phash_hamming_63bit": 16,
+      "closest_external_frame": "0065.png",
+      "closest_public_frame": "research\\v5_inputs\\canonical\\images\\S2_001\\frame_000020.png",
+      "sampled_exact_rgb_matches": []
+    },
+    {
+      "ID": "DADA_49_002",
+      "sampled": 24,
+      "closest_phash_hamming_63bit": 18,
+      "closest_external_frame": "0001.png",
+      "closest_public_frame": "research\\v5_inputs\\canonical\\images\\S2_002\\frame_000048.png",
+      "sampled_exact_rgb_matches": []
+    },
+    {
+      "ID": "DADA_49_015",
+      "sampled": 24,
+      "closest_phash_hamming_63bit": 14,
+      "closest_external_frame": "0382.png",
+      "closest_public_frame": "research\\v5_inputs\\canonical\\images\\S2_005\\frame_000039.png",
+      "sampled_exact_rgb_matches": []
+    },
+    {
+      "ID": "DADA_49_026",
+      "sampled": 24,
+      "closest_phash_hamming_63bit": 16,
+      "closest_external_frame": "0001.png",
+      "closest_public_frame": "research\\v5_inputs\\canonical\\images\\S2_001\\frame_000001.png",
+      "sampled_exact_rgb_matches": []
+    },
+    {
+      "ID": "DADA_49_036",
+      "sampled": 24,
+      "closest_phash_hamming_63bit": 16,
+      "closest_external_frame": "0219.png",
+      "closest_public_frame": "research\\v5_inputs\\canonical\\images\\S2_003\\frame_000039.png",
+      "sampled_exact_rgb_matches": []
+    },
+    {
+      "ID": "DADA_50_031",
+      "sampled": 24,
+      "closest_phash_hamming_63bit": 14,
+      "closest_external_frame": "0201.png",
+      "closest_public_frame": "research\\v5_inputs\\canonical\\images\\S2_003\\frame_000040.png",
+      "sampled_exact_rgb_matches": []
+    },
+    {
+      "ID": "DADA_50_133",
+      "sampled": 24,
+      "closest_phash_hamming_63bit": 16,
+      "closest_external_frame": "0001.png",
+      "closest_public_frame": "research\\v5_inputs\\canonical\\images\\S2_001\\frame_000011.png",
+      "sampled_exact_rgb_matches": []
+    },
+    {
+      "ID": "DADA_50_172",
+      "sampled": 24,
+      "closest_phash_hamming_63bit": 16,
+      "closest_external_frame": "0321.png",
+      "closest_public_frame": "research\\v5_inputs\\canonical\\images\\S2_003\\frame_000011.png",
+      "sampled_exact_rgb_matches": []
+    },
+    {
+      "ID": "DADA_8_036",
+      "sampled": 24,
+      "closest_phash_hamming_63bit": 16,
+      "closest_external_frame": "0023.png",
+      "closest_public_frame": "research\\v5_inputs\\canonical\\images\\S2_005\\frame_000042.png",
+      "sampled_exact_rgb_matches": []
+    },
+    {
+      "ID": "DADA_8_039",
+      "sampled": 24,
+      "closest_phash_hamming_63bit": 12,
+      "closest_external_frame": "0266.png",
+      "closest_public_frame": "research\\v5_inputs\\canonical\\images\\S2_003\\frame_000007.png",
+      "sampled_exact_rgb_matches": []
+    },
+    {
+      "ID": "DADA_9_001",
+      "sampled": 24,
+      "closest_phash_hamming_63bit": 14,
+      "closest_external_frame": "0380.png",
+      "closest_public_frame": "research\\v5_inputs\\canonical\\images\\S2_002\\frame_000029.png",
+      "sampled_exact_rgb_matches": []
+    },
+    {
+      "ID": "DADA_9_009",
+      "sampled": 24,
+      "closest_phash_hamming_63bit": 14,
+      "closest_external_frame": "0226.png",
+      "closest_public_frame": "research\\v5_inputs\\canonical\\images\\S2_001\\frame_000018.png",
+      "sampled_exact_rgb_matches": []
+    }
+  ]
+}

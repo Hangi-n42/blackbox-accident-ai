@@ -1,0 +1,24 @@
+name: macOS migration smoke
+on: [push, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: macos-15
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify architecture
+        run: test "$(uname -m)" = arm64
+      - run: python -m pip install --require-hashes -r requirements/macos-arm64.lock.txt
+      - run: python scripts/migration/bootstrap_v6.py
+      - run: python scripts/migration/smoke.py
+      - run: python scripts/migration/replay_metrics.py
+      - run: node research/v6_review_tool/test_review.cjs
+      - run: node research/v6_review_tool/test_frame_loading.cjs

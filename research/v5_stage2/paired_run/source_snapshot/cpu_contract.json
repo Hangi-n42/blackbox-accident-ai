@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "tests": 15,
+  "cpu_contract_only": true,
+  "gpu_used": false,
+  "protected_sources_unchanged": true,
+  "candidate_sha256": "fea0bc28ab39818569c9078ac4fa9924194e4321fff23c2a45f403dbb67f2fba"
+}

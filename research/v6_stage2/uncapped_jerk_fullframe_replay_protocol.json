@@ -1,0 +1,30 @@
+{
+  "experiment": "Predeclared 2x2 frame-density by jerk-cap diagnostic on six exposed sources",
+  "declaration_status": "Written before inspecting full-frame V5 outputs; no full-frame result used to choose this replay",
+  "ids": ["00000", "00003", "00004", "00005", "00006", "00007"],
+  "source_role": "All six already exposed development/diagnostic sources; previous reserved status is historical",
+  "factors": {
+    "frame_density": ["previous 10Hz plus endpoint PNG", "full native decoded PNG"],
+    "jerk_upper_cap": ["V5 upper cap10", "previously frozen C upper cap removed"]
+  },
+  "candidate_path": "research/v6_stage2/candidates/stage2_uncapped_jerk_v6c.py",
+  "candidate_sha256": "3e86e5117230fb4680c1d4af630cb02dd7e9aca99b7c4184d7baed13f479d64e",
+  "execution": "After the full-frame V5 baseline completes, rerun only the frozen C dual CPU scan on the exact full-frame PNG paths. Require base float32 scores and valid original frame numbers to exactly match the full V5 report. Apply C's pure collision helper to cached full V5 predictions and diagnostics.",
+  "no_new_model_calls": true,
+  "ground_truth_during_replay": "No review or label files read; human evaluation is separate",
+  "binding": "Full V5 freeze/report, package, source videos, case/mapping and all native PNG hashes checked before and after; unchanged C/protocol/runner hashes frozen",
+  "comparison_gate_on_fullframe_six": {
+    "all_six_known_contact_references_required": true,
+    "minimum_additional_correct_within_0_3_seconds": 1,
+    "maximum_previously_correct_cases_lost": 0,
+    "mean_absolute_contact_time_error_must_not_increase": true,
+    "noncollision_prediction_fields_must_be_identical": true,
+    "native_frame_validity_and_exact_base_score_reproduction_required": true,
+    "roundoff_epsilon_seconds": 1e-12
+  },
+  "pass_consequence": "May proceed only to a separately frozen future test with three newly human-reviewed sources; no adoption or submission from the six exposed cases",
+  "fail_consequence": "Do not advance this fixed C candidate on these results. No threshold, replacement cap, weight, window, or per-ID tuning to rescue it.",
+  "interpretation": "Density may change motion features, candidate choices, VLM context and other outputs between the two density baselines. Within each density C must preserve that density's V5 noncollision outputs. No claim that those fields match across densities.",
+  "preprocessing_limit": "PNG representation is fixed to isolate frame density/timeline. This is not byte-identical official JPEG preprocessing, and hidden JPEG conditions remain unverified.",
+  "metrics_limit": "Single-human contact references, not official or adjudicated GT. Full S2 is null; no leaderboard guarantee or renewed independent holdout claim."
+}

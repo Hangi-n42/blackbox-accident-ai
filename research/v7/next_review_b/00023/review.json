@@ -1,0 +1,512 @@
+{
+  "ID": "00023",
+  "record_type": "AI_secondary_evidence",
+  "reviewer": "independent_AI_reviewer_B",
+  "human_GT": false,
+  "official_GT": false,
+  "predictions_read": false,
+  "other_reviewer_read": false,
+  "source_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\new_validation_sources\\00023.mp4",
+  "source_sha256": "7d0232cc2a4b7a5b6a74c050b7155e675e561513d40d132588f47217c874ac69",
+  "native_frame_count": 1217,
+  "native_pts_mapping": {
+    "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_pts.json",
+    "sha256": "a5a7d6f452c9a4a7e3e966845c4f7db9226b3a96861c33acc31876a29871da41"
+  },
+  "applicability": "ego_contact_inferred_not_directly_visible",
+  "contact": {
+    "status": "inferred_interval",
+    "exact_frame": null,
+    "directly_visible": false,
+    "interval": {
+      "frame_interval": [
+        598,
+        604
+      ],
+      "pts_seconds_interval": [
+        19.933333333333334,
+        20.133333333333333
+      ]
+    },
+    "reason": "흰 픽업이 자차의 붉은 보닛 바로 앞을 지나며 598~604 사이 상대 차체와 카메라 구도가 급격하게 변한다. 이어 픽업이 바로 앞에 정지하고 운전자가 내려온다. 이 전후 증거로 자차 접촉을 추론하지만 최초 맞닿음은 붉은 보닛과 하단 가림 때문에 직접 보이지 않아 단일 프레임 정답은 부여하지 않는다.",
+    "alternative_explanations_not_fully_excluded": true
+  },
+  "same_actor": {
+    "description": "왼쪽에서 오른쪽으로 가로지르는 흰색 단일 캡 픽업, 긴 적재함과 검은 앞 범퍼. 578~630에서 동일 차량을 연속 확인.",
+    "status": "inferred_collision_actor",
+    "reference_frame": 600,
+    "reference_pts_seconds": 20.0,
+    "reference_image": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000600.png"
+  },
+  "entry": {
+    "status": "unknown",
+    "value": null,
+    "reason": "픽업이 왼쪽에서 자차 진행 경로를 가로지르지만 자차는 도로 진입 위치에 있고 투영 차로 경계를 확정하기 어렵다. 첫 바퀴 접촉 시점을 근접/차체 겹침으로 대체하지 않는다."
+  },
+  "already_entered_at_original_start": {
+    "status": "unknown",
+    "value": null,
+    "reason": "픽업이 왼쪽에서 자차 진행 경로를 가로지르지만 자차는 도로 진입 위치에 있고 투영 차로 경계를 확정하기 어렵다. 첫 바퀴 접촉 시점을 근접/차체 겹침으로 대체하지 않는다."
+  },
+  "side": {
+    "status": "conditional_on_inferred_actor",
+    "value": "LEFT",
+    "reason": "동일 추론 상대의 영상상 출발 쪽이며 이동 방향/충돌 후 위치와 구분. 접촉 자체가 추론이라는 조건 유지."
+  },
+  "space": {
+    "status": "unknown",
+    "value": null,
+    "reason": "실제 접촉 시각/상대 또는 충분한 포장 주행 폭을 확정할 수 없어 공간 클래스를 강제하지 않음."
+  },
+  "inspected_event_range_not_contact_GT": {
+    "frame_interval": [
+      570,
+      630
+    ],
+    "pts_seconds_interval": [
+      19.0,
+      21.0
+    ]
+  },
+  "viewed_evidence": [
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_00.png",
+      "sha256": "cebdf40760ce79ed93234feec468e54976863bba6fdec271b1e2abb501b8a1c4",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_01.png",
+      "sha256": "02d9aead19c08e8a90a40dfdf1d0e368e9d6e2570b8109bd2c0c244c42cfd57c",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_02.png",
+      "sha256": "af843420700ddc6bc19c37b4aef83d989bf744173e9bb0ffcd6e560533a65f87",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000000.png",
+      "sha256": "178d1dc2b5d3d1f6ab5cfdc1640c9bc6edbc03f8c91fe748b1582a160be0bbb1",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000030.png",
+      "sha256": "eae6f07a4f27c28fa4ef1fed3c6e54cc4fa1f6c8d6dba4367f790fa1debd79b8",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000060.png",
+      "sha256": "a327109849836d680e7358b15138a045979054ce0581b90d6785c36821cbfd87",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000090.png",
+      "sha256": "3be7162f409c37db1ba65b0cee002aa380033fdb1ca7fa0d65b10ee16f9bf763",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000120.png",
+      "sha256": "d721f16253e50534b9491373093aa918067b61a6e251a65ab28b3610bcc330cd",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000150.png",
+      "sha256": "8f48d390a5bd9eb4e7f3b4be7b9d16410a87d7a38036a753666c16ec36c6c7cf",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000180.png",
+      "sha256": "1ba2e67403c81f61712b99b6fde83e2c132a3fcb3062b5334f4bf44616cce64d",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000210.png",
+      "sha256": "9cfe549dcbcd6916d80060d425b2ab4888d62756567f63ffafd3533331a2f04e",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000240.png",
+      "sha256": "f4114b0d0d3a373ae5fa2cb9fd189ba5f9c51c60c8f00afdc3bfb3c5b292b17a",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000270.png",
+      "sha256": "dfe32d9a4b1a22ad02141587c389dadc9cc7d5d11ac90b1c5d8c7a90e3eb1907",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000300.png",
+      "sha256": "13895acbaaf3fc177e6641be0a2e5f1ff1d926a32b69893844e779269759ab2b",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000330.png",
+      "sha256": "1bd4a73844ea64a6bdcf57177bb3722c4e8556a877a3e3514c15b17eb0914557",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000360.png",
+      "sha256": "f8ce2571772eabd4bb48d6d917ff8e07efaff0b7bad02335878c8ab746435e35",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000390.png",
+      "sha256": "6e24279edb6ed97a65117741c80310cb17c5065dc321e7c68298a0f142ec66ee",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000420.png",
+      "sha256": "2f74abb06f5cbe7b92fc5d3d1dd63d872dce1dfdaa39911432e94bffcddad477",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000450.png",
+      "sha256": "3b8b1bd24cb8197c6956155084f716b20db423ff22a76f663a07936398de081f",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000480.png",
+      "sha256": "13945840b43aa0d28ea3093cd1ee78d5e6f5e5dcf2a04a7dbe763791e595be00",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000510.png",
+      "sha256": "be212c7c43050af7687abdc47c49c7e075b5cd63eabe8dfb3f25a2758d274965",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000540.png",
+      "sha256": "914d413e39c9cae99fdd08c9aabeaf8078b94ed0db07d93fcccd0c032f9e847b",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000570.png",
+      "sha256": "fec1c8a531bc3e880eb153edbad39e9b351ed982d2655d5ab8d00298b69273c1",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000600.png",
+      "sha256": "859ca7c4e9cc75ceffd74807a4d0a653a12a469330af1efbcb31098794846021",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000630.png",
+      "sha256": "1a03af15f1aeae34187ecc4cdaf4c330130cc3cd249d05ec8bef0095188aa30b",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000660.png",
+      "sha256": "79d4259bc094bc1d3c6be341ad42071c2e2bf54401172972fe8ee4ac28785c77",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000690.png",
+      "sha256": "9d057977e0560a44c145937e0b8177b9c641237017bc01a8b5dce9df5aa02b56",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000720.png",
+      "sha256": "2e6aedae790ee787661c6bdc7c03bfadf45957716a877b788dd50f19ab48c332",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000750.png",
+      "sha256": "5adf6b51e3550150f875dd5d205942c51b8f286fa21f4ab7060818e1d8472e81",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000780.png",
+      "sha256": "15b4b94850177a108d090455f61a2c6d86c65fab005c373d0ff83d5884453b27",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000810.png",
+      "sha256": "32f7fd45aa1f57dfaff1b80ba2feaa9b16f24235fc6b0caca96f28e48fd0d8a4",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000840.png",
+      "sha256": "87594fd6c55e9e03971b91083554c12a7654f9f4957abcb12b9488363360660c",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000870.png",
+      "sha256": "be1ecb9099195c88cc6d46e6ddd4cc3f51622cb1d4b837f43dc7519868a7ee83",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000900.png",
+      "sha256": "523978c725780092e8c135835ad1922777c2eb58ed1713f4072cb8add3e26876",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000930.png",
+      "sha256": "b2639e80a6b3685f5cf49c52b0ae81585352b0871f502e0b3e4732f56d872b06",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000960.png",
+      "sha256": "af48d32006f2636a7ec125df778ba5213a2b34d03b8da91d22dd80848ca5cb34",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000990.png",
+      "sha256": "0afd2e48d4dcb4560feacf8a9535984f78d7bdb3003763ea321ef9de39ec512e",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame001020.png",
+      "sha256": "7da38a8992845c596a728875b098c883c697b09e1043a24d6dc7bdd17d56f667",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame001050.png",
+      "sha256": "a61e5b812d12a35a3a6fd1dcfc9190c6eb0c0564dff613ceeddb92fe8a73479e",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame001080.png",
+      "sha256": "1776424b22e80ab939ca4f02d546652652ccbf995fc022c7695668ccc4e86227",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame001110.png",
+      "sha256": "8df3af92247c460cc542c1539d42661a578ab7e73f6c1eebcbd5200cf71ec75b",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame001140.png",
+      "sha256": "d6f97b6b9a1b753e2b7b8d817e20ac0d106c48a8b0f0e6dec54ac6e734de0f8a",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame001170.png",
+      "sha256": "3517acdb850beaa83b0b164ab85c671c6ffa31f66b93cdd86620ffcd04781bca",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame001200.png",
+      "sha256": "0d128c029c44832fdf1762b1fa3da3491dd3895b557d63baa36034576b7dc69a",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\event_00.png",
+      "sha256": "e63b5f6eef1ab3772c52a310ac37dbbcebca578c7676ab14527ce7e59dfa82ab",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\event_01.png",
+      "sha256": "8363e4e089e5b7514dbd6c4768442ddd00d4f8962c5d21002a7566c963b28c09",
+      "viewed": true,
+      "viewing": "view_image contact sheet"
+    }
+  ],
+  "panel_images": [
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000570.png",
+      "sha256": "fec1c8a531bc3e880eb153edbad39e9b351ed982d2655d5ab8d00298b69273c1",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000572.png",
+      "sha256": "d114a2d0470c8e00aecbd79be1b064174d76d45db48aa7fe66fa6cd4b6579c65",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000574.png",
+      "sha256": "cb5bece580f7ab04a6a4fe54a463ee7252fb4aee2c3e28ef6bdea36cee27eb70",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000576.png",
+      "sha256": "0c5e0d3d5151e4570b5e8a6feb4dfc9ed8f51996a0079b8729af5dfd45d1a9c5",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000578.png",
+      "sha256": "d0a8a7b31454c24323cb231fd919bbbc96590edac63071423a4d8fe18eafaafd",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000580.png",
+      "sha256": "7fc2ec178dd56892be31212618b2d1b523491a5b22bfd959ea97cc18f137c55a",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000582.png",
+      "sha256": "1f190d60464f277cdf776f778c4107b144381163f5030dc2e0902485deb032f4",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000584.png",
+      "sha256": "18512b5685265fb67fe81ae35fe643b6a73d736fbaaff31b61c66794eca403a8",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000586.png",
+      "sha256": "077e33ff4c36ae42a8bc24451236a0ea40e94654d1010b6f276fc616221e918e",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000588.png",
+      "sha256": "4963ee9908eff208dba32bc12b59d37d4cf87bed19c4071f32135faf81ad661f",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000590.png",
+      "sha256": "ca72010a1406be98899b4c98b0ceed2c56ba41165faaac168091836e02b9ba01",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000592.png",
+      "sha256": "7c09c6b39d323e1a8cb1a14fa9e1079cb3d158eb5376d5b38a2f580a7b658e60",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000594.png",
+      "sha256": "03a7146503a66d00acfceb969335ff4f84d430901a3aa48d458ed6afaf6f9cb5",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000596.png",
+      "sha256": "db71f71fee0de36d5faee192826b1593798589dce520da4dcc04695069c8a6ea",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000598.png",
+      "sha256": "bfea7f45cabc911c5149f429b3838d01063d8e1ce1d6060e3a44170657ed4bca",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000600.png",
+      "sha256": "859ca7c4e9cc75ceffd74807a4d0a653a12a469330af1efbcb31098794846021",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000602.png",
+      "sha256": "cc964475c66d6b9783dc4f0ed0d79c56113dcd371c0f5c829144ead437719117",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000604.png",
+      "sha256": "2265f93dc43bd40b7253a42446d9d651beae766e51235f74efa9b20b77c3da30",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000606.png",
+      "sha256": "2c6024b37f68dc59f8712836ac06fc03c0e97764cc14abb3ded70d6458d53ba2",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000608.png",
+      "sha256": "6e2dafb51645b9ff008f1fd87c11c92315f83d45cd09e18288d12ed87c28ca19",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000610.png",
+      "sha256": "f6c7befb0e337deaa58e0e4bc71f1d207cfa91c93ed62dd5e92df472ef848543",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000612.png",
+      "sha256": "279fdf6c99c728fe74abd4176c6aa0cffcbd483d3cacf628298df1e6aae24cbf",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000614.png",
+      "sha256": "0a82f2735a76f422b11e95553797999dc5133a1bbe47d45c008a8c7572f90b72",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000616.png",
+      "sha256": "c5ea08f90f7276db2e8e1be37ef5e89cd5150d05f5ed1489c5056389ea5fa804",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000618.png",
+      "sha256": "a3f0b719e50311eec71e2fafbedc695fbc96fd521985acf13c22ca7e68a9fa79",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000620.png",
+      "sha256": "eb86b1b75cb50bd0b874d374aade6d7b476e7851126c6c41e77af9bd07fe02d8",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000622.png",
+      "sha256": "1d30cec77a9a1fa85fe87d02f24caecb2c632646519484fe16517ecb977441ab",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000624.png",
+      "sha256": "be491383f3197b3d7025013507c799f516f44e3e93e1b078635b9514e9d9c67f",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000626.png",
+      "sha256": "fd5d152620225a164a1b3e97abdc1409e734e8f0d945cc3c9517cd6e9552b311",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000628.png",
+      "sha256": "da2de8e9c9339e3c59a9aa08ff3fccab2509388709779f4085ed80a12d1dbba6",
+      "viewed_as_sheet_panel": true
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000630.png",
+      "sha256": "1a03af15f1aeae34187ecc4cdaf4c330130cc3cd249d05ec8bef0095188aa30b",
+      "viewed_as_sheet_panel": true
+    }
+  ],
+  "detail_manifest_sha256": "5499766b8c92a3ff948ae202ae3f762f1ebd65d0015e0ed8ab4b51c6ca2eac68",
+  "limitations": [
+    "전체 native frame을 한 번 해독하였으나 사람처럼 모든 프레임을 재생 검수한 것은 아님: 전체1초간격시트와 사건주변2~6프레임간격시트를 시간순으로 관찰.",
+    "장면은 고정6개 모두 유지하며 불확실 사례 교체 없음. 이전14~16 대체 아님.",
+    "직접 관찰 접촉0개. 추론 구간은 공식/사람 정답 또는 정확도 GT가 아님."
+  ]
+}

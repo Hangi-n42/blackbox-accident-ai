@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "changed_files_sha256": {
+    "research/v6_review_tool/dist/app.js": "322d76b773bb711b0d3e075b6153e078e34e4800ca5e0a2131f161a89a25569a",
+    "research/v6_review_tool/test_review.cjs": "7f2b9dc4e4ef63e7aa6232ab50465f9a6ae0f7d918eee1c0466be14054c8252b",
+    "research/v6_review_tool/test_frame_loading.cjs": "31086e4a644b79d1b6525202347871efe3563550f055660d71f17e8be3f89a6b"
+  },
+  "tests": [
+    "node research/v6_review_tool/test_frame_loading.cjs",
+    "node research/v6_review_tool/test_review.cjs"
+  ],
+  "test_results": "Both exit 0; controlled slow/failed/stale decode, rapid navigation, exact displayed-frame marking, frame-zero load, export snapshot, previous radio/save/restore/export contracts. No actual browser visual QA.",
+  "actual_nine_sources_reviews_cases_and_PNGs": [
+    {
+      "ID": "00000",
+      "review_unchanged": true,
+      "case_unchanged": true,
+      "source_unchanged": true,
+      "all_case_PNG_sha_match": true
+    },
+    {
+      "ID": "00003",
+      "review_unchanged": true,
+      "case_unchanged": true,
+      "source_unchanged": true,
+      "all_case_PNG_sha_match": true
+    },
+    {
+      "ID": "00004",
+      "review_unchanged": true,
+      "case_unchanged": true,
+      "source_unchanged": true,
+      "all_case_PNG_sha_match": true
+    },
+    {
+      "ID": "00005",
+      "review_unchanged": true,
+      "case_unchanged": true,
+      "source_unchanged": true,
+      "all_case_PNG_sha_match": true
+    },
+    {
+      "ID": "00006",
+      "review_unchanged": true,
+      "case_unchanged": true,
+      "source_unchanged": true,
+      "all_case_PNG_sha_match": true
+    },
+    {
+      "ID": "00007",
+      "review_unchanged": true,
+      "case_unchanged": true,
+      "source_unchanged": true,
+      "all_case_PNG_sha_match": true
+    },
+    {
+      "ID": "00008",
+      "review_unchanged": true,
+      "case_unchanged": true,
+      "source_unchanged": true,
+      "all_case_PNG_sha_match": true
+    },
+    {
+      "ID": "00010",
+      "review_unchanged": true,
+      "case_unchanged": true,
+      "source_unchanged": true,
+      "all_case_PNG_sha_match": true
+    },
+    {
+      "ID": "00013",
+      "review_unchanged": true,
+      "case_unchanged": true,
+      "source_unchanged": true,
+      "all_case_PNG_sha_match": true
+    }
+  ],
+  "actual_review_error_proven": false,
+  "human_labels_modified": false,
+  "model_changed": false
+}

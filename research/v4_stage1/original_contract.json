@@ -1,0 +1,316 @@
+{
+  "normal": {
+    "old": {
+      "expected": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "actual": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "exact_uniform_selection": true,
+      "error": null
+    }
+  },
+  "short": {
+    "old": {
+      "expected": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "actual": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "exact_uniform_selection": true,
+      "error": null
+    }
+  },
+  "negative_count": {
+    "old": {
+      "expected": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "actual": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "exact_uniform_selection": false,
+      "error": null
+    }
+  },
+  "nan_count": {
+    "old": {
+      "expected": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "actual": null,
+      "exact_uniform_selection": false,
+      "error": "ValueError: cannot convert float NaN to integer"
+    }
+  },
+  "underreported_count": {
+    "old": {
+      "expected": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "actual": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10,
+        12,
+        14,
+        16,
+        17,
+        19
+      ],
+      "exact_uniform_selection": false,
+      "error": null
+    }
+  },
+  "overreported_count": {
+    "old": {
+      "expected": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "actual": [
+        0,
+        8,
+        16,
+        24,
+        32,
+        40,
+        49
+      ],
+      "exact_uniform_selection": false,
+      "error": null
+    }
+  },
+  "failed_seek": {
+    "old": {
+      "expected": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "actual": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "exact_uniform_selection": false,
+      "error": null
+    }
+  },
+  "seek_returns_true_but_wrong_position": {
+    "old": {
+      "expected": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "actual": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "exact_uniform_selection": false,
+      "error": null
+    }
+  },
+  "one_seek_read_failure": {
+    "old": {
+      "expected": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "actual": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "exact_uniform_selection": false,
+      "error": null
+    }
+  },
+  "persistent_selected_retrieve_failure": {
+    "old": {
+      "expected": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "actual": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "exact_uniform_selection": false,
+      "error": null
+    }
+  },
+  "empty": {
+    "old": {
+      "expected": [],
+      "actual": null,
+      "exact_uniform_selection": false,
+      "error": "RuntimeError: No decodable frames: mock.mp4"
+    }
+  }
+}

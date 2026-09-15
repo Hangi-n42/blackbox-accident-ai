@@ -1,0 +1,139 @@
+{
+  "created_at": "2026-09-14T14:57:04.107260+00:00",
+  "scope": "single_user_development_draft_diagnostic_not_adjudicated_GT_or_independent_validation",
+  "evaluation_eligible": false,
+  "complete_gt": false,
+  "S2": null,
+  "source_binding": {
+    "review_sha256": "6d4b917e3ae2b7b57ccbc73d5981a65527ce554400cedf1a56d64ac10efa973d",
+    "case_sha256": "a6969260d2c0808cc71a935d4c1cab7daf781607d56f2e38884519784a1d0289",
+    "video_sha256": "877b6804d709acd31a8e7c4843590d674d3877fffab3d8c076332462787d2179",
+    "trace_sha256": "c3ce71f34449e134901420f8ebe637d01e8801dcd527a529f6b91fa316066655",
+    "v5_output_csv_sha256": "0de4e3c53e3a320efbaef293c5412866e49afbe00f64adc7492af3e24204f6b8",
+    "actual_v5_code_hashes_equal_archived_policy": {
+      "stage2.py": "2323653c4271ec09e2bf1761f6938d5cec1f76bbe5a01df96ce7aa22b183dc1a",
+      "stage2_v2.py": "89ae0bc640670d7ed76103ce7c829d405ad27cc25368c74d153d3b96962b8442",
+      "stage2_motion_collision.py": "091d1b4b53353cf08bc5431fb658d1c7fcc45604a4288546f3aac0fd6a207e2e",
+      "vlm.py": "01680e84220c64a6ff8f3415cf59bb7cd225f425814c92f6d2fe8213c5fe1cda",
+      "vlm_candidate.py": "99b1cccb3de3172d08b4db8a40cbca3f6a1e595f6f6beb7250ab0c501d47ba7a"
+    },
+    "v5_output_matches_archived_prediction": true,
+    "trace_is_actual_v5_server_run": false,
+    "native_pts_all_50_match": true,
+    "review_frame_mapping_hash_match": true,
+    "all_50_rendered_frame_hashes_match": true
+  },
+  "human_review": {
+    "annotator": "나",
+    "target": "검은색의 차량이 오른쪽에서 왼쪽으로 직진하며 갑자기 튀어나옴.",
+    "side": "RIGHT",
+    "space": "",
+    "notes": "",
+    "annotation_blinded": true,
+    "contact": {
+      "status": "observed",
+      "frame": 33,
+      "pts_seconds": 3.3
+    },
+    "entry": {
+      "status": "observed",
+      "frame": 24,
+      "pts_seconds": 2.4
+    },
+    "already_entered_at_start": false
+  },
+  "missing_fields": [
+    "evasion_space"
+  ],
+  "not_supplied": [
+    "independent_second_review",
+    "adjudication_record"
+  ],
+  "official_contact_seconds": 3.2,
+  "user_contact_seconds": 3.3,
+  "user_minus_official_contact_seconds": 0.1,
+  "collision": {
+    "all_original": {
+      "count": 50,
+      "exact_frame_present": true,
+      "nearest_error_seconds": 0.0,
+      "within_0_3_seconds": true
+    },
+    "vlm_candidates": {
+      "count": 14,
+      "exact_frame_present": true,
+      "nearest_error_seconds": 0.0,
+      "within_0_3_seconds": true
+    },
+    "vlm_selection_vs_user": {
+      "frame": 33,
+      "pts_seconds": 3.3,
+      "signed_error_seconds": 0.0,
+      "within_0_3_seconds": true
+    },
+    "final_motion_selection_vs_user": {
+      "frame": 35,
+      "pts_seconds": 3.5,
+      "signed_error_seconds": 0.2,
+      "within_0_3_seconds": true
+    },
+    "final_motion_selection_vs_official": {
+      "signed_error_seconds": 0.3,
+      "within_0_3_seconds": true
+    },
+    "diagnosis": "No missing candidate or timing failure at tolerance on this reviewed clip; final motion replacement delays VLM selection by 0.2 seconds."
+  },
+  "entry": {
+    "all_original": {
+      "count": 50,
+      "exact_frame_present": true,
+      "nearest_error_seconds": 0.0,
+      "within_0_3_seconds": true
+    },
+    "decoded_valid": {
+      "count": 50,
+      "exact_frame_present": true,
+      "nearest_error_seconds": 0.0,
+      "within_0_3_seconds": true
+    },
+    "after_collision_prefix": {
+      "count": 34,
+      "exact_frame_present": true,
+      "nearest_error_seconds": 0.0,
+      "within_0_3_seconds": true
+    },
+    "offered_candidates": {
+      "count": 12,
+      "exact_frame_present": true,
+      "nearest_error_seconds": 0.0,
+      "within_0_3_seconds": true
+    },
+    "selection_vs_user": {
+      "frame": 24,
+      "pts_seconds": 2.4,
+      "signed_error_seconds": 0.0,
+      "within_0_3_seconds": true
+    },
+    "diagnosis": "No prefix truncation, sampling omission or selection failure relative to this draft."
+  },
+  "direction": {
+    "human": "RIGHT",
+    "prediction": "LEFT",
+    "match": false,
+    "coarse_raw": "LEFT",
+    "invalid_output_fallback_used": false,
+    "diagnosis": "Valid but disagreeing coarse direction is carried to final output; later calls do not reassess direction.",
+    "target_identity_failure_proven": false
+  },
+  "space": {
+    "human": null,
+    "prediction": 0,
+    "correctness": null
+  },
+  "limits": [
+    "One exposed development clip cannot establish the dominant error rate.",
+    "Human collision differs from official label; official label remains unchanged.",
+    "A supplied annotator name or blinded checkbox is not independent identity verification.",
+    "No candidate model or new accuracy claim is produced."
+  ]
+}

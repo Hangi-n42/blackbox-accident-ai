@@ -1,0 +1,14 @@
+{
+  "experiment":"Official checkpoint capacity comparison",
+  "repository":"Qwen/Qwen3-VL-8B-Instruct",
+  "revision":"0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "baseline":"V6 4B NF4 four-call policy and cached actual9 exposed-development predictions",
+  "candidate":"8B NF4/FP16 compute without double quantization; same V6 code, candidates, images,192 generation-token cap and1.2MP/call budget",
+  "not_pure_language_parameter_effect":"The official8B vision encoder differs too; this is checkpoint replacement, not an isolated language width effect",
+  "scope":"No new prompt or fallback tuning. No failed unified-grounding policy adoption. Motion initialization correction remains a separate unadopted experiment.",
+  "feasibility":"Run00000 alone first under the full frozen pixel budget. If OOM, preserve failure and do not silently change precision/pixels/device policy. On successful fit, run remaining8 exactly once.",
+  "development_requirements":["contact Accuracy@0.3s unchanged by construction", "entry Accuracy@0.3s nondecrease", "known side Macro-F1 nondecrease", "known space Macro-F1 nondecrease", "At least one changed field improves", "Inspect per-class confusion and input-sensitive behavior; single-class output is not proof of semantic improvement"],
+  "runtime":"Record actual peak GPU memory and perclip runtime; evaluate paired existing4B timings and officialV6 42m41s. Local timing ratio cannot guarantee server60min.",
+  "limits":"All9 are previously exposed, unequal known-label denominators, no independent official S2 validation. Fresh3 AI reviews remain auxiliary and do not manufacture exact GT.",
+  "packaging":"Export/reload equality, license/provenance, actual ZIP sizes and extracted offline all-stage execution required before adoption/submission."
+}

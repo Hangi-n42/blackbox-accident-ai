@@ -1,0 +1,173 @@
+{
+  "status": "direct_proxy_GT_audit_complete_no_model_change",
+  "matched_source": "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10",
+  "public_rows": 10,
+  "accel": {
+    "order": [
+      "ACCELERATING",
+      "DECELERATING",
+      "CONSTANT",
+      "STOPPED"
+    ],
+    "rows_GT_columns_proxy": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "n": 10,
+    "agreements": 10,
+    "disagreements": 0,
+    "agreement_fraction": 1.0,
+    "GT_support": {
+      "ACCELERATING": 0,
+      "DECELERATING": 0,
+      "CONSTANT": 10,
+      "STOPPED": 0
+    },
+    "proxy_support": {
+      "ACCELERATING": 0,
+      "DECELERATING": 0,
+      "CONSTANT": 10,
+      "STOPPED": 0
+    }
+  },
+  "steer": {
+    "order": [
+      "LEFT",
+      "STRAIGHT",
+      "RIGHT"
+    ],
+    "rows_GT_columns_proxy": [
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        1
+      ],
+      [
+        0,
+        0,
+        3
+      ]
+    ],
+    "n": 10,
+    "agreements": 9,
+    "disagreements": 1,
+    "agreement_fraction": 0.9,
+    "GT_support": {
+      "LEFT": 2,
+      "STRAIGHT": 5,
+      "RIGHT": 3
+    },
+    "proxy_support": {
+      "LEFT": 2,
+      "STRAIGHT": 4,
+      "RIGHT": 4
+    }
+  },
+  "GT_stopped_masked_steer_rows": 0,
+  "signals": {
+    "frame_count": 1200,
+    "speed_CAN_sample_count": 4973,
+    "steering_CAN_sample_count": 4973,
+    "frame_dt_min_median_max_seconds": [
+      0.04988799999955518,
+      0.04999900000075286,
+      0.05010299999958079
+    ],
+    "speed_dt_min_median_max_seconds": [
+      0.00014087499948800541,
+      0.011320744499244029,
+      0.0303133956676902
+    ],
+    "steering_dt_min_median_max_seconds": [
+      0.00010958333405142184,
+      0.011301318166260899,
+      0.03270086466545763
+    ],
+    "max_public_nominal_CAN_time_error_seconds": 0.0007840000016585691,
+    "speed_full_endpoint_hold_frames": 2,
+    "steer_full_endpoint_hold_frames": 2,
+    "selected_speed_endpoint_hold_rows": 1,
+    "selected_steer_endpoint_hold_rows": 1,
+    "official_continuous_signal_values_available": false,
+    "physical_signal_error_against_official_CAN": "not computable: official continuous values not provided"
+  },
+  "numeric_reproduction_max_error_against_prior_csv": {
+    "can_boot_time": 1.8189894035458565e-12,
+    "relative_can_time": 0.0,
+    "speed_m_s": 3.552713678800501e-15,
+    "acceleration_m_s2": 9.020562075079397e-17,
+    "steering_degrees": 2.220446049250313e-16
+  },
+  "prior_proxy_labels_exactly_reproduced": true,
+  "mismatches": [
+    {
+      "ID": "OPEN_001",
+      "sample_index": 360,
+      "frame_index": 720,
+      "time_seconds": 36.0,
+      "accel_label": "CONSTANT",
+      "steer_label": "STRAIGHT",
+      "can_boot_time": 9770.088524,
+      "relative_can_time": 35.99946699999964,
+      "nominal_minus_CAN_seconds": 0.0005330000003596069,
+      "speed_interpolated_raw_m_s": 31.414194524836052,
+      "speed_filtered_m_s": 31.377973199112418,
+      "speed_filter_change_m_s": -0.036221325723634124,
+      "acceleration_proxy_m_s2": -0.17678462073331502,
+      "steering_interpolated_raw_degrees": -3.7,
+      "steering_filtered_degrees": -3.961870910884222,
+      "steering_filter_change_degrees": -0.2618709108842219,
+      "speed_nearest_CAN_sample_seconds": 0.002972458332806127,
+      "steer_nearest_CAN_sample_seconds": 0.0024141876656358363,
+      "speed_endpoint_hold": false,
+      "steer_endpoint_hold": false,
+      "proxy_accel": "CONSTANT",
+      "proxy_steer": "RIGHT",
+      "accel_agrees": true,
+      "steer_agrees": false
+    }
+  ],
+  "macro_f1_or_composite_score_not_used": "Three acceleration classes have zero GT support; report direct counts/confusion, not a model performance score.",
+  "new_holdout": false,
+  "models_loaded": 0,
+  "predictions_from_models": 0,
+  "training_runs": 0,
+  "threshold_candidates": 1,
+  "threshold_candidates_note": "Only preexisting canonical policy, no new search or estimation.",
+  "inputs_code_assets_unchanged": true,
+  "seconds": 23.24454429995967,
+  "limits": [
+    "Repeated known10 sparse GT rows, not independent validation.",
+    "All acceleration GT is CONSTANT; other classes and transition timing untested.",
+    "One steering disagreement does not identify a hidden threshold, filter or delay.",
+    "Raw CAN acceleration content not inspected; IMU is not CAN longitudinal acceleration.",
+    "No cause of official score is identified, no immediate model change required."
+  ]
+}

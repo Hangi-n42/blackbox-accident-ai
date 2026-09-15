@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "cohort_id": "existing_public5_partial_collision_only",
+  "scope": "development_archived_V3_policy_trace_not_V5_server_trace",
+  "complete_gt": false,
+  "S2": null,
+  "components": {
+    "collision_time_seconds": {
+      "labeled_count": 5,
+      "cohort_count": 5,
+      "complete": true,
+      "value": 0.8,
+      "correct_count": 4
+    },
+    "entry_time_seconds": {
+      "labeled_count": 0,
+      "cohort_count": 5,
+      "complete": false,
+      "value": null
+    },
+    "entry_side": {
+      "labeled_count": 0,
+      "cohort_count": 5,
+      "complete": false,
+      "value": null
+    },
+    "evasion_space": {
+      "labeled_count": 0,
+      "cohort_count": 5,
+      "complete": false,
+      "value": null
+    }
+  },
+  "videos": [
+    {
+      "ID": "S2_001",
+      "source_group_id": "public_original_S2_001",
+      "split": "development",
+      "selection_provenance": {
+        "entry": "valid_offered_selected",
+        "side": "valid_class",
+        "space": "valid_class"
+      },
+      "entry_coverage": null,
+      "collision_errors": {
+        "final_motion": {
+          "signed_seconds": 0.2999999999999998,
+          "correct_at_0_3_seconds": true
+        },
+        "internal_vlm": {
+          "signed_seconds": 0.09999999999999964,
+          "correct_at_0_3_seconds": true
+        }
+      },
+      "collision_candidate_coverage": {
+        "all_original": {
+          "count": 50,
+          "nearest_error_seconds": 0.0,
+          "within_0_3_seconds": true
+        },
+        "vlm_offered": {
+          "count": 14,
+          "nearest_error_seconds": 0.0,
+          "within_0_3_seconds": true
+        },
+        "motion_singleton": {
+          "count": 1,
+          "nearest_error_seconds": 0.2999999999999998,
+          "within_0_3_seconds": true
+        }
+      }
+    },
+    {
+      "ID": "S2_002",
+      "source_group_id": "public_original_S2_002",
+      "split": "development",
+      "selection_provenance": {
+        "entry": "valid_offered_selected",
+        "side": "valid_class",
+        "space": "valid_class"
+      },
+      "entry_coverage": null,
+      "collision_errors": {
+        "final_motion": {
+          "signed_seconds": 1.7000000000000002,
+          "correct_at_0_3_seconds": false
+        },
+        "internal_vlm": {
+          "signed_seconds": 1.4000000000000004,
+          "correct_at_0_3_seconds": false
+        }
+      },
+      "collision_candidate_coverage": {
+        "all_original": {
+          "count": 50,
+          "nearest_error_seconds": 0.0,
+          "within_0_3_seconds": true
+        },
+        "vlm_offered": {
+          "count": 13,
+          "nearest_error_seconds": 0.0,
+          "within_0_3_seconds": true
+        },
+        "motion_singleton": {
+          "count": 1,
+          "nearest_error_seconds": 1.7000000000000002,
+          "within_0_3_seconds": false
+        }
+      }
+    },
+    {
+      "ID": "S2_003",
+      "source_group_id": "public_original_S2_003",
+      "split": "development",
+      "selection_provenance": {
+        "entry": "valid_offered_selected",
+        "side": "valid_class",
+        "space": "valid_class"
+      },
+      "entry_coverage": null,
+      "collision_errors": {
+        "final_motion": {
+          "signed_seconds": 0.19999999999999973,
+          "correct_at_0_3_seconds": true
+        },
+        "internal_vlm": {
+          "signed_seconds": 0.0,
+          "correct_at_0_3_seconds": true
+        }
+      },
+      "collision_candidate_coverage": {
+        "all_original": {
+          "count": 50,
+          "nearest_error_seconds": 0.0,
+          "within_0_3_seconds": true
+        },
+        "vlm_offered": {
+          "count": 13,
+          "nearest_error_seconds": 0.0,
+          "within_0_3_seconds": true
+        },
+        "motion_singleton": {
+          "count": 1,
+          "nearest_error_seconds": 0.19999999999999973,
+          "within_0_3_seconds": true
+        }
+      }
+    },
+    {
+      "ID": "S2_004",
+      "source_group_id": "public_original_S2_004",
+      "split": "development",
+      "selection_provenance": {
+        "entry": "valid_offered_selected",
+        "side": "valid_class",
+        "space": "valid_class"
+      },
+      "entry_coverage": null,
+      "collision_errors": {
+        "final_motion": {
+          "signed_seconds": 0.10000000000000053,
+          "correct_at_0_3_seconds": true
+        },
+        "internal_vlm": {
+          "signed_seconds": -0.09999999999999964,
+          "correct_at_0_3_seconds": true
+        }
+      },
+      "collision_candidate_coverage": {
+        "all_original": {
+          "count": 50,
+          "nearest_error_seconds": 0.0,
+          "within_0_3_seconds": true
+        },
+        "vlm_offered": {
+          "count": 12,
+          "nearest_error_seconds": 0.0,
+          "within_0_3_seconds": true
+        },
+        "motion_singleton": {
+          "count": 1,
+          "nearest_error_seconds": 0.10000000000000053,
+          "within_0_3_seconds": true
+        }
+      }
+    },
+    {
+      "ID": "S2_005",
+      "source_group_id": "public_original_S2_005",
+      "split": "development",
+      "selection_provenance": {
+        "entry": "valid_offered_selected",
+        "side": "valid_class",
+        "space": "valid_class"
+      },
+      "entry_coverage": null,
+      "collision_errors": {
+        "final_motion": {
+          "signed_seconds": 0.2999999999999998,
+          "correct_at_0_3_seconds": true
+        },
+        "internal_vlm": {
+          "signed_seconds": 0.20000000000000018,
+          "correct_at_0_3_seconds": true
+        }
+      },
+      "collision_candidate_coverage": {
+        "all_original": {
+          "count": 50,
+          "nearest_error_seconds": 0.0,
+          "within_0_3_seconds": true
+        },
+        "vlm_offered": {
+          "count": 12,
+          "nearest_error_seconds": 0.0,
+          "within_0_3_seconds": true
+        },
+        "motion_singleton": {
+          "count": 1,
+          "nearest_error_seconds": 0.2999999999999998,
+          "within_0_3_seconds": true
+        }
+      }
+    }
+  ],
+  "source_group_count": 5,
+  "entry_error_counts": {},
+  "entry_selection_origin_counts": {
+    "valid_offered_selected": 5
+  },
+  "missing_gt": [
+    {
+      "ID": "S2_001",
+      "fields": [
+        "entry_time_seconds",
+        "entry_side",
+        "evasion_space"
+      ]
+    },
+    {
+      "ID": "S2_002",
+      "fields": [
+        "entry_time_seconds",
+        "entry_side",
+        "evasion_space"
+      ]
+    },
+    {
+      "ID": "S2_003",
+      "fields": [
+        "entry_time_seconds",
+        "entry_side",
+        "evasion_space"
+      ]
+    },
+    {
+      "ID": "S2_004",
+      "fields": [
+        "entry_time_seconds",
+        "entry_side",
+        "evasion_space"
+      ]
+    },
+    {
+      "ID": "S2_005",
+      "fields": [
+        "entry_time_seconds",
+        "entry_side",
+        "evasion_space"
+      ]
+    }
+  ],
+  "interpretation": "No adoption gate. Partial components have labeled-only denominators. Human/evidence authenticity requires operational verification; hashes only bind artifacts.",
+  "input_binding": {
+    "gt_sha256": "4f5ce0598ebc2d8c3e54a5fcf605e2a0c112130913a659ab8d5df99ef00e5431",
+    "trace_sha256": "c3ce71f34449e134901420f8ebe637d01e8801dcd527a529f6b91fa316066655",
+    "evaluator_sha256": "de92312d9692d5daed69c530462dd1a42fd1b58e0bb990a8668d6949a4b32229"
+  }
+}

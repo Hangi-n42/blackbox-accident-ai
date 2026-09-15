@@ -1,0 +1,23 @@
+{
+  "prompt": "These images show just before, during, and after a dashcam collision. At contact, is there usable road space for the camera car to continue or steer around the other vehicle? Account for nearby traffic, road edges, curbs and barriers. Return JSON with evasion_space: integer 1 if space exists, otherwise integer 0.",
+  "max_new_tokens": 40,
+  "input_images": [
+    {
+      "size": [
+        1152,
+        256
+      ],
+      "bounded_size": [
+        1152,
+        256
+      ],
+      "rgb_sha256": "c4d47456989bfe7c1ed680d49f6c67cda99a81cb9b6ca248e4351266b45a624d"
+    }
+  ],
+  "status": "complete",
+  "bounded_pixel_total": 294912,
+  "raw_output": "{\n  \"evasion_space\": 0\n}",
+  "seconds": 1.3769039000035264,
+  "peak_allocated_bytes": 3215255552,
+  "peak_reserved_bytes": 6037700608
+}

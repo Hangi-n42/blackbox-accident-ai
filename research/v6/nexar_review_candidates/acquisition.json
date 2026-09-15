@@ -1,0 +1,89 @@
+{
+  "status": "six_review_candidates_acquired_not_validated",
+  "records": [
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00000.mp4",
+      "source_uri": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00000.mp4",
+      "sha256": "9b7364178cb8b6194db0ee0f96df0ad44615fc265efe435297394dcf6a9be5f9",
+      "bytes": 12237783,
+      "frames": 1158,
+      "first_pts": 0.0,
+      "last_pts": 40.034602076124564,
+      "mapping_sha256": "db4d2049a8dc454328992c0e9e50003f730fa0404abed853ea0984234fc5bc0b",
+      "human_review": "pending",
+      "contact_ground_truth": null,
+      "source_group_id": null,
+      "independence_verified": false
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00003.mp4",
+      "source_uri": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00003.mp4",
+      "sha256": "d5969f23631b3462f68e3de0c3e72f42c731762aec8d47fb916da78e0d59b3e8",
+      "bytes": 11892377,
+      "frames": 1203,
+      "first_pts": 0.0,
+      "last_pts": 40.06666666666667,
+      "mapping_sha256": "a088c73f938b593cf55d47b1c411d9ca6ee86ab3091518ea34dfb538eebd95bd",
+      "human_review": "pending",
+      "contact_ground_truth": null,
+      "source_group_id": null,
+      "independence_verified": false
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00004.mp4",
+      "source_uri": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00004.mp4",
+      "sha256": "001be406ca8eddc5e5ea61ed8b6104650879aacb1eff217630f7b932fd45be4f",
+      "bytes": 12013726,
+      "frames": 1202,
+      "first_pts": 0.0,
+      "last_pts": 40.03333333333333,
+      "mapping_sha256": "b9a7d5a52b13bb98ffce71c9b82352f7d07bab7165ee74036e3a97cbf3140925",
+      "human_review": "pending",
+      "contact_ground_truth": null,
+      "source_group_id": null,
+      "independence_verified": false
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00005.mp4",
+      "source_uri": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00005.mp4",
+      "sha256": "e68188e582398fcf8e8b2731cb1a79fee7542246184cafb967c3d816ccc1cce1",
+      "bytes": 15152087,
+      "frames": 1227,
+      "first_pts": 0.0,
+      "last_pts": 40.06535947712418,
+      "mapping_sha256": "47995718868c93a76d21a01940679b40efc0e86eb5bd771eca127048e14a66f9",
+      "human_review": "pending",
+      "contact_ground_truth": null,
+      "source_group_id": null,
+      "independence_verified": false
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00006.mp4",
+      "source_uri": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00006.mp4",
+      "sha256": "c9117737cef3990cc27ed9413c85330cf53b0ec91c06840523fe491f2be2c14a",
+      "bytes": 10347376,
+      "frames": 1199,
+      "first_pts": 0.0,
+      "last_pts": 39.93333333333333,
+      "mapping_sha256": "5ccb6f5db50367bff10209dd81d3814f57949c270aeede86634ea1cb528f41aa",
+      "human_review": "pending",
+      "contact_ground_truth": null,
+      "source_group_id": null,
+      "independence_verified": false
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00007.mp4",
+      "source_uri": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00007.mp4",
+      "sha256": "0a7ebda789db958382dbe41e823e7b9466e4d806d3184c9222afe3671d361ed3",
+      "bytes": 26517225,
+      "frames": 1205,
+      "first_pts": 0.0,
+      "last_pts": 40.13333333333333,
+      "mapping_sha256": "cd444a7f3d1205a44df8f4060240976578d592f1a93eb8b7403b1bc9fc215182",
+      "human_review": "pending",
+      "contact_ground_truth": null,
+      "source_group_id": null,
+      "independence_verified": false
+    }
+  ]
+}

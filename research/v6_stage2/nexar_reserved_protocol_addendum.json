@@ -1,0 +1,60 @@
+{
+  "created_utc": "2026-09-15T04:09:32.035310+00:00",
+  "phase": "reserved_baseline_after_candidate_frozen",
+  "scope": "CPU input preparation only; model inference disabled in this module",
+  "development_ids": [
+    "00000",
+    "00003",
+    "00004"
+  ],
+  "reserved_validation_ids": [
+    "00005",
+    "00006",
+    "00007"
+  ],
+  "this_prepare_ids": [
+    "00005",
+    "00006",
+    "00007"
+  ],
+  "original_split_unchanged": true,
+  "gt_read": false,
+  "predictions_read": false,
+  "inference_preconditions": [
+    "Parent freezes candidate hash",
+    "Parent verifies development gate passed",
+    "Parent runs a separate paired baseline4+candidate1 evaluator on same instance"
+  ],
+  "max_baseline_calls": 12,
+  "tokens": [
+    64,
+    48,
+    40,
+    40
+  ],
+  "runner_sha256": "5d8acfca79402d84d917fea144ab330167ee68d9da7f0d06dec2b0366c0c7cd1",
+  "protected_sha256": {
+    "research/v6_stage2/run_nexar_baseline.py": "1931e0d7633e0d96bdfe16b35a7d75b490b34c3f35dfea6bee5553a8159c0b7f",
+    "research/v6_stage2/nexar_cohort_plan.json": "39f45bda2b4bef5efbff9fd80b6063b544dba2585b47d1ed63a24242229347b6",
+    "research/v6_stage2/nexar_baseline_run/freeze.json": "93f041d51dbc8d4dfc6db279a5860d9dc2b7e84a4e561077e62dfd5972ff8c4b",
+    "research/v6_stage2/run_nexar_dev00004.py": "031e46b26eb3d555dfc746a20ef618fcdd9906a19fdc0bc4582236a9ffc06e8f",
+    "research/v6_stage2/nexar_dev00004_baseline_run/freeze.json": "aabe345d04045a3099e602b601b6984c73fc0afbddca98c62e2a9b24317ff8b1"
+  },
+  "source_substitutions": {
+    "Frozen V5 two-development-video baseline trace; never reads user GT.": "Frozen V5 reserved 00005/00006/00007 CPU preparation and verification ONLY; never reads GT.",
+    "Only the parent runs GPU inference. No validation IDs or candidate models supported.": "This module cannot run inference. The parent uses a separate gated paired evaluator.",
+    "IDS = (\"00000\", \"00003\")": "IDS = (\"00005\", \"00006\", \"00007\")",
+    "role=\"development_baseline_error_diagnosis_only\"": "role=\"reserved_baseline_after_candidate_frozen\"",
+    "max_calls_total=8": "max_calls_total=12",
+    "Only two declared development IDs allowed": "Only predeclared reserved IDs allowed",
+    "self.ledger[\"call_count\"]<8": "self.ledger[\"call_count\"]<12",
+    "choices=(\"prepare\",\"run\")": "choices=(\"prepare\",\"verify\")",
+    "else:run(args.output.resolve())": "else:\n        frozen=verify_freeze(args.output.resolve())\n        print(json.dumps({\"status\":\"verified_no_inference\",\"ids\":[row[\"ID\"] for row in frozen[\"videos\"]]}))"
+  },
+  "additional_change": "Remove GPU run implementation and replace with unconditional RuntimeError; CLI permits prepare or verify only",
+  "unchanged_function_ast": [
+    "sampled_indices",
+    "prepare",
+    "package_binding"
+  ]
+}

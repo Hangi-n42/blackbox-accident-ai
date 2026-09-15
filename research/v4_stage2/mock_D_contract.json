@@ -1,0 +1,8 @@
+{
+  "scope": "CPU mock contracts, not accuracy",
+  "tests": 7,
+  "passed": true,
+  "torch_imported": false,
+  "protected_sources_results_unchanged": true,
+  "candidate_sha256": "5dc50281d04a9310adeb5e1e42b11ff6d28ee0868828d3964ef652788e5b3e73"
+}

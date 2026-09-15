@@ -1,0 +1,28 @@
+         217032 function calls in 0.948 seconds
+
+   Ordered by: cumulative time
+   List reduced from 142 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      240    0.283    0.001    0.948    0.004 C:\Users\dsl\Desktop\Dacon\블랙박스\solution\stage3_v5_fast.py:80(__call__)
+     3840    0.005    0.000    0.176    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\core\fromnumeric.py:662(partition)
+     2880    0.005    0.000    0.174    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\solution\stage3_v5_fast.py:24(partition)
+     4080    0.159    0.000    0.159    0.000 {method 'partition' of 'numpy.ndarray' objects}
+     3840    0.008    0.000    0.094    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\core\fromnumeric.py:3385(mean)
+     4080    0.030    0.000    0.089    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\core\_methods.py:101(_mean)
+     2880    0.006    0.000    0.087    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\solution\stage3_v5_fast.py:27(median)
+     1200    0.004    0.000    0.083    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\lib\function_base.py:3763(_ureduce)
+      720    0.022    0.000    0.068    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\lib\type_check.py:403(nan_to_num)
+      960    0.010    0.000    0.064    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\solution\stage3_v5.py:36(_weights)
+      242    0.058    0.000    0.058    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\core\shape_base.py:372(stack)
+      960    0.002    0.000    0.054    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\lib\function_base.py:3845(median)
+      960    0.037    0.000    0.051    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\linalg\linalg.py:2191(lstsq)
+      960    0.009    0.000    0.048    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\lib\function_base.py:3931(_median)
+     2880    0.046    0.000    0.046    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\solution\stage3_v5_fast.py:31(percentile)
+      240    0.003    0.000    0.035    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\lib\function_base.py:3992(percentile)
+     8160    0.033    0.000    0.033    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+      240    0.000    0.000    0.031    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\lib\function_base.py:4547(_quantile_unchecked)
+      240    0.001    0.000    0.029    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\lib\function_base.py:4697(_quantile_ureduce_func)
+      240    0.006    0.000    0.029    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\lib\function_base.py:4765(_quantile)
+
+

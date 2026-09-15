@@ -1,0 +1,73 @@
+{
+  "overall": {
+    "tpo": {
+      "n_original_videos": 23,
+      "false_positive_count": 4,
+      "false_positive_rate": 0.17391304347826086
+    },
+    "forensic": {
+      "n_original_videos": 23,
+      "false_positive_count": 0,
+      "false_positive_rate": 0.0
+    },
+    "blend": {
+      "n_original_videos": 23,
+      "false_positive_count": 0,
+      "false_positive_rate": 0.0
+    }
+  },
+  "by_vehicle": {
+    "RAV4": {
+      "tpo": {
+        "n_original_videos": 11,
+        "false_positive_count": 3,
+        "false_positive_rate": 0.2727272727272727
+      },
+      "forensic": {
+        "n_original_videos": 11,
+        "false_positive_count": 0,
+        "false_positive_rate": 0.0
+      },
+      "blend": {
+        "n_original_videos": 11,
+        "false_positive_count": 0,
+        "false_positive_rate": 0.0
+      }
+    },
+    "Civic": {
+      "tpo": {
+        "n_original_videos": 12,
+        "false_positive_count": 1,
+        "false_positive_rate": 0.08333333333333333
+      },
+      "forensic": {
+        "n_original_videos": 12,
+        "false_positive_count": 0,
+        "false_positive_rate": 0.0
+      },
+      "blend": {
+        "n_original_videos": 12,
+        "false_positive_count": 0,
+        "false_positive_rate": 0.0
+      }
+    }
+  },
+  "seconds": 74.15600000000268,
+  "n_images": 276,
+  "decode_methods": {
+    "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total": 23
+  },
+  "model_code_hashes_unchanged": {
+    "model\\stage1\\config.json": true,
+    "model\\stage1\\forensic_frequency_augmented.json": true,
+    "model\\stage1\\tpo\\merged_visual.pt": true,
+    "solution\\stage1.py": true,
+    "solution\\stage1_tpo_merged.py": true
+  },
+  "limitations": [
+    "Original-only: no recapture recall or overall Macro-F1",
+    "Two vehicles and geographically restricted commute dataset",
+    "Aligned public duplicate excluded; full route/source overlap cannot be ruled out",
+    "No metric pooled with DLC"
+  ]
+}

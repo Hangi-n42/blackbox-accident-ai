@@ -1,0 +1,496 @@
+{
+  "scope": "Read-only current file SHA, full Node JSON.stringify case frames SHA, selected contact/entry case PTS and PNG SHA. No new native decoding; independent native decode evidence remains in prior intake reports. No model inference or GT promotion.",
+  "rows": [
+    {
+      "ID": "00000",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00000_review_1789400071868.json",
+      "review_sha256": "654e93fad5b32cadeef094e61d6a90a066ebcd7e332fa0a8e7ca21563a0afbc3",
+      "case_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00000\\case.json",
+      "case_sha256": "02f5738198ccee94408a860b4aa43af49e3ad77ddc8f2b947451b4c8345d8650",
+      "source_sha_equal": true,
+      "frame_mapping_sha_equal": true,
+      "events": {
+        "contact": {
+          "human": {
+            "status": "observed",
+            "frame": 584,
+            "pts_seconds": 20.207612456747405
+          },
+          "case_frame_equal": true,
+          "case_pts_exact_equal": true,
+          "image_sha_case_equal": true,
+          "image_sha256": "29c9a7e0d7263b46b74f84f4c4074bf91244115c527a65a804dff363500d6b24"
+        },
+        "entry": {
+          "human": {
+            "status": "observed",
+            "frame": 555,
+            "pts_seconds": 19.20415224913495
+          },
+          "case_frame_equal": true,
+          "case_pts_exact_equal": true,
+          "image_sha_case_equal": true,
+          "image_sha256": "b8c91aaeeeaee5ba0e0593ad0acc2891aaf3c5615f3447ad294d61d74ede662a"
+        }
+      },
+      "review": {
+        "contact": {
+          "status": "observed",
+          "frame": 584,
+          "pts_seconds": 20.207612456747405
+        },
+        "annotator": "나",
+        "target": "왼편에서 하얀색의 차량이 갑자기 오른쪽으로 진입하며 사고 발생",
+        "side": "LEFT",
+        "space": "0",
+        "notes": "",
+        "annotation_blinded": true,
+        "entry": {
+          "status": "observed",
+          "frame": 555,
+          "pts_seconds": 19.20415224913495
+        },
+        "already_entered_at_start": false
+      },
+      "record_type": "human_review_draft",
+      "evaluation_eligible": false,
+      "source_group_id": "PENDING_SOURCE_AUDIT_00000"
+    },
+    {
+      "ID": "00003",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00003_review_1789444125537.json",
+      "review_sha256": "97fd59c05279282f33998903e4c9aa57d18fb9a0e5a4effc06acd6b803a5f86d",
+      "case_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00003\\case.json",
+      "case_sha256": "b89200c8ea4f8428ec72b6840699ed1e4fbc22e25133172162646d12a6d52e46",
+      "source_sha_equal": true,
+      "frame_mapping_sha_equal": true,
+      "events": {
+        "contact": {
+          "human": {
+            "status": "observed",
+            "frame": 582,
+            "pts_seconds": 19.4
+          },
+          "case_frame_equal": true,
+          "case_pts_exact_equal": true,
+          "image_sha_case_equal": true,
+          "image_sha256": "9073d658a7b92ed98f6c787225c3d98e9e01cd872420de94b839acb1293f7f62"
+        },
+        "entry": {
+          "human": {
+            "status": "observed",
+            "frame": 0,
+            "pts_seconds": 0
+          },
+          "case_frame_equal": true,
+          "case_pts_exact_equal": true,
+          "image_sha_case_equal": true,
+          "image_sha256": "efbaf9e8e0e59a597c53a9976f923f8a068dd44d59b8161e2a30a978942fd931"
+        }
+      },
+      "review": {
+        "annotator": "나",
+        "target": "정면에 있는 검정색으로 보이는 차량과 사고 발생",
+        "side": "",
+        "space": "1",
+        "notes": "계속 같은 차로에서 달렸기 때문에 진입한 쪽은 판정 불가",
+        "annotation_blinded": true,
+        "contact": {
+          "status": "observed",
+          "frame": 582,
+          "pts_seconds": 19.4
+        },
+        "entry": {
+          "status": "observed",
+          "frame": 0,
+          "pts_seconds": 0
+        },
+        "already_entered_at_start": true
+      },
+      "record_type": "human_review_draft",
+      "evaluation_eligible": false,
+      "source_group_id": "PENDING_SOURCE_AUDIT_00003"
+    },
+    {
+      "ID": "00004",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00004_review_1789444066492.json",
+      "review_sha256": "eccd40747a2ad28d72ec80c8cbaf8656a59732f81412750119cbc026656671f6",
+      "case_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00004\\case.json",
+      "case_sha256": "009fcf13381c1b9ada10962a732692e94945b04d09673be001eb22b134c66cb9",
+      "source_sha_equal": true,
+      "frame_mapping_sha_equal": true,
+      "events": {
+        "contact": {
+          "human": {
+            "status": "observed",
+            "frame": 579,
+            "pts_seconds": 19.3
+          },
+          "case_frame_equal": true,
+          "case_pts_exact_equal": true,
+          "image_sha_case_equal": true,
+          "image_sha256": "e2ebe6915215d6ca97075a3dda08cdf59e6fd2ba9e9e2e09a7aa94d4873cbf65"
+        },
+        "entry": {
+          "human": {
+            "status": "uncertain",
+            "frame": null,
+            "pts_seconds": null
+          }
+        }
+      },
+      "review": {
+        "annotator": "나",
+        "target": "우측에서 갑자기 튀어나온 검정색의 차량과 사고 발생",
+        "side": "RIGHT",
+        "space": "1",
+        "notes": "",
+        "annotation_blinded": true,
+        "contact": {
+          "status": "observed",
+          "frame": 579,
+          "pts_seconds": 19.3
+        },
+        "entry": {
+          "status": "uncertain",
+          "frame": null,
+          "pts_seconds": null
+        },
+        "already_entered_at_start": false
+      },
+      "record_type": "human_review_draft",
+      "evaluation_eligible": false,
+      "source_group_id": "PENDING_SOURCE_AUDIT_00004"
+    },
+    {
+      "ID": "00005",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00005_review_1789444069007.json",
+      "review_sha256": "738909ecd54c0b3d53e926bb81ed929b282c6556e8905ed7505e94f756922b3b",
+      "case_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00005\\case.json",
+      "case_sha256": "bb5605bce36929b5da6631dcf4ebb06691db43d5297020f32dc0bac57215e802",
+      "source_sha_equal": true,
+      "frame_mapping_sha_equal": true,
+      "events": {
+        "contact": {
+          "human": {
+            "status": "observed",
+            "frame": 643,
+            "pts_seconds": 21.013071895424837
+          },
+          "case_frame_equal": true,
+          "case_pts_exact_equal": true,
+          "image_sha_case_equal": true,
+          "image_sha256": "644e28cb8779f34c1dd653cb58b1ccaf563dfac1a2091cd1e588f7d1784d3f67"
+        },
+        "entry": {
+          "human": {
+            "status": "observed",
+            "frame": 643,
+            "pts_seconds": 21.013071895424837
+          },
+          "case_frame_equal": true,
+          "case_pts_exact_equal": true,
+          "image_sha_case_equal": true,
+          "image_sha256": "644e28cb8779f34c1dd653cb58b1ccaf563dfac1a2091cd1e588f7d1784d3f67"
+        }
+      },
+      "review": {
+        "annotator": "나",
+        "target": "왼쪽 검정색 차량",
+        "side": "LEFT",
+        "space": "1",
+        "notes": "",
+        "annotation_blinded": true,
+        "contact": {
+          "status": "observed",
+          "frame": 643,
+          "pts_seconds": 21.013071895424837
+        },
+        "entry": {
+          "status": "observed",
+          "frame": 643,
+          "pts_seconds": 21.013071895424837
+        },
+        "already_entered_at_start": false
+      },
+      "record_type": "human_review_draft",
+      "evaluation_eligible": false,
+      "source_group_id": "PENDING_SOURCE_AUDIT_00005"
+    },
+    {
+      "ID": "00006",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00006_review_1789444072672.json",
+      "review_sha256": "be09435498362b3f75f2ffddbe60a9f989ea61ec8b479dcafa4d8a73a7d3ad24",
+      "case_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00006\\case.json",
+      "case_sha256": "269d2ae3b5da59afcecba27c19fba16d3b483e043e0629d8ea77f6f62fa9909a",
+      "source_sha_equal": true,
+      "frame_mapping_sha_equal": true,
+      "events": {
+        "contact": {
+          "human": {
+            "status": "observed",
+            "frame": 579,
+            "pts_seconds": 19.3
+          },
+          "case_frame_equal": true,
+          "case_pts_exact_equal": true,
+          "image_sha_case_equal": true,
+          "image_sha256": "a14d71e6a37dd836fedda9b67aee78c53844da1abaa59fd50ef5bcc36d6db7b4"
+        },
+        "entry": {
+          "human": {
+            "status": "observed",
+            "frame": 0,
+            "pts_seconds": 0
+          },
+          "case_frame_equal": true,
+          "case_pts_exact_equal": true,
+          "image_sha_case_equal": true,
+          "image_sha256": "94f2d92722b9fb15930867629e367d073529b9ee1e5f878134ad23837d041cf9"
+        }
+      },
+      "review": {
+        "annotator": "나",
+        "target": "바로 앞의 검은색 차량",
+        "side": "",
+        "space": "1",
+        "notes": "",
+        "annotation_blinded": true,
+        "contact": {
+          "status": "observed",
+          "frame": 579,
+          "pts_seconds": 19.3
+        },
+        "entry": {
+          "status": "observed",
+          "frame": 0,
+          "pts_seconds": 0
+        },
+        "already_entered_at_start": true
+      },
+      "record_type": "human_review_draft",
+      "evaluation_eligible": false,
+      "source_group_id": "PENDING_SOURCE_AUDIT_00006"
+    },
+    {
+      "ID": "00007",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00007_review_1789404064071.json",
+      "review_sha256": "724ab536dea876fbd653857d91d4fe04a5105afcfcf8f5e5e1ad24afcc2e296f",
+      "case_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00007\\case.json",
+      "case_sha256": "463abcc00403a7021632dfff6e550a3e654ca199bc9be58ea0781842c6b06990",
+      "source_sha_equal": true,
+      "frame_mapping_sha_equal": true,
+      "events": {
+        "contact": {
+          "human": {
+            "status": "observed",
+            "frame": 625,
+            "pts_seconds": 20.833333333333332
+          },
+          "case_frame_equal": true,
+          "case_pts_exact_equal": true,
+          "image_sha_case_equal": true,
+          "image_sha256": "1c43ad453111b7f57000b0b7f236f6251b55aa8cfa92a9c1712916a07a6353b6"
+        },
+        "entry": {
+          "human": {
+            "status": "observed",
+            "frame": 514,
+            "pts_seconds": 17.133333333333333
+          },
+          "case_frame_equal": true,
+          "case_pts_exact_equal": true,
+          "image_sha_case_equal": true,
+          "image_sha256": "4d7f37ec2b5db09b6e3f85f32dcf0c12cdc082b24f33e2200421422f3d83f861"
+        }
+      },
+      "review": {
+        "contact": {
+          "status": "observed",
+          "frame": 625,
+          "pts_seconds": 20.833333333333332
+        },
+        "annotator": "나",
+        "target": "왼쪽에 있떤 회색빛의 차량",
+        "side": "LEFT",
+        "space": "1",
+        "notes": "",
+        "annotation_blinded": true,
+        "entry": {
+          "status": "observed",
+          "frame": 514,
+          "pts_seconds": 17.133333333333333
+        },
+        "already_entered_at_start": false
+      },
+      "record_type": "human_review_draft",
+      "evaluation_eligible": false,
+      "source_group_id": "PENDING_SOURCE_AUDIT_00007"
+    },
+    {
+      "ID": "00008",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\intake_20260915_actual\\user_reviews\\00008\\NEXAR_REVIEW_00008_review_1789461059274.json",
+      "review_sha256": "9f208907e4175e7d06d98a612c4e41c3f6dd688b48e6b5f8324748aeb3d502c6",
+      "case_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00008\\case.json",
+      "case_sha256": "165ba4f98d1261d57c84a0864555651ddd2b4280e905c80dd33d785243e9e02c",
+      "source_sha_equal": true,
+      "frame_mapping_sha_equal": true,
+      "events": {
+        "contact": {
+          "human": {
+            "status": "observed",
+            "frame": 582,
+            "pts_seconds": 19.4
+          },
+          "case_frame_equal": true,
+          "case_pts_exact_equal": true,
+          "image_sha_case_equal": true,
+          "image_sha256": "87addd486b3fcafa2f81fcc4abd1c316ede82d86a45275278af8339ca9844254"
+        },
+        "entry": {
+          "human": {
+            "status": "observed",
+            "frame": 560,
+            "pts_seconds": 18.666666666666668
+          },
+          "case_frame_equal": true,
+          "case_pts_exact_equal": true,
+          "image_sha_case_equal": true,
+          "image_sha256": "6aaf673f0678521f43bcdebd61d2d2200d2c7aabfe86d025ee65180eeb8227b9"
+        }
+      },
+      "review": {
+        "contact": {
+          "status": "observed",
+          "frame": 582,
+          "pts_seconds": 19.4
+        },
+        "annotator": "나",
+        "target": "오른편의 검은색 차량",
+        "side": "RIGHT",
+        "space": "1",
+        "notes": "",
+        "annotation_blinded": true,
+        "entry": {
+          "status": "observed",
+          "frame": 560,
+          "pts_seconds": 18.666666666666668
+        },
+        "already_entered_at_start": false
+      },
+      "record_type": "human_review_draft",
+      "evaluation_eligible": false,
+      "source_group_id": "PENDING_SOURCE_AUDIT_00008"
+    },
+    {
+      "ID": "00010",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\intake_20260915_actual\\user_reviews\\00010\\NEXAR_REVIEW_00010_review_1789461116961.json",
+      "review_sha256": "f84853caec98d098cb6ef2ed391440bc25283e820898337b066fb47dea75fbcb",
+      "case_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00010\\case.json",
+      "case_sha256": "dd92a37dc57f5c74f0cefefbca5899f073dc481fccd4192bc1ef7682299a26ac",
+      "source_sha_equal": true,
+      "frame_mapping_sha_equal": true,
+      "events": {
+        "contact": {
+          "human": {
+            "status": "observed",
+            "frame": 637,
+            "pts_seconds": 21.233333333333334
+          },
+          "case_frame_equal": true,
+          "case_pts_exact_equal": true,
+          "image_sha_case_equal": true,
+          "image_sha256": "ed560213c384b379e71f06a1fed11ed9dca994846f53539b1d8718ddc1d873a7"
+        },
+        "entry": {
+          "human": {
+            "status": "observed",
+            "frame": 572,
+            "pts_seconds": 19.066666666666666
+          },
+          "case_frame_equal": true,
+          "case_pts_exact_equal": true,
+          "image_sha_case_equal": true,
+          "image_sha256": "5179c365ba032373c1062472c143ac9ec8562853acbfec20bafe19f39cfa70e4"
+        }
+      },
+      "review": {
+        "entry": {
+          "status": "observed",
+          "frame": 572,
+          "pts_seconds": 19.066666666666666
+        },
+        "already_entered_at_start": false,
+        "annotator": "나",
+        "target": "검은색의 차량",
+        "side": "LEFT",
+        "space": "1",
+        "notes": "",
+        "annotation_blinded": true,
+        "contact": {
+          "status": "observed",
+          "frame": 637,
+          "pts_seconds": 21.233333333333334
+        }
+      },
+      "record_type": "human_review_draft",
+      "evaluation_eligible": false,
+      "source_group_id": "PENDING_SOURCE_AUDIT_00010"
+    },
+    {
+      "ID": "00013",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\intake_20260915_actual\\user_reviews\\00013\\NEXAR_REVIEW_00013_review_1789461169025.json",
+      "review_sha256": "932ddc0258b1bd3479427bdd7ab8ae695448b98f1aca59d3a202fdefc9d5f649",
+      "case_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00013\\case.json",
+      "case_sha256": "d5df8724346312ec8962c74c80fb58c3c6214acda93f85fbcf8c2b5445299b7f",
+      "source_sha_equal": true,
+      "frame_mapping_sha_equal": true,
+      "events": {
+        "contact": {
+          "human": {
+            "status": "observed",
+            "frame": 662,
+            "pts_seconds": 22.066666666666666
+          },
+          "case_frame_equal": true,
+          "case_pts_exact_equal": true,
+          "image_sha_case_equal": true,
+          "image_sha256": "e759835542c136a9c1d9b4cd8503ed490a784bb42e13f8b7f78bde6d1afc2840"
+        },
+        "entry": {
+          "human": {
+            "status": "observed",
+            "frame": 569,
+            "pts_seconds": 18.966666666666665
+          },
+          "case_frame_equal": true,
+          "case_pts_exact_equal": true,
+          "image_sha_case_equal": true,
+          "image_sha256": "29d6476b94c71f765e302f06bfe4daa1aafdd5e8c187162c6ef6b5eba01b377c"
+        }
+      },
+      "review": {
+        "entry": {
+          "status": "observed",
+          "frame": 569,
+          "pts_seconds": 18.966666666666665
+        },
+        "already_entered_at_start": false,
+        "annotator": "나",
+        "target": "검은색으로 보이는 차량이 오른편에서 갑자기 튀어나옴",
+        "side": "RIGHT",
+        "space": "0",
+        "notes": "",
+        "annotation_blinded": true,
+        "contact": {
+          "status": "observed",
+          "frame": 662,
+          "pts_seconds": 22.066666666666666
+        }
+      },
+      "record_type": "human_review_draft",
+      "evaluation_eligible": false,
+      "source_group_id": "PENDING_SOURCE_AUDIT_00013"
+    }
+  ]
+}

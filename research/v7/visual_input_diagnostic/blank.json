@@ -1,0 +1,11 @@
+{
+  "condition": "blank",
+  "prompt": "Describe the vehicles and road scene visible in this image. State if the image is blank. Do not invent objects. Be concise.",
+  "raw": "The image is blank. No vehicles or road scene is visible.",
+  "seconds": 1.8894442000309937,
+  "size": [
+    1280,
+    720
+  ],
+  "rgb_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78"
+}

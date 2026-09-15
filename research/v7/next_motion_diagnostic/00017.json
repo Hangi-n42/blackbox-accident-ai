@@ -1,0 +1,32 @@
+{
+  "ID": "00017",
+  "source_sha256": "a4d5f57428376b354daf92e7394cc18582e9ac5b7830337d9ad6bb31a53f4f5f",
+  "decoded_frames": 1210,
+  "v6_decoded_index": 576,
+  "corrected_decoded_index": 576,
+  "prediction_changed": false,
+  "v6_native_pts": 294912,
+  "v6_time_base": "1/15360",
+  "v6_pts_seconds": 19.2,
+  "corrected_native_pts": 294912,
+  "corrected_time_base": "1/15360",
+  "corrected_pts_seconds": 19.2,
+  "score_changed_indices": [],
+  "index1_v6_score": 0.0,
+  "index1_corrected_score": 0.0,
+  "features_sha256": "5c7ef2ce40ac29dfe95d7ad17757ad60e5b17f7a0f858a0825c54ad09d500cc3",
+  "base_scores_sha256": "e18d25cfade1a16bd0d46ea288d3834a506ee8f45ee1e283ab40e2bf101ef1c2",
+  "v6_scores_sha256": "89c8c650058918b12bff02f42495f141e6e94f3699e39e300d2d7e978d17cbc7",
+  "corrected_scores_sha256": "89c8c650058918b12bff02f42495f141e6e94f3699e39e300d2d7e978d17cbc7",
+  "array_dtype": "float32",
+  "array_hash_definition": "contiguous native float32 bytes, frame order",
+  "npz_file": "00017.npz",
+  "npz_sha256": "32bfebf6f0c9aa127fc7b7f7896addfabc2a8a1cd9e4e703b8c190b3bf1e9f7b",
+  "verified_original_RGB_sample_indices": [
+    0,
+    605,
+    1209
+  ],
+  "runtime_seconds": 16.93699999997625,
+  "annotations_or_accuracy_used": false
+}

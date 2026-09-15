@@ -1,0 +1,105 @@
+{
+  "scope": "Frozen zero-shot visual evidence on public simulated examples, not actual recapture validation.",
+  "prompt": "These are temporally ordered frames from ONE dashcam video. Determine whether the footage was filmed directly by the dashcam (ORIGINAL), or replayed on a physical screen and filmed again by another camera (RERECORDED). Ordinary re-encoding, black letterboxing, rain, windshield reflections, low resolution, subtitles and poor quality alone do NOT establish screen recapture. Look for a physical display boundary and surrounding room/device, screen-surface reflections, spatial moire/pixel grid, scan bands or independent camera-to-screen perspective/motion. Return JSON only: {\"answer\":\"ORIGINAL or RERECORDED\",\"confidence\":\"high or medium or low\",\"evidence\":\"brief directly visible evidence\"}. If no specific screen-recapture evidence is visible, choose ORIGINAL with low confidence. Do not infer from filename.",
+  "model": "artifacts/model/stage2/vlm",
+  "samples": [
+    {
+      "answer": "ORIGINAL",
+      "confidence": "high",
+      "evidence": "The frames show a direct dashcam perspective with a clear view of the road, vehicles, and surroundings. There is no visible screen boundary, reflection, or physical display that would suggest the footage was captured on a screen or re-encoded. The image quality, including the timestamp overlay and the natural camera perspective, is consistent with a direct recording from a dashcam.",
+      "ID": "S1_O_001",
+      "label": "ORIGINAL",
+      "seconds": 7.125
+    },
+    {
+      "answer": "ORIGINAL",
+      "confidence": "high",
+      "evidence": "The frames show a continuous dashcam perspective with a clear view of the road, vehicles, and sky. There is no visible screen boundary, reflection, or physical display that would suggest the footage was captured on a screen or re-encoded. The timestamp and camera view are consistent with a direct dashcam recording, and the image quality, while low, is consistent with a real-time recording without any signs of screen recapture artifacts such as scan bands, pixel grid, or room-based reflections.",
+      "ID": "S1_O_002",
+      "label": "ORIGINAL",
+      "seconds": 8.452999999994063
+    },
+    {
+      "answer": "ORIGINAL",
+      "confidence": "high",
+      "evidence": "The frames show a continuous sequence of real-time footage from a dashcam, with consistent camera perspective, natural motion, and no signs of screen recapture such as physical display boundaries, reflections, scan bands, or moire patterns. The timestamp and date are consistent across frames, and the scene appears to be captured directly from a vehicle's dashboard camera in an urban environment.",
+      "ID": "S1_O_003",
+      "label": "ORIGINAL",
+      "seconds": 6.687000000005355
+    },
+    {
+      "answer": "ORIGINAL",
+      "confidence": "high",
+      "evidence": "The frames show a direct dashcam perspective with a clear view of the road, the white car ahead, and the surrounding environment. There is no visible screen boundary, reflection, or physical display that would suggest the footage was captured on a screen or re-encoded. The image quality and lack of artifacts such as scan bands or moire patterns are consistent with a direct dashcam recording.",
+      "ID": "S1_O_004",
+      "label": "ORIGINAL",
+      "seconds": 7.187999999994645
+    },
+    {
+      "answer": "ORIGINAL",
+      "confidence": "high",
+      "evidence": "The frames show a continuous dashcam perspective from a vehicle, with the dashboard and windshield visible in the foreground. The camera's viewpoint is consistent with a direct recording from the dashcam, showing the road ahead, other vehicles, and the surrounding environment. There is no indication of a physical screen, display boundary, or screen-surface reflections that would suggest the footage was replayed on a screen. The image quality, timestamp, and lack of artifacts such as black letterboxing, rain, or poor resolution are consistent with an original dashcam recording.",
+      "ID": "S1_O_005",
+      "label": "ORIGINAL",
+      "seconds": 9.547000000005937
+    },
+    {
+      "answer": "ORIGINAL",
+      "confidence": "high",
+      "evidence": "The footage shows a continuous sequence of events from a dashcam perspective, with a clear view of the dashboard and the road ahead. The timestamp is displayed in the top-left corner, and the image quality is consistent with a direct recording from a dashcam. There is no indication of a screen or physical display boundary, reflections, or artifacts that would suggest a screen-recapture. The camera's perspective remains stable and consistent throughout the frames, with no signs of re-encoding or physical display artifacts.",
+      "ID": "S1_R_001",
+      "label": "RERECORDED",
+      "seconds": 8.781000000002678
+    },
+    {
+      "answer": "ORIGINAL",
+      "confidence": "high",
+      "evidence": "The frames show a dashcam perspective with a clear view of the road, vehicles, and sky. There is no visible screen boundary, reflection, or physical display that would suggest the footage was captured on a screen or re-encoded. The image quality, including the timestamp overlay and slight motion blur, is consistent with a direct dashcam recording. The spatial relationships and camera movement are consistent with a real-time recording from a vehicle's dashboard camera.",
+      "ID": "S1_R_002",
+      "label": "RERECORDED",
+      "seconds": 7.890999999988708
+    },
+    {
+      "answer": "ORIGINAL",
+      "confidence": "high",
+      "evidence": "The frames show a continuous sequence of real-time footage from a dashcam, with consistent camera perspective, no physical screen boundary, no reflections, no scan bands, and no signs of re-encoding artifacts. The timestamp and date are consistent across frames, and the scene appears to be captured directly from the vehicle's dashboard camera in a real-world environment.",
+      "ID": "S1_R_003",
+      "label": "RERECORDED",
+      "seconds": 7.062000000005355
+    },
+    {
+      "answer": "ORIGINAL",
+      "confidence": "high",
+      "evidence": "The frames show a direct dashcam perspective with a clear view of the road, the white car ahead, and the surrounding environment. There is no visible screen boundary, reflection, or physical display that would suggest the footage was captured on a screen or re-encoded. The image quality and lack of artifacts such as scan bands or moire patterns are consistent with a direct recording from a dashcam.",
+      "ID": "S1_R_004",
+      "label": "RERECORDED",
+      "seconds": 7.577999999994063
+    },
+    {
+      "answer": "ORIGINAL",
+      "confidence": "high",
+      "evidence": "The frames show a continuous dashcam perspective from a vehicle, with the dashboard and windshield visible in the foreground. The camera's viewpoint is consistent with a direct recording, showing the road ahead, other vehicles, and the surrounding environment. There is no indication of a physical screen, display boundary, or screen-surface reflections that would suggest the footage was replayed on a screen. The image quality, including the timestamp and the natural motion blur, is consistent with a direct dashcam recording rather than a screen recapture.",
+      "ID": "S1_R_005",
+      "label": "RERECORDED",
+      "seconds": 9.0
+    }
+  ],
+  "macro_f1": 0.3333333333333333,
+  "confusion_matrix": [
+    [
+      5,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ]
+}

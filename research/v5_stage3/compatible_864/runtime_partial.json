@@ -1,0 +1,40 @@
+{
+  "completed": {
+    "public": {
+      "rows": 2998,
+      "seconds": {
+        "baseline": [
+          24.441109499981394,
+          24.464267600007588,
+          24.142289399984293
+        ],
+        "compatible": [
+          20.31362909998279,
+          19.666199300001608,
+          19.61188849998871
+        ]
+      },
+      "median_ratio": 0.8046361111395773,
+      "passed": true,
+      "all_paired_dataframes_equal": true
+    },
+    "external_runtime": {
+      "rows": 3000,
+      "seconds": {
+        "baseline": [
+          23.74557649999042,
+          24.34020849998342,
+          23.53205809998326
+        ],
+        "compatible": [
+          19.31085440001334,
+          19.24498180000228,
+          19.189887700020336
+        ]
+      },
+      "median_ratio": 0.8104659745788881,
+      "passed": true,
+      "all_paired_dataframes_equal": true
+    }
+  }
+}

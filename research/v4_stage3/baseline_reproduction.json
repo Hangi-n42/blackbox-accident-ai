@@ -1,0 +1,11 @@
+{
+  "public_rows": 50,
+  "old_baseline_changes": {
+    "accel": 0,
+    "steer": 0
+  },
+  "candidate_public_changed": {
+    "accel": 10,
+    "steer": 3
+  }
+}

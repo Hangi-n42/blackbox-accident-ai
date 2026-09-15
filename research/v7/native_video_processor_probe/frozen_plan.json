@@ -1,0 +1,33 @@
+{
+  "K": [
+    3,
+    15,
+    18
+  ],
+  "tile_dimensions": [
+    384,
+    256
+  ],
+  "budget": 1200000,
+  "divisor": "encoded_K=2*ceil(K/2)",
+  "synthetic_fps": 2,
+  "physical_FPS_or_GT_used": false,
+  "model_loaded": false,
+  "GPU_used": false,
+  "files": {
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\solution\\native_video_v7.py": "550d66b557c8e7275bf1d21068737fb4229a13fbe5237ac45916cfe72bd6bffd",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\probe_native_video_processor.py": "0e337ec18b035a277b86e849d53babe1f36cbafc6a338f7a6b00a6fa392b17bc",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\added_tokens.json": "79f6ec6fcc423d3a82bfac8b9033b1daac7b7bce06a5f5f441637b480cc605de",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\chat_template.jinja": "24a1eb036569714fc3efe7908495159c19ac5138f652c9e524475e40ce87d716",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\config.json": "c4fbc3354ffa6bd557af9810ad972d7445329cfa7b90edf1c565caa5e71c582c",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\generation_config.json": "ad9868f17f3b0d352b2c2d45ac4ce71afa25a6f02580b24c7dd246e9f3655bb3",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\LICENSE-APACHE-2.0.txt": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\preprocessor_config.json": "932a67b907ae5ec809c4fb66cbcc951436ab686977e8b5fed9dce916c3a81e9e",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\special_tokens_map.json": "57255613bbe23c9497211ca68561ff429a51e871dbaf5a59998fa4c8f7fe168a",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\tokenizer_config.json": "394a86fd18585e173a0b8ac275bf1a8a44ab1b155b11cb27141ff2c8ee29851d",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\video_preprocessor_config.json": "7cbbda8582bde10b9d94184c676654967fbdf5668a1d1262e83dde7731d74649",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  }
+}

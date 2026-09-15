@@ -1,0 +1,29 @@
+{
+  "recorded_at_utc": "2026-09-13T10:54:20.935001+00:00",
+  "status": "not_run_due_to_upstream_candidate_rejection",
+  "decision_authority": "Root agent instruction: V5-simple failed final public known-regression gate; reject candidate, do not run external inference, restore original V3 Stage2.",
+  "upstream_reason": "Final public known-regression gate FAIL; this record relies on the root decision and does not independently recalculate prediction results.",
+  "external_inference_executed": false,
+  "external_prediction_files_read_by_blind_reviewer": false,
+  "external_pass": null,
+  "external_improvement_assessment": null,
+  "external_metrics": null,
+  "external_runtime_model_runner_binding_completed": false,
+  "preserved_frozen_artifacts_sha256": {
+    "consensus_frozen.json": "6c71ed570effa495bac9229a5ccf3e9640983e1f08f3a452ac84c97eec47cdd4",
+    "external_plan_frozen.json": "48696cfe03f7c366f05b803350b72fde06ba2fc90e8335bf31d433a8a65e10f4",
+    "external_input_binding.json": "e7bc455361995d57171ddf933867b9320ccf3ccbff7c1d19ea5f5cf6084960fe"
+  },
+  "stage2_restore": {
+    "requested_by_root": "original V3 Stage2",
+    "implementation_owner": "root",
+    "implementation_verified_in_this_record": false
+  },
+  "interpretation": [
+    "Do not describe external evaluation as FAIL or PASS: it was not run.",
+    "DADA acquisition and independent visual review yielded zero official exact ground-truth labels; six conditional origin-side references and five broad entry intervals support only a predeclared falsification filter.",
+    "Obtaining additional footage did not resolve the lack of precise task-aligned labels or establish generalization performance.",
+    "Excluding changes that fail the predeclared public gate and restoring a comparator with less observed regression are evidence-based risk control; restoration is not a demonstrated new performance improvement.",
+    "The frozen external gate must not be relaxed or used post hoc to rescue the rejected candidate."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "prompt": "REFERENCE is the same collision vehicle. ROI panels track it; FULL panels retain scene context. The offered frames mix a local search window and original clip start/end anchors; the first local image may NOT be the start of the full clip. Find this vehicle's FIRST wheel contact with the camera car's lane boundary, never a later re-entry. Return JSON status OBSERVED and entry_frame from offered frames only. If the SAME target was already inside at the original clip start use ALREADY_AT_START, same_target true and that original first frame. If entry is before/after the observed window, re-entry, or unclear, use BEFORE_WINDOW, AFTER_WINDOW, REENTRY, or UNCERTAIN without guessing a time. Original first frame: 0. Offered frames: [0, 4, 9, 13, 18, 22, 27, 31, 36, 40, 45, 49].",
+  "max_new_tokens": 48,
+  "input_images": [
+    {
+      "size": [
+        1280,
+        928
+      ],
+      "bounded_size": [
+        1280,
+        928
+      ],
+      "rgb_sha256": "4a51c196c2a8075c591481b11890c2c23cf836854da557791c60482d91305c8d"
+    }
+  ],
+  "status": "complete",
+  "bounded_pixel_total": 1187840,
+  "raw_output": "{\n  \"status\": \"ALREADY_AT_START\",\n  \"entry_frame\": 0\n}",
+  "seconds": 3.4216784999880474,
+  "peak_allocated_bytes": 4008224256,
+  "peak_reserved_bytes": 5647630336
+}

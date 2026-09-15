@@ -1,0 +1,130 @@
+{
+  "origin": "submit_v6.zip verified extraction",
+  "files": [
+    {
+      "path": "inference.py",
+      "bytes": 840,
+      "sha256": "b61fb1e92d4f31b38716f2234645a190b20c8ff32d7be0c5420b93832b850177"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 101,
+      "sha256": "1f57ab984335af332a7fa31608c10bf919635b925ddf8d569757f3fa71a6aa55"
+    },
+    {
+      "path": "model/stage3/LICENSE.comma2k19.txt",
+      "bytes": 1063,
+      "sha256": "89bc004605a774df644fb4166f39c11fe680d508b2ea9e27d9ad714021efeefb"
+    },
+    {
+      "path": "model/stage1/tpo/MERGED_WEIGHTS_NOTICE.md",
+      "bytes": 2296,
+      "sha256": "16717fbef4a797be5474dd5ef62af88d607c6a69ffcb221f23f48c5fdac04fd0"
+    },
+    {
+      "path": "model/stage1/tpo/clip_source/LICENSE",
+      "bytes": 1064,
+      "sha256": "987e63b32f6c89ff5160e429458a872ff048e6860b590a3912e938f9da8f14db"
+    },
+    {
+      "path": "model/stage1/tpo/source/LICENSE",
+      "bytes": 20848,
+      "sha256": "9e502ba75fd0fd30cea5497b438a4bc12f07f02bc932a7a6041fd6a18b8f46a0"
+    },
+    {
+      "path": "model/stage1/tpo/clip_source/clip/model.py",
+      "bytes": 17374,
+      "sha256": "9902cbe5ee90a1da2aa3e6f043e8a23dc1f8831193b963785c9af03d5c7bef2c"
+    },
+    {
+      "path": "model/stage2/vlm/CHANGES.md",
+      "bytes": 766,
+      "sha256": "439b76f32c0cab94fdffb1d1bb56abff150f2b66df7ef29890ceacf9b39e9f21"
+    },
+    {
+      "path": "model/stage2/vlm/LICENSE-APACHE-2.0.txt",
+      "bytes": 11558,
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    },
+    {
+      "path": "model/stage2/vlm/README.md",
+      "bytes": 838,
+      "sha256": "e1d74f17eb4dcaf72dd26b8ef5e8e8a352f4f1d35a899dbbab2c3089c1976533"
+    },
+    {
+      "path": "model/stage2/vlm/README.original.md",
+      "bytes": 7133,
+      "sha256": "a884e5e78f7d6f7bfe237f909dbc41a126542e259dc79d8ab33cc8980580ff79"
+    },
+    {
+      "path": "model/stage2/code/solution/stage1.py",
+      "bytes": 7704,
+      "sha256": "f9def79197fdfc949cc01ec373b7a019f11d7c276e81fedb2015c2bc6f24eeb9"
+    },
+    {
+      "path": "model/stage2/code/solution/stage1_tpo_merged.py",
+      "bytes": 2730,
+      "sha256": "e1ddcbd9956b2c3e2d9d0edee55d2162d3d164b16c6423f8968c176526ff5011"
+    },
+    {
+      "path": "model/stage2/code/solution/stage1_v4.py",
+      "bytes": 6761,
+      "sha256": "624fc836bc83b09cd273204206ae5b5f0de57ab19bc2b0a428e2957ef08d5c54"
+    },
+    {
+      "path": "model/stage2/code/solution/stage2.py",
+      "bytes": 13808,
+      "sha256": "2323653c4271ec09e2bf1761f6938d5cec1f76bbe5a01df96ce7aa22b183dc1a"
+    },
+    {
+      "path": "model/stage2/code/solution/stage2_motion_collision.py",
+      "bytes": 2206,
+      "sha256": "091d1b4b53353cf08bc5431fb658d1c7fcc45604a4288546f3aac0fd6a207e2e"
+    },
+    {
+      "path": "model/stage2/code/solution/stage2_nf4.py",
+      "bytes": 1410,
+      "sha256": "91e664e42d87e1062614bbe3bc28175f22b000d7938a9b5329e7f887871d0341"
+    },
+    {
+      "path": "model/stage2/code/solution/stage2_uncapped_jerk_v6c.py",
+      "bytes": 6062,
+      "sha256": "3e86e5117230fb4680c1d4af630cb02dd7e9aca99b7c4184d7baed13f479d64e"
+    },
+    {
+      "path": "model/stage2/code/solution/stage2_v2.py",
+      "bytes": 8012,
+      "sha256": "89ae0bc640670d7ed76103ce7c829d405ad27cc25368c74d153d3b96962b8442"
+    },
+    {
+      "path": "model/stage2/code/solution/stage3.py",
+      "bytes": 4120,
+      "sha256": "4b211a1c4f731bbd28b0f6e60de172e9692bfc1fe0f46d49ce21d89ad44f3835"
+    },
+    {
+      "path": "model/stage2/code/solution/stage3_fast.py",
+      "bytes": 4310,
+      "sha256": "b93fc1565e476c8b84627fe5d6379f2314b129444942044987fb6b75ca660dca"
+    },
+    {
+      "path": "model/stage2/code/solution/stage3_v5_compatible.py",
+      "bytes": 7192,
+      "sha256": "8e9d3b5ce7c60cbcfcca674e42523b8a006e758ca92dd459171c5de8107b120d"
+    },
+    {
+      "path": "model/stage2/code/solution/vlm.py",
+      "bytes": 2848,
+      "sha256": "01680e84220c64a6ff8f3415cf59bb7cd225f425814c92f6d2fe8213c5fe1cda"
+    },
+    {
+      "path": "model/stage2/code/solution/vlm_candidate.py",
+      "bytes": 4339,
+      "sha256": "99b1cccb3de3172d08b4db8a40cbca3f6a1e595f6f6beb7250ab0c501d47ba7a"
+    },
+    {
+      "path": "model/stage2/code/solution/__init__.py",
+      "bytes": 55,
+      "sha256": "739a2c0be9d9b1445b83695ebfed3cac00e9dfc1e16e52b97fa8f51c77fb012a"
+    }
+  ]
+}

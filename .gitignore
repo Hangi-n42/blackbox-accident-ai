@@ -216,3 +216,75 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Blackbox project: source/evidence in Git, runtime assets transferred separately.
+/artifacts/
+/model/
+/external_data/
+/Baseline/data/
+node_modules/
+.DS_Store
+._*
+.idea/
+.vscode/
+.openai/
+.agents/
+.codex/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials*.json
+*.exe
+*.dll
+*.pyd
+*.dylib
+*.so
+*.log
+*.part
+*.incomplete
+*.tmp
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.joblib
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.mat
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.png
+*.jpg
+*.jpeg
+*.webp
+# Downloaded dataset metadata is an external asset, not authored project state.
+/research/v6_stage2/mmau_probe/video_metadata.json
+# These handwritten static UI files are the source, despite the directory name.
+!/research/v6_review_tool/dist/
+!/research/v6_review_tool/dist/index.html
+!/research/v6_review_tool/dist/app.js
+!/research/v6_review_tool/dist/style.css
+!/research/v6_review_tool/dist/NEXAR_LICENSE.txt
+# Generated UI case catalog and case data travel with the evidence assets.
+/research/v6_review_tool/dist/cases/
+/research/v6_review_tool/dist/cases.js
+
+# Profiling output and partial download tails are reproducible caches.
+*.prof
+*.zip.tail

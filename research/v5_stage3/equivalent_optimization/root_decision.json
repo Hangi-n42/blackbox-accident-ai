@@ -1,0 +1,8 @@
+{
+  "status": "rejected_source_gate_keep_production",
+  "source_candidate_adopted": false,
+  "public_oof_executed": false,
+  "full_refit_authorized": false,
+  "final_checkpoint_created": false,
+  "next_authorized_scope": "Separate existing864 model compatible computation optimization only; no accuracy search."
+}

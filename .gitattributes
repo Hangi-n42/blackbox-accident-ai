@@ -1,0 +1,6 @@
+# Preserve historical evidence and frozen source byte hashes.
+* -text
+*.sh text eol=lf
+/scripts/migration/** text eol=lf
+/HANDOFF.md text eol=lf
+/README.md text eol=lf

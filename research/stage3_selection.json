@@ -1,0 +1,22 @@
+{
+  "accel": {
+    "experiment": "external",
+    "macro_f1": 0.7760091436217662,
+    "source_checkpoint": "motion_model_external.joblib"
+  },
+  "steer": {
+    "experiment": "external",
+    "macro_f1": 0.8503042850868937,
+    "source_checkpoint": "motion_model_external.joblib"
+  },
+  "stage3_oof": 0.7982976860613044,
+  "caveat": "Selection uses same 5-video public OOF labels. Selection bias and small sample uncertainty. Not a private score.",
+  "model_sha256": "c52ecd15cf68856f2a7b0b37b120c7a961b3bd8889a33af4ec47f8b9719bb3b3",
+  "external_source": "https://huggingface.co/datasets/commaai/comma2k19 (MIT)",
+  "proxy_thresholds_not_official": {
+    "speed_stop_m_s": 0.3,
+    "accel_m_s2": 0.25,
+    "steer_degrees": 2.0
+  },
+  "overlap_caveat": "One aligned duplicate excluded. Full route/source overlap cannot be ruled out."
+}

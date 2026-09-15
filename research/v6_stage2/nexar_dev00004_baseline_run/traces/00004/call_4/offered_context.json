@@ -1,0 +1,9 @@
+{
+  "offered_original_numbers": [
+    1062,
+    1068,
+    1074
+  ],
+  "source": "Reconstructed from actual frozen base internal collision and valid path indices after all four asks",
+  "internal_collision_frame": 1068
+}

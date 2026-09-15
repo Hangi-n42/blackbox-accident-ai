@@ -1,0 +1,25 @@
+{
+  "kind": "CPU mocked contract checks; not accuracy evaluation",
+  "tests_run": 10,
+  "passed": true,
+  "torch_imported": false,
+  "protected_sources_before": {
+    "solution/stage2.py": "2323653c4271ec09e2bf1761f6938d5cec1f76bbe5a01df96ce7aa22b183dc1a",
+    "solution/stage2_v2.py": "89ae0bc640670d7ed76103ce7c829d405ad27cc25368c74d153d3b96962b8442",
+    "solution/stage2_nf4.py": "91e664e42d87e1062614bbe3bc28175f22b000d7938a9b5329e7f887871d0341",
+    "solution/vlm_candidate.py": "99b1cccb3de3172d08b4db8a40cbca3f6a1e595f6f6beb7250ab0c501d47ba7a",
+    "solution/vlm.py": "01680e84220c64a6ff8f3415cf59bb7cd225f425814c92f6d2fe8213c5fe1cda"
+  },
+  "protected_sources_after": {
+    "solution/stage2.py": "2323653c4271ec09e2bf1761f6938d5cec1f76bbe5a01df96ce7aa22b183dc1a",
+    "solution/stage2_v2.py": "89ae0bc640670d7ed76103ce7c829d405ad27cc25368c74d153d3b96962b8442",
+    "solution/stage2_nf4.py": "91e664e42d87e1062614bbe3bc28175f22b000d7938a9b5329e7f887871d0341",
+    "solution/vlm_candidate.py": "99b1cccb3de3172d08b4db8a40cbca3f6a1e595f6f6beb7250ab0c501d47ba7a",
+    "solution/vlm.py": "01680e84220c64a6ff8f3415cf59bb7cd225f425814c92f6d2fe8213c5fe1cda"
+  },
+  "protected_sources_unchanged": true,
+  "source_sha256": {
+    "solution/stage2_motion_collision.py": "091d1b4b53353cf08bc5431fb658d1c7fcc45604a4288546f3aac0fd6a207e2e",
+    "scripts/test_stage2_motion_collision.py": "0d472e6b09638b798660d76e94772e14ae5207b9d34e4f86ecb4fa58099cbebb"
+  }
+}

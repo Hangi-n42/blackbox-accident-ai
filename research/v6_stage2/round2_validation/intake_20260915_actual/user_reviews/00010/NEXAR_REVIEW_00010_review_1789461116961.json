@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "record_type": "human_review_draft",
+  "evaluation_eligible": false,
+  "created_at": "2026-09-15T08:31:56.959Z",
+  "ID": "NEXAR_REVIEW_00010",
+  "source_group_id": "PENDING_SOURCE_AUDIT_00010",
+  "source_video_sha256": "bb0b2975bceaf9a9cfff779e2809ff3dc71d5ddbaecc9c7352c608419e2b7a02",
+  "source_uri": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00010.mp4",
+  "split": "unassigned",
+  "exposure": "unseen",
+  "time_origin": "native source presentation timestamp seconds, no offset applied",
+  "frame_mapping_sha256": "ccd31b6cc478c1248cfce02b8942b1facc935ec356a2fafc3b387ae1d0e99f81",
+  "review": {
+    "entry": {
+      "status": "observed",
+      "frame": 572,
+      "pts_seconds": 19.066666666666666
+    },
+    "already_entered_at_start": false,
+    "annotator": "나",
+    "target": "검은색의 차량",
+    "side": "LEFT",
+    "space": "1",
+    "notes": "",
+    "annotation_blinded": true,
+    "contact": {
+      "status": "observed",
+      "frame": 637,
+      "pts_seconds": 21.233333333333334
+    }
+  },
+  "requires": "Independent review and documented adjudication; no automatic promotion to ground truth."
+}

@@ -1,0 +1,460 @@
+{
+  "official_repository": "https://github.com/commaai/comma2k19",
+  "official_dataset_card": "https://huggingface.co/datasets/commaai/comma2k19",
+  "license": "MIT, official dataset-card designation plus preserved license text",
+  "source_metadata_sha256": {
+    "external_data\\comma2k19\\chunk1_manifest.json": "6be1c00bdd5c4e17b8d892bc58c6b17eba285b6e109bd1dd998285db47919e65",
+    "external_data\\comma2k19\\chunk3_manifest.json": "6b0adc2f29fcf0435903428eeafa7bfa3dadb6267fa3e2169d122619e41ebb94",
+    "external_data\\comma2k19\\inventory.json": "2952ae71044c1bc964581001cffda52279fd10d1aacaea61b03a21c200a0d74f",
+    "external_data\\comma2k19\\LICENSE": "89bc004605a774df644fb4166f39c11fe680d508b2ea9e27d9ad714021efeefb",
+    "research\\stage3_external_overlap.json": "c6c1506989337f8304a0dddc03a212586466a327ecb9141438d154d4cd41d47e"
+  },
+  "excluded": {
+    "excluded": [
+      {
+        "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10",
+        "rmse": 0.0
+      }
+    ],
+    "method": "4 aligned decoded-frame grayscale thumbnails RMSE < .025. Detects aligned video duplicates; cannot rule out all route/source overlap."
+  },
+  "videos": [
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-50-48\\10",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/video.hevc",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/processed_log/CAN/steering_angle/value"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-50-48\\10\\video.hevc",
+      "video_sha256": "f2320172b87ab31fe1dfdbf158cd8e3e6c595b75c69c98dcf2e67e490d4215ea",
+      "frame_times_sha256": "85931e8427f234119539a7fd9be465a7e0c93821f85960b1678afbb576fa1996",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--11-17-20\\3",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/video.hevc"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--11-17-20\\3\\video.hevc",
+      "video_sha256": "f8f392a308a5109e0fba772e43168763df8cafb4875d1b3abc806f6953144a99",
+      "frame_times_sha256": "4d1a1fa949ef4c31883ca7e824b5e8d7876dff1a228228e3ab8d958814d6b650",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--12-02-42\\27",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/video.hevc"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--12-02-42\\27\\video.hevc",
+      "video_sha256": "91391bd4375cb72b350519eeba9e6373908cbae070eb1dccfeb8947bfc6b7032",
+      "frame_times_sha256": "21f17e5955d85e8ea41ad5911fb7ffcb1f77bd675a4fa3607087bbaf723f3a2e",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--16-37-17\\4",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/video.hevc",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/global_pose/frame_times"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--16-37-17\\4\\video.hevc",
+      "video_sha256": "878e6731d278a7cd3fa99c766fee7ff5d502521f4951e9d8812330eb9993250f",
+      "frame_times_sha256": "18c2f3631f749d945009fd0f26ea6058b78497d8a55fd77187fc2525bae51d72",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-03-07\\14",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/video.hevc"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-03-07\\14\\video.hevc",
+      "video_sha256": "7d90916a183195650cf8133397ff65e5c05a1e5f3ea562eb50fad8af489b9b0c",
+      "frame_times_sha256": "6a02d58b39d7a20da8925697f990e0de81363bebe15e6ddea7d95b6868012aab",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-44-30\\10",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/video.hevc",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/processed_log/CAN/speed/value"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-44-30\\10\\video.hevc",
+      "video_sha256": "7e2b2ebe95f652a3f46ca64418841a1523a266280546a227e25a5ca058b74388",
+      "frame_times_sha256": "18f88e4c791f26d678e25bfd4a257af47be17f32acc9e9942847228639465f8b",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-31--20-50-28\\12",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/video.hevc",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/processed_log/CAN/steering_angle/value"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-31--20-50-28\\12\\video.hevc",
+      "video_sha256": "eda4ec0e206a8ed1a44e97b6dfc662d15112a86af9b2d43154e0b5af0642f2af",
+      "frame_times_sha256": "0ed7e42e8681d64be68f9e8898bb2ebe2fc75d288f21f8ceb6aad5d7beca34d8",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-01--21-13-49\\10",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/video.hevc",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/global_pose/frame_times"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-01--21-13-49\\10\\video.hevc",
+      "video_sha256": "56b5b4345db7115f8ef1dac105eb7b415c3516b702dcc0a44aa050768c8466a7",
+      "frame_times_sha256": "df417c4b04bcf91ed6d9442fbba840588d5931563d8cde35a1ef43d3d9edc6a8",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--08-34-47\\29",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/video.hevc"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--08-34-47\\29\\video.hevc",
+      "video_sha256": "ae721a401c6262840332b08419ce74a88d0786e22efaad1ac0f9974abbfb0a79",
+      "frame_times_sha256": "354547e1af58b998b1dd487f8f5cfec5294b5a628f9d203c895f8a4ce8558f8d",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--16-41-38\\10",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/video.hevc"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--16-41-38\\10\\video.hevc",
+      "video_sha256": "3821974e3b740be605a8462dac9331022b3bbf33dfa60579d16a05c586551f8f",
+      "frame_times_sha256": "2bbe23e5411f485c09e079df4109bbf70b0130ef68058b5cd43fed18fd238c04",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-03--10-35-16\\10",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/video.hevc"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-03--10-35-16\\10\\video.hevc",
+      "video_sha256": "71d6a6dc2a5813feb0d9407a0616aba6dfca786dc309bd3875aad7e868eed2a0",
+      "frame_times_sha256": "daee2bbb516d5216384ec2a68a1accb7fae7b55f359e566e93376e61be5fd9b2",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--08-13-53\\17",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/processed_log/CAN/steering_angle/value"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--08-13-53\\17\\video.hevc",
+      "video_sha256": "dac70a02c83fd4650a4444fafd2cd9e74216942b7215ab794220e38e3ca8e5f7",
+      "frame_times_sha256": "7fb305da6f710563ec97a672e2ef95bbd0d849d51e69a38dab07249c0aa11c80",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--10-47-27\\25",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/processed_log/CAN/steering_angle/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/processed_log/CAN/speed/value"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--10-47-27\\25\\video.hevc",
+      "video_sha256": "a196446f9ba82601cced35a1dbffdefe2d96440bec1091bf8cd32e5c00a80517",
+      "frame_times_sha256": "bdd0f0d792a28251eeccfb6881d3b6d97b9b400712442b64bf2fae1d4d4effa6",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--11-24-52\\0",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/processed_log/CAN/steering_angle/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/global_pose/frame_times"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--11-24-52\\0\\video.hevc",
+      "video_sha256": "b19c48d2245dbc57dccd78e99d65ed2686d1cb239a62fe663f00c4cf5e5fac4f",
+      "frame_times_sha256": "faae16e48318779a361e7ee61a7873fefde3d90391765704a85d285119317383",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-32-52\\7",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/processed_log/CAN/steering_angle/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/video.hevc"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-32-52\\7\\video.hevc",
+      "video_sha256": "90e2e32727fd5d567d4e829294d9933dd4fb57a955233962275e4428eb333189",
+      "frame_times_sha256": "aae4963362e896316fe3aee9230072a8e8e9277bcd8cc8c21c4cd8c269de5028",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-42-52\\0",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/processed_log/CAN/steering_angle/value"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-42-52\\0\\video.hevc",
+      "video_sha256": "7b4f5306bf56de579272b9637383a0f331a407ca52a727723a58294b907ced65",
+      "frame_times_sha256": "7a61f8f8efa9f55d7005c82a77da1310f612387abd9b76770b56be617359533a",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--16-01-39\\59",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/processed_log/CAN/steering_angle/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/global_pose/frame_times"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--16-01-39\\59\\video.hevc",
+      "video_sha256": "750e80c82cd38fab51ad4418bb1ca2f0c1a3328882f6bda2c51125375c28901b",
+      "frame_times_sha256": "2990e8e24f521d88d1900fc4c00495ed7f4ea664be283cce8ae249837232702e",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--19-07-03\\5",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/processed_log/CAN/steering_angle/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/processed_log/CAN/speed/value"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--19-07-03\\5\\video.hevc",
+      "video_sha256": "8de9bd33cffca3224fa6c9df375da15630d9b328c73ce0e9aa918bf1957cf54c",
+      "frame_times_sha256": "13765aafc07418ea3863a7546bbb4b73235ae21759c3ef501f60fac5b01b038d",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--20-07-13\\2",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/processed_log/CAN/steering_angle/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/processed_log/CAN/speed/value"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--20-07-13\\2\\video.hevc",
+      "video_sha256": "32f32715db90e7060d0af3f47ec14e1d3dcdcdc70c392f75868897c482bd392b",
+      "frame_times_sha256": "16ea7c59933b70889211de3820418d649f716db2876ce16f837bded42a81ee3a",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--08-13-12\\10",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/processed_log/CAN/steering_angle/value"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--08-13-12\\10\\video.hevc",
+      "video_sha256": "ffd49c49137f7159298bbc065643b2ed0367cd23e36245a7b9607fbb95db708f",
+      "frame_times_sha256": "a035e8113181caba40a9edbd489b1dd599154dc1205125923d6438123d104674",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--09-25-46\\24",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/processed_log/CAN/steering_angle/value"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--09-25-46\\24\\video.hevc",
+      "video_sha256": "7fb430f7d0fca0d48dc3227efc2c9d59f29d217ed47d7322cb202a6d4f773113",
+      "frame_times_sha256": "60b83c18db6ffc22d899bae36be49662f8fc6156d638cacfc92694124870f510",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--11-09-01\\10",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/processed_log/CAN/steering_angle/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/global_pose/frame_times"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--11-09-01\\10\\video.hevc",
+      "video_sha256": "c37c231b5241077f83fabf4bb8f35a413719bd033febf29c16adcc3754a30212",
+      "frame_times_sha256": "c5d0cccd139d0a3376fde3b6ec17cf6e323354a7ad0465be1020e8540e5103c6",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--16-36-30\\10",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/processed_log/CAN/steering_angle/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/video.hevc"
+      ],
+      "video_path": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--16-36-30\\10\\video.hevc",
+      "video_sha256": "7f79dc21009e12424543fcb5c80375afd7e6b4869cf1b92a5eee3d4ebe280e8d",
+      "frame_times_sha256": "eefbdc825435def6620b7600dee60f3293185c496ddb55681a25b266977889b5",
+      "original_label_basis": "official road-facing EON camera video in raw dataset; no recapture transformation performed",
+      "inventory_video_hash_verified": true
+    }
+  ]
+}

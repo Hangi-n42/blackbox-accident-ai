@@ -1,0 +1,7 @@
+{
+  "prompt": "These dashcam frames are ordered left to right, top to bottom. Which numbered frame first shows actual contact of the camera car with the other vehicle? Look for contact, not the later strongest shake. Allowed frames: [83, 84, 85, 86, 87, 644, 645, 646, 647, 648, 954, 1022, 1090, 1158, 1226]. Return JSON with collision_frame.",
+  "max_new_tokens": 48,
+  "status": "complete",
+  "raw": "{\n  \"collision_frame\": 1022\n}",
+  "seconds": 2.359927300014533
+}

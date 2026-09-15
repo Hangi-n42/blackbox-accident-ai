@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "rows": [
+    {
+      "condition": "single",
+      "prompt": "Describe the vehicles and road scene visible in this image. State if the image is blank. Do not invent objects. Be concise.",
+      "raw": "A white U-Haul van is on the left. The scene is a nighttime street with blurred lights from other vehicles and a green traffic light ahead. The image is not blank.",
+      "seconds": 4.678726400015876,
+      "size": [
+        1280,
+        720
+      ],
+      "rgb_sha256": "04e74120a67693dde65bbf41aba2245158d7c72f862306e6e955a051972e8596"
+    },
+    {
+      "condition": "blank",
+      "prompt": "Describe the vehicles and road scene visible in this image. State if the image is blank. Do not invent objects. Be concise.",
+      "raw": "The image is blank. No vehicles or road scene is visible.",
+      "seconds": 1.8894442000309937,
+      "size": [
+        1280,
+        720
+      ],
+      "rgb_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78"
+    },
+    {
+      "condition": "sheet",
+      "prompt": "Describe the vehicles and road scene visible in this image. State if the image is blank. Do not invent objects. Be concise.",
+      "raw": "Not blank. Multiple vehicles including a white U-Haul van, cars with red brake lights, and traffic lights visible. Road scene shows urban street at night with buildings, crosswalks, and traffic.",
+      "seconds": 5.183019299991429,
+      "size": [
+        1536,
+        1280
+      ],
+      "rgb_sha256": "c9e8af63b7a1c4e1be642e11a7f6c900706a17eef4d941240af80e23deb4ea6d"
+    },
+    {
+      "condition": "simple_event",
+      "prompt": "These are chronological dashcam frames. Which frame best shows the first collision with the camera car? Return JSON with collision_frame and entry_side (LEFT or RIGHT) only. Choose an offered frame number.",
+      "raw": "{\n  \"collision_frame\": 771,\n  \"entry_side\": \"LEFT\"\n}",
+      "seconds": 3.059247199969832,
+      "size": [
+        1536,
+        1280
+      ],
+      "rgb_sha256": "c9e8af63b7a1c4e1be642e11a7f6c900706a17eef4d941240af80e23deb4ea6d"
+    }
+  ],
+  "limitation": "Description comparison is an input-sensitivity diagnostic, not ground truth or submission evidence"
+}

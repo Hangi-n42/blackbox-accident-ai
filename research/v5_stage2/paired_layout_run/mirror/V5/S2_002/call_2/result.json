@@ -1,0 +1,23 @@
+{
+  "prompt": "The REFERENCE identifies the collision vehicle. Timeline panels cover the WHOLE clip in order. Track that same vehicle backwards to its FIRST entry into the camera car's driving corridor. Entry is its first wheel touching the lane boundary; extend the corridor through intersections. Do not label a later re-entry or post-collision reappearance. Return JSON status BRACKET and before_frame (last shown before first entry), after_frame (first shown after entry), best_frame. If that same vehicle is already inside at the original clip start, use status ALREADY_AT_START, same_target true and best_frame equal to the first original frame. Otherwise use REENTRY or UNCERTAIN. Original clip first frame: 0. Timeline candidates: [0, 4, 9, 13, 18, 22, 27, 31, 36, 40, 45, 49].",
+  "max_new_tokens": 96,
+  "input_images": [
+    {
+      "size": [
+        1280,
+        928
+      ],
+      "bounded_size": [
+        1280,
+        928
+      ],
+      "rgb_sha256": "c738c469d31dc37750b4c75aebf00c5a798a2b90046b280c6e0a3a031169d74b"
+    }
+  ],
+  "status": "complete",
+  "bounded_pixel_total": 1187840,
+  "raw_output": "{\n  \"status\": \"REENTRY\",\n  \"before_frame\": 0,\n  \"after_frame\": 18,\n  \"best_frame\": 18\n}",
+  "seconds": 4.761447900003986,
+  "peak_allocated_bytes": 3999833600,
+  "peak_reserved_bytes": 5647630336
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53",
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17",
+    "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--08-13-53\\17",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+    "members": [
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/video.hevc",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/global_pose/frame_times",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/processed_log/CAN/speed/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/processed_log/CAN/speed/value",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/processed_log/CAN/steering_angle/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/processed_log/CAN/steering_angle/value"
+    ]
+  },
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27",
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25",
+    "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--10-47-27\\25",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+    "members": [
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/video.hevc",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/global_pose/frame_times",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/processed_log/CAN/steering_angle/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/processed_log/CAN/steering_angle/value",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/processed_log/CAN/speed/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/processed_log/CAN/speed/value"
+    ]
+  },
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52",
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0",
+    "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--11-24-52\\0",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+    "members": [
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/processed_log/CAN/speed/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/processed_log/CAN/speed/value",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/processed_log/CAN/steering_angle/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/processed_log/CAN/steering_angle/value",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/video.hevc",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/global_pose/frame_times"
+    ]
+  },
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52",
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7",
+    "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-32-52\\7",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+    "members": [
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/processed_log/CAN/speed/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/processed_log/CAN/speed/value",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/processed_log/CAN/steering_angle/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/processed_log/CAN/steering_angle/value",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/global_pose/frame_times",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/video.hevc"
+    ]
+  },
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52",
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0",
+    "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-42-52\\0",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+    "members": [
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/video.hevc",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/global_pose/frame_times",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/processed_log/CAN/speed/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/processed_log/CAN/speed/value",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/processed_log/CAN/steering_angle/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/processed_log/CAN/steering_angle/value"
+    ]
+  },
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39",
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59",
+    "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--16-01-39\\59",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+    "members": [
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/processed_log/CAN/steering_angle/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/processed_log/CAN/steering_angle/value",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/processed_log/CAN/speed/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/processed_log/CAN/speed/value",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/video.hevc",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/global_pose/frame_times"
+    ]
+  },
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03",
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5",
+    "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--19-07-03\\5",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+    "members": [
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/video.hevc",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/global_pose/frame_times",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/processed_log/CAN/steering_angle/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/processed_log/CAN/steering_angle/value",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/processed_log/CAN/speed/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/processed_log/CAN/speed/value"
+    ]
+  },
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13",
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2",
+    "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--20-07-13\\2",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+    "members": [
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/global_pose/frame_times",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/video.hevc",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/processed_log/CAN/steering_angle/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/processed_log/CAN/steering_angle/value",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/processed_log/CAN/speed/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/processed_log/CAN/speed/value"
+    ]
+  },
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12",
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10",
+    "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--08-13-12\\10",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+    "members": [
+      "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/global_pose/frame_times",
+      "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/video.hevc",
+      "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/processed_log/CAN/speed/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/processed_log/CAN/speed/value",
+      "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/processed_log/CAN/steering_angle/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/processed_log/CAN/steering_angle/value"
+    ]
+  },
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46",
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24",
+    "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--09-25-46\\24",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+    "members": [
+      "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/video.hevc",
+      "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/global_pose/frame_times",
+      "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/processed_log/CAN/speed/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/processed_log/CAN/speed/value",
+      "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/processed_log/CAN/steering_angle/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/processed_log/CAN/steering_angle/value"
+    ]
+  },
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01",
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10",
+    "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--11-09-01\\10",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+    "members": [
+      "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/video.hevc",
+      "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/processed_log/CAN/steering_angle/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/processed_log/CAN/steering_angle/value",
+      "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/processed_log/CAN/speed/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/processed_log/CAN/speed/value",
+      "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/global_pose/frame_times"
+    ]
+  },
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30",
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10",
+    "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--16-36-30\\10",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+    "members": [
+      "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/global_pose/frame_times",
+      "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/processed_log/CAN/speed/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/processed_log/CAN/speed/value",
+      "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/processed_log/CAN/steering_angle/t",
+      "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/processed_log/CAN/steering_angle/value",
+      "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/video.hevc"
+    ]
+  }
+]

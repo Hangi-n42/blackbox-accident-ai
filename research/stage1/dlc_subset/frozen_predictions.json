@@ -1,0 +1,1298 @@
+[
+  {
+    "document_id": "srb_passport/04",
+    "video_id": "srb_passport/04.or0002",
+    "label": "or",
+    "camera": "iphone",
+    "condition_or_display": "daylight",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ]
+    ],
+    "y_true": 0,
+    "tpo": 0.20135580003261566,
+    "forensic": 0.3054055132779296,
+    "blend": 0.25338065665527265
+  },
+  {
+    "document_id": "srb_passport/04",
+    "video_id": "srb_passport/04.or0004",
+    "label": "or",
+    "camera": "android",
+    "condition_or_display": "frontally close without much projectivity",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 0,
+    "tpo": 0.3383665643632412,
+    "forensic": 0.26040726796619823,
+    "blend": 0.2993869161647197
+  },
+  {
+    "document_id": "srb_passport/04",
+    "video_id": "srb_passport/04.re0001",
+    "label": "re",
+    "camera": "iphone",
+    "condition_or_display": "macbook pro",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 1,
+    "tpo": 0.4528599642217159,
+    "forensic": 0.17962166979859567,
+    "blend": 0.31624081701015583
+  },
+  {
+    "document_id": "srb_passport/04",
+    "video_id": "srb_passport/04.re0004",
+    "label": "re",
+    "camera": "android",
+    "condition_or_display": "philips",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 1,
+    "tpo": 0.7396961003541946,
+    "forensic": 0.4512175680563117,
+    "blend": 0.5954568342052532
+  },
+  {
+    "document_id": "aze_passport/03",
+    "video_id": "aze_passport/03.or0002",
+    "label": "or",
+    "camera": "iphone",
+    "condition_or_display": "colored light + flash",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ]
+    ],
+    "y_true": 0,
+    "tpo": 0.32865772023797035,
+    "forensic": 0.33028699931094724,
+    "blend": 0.32947235977445877
+  },
+  {
+    "document_id": "aze_passport/03",
+    "video_id": "aze_passport/03.or0001",
+    "label": "or",
+    "camera": "android",
+    "condition_or_display": "colored light + flash",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ]
+    ],
+    "y_true": 0,
+    "tpo": 0.30173948034644127,
+    "forensic": 0.3551903859581049,
+    "blend": 0.3284649331522731
+  },
+  {
+    "document_id": "aze_passport/03",
+    "video_id": "aze_passport/03.re0002",
+    "label": "re",
+    "camera": "iphone",
+    "condition_or_display": "macbook pro",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 1,
+    "tpo": 0.5198753364384174,
+    "forensic": 0.33416617475925076,
+    "blend": 0.4270207555988341
+  },
+  {
+    "document_id": "aze_passport/03",
+    "video_id": "aze_passport/03.re0005",
+    "label": "re",
+    "camera": "android",
+    "condition_or_display": "macbook pro",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 1,
+    "tpo": 0.5003846473991871,
+    "forensic": 0.5393478416293966,
+    "blend": 0.5198662445142919
+  },
+  {
+    "document_id": "esp_id/01",
+    "video_id": "esp_id/01.or0002",
+    "label": "or",
+    "camera": "iphone",
+    "condition_or_display": "daylight + alternating shadow",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 0,
+    "tpo": 0.3629070110619068,
+    "forensic": 0.4427169004719582,
+    "blend": 0.4028119557669325
+  },
+  {
+    "document_id": "esp_id/01",
+    "video_id": "esp_id/01.or0003",
+    "label": "or",
+    "camera": "android",
+    "condition_or_display": "artificial light",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 0,
+    "tpo": 0.16812940128147602,
+    "forensic": 0.32265727856555615,
+    "blend": 0.24539333992351609
+  },
+  {
+    "document_id": "esp_id/01",
+    "video_id": "esp_id/01.re0002",
+    "label": "re",
+    "camera": "iphone",
+    "condition_or_display": "macbook pro",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 1,
+    "tpo": 0.5842058770358562,
+    "forensic": 0.35689580890264644,
+    "blend": 0.4705508429692513
+  },
+  {
+    "document_id": "esp_id/01",
+    "video_id": "esp_id/01.re0004",
+    "label": "re",
+    "camera": "android",
+    "condition_or_display": "lenovo",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 1,
+    "tpo": 0.4119490683078766,
+    "forensic": 0.12171722007713516,
+    "blend": 0.26683314419250587
+  },
+  {
+    "document_id": "aze_passport/04",
+    "video_id": "aze_passport/04.or0002",
+    "label": "or",
+    "camera": "iphone",
+    "condition_or_display": "colored light",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ]
+    ],
+    "y_true": 0,
+    "tpo": 0.42893536388874054,
+    "forensic": 0.46420947162557125,
+    "blend": 0.4465724177571559
+  },
+  {
+    "document_id": "aze_passport/04",
+    "video_id": "aze_passport/04.or0007",
+    "label": "or",
+    "camera": "android",
+    "condition_or_display": "frontally average range projectivity average",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 0,
+    "tpo": 0.29886480420827866,
+    "forensic": 0.4357135859644473,
+    "blend": 0.367289195086363
+  },
+  {
+    "document_id": "aze_passport/04",
+    "video_id": "aze_passport/04.re0002",
+    "label": "re",
+    "camera": "iphone",
+    "condition_or_display": "philips",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 1,
+    "tpo": 0.7009559199213982,
+    "forensic": 0.5777449984219785,
+    "blend": 0.6393504591716883
+  },
+  {
+    "document_id": "aze_passport/04",
+    "video_id": "aze_passport/04.re0004",
+    "label": "re",
+    "camera": "android",
+    "condition_or_display": "philips",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 1,
+    "tpo": 0.7394620403647423,
+    "forensic": 0.4819542072856092,
+    "blend": 0.6107081238251757
+  },
+  {
+    "document_id": "rus_internalpassport/01",
+    "video_id": "rus_internalpassport/01.or0002",
+    "label": "or",
+    "camera": "iphone",
+    "condition_or_display": "colored light + flash",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ]
+    ],
+    "y_true": 0,
+    "tpo": 0.5067460238933563,
+    "forensic": 0.3424994110647987,
+    "blend": 0.42462271747907754
+  },
+  {
+    "document_id": "rus_internalpassport/01",
+    "video_id": "rus_internalpassport/01.or0001",
+    "label": "or",
+    "camera": "android",
+    "condition_or_display": "colored light + flash",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ],
+      [
+        1920,
+        1080,
+        3
+      ]
+    ],
+    "y_true": 0,
+    "tpo": 0.3721720688045025,
+    "forensic": 0.3385338453498066,
+    "blend": 0.35535295707715453
+  },
+  {
+    "document_id": "rus_internalpassport/01",
+    "video_id": "rus_internalpassport/01.re0002",
+    "label": "re",
+    "camera": "iphone",
+    "condition_or_display": "macbook pro",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 1,
+    "tpo": 0.9391505718231201,
+    "forensic": 0.3548388626803246,
+    "blend": 0.6469947172517223
+  },
+  {
+    "document_id": "rus_internalpassport/01",
+    "video_id": "rus_internalpassport/01.re0006",
+    "label": "re",
+    "camera": "android",
+    "condition_or_display": "philips",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 1,
+    "tpo": 0.8042124956846237,
+    "forensic": 0.4727858802737713,
+    "blend": 0.6384991879791975
+  },
+  {
+    "document_id": "lva_passport/02",
+    "video_id": "lva_passport/02.or0002",
+    "label": "or",
+    "camera": "iphone",
+    "condition_or_display": "daylight + alternating shadow",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 0,
+    "tpo": 0.45294227078557014,
+    "forensic": 0.2685609136775047,
+    "blend": 0.3607515922315374
+  },
+  {
+    "document_id": "lva_passport/02",
+    "video_id": "lva_passport/02.or0001",
+    "label": "or",
+    "camera": "android",
+    "condition_or_display": "daylight + alternating shadow",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 0,
+    "tpo": 0.44076869636774063,
+    "forensic": 0.2306647878821612,
+    "blend": 0.3357167421249509
+  },
+  {
+    "document_id": "lva_passport/02",
+    "video_id": "lva_passport/02.re0002",
+    "label": "re",
+    "camera": "iphone",
+    "condition_or_display": "macbook pro",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 1,
+    "tpo": 0.23853486590087414,
+    "forensic": 0.18578337293779815,
+    "blend": 0.21215911941933613
+  },
+  {
+    "document_id": "lva_passport/02",
+    "video_id": "lva_passport/02.re0005",
+    "label": "re",
+    "camera": "android",
+    "condition_or_display": "macbook pro",
+    "n_images": 8,
+    "image_shapes": [
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ],
+      [
+        3840,
+        2160,
+        3
+      ]
+    ],
+    "y_true": 1,
+    "tpo": 0.2006333563476801,
+    "forensic": 0.40070000566942127,
+    "blend": 0.30066668100855065
+  }
+]

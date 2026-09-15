@@ -1,0 +1,50 @@
+{
+  "call": 4,
+  "name": "entry_fine",
+  "prompt": "Image 1 is the original full clip's first frame, numbered 0. Image 2 is a local chronological contact sheet, ordered left to right then top to bottom. Its first tile may not be the start of the clip. Find when the SAME vehicle that collides with the camera car first enters the camera car's lane. Do not substitute a different vehicle merely because it is ahead in Image 1. Entry is that vehicle's first wheel touching the lane boundary; at intersections extend the camera car's lane forward. If that same vehicle is already inside this lane in Image 1, use status ALREADY_IN_LANE_AT_START and entry_frame 0. Use status OBSERVED only when the actual lane entry is visible in Image 2. Otherwise use BEFORE_WINDOW or AFTER_WINDOW for entry outside the local window; use UNCERTAIN if the collision vehicle or its lane entry cannot be identified. Lane entry candidates: [21, 22, 23, 24, 25, 26, 27]. Return JSON with status and entry_frame. OBSERVED requires a shown local integer frame; ALREADY_IN_LANE_AT_START requires the original first frame number; other statuses use null.",
+  "offered_frames": {
+    "Lane entry candidates": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  "input_images": [
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "raw_rgb_sha256": "fc951f660af5ace06fd0ab079d68f0be31642b212844ee92858ade4c18836966"
+    },
+    {
+      "size": [
+        1536,
+        512
+      ],
+      "raw_rgb_sha256": "7732c4e9e6fa784a8f5bf6434407e39139a7924948c16ac97ca1459ead4ec56c"
+    }
+  ],
+  "bounded_image_sizes": [
+    [
+      1024,
+      576
+    ],
+    [
+      1312,
+      416
+    ]
+  ],
+  "bounded_pixel_total": 1135616,
+  "pixel_budget": 1200000,
+  "max_new_tokens": 64,
+  "status": "complete",
+  "raw_output": "{\n  \"status\": \"BEFORE_WINDOW\",\n  \"entry_frame\": null\n}",
+  "seconds": 2.9472840999951586,
+  "gpu_peak_allocated_bytes": 4004194304,
+  "gpu_peak_reserved_bytes": 5811208192
+}

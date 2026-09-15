@@ -1,0 +1,105 @@
+{
+  "reviewer": "agent1 / stage1_research",
+  "review_type": "independent AI visual review; not official GT; before root reserve review reconciliation",
+  "frozen_at_utc": "2026-09-13T10:43:07.474891+00:00",
+  "prediction_files_read": false,
+  "reserve_root_labels_read": false,
+  "model_inference_used": false,
+  "accident_frame_numeric_metadata_read": false,
+  "time_window_blinding_limit": "Supplied contact sheets are centered by provider accident metadata; therefore not blind to provider-selected temporal windows, despite not reading numeric metadata.",
+  "entry_definition": "first wheel touching ego lane/visible extension, never first screen appearance",
+  "frame_numbering": "original supplied 1-based PNG numbers",
+  "additional_enlarged_originals": [
+    "DADA_10_155/0182.png",
+    "DADA_49_026/0181.png",
+    "DADA_49_036/0162.png",
+    "DADA_50_133/0076.png"
+  ],
+  "sheet_sha256": {
+    "DADA_10_155_overview.jpg": "440219b440748e890cc0c073dbd0958919848b0ccc9ee633d8f3aa64faea0551",
+    "DADA_10_155_contact.jpg": "4757fc7d0a0f3671f8cc225cd5c1e489d64e4ad2da55ca00ddce3e00a07e7fed",
+    "DADA_49_026_overview.jpg": "59276860c746589a888161980d423a81b70e0a5beed8d09c55911e2a1d46a5fb",
+    "DADA_49_026_contact.jpg": "0848b58f6cd86692767065f72d09ebefa39baa4a0bf99cec9821c4a9e7b851f0",
+    "DADA_49_036_overview.jpg": "7b5a96bba17b9aa16f0ee4471d119266d998dedd383f355892179a095841e205",
+    "DADA_49_036_contact.jpg": "bf6fa74de612d3854ff9962e153ac719aa87b422ffb8dd9220a5392a29a44945",
+    "DADA_50_133_overview.jpg": "25ed3c934649787e69cd744695036ad2cedf5c6f1a9132f1b56c2e111568b22c",
+    "DADA_50_133_contact.jpg": "b400526f38ae9a2f5925cae08863f3626b9f75583b39c6fe8026685df1256769"
+  },
+  "labels": [
+    {
+      "ID": "DADA_10_155",
+      "ego_contact_status": "not_discernible_counterpart_unresolved",
+      "counterpart": null,
+      "entry_side": null,
+      "entry_exact": null,
+      "entry_interval": null,
+      "contact_exact": null,
+      "contact_interval": null,
+      "evidence": [
+        "주차장/마당 형태 공간을 자차가 통과하며 양쪽에 주차 차량과 오른쪽 건물·오토바이가 보인다.",
+        "152~212 및 확대 182에서 전방에는 빈 노면이 보이고 특정 차량과 자차의 접촉을 식별하지 못했다.",
+        "자차 차선 도색이 없고 실제 충돌 상대도 불명확하여 진행 공간의 첫 바퀴 진입을 부여할 수 없다."
+      ],
+      "limitation": "화면 밖 접촉을 배제한 것이 아니라 현재 자료에서 ego-vehicle 접촉과 대상을 확인하지 못한 상태.",
+      "recommendation": "diagnostic_only_not_confirmed_ego_vehicle_collision"
+    },
+    {
+      "ID": "DADA_49_026",
+      "ego_contact_status": "third_party_truck_sedan_interaction_visible_ego_contact_not_discernible",
+      "counterpart": null,
+      "entry_side": null,
+      "entry_exact": null,
+      "entry_interval": null,
+      "contact_exact": null,
+      "contact_interval": null,
+      "evidence": [
+        "빨간 컨테이너 견인차와 흰색 선행 세단이 전방에서 접촉할 정도로 밀집한다.",
+        "166~202과 확대 181에서 견인차 앞 오른쪽과 흰 세단 왼쪽 뒤가 겹치는 제3자 상호작용이 보인다.",
+        "자차 보닛과 두 차량 사이에는 노면이 보이며 자차 직접 접촉은 식별되지 않는다."
+      ],
+      "limitation": "제3자 차량 간 실제 첫 접촉 프레임도 확정하지 않으며 이를 자차 collision_frame으로 전용하지 않는다. 선행 세단의 frame1 위치를 자차 피해차량 entry GT로 사용하지 않는다.",
+      "recommendation": "diagnostic_only_third_party_interaction_not_confirmed_ego_collision"
+    },
+    {
+      "ID": "DADA_49_036",
+      "ego_contact_status": "right_truck_close_pass_and_windshield_contamination_visible_body_contact_unresolved",
+      "counterpart": "조건부 후보: 오른쪽에서 나란히 지나가 앞으로 이동하는 파란색 대형 화물차",
+      "entry_side": "RIGHT",
+      "entry_side_conditional": true,
+      "entry_exact": null,
+      "entry_interval": null,
+      "contact_exact": null,
+      "contact_interval": null,
+      "screen_first_visible_diagnostic": [
+        20,
+        38
+      ],
+      "evidence": [
+        "20~38 사이 오른쪽 가장자리에 파란 대형 화물차가 나타나며 이후 옆에서 전방으로 이동한다.",
+        "75~94 사이 전면 유리에 다수의 액적/입자 형태가 나타나고 이후 시야를 가린다.",
+        "132~192 및 확대 162에서 화물차가 매우 가깝지만 차체 간 직접 접촉은 보이지 않는다.",
+        "후반 왼쪽의 파란 소형차 출현은 다른 대상이므로 오른쪽 화물차와 혼동하지 않는다."
+      ],
+      "limitation": "액적/먼지/파편의 정체와 발생 원인은 영상만으로 확정하지 못한다. 유리 오염이나 근접 통과는 두 차량 차체 접촉의 증거와 같지 않다. 바퀴/차로 경계가 가려져 차선진입 시점은 unknown.",
+      "recommendation": "diagnostic_only_until_ego_vehicle_body_contact_confirmed"
+    },
+    {
+      "ID": "DADA_50_133",
+      "ego_contact_status": "not_discernible_counterpart_unresolved",
+      "counterpart": null,
+      "entry_side": null,
+      "entry_exact": null,
+      "entry_interval": null,
+      "contact_exact": null,
+      "contact_interval": null,
+      "evidence": [
+        "교차로에서 자전거/삼륜차와 여러 승용차가 자차 전방을 통과한다.",
+        "46~106 및 확대 76에서 앞의 이륜·삼륜 차량과 승용차들은 자차와 간격을 두고 보인다.",
+        "후반 오른쪽 흰색/은색 승용차가 비스듬히 보이지만 이 차 또는 다른 차량의 자차 접촉을 식별하지 못했다."
+      ],
+      "limitation": "화면에 가까이 보이거나 정면을 가로지른 차량을 임의로 피해차량으로 정하지 않는다. 접촉 대상을 확정하지 못하여 차선진입과 방향도 unknown.",
+      "recommendation": "diagnostic_only_not_confirmed_ego_vehicle_collision"
+    }
+  ],
+  "conclusion": "No reserve clip is promoted to confirmed ego-vehicle collision GT by this reviewer. Preserve as diagnostic-only pending independent root reconciliation; no further replacement recommended under fixed reserve budget."
+}

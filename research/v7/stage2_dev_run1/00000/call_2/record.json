@@ -1,0 +1,13 @@
+{
+  "prompt": "Event candidates are chronological full dashcam frames. Reference frame 0 suggests the vehicle: null. REFERENCE panels identify a possible counterpart, not additional event candidates. Verify against the whole frames; the proposed reference may be wrong. Choose the first physical contact with the camera car, not a later maximum shake. Contact can be outside the image; use the before/after vehicle motion evidence, not shake or proximity alone. Allowed event frames: [512, 522, 531, 541, 551, 560, 570, 580, 584, 589, 599, 609, 618, 628, 638, 647, 657]. Return JSON with collision_frame only, or null if unknown.",
+  "max_new_tokens": 24,
+  "input_sizes": [
+    [
+      1536,
+      1280
+    ]
+  ],
+  "status": "complete",
+  "raw": "{\n  \"collision_frame\": 512\n}",
+  "seconds": 2.2112541000242345
+}

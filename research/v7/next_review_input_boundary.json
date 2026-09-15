@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-09-15T13:23:35.553824+00:00",
+  "source_role": "Fixed new-source review candidates, not established validation GT",
+  "input_boundary": "Original-video nativePTS are annotation/evaluation-side evidence only. Stage2inference must still return supplied originalframeIDs and cannot assume sourceFPS or consume our reviewregistry.",
+  "review_source_ids": [
+    "00017",
+    "00018",
+    "00019",
+    "00021",
+    "00022",
+    "00023"
+  ],
+  "source_qa_report_sha256": "9dd81129c6bfd8e7ba8fb61800cef1b15903b5aa56f150c2755f25a1ed1de27e",
+  "new_model_calls": 0,
+  "new_candidate_parameters_or_prompts_changed": false,
+  "previous_failed_candidates_reopened": false,
+  "needed_before_next_model_test": [
+    "BothindependentAIreviews frozen",
+    "Reviewimage/native-framecorrespondencechecked",
+    "Applicability,targetidentity,andlabeluncertaintyadjudicated withoutlookingatpredictions",
+    "ExplicitresearchuseofAIsecondaryevidencedistinguishedfromhuman/officialaccuracy"
+  ]
+}

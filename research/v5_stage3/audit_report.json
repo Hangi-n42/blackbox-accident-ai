@@ -1,0 +1,425 @@
+{
+  "status": "rejected_local_runtime_gate_no_training",
+  "numerical_tests": {
+    "zero_flow_passed": true,
+    "nonfinite_fallback_passed": true,
+    "exact_synthetic_field_coef_max_error": 1.7881393449270533e-09
+  },
+  "same_pixel": {
+    "OPEN_001": {
+      "prefix_vs_training_cache": {
+        "shape_equal": true,
+        "shape": [
+          1200,
+          864
+        ],
+        "bit_equal": true,
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "unequal_values": 0
+      },
+      "same_pixel_20_stride2_vs_10_stride1": {
+        "shape_equal": true,
+        "shape": [
+          600,
+          1128
+        ],
+        "bit_equal": true,
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "unequal_values": 0
+      },
+      "rows": 1200,
+      "flow_pairs": 599,
+      "fit_failures": 0
+    },
+    "OPEN_002": {
+      "prefix_vs_training_cache": {
+        "shape_equal": true,
+        "shape": [
+          1201,
+          864
+        ],
+        "bit_equal": true,
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "unequal_values": 0
+      },
+      "same_pixel_20_stride2_vs_10_stride1": {
+        "shape_equal": true,
+        "shape": [
+          601,
+          1128
+        ],
+        "bit_equal": true,
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "unequal_values": 0
+      },
+      "rows": 1201,
+      "flow_pairs": 600,
+      "fit_failures": 0
+    },
+    "OPEN_003": {
+      "prefix_vs_training_cache": {
+        "shape_equal": true,
+        "shape": [
+          1197,
+          864
+        ],
+        "bit_equal": true,
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "unequal_values": 0
+      },
+      "same_pixel_20_stride2_vs_10_stride1": {
+        "shape_equal": true,
+        "shape": [
+          599,
+          1128
+        ],
+        "bit_equal": true,
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "unequal_values": 0
+      },
+      "rows": 1197,
+      "flow_pairs": 598,
+      "fit_failures": 0
+    },
+    "OPEN_004": {
+      "prefix_vs_training_cache": {
+        "shape_equal": true,
+        "shape": [
+          1197,
+          864
+        ],
+        "bit_equal": true,
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "unequal_values": 0
+      },
+      "same_pixel_20_stride2_vs_10_stride1": {
+        "shape_equal": true,
+        "shape": [
+          599,
+          1128
+        ],
+        "bit_equal": true,
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "unequal_values": 0
+      },
+      "rows": 1197,
+      "flow_pairs": 598,
+      "fit_failures": 0
+    },
+    "OPEN_005": {
+      "prefix_vs_training_cache": {
+        "shape_equal": true,
+        "shape": [
+          1197,
+          864
+        ],
+        "bit_equal": true,
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "unequal_values": 0
+      },
+      "same_pixel_20_stride2_vs_10_stride1": {
+        "shape_equal": true,
+        "shape": [
+          599,
+          1128
+        ],
+        "bit_equal": true,
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "unequal_values": 0
+      },
+      "rows": 1197,
+      "flow_pairs": 598,
+      "fit_failures": 0
+    }
+  },
+  "runtime": {
+    "public": {
+      "seconds": {
+        "baseline": [
+          24.14287830001558,
+          23.540712399990298,
+          23.485470100014936
+        ],
+        "candidate": [
+          34.79968209998333,
+          34.580836899986025,
+          34.86640629998874
+        ]
+      },
+      "median_ratio": 1.4782765070439274,
+      "passed": false,
+      "prefix_checks": [
+        {
+          "path": "artifacts\\public_eval_10hz\\stage3\\videos\\OPEN_001.mp4",
+          "repeat": 0,
+          "shape_equal": true,
+          "shape": [
+            600,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        },
+        {
+          "path": "artifacts\\public_eval_10hz\\stage3\\videos\\OPEN_002.mp4",
+          "repeat": 0,
+          "shape_equal": true,
+          "shape": [
+            601,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        },
+        {
+          "path": "artifacts\\public_eval_10hz\\stage3\\videos\\OPEN_003.mp4",
+          "repeat": 0,
+          "shape_equal": true,
+          "shape": [
+            599,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        },
+        {
+          "path": "artifacts\\public_eval_10hz\\stage3\\videos\\OPEN_004.mp4",
+          "repeat": 0,
+          "shape_equal": true,
+          "shape": [
+            599,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        },
+        {
+          "path": "artifacts\\public_eval_10hz\\stage3\\videos\\OPEN_005.mp4",
+          "repeat": 0,
+          "shape_equal": true,
+          "shape": [
+            599,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        },
+        {
+          "path": "artifacts\\public_eval_10hz\\stage3\\videos\\OPEN_001.mp4",
+          "repeat": 1,
+          "shape_equal": true,
+          "shape": [
+            600,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        },
+        {
+          "path": "artifacts\\public_eval_10hz\\stage3\\videos\\OPEN_002.mp4",
+          "repeat": 1,
+          "shape_equal": true,
+          "shape": [
+            601,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        },
+        {
+          "path": "artifacts\\public_eval_10hz\\stage3\\videos\\OPEN_003.mp4",
+          "repeat": 1,
+          "shape_equal": true,
+          "shape": [
+            599,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        },
+        {
+          "path": "artifacts\\public_eval_10hz\\stage3\\videos\\OPEN_004.mp4",
+          "repeat": 1,
+          "shape_equal": true,
+          "shape": [
+            599,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        },
+        {
+          "path": "artifacts\\public_eval_10hz\\stage3\\videos\\OPEN_005.mp4",
+          "repeat": 1,
+          "shape_equal": true,
+          "shape": [
+            599,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        },
+        {
+          "path": "artifacts\\public_eval_10hz\\stage3\\videos\\OPEN_001.mp4",
+          "repeat": 2,
+          "shape_equal": true,
+          "shape": [
+            600,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        },
+        {
+          "path": "artifacts\\public_eval_10hz\\stage3\\videos\\OPEN_002.mp4",
+          "repeat": 2,
+          "shape_equal": true,
+          "shape": [
+            601,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        },
+        {
+          "path": "artifacts\\public_eval_10hz\\stage3\\videos\\OPEN_003.mp4",
+          "repeat": 2,
+          "shape_equal": true,
+          "shape": [
+            599,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        },
+        {
+          "path": "artifacts\\public_eval_10hz\\stage3\\videos\\OPEN_004.mp4",
+          "repeat": 2,
+          "shape_equal": true,
+          "shape": [
+            599,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        },
+        {
+          "path": "artifacts\\public_eval_10hz\\stage3\\videos\\OPEN_005.mp4",
+          "repeat": 2,
+          "shape_equal": true,
+          "shape": [
+            599,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        }
+      ],
+      "rows": 2998
+    },
+    "external_runtime": {
+      "seconds": {
+        "baseline": [
+          23.33535259999917,
+          23.5423729000031,
+          23.478780799981905
+        ],
+        "candidate": [
+          34.293352200009394,
+          34.792871499987086,
+          34.68750519998139
+        ]
+      },
+      "median_ratio": 1.4773980597837568,
+      "passed": false,
+      "prefix_checks": [
+        {
+          "path": "research\\stage3_fast_benchmark\\external_stress\\videos\\comma_repeat5.mp4",
+          "repeat": 0,
+          "shape_equal": true,
+          "shape": [
+            3000,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        },
+        {
+          "path": "research\\stage3_fast_benchmark\\external_stress\\videos\\comma_repeat5.mp4",
+          "repeat": 1,
+          "shape_equal": true,
+          "shape": [
+            3000,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        },
+        {
+          "path": "research\\stage3_fast_benchmark\\external_stress\\videos\\comma_repeat5.mp4",
+          "repeat": 2,
+          "shape_equal": true,
+          "shape": [
+            3000,
+            864
+          ],
+          "bit_equal": true,
+          "max_absolute_error": 0.0,
+          "mean_absolute_error": 0.0,
+          "unequal_values": 0
+        }
+      ],
+      "rows": 3000
+    }
+  },
+  "local_runtime_gate_passed": false,
+  "local_runtime_not_server_guarantee": true,
+  "protected_unchanged": true,
+  "seconds": 436.45886210000026,
+  "training_executed": false,
+  "final_checkpoint_created": false
+}

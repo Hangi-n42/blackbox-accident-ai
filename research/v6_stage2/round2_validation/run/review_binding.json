@@ -1,0 +1,48 @@
+{
+  "status": "VALIDATED_CONTACT_BINDING",
+  "ground_truth_promotion": false,
+  "predictions_seen_before_binding": false,
+  "created_utc": "2026-09-15T08:34:14.615107+00:00",
+  "freeze_sha256": "e78bc5d9cf25396cc39d5904b0378bd61bf06aa8dfc9adb3c63b16679f2f5c7d",
+  "protocol_sha256": "df71f0933b1b3dacfedec376472af9d4d897c7aa8498561aba8bb0c9544164a5",
+  "validator": {
+    "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\import_reviews.py",
+    "sha256": "335c1a91b1d58493ab202d5c078cfabdb2393202969042eac17092253000ed0f"
+  },
+  "integrity_report": {
+    "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\intake_20260915_actual\\integrity.json",
+    "sha256": "b9fa0f2d3e6cae9af4b537de17710a971b5c364c10df8ef7d052eb58f6cfb391"
+  },
+  "reviews": [
+    {
+      "ID": "00008",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\intake_20260915_actual\\user_reviews\\00008\\NEXAR_REVIEW_00008_review_1789461059274.json",
+      "review_sha256": "9f208907e4175e7d06d98a612c4e41c3f6dd688b48e6b5f8324748aeb3d502c6",
+      "source_sha256": "d38a2b7c7feb21465ebebb962d8e6dd83a6bf25053d4952d097222b164f9b5d5",
+      "frame_mapping_sha256": "56323a307a4fae7b869c0c6d546c44f58facbda6f9232e4fdf677a3bc5afa50d",
+      "contact_status": "observed",
+      "native_pts_validated": true,
+      "selected_png_validated": true
+    },
+    {
+      "ID": "00010",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\intake_20260915_actual\\user_reviews\\00010\\NEXAR_REVIEW_00010_review_1789461116961.json",
+      "review_sha256": "f84853caec98d098cb6ef2ed391440bc25283e820898337b066fb47dea75fbcb",
+      "source_sha256": "bb0b2975bceaf9a9cfff779e2809ff3dc71d5ddbaecc9c7352c608419e2b7a02",
+      "frame_mapping_sha256": "ccd31b6cc478c1248cfce02b8942b1facc935ec356a2fafc3b387ae1d0e99f81",
+      "contact_status": "observed",
+      "native_pts_validated": true,
+      "selected_png_validated": true
+    },
+    {
+      "ID": "00013",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\intake_20260915_actual\\user_reviews\\00013\\NEXAR_REVIEW_00013_review_1789461169025.json",
+      "review_sha256": "932ddc0258b1bd3479427bdd7ab8ae695448b98f1aca59d3a202fdefc9d5f649",
+      "source_sha256": "7d8bc01f07761c3f06178a38dccf2eb23a3dc6f6557c2cf486e0cafd5c9089d9",
+      "frame_mapping_sha256": "b5657aceee007cf8d5f1c5f9b8e7db584b75ac8d673d4eb1a8dfc78f8c52f6aa",
+      "contact_status": "observed",
+      "native_pts_validated": true,
+      "selected_png_validated": true
+    }
+  ]
+}

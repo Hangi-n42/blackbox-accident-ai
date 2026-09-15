@@ -1,0 +1,250 @@
+{
+  "baseline": {
+    "accel": {
+      "macro_f1": 0.7760091436217662,
+      "report": {
+        "ACCELERATING": {
+          "precision": 0.7142857142857143,
+          "recall": 0.5555555555555556,
+          "f1-score": 0.625,
+          "support": 9.0
+        },
+        "DECELERATING": {
+          "precision": 0.5454545454545454,
+          "recall": 0.75,
+          "f1-score": 0.631578947368421,
+          "support": 8.0
+        },
+        "CONSTANT": {
+          "precision": 0.8620689655172413,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.847457627118644,
+          "support": 30.0
+        },
+        "STOPPED": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "accuracy": 0.78,
+        "macro avg": {
+          "precision": 0.7804523063143753,
+          "recall": 0.7847222222222222,
+          "f1-score": 0.7760091436217662,
+          "support": 50.0
+        },
+        "weighted avg": {
+          "precision": 0.7930855351545005,
+          "recall": 0.78,
+          "f1-score": 0.7820272078501338,
+          "support": 50.0
+        }
+      },
+      "confusion": [
+        [
+          5,
+          2,
+          2,
+          0
+        ],
+        [
+          0,
+          6,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          25,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    "steer": {
+      "macro_f1": 0.8503042850868937,
+      "report": {
+        "LEFT": {
+          "precision": 0.625,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.7142857142857143,
+          "support": 6.0
+        },
+        "STRAIGHT": {
+          "precision": 0.9696969696969697,
+          "recall": 0.8888888888888888,
+          "f1-score": 0.927536231884058,
+          "support": 36.0
+        },
+        "RIGHT": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1-score": 0.9090909090909091,
+          "support": 5.0
+        },
+        "accuracy": 0.8936170212765957,
+        "macro avg": {
+          "precision": 0.8093434343434344,
+          "recall": 0.9074074074074074,
+          "f1-score": 0.8503042850868937,
+          "support": 47.0
+        },
+        "weighted avg": {
+          "precision": 0.9111863313990972,
+          "recall": 0.8936170212765957,
+          "f1-score": 0.8983504931701046,
+          "support": 47.0
+        }
+      },
+      "confusion": [
+        [
+          5,
+          1,
+          0
+        ],
+        [
+          3,
+          32,
+          1
+        ],
+        [
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    "stage3": 0.7982976860613044
+  },
+  "source_equal": {
+    "accel": {
+      "macro_f1": 0.7122844827586207,
+      "report": {
+        "ACCELERATING": {
+          "precision": 0.7142857142857143,
+          "recall": 0.5555555555555556,
+          "f1-score": 0.625,
+          "support": 9.0
+        },
+        "DECELERATING": {
+          "precision": 0.4166666666666667,
+          "recall": 0.625,
+          "f1-score": 0.5,
+          "support": 8.0
+        },
+        "CONSTANT": {
+          "precision": 0.75,
+          "recall": 0.7,
+          "f1-score": 0.7241379310344828,
+          "support": 30.0
+        },
+        "STOPPED": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "accuracy": 0.68,
+        "macro avg": {
+          "precision": 0.7202380952380952,
+          "recall": 0.7201388888888889,
+          "f1-score": 0.7122844827586207,
+          "support": 50.0
+        },
+        "weighted avg": {
+          "precision": 0.7052380952380952,
+          "recall": 0.68,
+          "f1-score": 0.6869827586206897,
+          "support": 50.0
+        }
+      },
+      "confusion": [
+        [
+          5,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          5,
+          3,
+          0
+        ],
+        [
+          2,
+          7,
+          21,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    "steer": {
+      "macro_f1": 0.7587641117052882,
+      "report": {
+        "LEFT": {
+          "precision": 0.5555555555555556,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.6666666666666666,
+          "support": 6.0
+        },
+        "STRAIGHT": {
+          "precision": 0.9375,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.8823529411764706,
+          "support": 36.0
+        },
+        "RIGHT": {
+          "precision": 0.6666666666666666,
+          "recall": 0.8,
+          "f1-score": 0.7272727272727273,
+          "support": 5.0
+        },
+        "accuracy": 0.8297872340425532,
+        "macro avg": {
+          "precision": 0.7199074074074074,
+          "recall": 0.8222222222222223,
+          "f1-score": 0.7587641117052882,
+          "support": 47.0
+        },
+        "weighted avg": {
+          "precision": 0.8599290780141845,
+          "recall": 0.8297872340425532,
+          "f1-score": 0.8383206280577996,
+          "support": 47.0
+        }
+      },
+      "confusion": [
+        [
+          5,
+          1,
+          0
+        ],
+        [
+          4,
+          30,
+          2
+        ],
+        [
+          0,
+          1,
+          4
+        ]
+      ]
+    },
+    "stage3": 0.7262283714426209
+  }
+}

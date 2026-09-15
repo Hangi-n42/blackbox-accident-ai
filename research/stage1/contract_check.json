@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-11",
+  "model_mode": "tpo_forensic_ensemble",
+  "execution": "CPU local-only integrated predict_stage1 smoke test",
+  "input": "Two hardlinks of one public original video with unrelated filenames",
+  "output": [
+    {"ID": "renamed_copy", "answer": "ORIGINAL"},
+    {"ID": "unrelated_name", "answer": "ORIGINAL"}
+  ],
+  "checks": ["required columns returned", "renamed identical content produced identical answer", "local-only TPO loading succeeded"],
+  "scope_limit": "This is an interface/loading check, not a performance or hidden-evaluation throughput benchmark."
+}

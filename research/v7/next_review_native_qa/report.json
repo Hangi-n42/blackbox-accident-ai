@@ -1,0 +1,568 @@
+{
+  "status": "complete",
+  "videos": [
+    {
+      "ID": "00017",
+      "source_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\new_validation_sources\\00017.mp4",
+      "source_sha256": "a4d5f57428376b354daf92e7394cc18582e9ac5b7830337d9ad6bb31a53f4f5f",
+      "source_bytes": 10779763,
+      "stream": {
+        "stream_index": 0,
+        "time_base": "1/15360",
+        "average_rate": "30",
+        "base_rate": "30",
+        "guessed_rate": "30",
+        "declared_frames": 1210,
+        "start_time": 0,
+        "duration": 619520,
+        "codec": "h264",
+        "declared_resolution": [
+          1280,
+          720
+        ]
+      },
+      "decoded_frames": 1210,
+      "midpoint_index": 605,
+      "extra_midpoint_decode_pass": false,
+      "missing_pts_indices": [],
+      "nonmonotonic_pts_indices": [],
+      "resolutions": [
+        {
+          "width": 1280,
+          "height": 720,
+          "count": 1210
+        }
+      ],
+      "frame_time_bases": {
+        "1/15360": 1210
+      },
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 40.3,
+      "interval_histogram_seconds_rational": {
+        "1/30": 1209
+      },
+      "observed_fps_over_span": 30.0,
+      "min_positive_delta_seconds": 0.03333333333333333,
+      "max_positive_delta_seconds": 0.03333333333333333,
+      "flags": {
+        "missing_pts": false,
+        "nonmonotonic_pts": false,
+        "variable_dimensions": false,
+        "variable_frame_time_base": false,
+        "nonconstant_native_pts_step": false,
+        "declared_count_mismatch": false
+      },
+      "selected_rgb_sha256": [
+        {
+          "decoded_index": 0,
+          "pts": 0,
+          "time_base": "1/15360",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "039569f1b53a0b097d71289cdd5d3e00167fda5bc8444b84b6dc293c5526e006",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        },
+        {
+          "decoded_index": 605,
+          "pts": 309760,
+          "time_base": "1/15360",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "45bd972f0ba47388df869b2edab8611ec1fa1273827585bc48411fc432783854",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        },
+        {
+          "decoded_index": 1209,
+          "pts": 619008,
+          "time_base": "1/15360",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "283255ec754665fb4e09cca5753a78268649e1750adb31badf3c5aef8ace1273",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        }
+      ]
+    },
+    {
+      "ID": "00018",
+      "source_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\new_validation_sources\\00018.mp4",
+      "source_sha256": "57883863d65cfc233bcaada676a4cdf8a9fd76dabf56131470795bdfae64eb82",
+      "source_bytes": 15665676,
+      "stream": {
+        "stream_index": 0,
+        "time_base": "1/15360",
+        "average_rate": "30",
+        "base_rate": "30",
+        "guessed_rate": "30",
+        "declared_frames": 1219,
+        "start_time": 0,
+        "duration": 624128,
+        "codec": "h264",
+        "declared_resolution": [
+          1280,
+          720
+        ]
+      },
+      "decoded_frames": 1219,
+      "midpoint_index": 609,
+      "extra_midpoint_decode_pass": false,
+      "missing_pts_indices": [],
+      "nonmonotonic_pts_indices": [],
+      "resolutions": [
+        {
+          "width": 1280,
+          "height": 720,
+          "count": 1219
+        }
+      ],
+      "frame_time_bases": {
+        "1/15360": 1219
+      },
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 40.6,
+      "interval_histogram_seconds_rational": {
+        "1/30": 1218
+      },
+      "observed_fps_over_span": 30.0,
+      "min_positive_delta_seconds": 0.03333333333333333,
+      "max_positive_delta_seconds": 0.03333333333333333,
+      "flags": {
+        "missing_pts": false,
+        "nonmonotonic_pts": false,
+        "variable_dimensions": false,
+        "variable_frame_time_base": false,
+        "nonconstant_native_pts_step": false,
+        "declared_count_mismatch": false
+      },
+      "selected_rgb_sha256": [
+        {
+          "decoded_index": 0,
+          "pts": 0,
+          "time_base": "1/15360",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "0bf5e72162eaebcd75b108cd02e6a64691bbb7b392e0564325a6d90981157543",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        },
+        {
+          "decoded_index": 609,
+          "pts": 311808,
+          "time_base": "1/15360",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "10fb101e369cec892735594fba7c4b965f2848d49da36a8ef3a06275851544c3",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        },
+        {
+          "decoded_index": 1218,
+          "pts": 623616,
+          "time_base": "1/15360",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "5ce0c0d7e8865ea9801a5f6a3aca2733f0d1bf7255b81eea5ea3ec117c4ef822",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        }
+      ]
+    },
+    {
+      "ID": "00019",
+      "source_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\new_validation_sources\\00019.mp4",
+      "source_sha256": "9733cefb322507d6de2e4cbb7bcdde6bda02bc503aff1ccbe0001981d7e14006",
+      "source_bytes": 16203650,
+      "stream": {
+        "stream_index": 0,
+        "time_base": "1/19584",
+        "average_rate": "153/5",
+        "base_rate": "153/5",
+        "guessed_rate": "153/5",
+        "declared_frames": 1226,
+        "start_time": 0,
+        "duration": 784640,
+        "codec": "h264",
+        "declared_resolution": [
+          1280,
+          720
+        ]
+      },
+      "decoded_frames": 1226,
+      "midpoint_index": 613,
+      "extra_midpoint_decode_pass": false,
+      "missing_pts_indices": [],
+      "nonmonotonic_pts_indices": [],
+      "resolutions": [
+        {
+          "width": 1280,
+          "height": 720,
+          "count": 1226
+        }
+      ],
+      "frame_time_bases": {
+        "1/19584": 1226
+      },
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 40.032679738562095,
+      "interval_histogram_seconds_rational": {
+        "5/153": 1225
+      },
+      "observed_fps_over_span": 30.6,
+      "min_positive_delta_seconds": 0.032679738562091505,
+      "max_positive_delta_seconds": 0.032679738562091505,
+      "flags": {
+        "missing_pts": false,
+        "nonmonotonic_pts": false,
+        "variable_dimensions": false,
+        "variable_frame_time_base": false,
+        "nonconstant_native_pts_step": false,
+        "declared_count_mismatch": false
+      },
+      "selected_rgb_sha256": [
+        {
+          "decoded_index": 0,
+          "pts": 0,
+          "time_base": "1/19584",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "8cc054cc7749dcdbc445e36e362cabd5c099031cce755525c12b08bfabb8890a",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        },
+        {
+          "decoded_index": 613,
+          "pts": 392320,
+          "time_base": "1/19584",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "26d1a89feca64680159a783d8453e80a78e81e5055fe04974579c5e85d7aaddc",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        },
+        {
+          "decoded_index": 1225,
+          "pts": 784000,
+          "time_base": "1/19584",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "8447f5ae9b97bbf88a0eb0c1548f7fdc13dd6efa6dc4adf4769a87a0cf651d46",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        }
+      ]
+    },
+    {
+      "ID": "00021",
+      "source_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\new_validation_sources\\00021.mp4",
+      "source_sha256": "534021e279a9e51a309d8ab55452eb56986145598c8dd5e98c3d4c7154650410",
+      "source_bytes": 11925567,
+      "stream": {
+        "stream_index": 0,
+        "time_base": "1/15360",
+        "average_rate": "30",
+        "base_rate": "30",
+        "guessed_rate": "30",
+        "declared_frames": 1199,
+        "start_time": 0,
+        "duration": 613888,
+        "codec": "h264",
+        "declared_resolution": [
+          1280,
+          720
+        ]
+      },
+      "decoded_frames": 1199,
+      "midpoint_index": 599,
+      "extra_midpoint_decode_pass": false,
+      "missing_pts_indices": [],
+      "nonmonotonic_pts_indices": [],
+      "resolutions": [
+        {
+          "width": 1280,
+          "height": 720,
+          "count": 1199
+        }
+      ],
+      "frame_time_bases": {
+        "1/15360": 1199
+      },
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 39.93333333333333,
+      "interval_histogram_seconds_rational": {
+        "1/30": 1198
+      },
+      "observed_fps_over_span": 30.0,
+      "min_positive_delta_seconds": 0.03333333333333333,
+      "max_positive_delta_seconds": 0.03333333333333333,
+      "flags": {
+        "missing_pts": false,
+        "nonmonotonic_pts": false,
+        "variable_dimensions": false,
+        "variable_frame_time_base": false,
+        "nonconstant_native_pts_step": false,
+        "declared_count_mismatch": false
+      },
+      "selected_rgb_sha256": [
+        {
+          "decoded_index": 0,
+          "pts": 0,
+          "time_base": "1/15360",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "be5c5287fe4f857f4b978f6e73e6752c3469d05dbe4302c9515982d4a4b9ef77",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        },
+        {
+          "decoded_index": 599,
+          "pts": 306688,
+          "time_base": "1/15360",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "19d2ad0cd4a611d2384990862fb247757a383cfe1a484c808a4ed79ec0ee1792",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        },
+        {
+          "decoded_index": 1198,
+          "pts": 613376,
+          "time_base": "1/15360",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "3545a3d887e1b199bf6f9aea4726389b125c30d286dcf038c099f9b3517d69e3",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        }
+      ]
+    },
+    {
+      "ID": "00022",
+      "source_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\new_validation_sources\\00022.mp4",
+      "source_sha256": "58382210f3bc1ffde242d768572be5331373316af014e56c177eda26aa4c00b4",
+      "source_bytes": 19531161,
+      "stream": {
+        "stream_index": 0,
+        "time_base": "1/15360",
+        "average_rate": "30",
+        "base_rate": "30",
+        "guessed_rate": "30",
+        "declared_frames": 1213,
+        "start_time": 0,
+        "duration": 621056,
+        "codec": "h264",
+        "declared_resolution": [
+          1280,
+          720
+        ]
+      },
+      "decoded_frames": 1213,
+      "midpoint_index": 606,
+      "extra_midpoint_decode_pass": false,
+      "missing_pts_indices": [],
+      "nonmonotonic_pts_indices": [],
+      "resolutions": [
+        {
+          "width": 1280,
+          "height": 720,
+          "count": 1213
+        }
+      ],
+      "frame_time_bases": {
+        "1/15360": 1213
+      },
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 40.4,
+      "interval_histogram_seconds_rational": {
+        "1/30": 1212
+      },
+      "observed_fps_over_span": 30.0,
+      "min_positive_delta_seconds": 0.03333333333333333,
+      "max_positive_delta_seconds": 0.03333333333333333,
+      "flags": {
+        "missing_pts": false,
+        "nonmonotonic_pts": false,
+        "variable_dimensions": false,
+        "variable_frame_time_base": false,
+        "nonconstant_native_pts_step": false,
+        "declared_count_mismatch": false
+      },
+      "selected_rgb_sha256": [
+        {
+          "decoded_index": 0,
+          "pts": 0,
+          "time_base": "1/15360",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "7df0cf710e36d94ee39dd3f3e83a5d51295b33fb62b50a90df341909819df9f6",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        },
+        {
+          "decoded_index": 606,
+          "pts": 310272,
+          "time_base": "1/15360",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "6bef6d36ab3380efd6079c37c18d705d35d74604316b7f2f406daf0bb5524230",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        },
+        {
+          "decoded_index": 1212,
+          "pts": 620544,
+          "time_base": "1/15360",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "4dab96e3971178025b85c47484a77afa114de264ea165ef9983c5300faff94c0",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        }
+      ]
+    },
+    {
+      "ID": "00023",
+      "source_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\new_validation_sources\\00023.mp4",
+      "source_sha256": "7d0232cc2a4b7a5b6a74c050b7155e675e561513d40d132588f47217c874ac69",
+      "source_bytes": 11705867,
+      "stream": {
+        "stream_index": 0,
+        "time_base": "1/15360",
+        "average_rate": "30",
+        "base_rate": "30",
+        "guessed_rate": "30",
+        "declared_frames": 1217,
+        "start_time": 0,
+        "duration": 623104,
+        "codec": "h264",
+        "declared_resolution": [
+          1280,
+          720
+        ]
+      },
+      "decoded_frames": 1217,
+      "midpoint_index": 608,
+      "extra_midpoint_decode_pass": false,
+      "missing_pts_indices": [],
+      "nonmonotonic_pts_indices": [],
+      "resolutions": [
+        {
+          "width": 1280,
+          "height": 720,
+          "count": 1217
+        }
+      ],
+      "frame_time_bases": {
+        "1/15360": 1217
+      },
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 40.53333333333333,
+      "interval_histogram_seconds_rational": {
+        "1/30": 1216
+      },
+      "observed_fps_over_span": 30.0,
+      "min_positive_delta_seconds": 0.03333333333333333,
+      "max_positive_delta_seconds": 0.03333333333333333,
+      "flags": {
+        "missing_pts": false,
+        "nonmonotonic_pts": false,
+        "variable_dimensions": false,
+        "variable_frame_time_base": false,
+        "nonconstant_native_pts_step": false,
+        "declared_count_mismatch": false
+      },
+      "selected_rgb_sha256": [
+        {
+          "decoded_index": 0,
+          "pts": 0,
+          "time_base": "1/15360",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "2800c12234eac5ff0ea6343d524b9cffd2e92fbcc223c9eb196d71e8572ba3cb",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        },
+        {
+          "decoded_index": 608,
+          "pts": 311296,
+          "time_base": "1/15360",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "332887659a281c067ea33d9c0fb3766d1e2215e973bfd4ce12d4fdd641dfff18",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        },
+        {
+          "decoded_index": 1216,
+          "pts": 622592,
+          "time_base": "1/15360",
+          "shape": [
+            720,
+            1280,
+            3
+          ],
+          "dtype": "uint8",
+          "sha256": "1132f29e3b34177aef739b550804c92ccc01bbc2da212a6cf11f3a1b4e23c016",
+          "hash_definition": "contiguous HWC rgb24 uint8 bytes; no resize, overlay, image codec or color conversion after PyAV RGB decode"
+        }
+      ]
+    }
+  ],
+  "six_exact_file_sha_distinct": true,
+  "exact_matches_old12": [],
+  "all_sources_still_match": true,
+  "seconds": 12.10999999998603,
+  "limits": "SHA equality detects identical file bytes only. No perceptual, same-incident, route, training/pretraining independence certification. No human/AI annotations or model predictions read. Rational PTS variation is reported, not automatically treated as corrupt video."
+}

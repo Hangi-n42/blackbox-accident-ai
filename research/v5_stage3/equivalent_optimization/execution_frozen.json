@@ -1,0 +1,15 @@
+{
+  "timestamp_unix": 1789295976.1172419,
+  "script_sha256": "7d994b9bf58fbbc8abc13d1c550ee86288113d244426e4df5943499f2050ae70",
+  "plan_sha256": "14a625a2dbf0dc40dbe1c8581256529a28cfe41091eaa8eda7630f83d9de3c4a",
+  "optimization_plan_sha256": "72af71a320085ef9c6eef67a1557ee70769f8e8baa29188577677aec6780c3d6",
+  "audit_sha256": "15c603535b20916bb85d66f4bf86176850ff215b7c87a71734578c30b579a7d3",
+  "order": [
+    "prediction_contract",
+    "external_features",
+    "source_stress",
+    "only_if_source_passes_public_oof"
+  ],
+  "baseline_reuse": "Requires per-fold exact existing864 input/target hashes, class weights, same current factory parameters/seed and old prediction GT arrays.",
+  "no_checkpoint_or_full_refit": true
+}

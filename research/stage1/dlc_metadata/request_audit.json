@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://zenodo.org/records/6466770/files/README.md?download=1",
+    "range": null,
+    "status": 200,
+    "headers": {
+      "date": "Fri, 11 Sep 2026 11:21:16 GMT",
+      "content-type": "application/octet-stream",
+      "content-length": "5340",
+      "oc-checksum": "MD5:dc9ede2a9de12ce054026e0d32ef5b9",
+      "accept-ranges": "bytes"
+    },
+    "result": "saved",
+    "bytes": 5340,
+    "path": "research\\stage1\\dlc_metadata\\README.md"
+  },
+  {
+    "url": "https://zenodo.org/records/6466770/files/dlc-2021.csv?download=1",
+    "range": null,
+    "status": 200,
+    "headers": {
+      "date": "Fri, 11 Sep 2026 11:21:17 GMT",
+      "content-type": "text/plain; charset=utf-8",
+      "content-length": "70444",
+      "oc-checksum": "MD5:b6a3edabe7f718393dcbd369023acbd9",
+      "accept-ranges": "bytes"
+    },
+    "result": "saved",
+    "bytes": 70444,
+    "path": "research\\stage1\\dlc_metadata\\dlc-2021.csv"
+  },
+  {
+    "url": "https://zenodo.org/records/6466770/files/re.zip?download=1",
+    "range": "bytes=-65557",
+    "status": 206,
+    "headers": {
+      "date": "Fri, 11 Sep 2026 11:21:19 GMT",
+      "content-type": "application/octet-stream",
+      "content-length": "65557",
+      "content-range": "bytes 4170620228-4170685784/4170685785",
+      "accept-ranges": "bytes"
+    },
+    "result": "saved",
+    "bytes": 65557,
+    "path": "research\\stage1\\dlc_metadata\\re.zip.tail"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-09-14T14:42:06.859974+00:00",
+  "passed": true,
+  "tests_run": 16,
+  "failures": 0,
+  "errors": 0,
+  "scope": "Synthetic software contracts only; NOT model accuracy or real GT",
+  "evaluator_sha256": "de92312d9692d5daed69c530462dd1a42fd1b58e0bb990a8668d6949a4b32229",
+  "tests_sha256": "15f0ecced12d0f7f9a8e049357f1524b498b6f672181790db3fa7c67d56b69ab"
+}

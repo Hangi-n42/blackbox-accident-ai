@@ -1,0 +1,13 @@
+{
+  "status": "CPU_prepared_GPU_not_run_by_subagent",
+  "freeze_sha256": "aabe345d04045a3099e602b601b6984c73fc0afbddca98c62e2a9b24317ff8b1",
+  "runner_sha256": "031e46b26eb3d555dfc746a20ef618fcdd9906a19fdc0bc4582236a9ffc06e8f",
+  "protected_unchanged": true,
+  "ID": "00004",
+  "source_frame_count": 1202,
+  "sampled_count": 402,
+  "duration_seconds": 40.03333333333333,
+  "max_sample_gap_seconds": 0.10000000000000142,
+  "GT_read": false,
+  "reserved_sources_read": false
+}

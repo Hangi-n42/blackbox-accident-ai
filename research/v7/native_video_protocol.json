@@ -1,0 +1,40 @@
+{
+  "hypothesis": "Native Qwen video temporal patches may improve contact selection relative to failed sheet/image presentations; improvement is unproven.",
+  "source_role": "already_exposed_development_not_holdout",
+  "ids": ["00000", "00003", "00004", "00005", "00006", "00007", "00008", "00010", "00013"],
+  "candidates": "Exactly the original frozen V6 policy call2 collision_candidates, same original order and individual frozen stage2_v2 labeled tiles; no source/GT-based additions or window tuning.",
+  "model": "Actual V6 saved Qwen3-VL-4B NF4 checkpoint, original device and generation configuration",
+  "question": "Remove only the exact first sheet-layout sentence from original call2 prompt; retain remaining task/allowedIDs/JSON instructions and48 output tokens. One frozen helper prefix defines chronological video order and synthetic playback timestamps. No source physical FPS or PTS supplied to inference.",
+  "video": {
+    "presentation_fps": 2,
+    "presentation_is_synthetic_not_source_time": true,
+    "metadata_frame_indices": "0..K-1 selected-frame ordinals",
+    "do_sample_frames": false,
+    "do_resize_in_processor": false,
+    "total_pixel_cap_including_temporal_padding": 1200000,
+    "pixel_budget_divisor": "2*ceil(K/2)",
+    "per_frame_resize": "Same RGB/BICUBIC/32-multiple rounding formula as LocalVLM, using padded frame count for denominator",
+    "odd_padding": "Processor repeats last frame, never creates a new candidate ID"
+  },
+  "causal_limit": "This changes temporal pairing, presentation timestamps, prefix text and effective image/token allocation. It is a distinct representation hypothesis, not a pure single-factor packing ablation.",
+  "prediction": "Accept only an offered frame parsed by frozen _json_object/_integer. Malformed, absent or out-of-offered answer falls back to unchanged V6 final uncapped-motion contact; log reason. No confidence threshold or posthoc choice.",
+  "other_fields": "Copy V6 entry/side/space only for this contact diagnostic; do not claim complete model or end-to-end equivalence.",
+  "execution": {
+    "maximum_actual_gpu_calls": 9,
+    "model_loads": 1,
+    "max_new_tokens_per_call": 48,
+    "do_sample": false,
+    "wall_limit_seconds": 600,
+    "offline": true,
+    "no_retry_after_model_outputs": true,
+    "CPU_processor_contract_before_GPU": true
+  },
+  "evaluation": {
+    "references": "Existing nine human_review_draft files with exact source SHA and native frame PTS bindings, evaluated after all9 predictions frozen",
+    "time_tolerance_seconds": 0.3,
+    "report": "Final V6 and candidate counts/errors, internal VLM reference selection, offered candidate coverage, gains/losses, fallback contribution, actual token/grid/runtime/VRAM",
+    "advance_requires": "At least one new contact correct vs V6, no prior correct lost, contact accuracy strictly improves, all nine calls complete and contract passes",
+    "adoption": "Not automatic. A passing diagnostic requires separately frozen complete pipeline, regression/resource/offline checks and additional independent evidence. Prior failed candidates are not revived.",
+    "failure": "Preserve all results and stop this hypothesis; no changing FPS/window/tiles/prompt/gate on these results. No ZIP or submission on failure."
+  }
+}

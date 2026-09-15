@@ -1,0 +1,299 @@
+{
+  "created_utc": "2026-09-15T13:06:25.765482+00:00",
+  "files": {
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\v5_fullframe_diagnostic\\freeze.json": "9bfd867847b9a526006951c83466d7ab81c7415905d9367d0fc274ad82e884dc",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_fullframe_replay\\report.json": "e8f2bd34856021cc255b9c5a0d5554050376944c2e75944162f659ef420ee5ae",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\run\\freeze.json": "e78bc5d9cf25396cc39d5904b0378bd61bf06aa8dfc9adb3c63b16679f2f5c7d",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\run\\report.json": "d97a0ad3c438362c2cad22d67ba1e95b7ce9e2a35d047e52a13286bd19ec3915",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\run_space_anchor.py": "92e1429d99a0d9327c15361e8408b5ec8e4402500116343d0ba7acfb1d7f3ea1",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\solution\\stage2_space_anchor_v7.py": "82d256853ff69dc94cca25bed95c6c6212f56d4fbf12d6863d621dec11528b00",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\run_capacity.py": "23d6560f0915198650a705d1867fcc82c9a79fc88014db2dce89c696db5fdba8",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\space_anchor_protocol.json": "79422c8bd986ab36a08f1a7a39a226aef1aa2cf2d7dce2335becbce8464b6704",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\submit_v6.manifest.json": "19907f2a42ffe3576b241aa76f5d23c90c255d9dda9b9b95ab6c079936f8ed98",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\inference.py": "b61fb1e92d4f31b38716f2234645a190b20c8ff32d7be0c5420b93832b850177",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage1\\config.json": "10e1c0d0c9cc0fa69cfa829db7f1454b2ce63c365dde02a847120f29165d8a8a",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage1\\forensic_frequency_augmented.json": "46ccafe0477b30889d572524fe2f0f3856dd1dead6cd1b9f7aa54118870f854b",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage1\\tpo\\MERGED_WEIGHTS_NOTICE.md": "16717fbef4a797be5474dd5ef62af88d607c6a69ffcb221f23f48c5fdac04fd0",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage1\\tpo\\clip_source\\LICENSE": "987e63b32f6c89ff5160e429458a872ff048e6860b590a3912e938f9da8f14db",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage1\\tpo\\clip_source\\clip\\model.py": "9902cbe5ee90a1da2aa3e6f043e8a23dc1f8831193b963785c9af03d5c7bef2c",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage1\\tpo\\merged_manifest.json": "7e6b971a1f230e2cf7a7113b3c2198c1e7cac4dff9e4946dff437ca01ca64a0a",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage1\\tpo\\merged_visual.pt": "2935322b6984ba7c3f314607ae8fdf1145d2d3d7671ede13b4b324659a5c51a9",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage1\\tpo\\source\\LICENSE": "9e502ba75fd0fd30cea5497b438a4bc12f07f02bc932a7a6041fd6a18b8f46a0",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\code\\solution\\__init__.py": "739a2c0be9d9b1445b83695ebfed3cac00e9dfc1e16e52b97fa8f51c77fb012a",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\code\\solution\\stage1.py": "f9def79197fdfc949cc01ec373b7a019f11d7c276e81fedb2015c2bc6f24eeb9",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\code\\solution\\stage1_tpo_merged.py": "e1ddcbd9956b2c3e2d9d0edee55d2162d3d164b16c6423f8968c176526ff5011",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\code\\solution\\stage1_v4.py": "624fc836bc83b09cd273204206ae5b5f0de57ab19bc2b0a428e2957ef08d5c54",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\code\\solution\\stage2.py": "2323653c4271ec09e2bf1761f6938d5cec1f76bbe5a01df96ce7aa22b183dc1a",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\code\\solution\\stage2_motion_collision.py": "091d1b4b53353cf08bc5431fb658d1c7fcc45604a4288546f3aac0fd6a207e2e",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\code\\solution\\stage2_nf4.py": "91e664e42d87e1062614bbe3bc28175f22b000d7938a9b5329e7f887871d0341",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\code\\solution\\stage2_uncapped_jerk_v6c.py": "3e86e5117230fb4680c1d4af630cb02dd7e9aca99b7c4184d7baed13f479d64e",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\code\\solution\\stage2_v2.py": "89ae0bc640670d7ed76103ce7c829d405ad27cc25368c74d153d3b96962b8442",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\code\\solution\\stage3.py": "4b211a1c4f731bbd28b0f6e60de172e9692bfc1fe0f46d49ce21d89ad44f3835",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\code\\solution\\stage3_fast.py": "b93fc1565e476c8b84627fe5d6379f2314b129444942044987fb6b75ca660dca",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\code\\solution\\stage3_v5_compatible.py": "8e9d3b5ce7c60cbcfcca674e42523b8a006e758ca92dd459171c5de8107b120d",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\code\\solution\\vlm.py": "01680e84220c64a6ff8f3415cf59bb7cd225f425814c92f6d2fe8213c5fe1cda",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\code\\solution\\vlm_candidate.py": "99b1cccb3de3172d08b4db8a40cbca3f6a1e595f6f6beb7250ab0c501d47ba7a",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\CHANGES.md": "439b76f32c0cab94fdffb1d1bb56abff150f2b66df7ef29890ceacf9b39e9f21",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\EXPORT_MANIFEST.json": "ca6a1131fd311ece208b953a3c4806b1448dd1eb19afafd2e11a2139ea7dcf0d",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\LICENSE-APACHE-2.0.txt": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\README.md": "e1d74f17eb4dcaf72dd26b8ef5e8e8a352f4f1d35a899dbbab2c3089c1976533",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\README.original.md": "a884e5e78f7d6f7bfe237f909dbc41a126542e259dc79d8ab33cc8980580ff79",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\SOURCE_DOWNLOAD_MANIFEST.json": "0455c7f4577bced191b5acfb3de853c4c8ebb88fbb8b7f090fd2de0ef65b0fca",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\added_tokens.json": "79f6ec6fcc423d3a82bfac8b9033b1daac7b7bce06a5f5f441637b480cc605de",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\chat_template.jinja": "24a1eb036569714fc3efe7908495159c19ac5138f652c9e524475e40ce87d716",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\config.json": "c4fbc3354ffa6bd557af9810ad972d7445329cfa7b90edf1c565caa5e71c582c",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\generation_config.json": "ad9868f17f3b0d352b2c2d45ac4ce71afa25a6f02580b24c7dd246e9f3655bb3",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\model-00001-of-00002.safetensors": "60cfa3b31933793fcbe97002a162e61e89abdd84876cbec4f3cae090fd8a57e0",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\model-00002-of-00002.safetensors": "acddfb8561f15589c3816a8ad00ad8ef1bccd8f6eea9eba612fad1668f459e5f",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\model.safetensors.index.json": "ffe51f7b55fbaa8c5e1db381934668136cfd3ea87fabb23723ec5557fd07603b",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\preprocessor_config.json": "932a67b907ae5ec809c4fb66cbcc951436ab686977e8b5fed9dce916c3a81e9e",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\special_tokens_map.json": "57255613bbe23c9497211ca68561ff429a51e871dbaf5a59998fa4c8f7fe168a",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\tokenizer_config.json": "394a86fd18585e173a0b8ac275bf1a8a44ab1b155b11cb27141ff2c8ee29851d",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\video_preprocessor_config.json": "7cbbda8582bde10b9d94184c676654967fbdf5668a1d1262e83dde7731d74649",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage3\\LICENSE.comma2k19.txt": "89bc004605a774df644fb4166f39c11fe680d508b2ea9e27d9ad714021efeefb",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage3\\motion_model.joblib": "c52ecd15cf68856f2a7b0b37b120c7a961b3bd8889a33af4ec47f8b9719bb3b3",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage3\\training_provenance.json": "37c976c7a18825a6e86a022a69cfad52575d8348c7ff7506ca7e464df22f8c05",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\requirements.txt": "1f57ab984335af332a7fa31608c10bf919635b925ddf8d569757f3fa71a6aa55",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\v5_fullframe_diagnostic\\report.json": "a0168656cecb4356d7e1ced432d37b57dc051cefcb4dfb5f6f69f9a8605bdf8c",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_fullframe_replay\\freeze.json": "aba555a3abf8692139dd93faa06539a6f8c6c5309e26af5321c587f9378705e6",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00000.mp4": "9b7364178cb8b6194db0ee0f96df0ad44615fc265efe435297394dcf6a9be5f9",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00000\\frame_000582.png": "8a9d67138891f42e4d6bc4705dc17bd9d6ad813b32e961582dfd6ad938e99000",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00000\\frame_000584.png": "29c9a7e0d7263b46b74f84f4c4074bf91244115c527a65a804dff363500d6b24",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00000\\frame_000586.png": "814618dae60386cfec83e93ee09b6f8103a93abc15b030aace3382acd6ed8a5e",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00003.mp4": "d5969f23631b3462f68e3de0c3e72f42c731762aec8d47fb916da78e0d59b3e8",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00003\\frame_000581.png": "93a7200b4d87a7a3333bf9fb898df9a5ba485c6fd55b8411f152331ec51fe6a9",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00003\\frame_000583.png": "1580d102a3863723cb1aa71663e8248b7c556bd0284f40d8f4aa70a3a00cdcbc",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00003\\frame_000585.png": "5d0fa21a7be646997640f9e3453b1dd208447f71857ab28b11c5c97603298adb",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00004.mp4": "001be406ca8eddc5e5ea61ed8b6104650879aacb1eff217630f7b932fd45be4f",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00004\\frame_000589.png": "31391e718c69d39c1a0dbef82118847b6435f04ae298c40c4bf93d80c412d149",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00004\\frame_000591.png": "a345d377ad9d858f696924ef9c07f3091b2468cbcfb2c6f7e301f77427015d7e",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00004\\frame_000593.png": "abb179f30ac4bffcbb46752a121576d46d0e92fcb57c42426b2e5714e4f610b6",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00005.mp4": "e68188e582398fcf8e8b2731cb1a79fee7542246184cafb967c3d816ccc1cce1",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00005\\frame_000627.png": "457e134c21738d10fde02020569891cb5e0bc18021269f5ec71ef7c32704e34c",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00005\\frame_000629.png": "96264240b87c423b814240eb31cd3771f60afb37abf18104d41ddac4ad3d2747",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00005\\frame_000631.png": "43aa7f207fbf62bc64f00b0df7151999788b101b5d225221ecbdb04b93b9862f",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00006.mp4": "c9117737cef3990cc27ed9413c85330cf53b0ec91c06840523fe491f2be2c14a",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00006\\frame_000576.png": "8957c02deeea2677dc58c0054c94d7c8257ba3a7f751b07c33f9e553f8062716",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00006\\frame_000578.png": "0852cfc4c1022fc6f2ac646ae5b9529becf566074ee2f2a6dde32de3938bdf90",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00006\\frame_000580.png": "d49c16090ae69cdc755f38dcc7080ad286f29a347db8cdc95f3effa066a94dda",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00007.mp4": "0a7ebda789db958382dbe41e823e7b9466e4d806d3184c9222afe3671d361ed3",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00007\\frame_000328.png": "2dde7515cbcb876fac44537e87775c4631712e29f6b6d6858f104392b0d05538",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00007\\frame_000330.png": "54eee66a82f0be44b137ed16ca6c65b12fd399a020c5f5daafe3de11893f8c0c",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00007\\frame_000332.png": "315b3755f1203370bf64a670ee12a22d33142b08f0abb7a77db5c883ded66c50",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\00008.mp4": "d38a2b7c7feb21465ebebb962d8e6dd83a6bf25053d4952d097222b164f9b5d5",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00008\\frame_000587.png": "0982d40094811135ac053f01b0b18b230e75c732e9f88b0edf1da049a5b7c208",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00008\\frame_000589.png": "8a981ae1a8be2aa6501e7df2d6afdce454988f0d3a8ff0b9b12b544e92b5d641",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00008\\frame_000591.png": "c631d2f4cae7ea6d14ef36b07fc5f87c3c72d434bbb8c3e40ba2a0c635483eb1",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\00010.mp4": "bb0b2975bceaf9a9cfff779e2809ff3dc71d5ddbaecc9c7352c608419e2b7a02",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00010\\frame_000000.png": "763c55a043e9b463db5c243f2e86bef6e7d9cea04eebe6b7f7df69cd560a42d3",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00010\\frame_000001.png": "ddf371e125d897a601c923895d9857e4abd35f7ceef4baa352483ecb206240d3",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00010\\frame_000003.png": "98a4860deddff3ad30e5099157e05975def172eb9814ab18f56a15606fdc497c",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\00013.mp4": "7d8bc01f07761c3f06178a38dccf2eb23a3dc6f6557c2cf486e0cafd5c9089d9",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00013\\frame_000618.png": "2aca5669585b0fb4c5fde8bb39ae87746f2205d16b29c9aa37f33a5254d30e61",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00013\\frame_000620.png": "3be82c61f7361b0803eac50a4d8165dc396eb5534e3077ef1993bc67873307d3",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00013\\frame_000622.png": "2705492460aed87ad41e7150148abbd8aa8703bf8facbbab8e54f10a770af003"
+  },
+  "protocol_sha256": "79422c8bd986ab36a08f1a7a39a226aef1aa2cf2d7dce2335becbce8464b6704",
+  "ids": [
+    "00000",
+    "00003",
+    "00004",
+    "00005",
+    "00006",
+    "00007",
+    "00008",
+    "00010",
+    "00013"
+  ],
+  "source_role": "exposed_development",
+  "model": "frozen_V6_prequantized_4B",
+  "selected_contexts": {
+    "00000": [
+      {
+        "index": 582,
+        "frame": 582,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00000\\frame_000582.png",
+        "sha256": "8a9d67138891f42e4d6bc4705dc17bd9d6ad813b32e961582dfd6ad938e99000"
+      },
+      {
+        "index": 584,
+        "frame": 584,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00000\\frame_000584.png",
+        "sha256": "29c9a7e0d7263b46b74f84f4c4074bf91244115c527a65a804dff363500d6b24"
+      },
+      {
+        "index": 586,
+        "frame": 586,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00000\\frame_000586.png",
+        "sha256": "814618dae60386cfec83e93ee09b6f8103a93abc15b030aace3382acd6ed8a5e"
+      }
+    ],
+    "00003": [
+      {
+        "index": 581,
+        "frame": 581,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00003\\frame_000581.png",
+        "sha256": "93a7200b4d87a7a3333bf9fb898df9a5ba485c6fd55b8411f152331ec51fe6a9"
+      },
+      {
+        "index": 583,
+        "frame": 583,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00003\\frame_000583.png",
+        "sha256": "1580d102a3863723cb1aa71663e8248b7c556bd0284f40d8f4aa70a3a00cdcbc"
+      },
+      {
+        "index": 585,
+        "frame": 585,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00003\\frame_000585.png",
+        "sha256": "5d0fa21a7be646997640f9e3453b1dd208447f71857ab28b11c5c97603298adb"
+      }
+    ],
+    "00004": [
+      {
+        "index": 589,
+        "frame": 589,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00004\\frame_000589.png",
+        "sha256": "31391e718c69d39c1a0dbef82118847b6435f04ae298c40c4bf93d80c412d149"
+      },
+      {
+        "index": 591,
+        "frame": 591,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00004\\frame_000591.png",
+        "sha256": "a345d377ad9d858f696924ef9c07f3091b2468cbcfb2c6f7e301f77427015d7e"
+      },
+      {
+        "index": 593,
+        "frame": 593,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00004\\frame_000593.png",
+        "sha256": "abb179f30ac4bffcbb46752a121576d46d0e92fcb57c42426b2e5714e4f610b6"
+      }
+    ],
+    "00005": [
+      {
+        "index": 627,
+        "frame": 627,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00005\\frame_000627.png",
+        "sha256": "457e134c21738d10fde02020569891cb5e0bc18021269f5ec71ef7c32704e34c"
+      },
+      {
+        "index": 629,
+        "frame": 629,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00005\\frame_000629.png",
+        "sha256": "96264240b87c423b814240eb31cd3771f60afb37abf18104d41ddac4ad3d2747"
+      },
+      {
+        "index": 631,
+        "frame": 631,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00005\\frame_000631.png",
+        "sha256": "43aa7f207fbf62bc64f00b0df7151999788b101b5d225221ecbdb04b93b9862f"
+      }
+    ],
+    "00006": [
+      {
+        "index": 576,
+        "frame": 576,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00006\\frame_000576.png",
+        "sha256": "8957c02deeea2677dc58c0054c94d7c8257ba3a7f751b07c33f9e553f8062716"
+      },
+      {
+        "index": 578,
+        "frame": 578,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00006\\frame_000578.png",
+        "sha256": "0852cfc4c1022fc6f2ac646ae5b9529becf566074ee2f2a6dde32de3938bdf90"
+      },
+      {
+        "index": 580,
+        "frame": 580,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00006\\frame_000580.png",
+        "sha256": "d49c16090ae69cdc755f38dcc7080ad286f29a347db8cdc95f3effa066a94dda"
+      }
+    ],
+    "00007": [
+      {
+        "index": 328,
+        "frame": 328,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00007\\frame_000328.png",
+        "sha256": "2dde7515cbcb876fac44537e87775c4631712e29f6b6d6858f104392b0d05538"
+      },
+      {
+        "index": 330,
+        "frame": 330,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00007\\frame_000330.png",
+        "sha256": "54eee66a82f0be44b137ed16ca6c65b12fd399a020c5f5daafe3de11893f8c0c"
+      },
+      {
+        "index": 332,
+        "frame": 332,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00007\\frame_000332.png",
+        "sha256": "315b3755f1203370bf64a670ee12a22d33142b08f0abb7a77db5c883ded66c50"
+      }
+    ],
+    "00008": [
+      {
+        "index": 587,
+        "frame": 587,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00008\\frame_000587.png",
+        "sha256": "0982d40094811135ac053f01b0b18b230e75c732e9f88b0edf1da049a5b7c208"
+      },
+      {
+        "index": 589,
+        "frame": 589,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00008\\frame_000589.png",
+        "sha256": "8a981ae1a8be2aa6501e7df2d6afdce454988f0d3a8ff0b9b12b544e92b5d641"
+      },
+      {
+        "index": 591,
+        "frame": 591,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00008\\frame_000591.png",
+        "sha256": "c631d2f4cae7ea6d14ef36b07fc5f87c3c72d434bbb8c3e40ba2a0c635483eb1"
+      }
+    ],
+    "00010": [
+      {
+        "index": 0,
+        "frame": 0,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00010\\frame_000000.png",
+        "sha256": "763c55a043e9b463db5c243f2e86bef6e7d9cea04eebe6b7f7df69cd560a42d3"
+      },
+      {
+        "index": 1,
+        "frame": 1,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00010\\frame_000001.png",
+        "sha256": "ddf371e125d897a601c923895d9857e4abd35f7ceef4baa352483ecb206240d3"
+      },
+      {
+        "index": 3,
+        "frame": 3,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00010\\frame_000003.png",
+        "sha256": "98a4860deddff3ad30e5099157e05975def172eb9814ab18f56a15606fdc497c"
+      }
+    ],
+    "00013": [
+      {
+        "index": 618,
+        "frame": 618,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00013\\frame_000618.png",
+        "sha256": "2aca5669585b0fb4c5fde8bb39ae87746f2205d16b29c9aa37f33a5254d30e61"
+      },
+      {
+        "index": 620,
+        "frame": 620,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00013\\frame_000620.png",
+        "sha256": "3be82c61f7361b0803eac50a4d8165dc396eb5534e3077ef1993bc67873307d3"
+      },
+      {
+        "index": 622,
+        "frame": 622,
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00013\\frame_000622.png",
+        "sha256": "2705492460aed87ad41e7150148abbd8aa8703bf8facbbab8e54f10a770af003"
+      }
+    ]
+  },
+  "actual_calls": 9,
+  "cached_other_fields": true,
+  "end_to_end_equivalence_verified": false,
+  "human_answers_read": false
+}

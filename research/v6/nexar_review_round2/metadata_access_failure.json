@@ -1,0 +1,6 @@
+{
+  "error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'huggingface.co\\', port=443): Max retries exceeded with url: /api/datasets/nexar-ai/nexar_collision_prediction/tree/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive?limit=1000 (Caused by NewConnectionError(\"HTTPSConnection(host=\\'huggingface.co\\', port=443): Failed to establish a new connection: [WinError 10013] 액세스 권한에 의해 숨겨진 소켓에 액세스를 시도했습니다\"))'))",
+  "completed_pages": 0,
+  "metadata_bytes": 0,
+  "video_downloads": 0
+}

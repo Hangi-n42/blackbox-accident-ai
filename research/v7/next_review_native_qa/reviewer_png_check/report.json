@@ -1,0 +1,1236 @@
+{
+  "status": "passed",
+  "mapping_results": [
+    {
+      "reviewer": "A",
+      "ID": "00017",
+      "mapping_sha256": "1c80a2c8890dcc3efe259e367097d30e142dfbddcc91b510090c1f1d217ec253",
+      "frames": 1210,
+      "distinct_intervals_seconds_rational": [
+        "1/30"
+      ],
+      "issues": [],
+      "passed": true
+    },
+    {
+      "reviewer": "B",
+      "ID": "00017",
+      "mapping_sha256": "5ba7d4416f80867a5f5cacd1f9f315503c03423a2c2aeb0b63af020629b6220e",
+      "frames": 1210,
+      "distinct_intervals_seconds_rational": [
+        "1/30"
+      ],
+      "issues": [],
+      "passed": true
+    },
+    {
+      "reviewer": "A",
+      "ID": "00018",
+      "mapping_sha256": "8e71619a689ac06aa76f4391a47ef57b0cda564b5afb87024f16c978df63774d",
+      "frames": 1219,
+      "distinct_intervals_seconds_rational": [
+        "1/30"
+      ],
+      "issues": [],
+      "passed": true
+    },
+    {
+      "reviewer": "B",
+      "ID": "00018",
+      "mapping_sha256": "06f2865b66d8faa5070317a851624051de76fe435f93ed2c35197e42ba686bd6",
+      "frames": 1219,
+      "distinct_intervals_seconds_rational": [
+        "1/30"
+      ],
+      "issues": [],
+      "passed": true
+    },
+    {
+      "reviewer": "A",
+      "ID": "00019",
+      "mapping_sha256": "ec3595201974b179ce0b8971dc525720c0ffe84843f17280cd9f6c6abdf2e17a",
+      "frames": 1226,
+      "distinct_intervals_seconds_rational": [
+        "5/153"
+      ],
+      "issues": [],
+      "passed": true
+    },
+    {
+      "reviewer": "B",
+      "ID": "00019",
+      "mapping_sha256": "c39ea84fb0f440e67e6b0fd0863e9ce67939ac88b1ca4779bbbaba985c53ab58",
+      "frames": 1226,
+      "distinct_intervals_seconds_rational": [
+        "5/153"
+      ],
+      "issues": [],
+      "passed": true
+    },
+    {
+      "reviewer": "A",
+      "ID": "00021",
+      "mapping_sha256": "71f3e109959d17b719feb7abcb83e947f1a7b7efb9cf47782871c8321c29b221",
+      "frames": 1199,
+      "distinct_intervals_seconds_rational": [
+        "1/30"
+      ],
+      "issues": [],
+      "passed": true
+    },
+    {
+      "reviewer": "B",
+      "ID": "00021",
+      "mapping_sha256": "897255cb50934dbfc73230cc164a4f6fd0fa96d87365f7c2cc8fbcbe29fcba3e",
+      "frames": 1199,
+      "distinct_intervals_seconds_rational": [
+        "1/30"
+      ],
+      "issues": [],
+      "passed": true
+    },
+    {
+      "reviewer": "A",
+      "ID": "00022",
+      "mapping_sha256": "f035b0a2157daaca0ada9f2939ab6a535fdc8c1ef2c9c004f7f32e712ce2a8dc",
+      "frames": 1213,
+      "distinct_intervals_seconds_rational": [
+        "1/30"
+      ],
+      "issues": [],
+      "passed": true
+    },
+    {
+      "reviewer": "B",
+      "ID": "00022",
+      "mapping_sha256": "5db66b0661a31395c62f84992f32f626b80a8c097ba162d83a4809a43c7d9a35",
+      "frames": 1213,
+      "distinct_intervals_seconds_rational": [
+        "1/30"
+      ],
+      "issues": [],
+      "passed": true
+    },
+    {
+      "reviewer": "A",
+      "ID": "00023",
+      "mapping_sha256": "51730f198610c92776eb63bd5b064b4481bcf70a71f61c4acd76f4b0a623b516",
+      "frames": 1217,
+      "distinct_intervals_seconds_rational": [
+        "1/30"
+      ],
+      "issues": [],
+      "passed": true
+    },
+    {
+      "reviewer": "B",
+      "ID": "00023",
+      "mapping_sha256": "a5a7d6f452c9a4a7e3e966845c4f7db9226b3a96861c33acc31876a29871da41",
+      "frames": 1217,
+      "distinct_intervals_seconds_rational": [
+        "1/30"
+      ],
+      "issues": [],
+      "passed": true
+    }
+  ],
+  "image_results": [
+    {
+      "reviewer": "A",
+      "ID": "00017",
+      "index": 0,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00017\\frame_000000.png",
+      "sha256": "d9081df1fde3c9a7e95a32daa57bc421fcdec07a33cb73a73cd1f62a2e67b54d",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "039569f1b53a0b097d71289cdd5d3e00167fda5bc8444b84b6dc293c5526e006",
+      "original_RGB_sha256": "039569f1b53a0b097d71289cdd5d3e00167fda5bc8444b84b6dc293c5526e006",
+      "native_pts": 0,
+      "time_base": "1/15360",
+      "pts_seconds": 0.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "A",
+      "ID": "00017",
+      "index": 592,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00017\\frame_000592.png",
+      "sha256": "63365bf3620476e5c3e63ffe9a1cd9ef72dfc2f7bdcdc594a71189fb2206c5fd",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "472cc761e2c667a6239834134b43d3ca07eb079c30af91aab1367c3bfe2e1b54",
+      "original_RGB_sha256": "472cc761e2c667a6239834134b43d3ca07eb079c30af91aab1367c3bfe2e1b54",
+      "native_pts": 303104,
+      "time_base": "1/15360",
+      "pts_seconds": 19.733333333333334,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "A",
+      "ID": "00017",
+      "index": 1209,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00017\\frame_001209.png",
+      "sha256": "6b2a91ee89ba2b8d2f51b466d09d817c0dce1314507c1a9b9eb1ca529760c008",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "283255ec754665fb4e09cca5753a78268649e1750adb31badf3c5aef8ace1273",
+      "original_RGB_sha256": "283255ec754665fb4e09cca5753a78268649e1750adb31badf3c5aef8ace1273",
+      "native_pts": 619008,
+      "time_base": "1/15360",
+      "pts_seconds": 40.3,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00017",
+      "index": 0,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00017\\overview_frame000000.png",
+      "sha256": "bed7cadcb18a03c77ec0d3140a4c16d7f3e6fd91a04dd8f92c5a0f912ba0dfdb",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "039569f1b53a0b097d71289cdd5d3e00167fda5bc8444b84b6dc293c5526e006",
+      "original_RGB_sha256": "039569f1b53a0b097d71289cdd5d3e00167fda5bc8444b84b6dc293c5526e006",
+      "native_pts": 0,
+      "time_base": "1/15360",
+      "pts_seconds": 0.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00017",
+      "index": 567,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00017\\native_frame000567.png",
+      "sha256": "f3b6b7bc8cab3bfeaf119e87f88ee553dad3bb0aa2227cf6dc3ddf15191f355c",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "ec2c0798494207db8daeb2464eced330e078a6dc5a42966c1150e2fb4c81f125",
+      "original_RGB_sha256": "ec2c0798494207db8daeb2464eced330e078a6dc5a42966c1150e2fb4c81f125",
+      "native_pts": 290304,
+      "time_base": "1/15360",
+      "pts_seconds": 18.9,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00017",
+      "index": 1200,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00017\\overview_frame001200.png",
+      "sha256": "b369bfc6774636ec6840fd0c493b6263400a60d8d6bb6b9cb241662de2ffaf6b",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "fead1f602965cf4cb7d97fdd021a6d647523bf7c255c03e6f18ae10a2d21ea0b",
+      "original_RGB_sha256": "fead1f602965cf4cb7d97fdd021a6d647523bf7c255c03e6f18ae10a2d21ea0b",
+      "native_pts": 614400,
+      "time_base": "1/15360",
+      "pts_seconds": 40.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "A",
+      "ID": "00018",
+      "index": 0,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00018\\frame_000000.png",
+      "sha256": "d2b8164de9e58dab1a60157e70f953badb833557b203d0b58f66bd89823a6de2",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "0bf5e72162eaebcd75b108cd02e6a64691bbb7b392e0564325a6d90981157543",
+      "original_RGB_sha256": "0bf5e72162eaebcd75b108cd02e6a64691bbb7b392e0564325a6d90981157543",
+      "native_pts": 0,
+      "time_base": "1/15360",
+      "pts_seconds": 0.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "A",
+      "ID": "00018",
+      "index": 542,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00018\\frame_000542.png",
+      "sha256": "2200f4cb7457e3316674a791a4801e81d9005cf0fc0a821edcd57e5110b3d430",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "13d4a11eab3fe48a31f1bdc1c6807ec31aff424c7a474fb0cb30c321b7bda3c6",
+      "original_RGB_sha256": "13d4a11eab3fe48a31f1bdc1c6807ec31aff424c7a474fb0cb30c321b7bda3c6",
+      "native_pts": 277504,
+      "time_base": "1/15360",
+      "pts_seconds": 18.066666666666666,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "A",
+      "ID": "00018",
+      "index": 1218,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00018\\frame_001218.png",
+      "sha256": "fee512c9cb54b880377b91495c72a767549cc3416f79634a438cef7cab8b1700",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "5ce0c0d7e8865ea9801a5f6a3aca2733f0d1bf7255b81eea5ea3ec117c4ef822",
+      "original_RGB_sha256": "5ce0c0d7e8865ea9801a5f6a3aca2733f0d1bf7255b81eea5ea3ec117c4ef822",
+      "native_pts": 623616,
+      "time_base": "1/15360",
+      "pts_seconds": 40.6,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00018",
+      "index": 0,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00018\\overview_frame000000.png",
+      "sha256": "8448d207385cc2e2d22df534d5ffe77b18690a2da251dd08c2a14b844e374700",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "0bf5e72162eaebcd75b108cd02e6a64691bbb7b392e0564325a6d90981157543",
+      "original_RGB_sha256": "0bf5e72162eaebcd75b108cd02e6a64691bbb7b392e0564325a6d90981157543",
+      "native_pts": 0,
+      "time_base": "1/15360",
+      "pts_seconds": 0.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00018",
+      "index": 576,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00018\\native_frame000576.png",
+      "sha256": "73575a587c72c3f74f3fbeb6265989c5b99a42843330ff840a0f5b39637a5f56",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "5070fc626f8145105c3f3a3d76e210421584f72d6a617bbebf4a857e846572fb",
+      "original_RGB_sha256": "5070fc626f8145105c3f3a3d76e210421584f72d6a617bbebf4a857e846572fb",
+      "native_pts": 294912,
+      "time_base": "1/15360",
+      "pts_seconds": 19.2,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00018",
+      "index": 1200,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00018\\overview_frame001200.png",
+      "sha256": "af81918b97f188c8656bddde5a467471ac5046cb88d46027fd7f83faff143b63",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "3dc522ec36d3f2f28fadeeb4d761a38558ad89a4975ebbe64a1f8d646b05f337",
+      "original_RGB_sha256": "3dc522ec36d3f2f28fadeeb4d761a38558ad89a4975ebbe64a1f8d646b05f337",
+      "native_pts": 614400,
+      "time_base": "1/15360",
+      "pts_seconds": 40.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "A",
+      "ID": "00019",
+      "index": 0,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00019\\frame_000000.png",
+      "sha256": "28623012b29521e6bdb80bf038547431639a9b630a87016849e7a5fbfa22ca91",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "8cc054cc7749dcdbc445e36e362cabd5c099031cce755525c12b08bfabb8890a",
+      "original_RGB_sha256": "8cc054cc7749dcdbc445e36e362cabd5c099031cce755525c12b08bfabb8890a",
+      "native_pts": 0,
+      "time_base": "1/19584",
+      "pts_seconds": 0.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "A",
+      "ID": "00019",
+      "index": 612,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00019\\frame_000612.png",
+      "sha256": "e4df75faa1568ccb06462d937c2205a507648b1c3432a6c5853bde25aa8f93f1",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "40d2324b1a9dff21198dbf7c77e68c09ead9b7fac775ab8992a7679db1c00f54",
+      "original_RGB_sha256": "40d2324b1a9dff21198dbf7c77e68c09ead9b7fac775ab8992a7679db1c00f54",
+      "native_pts": 391680,
+      "time_base": "1/19584",
+      "pts_seconds": 20.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "A",
+      "ID": "00019",
+      "index": 1225,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00019\\frame_001225.png",
+      "sha256": "cf8aae19dd24efcee0d9697a75829a1d56bd5586b64fe578e8ada1becbba6ec3",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "8447f5ae9b97bbf88a0eb0c1548f7fdc13dd6efa6dc4adf4769a87a0cf651d46",
+      "original_RGB_sha256": "8447f5ae9b97bbf88a0eb0c1548f7fdc13dd6efa6dc4adf4769a87a0cf651d46",
+      "native_pts": 784000,
+      "time_base": "1/19584",
+      "pts_seconds": 40.032679738562095,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00019",
+      "index": 0,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00019\\overview_frame000000.png",
+      "sha256": "7b3515b16d81d81b7812eab1da322c381ef81cf007d4fe08fc8d2d039decdc6f",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "8cc054cc7749dcdbc445e36e362cabd5c099031cce755525c12b08bfabb8890a",
+      "original_RGB_sha256": "8cc054cc7749dcdbc445e36e362cabd5c099031cce755525c12b08bfabb8890a",
+      "native_pts": 0,
+      "time_base": "1/19584",
+      "pts_seconds": 0.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00019",
+      "index": 609,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00019\\native_frame000609.png",
+      "sha256": "e00246fc1d626f26ed77bfdcfc1c4081addaaec6a7e8f5a7726afb5425e21c49",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "d604d37bec6716ae5b30882d32ce07eb1d7d36335dd436324f0daf885d586d98",
+      "original_RGB_sha256": "d604d37bec6716ae5b30882d32ce07eb1d7d36335dd436324f0daf885d586d98",
+      "native_pts": 389760,
+      "time_base": "1/19584",
+      "pts_seconds": 19.901960784313726,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00019",
+      "index": 1224,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00019\\overview_frame001224.png",
+      "sha256": "a86be708ba44f55ed45759e56297b584ef7b2f9922bf3d1417b917a60a811025",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "1ee04fc5c03ebc9ba4483f91a494231ef841cddcab723b1425f732638187de96",
+      "original_RGB_sha256": "1ee04fc5c03ebc9ba4483f91a494231ef841cddcab723b1425f732638187de96",
+      "native_pts": 783360,
+      "time_base": "1/19584",
+      "pts_seconds": 40.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "A",
+      "ID": "00021",
+      "index": 0,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00021\\frame_000000.png",
+      "sha256": "6325486144bf41000f441d4089f0e71426fb4897b1fc50045989df65868b8f19",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "be5c5287fe4f857f4b978f6e73e6752c3469d05dbe4302c9515982d4a4b9ef77",
+      "original_RGB_sha256": "be5c5287fe4f857f4b978f6e73e6752c3469d05dbe4302c9515982d4a4b9ef77",
+      "native_pts": 0,
+      "time_base": "1/15360",
+      "pts_seconds": 0.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "A",
+      "ID": "00021",
+      "index": 598,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00021\\frame_000598.png",
+      "sha256": "7eaf7af39bbfe7f23efbe7b6326d2615d21ecf3f26525673aa9be6304fb53d5c",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "ec805f307a9ed173daf28aba80a9cc3c856055593039b9fc96d968026a143c69",
+      "original_RGB_sha256": "ec805f307a9ed173daf28aba80a9cc3c856055593039b9fc96d968026a143c69",
+      "native_pts": 306176,
+      "time_base": "1/15360",
+      "pts_seconds": 19.933333333333334,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "A",
+      "ID": "00021",
+      "index": 1198,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00021\\frame_001198.png",
+      "sha256": "ececb74409cc2f2dc9b6070e40dabf4bd3f9c027738d51d9b663e8ddb3f44765",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "3545a3d887e1b199bf6f9aea4726389b125c30d286dcf038c099f9b3517d69e3",
+      "original_RGB_sha256": "3545a3d887e1b199bf6f9aea4726389b125c30d286dcf038c099f9b3517d69e3",
+      "native_pts": 613376,
+      "time_base": "1/15360",
+      "pts_seconds": 39.93333333333333,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00021",
+      "index": 0,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00021\\overview_frame000000.png",
+      "sha256": "11718304a3910754c521148a449a52914e39c029eb332b6fa0b928c96cf5592a",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "be5c5287fe4f857f4b978f6e73e6752c3469d05dbe4302c9515982d4a4b9ef77",
+      "original_RGB_sha256": "be5c5287fe4f857f4b978f6e73e6752c3469d05dbe4302c9515982d4a4b9ef77",
+      "native_pts": 0,
+      "time_base": "1/15360",
+      "pts_seconds": 0.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00021",
+      "index": 600,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00021\\native_frame000600.png",
+      "sha256": "13a31bd22c491e2ca6bb558278aeae82381edc35e3d9918c97bc3476e99a2016",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "fc48611c4de5a889c997f4717c5961948c910ac4c6fa96f9c6891c2d3685953d",
+      "original_RGB_sha256": "fc48611c4de5a889c997f4717c5961948c910ac4c6fa96f9c6891c2d3685953d",
+      "native_pts": 307200,
+      "time_base": "1/15360",
+      "pts_seconds": 20.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00021",
+      "index": 600,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00021\\overview_frame000600.png",
+      "sha256": "13a31bd22c491e2ca6bb558278aeae82381edc35e3d9918c97bc3476e99a2016",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "fc48611c4de5a889c997f4717c5961948c910ac4c6fa96f9c6891c2d3685953d",
+      "original_RGB_sha256": "fc48611c4de5a889c997f4717c5961948c910ac4c6fa96f9c6891c2d3685953d",
+      "native_pts": 307200,
+      "time_base": "1/15360",
+      "pts_seconds": 20.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00021",
+      "index": 1170,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00021\\overview_frame001170.png",
+      "sha256": "854eafae75ebfc1d7bab2c818ce9a82919b08b366230926ed1e6607fee714c45",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "172b545a165f1a4fbd14bb754747728774c54459d779d195f48cc7683b703785",
+      "original_RGB_sha256": "172b545a165f1a4fbd14bb754747728774c54459d779d195f48cc7683b703785",
+      "native_pts": 599040,
+      "time_base": "1/15360",
+      "pts_seconds": 39.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "A",
+      "ID": "00022",
+      "index": 0,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00022\\frame_000000.png",
+      "sha256": "2d02c30f34fbfa7846ae686490265f8d92e82f38c6441e47f63a1aad08e84310",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "7df0cf710e36d94ee39dd3f3e83a5d51295b33fb62b50a90df341909819df9f6",
+      "original_RGB_sha256": "7df0cf710e36d94ee39dd3f3e83a5d51295b33fb62b50a90df341909819df9f6",
+      "native_pts": 0,
+      "time_base": "1/15360",
+      "pts_seconds": 0.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "A",
+      "ID": "00022",
+      "index": 608,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00022\\frame_000608.png",
+      "sha256": "f1fc99ca06d1f8aaa8357a7133a0b8cecf1649dd10a33df4a92c2fcc9434eba8",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "b79bce3df0ea856bc50ca7aa586394ebaffd4b71f592f95317e27e52770335cb",
+      "original_RGB_sha256": "b79bce3df0ea856bc50ca7aa586394ebaffd4b71f592f95317e27e52770335cb",
+      "native_pts": 311296,
+      "time_base": "1/15360",
+      "pts_seconds": 20.266666666666666,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "A",
+      "ID": "00022",
+      "index": 1212,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00022\\frame_001212.png",
+      "sha256": "2848980357a211ac545a2e1d8ce2d460d8c44e5d360036455e57674c580ea479",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "4dab96e3971178025b85c47484a77afa114de264ea165ef9983c5300faff94c0",
+      "original_RGB_sha256": "4dab96e3971178025b85c47484a77afa114de264ea165ef9983c5300faff94c0",
+      "native_pts": 620544,
+      "time_base": "1/15360",
+      "pts_seconds": 40.4,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00022",
+      "index": 0,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00022\\overview_frame000000.png",
+      "sha256": "b0ce035ae05f66eccd180ec924f186bd5f7c2de1aaf0ab1778f2226a6e7af576",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "7df0cf710e36d94ee39dd3f3e83a5d51295b33fb62b50a90df341909819df9f6",
+      "original_RGB_sha256": "7df0cf710e36d94ee39dd3f3e83a5d51295b33fb62b50a90df341909819df9f6",
+      "native_pts": 0,
+      "time_base": "1/15360",
+      "pts_seconds": 0.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00022",
+      "index": 600,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00022\\native_frame000600.png",
+      "sha256": "ee5b07a3b9dabf8803fb1c1d98396abd03623aed0bb53601e7edd9d830785e74",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "33ca9e7ea8e48e949dd4e2b2ab8dcff77756a204537da0dc52531a994f9e4461",
+      "original_RGB_sha256": "33ca9e7ea8e48e949dd4e2b2ab8dcff77756a204537da0dc52531a994f9e4461",
+      "native_pts": 307200,
+      "time_base": "1/15360",
+      "pts_seconds": 20.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00022",
+      "index": 600,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00022\\overview_frame000600.png",
+      "sha256": "ee5b07a3b9dabf8803fb1c1d98396abd03623aed0bb53601e7edd9d830785e74",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "33ca9e7ea8e48e949dd4e2b2ab8dcff77756a204537da0dc52531a994f9e4461",
+      "original_RGB_sha256": "33ca9e7ea8e48e949dd4e2b2ab8dcff77756a204537da0dc52531a994f9e4461",
+      "native_pts": 307200,
+      "time_base": "1/15360",
+      "pts_seconds": 20.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00022",
+      "index": 1200,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00022\\overview_frame001200.png",
+      "sha256": "e1ba1ede8e526f5989e88add47bb11092edfd6948e868414db06697d06440fc7",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "674283a9d25db55ed2b68a613dc09846b32507a1874dd03d52543c73bdd497df",
+      "original_RGB_sha256": "674283a9d25db55ed2b68a613dc09846b32507a1874dd03d52543c73bdd497df",
+      "native_pts": 614400,
+      "time_base": "1/15360",
+      "pts_seconds": 40.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "A",
+      "ID": "00023",
+      "index": 0,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00023\\frame_000000.png",
+      "sha256": "ccf0e91ada7a6270d5176937d059514ce5e13c97204cc380f5084485ecf4b435",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "2800c12234eac5ff0ea6343d524b9cffd2e92fbcc223c9eb196d71e8572ba3cb",
+      "original_RGB_sha256": "2800c12234eac5ff0ea6343d524b9cffd2e92fbcc223c9eb196d71e8572ba3cb",
+      "native_pts": 0,
+      "time_base": "1/15360",
+      "pts_seconds": 0.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "A",
+      "ID": "00023",
+      "index": 606,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00023\\frame_000606.png",
+      "sha256": "79be248d73c9ffa04952d7f48e914025053a32b0a3931e8c10ea310c9db5e797",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "f45a86094877d90a72f29082caebed854a2a251298bba908c5f2fb66022a4f17",
+      "original_RGB_sha256": "f45a86094877d90a72f29082caebed854a2a251298bba908c5f2fb66022a4f17",
+      "native_pts": 310272,
+      "time_base": "1/15360",
+      "pts_seconds": 20.2,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "A",
+      "ID": "00023",
+      "index": 1216,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_a\\00023\\frame_001216.png",
+      "sha256": "4c2274928cfd7d26c174961ff67eda098293ccebf1ff4ea1d07474b64594c511",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "1132f29e3b34177aef739b550804c92ccc01bbc2da212a6cf11f3a1b4e23c016",
+      "original_RGB_sha256": "1132f29e3b34177aef739b550804c92ccc01bbc2da212a6cf11f3a1b4e23c016",
+      "native_pts": 622592,
+      "time_base": "1/15360",
+      "pts_seconds": 40.53333333333333,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00023",
+      "index": 0,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000000.png",
+      "sha256": "178d1dc2b5d3d1f6ab5cfdc1640c9bc6edbc03f8c91fe748b1582a160be0bbb1",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "2800c12234eac5ff0ea6343d524b9cffd2e92fbcc223c9eb196d71e8572ba3cb",
+      "original_RGB_sha256": "2800c12234eac5ff0ea6343d524b9cffd2e92fbcc223c9eb196d71e8572ba3cb",
+      "native_pts": 0,
+      "time_base": "1/15360",
+      "pts_seconds": 0.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00023",
+      "index": 600,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\native_frame000600.png",
+      "sha256": "859ca7c4e9cc75ceffd74807a4d0a653a12a469330af1efbcb31098794846021",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "472d7ea7c3652d7ecc5b82b099b45dee2a89059fe5adb8f849550d90fb0e49db",
+      "original_RGB_sha256": "472d7ea7c3652d7ecc5b82b099b45dee2a89059fe5adb8f849550d90fb0e49db",
+      "native_pts": 307200,
+      "time_base": "1/15360",
+      "pts_seconds": 20.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00023",
+      "index": 600,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame000600.png",
+      "sha256": "859ca7c4e9cc75ceffd74807a4d0a653a12a469330af1efbcb31098794846021",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "472d7ea7c3652d7ecc5b82b099b45dee2a89059fe5adb8f849550d90fb0e49db",
+      "original_RGB_sha256": "472d7ea7c3652d7ecc5b82b099b45dee2a89059fe5adb8f849550d90fb0e49db",
+      "native_pts": 307200,
+      "time_base": "1/15360",
+      "pts_seconds": 20.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    },
+    {
+      "reviewer": "B",
+      "ID": "00023",
+      "index": 1200,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\next_review_b\\00023\\overview_frame001200.png",
+      "sha256": "0d128c029c44832fdf1762b1fa3da3491dd3895b557d63baa36034576b7dc69a",
+      "passed": true,
+      "RGB_exact_equal": true,
+      "shape_equal": true,
+      "PNG_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "original_RGB_shape": [
+        720,
+        1280,
+        3
+      ],
+      "PNG_RGB_sha256": "01275556f5d803d0c5eee4c942a3a9f538f7d4ade2d7988af43cf8629829418e",
+      "original_RGB_sha256": "01275556f5d803d0c5eee4c942a3a9f538f7d4ade2d7988af43cf8629829418e",
+      "native_pts": 614400,
+      "time_base": "1/15360",
+      "pts_seconds": 40.0,
+      "native_PTS_equals_own_QA": true,
+      "PNG_file_unchanged": true,
+      "max_RGB_abs_error": 0
+    }
+  ],
+  "errors": [],
+  "seconds": 13.28100000001723,
+  "annotation_semantics_checked": false,
+  "model_or_accuracy_evaluation": false,
+  "limitations": "Only three distinct available native frame IDs per source/reviewer, with every recognized PNG at these IDs, are pixel-verified. Unselected PNGs/contact sheets are not certified. Exact native mapping validation is not human/official GT approval."
+}

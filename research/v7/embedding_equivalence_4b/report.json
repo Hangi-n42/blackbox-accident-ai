@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "variants": {
+    "all_gpu": [
+      {
+        "call": 1,
+        "raw": "{\n  \"collision_frame\": 1028,\n  \"entry_side\": \"RIGHT\"\n}",
+        "seconds": 3.676175400032662
+      },
+      {
+        "call": 2,
+        "raw": "{\n  \"collision_frame\": 1093\n}",
+        "seconds": 2.8900800999836065
+      },
+      {
+        "call": 3,
+        "raw": "{\n  \"entry_frame\": 596\n}",
+        "seconds": 2.7780135999782942
+      },
+      {
+        "call": 4,
+        "raw": "{\n  \"evasion_space\": 0\n}",
+        "seconds": 1.5027784999692813
+      }
+    ],
+    "cpu_lookup": [
+      {
+        "call": 1,
+        "raw": "{\n  \"collision_frame\": 1028,\n  \"entry_side\": \"RIGHT\"\n}",
+        "seconds": 3.211862600001041
+      },
+      {
+        "call": 2,
+        "raw": "{\n  \"collision_frame\": 1093\n}",
+        "seconds": 2.421109899994917
+      },
+      {
+        "call": 3,
+        "raw": "{\n  \"entry_frame\": 596\n}",
+        "seconds": 2.277163999970071
+      },
+      {
+        "call": 4,
+        "raw": "{\n  \"evasion_space\": 0\n}",
+        "seconds": 1.4398382999934256
+      }
+    ]
+  },
+  "policy": {
+    "policy": "CPU FP16 token lookup, result returned to input device",
+    "module": "model.language_model.embed_tokens",
+    "dtype": "torch.float16",
+    "parameter_bytes": 777912320,
+    "tied_source": true,
+    "tied_diagnostic_only": true,
+    "lookup_check_equal": true,
+    "state_key": "model.language_model.embed_tokens.weight"
+  },
+  "exact_raw_equal": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "limitation": "Four real prompts with4B only;8B inference and export/reload still unverified. Tied4B test does not claim memory savings."
+}

@@ -1,0 +1,12 @@
+{
+  "experiment":"V7 separate motion initialization correction",
+  "prior_candidate":"Four-call automatic grounding candidate failed the unchanged initial development criteria; preserved without adoption",
+  "origin":"Code audit: previous_shift is initialized to zero, so input index1 has no preceding observed flow shift from which a difference can be measured",
+  "policy":"Keep V6 normalization, all scores except index1, and all four VLM calls unchanged. At index1 remove only the unsupported uncapped shift-difference contribution. Retain its original residual and appearance contributions. Never exclude a time range or assume FPS.",
+  "short_input":"One frame retains score0. With two frames, index1 keeps valid residual/appearance evidence; no fabricated preceding shift is supplied.",
+  "scope":"Separate cause-driven candidate after unified candidate failure, not a successful reinterpretation of that experiment",
+  "frozen_before_new_candidate_score_computation":true,
+  "evaluation":"All9 exposed human drafts; contact gained>=1, lost=0 and MAE nonincrease to advance. Other outputs byte-equivalent by construction. This is development evidence, not independent GT validation.",
+  "fresh_review":"New3 sources remain fixed AI secondary evidence, no exact-contact ground truth manufactured",
+  "known_risk":"An actual contact at the second frame may lose useful motion magnitude when no earlier velocity observation exists. Residual/appearance still permit selection there. Removing unsupported acceleration does not solve all motion-versus-contact ambiguity."
+}

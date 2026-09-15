@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-09-15T04:49:00.023110+00:00",
+  "revision": "aa97deda5a59f00bb7187739053b7c72e14374df",
+  "repository": "nexar-ai/nexar_collision_prediction",
+  "metadata_endpoint": "https://huggingface.co/api/datasets/nexar-ai/nexar_collision_prediction/tree/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive",
+  "inputs_sha256": {
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\acquisition.json": "71d241d10208a006e5d5ff2042e0a86e889914fa012898f6b458ca62a0b09b34",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\plan.json": "22fac01cb405e551bc47ed6c536c0e750014fd2aeecece69b64cbed4c959c477",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\prepare_metadata.py": "2fcca21cd8cd56c09a133158afb54545a374d34568ae6e93eb90cb1b1537f195",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00000.mp4": "9b7364178cb8b6194db0ee0f96df0ad44615fc265efe435297394dcf6a9be5f9",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00003.mp4": "d5969f23631b3462f68e3de0c3e72f42c731762aec8d47fb916da78e0d59b3e8",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00004.mp4": "001be406ca8eddc5e5ea61ed8b6104650879aacb1eff217630f7b932fd45be4f",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00005.mp4": "e68188e582398fcf8e8b2731cb1a79fee7542246184cafb967c3d816ccc1cce1",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00006.mp4": "c9117737cef3990cc27ed9413c85330cf53b0ec91c06840523fe491f2be2c14a",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00007.mp4": "0a7ebda789db958382dbe41e823e7b9466e4d806d3184c9222afe3671d361ed3"
+  },
+  "used_sources": {
+    "00000.mp4": "9b7364178cb8b6194db0ee0f96df0ad44615fc265efe435297394dcf6a9be5f9",
+    "00003.mp4": "d5969f23631b3462f68e3de0c3e72f42c731762aec8d47fb916da78e0d59b3e8",
+    "00004.mp4": "001be406ca8eddc5e5ea61ed8b6104650879aacb1eff217630f7b932fd45be4f",
+    "00005.mp4": "e68188e582398fcf8e8b2731cb1a79fee7542246184cafb967c3d816ccc1cce1",
+    "00006.mp4": "c9117737cef3990cc27ed9413c85330cf53b0ec91c06840523fe491f2be2c14a",
+    "00007.mp4": "0a7ebda789db958382dbe41e823e7b9466e4d806d3184c9222afe3671d361ed3"
+  },
+  "source_count": 3,
+  "budget_bytes": 60000000,
+  "rule": "Fetch complete positive-directory metadata, sort MP4 paths lexicographically; exclude previously used filenames and any matching previously used SHA256; select next three unique SHA256 sources. No size-driven substitution.",
+  "metadata_limit_pages": 10,
+  "metadata_limit_bytes": 5000000,
+  "scope": "Metadata only; no MP4 or labels.json read/download; no GPU/model/GT",
+  "independence": "New exact object SHA only; same-incident/perceptual/pretraining independence unverified. Human review required."
+}

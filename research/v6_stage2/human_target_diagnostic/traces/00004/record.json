@@ -1,0 +1,12 @@
+{
+  "ID": "00004",
+  "prompt": "Use this externally supplied description to identify the same counterpart throughout the images: The collision counterpart is the dark vehicle that suddenly comes from the right. These dashcam frames are chronological, left to right, top to bottom. They come from two local time windows and do not show the whole clip; there may be a time gap between the windows. Which offered numbered frame first shows actual physical contact between the camera vehicle and the other vehicle? Do not select mere close proximity, braking, or camera shake without visible contact evidence. If the first physical contact cannot be determined from these images, return null. Allowed frames: [564, 570, 579, 588, 594, 600, 609, 618, 624, 1038, 1044, 1053, 1062, 1068, 1074, 1083, 1092, 1098]. Return JSON only with collision_frame: an offered integer frame number, or null.",
+  "max_new_tokens": 48,
+  "raw": "{\n  \"collision_frame\": null\n}",
+  "seconds": 2.1173721000086516,
+  "image_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\contact_verify_v6a_development\\traces\\00004\\call_1\\input_0.png",
+  "image_sha256": "b5f8bd5b6620632ba0ab3101aa29ab79ebbef291c65704a4774fe2a9bfc9e689",
+  "image_rgb_sha256": "5c6a54a04a1b5ab589c14dd78ea275a6345a83df22a744adddcbe15325926553",
+  "candidate": false,
+  "submission_eligible": false
+}

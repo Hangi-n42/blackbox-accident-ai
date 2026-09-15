@@ -1,0 +1,21 @@
+{
+  "video_hashcode": "9ca724b1",
+  "video_name": "8_9509",
+  "id": "8281",
+  "type": "8",
+  "weather": "1",
+  "light": "1",
+  "scenes": "4",
+  "linear": "4",
+  "accident occurred": "1",
+  "abnormal_start_frame": "20",
+  "abnormal_end_frame": "200",
+  "accident_frame": "90",
+  "total_frames": "223",
+  "t_ai": "20",
+  "t_co": "90",
+  "t_ae": "200",
+  "texts": "a motorbike turns left across path at non-signalized junctions",
+  "causes": "the truck does not notice the coming vehicles when turning or changling lanes",
+  "measures": "If the trucks turn on the turn signal in advance when turning or turning, they should pay attention to the speed limit, and give way to the straightly moving vehicles."
+}

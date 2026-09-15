@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scope": "CPU identity/contract checks only; no GT or GPU",
+  "checks": [
+    "00004-only whitelist",
+    "4 total and same per-call tokens",
+    "all other policy fields identical",
+    "timestamp selection parity across four synthetic sequences",
+    "3 source AST identities",
+    "protected original SHA unchanged"
+  ],
+  "runner_sha256": "031e46b26eb3d555dfc746a20ef618fcdd9906a19fdc0bc4582236a9ffc06e8f"
+}

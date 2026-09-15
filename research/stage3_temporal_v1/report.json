@@ -1,0 +1,274 @@
+{
+  "status": "do_not_adopt",
+  "public_oof_executed": true,
+  "public_results": [
+    {
+      "task": "accel",
+      "raw_macro_f1": 0.7428571428571429,
+      "smoothed_macro_f1": 0.7428571428571429,
+      "raw_report": {
+        "ACCELERATING": {
+          "precision": 0.8,
+          "recall": 0.4444444444444444,
+          "f1-score": 0.5714285714285714,
+          "support": 9.0
+        },
+        "DECELERATING": {
+          "precision": 0.5,
+          "recall": 0.75,
+          "f1-score": 0.6,
+          "support": 8.0
+        },
+        "CONSTANT": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1-score": 0.8,
+          "support": 30.0
+        },
+        "STOPPED": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "accuracy": 0.74,
+        "macro avg": {
+          "precision": 0.775,
+          "recall": 0.7486111111111111,
+          "f1-score": 0.7428571428571429,
+          "support": 50.0
+        },
+        "weighted avg": {
+          "precision": 0.764,
+          "recall": 0.74,
+          "f1-score": 0.7388571428571429,
+          "support": 50.0
+        }
+      },
+      "smoothed_report": {
+        "ACCELERATING": {
+          "precision": 0.8,
+          "recall": 0.4444444444444444,
+          "f1-score": 0.5714285714285714,
+          "support": 9.0
+        },
+        "DECELERATING": {
+          "precision": 0.5,
+          "recall": 0.75,
+          "f1-score": 0.6,
+          "support": 8.0
+        },
+        "CONSTANT": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1-score": 0.8,
+          "support": 30.0
+        },
+        "STOPPED": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "accuracy": 0.74,
+        "macro avg": {
+          "precision": 0.775,
+          "recall": 0.7486111111111111,
+          "f1-score": 0.7428571428571429,
+          "support": 50.0
+        },
+        "weighted avg": {
+          "precision": 0.764,
+          "recall": 0.74,
+          "f1-score": 0.7388571428571429,
+          "support": 50.0
+        }
+      }
+    },
+    {
+      "task": "steer",
+      "raw_macro_f1": 0.7985074626865671,
+      "smoothed_macro_f1": 0.7985074626865671,
+      "raw_report": {
+        "LEFT": {
+          "precision": 0.5555555555555556,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.6666666666666666,
+          "support": 6.0
+        },
+        "STRAIGHT": {
+          "precision": 0.967741935483871,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.8955223880597015,
+          "support": 36.0
+        },
+        "RIGHT": {
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "f1-score": 0.8333333333333334,
+          "support": 5.0
+        },
+        "accuracy": 0.851063829787234,
+        "macro avg": {
+          "precision": 0.7458610684417136,
+          "recall": 0.888888888888889,
+          "f1-score": 0.7985074626865671,
+          "support": 47.0
+        },
+        "weighted avg": {
+          "precision": 0.888158969833644,
+          "recall": 0.851063829787234,
+          "f1-score": 0.8596909071662963,
+          "support": 47.0
+        }
+      },
+      "smoothed_report": {
+        "LEFT": {
+          "precision": 0.5555555555555556,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.6666666666666666,
+          "support": 6.0
+        },
+        "STRAIGHT": {
+          "precision": 0.967741935483871,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.8955223880597015,
+          "support": 36.0
+        },
+        "RIGHT": {
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "f1-score": 0.8333333333333334,
+          "support": 5.0
+        },
+        "accuracy": 0.851063829787234,
+        "macro avg": {
+          "precision": 0.7458610684417136,
+          "recall": 0.888888888888889,
+          "f1-score": 0.7985074626865671,
+          "support": 47.0
+        },
+        "weighted avg": {
+          "precision": 0.888158969833644,
+          "recall": 0.851063829787234,
+          "f1-score": 0.8596909071662963,
+          "support": 47.0
+        }
+      }
+    }
+  ],
+  "raw_stage3_same_external17": 0.7595522388059701,
+  "smoothed_stage3_same_external17": 0.7595522388059701,
+  "existing_external23_stage3_reference": 0.7982976860613044,
+  "delta_same_data": 0.0,
+  "delta_existing_submission": -0.03874544725533424,
+  "adoption_criterion_met": false,
+  "frozen_smoothing": {
+    "window_frames": 3,
+    "sample_rate_hz": 10,
+    "padding": "nearest",
+    "operation": "arithmetic mean of class probabilities",
+    "chosen_only_from_external_validation": true,
+    "external_validation_scores": [
+      {
+        "window_frames": 1,
+        "seconds": 0,
+        "accel": 0.5625932889968439,
+        "steer": 0.7006225906587118,
+        "stage3": 0.6040020794954042
+      },
+      {
+        "window_frames": 3,
+        "seconds": 0.3,
+        "accel": 0.5622310339550403,
+        "steer": 0.70379006012407,
+        "stage3": 0.6046987418057491
+      },
+      {
+        "window_frames": 5,
+        "seconds": 0.5,
+        "accel": 0.5611747208528937,
+        "steer": 0.7009930247883931,
+        "stage3": 0.6031202120335435
+      },
+      {
+        "window_frames": 11,
+        "seconds": 1.1,
+        "accel": 0.5636328236016431,
+        "steer": 0.6968755291788223,
+        "stage3": 0.6036056352747968
+      },
+      {
+        "window_frames": 21,
+        "seconds": 2.1,
+        "accel": 0.5658178631723638,
+        "steer": 0.6727092106489799,
+        "stage3": 0.5978852674153486
+      }
+    ],
+    "selected_external_score": {
+      "window_frames": 3,
+      "seconds": 0.3,
+      "accel": 0.5622310339550403,
+      "steer": 0.70379006012407,
+      "stage3": 0.6046987418057491
+    },
+    "frozen_before_public_oof": true,
+    "selection_elapsed_seconds": 31.88600860000588
+  },
+  "training_seconds_sum": 163.97359870001674,
+  "postprocessing_seconds_for_public5_both_heads": 0.0006113999697845429,
+  "elapsed_seconds": 196.1750852999976,
+  "protected_files_unchanged": true,
+  "protected_files_before": {
+    "model\\stage3\\motion_model.joblib": {
+      "size": 1192151,
+      "mtime_ns": 1789121448670626800,
+      "sha256": "c52ecd15cf68856f2a7b0b37b120c7a961b3bd8889a33af4ec47f8b9719bb3b3"
+    },
+    "solution\\stage3.py": {
+      "size": 4120,
+      "mtime_ns": 1789121208393627300,
+      "sha256": "4b211a1c4f731bbd28b0f6e60de172e9692bfc1fe0f46d49ce21d89ad44f3835"
+    },
+    "artifacts\\submissions\\submit_v1.zip": {
+      "size": 3653603309,
+      "mtime_ns": 1789121877491584000,
+      "sha256": null
+    },
+    "artifacts\\submissions\\submit_v2_nf4.zip": {
+      "size": 2914579028,
+      "mtime_ns": 1789123807718839000,
+      "sha256": null
+    }
+  },
+  "protected_files_after": {
+    "model\\stage3\\motion_model.joblib": {
+      "size": 1192151,
+      "mtime_ns": 1789121448670626800,
+      "sha256": "c52ecd15cf68856f2a7b0b37b120c7a961b3bd8889a33af4ec47f8b9719bb3b3"
+    },
+    "solution\\stage3.py": {
+      "size": 4120,
+      "mtime_ns": 1789121208393627300,
+      "sha256": "4b211a1c4f731bbd28b0f6e60de172e9692bfc1fe0f46d49ce21d89ad44f3835"
+    },
+    "artifacts\\submissions\\submit_v1.zip": {
+      "size": 3653603309,
+      "mtime_ns": 1789121877491584000,
+      "sha256": null
+    },
+    "artifacts\\submissions\\submit_v2_nf4.zip": {
+      "size": 2914579028,
+      "mtime_ns": 1789123807718839000,
+      "sha256": null
+    }
+  },
+  "caveats": [
+    "CAN proxy category thresholds are not official DACON thresholds.",
+    "Only 50 public sparse labels; no claim about unseen transition-boundary timing between them.",
+    "Fixed symmetric smoothing can delay or suppress short true events.",
+    "External 6 validation routes remain excluded from every model fit.",
+    "Existing submission reference used 23 external routes, so its difference is not an isolated smoothing effect."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "tail": {
+    "id": "1QrrSZECLBpBpzhLGa7Lw0YiQ1YRR3P7S",
+    "range": "bytes=-2097152",
+    "status": 206,
+    "content_range": "bytes 18516208089-18518305240/18518305241",
+    "bytes_received": 2097152,
+    "sha256": "387fb3d682541a9235506f5fb862a947a7b5a1b1d16d52619010d60d7e5b91cd"
+  },
+  "eocd_found": true,
+  "eocd": {
+    "disk": 5,
+    "central_start_disk": 5,
+    "disk_records": 65535,
+    "total_records": 65535,
+    "central_bytes": 482459595,
+    "central_offset": 4294967295,
+    "comment_bytes": 0
+  },
+  "tail_central_names_count": 16777,
+  "tail_central_names_sample": [
+    "DADA2000/9/013/semantic/0097.png",
+    "DADA2000/9/013/semantic/0098.png",
+    "DADA2000/9/013/semantic/0099.png",
+    "DADA2000/9/013/semantic/0100.png",
+    "DADA2000/9/013/semantic/0101.png",
+    "DADA2000/9/013/semantic/0102.png",
+    "DADA2000/9/013/semantic/0103.png",
+    "DADA2000/9/013/semantic/0104.png",
+    "DADA2000/9/013/semantic/0105.png",
+    "DADA2000/9/013/semantic/0106.png",
+    "DADA2000/9/013/semantic/0107.png",
+    "DADA2000/9/013/semantic/0108.png",
+    "DADA2000/9/020/semantic/0349.png",
+    "DADA2000/9/020/semantic/0350.png",
+    "DADA2000/9/020/semantic/0351.png",
+    "DADA2000/9/020/semantic/0352.png",
+    "DADA2000/9/020/semantic/0353.png",
+    "DADA2000/9/020/semantic/0354.png",
+    "DADA2000/9/020/semantic/0355.png",
+    "DADA2000/9/020/semantic/0356.png",
+    "DADA2000/9/020/semantic/0357.png",
+    "DADA2000/9/020/semantic/0358.png",
+    "DADA2000/9/020/semantic/0359.png",
+    "DADA2000/9/020/semantic/0360.png"
+  ]
+}

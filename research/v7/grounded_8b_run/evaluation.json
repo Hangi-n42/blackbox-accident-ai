@@ -1,0 +1,218 @@
+{
+  "source_role": "exposed_development",
+  "report_sha256": "136172852fa767e6170f99e5c1e7deacc9dd9204f188121dffbf567eac97290a",
+  "scores": {
+    "baseline": {
+      "contact": {
+        "n": 9,
+        "correct": 4,
+        "accuracy": 0.4444444444444444,
+        "mae": 3.7323166303558457
+      },
+      "entry": {
+        "n": 8,
+        "correct": 1,
+        "accuracy": 0.125,
+        "mae": 12.09490099961553
+      },
+      "side": {
+        "n": 7,
+        "macro_f1": 0.41666666666666663,
+        "correct": 3
+      },
+      "space": {
+        "n": 9,
+        "macro_f1": 0.18181818181818182,
+        "correct": 2
+      },
+      "available_label_weighted_diagnostic": 0.2890782828282828
+    },
+    "candidate": {
+      "contact": {
+        "n": 9,
+        "correct": 1,
+        "accuracy": 0.1111111111111111,
+        "mae": 4.403379042248708
+      },
+      "entry": {
+        "n": 8,
+        "correct": 1,
+        "accuracy": 0.125,
+        "mae": 13.416368704344483
+      },
+      "side": {
+        "n": 7,
+        "macro_f1": 0.65,
+        "correct": 5
+      },
+      "space": {
+        "n": 9,
+        "macro_f1": 0.18181818181818182,
+        "correct": 2
+      },
+      "available_label_weighted_diagnostic": 0.20741161616161616
+    }
+  },
+  "transitions": {
+    "contact": {
+      "gained": 0,
+      "lost": 3
+    },
+    "entry": {
+      "gained": 1,
+      "lost": 1
+    }
+  },
+  "videos": [
+    {
+      "ID": "00000",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00000_review_1789400071868.json",
+      "review_sha256": "654e93fad5b32cadeef094e61d6a90a066ebcd7e332fa0a8e7ca21563a0afbc3",
+      "errors": {
+        "contact": {
+          "baseline": 0.0,
+          "candidate": 0.8650519031141854
+        },
+        "entry": {
+          "baseline": 1.4186851211072664,
+          "candidate": -19.20415224913495
+        }
+      },
+      "unknown": []
+    },
+    {
+      "ID": "00003",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00003_review_1789444125537.json",
+      "review_sha256": "97fd59c05279282f33998903e4c9aa57d18fb9a0e5a4effc06acd6b803a5f86d",
+      "errors": {
+        "contact": {
+          "baseline": 0.03333333333333499,
+          "candidate": 2.5666666666666664
+        },
+        "entry": {
+          "baseline": 16.4,
+          "candidate": 0.0
+        }
+      },
+      "unknown": [
+        "side"
+      ]
+    },
+    {
+      "ID": "00004",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00004_review_1789444066492.json",
+      "review_sha256": "eccd40747a2ad28d72ec80c8cbaf8656a59732f81412750119cbc026656671f6",
+      "errors": {
+        "contact": {
+          "baseline": 0.3999999999999986,
+          "candidate": 1.5999999999999979
+        }
+      },
+      "unknown": [
+        "entry"
+      ]
+    },
+    {
+      "ID": "00005",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00005_review_1789444069007.json",
+      "review_sha256": "738909ecd54c0b3d53e926bb81ed929b282c6556e8905ed7505e94f756922b3b",
+      "errors": {
+        "contact": {
+          "baseline": -0.4575163398692794,
+          "candidate": 1.7320261437908506
+        },
+        "entry": {
+          "baseline": -17.973856209150327,
+          "candidate": -16.99346405228758
+        }
+      },
+      "unknown": []
+    },
+    {
+      "ID": "00006",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00006_review_1789444072672.json",
+      "review_sha256": "be09435498362b3f75f2ffddbe60a9f989ea61ec8b479dcafa4d8a73a7d3ad24",
+      "errors": {
+        "contact": {
+          "baseline": -0.03333333333333499,
+          "candidate": -0.03333333333333499
+        },
+        "entry": {
+          "baseline": 25.4,
+          "candidate": 0.3333333333333333
+        }
+      },
+      "unknown": [
+        "side"
+      ]
+    },
+    {
+      "ID": "00007",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00007_review_1789404064071.json",
+      "review_sha256": "724ab536dea876fbd653857d91d4fe04a5105afcfcf8f5e5e1ad24afcc2e296f",
+      "errors": {
+        "contact": {
+          "baseline": -9.833333333333332,
+          "candidate": -7.633333333333333
+        },
+        "entry": {
+          "baseline": -6.166666666666666,
+          "candidate": -14.433333333333334
+        }
+      },
+      "unknown": []
+    },
+    {
+      "ID": "00008",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\intake_20260915_actual\\user_reviews\\00008\\NEXAR_REVIEW_00008_review_1789461059274.json",
+      "review_sha256": "9f208907e4175e7d06d98a612c4e41c3f6dd688b48e6b5f8324748aeb3d502c6",
+      "errors": {
+        "contact": {
+          "baseline": 0.23333333333333428,
+          "candidate": 2.7666666666666693
+        },
+        "entry": {
+          "baseline": 11.7,
+          "candidate": -18.666666666666668
+        }
+      },
+      "unknown": []
+    },
+    {
+      "ID": "00010",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\intake_20260915_actual\\user_reviews\\00010\\NEXAR_REVIEW_00010_review_1789461116961.json",
+      "review_sha256": "f84853caec98d098cb6ef2ed391440bc25283e820898337b066fb47dea75fbcb",
+      "errors": {
+        "contact": {
+          "baseline": -21.2,
+          "candidate": -21.2
+        },
+        "entry": {
+          "baseline": -0.2666666666666657,
+          "candidate": -19.066666666666666
+        }
+      },
+      "unknown": []
+    },
+    {
+      "ID": "00013",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\intake_20260915_actual\\user_reviews\\00013\\NEXAR_REVIEW_00013_review_1789461169025.json",
+      "review_sha256": "932ddc0258b1bd3479427bdd7ab8ae695448b98f1aca59d3a202fdefc9d5f649",
+      "errors": {
+        "contact": {
+          "baseline": -1.3999999999999986,
+          "candidate": -1.2333333333333343
+        },
+        "entry": {
+          "baseline": -17.43333333333333,
+          "candidate": -18.633333333333333
+        }
+      },
+      "unknown": []
+    }
+  ],
+  "official_S2": null,
+  "ground_truth_promotion": false,
+  "submission_approved": false,
+  "limitation": "Per-field known human drafts have unequal denominators; weighted diagnostic is not official S2 or independent validation."
+}

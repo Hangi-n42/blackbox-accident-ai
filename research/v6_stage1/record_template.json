@@ -1,0 +1,56 @@
+{
+  "_notice": "TEMPLATE ONLY; not an acquired or verified capture. Replace nulls from actual evidence.",
+  "record_id": null,
+  "source_group": null,
+  "content_id": null,
+  "original_camera_id": null,
+  "domain": "road",
+  "acquisition_kind": "unknown",
+  "label": "UNKNOWN",
+  "status": "planned",
+  "split": "unassigned",
+  "path": null,
+  "sha256": null,
+  "parent_original_id": null,
+  "display_id": null,
+  "recapture_camera_id": null,
+  "media": {
+    "codec": null,
+    "width": null,
+    "height": null,
+    "decoded_frame_count": null,
+    "nominal_fps": null,
+    "timing_basis": null,
+    "delivery_transform": null,
+    "raw_asset_path": null,
+    "raw_asset_sha256": null
+  },
+  "rights": {
+    "status": "pending",
+    "basis": null,
+    "permitted_uses": [],
+    "redistribution_allowed": null,
+    "attribution": null
+  },
+  "evidence": [],
+  "annotation": {
+    "reviewer": null,
+    "reviewed_at": null,
+    "label_basis": null,
+    "model_predictions_seen": null
+  },
+  "capture_conditions": {
+    "captured_at": null,
+    "operator": null,
+    "original_camera_make_model": null,
+    "display_make_model": null,
+    "recapture_camera_make_model": null,
+    "display_refresh_hz": null,
+    "playback_settings": null,
+    "camera_recording_settings": null,
+    "lighting": null,
+    "distance_angle": null,
+    "screen_boundary_visible": null,
+    "notes": null
+  }
+}

@@ -1,0 +1,1232 @@
+{
+  "scope": "Five source groups with three representations; not 15 independent validation samples",
+  "no_official_entry_side_space_GT": true,
+  "report_sha256": "45c870107d49500e145021fd73c09e16e45824ad582b8ca8379928bae0e0129f",
+  "source_observation_sha256": "5aa75a88b8902c6bb1e68d4f005aacdf0d0b1c6bab66774b0a374943a57fe0f8",
+  "entry_origins_total": {
+    "invalid_fallback_first": 15
+  },
+  "coarse_statuses_total": {
+    "REENTRY": 15
+  },
+  "representation_summary": {
+    "canonical": {
+      "entry_origins": {
+        "invalid_fallback_first": 5
+      },
+      "coarse_statuses": {
+        "REENTRY": 5
+      },
+      "identified_schema_valid": 3,
+      "identified_is_not_semantic_success": true,
+      "fine_reasons": {
+        "rejected_status": 5
+      },
+      "tracking_seconds": 0.6497991000069305
+    },
+    "jpeg": {
+      "entry_origins": {
+        "invalid_fallback_first": 5
+      },
+      "coarse_statuses": {
+        "REENTRY": 5
+      },
+      "identified_schema_valid": 1,
+      "identified_is_not_semantic_success": true,
+      "fine_reasons": {
+        "rejected_status": 5
+      },
+      "tracking_seconds": 0.05738540002494119
+    },
+    "mirror": {
+      "entry_origins": {
+        "invalid_fallback_first": 5
+      },
+      "coarse_statuses": {
+        "REENTRY": 5
+      },
+      "identified_schema_valid": 0,
+      "identified_is_not_semantic_success": true,
+      "fine_reasons": {
+        "rejected_status": 5
+      },
+      "tracking_seconds": 8.000002708286047e-06
+    }
+  },
+  "comparisons": [
+    {
+      "representation": "canonical",
+      "ID": "S2_001",
+      "V3": {
+        "collision_frame": 35,
+        "entry_frame": 24,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "V5": {
+        "collision_frame": 35,
+        "entry_frame": 0,
+        "entry_side": "LEFT",
+        "evasion_space": 1
+      },
+      "entry_origin": "invalid_fallback_first",
+      "reference": {
+        "frame": 42,
+        "bbox": [
+          0.25,
+          0.33,
+          0.5,
+          0.67
+        ],
+        "identified": true
+      },
+      "tracked_frames": 19,
+      "tracking_events": [
+        {
+          "index": 30,
+          "direction": -1,
+          "reason": "nonrigid_or_wrong_matches"
+        }
+      ],
+      "coarse_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "fine_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "AI_advisory_only": {
+        "interval": [
+          20,
+          30
+        ],
+        "official_GT": false,
+        "coarse_offered_inside_interval": [
+          22,
+          27
+        ],
+        "fine_offered_inside_interval": [
+          22,
+          27
+        ],
+        "V3_entry_inside_advisory": true,
+        "V5_entry_inside_advisory": false
+      }
+    },
+    {
+      "representation": "canonical",
+      "ID": "S2_002",
+      "V3": {
+        "collision_frame": 43,
+        "entry_frame": 36,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "V5": {
+        "collision_frame": 43,
+        "entry_frame": 0,
+        "entry_side": "LEFT",
+        "evasion_space": 1
+      },
+      "entry_origin": "invalid_fallback_first",
+      "reference": {
+        "frame": 43,
+        "bbox": [
+          0.55,
+          0.25,
+          0.75,
+          0.35
+        ],
+        "identified": true
+      },
+      "tracked_frames": 9,
+      "tracking_events": [
+        {
+          "index": 40,
+          "direction": -1,
+          "reason": "nonrigid_or_wrong_matches"
+        }
+      ],
+      "coarse_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "fine_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ]
+    },
+    {
+      "representation": "canonical",
+      "ID": "S2_003",
+      "V3": {
+        "collision_frame": 33,
+        "entry_frame": 23,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "V5": {
+        "collision_frame": 33,
+        "entry_frame": 0,
+        "entry_side": "LEFT",
+        "evasion_space": 1
+      },
+      "entry_origin": "invalid_fallback_first",
+      "reference": {
+        "frame": 33,
+        "bbox": null,
+        "identified": false
+      },
+      "tracked_frames": 0,
+      "tracking_events": [
+        {
+          "reason": "no_valid_reference_bbox"
+        }
+      ],
+      "coarse_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "fine_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "AI_advisory_only": {
+        "interval": [
+          20,
+          31
+        ],
+        "official_GT": false,
+        "coarse_offered_inside_interval": [
+          22,
+          27,
+          31
+        ],
+        "fine_offered_inside_interval": [
+          22,
+          27,
+          31
+        ],
+        "V3_entry_inside_advisory": true,
+        "V5_entry_inside_advisory": false
+      }
+    },
+    {
+      "representation": "canonical",
+      "ID": "S2_004",
+      "V3": {
+        "collision_frame": 42,
+        "entry_frame": 11,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "V5": {
+        "collision_frame": 42,
+        "entry_frame": 0,
+        "entry_side": "LEFT",
+        "evasion_space": 1
+      },
+      "entry_origin": "invalid_fallback_first",
+      "reference": {
+        "frame": 42,
+        "bbox": [
+          0.5,
+          0.68,
+          0.9,
+          0.85
+        ],
+        "identified": true
+      },
+      "tracked_frames": 2,
+      "tracking_events": [
+        {
+          "index": 41,
+          "direction": -1,
+          "reason": "forward_backward_inconsistent"
+        },
+        {
+          "index": 44,
+          "direction": 1,
+          "reason": "nonrigid_or_wrong_matches"
+        }
+      ],
+      "coarse_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "fine_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ]
+    },
+    {
+      "representation": "canonical",
+      "ID": "S2_005",
+      "V3": {
+        "collision_frame": 33,
+        "entry_frame": 23,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "V5": {
+        "collision_frame": 33,
+        "entry_frame": 0,
+        "entry_side": "LEFT",
+        "evasion_space": 1
+      },
+      "entry_origin": "invalid_fallback_first",
+      "reference": {
+        "frame": 33,
+        "bbox": null,
+        "identified": false
+      },
+      "tracked_frames": 0,
+      "tracking_events": [
+        {
+          "reason": "no_valid_reference_bbox"
+        }
+      ],
+      "coarse_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "fine_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ]
+    },
+    {
+      "representation": "jpeg",
+      "ID": "S2_001",
+      "V3": {
+        "collision_frame": 35,
+        "entry_frame": 24,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "V5": {
+        "collision_frame": 35,
+        "entry_frame": 0,
+        "entry_side": "LEFT",
+        "evasion_space": 1
+      },
+      "entry_origin": "invalid_fallback_first",
+      "reference": {
+        "frame": 35,
+        "bbox": null,
+        "identified": false
+      },
+      "tracked_frames": 0,
+      "tracking_events": [
+        {
+          "reason": "no_valid_reference_bbox"
+        }
+      ],
+      "coarse_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "fine_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "AI_advisory_only": {
+        "interval": [
+          20,
+          30
+        ],
+        "official_GT": false,
+        "coarse_offered_inside_interval": [
+          22,
+          27
+        ],
+        "fine_offered_inside_interval": [
+          22,
+          27
+        ],
+        "V3_entry_inside_advisory": true,
+        "V5_entry_inside_advisory": false
+      }
+    },
+    {
+      "representation": "jpeg",
+      "ID": "S2_002",
+      "V3": {
+        "collision_frame": 47,
+        "entry_frame": 36,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "V5": {
+        "collision_frame": 47,
+        "entry_frame": 0,
+        "entry_side": "LEFT",
+        "evasion_space": 1
+      },
+      "entry_origin": "invalid_fallback_first",
+      "reference": {
+        "frame": 47,
+        "bbox": null,
+        "identified": false
+      },
+      "tracked_frames": 0,
+      "tracking_events": [
+        {
+          "reason": "no_valid_reference_bbox"
+        }
+      ],
+      "coarse_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "fine_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ]
+    },
+    {
+      "representation": "jpeg",
+      "ID": "S2_003",
+      "V3": {
+        "collision_frame": 33,
+        "entry_frame": 23,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "V5": {
+        "collision_frame": 33,
+        "entry_frame": 0,
+        "entry_side": "LEFT",
+        "evasion_space": 1
+      },
+      "entry_origin": "invalid_fallback_first",
+      "reference": {
+        "frame": 33,
+        "bbox": null,
+        "identified": false
+      },
+      "tracked_frames": 0,
+      "tracking_events": [
+        {
+          "reason": "no_valid_reference_bbox"
+        }
+      ],
+      "coarse_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "fine_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "AI_advisory_only": {
+        "interval": [
+          20,
+          31
+        ],
+        "official_GT": false,
+        "coarse_offered_inside_interval": [
+          22,
+          27,
+          31
+        ],
+        "fine_offered_inside_interval": [
+          22,
+          27,
+          31
+        ],
+        "V3_entry_inside_advisory": true,
+        "V5_entry_inside_advisory": false
+      }
+    },
+    {
+      "representation": "jpeg",
+      "ID": "S2_004",
+      "V3": {
+        "collision_frame": 42,
+        "entry_frame": 4,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "V5": {
+        "collision_frame": 42,
+        "entry_frame": 0,
+        "entry_side": "LEFT",
+        "evasion_space": 1
+      },
+      "entry_origin": "invalid_fallback_first",
+      "reference": {
+        "frame": 42,
+        "bbox": [
+          0.5,
+          0.68,
+          0.9,
+          0.85
+        ],
+        "identified": true
+      },
+      "tracked_frames": 2,
+      "tracking_events": [
+        {
+          "index": 41,
+          "direction": -1,
+          "reason": "forward_backward_inconsistent"
+        },
+        {
+          "index": 44,
+          "direction": 1,
+          "reason": "nonrigid_or_wrong_matches"
+        }
+      ],
+      "coarse_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "fine_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ]
+    },
+    {
+      "representation": "jpeg",
+      "ID": "S2_005",
+      "V3": {
+        "collision_frame": 33,
+        "entry_frame": 23,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "V5": {
+        "collision_frame": 33,
+        "entry_frame": 0,
+        "entry_side": "LEFT",
+        "evasion_space": 1
+      },
+      "entry_origin": "invalid_fallback_first",
+      "reference": {
+        "frame": 33,
+        "bbox": null,
+        "identified": false
+      },
+      "tracked_frames": 0,
+      "tracking_events": [
+        {
+          "reason": "no_valid_reference_bbox"
+        }
+      ],
+      "coarse_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "fine_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ]
+    },
+    {
+      "representation": "mirror",
+      "ID": "S2_001",
+      "V3": {
+        "collision_frame": 35,
+        "entry_frame": 18,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "V5": {
+        "collision_frame": 35,
+        "entry_frame": 0,
+        "entry_side": "LEFT",
+        "evasion_space": 1
+      },
+      "entry_origin": "invalid_fallback_first",
+      "reference": {
+        "frame": 35,
+        "bbox": null,
+        "identified": false
+      },
+      "tracked_frames": 0,
+      "tracking_events": [
+        {
+          "reason": "no_valid_reference_bbox"
+        }
+      ],
+      "coarse_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "fine_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "AI_advisory_only": {
+        "interval": [
+          20,
+          30
+        ],
+        "official_GT": false,
+        "coarse_offered_inside_interval": [
+          22,
+          27
+        ],
+        "fine_offered_inside_interval": [
+          22,
+          27
+        ],
+        "V3_entry_inside_advisory": false,
+        "V5_entry_inside_advisory": false
+      }
+    },
+    {
+      "representation": "mirror",
+      "ID": "S2_002",
+      "V3": {
+        "collision_frame": 43,
+        "entry_frame": 31,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "V5": {
+        "collision_frame": 43,
+        "entry_frame": 0,
+        "entry_side": "LEFT",
+        "evasion_space": 1
+      },
+      "entry_origin": "invalid_fallback_first",
+      "reference": {
+        "frame": 43,
+        "bbox": null,
+        "identified": false
+      },
+      "tracked_frames": 0,
+      "tracking_events": [
+        {
+          "reason": "no_valid_reference_bbox"
+        }
+      ],
+      "coarse_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "fine_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ]
+    },
+    {
+      "representation": "mirror",
+      "ID": "S2_003",
+      "V3": {
+        "collision_frame": 33,
+        "entry_frame": 25,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "V5": {
+        "collision_frame": 33,
+        "entry_frame": 0,
+        "entry_side": "LEFT",
+        "evasion_space": 1
+      },
+      "entry_origin": "invalid_fallback_first",
+      "reference": {
+        "frame": 33,
+        "bbox": null,
+        "identified": false
+      },
+      "tracked_frames": 0,
+      "tracking_events": [
+        {
+          "reason": "no_valid_reference_bbox"
+        }
+      ],
+      "coarse_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "fine_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "AI_advisory_only": {
+        "interval": [
+          20,
+          31
+        ],
+        "official_GT": false,
+        "coarse_offered_inside_interval": [
+          22,
+          27,
+          31
+        ],
+        "fine_offered_inside_interval": [
+          22,
+          27,
+          31
+        ],
+        "V3_entry_inside_advisory": true,
+        "V5_entry_inside_advisory": false
+      }
+    },
+    {
+      "representation": "mirror",
+      "ID": "S2_004",
+      "V3": {
+        "collision_frame": 42,
+        "entry_frame": 4,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "V5": {
+        "collision_frame": 42,
+        "entry_frame": 0,
+        "entry_side": "LEFT",
+        "evasion_space": 1
+      },
+      "entry_origin": "invalid_fallback_first",
+      "reference": {
+        "frame": 42,
+        "bbox": null,
+        "identified": false
+      },
+      "tracked_frames": 0,
+      "tracking_events": [
+        {
+          "reason": "no_valid_reference_bbox"
+        }
+      ],
+      "coarse_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "fine_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ]
+    },
+    {
+      "representation": "mirror",
+      "ID": "S2_005",
+      "V3": {
+        "collision_frame": 33,
+        "entry_frame": 23,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "V5": {
+        "collision_frame": 33,
+        "entry_frame": 0,
+        "entry_side": "LEFT",
+        "evasion_space": 1
+      },
+      "entry_origin": "invalid_fallback_first",
+      "reference": {
+        "frame": 33,
+        "bbox": null,
+        "identified": false
+      },
+      "tracked_frames": 0,
+      "tracking_events": [
+        {
+          "reason": "no_valid_reference_bbox"
+        }
+      ],
+      "coarse_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "fine_candidates": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ]
+    }
+  ],
+  "time_gates": {
+    "canonical": false,
+    "jpeg": false,
+    "mirror": false
+  },
+  "timing_ratios": {
+    "canonical": 1.7834957817575479,
+    "jpeg": 1.555204950232436,
+    "mirror": 1.4520645540257655
+  },
+  "max_reserved_vram_gib": 5.259765625,
+  "mirror_diagnostics": {
+    "V3": [
+      {
+        "ID": "S2_001",
+        "temporal_and_space_same": false,
+        "side_reversed": false,
+        "canonical": {
+          "collision_frame": 35,
+          "entry_frame": 24,
+          "entry_side": "LEFT",
+          "evasion_space": 0
+        },
+        "mirror": {
+          "collision_frame": 35,
+          "entry_frame": 18,
+          "entry_side": "LEFT",
+          "evasion_space": 0
+        }
+      },
+      {
+        "ID": "S2_002",
+        "temporal_and_space_same": false,
+        "side_reversed": false,
+        "canonical": {
+          "collision_frame": 43,
+          "entry_frame": 36,
+          "entry_side": "LEFT",
+          "evasion_space": 0
+        },
+        "mirror": {
+          "collision_frame": 43,
+          "entry_frame": 31,
+          "entry_side": "LEFT",
+          "evasion_space": 0
+        }
+      },
+      {
+        "ID": "S2_003",
+        "temporal_and_space_same": false,
+        "side_reversed": false,
+        "canonical": {
+          "collision_frame": 33,
+          "entry_frame": 23,
+          "entry_side": "LEFT",
+          "evasion_space": 0
+        },
+        "mirror": {
+          "collision_frame": 33,
+          "entry_frame": 25,
+          "entry_side": "LEFT",
+          "evasion_space": 0
+        }
+      },
+      {
+        "ID": "S2_004",
+        "temporal_and_space_same": false,
+        "side_reversed": false,
+        "canonical": {
+          "collision_frame": 42,
+          "entry_frame": 11,
+          "entry_side": "RIGHT",
+          "evasion_space": 0
+        },
+        "mirror": {
+          "collision_frame": 42,
+          "entry_frame": 4,
+          "entry_side": "RIGHT",
+          "evasion_space": 0
+        }
+      },
+      {
+        "ID": "S2_005",
+        "temporal_and_space_same": true,
+        "side_reversed": true,
+        "canonical": {
+          "collision_frame": 33,
+          "entry_frame": 23,
+          "entry_side": "RIGHT",
+          "evasion_space": 0
+        },
+        "mirror": {
+          "collision_frame": 33,
+          "entry_frame": 23,
+          "entry_side": "LEFT",
+          "evasion_space": 0
+        }
+      }
+    ],
+    "V5": [
+      {
+        "ID": "S2_001",
+        "temporal_and_space_same": true,
+        "side_reversed": false,
+        "canonical": {
+          "collision_frame": 35,
+          "entry_frame": 0,
+          "entry_side": "LEFT",
+          "evasion_space": 1
+        },
+        "mirror": {
+          "collision_frame": 35,
+          "entry_frame": 0,
+          "entry_side": "LEFT",
+          "evasion_space": 1
+        }
+      },
+      {
+        "ID": "S2_002",
+        "temporal_and_space_same": true,
+        "side_reversed": false,
+        "canonical": {
+          "collision_frame": 43,
+          "entry_frame": 0,
+          "entry_side": "LEFT",
+          "evasion_space": 1
+        },
+        "mirror": {
+          "collision_frame": 43,
+          "entry_frame": 0,
+          "entry_side": "LEFT",
+          "evasion_space": 1
+        }
+      },
+      {
+        "ID": "S2_003",
+        "temporal_and_space_same": true,
+        "side_reversed": false,
+        "canonical": {
+          "collision_frame": 33,
+          "entry_frame": 0,
+          "entry_side": "LEFT",
+          "evasion_space": 1
+        },
+        "mirror": {
+          "collision_frame": 33,
+          "entry_frame": 0,
+          "entry_side": "LEFT",
+          "evasion_space": 1
+        }
+      },
+      {
+        "ID": "S2_004",
+        "temporal_and_space_same": true,
+        "side_reversed": false,
+        "canonical": {
+          "collision_frame": 42,
+          "entry_frame": 0,
+          "entry_side": "LEFT",
+          "evasion_space": 1
+        },
+        "mirror": {
+          "collision_frame": 42,
+          "entry_frame": 0,
+          "entry_side": "LEFT",
+          "evasion_space": 1
+        }
+      },
+      {
+        "ID": "S2_005",
+        "temporal_and_space_same": true,
+        "side_reversed": false,
+        "canonical": {
+          "collision_frame": 33,
+          "entry_frame": 0,
+          "entry_side": "LEFT",
+          "evasion_space": 1
+        },
+        "mirror": {
+          "collision_frame": 33,
+          "entry_frame": 0,
+          "entry_side": "LEFT",
+          "evasion_space": 1
+        }
+      }
+    ]
+  },
+  "interpretation": "Schema/folder contracts are distinct from semantic success. A first-frame fallback coinciding with an already-in-lane observation is not an observed detection."
+}

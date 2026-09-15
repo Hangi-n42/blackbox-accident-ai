@@ -1,0 +1,197 @@
+{
+  "source_sha256": "929e9e6f2494f30c47f5567e95412d168b458336f31024ab1cd6dea4c9b2cb1a",
+  "start_frame": 580,
+  "end_frame": 600,
+  "step": 1,
+  "selected": [
+    {
+      "frame": 580,
+      "native_pts": 296960,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.333333333333332,
+      "path": "native_frame000580.png",
+      "sha256": "e3c0d62e80ac900dc38bcb356fc9e2d60cdd219704423aacb2dadc7050d4cc56"
+    },
+    {
+      "frame": 581,
+      "native_pts": 297472,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.366666666666667,
+      "path": "native_frame000581.png",
+      "sha256": "c974a9dd0a8b041da743fbee5b694e59693d8595c9de28111937acbf332435dc"
+    },
+    {
+      "frame": 582,
+      "native_pts": 297984,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.4,
+      "path": "native_frame000582.png",
+      "sha256": "560554d029513a35611480ed1b6aaac1cb1a28ef43ab1d4edca4d892b4d03763"
+    },
+    {
+      "frame": 583,
+      "native_pts": 298496,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.433333333333334,
+      "path": "native_frame000583.png",
+      "sha256": "b5ce2a2e6a129011833d6f93f22d14c0bf72ed148083a50644a193856632c6d2"
+    },
+    {
+      "frame": 584,
+      "native_pts": 299008,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.466666666666665,
+      "path": "native_frame000584.png",
+      "sha256": "4b7550f937bec9274f42e534929ffe6fbb75f15145c52a93150eb94da138d73f"
+    },
+    {
+      "frame": 585,
+      "native_pts": 299520,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.5,
+      "path": "native_frame000585.png",
+      "sha256": "d1254f2505239a3734e2124cef5c8f0202138986166f6d044fd26798dd907cf8"
+    },
+    {
+      "frame": 586,
+      "native_pts": 300032,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.533333333333335,
+      "path": "native_frame000586.png",
+      "sha256": "9f32c47af282d2a02bdf00abfb9d649c68d344212024a19f4015ed57fdab8854"
+    },
+    {
+      "frame": 587,
+      "native_pts": 300544,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.566666666666666,
+      "path": "native_frame000587.png",
+      "sha256": "08e4601286fc71789b63a524ec405f1697173cc9ac67ad8f0f0bafe72fa20d60"
+    },
+    {
+      "frame": 588,
+      "native_pts": 301056,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.6,
+      "path": "native_frame000588.png",
+      "sha256": "9c23ec4a13fd40604b32ce1866b4599bddae88159901ff5894c6ce8e49dfc86f"
+    },
+    {
+      "frame": 589,
+      "native_pts": 301568,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.633333333333333,
+      "path": "native_frame000589.png",
+      "sha256": "81f58c399a8d0a3382c0e5167fcc174c1b7019b2769d33f1f98dd4f05ac7f32c"
+    },
+    {
+      "frame": 590,
+      "native_pts": 302080,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.666666666666668,
+      "path": "native_frame000590.png",
+      "sha256": "ebb70519b77e0af809932bdf5d2f8537f827d3ca326414ae046b9e12efea41ba"
+    },
+    {
+      "frame": 591,
+      "native_pts": 302592,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.7,
+      "path": "native_frame000591.png",
+      "sha256": "30375938d19d4f90a2fb5438b88c84ebca90f6b76a70b9cf3310e112ed43dc35"
+    },
+    {
+      "frame": 592,
+      "native_pts": 303104,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.733333333333334,
+      "path": "native_frame000592.png",
+      "sha256": "9a0c10247f81b5a9c0779781353882708b3c7c690f37ebfc5759613b5891a4e7"
+    },
+    {
+      "frame": 593,
+      "native_pts": 303616,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.766666666666666,
+      "path": "native_frame000593.png",
+      "sha256": "6f26cf08cea5a3adb46e6043679af238669c86161d2721fe302733443a9fb559"
+    },
+    {
+      "frame": 594,
+      "native_pts": 304128,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.8,
+      "path": "native_frame000594.png",
+      "sha256": "3fbcbf6fc46547228c0badfbe1e51589fa751ac2e4fc6bc37bd01da5eedbd705"
+    },
+    {
+      "frame": 595,
+      "native_pts": 304640,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.833333333333332,
+      "path": "native_frame000595.png",
+      "sha256": "65554e9f8cc5050d53955006689525fcb5d51c676b2e6bb5e6e6910d4f7dc707"
+    },
+    {
+      "frame": 596,
+      "native_pts": 305152,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.866666666666667,
+      "path": "native_frame000596.png",
+      "sha256": "7092cd4a13f81c376833429dd80b27c0b0a397a85c39e8f9b6e8af6376717933"
+    },
+    {
+      "frame": 597,
+      "native_pts": 305664,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.9,
+      "path": "native_frame000597.png",
+      "sha256": "6fc3e697d87df977de6ab9744d54027b9d87f128f6fc6c13bcacd0ba1354a9f4"
+    },
+    {
+      "frame": 598,
+      "native_pts": 306176,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.933333333333334,
+      "path": "native_frame000598.png",
+      "sha256": "fde874277b29e050971b1b4a4a46dc7b860ed49977a0e92bd65ef3b41b5aa768"
+    },
+    {
+      "frame": 599,
+      "native_pts": 306688,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.966666666666665,
+      "path": "native_frame000599.png",
+      "sha256": "3f06d77d8061ae05f00c0ff39544136679cfa10751ca258655b38cea5fa9f14e"
+    },
+    {
+      "frame": 600,
+      "native_pts": 307200,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 20.0,
+      "path": "native_frame000600.png",
+      "sha256": "740e682e5d086f17bc8657996bdf7eb302efe3388853d301e9a94859780e2c3c"
+    }
+  ]
+}

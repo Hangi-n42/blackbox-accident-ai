@@ -1,0 +1,1694 @@
+{
+  "created_utc": "2026-09-15T05:16:26.090499+00:00",
+  "phase": "exposed_six_fullframe_diagnostic",
+  "gate_advance_to_new_validation_only": true,
+  "criteria": {
+    "additional_correct_at_least_one": true,
+    "previous_success_losses_zero": true,
+    "mean_absolute_error_nonincrease": true,
+    "other_three_fields_identical": true,
+    "exact_base_native_and_offline_contracts": true
+  },
+  "baseline_correct_count": 0,
+  "candidate_correct_count": 3,
+  "additional_correct_count": 3,
+  "gained": 3,
+  "lost": 0,
+  "baseline_mean_abs_error_seconds": 9.3720235806741,
+  "candidate_mean_abs_error_seconds": 1.7929193899782134,
+  "adoption_allowed": false,
+  "submission_allowed": false,
+  "videos": [
+    {
+      "ID": "00000",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00000_review_1789400071868.json",
+      "review_sha256": "654e93fad5b32cadeef094e61d6a90a066ebcd7e332fa0a8e7ca21563a0afbc3",
+      "label_binding": {
+        "intake_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_review_intake_integrity.json",
+        "intake_sha256": "23c9a7d4413e184eebd8550dd8b2c1fb1462b1d6a4916b95963485f64b90f1fe",
+        "expected_review_sha256": "654e93fad5b32cadeef094e61d6a90a066ebcd7e332fa0a8e7ca21563a0afbc3",
+        "expected_source_sha256": "9b7364178cb8b6194db0ee0f96df0ad44615fc265efe435297394dcf6a9be5f9"
+      },
+      "source_sha256": "9b7364178cb8b6194db0ee0f96df0ad44615fc265efe435297394dcf6a9be5f9",
+      "labels": {
+        "contact": {
+          "frame": 584,
+          "pts_seconds": 20.207612456747405
+        },
+        "entry": {
+          "frame": 555,
+          "pts_seconds": 19.20415224913495
+        },
+        "side": "LEFT",
+        "space": 0
+      },
+      "full_prediction": {
+        "collision_frame": 870,
+        "entry_frame": 596,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "old10hz_prediction": {
+        "collision_frame": 587,
+        "entry_frame": 702,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "full": {
+        "contact": {
+          "signed_error_seconds": 9.896193771626297,
+          "abs_error_seconds": 9.896193771626297,
+          "correct": false,
+          "predicted_frame": 870,
+          "predicted_pts_seconds": 30.103806228373703
+        },
+        "entry": {
+          "signed_error_seconds": 1.4186851211072664,
+          "abs_error_seconds": 1.4186851211072664,
+          "correct": false,
+          "predicted_frame": 596,
+          "predicted_pts_seconds": 20.622837370242216
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "RIGHT",
+          "correct": false
+        },
+        "space": {
+          "truth": 0,
+          "prediction": 0,
+          "correct": true
+        }
+      },
+      "old10hz": {
+        "contact": {
+          "signed_error_seconds": 0.10380622837370268,
+          "abs_error_seconds": 0.10380622837370268,
+          "correct": true,
+          "predicted_frame": 587,
+          "predicted_pts_seconds": 20.311418685121108
+        },
+        "entry": {
+          "signed_error_seconds": 5.086505190311417,
+          "abs_error_seconds": 5.086505190311417,
+          "correct": false,
+          "predicted_frame": 702,
+          "predicted_pts_seconds": 24.290657439446367
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "RIGHT",
+          "correct": false
+        },
+        "space": {
+          "truth": 0,
+          "prediction": 0,
+          "correct": true
+        }
+      },
+      "changes": {
+        "contact": {
+          "old_correct": true,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": true
+        },
+        "entry": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "side": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "space": {
+          "old_correct": true,
+          "full_correct": true,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        }
+      },
+      "full_frame_count": 1158,
+      "old10hz_frame_count": 402,
+      "old10hz_reference": {
+        "report_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_baseline_run\\report.json",
+        "report_sha256": "7e1a4c822f161c000d081db67e0a9b2d4c530980119938e337f573093d3fcfbf",
+        "freeze_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_baseline_run\\freeze.json",
+        "freeze_sha256": "93f041d51dbc8d4dfc6db279a5860d9dc2b7e84a4e561077e62dfd5972ff8c4b"
+      },
+      "full_internal_collision": 1093,
+      "old10hz_internal_collision": 858,
+      "fullC": {
+        "contact": {
+          "signed_error_seconds": 0.0,
+          "abs_error_seconds": 0.0,
+          "correct": true,
+          "predicted_frame": 584,
+          "predicted_pts_seconds": 20.207612456747405
+        },
+        "entry": {
+          "signed_error_seconds": 1.4186851211072664,
+          "abs_error_seconds": 1.4186851211072664,
+          "correct": false,
+          "predicted_frame": 596,
+          "predicted_pts_seconds": 20.622837370242216
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "RIGHT",
+          "correct": false
+        },
+        "space": {
+          "truth": 0,
+          "prediction": 0,
+          "correct": true
+        }
+      },
+      "fullC_prediction": {
+        "collision_frame": 584,
+        "entry_frame": 596,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "other_fields_identical": true,
+      "score_audit": {
+        "jerk": {
+          "median": 0.010233381763100624,
+          "mad": 0.009087176993489265,
+          "scaled_mad": 0.013472648610547184,
+          "denominator": 0.013472648610547184,
+          "denominator_floor_active": false,
+          "upper_clip_count": 44
+        },
+        "residual": {
+          "median": 0.241524800658226,
+          "mad": 0.19885219633579254,
+          "scaled_mad": 0.294818266287446,
+          "denominator": 0.294818266287446,
+          "denominator_floor_active": false,
+          "upper_clip_count": 20
+        },
+        "appearance": {
+          "median": 1.0694987773895264,
+          "mad": 0.7976237535476685,
+          "scaled_mad": 1.1825569770097732,
+          "denominator": 1.1825569770097732,
+          "denominator_floor_active": false,
+          "upper_clip_count": 0
+        },
+        "baseline_top_two": [
+          {
+            "frame": 870,
+            "score": 14.126246452331543
+          },
+          {
+            "frame": 586,
+            "score": 14.106849670410156
+          }
+        ],
+        "candidate_top_two": [
+          {
+            "frame": 584,
+            "score": 63.718482971191406
+          },
+          {
+            "frame": 585,
+            "score": 48.289669036865234
+          }
+        ],
+        "baseline_score_sha256": "4bd35d1d86c27e8ba10e50b23ebe859352c6381e078dc39471504d1b5f7b5325",
+        "candidate_score_sha256": "7d6d846f815c65e507a3030ab0371d9c012a51d3ad00607ce2989e639853272c",
+        "float32_exact": true,
+        "earliest_tie_policy_verified": true
+      },
+      "old10hzC": {
+        "contact": {
+          "signed_error_seconds": 0.10380622837370268,
+          "abs_error_seconds": 0.10380622837370268,
+          "correct": true,
+          "predicted_frame": 587,
+          "predicted_pts_seconds": 20.311418685121108
+        },
+        "entry": {
+          "signed_error_seconds": 5.086505190311417,
+          "abs_error_seconds": 5.086505190311417,
+          "correct": false,
+          "predicted_frame": 702,
+          "predicted_pts_seconds": 24.290657439446367
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "RIGHT",
+          "correct": false
+        },
+        "space": {
+          "truth": 0,
+          "prediction": 0,
+          "correct": true
+        }
+      },
+      "old10hzC_prediction": {
+        "collision_frame": 587,
+        "entry_frame": 702,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      }
+    },
+    {
+      "ID": "00003",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00003_review_1789444125537.json",
+      "review_sha256": "97fd59c05279282f33998903e4c9aa57d18fb9a0e5a4effc06acd6b803a5f86d",
+      "label_binding": {
+        "intake_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_review_intake_integrity_addendum.json",
+        "intake_sha256": "486838bfcc551d54caf2889a61cf3dba178b1c1b2e3d66af2a23c35707cbe937",
+        "expected_review_sha256": "97fd59c05279282f33998903e4c9aa57d18fb9a0e5a4effc06acd6b803a5f86d",
+        "expected_source_sha256": "d5969f23631b3462f68e3de0c3e72f42c731762aec8d47fb916da78e0d59b3e8"
+      },
+      "source_sha256": "d5969f23631b3462f68e3de0c3e72f42c731762aec8d47fb916da78e0d59b3e8",
+      "labels": {
+        "contact": {
+          "frame": 582,
+          "pts_seconds": 19.4
+        },
+        "entry": {
+          "frame": 0,
+          "pts_seconds": 0
+        },
+        "side": null,
+        "space": 1
+      },
+      "full_prediction": {
+        "collision_frame": 145,
+        "entry_frame": 492,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "old10hz_prediction": {
+        "collision_frame": 345,
+        "entry_frame": 492,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "full": {
+        "contact": {
+          "signed_error_seconds": -14.566666666666666,
+          "abs_error_seconds": 14.566666666666666,
+          "correct": false,
+          "predicted_frame": 145,
+          "predicted_pts_seconds": 4.833333333333333
+        },
+        "entry": {
+          "signed_error_seconds": 16.4,
+          "abs_error_seconds": 16.4,
+          "correct": false,
+          "predicted_frame": 492,
+          "predicted_pts_seconds": 16.4
+        },
+        "side": null,
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "old10hz": {
+        "contact": {
+          "signed_error_seconds": -7.899999999999999,
+          "abs_error_seconds": 7.899999999999999,
+          "correct": false,
+          "predicted_frame": 345,
+          "predicted_pts_seconds": 11.5
+        },
+        "entry": {
+          "signed_error_seconds": 16.4,
+          "abs_error_seconds": 16.4,
+          "correct": false,
+          "predicted_frame": 492,
+          "predicted_pts_seconds": 16.4
+        },
+        "side": null,
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "changes": {
+        "contact": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "entry": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "side": null,
+        "space": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        }
+      },
+      "full_frame_count": 1203,
+      "old10hz_frame_count": 402,
+      "old10hz_reference": {
+        "report_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_baseline_run\\report.json",
+        "report_sha256": "7e1a4c822f161c000d081db67e0a9b2d4c530980119938e337f573093d3fcfbf",
+        "freeze_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_baseline_run\\freeze.json",
+        "freeze_sha256": "93f041d51dbc8d4dfc6db279a5860d9dc2b7e84a4e561077e62dfd5972ff8c4b"
+      },
+      "full_internal_collision": 601,
+      "old10hz_internal_collision": 600,
+      "fullC": {
+        "contact": {
+          "signed_error_seconds": 0.03333333333333499,
+          "abs_error_seconds": 0.03333333333333499,
+          "correct": true,
+          "predicted_frame": 583,
+          "predicted_pts_seconds": 19.433333333333334
+        },
+        "entry": {
+          "signed_error_seconds": 16.4,
+          "abs_error_seconds": 16.4,
+          "correct": false,
+          "predicted_frame": 492,
+          "predicted_pts_seconds": 16.4
+        },
+        "side": null,
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "fullC_prediction": {
+        "collision_frame": 583,
+        "entry_frame": 492,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "other_fields_identical": true,
+      "score_audit": {
+        "jerk": {
+          "median": 0.01227344386279583,
+          "mad": 0.00910980999469757,
+          "scaled_mad": 0.013506204298138617,
+          "denominator": 0.013506204298138617,
+          "denominator_floor_active": false,
+          "upper_clip_count": 9
+        },
+        "residual": {
+          "median": 0.652657687664032,
+          "mad": 0.512309193611145,
+          "scaled_mad": 0.7595496104478836,
+          "denominator": 0.7595496104478836,
+          "denominator_floor_active": false,
+          "upper_clip_count": 0
+        },
+        "appearance": {
+          "median": 2.4994139671325684,
+          "mad": 1.3697266578674316,
+          "scaled_mad": 2.030756742954254,
+          "denominator": 2.030756742954254,
+          "denominator_floor_active": false,
+          "upper_clip_count": 0
+        },
+        "baseline_top_two": [
+          {
+            "frame": 145,
+            "score": 12.674978256225586
+          },
+          {
+            "frame": 141,
+            "score": 12.644164085388184
+          }
+        ],
+        "candidate_top_two": [
+          {
+            "frame": 583,
+            "score": 36.920467376708984
+          },
+          {
+            "frame": 585,
+            "score": 35.280242919921875
+          }
+        ],
+        "baseline_score_sha256": "c635dfc0e622266aed16668690ed512c46e69635d9e190c29e87babd419ab3d4",
+        "candidate_score_sha256": "cb3bb8c8e891f40fd1d7a9c7fd706dc23ccf4d5d4940f5082142c89e411c5699",
+        "float32_exact": true,
+        "earliest_tie_policy_verified": true
+      },
+      "old10hzC": {
+        "contact": {
+          "signed_error_seconds": 0.10000000000000142,
+          "abs_error_seconds": 0.10000000000000142,
+          "correct": true,
+          "predicted_frame": 585,
+          "predicted_pts_seconds": 19.5
+        },
+        "entry": {
+          "signed_error_seconds": 16.4,
+          "abs_error_seconds": 16.4,
+          "correct": false,
+          "predicted_frame": 492,
+          "predicted_pts_seconds": 16.4
+        },
+        "side": null,
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "old10hzC_prediction": {
+        "collision_frame": 585,
+        "entry_frame": 492,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      }
+    },
+    {
+      "ID": "00004",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00004_review_1789444066492.json",
+      "review_sha256": "eccd40747a2ad28d72ec80c8cbaf8656a59732f81412750119cbc026656671f6",
+      "label_binding": {
+        "intake_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_review_intake_integrity_addendum.json",
+        "intake_sha256": "486838bfcc551d54caf2889a61cf3dba178b1c1b2e3d66af2a23c35707cbe937",
+        "expected_review_sha256": "eccd40747a2ad28d72ec80c8cbaf8656a59732f81412750119cbc026656671f6",
+        "expected_source_sha256": "001be406ca8eddc5e5ea61ed8b6104650879aacb1eff217630f7b932fd45be4f"
+      },
+      "source_sha256": "001be406ca8eddc5e5ea61ed8b6104650879aacb1eff217630f7b932fd45be4f",
+      "labels": {
+        "contact": {
+          "frame": 579,
+          "pts_seconds": 19.3
+        },
+        "entry": null,
+        "side": "RIGHT",
+        "space": 1
+      },
+      "full_prediction": {
+        "collision_frame": 591,
+        "entry_frame": 971,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "old10hz_prediction": {
+        "collision_frame": 594,
+        "entry_frame": 387,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "full": {
+        "contact": {
+          "signed_error_seconds": 0.3999999999999986,
+          "abs_error_seconds": 0.3999999999999986,
+          "correct": false,
+          "predicted_frame": 591,
+          "predicted_pts_seconds": 19.7
+        },
+        "entry": null,
+        "side": {
+          "truth": "RIGHT",
+          "prediction": "RIGHT",
+          "correct": true
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "old10hz": {
+        "contact": {
+          "signed_error_seconds": 0.5,
+          "abs_error_seconds": 0.5,
+          "correct": false,
+          "predicted_frame": 594,
+          "predicted_pts_seconds": 19.8
+        },
+        "entry": null,
+        "side": {
+          "truth": "RIGHT",
+          "prediction": "RIGHT",
+          "correct": true
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "changes": {
+        "contact": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "entry": null,
+        "side": {
+          "old_correct": true,
+          "full_correct": true,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "space": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        }
+      },
+      "full_frame_count": 1202,
+      "old10hz_frame_count": 402,
+      "old10hz_reference": {
+        "report_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_dev00004_baseline_run\\report.json",
+        "report_sha256": "5e51659a40bf5e090553bc0eadfd50ccaae6a860564a77a1bbd1ef0a31a71e57",
+        "freeze_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_dev00004_baseline_run\\freeze.json",
+        "freeze_sha256": "aabe345d04045a3099e602b601b6984c73fc0afbddca98c62e2a9b24317ff8b1"
+      },
+      "full_internal_collision": 1068,
+      "old10hz_internal_collision": 1068,
+      "fullC": {
+        "contact": {
+          "signed_error_seconds": 0.3999999999999986,
+          "abs_error_seconds": 0.3999999999999986,
+          "correct": false,
+          "predicted_frame": 591,
+          "predicted_pts_seconds": 19.7
+        },
+        "entry": null,
+        "side": {
+          "truth": "RIGHT",
+          "prediction": "RIGHT",
+          "correct": true
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "fullC_prediction": {
+        "collision_frame": 591,
+        "entry_frame": 971,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "other_fields_identical": true,
+      "score_audit": {
+        "jerk": {
+          "median": 0.009756140410900116,
+          "mad": 0.007654303219169378,
+          "scaled_mad": 0.01134826995274052,
+          "denominator": 0.01134826995274052,
+          "denominator_floor_active": false,
+          "upper_clip_count": 12
+        },
+        "residual": {
+          "median": 0.2740667462348938,
+          "mad": 0.23595044016838074,
+          "scaled_mad": 0.34982012259364126,
+          "denominator": 0.34982012259364126,
+          "denominator_floor_active": false,
+          "upper_clip_count": 3
+        },
+        "appearance": {
+          "median": 1.1173503398895264,
+          "mad": 0.7755534648895264,
+          "scaled_mad": 1.1498355670452118,
+          "denominator": 1.1498355670452118,
+          "denominator_floor_active": false,
+          "upper_clip_count": 0
+        },
+        "baseline_top_two": [
+          {
+            "frame": 591,
+            "score": 15.789009094238281
+          },
+          {
+            "frame": 593,
+            "score": 13.926224708557129
+          }
+        ],
+        "candidate_top_two": [
+          {
+            "frame": 591,
+            "score": 37.48969650268555
+          },
+          {
+            "frame": 583,
+            "score": 30.138561248779297
+          }
+        ],
+        "baseline_score_sha256": "a99c751c05145c46463f263768e68a3e1875517c4ef5c3fb15ac131bc4e1f470",
+        "candidate_score_sha256": "b25df18d492a00943d33edc2ca6b847c553c9ba9e26ed288f32a1cf2df1ba569",
+        "float32_exact": true,
+        "earliest_tie_policy_verified": true
+      },
+      "old10hzC": {
+        "contact": {
+          "signed_error_seconds": 0.6999999999999993,
+          "abs_error_seconds": 0.6999999999999993,
+          "correct": false,
+          "predicted_frame": 600,
+          "predicted_pts_seconds": 20.0
+        },
+        "entry": null,
+        "side": {
+          "truth": "RIGHT",
+          "prediction": "RIGHT",
+          "correct": true
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "old10hzC_prediction": {
+        "collision_frame": 600,
+        "entry_frame": 387,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      }
+    },
+    {
+      "ID": "00005",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00005_review_1789444069007.json",
+      "review_sha256": "738909ecd54c0b3d53e926bb81ed929b282c6556e8905ed7505e94f756922b3b",
+      "label_binding": {
+        "intake_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_review_intake_integrity_addendum.json",
+        "intake_sha256": "486838bfcc551d54caf2889a61cf3dba178b1c1b2e3d66af2a23c35707cbe937",
+        "expected_review_sha256": "738909ecd54c0b3d53e926bb81ed929b282c6556e8905ed7505e94f756922b3b",
+        "expected_source_sha256": "e68188e582398fcf8e8b2731cb1a79fee7542246184cafb967c3d816ccc1cce1"
+      },
+      "source_sha256": "e68188e582398fcf8e8b2731cb1a79fee7542246184cafb967c3d816ccc1cce1",
+      "labels": {
+        "contact": {
+          "frame": 643,
+          "pts_seconds": 21.013071895424837
+        },
+        "entry": {
+          "frame": 643,
+          "pts_seconds": 21.013071895424837
+        },
+        "side": "LEFT",
+        "space": 1
+      },
+      "full_prediction": {
+        "collision_frame": 86,
+        "entry_frame": 93,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "old10hz_prediction": {
+        "collision_frame": 624,
+        "entry_frame": 89,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "full": {
+        "contact": {
+          "signed_error_seconds": -18.202614379084967,
+          "abs_error_seconds": 18.202614379084967,
+          "correct": false,
+          "predicted_frame": 86,
+          "predicted_pts_seconds": 2.810457516339869
+        },
+        "entry": {
+          "signed_error_seconds": -17.973856209150327,
+          "abs_error_seconds": 17.973856209150327,
+          "correct": false,
+          "predicted_frame": 93,
+          "predicted_pts_seconds": 3.0392156862745097
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "RIGHT",
+          "correct": false
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "old10hz": {
+        "contact": {
+          "signed_error_seconds": -0.6209150326797399,
+          "abs_error_seconds": 0.6209150326797399,
+          "correct": false,
+          "predicted_frame": 624,
+          "predicted_pts_seconds": 20.392156862745097
+        },
+        "entry": {
+          "signed_error_seconds": -18.104575163398692,
+          "abs_error_seconds": 18.104575163398692,
+          "correct": false,
+          "predicted_frame": 89,
+          "predicted_pts_seconds": 2.9084967320261437
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "LEFT",
+          "correct": true
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "changes": {
+        "contact": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "entry": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "side": {
+          "old_correct": true,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": true
+        },
+        "space": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        }
+      },
+      "full_frame_count": 1227,
+      "old10hz_frame_count": 402,
+      "old10hz_reference": {
+        "report_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_reserved\\report.json",
+        "report_sha256": "00eca04dc8386427c34595ac94ac655db6f9fc86aae4f029e20f21808c6b819d",
+        "freeze_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_reserved\\freeze.json",
+        "freeze_sha256": "ed42b8d14708e85bb06a140fdcae4d42b8b52ea602f17a6525299c947d9e416d"
+      },
+      "full_internal_collision": 1022,
+      "old10hz_internal_collision": 973,
+      "fullC": {
+        "contact": {
+          "signed_error_seconds": -0.4575163398692794,
+          "abs_error_seconds": 0.4575163398692794,
+          "correct": false,
+          "predicted_frame": 629,
+          "predicted_pts_seconds": 20.555555555555557
+        },
+        "entry": {
+          "signed_error_seconds": -17.973856209150327,
+          "abs_error_seconds": 17.973856209150327,
+          "correct": false,
+          "predicted_frame": 93,
+          "predicted_pts_seconds": 3.0392156862745097
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "RIGHT",
+          "correct": false
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "fullC_prediction": {
+        "collision_frame": 629,
+        "entry_frame": 93,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "other_fields_identical": true,
+      "score_audit": {
+        "jerk": {
+          "median": 0.005335887428373098,
+          "mad": 0.003790605580434203,
+          "scaled_mad": 0.005619951833551749,
+          "denominator": 0.005619951833551749,
+          "denominator_floor_active": false,
+          "upper_clip_count": 50
+        },
+        "residual": {
+          "median": 0.15781737864017487,
+          "mad": 0.13123610615730286,
+          "scaled_mad": 0.1945706509888172,
+          "denominator": 0.1945706509888172,
+          "denominator_floor_active": false,
+          "upper_clip_count": 95
+        },
+        "appearance": {
+          "median": 0.894335925579071,
+          "mad": 0.48229166865348816,
+          "scaled_mad": 0.7150456279456615,
+          "denominator": 0.7150456279456615,
+          "denominator_floor_active": false,
+          "upper_clip_count": 99
+        },
+        "baseline_top_two": [
+          {
+            "frame": 86,
+            "score": 18.5
+          },
+          {
+            "frame": 87,
+            "score": 18.5
+          }
+        ],
+        "candidate_top_two": [
+          {
+            "frame": 629,
+            "score": 88.74939727783203
+          },
+          {
+            "frame": 633,
+            "score": 74.8820571899414
+          }
+        ],
+        "baseline_score_sha256": "91386cdbc13f8bff82fe942ff314bf2addb6217601b542a547a44c4835514888",
+        "candidate_score_sha256": "296b0e57992081df694e9b1060091cd83a9e911e524703be3a8c01d10bef7ad4",
+        "float32_exact": true,
+        "earliest_tie_policy_verified": true
+      },
+      "old10hzC": {
+        "contact": {
+          "signed_error_seconds": -0.2287581699346397,
+          "abs_error_seconds": 0.2287581699346397,
+          "correct": true,
+          "predicted_frame": 636,
+          "predicted_pts_seconds": 20.784313725490197
+        },
+        "entry": {
+          "signed_error_seconds": -18.104575163398692,
+          "abs_error_seconds": 18.104575163398692,
+          "correct": false,
+          "predicted_frame": 89,
+          "predicted_pts_seconds": 2.9084967320261437
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "LEFT",
+          "correct": true
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "old10hzC_prediction": {
+        "collision_frame": 636,
+        "entry_frame": 89,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      }
+    },
+    {
+      "ID": "00006",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00006_review_1789444072672.json",
+      "review_sha256": "be09435498362b3f75f2ffddbe60a9f989ea61ec8b479dcafa4d8a73a7d3ad24",
+      "label_binding": {
+        "intake_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_review_intake_integrity_addendum.json",
+        "intake_sha256": "486838bfcc551d54caf2889a61cf3dba178b1c1b2e3d66af2a23c35707cbe937",
+        "expected_review_sha256": "be09435498362b3f75f2ffddbe60a9f989ea61ec8b479dcafa4d8a73a7d3ad24",
+        "expected_source_sha256": "c9117737cef3990cc27ed9413c85330cf53b0ec91c06840523fe491f2be2c14a"
+      },
+      "source_sha256": "c9117737cef3990cc27ed9413c85330cf53b0ec91c06840523fe491f2be2c14a",
+      "labels": {
+        "contact": {
+          "frame": 579,
+          "pts_seconds": 19.3
+        },
+        "entry": {
+          "frame": 0,
+          "pts_seconds": 0
+        },
+        "side": null,
+        "space": 1
+      },
+      "full_prediction": {
+        "collision_frame": 493,
+        "entry_frame": 762,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "old10hz_prediction": {
+        "collision_frame": 495,
+        "entry_frame": 765,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "full": {
+        "contact": {
+          "signed_error_seconds": -2.866666666666667,
+          "abs_error_seconds": 2.866666666666667,
+          "correct": false,
+          "predicted_frame": 493,
+          "predicted_pts_seconds": 16.433333333333334
+        },
+        "entry": {
+          "signed_error_seconds": 25.4,
+          "abs_error_seconds": 25.4,
+          "correct": false,
+          "predicted_frame": 762,
+          "predicted_pts_seconds": 25.4
+        },
+        "side": null,
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "old10hz": {
+        "contact": {
+          "signed_error_seconds": -2.8000000000000007,
+          "abs_error_seconds": 2.8000000000000007,
+          "correct": false,
+          "predicted_frame": 495,
+          "predicted_pts_seconds": 16.5
+        },
+        "entry": {
+          "signed_error_seconds": 25.5,
+          "abs_error_seconds": 25.5,
+          "correct": false,
+          "predicted_frame": 765,
+          "predicted_pts_seconds": 25.5
+        },
+        "side": null,
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "changes": {
+        "contact": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "entry": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "side": null,
+        "space": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        }
+      },
+      "full_frame_count": 1199,
+      "old10hz_frame_count": 401,
+      "old10hz_reference": {
+        "report_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_reserved\\report.json",
+        "report_sha256": "00eca04dc8386427c34595ac94ac655db6f9fc86aae4f029e20f21808c6b819d",
+        "freeze_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_reserved\\freeze.json",
+        "freeze_sha256": "ed42b8d14708e85bb06a140fdcae4d42b8b52ea602f17a6525299c947d9e416d"
+      },
+      "full_internal_collision": 1198,
+      "old10hz_internal_collision": 1198,
+      "fullC": {
+        "contact": {
+          "signed_error_seconds": -0.03333333333333499,
+          "abs_error_seconds": 0.03333333333333499,
+          "correct": true,
+          "predicted_frame": 578,
+          "predicted_pts_seconds": 19.266666666666666
+        },
+        "entry": {
+          "signed_error_seconds": 25.4,
+          "abs_error_seconds": 25.4,
+          "correct": false,
+          "predicted_frame": 762,
+          "predicted_pts_seconds": 25.4
+        },
+        "side": null,
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "fullC_prediction": {
+        "collision_frame": 578,
+        "entry_frame": 762,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "other_fields_identical": true,
+      "score_audit": {
+        "jerk": {
+          "median": 0.001634705113247037,
+          "mad": 0.0008505783043801785,
+          "scaled_mad": 0.0012610673940740525,
+          "denominator": 0.0012610673940740525,
+          "denominator_floor_active": false,
+          "upper_clip_count": 81
+        },
+        "residual": {
+          "median": 0.03660072013735771,
+          "mad": 0.011816209182143211,
+          "scaled_mad": 0.017518711733445526,
+          "denominator": 0.017518711733445526,
+          "denominator_floor_active": false,
+          "upper_clip_count": 154
+        },
+        "appearance": {
+          "median": 0.17636719346046448,
+          "mad": 0.054622404277324677,
+          "scaled_mad": 0.08098317658156157,
+          "denominator": 0.08098317658156157,
+          "denominator_floor_active": false,
+          "upper_clip_count": 129
+        },
+        "baseline_top_two": [
+          {
+            "frame": 493,
+            "score": 18.5
+          },
+          {
+            "frame": 494,
+            "score": 18.5
+          }
+        ],
+        "candidate_top_two": [
+          {
+            "frame": 578,
+            "score": 266.4391174316406
+          },
+          {
+            "frame": 577,
+            "score": 256.4046630859375
+          }
+        ],
+        "baseline_score_sha256": "94b703db23f846ee8b452340e0e450fddab956a0ec5f42189d30790f92dc7c65",
+        "candidate_score_sha256": "0e62676eee596057c606e15ab746fe793e96efb31db0fcdf447e166fd9c1fc89",
+        "float32_exact": true,
+        "earliest_tie_policy_verified": true
+      },
+      "old10hzC": {
+        "contact": {
+          "signed_error_seconds": 0.5,
+          "abs_error_seconds": 0.5,
+          "correct": false,
+          "predicted_frame": 594,
+          "predicted_pts_seconds": 19.8
+        },
+        "entry": {
+          "signed_error_seconds": 25.5,
+          "abs_error_seconds": 25.5,
+          "correct": false,
+          "predicted_frame": 765,
+          "predicted_pts_seconds": 25.5
+        },
+        "side": null,
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "old10hzC_prediction": {
+        "collision_frame": 594,
+        "entry_frame": 765,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      }
+    },
+    {
+      "ID": "00007",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00007_review_1789404064071.json",
+      "review_sha256": "724ab536dea876fbd653857d91d4fe04a5105afcfcf8f5e5e1ad24afcc2e296f",
+      "label_binding": {
+        "intake_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_review_intake_integrity.json",
+        "intake_sha256": "23c9a7d4413e184eebd8550dd8b2c1fb1462b1d6a4916b95963485f64b90f1fe",
+        "expected_review_sha256": "724ab536dea876fbd653857d91d4fe04a5105afcfcf8f5e5e1ad24afcc2e296f",
+        "expected_source_sha256": "0a7ebda789db958382dbe41e823e7b9466e4d806d3184c9222afe3671d361ed3"
+      },
+      "source_sha256": "0a7ebda789db958382dbe41e823e7b9466e4d806d3184c9222afe3671d361ed3",
+      "labels": {
+        "contact": {
+          "frame": 625,
+          "pts_seconds": 20.833333333333332
+        },
+        "entry": {
+          "frame": 514,
+          "pts_seconds": 17.133333333333333
+        },
+        "side": "LEFT",
+        "space": 1
+      },
+      "full_prediction": {
+        "collision_frame": 316,
+        "entry_frame": 329,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "old10hz_prediction": {
+        "collision_frame": 318,
+        "entry_frame": 114,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "full": {
+        "contact": {
+          "signed_error_seconds": -10.299999999999999,
+          "abs_error_seconds": 10.299999999999999,
+          "correct": false,
+          "predicted_frame": 316,
+          "predicted_pts_seconds": 10.533333333333333
+        },
+        "entry": {
+          "signed_error_seconds": -6.166666666666666,
+          "abs_error_seconds": 6.166666666666666,
+          "correct": false,
+          "predicted_frame": 329,
+          "predicted_pts_seconds": 10.966666666666667
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "LEFT",
+          "correct": true
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "old10hz": {
+        "contact": {
+          "signed_error_seconds": -10.233333333333333,
+          "abs_error_seconds": 10.233333333333333,
+          "correct": false,
+          "predicted_frame": 318,
+          "predicted_pts_seconds": 10.6
+        },
+        "entry": {
+          "signed_error_seconds": -13.333333333333332,
+          "abs_error_seconds": 13.333333333333332,
+          "correct": false,
+          "predicted_frame": 114,
+          "predicted_pts_seconds": 3.8
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "LEFT",
+          "correct": true
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "changes": {
+        "contact": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "entry": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "side": {
+          "old_correct": true,
+          "full_correct": true,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "space": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        }
+      },
+      "full_frame_count": 1205,
+      "old10hz_frame_count": 403,
+      "old10hz_reference": {
+        "report_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_reserved\\report.json",
+        "report_sha256": "00eca04dc8386427c34595ac94ac655db6f9fc86aae4f029e20f21808c6b819d",
+        "freeze_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_reserved\\freeze.json",
+        "freeze_sha256": "ed42b8d14708e85bb06a140fdcae4d42b8b52ea602f17a6525299c947d9e416d"
+      },
+      "full_internal_collision": 402,
+      "old10hz_internal_collision": 312,
+      "fullC": {
+        "contact": {
+          "signed_error_seconds": -9.833333333333332,
+          "abs_error_seconds": 9.833333333333332,
+          "correct": false,
+          "predicted_frame": 330,
+          "predicted_pts_seconds": 11.0
+        },
+        "entry": {
+          "signed_error_seconds": -6.166666666666666,
+          "abs_error_seconds": 6.166666666666666,
+          "correct": false,
+          "predicted_frame": 329,
+          "predicted_pts_seconds": 10.966666666666667
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "LEFT",
+          "correct": true
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "fullC_prediction": {
+        "collision_frame": 330,
+        "entry_frame": 329,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "other_fields_identical": true,
+      "score_audit": {
+        "jerk": {
+          "median": 0.016388937830924988,
+          "mad": 0.009549660608172417,
+          "scaled_mad": 0.014158326817676424,
+          "denominator": 0.014158326817676424,
+          "denominator_floor_active": false,
+          "upper_clip_count": 4
+        },
+        "residual": {
+          "median": 0.6928461790084839,
+          "mad": 0.28056803345680237,
+          "scaled_mad": 0.4159701664030552,
+          "denominator": 0.4159701664030552,
+          "denominator_floor_active": false,
+          "upper_clip_count": 0
+        },
+        "appearance": {
+          "median": 3.7406249046325684,
+          "mad": 1.333984375,
+          "scaled_mad": 1.9777652343749998,
+          "denominator": 1.9777652343749998,
+          "denominator_floor_active": false,
+          "upper_clip_count": 3
+        },
+        "baseline_top_two": [
+          {
+            "frame": 316,
+            "score": 10.826189994812012
+          },
+          {
+            "frame": 330,
+            "score": 10.516120910644531
+          }
+        ],
+        "candidate_top_two": [
+          {
+            "frame": 330,
+            "score": 13.810079574584961
+          },
+          {
+            "frame": 630,
+            "score": 13.458189010620117
+          }
+        ],
+        "baseline_score_sha256": "9963ec0270e6b456f90224ad250456fb1892544f865cf0f5f123ab6a72295047",
+        "candidate_score_sha256": "a0f29b237c2f1958db18f7bc48469c319a55ab95bc8a79221d3954a4db92cd87",
+        "float32_exact": true,
+        "earliest_tie_policy_verified": true
+      },
+      "old10hzC": {
+        "contact": {
+          "signed_error_seconds": 19.3,
+          "abs_error_seconds": 19.3,
+          "correct": false,
+          "predicted_frame": 1204,
+          "predicted_pts_seconds": 40.13333333333333
+        },
+        "entry": {
+          "signed_error_seconds": -13.333333333333332,
+          "abs_error_seconds": 13.333333333333332,
+          "correct": false,
+          "predicted_frame": 114,
+          "predicted_pts_seconds": 3.8
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "LEFT",
+          "correct": true
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "old10hzC_prediction": {
+        "collision_frame": 1204,
+        "entry_frame": 114,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      }
+    }
+  ],
+  "comparison_2x2": {
+    "old10hz": {
+      "contact": {
+        "known_count": 6,
+        "unknown_count": 0,
+        "known_ids": [
+          "00000",
+          "00003",
+          "00004",
+          "00005",
+          "00006",
+          "00007"
+        ],
+        "correct_count": 1,
+        "accuracy": 0.16666666666666666,
+        "mean_abs_error_seconds": 3.693009099064463,
+        "tolerance_seconds": 0.3
+      },
+      "entry": {
+        "known_count": 5,
+        "unknown_count": 1,
+        "known_ids": [
+          "00000",
+          "00003",
+          "00005",
+          "00006",
+          "00007"
+        ],
+        "correct_count": 0,
+        "accuracy": 0.0,
+        "mean_abs_error_seconds": 15.684882737408689,
+        "tolerance_seconds": 0.3
+      },
+      "side": {
+        "known_count": 4,
+        "unknown_count": 2,
+        "known_ids": [
+          "00000",
+          "00004",
+          "00005",
+          "00007"
+        ],
+        "correct_count": 3,
+        "accuracy": 0.75,
+        "macro_f1": 0.7333333333333334,
+        "macro_classes": [
+          "LEFT",
+          "RIGHT"
+        ]
+      },
+      "space": {
+        "known_count": 6,
+        "unknown_count": 0,
+        "known_ids": [
+          "00000",
+          "00003",
+          "00004",
+          "00005",
+          "00006",
+          "00007"
+        ],
+        "correct_count": 1,
+        "accuracy": 0.16666666666666666,
+        "macro_f1": 0.14285714285714285,
+        "macro_classes": [
+          0,
+          1
+        ]
+      }
+    },
+    "old10hzC": {
+      "contact": {
+        "known_count": 6,
+        "unknown_count": 0,
+        "known_ids": [
+          "00000",
+          "00003",
+          "00004",
+          "00005",
+          "00006",
+          "00007"
+        ],
+        "correct_count": 3,
+        "accuracy": 0.5,
+        "mean_abs_error_seconds": 3.488760733051391,
+        "tolerance_seconds": 0.3
+      },
+      "entry": {
+        "known_count": 5,
+        "unknown_count": 1,
+        "known_ids": [
+          "00000",
+          "00003",
+          "00005",
+          "00006",
+          "00007"
+        ],
+        "correct_count": 0,
+        "accuracy": 0.0,
+        "mean_abs_error_seconds": 15.684882737408689,
+        "tolerance_seconds": 0.3
+      },
+      "side": {
+        "known_count": 4,
+        "unknown_count": 2,
+        "known_ids": [
+          "00000",
+          "00004",
+          "00005",
+          "00007"
+        ],
+        "correct_count": 3,
+        "accuracy": 0.75,
+        "macro_f1": 0.7333333333333334,
+        "macro_classes": [
+          "LEFT",
+          "RIGHT"
+        ]
+      },
+      "space": {
+        "known_count": 6,
+        "unknown_count": 0,
+        "known_ids": [
+          "00000",
+          "00003",
+          "00004",
+          "00005",
+          "00006",
+          "00007"
+        ],
+        "correct_count": 1,
+        "accuracy": 0.16666666666666666,
+        "macro_f1": 0.14285714285714285,
+        "macro_classes": [
+          0,
+          1
+        ]
+      }
+    },
+    "full": {
+      "contact": {
+        "known_count": 6,
+        "unknown_count": 0,
+        "known_ids": [
+          "00000",
+          "00003",
+          "00004",
+          "00005",
+          "00006",
+          "00007"
+        ],
+        "correct_count": 0,
+        "accuracy": 0.0,
+        "mean_abs_error_seconds": 9.3720235806741,
+        "tolerance_seconds": 0.3
+      },
+      "entry": {
+        "known_count": 5,
+        "unknown_count": 1,
+        "known_ids": [
+          "00000",
+          "00003",
+          "00005",
+          "00006",
+          "00007"
+        ],
+        "correct_count": 0,
+        "accuracy": 0.0,
+        "mean_abs_error_seconds": 13.47184159938485,
+        "tolerance_seconds": 0.3
+      },
+      "side": {
+        "known_count": 4,
+        "unknown_count": 2,
+        "known_ids": [
+          "00000",
+          "00004",
+          "00005",
+          "00007"
+        ],
+        "correct_count": 2,
+        "accuracy": 0.5,
+        "macro_f1": 0.5,
+        "macro_classes": [
+          "LEFT",
+          "RIGHT"
+        ]
+      },
+      "space": {
+        "known_count": 6,
+        "unknown_count": 0,
+        "known_ids": [
+          "00000",
+          "00003",
+          "00004",
+          "00005",
+          "00006",
+          "00007"
+        ],
+        "correct_count": 1,
+        "accuracy": 0.16666666666666666,
+        "macro_f1": 0.14285714285714285,
+        "macro_classes": [
+          0,
+          1
+        ]
+      }
+    },
+    "fullC": {
+      "contact": {
+        "known_count": 6,
+        "unknown_count": 0,
+        "known_ids": [
+          "00000",
+          "00003",
+          "00004",
+          "00005",
+          "00006",
+          "00007"
+        ],
+        "correct_count": 3,
+        "accuracy": 0.5,
+        "mean_abs_error_seconds": 1.7929193899782134,
+        "tolerance_seconds": 0.3
+      },
+      "entry": {
+        "known_count": 5,
+        "unknown_count": 1,
+        "known_ids": [
+          "00000",
+          "00003",
+          "00005",
+          "00006",
+          "00007"
+        ],
+        "correct_count": 0,
+        "accuracy": 0.0,
+        "mean_abs_error_seconds": 13.47184159938485,
+        "tolerance_seconds": 0.3
+      },
+      "side": {
+        "known_count": 4,
+        "unknown_count": 2,
+        "known_ids": [
+          "00000",
+          "00004",
+          "00005",
+          "00007"
+        ],
+        "correct_count": 2,
+        "accuracy": 0.5,
+        "macro_f1": 0.5,
+        "macro_classes": [
+          "LEFT",
+          "RIGHT"
+        ]
+      },
+      "space": {
+        "known_count": 6,
+        "unknown_count": 0,
+        "known_ids": [
+          "00000",
+          "00003",
+          "00004",
+          "00005",
+          "00006",
+          "00007"
+        ],
+        "correct_count": 1,
+        "accuracy": 0.16666666666666666,
+        "macro_f1": 0.14285714285714285,
+        "macro_classes": [
+          0,
+          1
+        ]
+      }
+    }
+  },
+  "historical_10hz_C_file_sha256s": {
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_development\\freeze.json": "b13ab39b5c9fb40404dcba64fdc5f9ec5d96c1913cbf75bfd0502f58356a7ee3",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_development\\report.json": "990a7194b7b1ed08c2213324ed67e575538abd1946bcb1b0542138cceb7a234c",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_reserved\\freeze.json": "ed42b8d14708e85bb06a140fdcae4d42b8b52ea602f17a6525299c947d9e416d",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_reserved\\report.json": "00eca04dc8386427c34595ac94ac655db6f9fc86aae4f029e20f21808c6b819d"
+  },
+  "report_sha256": "e8f2bd34856021cc255b9c5a0d5554050376944c2e75944162f659ef420ee5ae",
+  "freeze_sha256": "aba555a3abf8692139dd93faa06539a6f8c6c5309e26af5321c587f9378705e6",
+  "protocol_sha256": "10d20bfc841b47ec0f4d1a3ef18019f2efd93541086fe7b8cdf94a3a65fbc6e7",
+  "candidate_sha256": "3e86e5117230fb4680c1d4af630cb02dd7e9aca99b7c4184d7baed13f479d64e",
+  "evaluator_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\evaluate_uncapped_jerk_fullframe_replay.py",
+  "evaluator_sha256": "382fa43fca751837218d1457beff9c1927a75b5bb73652312969cf4506021772",
+  "imported_evaluator_sha256s": {
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\evaluate_nexar_fullframe_v5.py": "073d339e5a221f5baa86224a9f084dfea2110513b493edb18b1db7a7cece2709",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\evaluate_uncapped_jerk_v6c.py": "7896bb095be2d3825f31d02a4423013f5b59db8269d95bca24dfe3a95a754b58"
+  },
+  "review_file_sha256s": {
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00000_review_1789400071868.json": "654e93fad5b32cadeef094e61d6a90a066ebcd7e332fa0a8e7ca21563a0afbc3",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00003_review_1789444125537.json": "97fd59c05279282f33998903e4c9aa57d18fb9a0e5a4effc06acd6b803a5f86d",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00004_review_1789444066492.json": "eccd40747a2ad28d72ec80c8cbaf8656a59732f81412750119cbc026656671f6",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00005_review_1789444069007.json": "738909ecd54c0b3d53e926bb81ed929b282c6556e8905ed7505e94f756922b3b",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00006_review_1789444072672.json": "be09435498362b3f75f2ffddbe60a9f989ea61ec8b479dcafa4d8a73a7d3ad24",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00007_review_1789404064071.json": "724ab536dea876fbd653857d91d4fe04a5105afcfcf8f5e5e1ad24afcc2e296f"
+  },
+  "S2": null,
+  "official_S2": null,
+  "independent_validation": false,
+  "ground_truth_promotion": false,
+  "limitations": [
+    "All six sources are exposed single-human diagnostic references. Gate only permits separately frozen fresh validation.",
+    "Unknown labels remain null; no full S2. Prior C rejection is preserved.",
+    "Density changes are local PNG comparisons, not exact hidden JPEG/FPS replication."
+  ]
+}

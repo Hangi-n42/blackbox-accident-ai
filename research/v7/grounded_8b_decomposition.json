@@ -1,0 +1,224 @@
+{
+  "status": "completed_fixed_condition_postmortem",
+  "summary": {
+    "contact": {
+      "n": 9,
+      "candidate_omission": 2,
+      "selection_failure_when_candidate_present": 6,
+      "correct": 1
+    },
+    "entry": {
+      "n": 8,
+      "candidate_omission": 6,
+      "selection_failure_when_candidate_present": 1,
+      "correct": 1
+    }
+  },
+  "rows": [
+    {
+      "ID": "00000",
+      "events": {
+        "contact": {
+          "candidate_nearest_seconds": 0.0,
+          "selected_error_seconds": 0.8650519031141854,
+          "candidate_has_tolerated_frame": true,
+          "selected_within_tolerance": false,
+          "window_status": "invalid_bracket",
+          "selection_route": "valid_selected"
+        },
+        "entry": {
+          "candidate_nearest_seconds": 14.186851211072666,
+          "selected_error_seconds": 19.20415224913495,
+          "candidate_has_tolerated_frame": false,
+          "selected_within_tolerance": false,
+          "window_status": "invalid_bracket",
+          "selection_route": "invalid_fallback_first"
+        }
+      }
+    },
+    {
+      "ID": "00003",
+      "events": {
+        "contact": {
+          "candidate_nearest_seconds": 0.03333333333333499,
+          "selected_error_seconds": 2.5666666666666664,
+          "candidate_has_tolerated_frame": true,
+          "selected_within_tolerance": false,
+          "window_status": "invalid_bracket",
+          "selection_route": "valid_selected"
+        },
+        "entry": {
+          "candidate_nearest_seconds": 0.0,
+          "selected_error_seconds": 0.0,
+          "candidate_has_tolerated_frame": true,
+          "selected_within_tolerance": true,
+          "window_status": "invalid_bracket",
+          "selection_route": "invalid_fallback_first"
+        }
+      }
+    },
+    {
+      "ID": "00004",
+      "events": {
+        "contact": {
+          "candidate_nearest_seconds": 0.10000000000000142,
+          "selected_error_seconds": 1.5999999999999979,
+          "candidate_has_tolerated_frame": true,
+          "selected_within_tolerance": false,
+          "window_status": "invalid_bracket",
+          "selection_route": "valid_selected"
+        }
+      }
+    },
+    {
+      "ID": "00005",
+      "events": {
+        "contact": {
+          "candidate_nearest_seconds": 0.03267973856209139,
+          "selected_error_seconds": 1.7320261437908506,
+          "candidate_has_tolerated_frame": true,
+          "selected_within_tolerance": false,
+          "window_status": "invalid_bracket",
+          "selection_route": "valid_selected"
+        },
+        "entry": {
+          "candidate_nearest_seconds": 15.980392156862745,
+          "selected_error_seconds": 16.99346405228758,
+          "candidate_has_tolerated_frame": false,
+          "selected_within_tolerance": false,
+          "window_status": "invalid_bracket",
+          "selection_route": "valid_selected"
+        }
+      }
+    },
+    {
+      "ID": "00006",
+      "events": {
+        "contact": {
+          "candidate_nearest_seconds": 0.03333333333333499,
+          "selected_error_seconds": 0.03333333333333499,
+          "candidate_has_tolerated_frame": true,
+          "selected_within_tolerance": true,
+          "window_status": "invalid_bracket",
+          "selection_route": "invalid_fallback_v6_motion"
+        },
+        "entry": {
+          "candidate_nearest_seconds": 0.0,
+          "selected_error_seconds": 0.3333333333333333,
+          "candidate_has_tolerated_frame": true,
+          "selected_within_tolerance": false,
+          "window_status": "invalid_bracket",
+          "selection_route": "valid_selected"
+        }
+      }
+    },
+    {
+      "ID": "00007",
+      "events": {
+        "contact": {
+          "candidate_nearest_seconds": 7.299999999999999,
+          "selected_error_seconds": 7.633333333333333,
+          "candidate_has_tolerated_frame": false,
+          "selected_within_tolerance": false,
+          "window_status": "invalid_bracket",
+          "selection_route": "valid_selected"
+        },
+        "entry": {
+          "candidate_nearest_seconds": 12.1,
+          "selected_error_seconds": 14.433333333333334,
+          "candidate_has_tolerated_frame": false,
+          "selected_within_tolerance": false,
+          "window_status": "invalid_bracket",
+          "selection_route": "valid_selected"
+        }
+      }
+    },
+    {
+      "ID": "00008",
+      "events": {
+        "contact": {
+          "candidate_nearest_seconds": 0.06666666666666643,
+          "selected_error_seconds": 2.7666666666666693,
+          "candidate_has_tolerated_frame": true,
+          "selected_within_tolerance": false,
+          "window_status": "invalid_bracket",
+          "selection_route": "valid_selected"
+        },
+        "entry": {
+          "candidate_nearest_seconds": 13.633333333333335,
+          "selected_error_seconds": 18.666666666666668,
+          "candidate_has_tolerated_frame": false,
+          "selected_within_tolerance": false,
+          "window_status": "invalid_bracket",
+          "selection_route": "invalid_fallback_first"
+        }
+      }
+    },
+    {
+      "ID": "00010",
+      "events": {
+        "contact": {
+          "candidate_nearest_seconds": 16.166666666666668,
+          "selected_error_seconds": 21.2,
+          "candidate_has_tolerated_frame": false,
+          "selected_within_tolerance": false,
+          "window_status": "invalid_bracket",
+          "selection_route": "invalid_fallback_v6_motion"
+        },
+        "entry": {
+          "candidate_nearest_seconds": 14.0,
+          "selected_error_seconds": 19.066666666666666,
+          "candidate_has_tolerated_frame": false,
+          "selected_within_tolerance": false,
+          "window_status": "invalid_bracket",
+          "selection_route": "invalid_fallback_first"
+        }
+      }
+    },
+    {
+      "ID": "00013",
+      "events": {
+        "contact": {
+          "candidate_nearest_seconds": 0.10000000000000142,
+          "selected_error_seconds": 1.2333333333333343,
+          "candidate_has_tolerated_frame": true,
+          "selected_within_tolerance": false,
+          "window_status": "invalid_bracket",
+          "selection_route": "valid_selected"
+        },
+        "entry": {
+          "candidate_nearest_seconds": 13.966666666666665,
+          "selected_error_seconds": 18.633333333333333,
+          "candidate_has_tolerated_frame": false,
+          "selected_within_tolerance": false,
+          "window_status": "invalid_bracket",
+          "selection_route": "valid_selected"
+        }
+      }
+    }
+  ],
+  "overview_all_null_contact": 9,
+  "side_predictions": [
+    "LEFT",
+    "LEFT",
+    "RIGHT",
+    "LEFT",
+    "LEFT",
+    "LEFT",
+    "LEFT",
+    "LEFT",
+    "LEFT"
+  ],
+  "space_predictions": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "limitation": "Development postmortem; no parameter search or independent accuracy claim"
+}

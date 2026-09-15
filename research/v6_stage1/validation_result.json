@@ -1,0 +1,22 @@
+{
+  "actual_media_acquired": false,
+  "actual_model_inference": false,
+  "empty_manifest_process_exit": 2,
+  "empty_manifest_status": "NOT_READY",
+  "contract_tests_return_code": 0,
+  "contract_tests_output": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.076s\n\nOK",
+  "fixtures_are_not_media": true,
+  "source_sha256": {
+    "research/stage1/training_manifest.json": "0c8c87f318aa865cf9cc7aa099855cdb67f5cb1a536da9c361582e808b74fb22",
+    "research/stage1/comma_original_diagnostic/frozen_manifest.json": "91a3cb793f22bba0350edc324fd3d1febc8a0f0d4ffca274e26bb9dae3821380",
+    "research/stage1/comma_original_diagnostic/metrics.json": "c0312f99ecc929b5562e33a4ffd3da7994e8e61945c2571b10ec1530f5faee12",
+    "research/stage1/dlc_subset/frozen_diagnostic_manifest.json": "503c1183cdc4e0e34781ac6dfa3fc98232776442ba69a19d21d39a6eebfc08b8",
+    "research/stage1/dlc_subset/frozen_metrics.json": "04a57c66d33f4cec17cbef9a7db0bb408ef21d70b1498ca0821a647666c9699a",
+    "research/stage1/real_recapture_validation_audit.md": "9f2abcc42eb71f6af76a928eaddd29ba407bca1c87ca298f1ea50c06469b975e",
+    "research/v6/README.md": "2f5104d7266dac21c58d56a89c21f84ad551e4ab966274795c83f10d1231d4ae"
+  },
+  "local_tools_sha256": {
+    "check_capture_manifest.py": "b8d9d2f2d8bd7025702f48361b089f6e94b5b9cd44d58d54f89f13ba87760cc2",
+    "test_manifest_checks.py": "f4482f514e26b06714a9c55d923e039f2b12424e580fa96569ec4221ddee6a9f"
+  }
+}

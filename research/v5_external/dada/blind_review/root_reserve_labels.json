@@ -1,0 +1,11 @@
+{
+  "reviewer":"root AI visual review, not official ground truth",
+  "prediction_blind":true,
+  "evidence":"All four overview and author-window-centered contact sheets viewed. Blind to model predictions, not to author-selected contact window. Original numbering preserved.",
+  "clips":[
+    {"ID":"DADA_10_155","target":null,"ego_contact":"not_discernible","entry_interval":null,"contact_interval":null,"entry_side":null,"space":null,"note":"Parking area; ego drives between parked vehicles. Left nearby white vehicle leaves edge; no identifiable ego contact partner in inspected frames."},
+    {"ID":"DADA_49_026","target":null,"ego_contact":"third_party_scene_ego_contact_not_discernible","entry_interval":null,"contact_interval":null,"entry_side":null,"space":null,"note":"Container truck crowds white car ahead with standing person. Ego remains behind. Do not use third-party interaction time as ego contact."},
+    {"ID":"DADA_49_036","target":null,"ego_contact":"not_discernible","entry_interval":null,"contact_interval":null,"entry_side":null,"space":null,"note":"Large blue truck overtakes on right and water/spray obscures windshield; later blue car passes left. Spray and motion do not establish physical contact with ego."},
+    {"ID":"DADA_50_133","target":null,"ego_contact":"uncertain_target_and_author_time_alignment","entry_interval":null,"contact_interval":null,"entry_side":null,"space":null,"note":"Author-centered76 window has distant road users without identifiable contact; much later203..254 a white sedan from right passes near ego front. Cannot identify first actual contact and partner confidently. Do not substitute later vehicle automatically."}
+  ]
+}

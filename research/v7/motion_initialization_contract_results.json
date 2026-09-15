@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "tests_run": 12,
+  "failures": [],
+  "errors": [],
+  "source_sha256s": {
+    "research\\v7\\solution\\stage2_motion_init_v7.py": "1d8e9078e32dec54fffadabfb09767fe46738ffc8994baafc9feccded7f50a02",
+    "artifacts\\submissions\\verify_v6\\model\\stage2\\code\\solution\\stage2_uncapped_jerk_v6c.py": "3e86e5117230fb4680c1d4af630cb02dd7e9aca99b7c4184d7baed13f479d64e",
+    "artifacts\\submissions\\verify_v6\\model\\stage2\\code\\solution\\stage2.py": "2323653c4271ec09e2bf1761f6938d5cec1f76bbe5a01df96ce7aa22b183dc1a"
+  },
+  "test_sha256": "98292e57bb65012791338df559f72919250a537e83d334f14502d908a9824255",
+  "protected_unchanged": true,
+  "random_property_cases": 180,
+  "gpu_used": false,
+  "real_frames_or_labels_read": false,
+  "accuracy_evaluation": false,
+  "limitation": "Model call stub verifies candidate forwards unchanged baseline inputs; does not rerun four actual VLM calls or certify GPU nondeterminism. Synthetic finite features only."
+}

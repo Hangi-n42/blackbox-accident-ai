@@ -1,0 +1,23 @@
+{
+  "version": "v7_initial",
+  "frozen_before_candidate_predictions": true,
+  "baseline": {"version":"V6", "source":"User-provided official result screenshot", "stage1":0.5078837545,"stage2":0.2817803332,"stage3":0.5266169416,"runtime_seconds":2561},
+  "stage2_development": {
+    "ids":["00000","00003","00004","00005","00006","00007","00008","00010","00013"],
+    "status":"All previously exposed development sources; single-human draft labels with unknowns preserved",
+    "candidate":"One four-call automatic target and independent contact/entry bracket policy; no human answers in inference",
+    "budget":{"calls":4,"total_generation_tokens":192,"pixels_per_call":1200000},
+    "advancement_requirements":["Contact and entry Accuracy@0.3s do not decrease", "Known side and space Macro-F1 do not decrease", "At least one changed field improves", "Record all gained and lost correct examples and MAE; do not silently change criteria"],
+    "interpretation":"Development advancement is not independent validation or guaranteed official improvement. No automatic submission approval."
+  },
+  "fresh_source_review": {
+    "selection":"First three filename-ordered train/positive videos after 00013 from the same pinned Nexar revision: 00014, 00015, 00016; selected before viewing or model outputs",
+    "role":"AI visual applicability and failure review, not human annotations or official ground truth",
+    "candidate_outputs_hidden_during_review":true,
+    "exclusion":"Preserve non-ego-contact/uncertain examples and report applicability rather than silently replace them",
+    "no_ai_accuracy_claim":true
+  },
+  "stage1":"Audit actual recapture transfer and preprocessing. Physical road recapture pairs currently zero; no unvalidated fusion replacement.",
+  "stage3":"One bounded CPU temporal residual experiment against fixed existing development splits, as recorded by Stage3 agent before training. Proxy labels remain distinct from official GT.",
+  "packaging":"Only explicitly adopted changes, actual extracted offline all-stage inference and output contracts before authorized V7 submission. No claim of accuracy improvement for an unchanged V6 package."
+}

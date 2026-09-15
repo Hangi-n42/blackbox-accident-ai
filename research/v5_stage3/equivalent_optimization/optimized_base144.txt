@@ -1,0 +1,28 @@
+         113000 function calls in 0.707 seconds
+
+   Ordered by: cumulative time
+   List reduced from 70 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      240    0.166    0.001    0.707    0.003 C:\Users\dsl\Desktop\Dacon\블랙박스\solution\stage3_v5_fast.py:45(__call__)
+     2880    0.005    0.000    0.295    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\solution\stage3_v5_fast.py:24(partition)
+     2880    0.004    0.000    0.289    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\core\fromnumeric.py:662(partition)
+     2880    0.275    0.000    0.275    0.000 {method 'partition' of 'numpy.ndarray' objects}
+     2880    0.007    0.000    0.094    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\solution\stage3_v5_fast.py:27(median)
+     2880    0.006    0.000    0.086    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\core\fromnumeric.py:3385(mean)
+     2880    0.028    0.000    0.080    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\core\_methods.py:101(_mean)
+     2880    0.070    0.000    0.070    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\solution\stage3_v5_fast.py:31(percentile)
+     6000    0.026    0.000    0.026    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+     3122    0.024    0.000    0.024    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+     2880    0.004    0.000    0.023    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\core\fromnumeric.py:2322(any)
+     2880    0.008    0.000    0.019    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\core\fromnumeric.py:71(_wrapreduction)
+      240    0.017    0.000    0.018    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\core\shape_base.py:372(stack)
+     2880    0.009    0.000    0.011    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\core\_methods.py:67(_count_reduce_items)
+     5760    0.004    0.000    0.011    0.000 {built-in method builtins.next}
+      240    0.005    0.000    0.010    0.000 C:\Users\dsl\Desktop\Dacon\블랙박스\.venv\Lib\site-packages\numpy\lib\type_check.py:403(nan_to_num)
+     2880    0.009    0.000    0.009    0.000 {method 'copy' of 'numpy.ndarray' objects}
+     2880    0.003    0.000    0.009    0.000 C:\Users\dsl\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\contextlib.py:141(__exit__)
+     2880    0.003    0.000    0.008    0.000 C:\Users\dsl\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\contextlib.py:299(helper)
+     2880    0.002    0.000    0.008    0.000 C:\Users\dsl\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\contextlib.py:132(__enter__)
+
+

@@ -1,0 +1,450 @@
+{
+  "status": "frozen_before_audit_and_fit",
+  "created_utc": "2026-09-15T11:55:17Z",
+  "train_routes": [
+    "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48",
+    "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17",
+    "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07",
+    "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30",
+    "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28",
+    "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47",
+    "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38",
+    "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16",
+    "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27",
+    "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52",
+    "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39",
+    "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03",
+    "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13",
+    "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12",
+    "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46",
+    "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01",
+    "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30"
+  ],
+  "heldout_routes": [
+    "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20",
+    "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42",
+    "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49",
+    "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53",
+    "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52",
+    "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52"
+  ],
+  "split_history": "17/6 split used in earlier development; route held out of this fit, not fresh independent validation; both vehicles in training",
+  "raw144_recovery": "20Hz stride2 pair centers are decoded index 1,3,...; select exact center rows prefix144; no reshape, no interpolation inversion",
+  "network": "144->32 point projection, ReLU, Conv32 kernel3 dilations1,2,4,8 ReLU replicate padding; output7 zero initialization; receptive field31",
+  "seed": 42,
+  "epochs": 40,
+  "optimizer": "AdamW lr0.001 weight_decay0.0001",
+  "loss": "0.7 weighted accel CE +0.3 weighted steer CE; train-set balanced class weights; steer excludes GTSTOPPED; full route gradient accumulation",
+  "train_sampling": "same existing external17 2Hz rows only; no public GT in fit",
+  "baseline": "same Logistic C.03 balanced and RF160 depth10 leaf2 max_features.4 balanced seed42 from canonical source",
+  "selection": "single last epoch; no early stopping/model selection on heldout; no hyperparameter search",
+  "time_limit_training_seconds": 900,
+  "cpu_threads": 2,
+  "gpu": false,
+  "protocol_amendment_before_fit": "This is an added bounded feasibility experiment, not the initial RAV4-to-Civic plus publicOOF adoption experiment. Single 17/6 fit requested under CPU 15min budget. Original adoption criteria remain unmet even if this feasibility gate passes. V7 Stage3 adoption forbidden from this fit alone.",
+  "feasibility_gate_only": "both heldout head macroF1 nondecrease; stage3 strictly increase; >=4 of6 route stage3 strict improvements; local sample total inference ratio<=1.25; not adoption gate",
+  "public_diagnostic": "OPEN001 10 known matching targetGT, all accel CONSTANT; excluded entire matching external route; not representative gate",
+  "bindings": {
+    "model\\stage3\\motion_model.joblib": "c52ecd15cf68856f2a7b0b37b120c7a961b3bd8889a33af4ec47f8b9719bb3b3",
+    "solution\\stage3.py": "4b211a1c4f731bbd28b0f6e60de172e9692bfc1fe0f46d49ce21d89ad44f3835",
+    "solution\\stage3_v5_compatible.py": "8e9d3b5ce7c60cbcfcca674e42523b8a006e758ca92dd459171c5de8107b120d",
+    "research\\v7\\stage3\\run_temporal.py": "4766e7d6996531b7c8292b81efeb888daac781bd58fe5b9eace997d956ff43fe",
+    "research\\stage3_temporal_experiment.py": "5386ad5cb8095171ce4a339bbf9af0334d163e959130692f7456c9ca57fd16fe",
+    "research\\stage3_temporal_v1\\external_split.json": "e74d2b14dff30adee5eecf366593b497a0c8c57c18cc38c12df717d8a4e16622",
+    "research\\stage3_external_overlap.json": "c6c1506989337f8304a0dddc03a212586466a327ecb9141438d154d4cd41d47e",
+    "Baseline\\data\\stage3\\labels.csv": "ab2fe896aaf120ab11cc016876e6e28b515b0697556d7871b314bee3b3bf54cf",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-50-48\\10\\video.hevc": "f2320172b87ab31fe1dfdbf158cd8e3e6c595b75c69c98dcf2e67e490d4215ea",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-50-48\\10\\global_pose\\frame_times": "85931e8427f234119539a7fd9be465a7e0c93821f85960b1678afbb576fa1996",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-50-48\\10\\processed_log\\CAN\\speed\\t": "c67c2c14dfed4851b7b2be1a4196a2a44c951092c5b3187ec3c67c7eeba3e517",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-50-48\\10\\processed_log\\CAN\\speed\\value": "1e711825fba2bec1068f25e51c3725bcfd1263cae6e4079584a431591c94be1f",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-50-48\\10\\processed_log\\CAN\\steering_angle\\t": "a7ef1961b863574aa31b263e8b7520166f44891533a7af86e5d394d51249420c",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-50-48\\10\\processed_log\\CAN\\steering_angle\\value": "2228dee77ef114d4ca661968ebbed2ebf8ac4c2980436624cd9c7c62995e37cb",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--11-17-20\\3\\video.hevc": "f8f392a308a5109e0fba772e43168763df8cafb4875d1b3abc806f6953144a99",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--11-17-20\\3\\global_pose\\frame_times": "4d1a1fa949ef4c31883ca7e824b5e8d7876dff1a228228e3ab8d958814d6b650",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--11-17-20\\3\\processed_log\\CAN\\speed\\t": "879f33597cd13ccc12d833385a44e0456966aa8131ec73751e443b2ff89f53d7",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--11-17-20\\3\\processed_log\\CAN\\speed\\value": "fcf41454af21d1673e96d65925f2494af0d5b23ff98b0aa383e6f13342c16fbd",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--11-17-20\\3\\processed_log\\CAN\\steering_angle\\t": "e8ba0e1cc14e253ee4a5ee2f546d1b989839b97865830779432c8391a823642f",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--11-17-20\\3\\processed_log\\CAN\\steering_angle\\value": "8e18011593fa0cc3975abad58367252e6f480426164ed31a956ced9a33389987",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--12-02-42\\27\\video.hevc": "91391bd4375cb72b350519eeba9e6373908cbae070eb1dccfeb8947bfc6b7032",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--12-02-42\\27\\global_pose\\frame_times": "21f17e5955d85e8ea41ad5911fb7ffcb1f77bd675a4fa3607087bbaf723f3a2e",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--12-02-42\\27\\processed_log\\CAN\\speed\\t": "ef2f360823eb15fc7dea7213802bc43916baa19d5696fe8523e7e8a0b3dd3da1",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--12-02-42\\27\\processed_log\\CAN\\speed\\value": "ccf8c8d9c3cedc293327b6120c1a970d7a55f287f57397cb110b36e7fa2d8e69",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--12-02-42\\27\\processed_log\\CAN\\steering_angle\\t": "bcfe776a7bc4e0fba55418d3c637ead44277840d7d98f70eeb0b76cb11030549",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--12-02-42\\27\\processed_log\\CAN\\steering_angle\\value": "0de68d910e620760747abec7cce67e76578657be2d24f60069b3d420158e5393",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--16-37-17\\4\\video.hevc": "878e6731d278a7cd3fa99c766fee7ff5d502521f4951e9d8812330eb9993250f",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--16-37-17\\4\\global_pose\\frame_times": "18c2f3631f749d945009fd0f26ea6058b78497d8a55fd77187fc2525bae51d72",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--16-37-17\\4\\processed_log\\CAN\\speed\\t": "caee44fd833f7e006b01106ef3609ab79b9ce5f23fed35487b07366bc8c2af1d",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--16-37-17\\4\\processed_log\\CAN\\speed\\value": "c6dd3df90d2c7bec555e503833f476cb3d161c801ee4eb88893279d28ced69e4",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--16-37-17\\4\\processed_log\\CAN\\steering_angle\\t": "6176cc5c759dfdd666a4879f2efeb8a54c72c21618c77c9a37963156db8eb86c",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--16-37-17\\4\\processed_log\\CAN\\steering_angle\\value": "5298f35f5b84d9c84c95a178a636b20d79a8c2deea80e34c04d52fe86e3868b1",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-03-07\\14\\video.hevc": "7d90916a183195650cf8133397ff65e5c05a1e5f3ea562eb50fad8af489b9b0c",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-03-07\\14\\global_pose\\frame_times": "6a02d58b39d7a20da8925697f990e0de81363bebe15e6ddea7d95b6868012aab",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-03-07\\14\\processed_log\\CAN\\speed\\t": "12cd769cad8670e0decb4b20f958dfb93a9396fb2b89ea9b972b5cb8eb998226",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-03-07\\14\\processed_log\\CAN\\speed\\value": "1dceee6e87c1cd825dd94880ddf31ba3c3b2746c6f56937f74b776bc323c6d62",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-03-07\\14\\processed_log\\CAN\\steering_angle\\t": "eefd347bc933a522c3b1a63edc870a53f4f2760e94b01eb1f9ea9af7fbbaa20c",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-03-07\\14\\processed_log\\CAN\\steering_angle\\value": "5ecd1e86f3f9fbf82e4c833e194762013f106b00ce53d296e6898469fdf02a20",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-44-30\\10\\video.hevc": "7e2b2ebe95f652a3f46ca64418841a1523a266280546a227e25a5ca058b74388",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-44-30\\10\\global_pose\\frame_times": "18f88e4c791f26d678e25bfd4a257af47be17f32acc9e9942847228639465f8b",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-44-30\\10\\processed_log\\CAN\\speed\\t": "321095f10f350a6d092b17f317a4501943b0367814f2cc53cf026fae1b062179",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-44-30\\10\\processed_log\\CAN\\speed\\value": "21411a33a5e1dfa9ed9e0749e100e8faa9ced0b6ad58f51607bb6471de6ce11e",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-44-30\\10\\processed_log\\CAN\\steering_angle\\t": "ef32143f55c075da276e33cb1a89cdab5f63d38945e445f6ca17d4d91dfd646a",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-44-30\\10\\processed_log\\CAN\\steering_angle\\value": "9aa59353f711b597d96f9ca6d3da18d364f94460ce5bda8ca284da825becd53e",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-31--20-50-28\\12\\video.hevc": "eda4ec0e206a8ed1a44e97b6dfc662d15112a86af9b2d43154e0b5af0642f2af",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-31--20-50-28\\12\\global_pose\\frame_times": "0ed7e42e8681d64be68f9e8898bb2ebe2fc75d288f21f8ceb6aad5d7beca34d8",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-31--20-50-28\\12\\processed_log\\CAN\\speed\\t": "11cda138a76bc814a4940d2cfd000df460094f445896702c7d5e7b43def469e4",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-31--20-50-28\\12\\processed_log\\CAN\\speed\\value": "5abbb8b097dd20ff3c39d26a778aa8d21930fbea0e6520de8cc92c01e476fcca",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-31--20-50-28\\12\\processed_log\\CAN\\steering_angle\\t": "2f375a8f6c7ec0ee9d802ab37cf94dab2bb235dd9bc099fdc3d5a780f5337714",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-31--20-50-28\\12\\processed_log\\CAN\\steering_angle\\value": "2eda020db21f6435db725e329e0be89dbb76de2a392510c3c71b6ad413f98be9",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-01--21-13-49\\10\\video.hevc": "56b5b4345db7115f8ef1dac105eb7b415c3516b702dcc0a44aa050768c8466a7",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-01--21-13-49\\10\\global_pose\\frame_times": "df417c4b04bcf91ed6d9442fbba840588d5931563d8cde35a1ef43d3d9edc6a8",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-01--21-13-49\\10\\processed_log\\CAN\\speed\\t": "17b5e9944edff01939e732c8319def837e906b46620be2f116fb0edef148d989",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-01--21-13-49\\10\\processed_log\\CAN\\speed\\value": "4d29b37199a472b53ff8bd5b77718bc5202477fce41e10829994b614ad3f3c97",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-01--21-13-49\\10\\processed_log\\CAN\\steering_angle\\t": "cca483bea3832cd958a4be5d38a19d8ba75ed8ac9a53dd09be00531189218aec",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-01--21-13-49\\10\\processed_log\\CAN\\steering_angle\\value": "1b4d619d24edf6f2ed66bbd6621e6f8bb6fbf3ba780563441647e4ecd75f3851",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--08-34-47\\29\\video.hevc": "ae721a401c6262840332b08419ce74a88d0786e22efaad1ac0f9974abbfb0a79",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--08-34-47\\29\\global_pose\\frame_times": "354547e1af58b998b1dd487f8f5cfec5294b5a628f9d203c895f8a4ce8558f8d",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--08-34-47\\29\\processed_log\\CAN\\speed\\t": "7a51154074825f1009df39c77d819df764eec8a00310c7a0db47ee9648b7b6de",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--08-34-47\\29\\processed_log\\CAN\\speed\\value": "7657932fc7afaef4be54e292b88d340b2faa5b9ec62fdc8d14d3daef3e63a896",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--08-34-47\\29\\processed_log\\CAN\\steering_angle\\t": "ac117495d592da1cd60386733f12be8c77104ac5ab4ee898361a2624668dbcae",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--08-34-47\\29\\processed_log\\CAN\\steering_angle\\value": "bed4da161bf4e5d75356c0ef212898bf7bbcb7ee12c8f080cea7f870b6cc5397",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--16-41-38\\10\\video.hevc": "3821974e3b740be605a8462dac9331022b3bbf33dfa60579d16a05c586551f8f",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--16-41-38\\10\\global_pose\\frame_times": "2bbe23e5411f485c09e079df4109bbf70b0130ef68058b5cd43fed18fd238c04",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--16-41-38\\10\\processed_log\\CAN\\speed\\t": "0a8c9fddf757e71b4e28b9dadee76a82e8467982bbf9d32dfe7ed739be7232f6",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--16-41-38\\10\\processed_log\\CAN\\speed\\value": "9c660e4d2966234a6d86d04621c33e571aff2db6f1f280ae6999f994b4284e9c",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--16-41-38\\10\\processed_log\\CAN\\steering_angle\\t": "fbe2f63daa8c4a4b4db85a0ed2530908688cb701357d8abfbc5039f1d88a90de",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--16-41-38\\10\\processed_log\\CAN\\steering_angle\\value": "e89cbef3956e5a4618323647f45cf82179e584f34a777edfb95a6169dd09d996",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-03--10-35-16\\10\\video.hevc": "71d6a6dc2a5813feb0d9407a0616aba6dfca786dc309bd3875aad7e868eed2a0",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-03--10-35-16\\10\\global_pose\\frame_times": "daee2bbb516d5216384ec2a68a1accb7fae7b55f359e566e93376e61be5fd9b2",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-03--10-35-16\\10\\processed_log\\CAN\\speed\\t": "149b40b6011799b555f1540b3426ced56ce2cf96f1cd460d806188ad3b6600b7",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-03--10-35-16\\10\\processed_log\\CAN\\speed\\value": "6d3dd2aa8b709fe087755f560b59a06df4382dc730977cb44890dea1b456305f",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-03--10-35-16\\10\\processed_log\\CAN\\steering_angle\\t": "0c9eb89ef7f4f794b5e8b84aba811590c04fa13c845cd66d2ef460b425c415c9",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-03--10-35-16\\10\\processed_log\\CAN\\steering_angle\\value": "711028d183e18c2df5b133ca9cc46421fec10721a5d04b81fb54025246b19a9c",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--08-13-53\\17\\video.hevc": "dac70a02c83fd4650a4444fafd2cd9e74216942b7215ab794220e38e3ca8e5f7",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--08-13-53\\17\\global_pose\\frame_times": "7fb305da6f710563ec97a672e2ef95bbd0d849d51e69a38dab07249c0aa11c80",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--08-13-53\\17\\processed_log\\CAN\\speed\\t": "3d0729ba5c7a44807540f394d1bb08ed86aa187d3ef0225fe22b5f5c366cb26b",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--08-13-53\\17\\processed_log\\CAN\\speed\\value": "bdc43f6414599222f8678d4a483a58a0103b7e49c48b62e4942d0d96642acdcb",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--08-13-53\\17\\processed_log\\CAN\\steering_angle\\t": "7222b3702ed78692e51f1fe0589de43f46c6288e4c5a35e8a8890917545a9381",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--08-13-53\\17\\processed_log\\CAN\\steering_angle\\value": "8f06c125bffde00994638352847e923b9182a3a49793618fda179caf7bf96b43",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--10-47-27\\25\\video.hevc": "a196446f9ba82601cced35a1dbffdefe2d96440bec1091bf8cd32e5c00a80517",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--10-47-27\\25\\global_pose\\frame_times": "bdd0f0d792a28251eeccfb6881d3b6d97b9b400712442b64bf2fae1d4d4effa6",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--10-47-27\\25\\processed_log\\CAN\\speed\\t": "b9422288df9e1415d1f2cf15e97dec17b2b0664670ff90ecd8d90ce95c04586d",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--10-47-27\\25\\processed_log\\CAN\\speed\\value": "643d1d3ec9dd6af9702b9d45ac195f859c396577496790652451901b197ca9d4",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--10-47-27\\25\\processed_log\\CAN\\steering_angle\\t": "6ab2411abaa0e36e8576743457c06ba772dd6497d98becedd89420969fd5a714",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--10-47-27\\25\\processed_log\\CAN\\steering_angle\\value": "68d0a0702f4a6f5b80251b3dd23eba557ec52a7904e4b78d2dbd758d874cf9cc",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--11-24-52\\0\\video.hevc": "b19c48d2245dbc57dccd78e99d65ed2686d1cb239a62fe663f00c4cf5e5fac4f",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--11-24-52\\0\\global_pose\\frame_times": "faae16e48318779a361e7ee61a7873fefde3d90391765704a85d285119317383",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--11-24-52\\0\\processed_log\\CAN\\speed\\t": "4815b85d0f16ecd85c079fca1fe9f4ca2dd2273bdc37542bf76f2f70cab33464",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--11-24-52\\0\\processed_log\\CAN\\speed\\value": "1253f25f7e36ddfcfbc907a725d3bc031c83f6967da687d5b0173c20687a36a1",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--11-24-52\\0\\processed_log\\CAN\\steering_angle\\t": "51c6edd80697f2c10ead521002a045a859d120ac9f928ac1ea42169d90241724",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--11-24-52\\0\\processed_log\\CAN\\steering_angle\\value": "644c2a8ede39096fa1f34a3ddca9759dd734098e4865c7bf43c330a36f413c8a",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-32-52\\7\\video.hevc": "90e2e32727fd5d567d4e829294d9933dd4fb57a955233962275e4428eb333189",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-32-52\\7\\global_pose\\frame_times": "aae4963362e896316fe3aee9230072a8e8e9277bcd8cc8c21c4cd8c269de5028",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-32-52\\7\\processed_log\\CAN\\speed\\t": "2910b3da8fbd599d29322655c2b6a7e8b608207acb3bd663df1533523e7a726f",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-32-52\\7\\processed_log\\CAN\\speed\\value": "04bb2a02864d5547108b601a0fdd99fe5ebf7bb49bd2bb474f3014964e5610b5",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-32-52\\7\\processed_log\\CAN\\steering_angle\\t": "88b90e122691db83fe27ef7ae2955aeda193fe6b8479225bd3dbbada108ca0f4",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-32-52\\7\\processed_log\\CAN\\steering_angle\\value": "3e869d1ed6a933d6aec49055e3a0701eeac7d06da94d66b51a8f5aa7a85cd715",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-42-52\\0\\video.hevc": "7b4f5306bf56de579272b9637383a0f331a407ca52a727723a58294b907ced65",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-42-52\\0\\global_pose\\frame_times": "7a61f8f8efa9f55d7005c82a77da1310f612387abd9b76770b56be617359533a",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-42-52\\0\\processed_log\\CAN\\speed\\t": "4ea7043ac61a10eafd62819196bd62ad0eb945bc1e979ee19424ef14739fecba",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-42-52\\0\\processed_log\\CAN\\speed\\value": "931924e09a73839760cf416d6b43cf36ce1256cf209f512669e9b243eee32cf7",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-42-52\\0\\processed_log\\CAN\\steering_angle\\t": "0e8f1f372b80de84a68478f4f77dd6177b0307282933d01ebee2118e2b9408be",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-42-52\\0\\processed_log\\CAN\\steering_angle\\value": "6a4e3d0c8bdce108fe45dbcc732ba741b87cc227954258dcf5753f6762a6bbad",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--16-01-39\\59\\video.hevc": "750e80c82cd38fab51ad4418bb1ca2f0c1a3328882f6bda2c51125375c28901b",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--16-01-39\\59\\global_pose\\frame_times": "2990e8e24f521d88d1900fc4c00495ed7f4ea664be283cce8ae249837232702e",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--16-01-39\\59\\processed_log\\CAN\\speed\\t": "73c37887e919c178bbf9d56fc65588dd51324c5e559a00e85c3623588479470c",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--16-01-39\\59\\processed_log\\CAN\\speed\\value": "5cf19171484745208207439a5c36800dfdd880982a0f51f7fd5b5d40e73ab914",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--16-01-39\\59\\processed_log\\CAN\\steering_angle\\t": "1bfc065070b614846e7bcfc20035f95f920dc9966cf41757634e8fd569a1e585",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--16-01-39\\59\\processed_log\\CAN\\steering_angle\\value": "fe5d58fb2e5340ad3e6fb59e9d67e93a18c0bb87d0635593633c34ff218f593c",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--19-07-03\\5\\video.hevc": "8de9bd33cffca3224fa6c9df375da15630d9b328c73ce0e9aa918bf1957cf54c",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--19-07-03\\5\\global_pose\\frame_times": "13765aafc07418ea3863a7546bbb4b73235ae21759c3ef501f60fac5b01b038d",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--19-07-03\\5\\processed_log\\CAN\\speed\\t": "51645c7167cdc581d88980d035f75da3630a5d52e04e3cbf0392f0d6f87d1bab",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--19-07-03\\5\\processed_log\\CAN\\speed\\value": "d2a023f742c383025bb2889978ae6027bfbd3fd5fd4c955bde242fa52d3bb4fa",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--19-07-03\\5\\processed_log\\CAN\\steering_angle\\t": "1f2335ee6526246ff1d4fb98355cb5b87e02f8c0400d74c79e4457fdc922eea4",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--19-07-03\\5\\processed_log\\CAN\\steering_angle\\value": "892733b0bbfecac073381697602e71014759742f839caff6db042a4059cddc3a",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--20-07-13\\2\\video.hevc": "32f32715db90e7060d0af3f47ec14e1d3dcdcdc70c392f75868897c482bd392b",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--20-07-13\\2\\global_pose\\frame_times": "16ea7c59933b70889211de3820418d649f716db2876ce16f837bded42a81ee3a",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--20-07-13\\2\\processed_log\\CAN\\speed\\t": "c5afea2069a72064953c288527cec0fbc86caf14ab5fae02db12742dad251c5f",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--20-07-13\\2\\processed_log\\CAN\\speed\\value": "10f3f6d165808c8e868aa828158545cbc858b0167a5d4935a21d138cfe63facd",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--20-07-13\\2\\processed_log\\CAN\\steering_angle\\t": "9d8df4f1adbbac5e189f85b29431eff6ddc7a72700acbff352cb0445125e0228",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--20-07-13\\2\\processed_log\\CAN\\steering_angle\\value": "492d650c5aa5702734d9bfc7575c4c6116ba361b385ea51b6913b86f73796f05",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--08-13-12\\10\\video.hevc": "ffd49c49137f7159298bbc065643b2ed0367cd23e36245a7b9607fbb95db708f",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--08-13-12\\10\\global_pose\\frame_times": "a035e8113181caba40a9edbd489b1dd599154dc1205125923d6438123d104674",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--08-13-12\\10\\processed_log\\CAN\\speed\\t": "1c3a6d0ca59c725787281e13f8609ceb18323fd297cedb1e61c6d27372af61c5",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--08-13-12\\10\\processed_log\\CAN\\speed\\value": "57b77fe562593b806a6097515f82b6c1c0e7dc3a497d7a85b357f3df054c2d5b",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--08-13-12\\10\\processed_log\\CAN\\steering_angle\\t": "19448230a92134ef2b91bf4a60b2cccfed59e28f5db5dbb5f7c18d940329e5bc",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--08-13-12\\10\\processed_log\\CAN\\steering_angle\\value": "d4e4eb7fd703f5d027e6019ba3f7c9ddca8c028446290ab52ec25432191c2e57",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--09-25-46\\24\\video.hevc": "7fb430f7d0fca0d48dc3227efc2c9d59f29d217ed47d7322cb202a6d4f773113",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--09-25-46\\24\\global_pose\\frame_times": "60b83c18db6ffc22d899bae36be49662f8fc6156d638cacfc92694124870f510",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--09-25-46\\24\\processed_log\\CAN\\speed\\t": "5afbbc3657434c77a6eb86f933be9382f842a790973fa89736f8b7853e9e4220",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--09-25-46\\24\\processed_log\\CAN\\speed\\value": "20dc9a802c809babcc19c4cd61f67bdcd6f04c1d3df52bed785571a6688346a4",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--09-25-46\\24\\processed_log\\CAN\\steering_angle\\t": "4eca1b3d856ea97b04cdeb872c7c71f57d63511edc3aba70e04fad83f9f4630e",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--09-25-46\\24\\processed_log\\CAN\\steering_angle\\value": "c653300d5d66cce4631b8552ba325a50637209d9c0425df5629e06a79f868cc9",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--11-09-01\\10\\video.hevc": "c37c231b5241077f83fabf4bb8f35a413719bd033febf29c16adcc3754a30212",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--11-09-01\\10\\global_pose\\frame_times": "c5d0cccd139d0a3376fde3b6ec17cf6e323354a7ad0465be1020e8540e5103c6",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--11-09-01\\10\\processed_log\\CAN\\speed\\t": "d8ff4e3dbb435bdc8c5c3696e29e0173ae3fc58809d7abfbd8805063be624af8",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--11-09-01\\10\\processed_log\\CAN\\speed\\value": "97f52f0fc94ffd758296cab6b49a6dfc6d19d9e5f45b65c800f6c9a6f03c8bd0",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--11-09-01\\10\\processed_log\\CAN\\steering_angle\\t": "4110bba797973f527b0708db140b0fc1cf00c0d8e759a6ee7f6af3e9dac996ba",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--11-09-01\\10\\processed_log\\CAN\\steering_angle\\value": "3654bfcc30d3e71fddffc1b8f8c7544c2d7ec3bc99be829ab15472418c568c4c",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--16-36-30\\10\\video.hevc": "7f79dc21009e12424543fcb5c80375afd7e6b4869cf1b92a5eee3d4ebe280e8d",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--16-36-30\\10\\global_pose\\frame_times": "eefbdc825435def6620b7600dee60f3293185c496ddb55681a25b266977889b5",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--16-36-30\\10\\processed_log\\CAN\\speed\\t": "3922db2049a374ea4a316658e31b4a3ea15c239c2f584439df4e797834bfc0cd",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--16-36-30\\10\\processed_log\\CAN\\speed\\value": "8c4a768c091fad9590e8ff49628acc0c5ab3e46face4ae5945c0baa2282cae84",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--16-36-30\\10\\processed_log\\CAN\\steering_angle\\t": "52084850dc84a0821675af4e401fa42061bb06ec6faff875ee20e675f9dfa854",
+    "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--16-36-30\\10\\processed_log\\CAN\\steering_angle\\value": "e1b94b3858ac531ab3d4aa0df81922a1b03ab7ddbb59700bca8861dad292911f",
+    "Baseline\\data\\stage3\\videos\\OPEN_001.mp4": "3d6590bc9cbe1c8d1956a1ff1e173dca610288821609d93aefa7ee25ab80b254"
+  },
+  "cache_inventory": [
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-07-27--06-50-48_10.npy",
+      "shape": [
+        1199,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "2c5b997154f7c08ab542c5bff98da0b290b8c8b1d34452834b469042b692df0b"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-07-29--11-17-20_3.npy",
+      "shape": [
+        1200,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "37e595072f3d7c416355ad6beb50e48a54c5792ecfbc6ca41c527c2f66a02343"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-07-29--12-02-42_27.npy",
+      "shape": [
+        1200,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "8887b0cffcd03dc34271aa3fd8a902408824a2949f82a66bf79a5fcf83361e69"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-07-29--16-37-17_4.npy",
+      "shape": [
+        1200,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "bea204b497a3bb7c4349e92f4eab1c7bc057b001d223c64467d8cb2c98c62142"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-07-30--13-03-07_14.npy",
+      "shape": [
+        1201,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "dcecb61f79435027e1ff75dd8bf21103db0529f6f786865d8337d428ecc58824"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-07-30--13-44-30_10.npy",
+      "shape": [
+        1200,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "66e976e39aca1250dffcbb3a76ab186d6a6e040fa3cd5f092a8ae7200d8ee380"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-07-31--20-50-28_12.npy",
+      "shape": [
+        1201,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "d1247c835e4a750be364bbb19fa4c4a5908c33cb05f6683d8ca17af2a9d9ca18"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-08-01--21-13-49_10.npy",
+      "shape": [
+        1200,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "d695ff34a86bb49cad6bb0403c30e1b9279d954e5ce08f08001f461e766fa6fb"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-08-02--08-34-47_29.npy",
+      "shape": [
+        1200,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "71c44093d3dc9b6ad93073c7441133226ba736bf20c9cd16db17c6359104a93d"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-08-02--16-41-38_10.npy",
+      "shape": [
+        1200,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "1a23b3d94d268b73e60b77c16ba123ff070d8d02b1c5c6c90f2867e4fd464c09"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-08-03--10-35-16_10.npy",
+      "shape": [
+        1200,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "a41fb33e2810ee516138c0d3e99a2b8416f4893d5d0a226ab569debddfc54874"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-01--08-13-53_17.npy",
+      "shape": [
+        1200,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "372bb191864916996468baea27b8109cea50afd270d455c89c8f869d20bb5598"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-01--10-47-27_25.npy",
+      "shape": [
+        1200,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "4b8484a07097a1065ff137bfeb47b8826b5d348e92eb25f03668edd248f799c4"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-01--11-24-52_0.npy",
+      "shape": [
+        1187,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "f4c09de0ec14ac2375dbe51b205883e0c6be7ac9a707abc80ed5f905382627ea"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-02--11-32-52_7.npy",
+      "shape": [
+        1200,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "8f74ec68eaeb6bb420543b553c22ec27ae060881f07695c1678b682e9b7f446d"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-02--11-42-52_0.npy",
+      "shape": [
+        1189,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "1c2ec178737863337b19efd3c8fae0e29d6de7f208e8e9fb1165b980abf167fa"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-02--16-01-39_59.npy",
+      "shape": [
+        1200,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "46fc9b0daad22124a7c4e822bf059dff2d62684c9c363809ed1fa2adc87f819f"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-02--19-07-03_5.npy",
+      "shape": [
+        1200,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "526793f257733d207e721b21dfc88acd859c745bb46306dff51d58fb35936111"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-02--20-07-13_2.npy",
+      "shape": [
+        1200,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "694cc038527b1cf64ebea3ff92032caf76561db7d2e98ad5017a799d0b2dca6d"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-03--08-13-12_10.npy",
+      "shape": [
+        1202,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "332462991f63f56ba827fdc4090b0b9fc938aedd825f6ed75b0f39bf7bc72ff9"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-03--09-25-46_24.npy",
+      "shape": [
+        1199,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "daab00b8b8afff697dd9898df2bdda9d439d9dd012d30288ae0a9a0102d14f93"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-05--11-09-01_10.npy",
+      "shape": [
+        1200,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "cf7827a494c9634e56cb71d444b882037370fac3d1713a14110c14c5a60cb4a9"
+    },
+    {
+      "path": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-05--16-36-30_10.npy",
+      "shape": [
+        1199,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "a6a596732fb3ca1c0a806880567eeb79f80df6979e6721145f4e1d7834595539"
+    },
+    {
+      "path": "research\\stage3_cache\\OPEN_001.npy",
+      "shape": [
+        1200,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "ce7dcc21b425100154bd8032a98f3cc4aca0aeb9332c87f9bfbe1ea704ff73fb"
+    },
+    {
+      "path": "research\\stage3_cache\\OPEN_002.npy",
+      "shape": [
+        1201,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "9aa88f5e9ea3582bcf45c890344349d147dc68ae3f68325b57767cee4ec2df77"
+    },
+    {
+      "path": "research\\stage3_cache\\OPEN_003.npy",
+      "shape": [
+        1197,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "9837997f1e4077684992479218766fee47538d829ae98303bc2848864398f062"
+    },
+    {
+      "path": "research\\stage3_cache\\OPEN_004.npy",
+      "shape": [
+        1197,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "d43380116c7558f0888ed0b97df6fb2133875f6d73ac16f8c76edf5f8aa8aad5"
+    },
+    {
+      "path": "research\\stage3_cache\\OPEN_005.npy",
+      "shape": [
+        1197,
+        864
+      ],
+      "dtype": "float32",
+      "sha256": "4ef2e1b11a414bd8945686e5d9be9f0a34137863ca16c3ef95b025d3941c1b89"
+    }
+  ]
+}

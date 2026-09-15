@@ -1,0 +1,50 @@
+{
+  "created_utc": "2026-09-15T04:06:15.319288+00:00",
+  "scope": "Add remaining predeclared development source only; not a candidate or adoption evaluation",
+  "development_ids": [
+    "00000",
+    "00003",
+    "00004"
+  ],
+  "reserved_validation_ids": [
+    "00005",
+    "00006",
+    "00007"
+  ],
+  "this_run_ids": [
+    "00004"
+  ],
+  "original_split_unchanged": true,
+  "gt_read": false,
+  "reserved_sources_read": false,
+  "gpu_runner": "parent only",
+  "baseline": "Actual extracted V5 stage2_motion_collision with frozen NF4 weights",
+  "sampling": "Identical native PTS nearest 10Hz with both endpoints and original decoded frame number; lossless PNG level 1",
+  "max_calls": 4,
+  "tokens": [
+    64,
+    48,
+    40,
+    40
+  ],
+  "runner_sha256": "031e46b26eb3d555dfc746a20ef618fcdd9906a19fdc0bc4582236a9ffc06e8f",
+  "protected_sha256": {
+    "research/v6_stage2/run_nexar_baseline.py": "1931e0d7633e0d96bdfe16b35a7d75b490b34c3f35dfea6bee5553a8159c0b7f",
+    "research/v6_stage2/nexar_cohort_plan.json": "39f45bda2b4bef5efbff9fd80b6063b544dba2585b47d1ed63a24242229347b6",
+    "research/v6_stage2/nexar_baseline_run/freeze.json": "93f041d51dbc8d4dfc6db279a5860d9dc2b7e84a4e561077e62dfd5972ff8c4b"
+  },
+  "exact_source_substitutions": {
+    "Frozen V5 two-development-video baseline trace": "Frozen V5 development 00004-only baseline trace",
+    "IDS = (\"00000\", \"00003\")": "IDS = (\"00004\",)",
+    "max_calls_total=8": "max_calls_total=4",
+    "Only two declared development IDs allowed": "Only development ID 00004 allowed",
+    "self.ledger[\"call_count\"]<8": "self.ledger[\"call_count\"]<4",
+    "Two development sources, baseline-only error diagnosis": "Development source 00004, baseline-only error diagnosis",
+    "report[\"call_count\"]==8": "report[\"call_count\"]==4"
+  },
+  "unchanged_function_ast": [
+    "sampled_indices",
+    "prepare",
+    "package_binding"
+  ]
+}

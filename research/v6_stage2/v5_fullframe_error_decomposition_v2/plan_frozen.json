@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-09-15T05:12:52.113919+00:00",
+  "files_sha256": {
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\decompose_v5_fullframe.py": "f21d7c32271ff8f00cd0ebfc6007ea0223574a3c409cfe3404e9a8e81b5d9250",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\v5_fullframe_diagnostic\\freeze.json": "9bfd867847b9a526006951c83466d7ab81c7415905d9367d0fc274ad82e884dc",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\v5_fullframe_diagnostic\\report.json": "a0168656cecb4356d7e1ced432d37b57dc051cefcb4dfb5f6f69f9a8605bdf8c",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\v5_fullframe_diagnostic\\evaluation.json": "9512dcab1cd3983ce03b88a25cbf0633c152dae7e43fb1558b314f879e7e00a7",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\evaluate_nexar_fullframe_v5.py": "073d339e5a221f5baa86224a9f084dfea2110513b493edb18b1db7a7cece2709",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v5\\model\\stage2\\code\\solution\\stage2.py": "2323653c4271ec09e2bf1761f6938d5cec1f76bbe5a01df96ce7aa22b183dc1a",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v5\\model\\stage2\\code\\solution\\stage2_v2.py": "89ae0bc640670d7ed76103ce7c829d405ad27cc25368c74d153d3b96962b8442",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v5\\model\\stage2\\code\\solution\\stage2_motion_collision.py": "091d1b4b53353cf08bc5431fb658d1c7fcc45604a4288546f3aac0fd6a207e2e",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00000_review_1789400071868.json": "654e93fad5b32cadeef094e61d6a90a066ebcd7e332fa0a8e7ca21563a0afbc3",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00003_review_1789444125537.json": "97fd59c05279282f33998903e4c9aa57d18fb9a0e5a4effc06acd6b803a5f86d",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00004_review_1789444066492.json": "eccd40747a2ad28d72ec80c8cbaf8656a59732f81412750119cbc026656671f6",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00005_review_1789444069007.json": "738909ecd54c0b3d53e926bb81ed929b282c6556e8905ed7505e94f756922b3b",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00006_review_1789444072672.json": "be09435498362b3f75f2ffddbe60a9f989ea61ec8b479dcafa4d8a73a7d3ad24",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00007_review_1789404064071.json": "724ab536dea876fbd653857d91d4fe04a5105afcfcf8f5e5e1ad24afcc2e296f",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_baseline_run\\freeze.json": "93f041d51dbc8d4dfc6db279a5860d9dc2b7e84a4e561077e62dfd5972ff8c4b",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_baseline_run\\report.json": "7e1a4c822f161c000d081db67e0a9b2d4c530980119938e337f573093d3fcfbf",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_dev00004_baseline_run\\freeze.json": "aabe345d04045a3099e602b601b6984c73fc0afbddca98c62e2a9b24317ff8b1",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_dev00004_baseline_run\\report.json": "5e51659a40bf5e090553bc0eadfd50ccaae6a860564a77a1bbd1ef0a31a71e57",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_reserved\\freeze.json": "ed42b8d14708e85bb06a140fdcae4d42b8b52ea602f17a6525299c947d9e416d",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_reserved\\report.json": "00eca04dc8386427c34595ac94ac655db6f9fc86aae4f029e20f21808c6b819d"
+  },
+  "tolerance_seconds": 0.3,
+  "epsilon": 1e-12,
+  "IDs": [
+    "00000",
+    "00003",
+    "00004",
+    "00005",
+    "00006",
+    "00007"
+  ],
+  "scope": "Post-exposure descriptive decomposition. Frozen evaluator label semantics; no new GT or candidate.",
+  "selection_failure_rule": "First loss of native-time tolerance coverage along valid inputs -> fine / entry prefix -> uniform candidates -> policy-selected frame. Motion override is separate."
+}

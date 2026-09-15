@@ -1,0 +1,23 @@
+{
+  "prompt": "Use the REFERENCE to identify the SAME collision vehicle. Time choices are already fixed. Report entry_side LEFT or RIGHT: the image side where it originated BEFORE entering the camera car's driving corridor, not travel direction or impact side. At the fixed collision frame, is there usable road space to continue or steer around it, considering traffic, edges and barriers? Return JSON entry_side and evasion_space (integer 1 if usable space exists, otherwise 0) only. Fixed entry frame: 0; fixed collision frame: 33.",
+  "max_new_tokens": 48,
+  "input_images": [
+    {
+      "size": [
+        1280,
+        928
+      ],
+      "bounded_size": [
+        1280,
+        928
+      ],
+      "rgb_sha256": "17ccc04f573397a2a3591c3a1a841ee8299ed7afb2fe3211aa7c9852cc4f66c7"
+    }
+  ],
+  "status": "complete",
+  "bounded_pixel_total": 1187840,
+  "raw_output": "{\n  \"entry_side\": \"LEFT\",\n  \"evasion_space\": 1\n}",
+  "seconds": 2.973847899993416,
+  "peak_allocated_bytes": 3915363328,
+  "peak_reserved_bytes": 5647630336
+}

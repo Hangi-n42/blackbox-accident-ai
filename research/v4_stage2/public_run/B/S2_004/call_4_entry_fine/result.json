@@ -1,0 +1,41 @@
+{
+  "call": 4,
+  "name": "entry_fine",
+  "prompt": "These dashcam frames are chronological, left to right then top to bottom. This is a local time window of the full clip; its first image may not be the start of the clip. Find the collision vehicle's first wheel touching the camera car's lane boundary. At an intersection continue the camera car's lane boundaries forward. Return status OBSERVED only if this entry is visible in these images. If entry happened before this window use BEFORE_WINDOW; if after it use AFTER_WINDOW; if the event or the collision vehicle cannot be determined use UNCERTAIN. Do not call the first shown image the actual entry merely because the vehicle is already inside. Lane entry candidates: [11, 12, 13, 14, 15, 16, 17, 18, 19]. Return JSON with status and entry_frame; entry_frame must be a shown integer only when status is OBSERVED.",
+  "offered_frames": {
+    "Lane entry candidates": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "input_images": [
+    {
+      "size": [
+        1536,
+        768
+      ],
+      "raw_rgb_sha256": "1b4203f5c90c91fc5a6066cce82af91f7aae4333c9f5e23500a64ef060b138cc"
+    }
+  ],
+  "bounded_image_sizes": [
+    [
+      1536,
+      768
+    ]
+  ],
+  "bounded_pixel_total": 1179648,
+  "pixel_budget": 1200000,
+  "max_new_tokens": 64,
+  "status": "complete",
+  "raw_output": "{\n  \"status\": \"BEFORE_WINDOW\",\n  \"entry_frame\": null\n}",
+  "seconds": 3.4601745000109076,
+  "gpu_peak_allocated_bytes": 3994135040,
+  "gpu_peak_reserved_bytes": 5626658816
+}

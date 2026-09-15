@@ -1,0 +1,46 @@
+{
+  "central_directory_bytes": 2970760,
+  "central_directory_sha256": "43955984c1670e9403b136dee602b24c4dfef509e768586e757db6c5a637b8ff",
+  "index_entries": 23131,
+  "video_entries": 400,
+  "video_compressed_bytes": 31370471599,
+  "csv_rows": 1424,
+  "type_counts": {
+    "cc": 484,
+    "cg": 250,
+    "or": 290,
+    "re": 400
+  },
+  "identity_counts": {
+    "cc": 80,
+    "cg": 80,
+    "or": 80,
+    "re": 73
+  },
+  "or_re_identity_intersection": 73,
+  "re_examples": [
+    {
+      "path": "re/clips_video/alb_id/00.re0001.MOV",
+      "compressed_bytes": 84845774,
+      "uncompressed_bytes": 84845774,
+      "start_disk": 1,
+      "local_header_offset": 2854646342,
+      "method": 0,
+      "crc32": "3b416b85"
+    },
+    {
+      "path": "re/clips_video/alb_id/00.re0002.mp4",
+      "compressed_bytes": 47001358,
+      "uncompressed_bytes": 47001358,
+      "start_disk": 1,
+      "local_header_offset": 2939492181,
+      "method": 0,
+      "crc32": "dc4e15a6"
+    }
+  ],
+  "metadata_request": {
+    "url": "https://zenodo.org/records/6466770/files/re.zip?download=1",
+    "range": "bytes=4167714927-4170685686",
+    "status": 206
+  }
+}

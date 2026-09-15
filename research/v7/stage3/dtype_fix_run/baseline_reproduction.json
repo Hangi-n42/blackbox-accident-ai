@@ -1,0 +1,74 @@
+[
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20",
+    "task": "accel",
+    "max_probability_abs_error": 0.0,
+    "all_predictions_equal": true
+  },
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20",
+    "task": "steer",
+    "max_probability_abs_error": 2.220446049250313e-16,
+    "all_predictions_equal": true
+  },
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42",
+    "task": "accel",
+    "max_probability_abs_error": 0.0,
+    "all_predictions_equal": true
+  },
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42",
+    "task": "steer",
+    "max_probability_abs_error": 2.220446049250313e-16,
+    "all_predictions_equal": true
+  },
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49",
+    "task": "accel",
+    "max_probability_abs_error": 0.0,
+    "all_predictions_equal": true
+  },
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49",
+    "task": "steer",
+    "max_probability_abs_error": 2.220446049250313e-16,
+    "all_predictions_equal": true
+  },
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53",
+    "task": "accel",
+    "max_probability_abs_error": 0.0,
+    "all_predictions_equal": true
+  },
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53",
+    "task": "steer",
+    "max_probability_abs_error": 3.3306690738754696e-16,
+    "all_predictions_equal": true
+  },
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52",
+    "task": "accel",
+    "max_probability_abs_error": 0.0,
+    "all_predictions_equal": true
+  },
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52",
+    "task": "steer",
+    "max_probability_abs_error": 2.220446049250313e-16,
+    "all_predictions_equal": true
+  },
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52",
+    "task": "accel",
+    "max_probability_abs_error": 0.0,
+    "all_predictions_equal": true
+  },
+  {
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52",
+    "task": "steer",
+    "max_probability_abs_error": 2.220446049250313e-16,
+    "all_predictions_equal": true
+  }
+]

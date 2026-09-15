@@ -1,0 +1,29 @@
+{
+  "experiment": "One fresh three-source full-native-PNG test of unchanged V6C",
+  "ids": ["00008", "00010", "00013"],
+  "candidate_sha256": "3e86e5117230fb4680c1d4af630cb02dd7e9aca99b7c4184d7baed13f479d64e",
+  "baseline": "Actual extracted V5 stage2_motion_collision, four original NF4 calls per file",
+  "input": "All existing native zero-based PNG frames, unchanged case/mapping/source hashes; no new sampling or JPEG conversion",
+  "source_freeze": "May be prepared before human contact reviews; no review files or new labels are read by freeze",
+  "mandatory_run_precondition": "Separate immutable review_binding.json must be produced by a real review importer validating three actual user observed-contact drafts against frozen source and native mapping. Missing binding always blocks before model load. No invented reviews or auto-GT promotion.",
+  "review_inference_separation": "Run hashes original review bytes but does not parse human descriptions, answers or contact numbers. It reads only importer validation status, source/mapping hashes and observed-contact availability.",
+  "scoring": "One unchanged C dual motion scan computes original V5 base and uncapped-jerk scores. Independently recompute original score expression from recorded float32 features. Original base scores feed all four V5 calls, then only collision_frame uses C apply_collision.",
+  "max_calls": 12,
+  "calls_per_file": 4,
+  "tokens_per_file": [64, 48, 40, 40],
+  "model_loads": 1,
+  "cpu_threads": 2,
+  "console": "ID/status only; prompts/raw answers retained in trace files without printing predictions",
+  "gate": {
+    "all_three_known_observed_contact_references_required": true,
+    "minimum_additional_correct_within_0_3_seconds": 1,
+    "maximum_previously_correct_cases_lost": 0,
+    "mean_absolute_contact_time_error_must_not_increase": true,
+    "other_three_outputs_identical": true,
+    "exact_base_score_expression_and_offline_original_frame_contracts_required": true,
+    "roundoff_epsilon_seconds": 1e-12
+  },
+  "search_limit": "One fixed C candidate; no thresholds, caps, weights, sampling or per-ID retuning after new results",
+  "adoption": "Passing this small contact-reference test is necessary but does not itself authorize packaging/submission; source overlap, extraction/offline equivalence and resource requirements remain separate. Stage1/3 unchanged.",
+  "limitations": "New exact source SHA and pending source groups are not proof of incident/device independence. Single-human references are not official/adjudicated GT. Full S2 remains null. PNG density contract is not verified byte-identical hidden JPEG preprocessing."
+}

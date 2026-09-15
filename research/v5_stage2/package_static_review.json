@@ -1,0 +1,51 @@
+{
+  "reviewed_utc": "2026-09-13T10:58:07.665943+00:00",
+  "read_only_source_review": true,
+  "build_or_model_experiment_performed": false,
+  "selection_file_present": false,
+  "reviewed_source_sha256": {
+    "inference_v5.py": "5bee1ceec8f3e4038d856ee1794a9bbb790ee57eda878f8fe5b9a6e3759bdaf1",
+    "scripts/build_submission.py": "afab1f144fdd29e25e01420dd13a391eea23064e5d2423f40457b168392fadfb",
+    "scripts/verify_v5_package.py": "54d3271d9d22a357581857714d72e723bb04a95a4078e7786c0bb40ccc5a4bda",
+    "scripts/verify_submission.py": "6701571cee9d0c430bde71c4c5c8b60c7009ec7d0e19f5acc1fb874848ce16d0"
+  },
+  "findings": [
+    {
+      "priority": "P1",
+      "file": "scripts/build_submission.py",
+      "line": 50,
+      "issue": "V5 selection accepts rejected stage2_v5_simple and stage3_fast while inference_v5 hardcodes motion_collision/compatible.",
+      "requested_fix": "Require exact final module tuple and reject incompatible selections; exclude failed ROI/simple modules."
+    },
+    {
+      "priority": "P1",
+      "file": "scripts/verify_v5_package.py",
+      "line": 43,
+      "issue": "Only checks report status, not report package identity or packaged inference/source/input binding. Stale PASS results can be supplied.",
+      "requested_fix": "Bind actual execution report to resolved package path plus package/entrypoint hash and frozen input manifest; validate selection status/modules before PASS."
+    },
+    {
+      "priority": "P2",
+      "file": "scripts/build_submission.py",
+      "line": 55,
+      "issue": "Checks only supplied source_sha256 entries; no required coverage. Verifier checks changed paths but not changed file digest against selection SHA.",
+      "requested_fix": "Require all packaged source/entrypoint/requirements/model bindings; compare selected package path digests directly in final verifier. Preserve entire Stage2 model subtree from actual V3 manifest."
+    },
+    {
+      "priority": "P2",
+      "file": "scripts/verify_submission.py",
+      "line": 24,
+      "issue": "Offline subprocess relies on caller using -I; connect_ex not blocked and no isolated flag recorded. Per-stage solution.__file__ check is present and useful.",
+      "requested_fix": "Invoke with -I; record/assert isolated interpreter, add connect_ex deny if claiming socket connection blocking."
+    }
+  ],
+  "positive_checks": [
+    "Entrypoint imports exact requested stage1_v4/stage2_motion_collision/stage3_v5_compatible.",
+    "Selection file absent at review and read occurs before ZIP creation.",
+    "Builder code allowlist does not glob all solution modules.",
+    "Package verifier checks archive hash/size, exact extracted file set, per-file hash/size, V3 path change scope.",
+    "Actual offline verifier asserts imported solution module paths are within extracted package after each stage.",
+    "Stage2 original V3 code/model identity already recorded in research/v5_stage2/decision.json."
+  ],
+  "scope_limit": "Final gate cannot be approved until selection manifest, compatible result and corrected guards exist; no new submission or performance claim."
+}

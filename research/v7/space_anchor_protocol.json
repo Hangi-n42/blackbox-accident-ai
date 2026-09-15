@@ -1,0 +1,23 @@
+{
+  "experiment": "One isolated final-motion space-context contrast on nine exposed development sources",
+  "frozen_before_any_new_space_output": true,
+  "ids": ["00000", "00003", "00004", "00005", "00006", "00007", "00008", "00010", "00013"],
+  "model": "Unchanged prequantized Qwen3-VL-4B NF4 checkpoint from actual verify_v6 package; FP16 compute; saved quantization settings",
+  "change": "Only call4 input images: original V6 final uncapped-motion argmax input index and clipped index plus/minus2, sorted unique. Original frame numbers preserved. No human frame or label in inference.",
+  "unchanged": "Original V6 call4 prompt copied from each bound original trace, max_new_tokens40, same sheet columns3 and LocalVLM1.2MP budget. No wording/parser/threshold adjustment.",
+  "cached_fields": ["collision_frame", "entry_frame", "entry_side"],
+  "execution": "One actual model load and exactly nine independent ask calls. Other three outputs copied from cached frozen V6, not end-to-end verified by this contrast.",
+  "gate": {
+    "required_known_space_labels": 9,
+    "space_macro_f1_strictly_improves": true,
+    "minimum_previously_wrong_corrected": 1,
+    "maximum_previously_correct_lost": 0,
+    "other_three_fields_exactly_unchanged": true,
+    "auxiliary_contact_within_tolerance_ids": ["00000", "00003", "00006", "00008"],
+    "auxiliary_subset_cannot_override_full_nine_gate": true
+  },
+  "negative_prior": "V5 SIMPLE already used the same space prompt/40tokens/motion+/-2 on five public sources in three representations; 14/15 context images changed versus V3 but all15 space outputs remained0. New contrast is not the first motion-space question experiment.",
+  "limitations": "All9 already exposed; no independent holdout or official S2. The auxiliary four have contact within0.3seconds, not oracle-exact contact. For00008 final589 versus human582, proposed587/589/591 are all after first contact. Do not feed human timestamps. Copied fields prove preservation only, not full-run equivalence.",
+  "next_step": "Only if the full-nine gate passes may root authorize full4call replay and actual package/resource verification. This diagnostic cannot authorize adoption or submission.",
+  "stop": "One fixed contrast; preserve failure, no post-result prompt/window/model/gate tuning. No automatic submission."
+}

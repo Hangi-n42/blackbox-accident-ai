@@ -1,0 +1,261 @@
+{
+  "numeric_development_gate_passed": false,
+  "checks": {
+    "contact_unchanged": true,
+    "contact_predictions_unchanged": true,
+    "entry_nondecrease": true,
+    "side_nondecrease": false,
+    "space_nondecrease": true,
+    "changed_field_improves": false
+  },
+  "scores": {
+    "baseline": {
+      "contact": {
+        "n": 9,
+        "correct": 4,
+        "accuracy": 0.4444444444444444,
+        "mae": 3.7323166303558457
+      },
+      "entry": {
+        "n": 8,
+        "correct": 1,
+        "accuracy": 0.125,
+        "mae": 12.09490099961553
+      },
+      "side": {
+        "n": 7,
+        "macro_f1": 0.41666666666666663,
+        "correct": 3
+      },
+      "space": {
+        "n": 9,
+        "macro_f1": 0.18181818181818182,
+        "correct": 2
+      },
+      "available_label_weighted_diagnostic": 0.2890782828282828
+    },
+    "candidate": {
+      "contact": {
+        "n": 9,
+        "correct": 4,
+        "accuracy": 0.4444444444444444,
+        "mae": 3.7323166303558457
+      },
+      "entry": {
+        "n": 8,
+        "correct": 1,
+        "accuracy": 0.125,
+        "mae": 11.53174740484429
+      },
+      "side": {
+        "n": 7,
+        "macro_f1": 0.3,
+        "correct": 3
+      },
+      "space": {
+        "n": 9,
+        "macro_f1": 0.18181818181818182,
+        "correct": 2
+      },
+      "available_label_weighted_diagnostic": 0.2715782828282828
+    }
+  },
+  "confusions_truth_rows_prediction_columns": {
+    "baseline": {
+      "side": {
+        "classes": [
+          "LEFT",
+          "RIGHT"
+        ],
+        "matrix": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "correct_ids": [
+          "00004",
+          "00007",
+          "00010"
+        ],
+        "prediction_counts": {
+          "LEFT": 4,
+          "RIGHT": 5
+        }
+      },
+      "space": {
+        "classes": [
+          0,
+          1
+        ],
+        "matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            7,
+            0
+          ]
+        ],
+        "correct_ids": [
+          "00000",
+          "00013"
+        ],
+        "prediction_counts": {
+          "0": 9,
+          "1": 0
+        }
+      }
+    },
+    "candidate": {
+      "side": {
+        "classes": [
+          "LEFT",
+          "RIGHT"
+        ],
+        "matrix": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "correct_ids": [
+          "00004",
+          "00008",
+          "00013"
+        ],
+        "prediction_counts": {
+          "LEFT": 0,
+          "RIGHT": 9
+        }
+      },
+      "space": {
+        "classes": [
+          0,
+          1
+        ],
+        "matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            7,
+            0
+          ]
+        ],
+        "correct_ids": [
+          "00000",
+          "00013"
+        ],
+        "prediction_counts": {
+          "0": 9,
+          "1": 0
+        }
+      }
+    }
+  },
+  "transitions": {
+    "contact": {
+      "gained": [],
+      "lost": []
+    },
+    "entry": {
+      "gained": [],
+      "lost": []
+    },
+    "side": {
+      "gained": [
+        "00008",
+        "00013"
+      ],
+      "lost": [
+        "00007",
+        "00010"
+      ]
+    },
+    "space": {
+      "gained": [],
+      "lost": []
+    }
+  },
+  "timing": {
+    "videos": [
+      {
+        "ID": "00000",
+        "archived_4b_ask_seconds": 10.468150600092486,
+        "current_8b_ask_seconds": 11.993205600010697,
+        "ratio": 1.1456852368846067
+      },
+      {
+        "ID": "00003",
+        "archived_4b_ask_seconds": 9.031568699982017,
+        "current_8b_ask_seconds": 14.39066279999679,
+        "ratio": 1.5933735631137305
+      },
+      {
+        "ID": "00004",
+        "archived_4b_ask_seconds": 9.334636800049338,
+        "current_8b_ask_seconds": 12.742612200090662,
+        "ratio": 1.365089234111745
+      },
+      {
+        "ID": "00005",
+        "archived_4b_ask_seconds": 8.966581400076393,
+        "current_8b_ask_seconds": 14.316930100088939,
+        "ratio": 1.5966988377495757
+      },
+      {
+        "ID": "00006",
+        "archived_4b_ask_seconds": 9.288324300025124,
+        "current_8b_ask_seconds": 16.290713099995628,
+        "ratio": 1.753891506560722
+      },
+      {
+        "ID": "00007",
+        "archived_4b_ask_seconds": 8.957181900099386,
+        "current_8b_ask_seconds": 14.10097530001076,
+        "ratio": 1.5742647025907
+      },
+      {
+        "ID": "00008",
+        "archived_4b_ask_seconds": 10.416409899946302,
+        "current_8b_ask_seconds": 14.329247499932535,
+        "ratio": 1.3756416690174993
+      },
+      {
+        "ID": "00010",
+        "archived_4b_ask_seconds": 8.115742399997544,
+        "current_8b_ask_seconds": 17.22849079995649,
+        "ratio": 2.122848403857878
+      },
+      {
+        "ID": "00013",
+        "archived_4b_ask_seconds": 8.324100600089878,
+        "current_8b_ask_seconds": 16.93548230000306,
+        "ratio": 2.034511968754943
+      }
+    ],
+    "sum_4b_ask_seconds": 82.90269660035847,
+    "sum_8b_ask_seconds": 132.32831970008556,
+    "sum_ratio": 1.5961883645110932,
+    "limitation": "Archived versus current model ask time only; no scan/load/package or hidden all-stage timing guarantee. Not contemporaneous randomized benchmarking."
+  },
+  "report_sha256": "31358f93cf2fc3b0aa2af04bbae679b5ad834468bfe0044d87362ddcfe6ab808",
+  "evaluation_sha256": "5044f408a2061dc58c80e364c948af6ffbdab64c06edd90083ea9fb4213e8d2a",
+  "assessor_sha256": "97b05fa741c81c0f71327e913e4fdfd3ef9530d1ec7a6909e69776c2e3a258e4",
+  "source_role": "already_exposed_development",
+  "independent_accuracy_verified": false,
+  "adopted": false,
+  "submission_approved": false,
+  "limitation": "Numerical gate is necessary only. Inspect single-class collapse, true target/time validity, independent evidence, and actual package execution before adoption."
+}

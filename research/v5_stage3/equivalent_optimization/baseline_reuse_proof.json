@@ -1,0 +1,20 @@
+[
+  {
+    "scope": "source_stress",
+    "task": "accel",
+    "held": null,
+    "feature_sha256": "3319afa06f64416ca42c2a9e3fe3bbd28ab7800739c4ff75b348da283931a19b",
+    "target_sha256": "34843631d7f43a212c2fc082f65baa0583dcba2f9120dfe2343eb1f47039daf6",
+    "same_balanced_class_weights": true,
+    "same_rows_order_targets_seed_parameters_unit_sample_weights": true
+  },
+  {
+    "scope": "source_stress",
+    "task": "steer",
+    "held": null,
+    "feature_sha256": "4e2549e26773c5fa8b5da4d6f540c09f1cb434ba0c20f32fa4088ef9641092c5",
+    "target_sha256": "a14211c3b02272a4563f2541f3fa083383aca1b293c44b89d1422535cf37fdd6",
+    "same_balanced_class_weights": true,
+    "same_rows_order_targets_seed_parameters_unit_sample_weights": true
+  }
+]

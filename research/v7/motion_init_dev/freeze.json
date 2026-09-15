@@ -1,0 +1,13 @@
+{
+  "files": {
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\v5_fullframe_diagnostic\\freeze.json": "9bfd867847b9a526006951c83466d7ab81c7415905d9367d0fc274ad82e884dc",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_fullframe_replay\\report.json": "e8f2bd34856021cc255b9c5a0d5554050376944c2e75944162f659ef420ee5ae",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\run\\freeze.json": "e78bc5d9cf25396cc39d5904b0378bd61bf06aa8dfc9adb3c63b16679f2f5c7d",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\run\\report.json": "d97a0ad3c438362c2cad22d67ba1e95b7ce9e2a35d047e52a13286bd19ec3915",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\motion_initialization_protocol.json": "2343264b0f2e63d33a8a45b714cabace284e8629542426dad4b618590e243307",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\solution\\stage2_motion_init_v7.py": "1d8e9078e32dec54fffadabfb09767fe46738ffc8994baafc9feccded7f50a02",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\evaluate_motion_initialization.py": "9a5672bfe286f5f48a863dcdcda38100064e7c7f901a28e6140bc38518f31a44"
+  },
+  "role": "exposed_development",
+  "no_model_calls": true
+}

@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "scope": "Independent PyAV sequential native-source decoding up to selected human entry; exact RGB/PTS comparison. Only three selected entry images, not all PNG RGB. CPU codec threads=2. No human label mutation, model inference or GT promotion.",
+  "rows": [
+    {
+      "ID": "00008",
+      "file_sha256s_before": {
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00008\\case.json": "165ba4f98d1261d57c84a0864555651ddd2b4280e905c80dd33d785243e9e02c",
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\intake_20260915_actual\\user_reviews\\00008\\NEXAR_REVIEW_00008_review_1789461059274.json": "9f208907e4175e7d06d98a612c4e41c3f6dd688b48e6b5f8324748aeb3d502c6",
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00008\\frame_000560.png": "6aaf673f0678521f43bcdebd61d2d2200d2c7aabfe86d025ee65180eeb8227b9",
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\00008.mp4": "d38a2b7c7feb21465ebebb962d8e6dd83a6bf25053d4952d097222b164f9b5d5"
+      },
+      "unchanged_after": true,
+      "selected": {
+        "frame": 560,
+        "native_pts": 286720,
+        "time_base": "1/15360",
+        "pts_seconds": 18.666666666666668,
+        "review_seconds_exact_equal": true,
+        "case_seconds_exact_equal": true,
+        "pixel_shape": [
+          720,
+          1280,
+          3
+        ],
+        "PNG_RGB_equal": true,
+        "source_rgb_sha256": "a0eb08d260973d03d521819656df55bd15786708887af78b4da71df9f8e8b13f",
+        "PNG_rgb_sha256": "a0eb08d260973d03d521819656df55bd15786708887af78b4da71df9f8e8b13f"
+      },
+      "seconds": 0.8714180000242777
+    },
+    {
+      "ID": "00010",
+      "file_sha256s_before": {
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00010\\case.json": "dd92a37dc57f5c74f0cefefbca5899f073dc481fccd4192bc1ef7682299a26ac",
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\intake_20260915_actual\\user_reviews\\00010\\NEXAR_REVIEW_00010_review_1789461116961.json": "f84853caec98d098cb6ef2ed391440bc25283e820898337b066fb47dea75fbcb",
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00010\\frame_000572.png": "5179c365ba032373c1062472c143ac9ec8562853acbfec20bafe19f39cfa70e4",
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\00010.mp4": "bb0b2975bceaf9a9cfff779e2809ff3dc71d5ddbaecc9c7352c608419e2b7a02"
+      },
+      "unchanged_after": true,
+      "selected": {
+        "frame": 572,
+        "native_pts": 292864,
+        "time_base": "1/15360",
+        "pts_seconds": 19.066666666666666,
+        "review_seconds_exact_equal": true,
+        "case_seconds_exact_equal": true,
+        "pixel_shape": [
+          720,
+          1280,
+          3
+        ],
+        "PNG_RGB_equal": true,
+        "source_rgb_sha256": "598276f54cd756ddbe956165ebc5b64e320155370b7ee4b10d62031119d34ab8",
+        "PNG_rgb_sha256": "598276f54cd756ddbe956165ebc5b64e320155370b7ee4b10d62031119d34ab8"
+      },
+      "seconds": 1.0266706999973394
+    },
+    {
+      "ID": "00013",
+      "file_sha256s_before": {
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00013\\case.json": "d5df8724346312ec8962c74c80fb58c3c6214acda93f85fbcf8c2b5445299b7f",
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\round2_validation\\intake_20260915_actual\\user_reviews\\00013\\NEXAR_REVIEW_00013_review_1789461169025.json": "932ddc0258b1bd3479427bdd7ab8ae695448b98f1aca59d3a202fdefc9d5f649",
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_review_tool\\dist\\cases\\NEXAR_REVIEW_00013\\frame_000569.png": "29d6476b94c71f765e302f06bfe4daa1aafdd5e8c187162c6ef6b5eba01b377c",
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\00013.mp4": "7d8bc01f07761c3f06178a38dccf2eb23a3dc6f6557c2cf486e0cafd5c9089d9"
+      },
+      "unchanged_after": true,
+      "selected": {
+        "frame": 569,
+        "native_pts": 291328,
+        "time_base": "1/15360",
+        "pts_seconds": 18.966666666666665,
+        "review_seconds_exact_equal": true,
+        "case_seconds_exact_equal": true,
+        "pixel_shape": [
+          720,
+          1280,
+          3
+        ],
+        "PNG_RGB_equal": true,
+        "source_rgb_sha256": "d673908af46b53e2af9ca2c8744c3035aa43b6a7b9378c0b4379abe1ac0a7ada",
+        "PNG_rgb_sha256": "d673908af46b53e2af9ca2c8744c3035aa43b6a7b9378c0b4379abe1ac0a7ada"
+      },
+      "seconds": 1.1861538999946788
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "prompt": "Event candidates are chronological dashcam frames, sampled from a local window plus the true clip start. Reference frame 0 suggests the vehicle: null. REFERENCE panels identify a possible counterpart, not additional event candidates. Verify against the whole frames; the proposed reference may be wrong. Choose when that collision vehicle FIRST touches the camera car lane boundary with a wheel. Extend the camera car lane through an intersection. A local-window first image may be later than the beginning. True clip first frame is 0; choose it only if already inside at the true beginning. Later reentry is not first entry. Allowed event frames: [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150]. Return JSON with entry_frame only, or null if unknown.",
+  "max_new_tokens": 24,
+  "input_sizes": [
+    [
+      1536,
+      1280
+    ]
+  ],
+  "status": "complete",
+  "raw": "{\n  \"entry_frame\": 0\n}",
+  "seconds": 2.2189042000100017
+}

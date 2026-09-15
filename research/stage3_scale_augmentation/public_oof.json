@@ -1,0 +1,635 @@
+{
+  "baseline": {
+    "accel": {
+      "macro_f1": 0.7428571428571429,
+      "classification": {
+        "ACCELERATING": {
+          "precision": 0.8,
+          "recall": 0.4444444444444444,
+          "f1-score": 0.5714285714285714,
+          "support": 9.0
+        },
+        "DECELERATING": {
+          "precision": 0.5,
+          "recall": 0.75,
+          "f1-score": 0.6,
+          "support": 8.0
+        },
+        "CONSTANT": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1-score": 0.8,
+          "support": 30.0
+        },
+        "STOPPED": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "accuracy": 0.74,
+        "macro avg": {
+          "precision": 0.775,
+          "recall": 0.7486111111111111,
+          "f1-score": 0.7428571428571429,
+          "support": 50.0
+        },
+        "weighted avg": {
+          "precision": 0.764,
+          "recall": 0.74,
+          "f1-score": 0.7388571428571429,
+          "support": 50.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          4,
+          1,
+          4,
+          0
+        ],
+        [
+          0,
+          6,
+          2,
+          0
+        ],
+        [
+          1,
+          5,
+          24,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    "steer": {
+      "macro_f1": 0.7985074626865671,
+      "classification": {
+        "LEFT": {
+          "precision": 0.5555555555555556,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.6666666666666666,
+          "support": 6.0
+        },
+        "STRAIGHT": {
+          "precision": 0.967741935483871,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.8955223880597015,
+          "support": 36.0
+        },
+        "RIGHT": {
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "f1-score": 0.8333333333333334,
+          "support": 5.0
+        },
+        "accuracy": 0.851063829787234,
+        "macro avg": {
+          "precision": 0.7458610684417136,
+          "recall": 0.888888888888889,
+          "f1-score": 0.7985074626865671,
+          "support": 47.0
+        },
+        "weighted avg": {
+          "precision": 0.888158969833644,
+          "recall": 0.851063829787234,
+          "f1-score": 0.8596909071662963,
+          "support": 47.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          5,
+          1,
+          0
+        ],
+        [
+          4,
+          30,
+          2
+        ],
+        [
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    "stage3": 0.7595522388059701
+  },
+  "replicated": {
+    "accel": {
+      "macro_f1": 0.7168277393234948,
+      "classification": {
+        "ACCELERATING": {
+          "precision": 0.75,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.46153846153846156,
+          "support": 9.0
+        },
+        "DECELERATING": {
+          "precision": 0.5454545454545454,
+          "recall": 0.75,
+          "f1-score": 0.631578947368421,
+          "support": 8.0
+        },
+        "CONSTANT": {
+          "precision": 0.75,
+          "recall": 0.8,
+          "f1-score": 0.7741935483870968,
+          "support": 30.0
+        },
+        "STOPPED": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "accuracy": 0.72,
+        "macro avg": {
+          "precision": 0.7613636363636364,
+          "recall": 0.7208333333333333,
+          "f1-score": 0.7168277393234948,
+          "support": 50.0
+        },
+        "weighted avg": {
+          "precision": 0.7322727272727272,
+          "recall": 0.72,
+          "f1-score": 0.7086456836881285,
+          "support": 50.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          6,
+          2,
+          0
+        ],
+        [
+          1,
+          5,
+          24,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    "steer": {
+      "macro_f1": 0.7985074626865671,
+      "classification": {
+        "LEFT": {
+          "precision": 0.5555555555555556,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.6666666666666666,
+          "support": 6.0
+        },
+        "STRAIGHT": {
+          "precision": 0.967741935483871,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.8955223880597015,
+          "support": 36.0
+        },
+        "RIGHT": {
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "f1-score": 0.8333333333333334,
+          "support": 5.0
+        },
+        "accuracy": 0.851063829787234,
+        "macro avg": {
+          "precision": 0.7458610684417136,
+          "recall": 0.888888888888889,
+          "f1-score": 0.7985074626865671,
+          "support": 47.0
+        },
+        "weighted avg": {
+          "precision": 0.888158969833644,
+          "recall": 0.851063829787234,
+          "f1-score": 0.8596909071662963,
+          "support": 47.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          5,
+          1,
+          0
+        ],
+        [
+          4,
+          30,
+          2
+        ],
+        [
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    "stage3": 0.7413316563324164
+  },
+  "augmented": {
+    "accel": {
+      "macro_f1": 0.7168277393234948,
+      "classification": {
+        "ACCELERATING": {
+          "precision": 0.75,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.46153846153846156,
+          "support": 9.0
+        },
+        "DECELERATING": {
+          "precision": 0.5454545454545454,
+          "recall": 0.75,
+          "f1-score": 0.631578947368421,
+          "support": 8.0
+        },
+        "CONSTANT": {
+          "precision": 0.75,
+          "recall": 0.8,
+          "f1-score": 0.7741935483870968,
+          "support": 30.0
+        },
+        "STOPPED": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "accuracy": 0.72,
+        "macro avg": {
+          "precision": 0.7613636363636364,
+          "recall": 0.7208333333333333,
+          "f1-score": 0.7168277393234948,
+          "support": 50.0
+        },
+        "weighted avg": {
+          "precision": 0.7322727272727272,
+          "recall": 0.72,
+          "f1-score": 0.7086456836881285,
+          "support": 50.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          6,
+          2,
+          0
+        ],
+        [
+          1,
+          5,
+          24,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    "steer": {
+      "macro_f1": 0.7985074626865671,
+      "classification": {
+        "LEFT": {
+          "precision": 0.5555555555555556,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.6666666666666666,
+          "support": 6.0
+        },
+        "STRAIGHT": {
+          "precision": 0.967741935483871,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.8955223880597015,
+          "support": 36.0
+        },
+        "RIGHT": {
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "f1-score": 0.8333333333333334,
+          "support": 5.0
+        },
+        "accuracy": 0.851063829787234,
+        "macro avg": {
+          "precision": 0.7458610684417136,
+          "recall": 0.888888888888889,
+          "f1-score": 0.7985074626865671,
+          "support": 47.0
+        },
+        "weighted avg": {
+          "precision": 0.888158969833644,
+          "recall": 0.851063829787234,
+          "f1-score": 0.8596909071662963,
+          "support": 47.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          5,
+          1,
+          0
+        ],
+        [
+          4,
+          30,
+          2
+        ],
+        [
+          0,
+          0,
+          5
+        ]
+      ]
+    },
+    "stage3": 0.7413316563324164
+  },
+  "delta": {
+    "stage3": -0.018220582473553737,
+    "accel": {
+      "macro_f1": -0.026029403533648132,
+      "class_f1": {
+        "ACCELERATING": -0.10989010989010983,
+        "DECELERATING": 0.03157894736842104,
+        "CONSTANT": -0.02580645161290329,
+        "STOPPED": 0.0
+      }
+    },
+    "steer": {
+      "macro_f1": 0.0,
+      "class_f1": {
+        "LEFT": 0.0,
+        "STRAIGHT": 0.0,
+        "RIGHT": 0.0
+      }
+    }
+  },
+  "delta_vs_replicated": {
+    "stage3": 0.0,
+    "accel": {
+      "macro_f1": 0.0,
+      "class_f1": {
+        "ACCELERATING": 0.0,
+        "DECELERATING": 0.0,
+        "CONSTANT": 0.0,
+        "STOPPED": 0.0
+      }
+    },
+    "steer": {
+      "macro_f1": 0.0,
+      "class_f1": {
+        "LEFT": 0.0,
+        "STRAIGHT": 0.0,
+        "RIGHT": 0.0
+      }
+    }
+  },
+  "fit_times": {
+    "baseline": [
+      {
+        "task": "accel",
+        "held_out_video": "OPEN_001",
+        "seconds": 1.0769162000069628,
+        "original_rows": 2082,
+        "fitted_rows": 2082
+      },
+      {
+        "task": "accel",
+        "held_out_video": "OPEN_002",
+        "seconds": 1.184511500003282,
+        "original_rows": 2082,
+        "fitted_rows": 2082
+      },
+      {
+        "task": "accel",
+        "held_out_video": "OPEN_003",
+        "seconds": 1.157068899992737,
+        "original_rows": 2082,
+        "fitted_rows": 2082
+      },
+      {
+        "task": "accel",
+        "held_out_video": "OPEN_004",
+        "seconds": 0.9900573000049917,
+        "original_rows": 2082,
+        "fitted_rows": 2082
+      },
+      {
+        "task": "accel",
+        "held_out_video": "OPEN_005",
+        "seconds": 0.9735565000009956,
+        "original_rows": 2082,
+        "fitted_rows": 2082
+      },
+      {
+        "task": "steer",
+        "held_out_video": "OPEN_001",
+        "seconds": 35.539145999995526,
+        "original_rows": 1907,
+        "fitted_rows": 1907
+      },
+      {
+        "task": "steer",
+        "held_out_video": "OPEN_002",
+        "seconds": 32.859510299997055,
+        "original_rows": 1907,
+        "fitted_rows": 1907
+      },
+      {
+        "task": "steer",
+        "held_out_video": "OPEN_003",
+        "seconds": 32.82044350000797,
+        "original_rows": 1907,
+        "fitted_rows": 1907
+      },
+      {
+        "task": "steer",
+        "held_out_video": "OPEN_004",
+        "seconds": 33.6713208000001,
+        "original_rows": 1909,
+        "fitted_rows": 1909
+      },
+      {
+        "task": "steer",
+        "held_out_video": "OPEN_005",
+        "seconds": 32.88705370000389,
+        "original_rows": 1908,
+        "fitted_rows": 1908
+      }
+    ],
+    "replicated": [
+      {
+        "task": "accel",
+        "held_out_video": "OPEN_001",
+        "seconds": 4.693752499995753,
+        "original_rows": 2082,
+        "fitted_rows": 6246
+      },
+      {
+        "task": "accel",
+        "held_out_video": "OPEN_002",
+        "seconds": 5.120747999986634,
+        "original_rows": 2082,
+        "fitted_rows": 6246
+      },
+      {
+        "task": "accel",
+        "held_out_video": "OPEN_003",
+        "seconds": 5.122529200001736,
+        "original_rows": 2082,
+        "fitted_rows": 6246
+      },
+      {
+        "task": "accel",
+        "held_out_video": "OPEN_004",
+        "seconds": 4.426535399994464,
+        "original_rows": 2082,
+        "fitted_rows": 6246
+      },
+      {
+        "task": "accel",
+        "held_out_video": "OPEN_005",
+        "seconds": 4.458576599994558,
+        "original_rows": 2082,
+        "fitted_rows": 6246
+      },
+      {
+        "task": "steer",
+        "held_out_video": "OPEN_001",
+        "seconds": 72.06355169999006,
+        "original_rows": 1907,
+        "fitted_rows": 5721
+      },
+      {
+        "task": "steer",
+        "held_out_video": "OPEN_002",
+        "seconds": 84.81857410000521,
+        "original_rows": 1907,
+        "fitted_rows": 5721
+      },
+      {
+        "task": "steer",
+        "held_out_video": "OPEN_003",
+        "seconds": 71.15969700001006,
+        "original_rows": 1907,
+        "fitted_rows": 5721
+      },
+      {
+        "task": "steer",
+        "held_out_video": "OPEN_004",
+        "seconds": 71.42769060000137,
+        "original_rows": 1909,
+        "fitted_rows": 5727
+      },
+      {
+        "task": "steer",
+        "held_out_video": "OPEN_005",
+        "seconds": 70.94381779999821,
+        "original_rows": 1908,
+        "fitted_rows": 5724
+      }
+    ],
+    "augmented": [
+      {
+        "task": "accel",
+        "held_out_video": "OPEN_001",
+        "seconds": 4.662050499988254,
+        "original_rows": 2082,
+        "fitted_rows": 6246
+      },
+      {
+        "task": "accel",
+        "held_out_video": "OPEN_002",
+        "seconds": 4.449948299996322,
+        "original_rows": 2082,
+        "fitted_rows": 6246
+      },
+      {
+        "task": "accel",
+        "held_out_video": "OPEN_003",
+        "seconds": 4.229071599998861,
+        "original_rows": 2082,
+        "fitted_rows": 6246
+      },
+      {
+        "task": "accel",
+        "held_out_video": "OPEN_004",
+        "seconds": 5.54656590000377,
+        "original_rows": 2082,
+        "fitted_rows": 6246
+      },
+      {
+        "task": "accel",
+        "held_out_video": "OPEN_005",
+        "seconds": 3.186902799992822,
+        "original_rows": 2082,
+        "fitted_rows": 6246
+      },
+      {
+        "task": "steer",
+        "held_out_video": "OPEN_001",
+        "seconds": 110.12081860000035,
+        "original_rows": 1907,
+        "fitted_rows": 5721
+      },
+      {
+        "task": "steer",
+        "held_out_video": "OPEN_002",
+        "seconds": 114.607617200003,
+        "original_rows": 1907,
+        "fitted_rows": 5721
+      },
+      {
+        "task": "steer",
+        "held_out_video": "OPEN_003",
+        "seconds": 109.7374773999909,
+        "original_rows": 1907,
+        "fitted_rows": 5721
+      },
+      {
+        "task": "steer",
+        "held_out_video": "OPEN_004",
+        "seconds": 113.37569319999602,
+        "original_rows": 1909,
+        "fitted_rows": 5727
+      },
+      {
+        "task": "steer",
+        "held_out_video": "OPEN_005",
+        "seconds": 111.76727189999656,
+        "original_rows": 1908,
+        "fitted_rows": 5724
+      }
+    ]
+  },
+  "existing_external23_reference": 0.7982976860613044,
+  "delta_existing_reference": -0.05696602972888798,
+  "caveat": "Development diagnostic on the same 50 sparse public labels previously used for model selection; subject to selection bias. Not independent test accuracy. External six validation routes remain excluded."
+}

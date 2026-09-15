@@ -1,0 +1,74 @@
+{
+  "created_utc": "2026-09-13T10:33:57.007066+00:00",
+  "scope": "AI visual observation after predictions; not official GT and not blind validation",
+  "observations": [
+    {
+      "set": "canonical",
+      "ID": "S2_001",
+      "reference_frame": 42,
+      "bbox": [
+        0.25,
+        0.33,
+        0.5,
+        0.67
+      ],
+      "evidence": "research/v5_stage2/paired_layout_run/canonical/V5/S2_001/call_2/input_0.png",
+      "observation": "The cropped reference mainly shows road and yellow ego hood; it does not preserve the collision SUV body visible at the right of the full frame. IDENTIFIED status is not semantic correctness.",
+      "tracked_frame_count": 19,
+      "tracking_stop_reason": "nonrigid_or_wrong_matches",
+      "interpretation": "An incorrect reference region can produce numerically accepted geometric tracks. This is direct evidence that tracking pass count alone cannot establish same-counterpart identity.",
+      "semantic_review": "wrong_reference_region"
+    },
+    {
+      "set": "canonical",
+      "ID": "S2_002",
+      "reference_frame": 43,
+      "bbox": [
+        0.55,
+        0.25,
+        0.75,
+        0.35
+      ],
+      "evidence": "research/v5_stage2/paired_layout_run/canonical/V5/S2_002/call_2/input_0.png",
+      "observation": "Reference shows sky, a pole and the horizon, not the orange collision truck.",
+      "tracked_frame_count": 9,
+      "semantic_review": "wrong_reference_region"
+    },
+    {
+      "set": "canonical",
+      "ID": "S2_004",
+      "reference_frame": 42,
+      "bbox": [
+        0.5,
+        0.68,
+        0.9,
+        0.85
+      ],
+      "evidence": "research/v5_stage2/paired_layout_run/canonical/V5/S2_004/call_2/input_0.png",
+      "observation": "Reference includes only lower rear/plate portion of the lead vehicle mixed with ego hood. Full counterpart/wheel/lane reference usability is not established.",
+      "semantic_review": "partial_target_unconfirmed_usability"
+    },
+    {
+      "set": "jpeg",
+      "ID": "S2_004",
+      "reference_frame": 42,
+      "bbox": [
+        0.5,
+        0.68,
+        0.9,
+        0.85
+      ],
+      "evidence": "research/v5_stage2/paired_layout_run/jpeg/V5/S2_004/call_2/input_0.png",
+      "observation": "Reference includes only lower rear/plate portion of the lead vehicle mixed with ego hood. Full counterpart/wheel/lane reference usability is not established.",
+      "semantic_review": "partial_target_unconfirmed_usability"
+    }
+  ],
+  "no_code_or_prompt_change": true,
+  "final_scope": "Reviewed all 4 schema-valid IDENTIFIED references among 15 derived inputs; same five source groups, not independent15. Other11 report UNCERTAIN.",
+  "review_counts": {
+    "wrong_reference_region": 2,
+    "partial_target_unconfirmed_usability": 2,
+    "verified_good_full_reference": 0,
+    "not_identified": 11
+  }
+}

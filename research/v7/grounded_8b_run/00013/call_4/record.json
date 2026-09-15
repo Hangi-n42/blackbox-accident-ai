@@ -1,0 +1,13 @@
+{
+  "prompt": "Two labeled event groups from one dashcam clip: ENTRY context and CONTACT context. Reference frame 0 suggests the vehicle: . REFERENCE panels identify a possible counterpart, not additional event candidates. Verify against the whole frames; the proposed reference may be wrong. entry_side is the image LEFT or RIGHT from which the SAME vehicle first entered the camera car driving corridor; trace backwards, not its direction of travel or impact position. evasion_space is 1 if usable physical road space exists for the camera car to continue or steer around it at CONTACT, otherwise 0. Account for traffic, barriers, curbs and road edges; do not judge speed, reaction time or avoidance success. Use full scenes, not the reference crop, to judge space. Return JSON with entry_side and evasion_space only; use null if unknown.",
+  "max_new_tokens": 24,
+  "input_sizes": [
+    [
+      1536,
+      512
+    ]
+  ],
+  "status": "complete",
+  "raw": "{\n  \"entry_side\": \"LEFT\",\n  \"evasion_space\": 0\n}",
+  "seconds": 17.6782733
+}

@@ -1,0 +1,20 @@
+{
+  "scope": "Independent assistant visual review of public examples, not official or human ground truth; prepared before V4 predictions are read.",
+  "labels": "entry interval, side, evasion evidence/uncertainty; do not force ambiguous labels",
+  "selected_overview_positions": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32,
+    36,
+    40,
+    44,
+    48,
+    49
+  ]
+}

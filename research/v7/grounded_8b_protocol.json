@@ -1,0 +1,29 @@
+{
+  "experiment": "Final fixed fourth cell: official8B with unchanged frozen unified grounding policy",
+  "frozen_before_8b_unified_outputs": true,
+  "repository": "Qwen/Qwen3-VL-8B-Instruct",
+  "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "candidate_sha256": "7ef21652066e83e6e969bba904624d630b872ea2d773252a6d57b55ea6e65ca8",
+  "comparison_cells": [
+    "4B V6 archived",
+    "4B unified completed failure",
+    "8B V6 current run",
+    "8B unified this one run"
+  ],
+  "ids": [
+    "00000",
+    "00003",
+    "00004",
+    "00005",
+    "00006",
+    "00007",
+    "00008",
+    "00010",
+    "00013"
+  ],
+  "policy": "Unchanged frozen candidate, NF4 FP16 no double quantization, allGPU, 120/24/24/24 tokens,1.2MP/call",
+  "input": "Same original sources/cache/render rules; actual follow-up images depend on generated plan and are logged, not claimed equal",
+  "gate": "Same initial V7 development accuracy/Macro-F1 nondecrease in all4fields, at least1 improved; inspect gains/losses/MAE/null/invalid/wrong plans and candidate coverage. Numeric pass alone not independent adoption.",
+  "scope": "Already exposed development only. Checkpoint has different vision encoder, not pure language parameter effect.",
+  "stop": "One run of9. On failure do not retune schema/prompts, lowerpixels or precision, or change gate. No automatic submission."
+}

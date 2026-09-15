@@ -1,0 +1,23 @@
+{
+  "criterion": "Augmented external stage3 > baseline and > identical-triplication control",
+  "external_scores": {
+    "baseline": 0.6040020794954042,
+    "replicated": 0.6113545455410123,
+    "augmented": 0.6185591895164645
+  },
+  "delta_vs_baseline": 0.014557110021060304,
+  "delta_vs_replicated": 0.007204643975452174,
+  "exceeds_baseline": true,
+  "exceeds_replicated": true,
+  "public_oof_executed": true,
+  "executed_source": {
+    "path": "experiment.py",
+    "sha256": "b994e4d03625865ad8ebf22d11b80e50947c575ea8597bc8443a35d6be36ea46"
+  },
+  "amendment": {
+    "path": "amendment_frozen_before_results.json",
+    "sha256": "c835db141ae0167784596fb9b9bda8a257ce5a3ed20aefab0c605bc0bd9c8b07"
+  },
+  "original_gate_record": "gate_before_public.json",
+  "note": "Supplementary audit added after completion; original pre-result config, amendment and gate records remain unchanged."
+}

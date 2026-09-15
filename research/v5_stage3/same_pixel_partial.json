@@ -1,0 +1,137 @@
+{
+  "OPEN_001": {
+    "prefix_vs_training_cache": {
+      "shape_equal": true,
+      "shape": [
+        1200,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "same_pixel_20_stride2_vs_10_stride1": {
+      "shape_equal": true,
+      "shape": [
+        600,
+        1128
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "rows": 1200,
+    "flow_pairs": 599,
+    "fit_failures": 0
+  },
+  "OPEN_002": {
+    "prefix_vs_training_cache": {
+      "shape_equal": true,
+      "shape": [
+        1201,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "same_pixel_20_stride2_vs_10_stride1": {
+      "shape_equal": true,
+      "shape": [
+        601,
+        1128
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "rows": 1201,
+    "flow_pairs": 600,
+    "fit_failures": 0
+  },
+  "OPEN_003": {
+    "prefix_vs_training_cache": {
+      "shape_equal": true,
+      "shape": [
+        1197,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "same_pixel_20_stride2_vs_10_stride1": {
+      "shape_equal": true,
+      "shape": [
+        599,
+        1128
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "rows": 1197,
+    "flow_pairs": 598,
+    "fit_failures": 0
+  },
+  "OPEN_004": {
+    "prefix_vs_training_cache": {
+      "shape_equal": true,
+      "shape": [
+        1197,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "same_pixel_20_stride2_vs_10_stride1": {
+      "shape_equal": true,
+      "shape": [
+        599,
+        1128
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "rows": 1197,
+    "flow_pairs": 598,
+    "fit_failures": 0
+  },
+  "OPEN_005": {
+    "prefix_vs_training_cache": {
+      "shape_equal": true,
+      "shape": [
+        1197,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "same_pixel_20_stride2_vs_10_stride1": {
+      "shape_equal": true,
+      "shape": [
+        599,
+        1128
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "rows": 1197,
+    "flow_pairs": 598,
+    "fit_failures": 0
+  }
+}

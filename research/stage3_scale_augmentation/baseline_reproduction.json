@@ -1,0 +1,8 @@
+{
+  "rows": 50,
+  "accel_changed": 0,
+  "steer_changed": 0,
+  "previous_predictions_sha256": "fb4a729fffeccb3239c5e8ec2f4cd500926fb6e85866999adb0e0530d49bb39f",
+  "current_predictions_sha256": "eb6d4b78042069648474b820886328a56296235de50394bf530d863d95f05050",
+  "same_split_sha256": "e74d2b14dff30adee5eecf366593b497a0c8c57c18cc38c12df717d8a4e16622"
+}

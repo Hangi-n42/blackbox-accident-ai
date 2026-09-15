@@ -1,0 +1,25 @@
+{
+  "revision": "aa97deda5a59f00bb7187739053b7c72e14374df",
+  "selected": [
+    [
+      "00014",
+      12482330,
+      "90f401dbf91ead5098e1629ebf384036e0d2ca7943269fd2b48327b3a558c7ee"
+    ],
+    [
+      "00015",
+      8094504,
+      "929e9e6f2494f30c47f5567e95412d168b458336f31024ab1cd6dea4c9b2cb1a"
+    ],
+    [
+      "00016",
+      28279207,
+      "87b96caf17ebd8a76ee7ccc93aec6f5932def39fd5f6d2ccaf65690b72e0f67e"
+    ]
+  ],
+  "created_utc": "2026-09-15T11:51:50.458347+00:00",
+  "protocol_sha256": "f92b26047892b943511176d746ba76b35ba0b06893f2354d9e4ab2fb089d820d",
+  "role": "AI secondary review; not human GT",
+  "script_sha256": "6083d5c7fad8de0d3e5dbc5bfad05a75a86c7ac3db38029d0a74aff722491250",
+  "automatic_retry": false
+}

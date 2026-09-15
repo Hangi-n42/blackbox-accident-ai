@@ -1,0 +1,162 @@
+{
+  "cells": {
+    "4b_v6": {
+      "contact": {
+        "n": 9,
+        "correct": 4,
+        "accuracy": 0.4444444444444444,
+        "mae": 3.7323166303558457
+      },
+      "entry": {
+        "n": 8,
+        "correct": 1,
+        "accuracy": 0.125,
+        "mae": 12.09490099961553
+      },
+      "side": {
+        "n": 7,
+        "macro_f1": 0.41666666666666663,
+        "correct": 3
+      },
+      "space": {
+        "n": 9,
+        "macro_f1": 0.18181818181818182,
+        "correct": 2
+      },
+      "available_label_weighted_diagnostic": 0.2890782828282828
+    },
+    "4b_unified": {
+      "contact": {
+        "n": 9,
+        "correct": 1,
+        "accuracy": 0.1111111111111111,
+        "mae": 6.2924302618650945
+      },
+      "entry": {
+        "n": 8,
+        "correct": 2,
+        "accuracy": 0.25,
+        "mae": 13.24931757016532
+      },
+      "side": {
+        "n": 7,
+        "macro_f1": 0.36363636363636365,
+        "correct": 4
+      },
+      "space": {
+        "n": 9,
+        "macro_f1": 0.4375,
+        "correct": 7
+      },
+      "available_label_weighted_diagnostic": 0.24655934343434344
+    },
+    "8b_v6": {
+      "contact": {
+        "n": 9,
+        "correct": 4,
+        "accuracy": 0.4444444444444444,
+        "mae": 3.7323166303558457
+      },
+      "entry": {
+        "n": 8,
+        "correct": 1,
+        "accuracy": 0.125,
+        "mae": 11.53174740484429
+      },
+      "side": {
+        "n": 7,
+        "macro_f1": 0.3,
+        "correct": 3
+      },
+      "space": {
+        "n": 9,
+        "macro_f1": 0.18181818181818182,
+        "correct": 2
+      },
+      "available_label_weighted_diagnostic": 0.2715782828282828
+    },
+    "8b_unified": {
+      "contact": {
+        "n": 9,
+        "correct": 1,
+        "accuracy": 0.1111111111111111,
+        "mae": 4.403379042248708
+      },
+      "entry": {
+        "n": 8,
+        "correct": 1,
+        "accuracy": 0.125,
+        "mae": 13.416368704344483
+      },
+      "side": {
+        "n": 7,
+        "macro_f1": 0.65,
+        "correct": 5
+      },
+      "space": {
+        "n": 9,
+        "macro_f1": 0.18181818181818182,
+        "correct": 2
+      },
+      "available_label_weighted_diagnostic": 0.20741161616161616
+    }
+  },
+  "effects": {
+    "contact": {
+      "metric": "accuracy",
+      "8b_minus_4b_under_v6": 0.0,
+      "8b_minus_4b_under_unified": 0.0,
+      "unified_minus_v6_under_4b": -0.3333333333333333,
+      "unified_minus_v6_under_8b": -0.3333333333333333,
+      "descriptive_difference_of_differences": 0.0
+    },
+    "entry": {
+      "metric": "accuracy",
+      "8b_minus_4b_under_v6": 0.0,
+      "8b_minus_4b_under_unified": -0.125,
+      "unified_minus_v6_under_4b": 0.125,
+      "unified_minus_v6_under_8b": 0.0,
+      "descriptive_difference_of_differences": -0.125
+    },
+    "side": {
+      "metric": "macro_f1",
+      "8b_minus_4b_under_v6": -0.11666666666666664,
+      "8b_minus_4b_under_unified": 0.2863636363636364,
+      "unified_minus_v6_under_4b": -0.05303030303030298,
+      "unified_minus_v6_under_8b": 0.35000000000000003,
+      "descriptive_difference_of_differences": 0.403030303030303
+    },
+    "space": {
+      "metric": "macro_f1",
+      "8b_minus_4b_under_v6": 0.0,
+      "8b_minus_4b_under_unified": -0.2556818181818182,
+      "unified_minus_v6_under_4b": 0.2556818181818182,
+      "unified_minus_v6_under_8b": 0.0,
+      "descriptive_difference_of_differences": -0.2556818181818182
+    }
+  },
+  "8b_unified_initial_numeric_gate": false,
+  "gate_checks": {
+    "contact_nondecrease": false,
+    "entry_nondecrease": true,
+    "side_nondecrease": true,
+    "space_nondecrease": true,
+    "at_least_one_improvement": true
+  },
+  "evaluation_bindings": {
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\stage2_dev_run1\\evaluation.json": "56513069334daea8265a75ee5bda6ffdbd51db01542c586f933bbbf7cd4e4d9a",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\capacity_8b_combined\\evaluation.json": "5044f408a2061dc58c80e364c948af6ffbdab64c06edd90083ea9fb4213e8d2a",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\grounded_8b_run\\evaluation.json": "42f666526e3ece3695ff3b4d654d4e0dc00de565e98df233aade735589e42f5e"
+  },
+  "summary_script_sha256": "289fd4227e5ae4bf760362417661ae2a318810880c8def10887922354f4f79f2",
+  "independent_validation": false,
+  "adopted": false,
+  "submitted": false,
+  "limits": [
+    "Same nine already exposed development sources and per-field unequal known-label denominators.",
+    "Different checkpoint vision architecture; not isolated language parameter count.",
+    "Same source and rendering rules; adaptive follow-up pixels can differ.",
+    "Descriptive metric interaction only, no causal or statistical-significance claim.",
+    "Weighted available-label diagnostic is not official Stage2 score."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "experiment": "Frozen V5 full-native-frame PNG baseline diagnostic",
+  "ids": ["00000", "00003", "00004", "00005", "00006", "00007"],
+  "purpose": "Compare full-frame density/timeline against prior 10Hz PNG runs on already consumed sources",
+  "policy": "Actual V5 stage2_motion_collision four calls and original scores, no candidate module or score modification",
+  "input": "All existing zero-based native decoded PNGs in each fixed review case; same PNG representation as earlier pilot, no new JPEG conversion or media duplication",
+  "preprocessing_limit": "Isolates frame density/timeline with PNG representation held fixed. Not a claim of byte-identical official preprocessing; hidden JPEG encoding conditions are unverified.",
+  "model": "Actual extracted V5 saved NF4 CandidateVLM, one lifecycle",
+  "calls_per_video": 4,
+  "max_calls": 24,
+  "tokens_per_video": [64, 48, 40, 40],
+  "cpu_threads": 2,
+  "network": "Offline model configuration and socket connection blocking",
+  "ground_truth_during_inference": "No review/label files read. Existing case labels must be null. Human evaluation is a separate later tool.",
+  "preservation": "Freeze and run are separate; no output overwrite, no retry, all source/case/mapping/PNG and package hashes verified before and after run",
+  "prior_10hz_refs": "Only hashes of exact prior freeze/report files bound; not parsed or used by inference",
+  "scope": "Six previously reviewed/evaluated clips, not unseen holdout or a model improvement submission"
+}

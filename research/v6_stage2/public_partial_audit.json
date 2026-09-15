@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "cohort_id": "existing_public5_partial_collision_only",
+  "scope": "development_archived_V3_policy_trace_not_V5_server_trace",
+  "complete_gt": false,
+  "S2": null,
+  "components": {
+    "collision_time_seconds": {
+      "labeled_count": 5,
+      "cohort_count": 5,
+      "complete": true,
+      "value": 0.8,
+      "correct_count": 4
+    },
+    "entry_time_seconds": {
+      "labeled_count": 0,
+      "cohort_count": 5,
+      "complete": false,
+      "value": null
+    },
+    "entry_side": {
+      "labeled_count": 0,
+      "cohort_count": 5,
+      "complete": false,
+      "value": null
+    },
+    "evasion_space": {
+      "labeled_count": 0,
+      "cohort_count": 5,
+      "complete": false,
+      "value": null
+    }
+  },
+  "videos": [
+    {
+      "ID": "S2_001",
+      "source_group_id": "public_original_S2_001",
+      "split": "development",
+      "selection_provenance": {
+        "entry": "valid_offered_selected",
+        "side": "valid_class",
+        "space": "valid_class"
+      },
+      "entry_coverage": null,
+      "collision_errors": {
+        "final_motion": {
+          "signed_seconds": 0.2999999999999998,
+          "correct_at_0_3_seconds": true
+        },
+        "internal_vlm": {
+          "signed_seconds": 0.09999999999999964,
+          "correct_at_0_3_seconds": true
+        }
+      }
+    },
+    {
+      "ID": "S2_002",
+      "source_group_id": "public_original_S2_002",
+      "split": "development",
+      "selection_provenance": {
+        "entry": "valid_offered_selected",
+        "side": "valid_class",
+        "space": "valid_class"
+      },
+      "entry_coverage": null,
+      "collision_errors": {
+        "final_motion": {
+          "signed_seconds": 1.7000000000000002,
+          "correct_at_0_3_seconds": false
+        },
+        "internal_vlm": {
+          "signed_seconds": 1.4000000000000004,
+          "correct_at_0_3_seconds": false
+        }
+      }
+    },
+    {
+      "ID": "S2_003",
+      "source_group_id": "public_original_S2_003",
+      "split": "development",
+      "selection_provenance": {
+        "entry": "valid_offered_selected",
+        "side": "valid_class",
+        "space": "valid_class"
+      },
+      "entry_coverage": null,
+      "collision_errors": {
+        "final_motion": {
+          "signed_seconds": 0.19999999999999973,
+          "correct_at_0_3_seconds": true
+        },
+        "internal_vlm": {
+          "signed_seconds": 0.0,
+          "correct_at_0_3_seconds": true
+        }
+      }
+    },
+    {
+      "ID": "S2_004",
+      "source_group_id": "public_original_S2_004",
+      "split": "development",
+      "selection_provenance": {
+        "entry": "valid_offered_selected",
+        "side": "valid_class",
+        "space": "valid_class"
+      },
+      "entry_coverage": null,
+      "collision_errors": {
+        "final_motion": {
+          "signed_seconds": 0.10000000000000053,
+          "correct_at_0_3_seconds": true
+        },
+        "internal_vlm": {
+          "signed_seconds": -0.09999999999999964,
+          "correct_at_0_3_seconds": true
+        }
+      }
+    },
+    {
+      "ID": "S2_005",
+      "source_group_id": "public_original_S2_005",
+      "split": "development",
+      "selection_provenance": {
+        "entry": "valid_offered_selected",
+        "side": "valid_class",
+        "space": "valid_class"
+      },
+      "entry_coverage": null,
+      "collision_errors": {
+        "final_motion": {
+          "signed_seconds": 0.2999999999999998,
+          "correct_at_0_3_seconds": true
+        },
+        "internal_vlm": {
+          "signed_seconds": 0.20000000000000018,
+          "correct_at_0_3_seconds": true
+        }
+      }
+    }
+  ],
+  "source_group_count": 5,
+  "entry_error_counts": {},
+  "entry_selection_origin_counts": {
+    "valid_offered_selected": 5
+  },
+  "missing_gt": [
+    {
+      "ID": "S2_001",
+      "fields": [
+        "entry_time_seconds",
+        "entry_side",
+        "evasion_space"
+      ]
+    },
+    {
+      "ID": "S2_002",
+      "fields": [
+        "entry_time_seconds",
+        "entry_side",
+        "evasion_space"
+      ]
+    },
+    {
+      "ID": "S2_003",
+      "fields": [
+        "entry_time_seconds",
+        "entry_side",
+        "evasion_space"
+      ]
+    },
+    {
+      "ID": "S2_004",
+      "fields": [
+        "entry_time_seconds",
+        "entry_side",
+        "evasion_space"
+      ]
+    },
+    {
+      "ID": "S2_005",
+      "fields": [
+        "entry_time_seconds",
+        "entry_side",
+        "evasion_space"
+      ]
+    }
+  ],
+  "interpretation": "No adoption gate. Partial components have labeled-only denominators. Human/evidence authenticity requires operational verification; hashes only bind artifacts.",
+  "input_binding": {
+    "gt_sha256": "4f5ce0598ebc2d8c3e54a5fcf605e2a0c112130913a659ab8d5df99ef00e5431",
+    "trace_sha256": "c3ce71f34449e134901420f8ebe637d01e8801dcd527a529f6b91fa316066655",
+    "evaluator_sha256": "2309b9d91e1153672beb86f5cd3f8370bcfe6690fc9946dc41de2cecf7d215ae",
+    "preparer_sha256": "13fab12670a4777cc4559af43ad56582683528e2c6275b6f47a724b9a9968286",
+    "actual_v5_selection_sha256": "2e8336ff569bd0c465caa4279dad887903c2b06ce7fd2465d981021443348c50",
+    "actual_v5_csv_sha256": "0de4e3c53e3a320efbaef293c5412866e49afbe00f64adc7492af3e24204f6b8",
+    "actual_v5_code_sha256": {
+      "model/stage2/code/solution/stage2.py": "2323653c4271ec09e2bf1761f6938d5cec1f76bbe5a01df96ce7aa22b183dc1a",
+      "model/stage2/code/solution/stage2_v2.py": "89ae0bc640670d7ed76103ce7c829d405ad27cc25368c74d153d3b96962b8442",
+      "model/stage2/code/solution/stage2_motion_collision.py": "091d1b4b53353cf08bc5431fb658d1c7fcc45604a4288546f3aac0fd6a207e2e",
+      "model/stage2/code/solution/vlm.py": "01680e84220c64a6ff8f3415cf59bb7cd225f425814c92f6d2fe8213c5fe1cda",
+      "model/stage2/code/solution/vlm_candidate.py": "99b1cccb3de3172d08b4db8a40cbca3f6a1e595f6f6beb7250ab0c501d47ba7a"
+    },
+    "model_hashes_equal_in_frozen_manifests": {
+      "model/stage2/vlm/added_tokens.json": "79f6ec6fcc423d3a82bfac8b9033b1daac7b7bce06a5f5f441637b480cc605de",
+      "model/stage2/vlm/CHANGES.md": "439b76f32c0cab94fdffb1d1bb56abff150f2b66df7ef29890ceacf9b39e9f21",
+      "model/stage2/vlm/chat_template.jinja": "24a1eb036569714fc3efe7908495159c19ac5138f652c9e524475e40ce87d716",
+      "model/stage2/vlm/config.json": "c4fbc3354ffa6bd557af9810ad972d7445329cfa7b90edf1c565caa5e71c582c",
+      "model/stage2/vlm/generation_config.json": "ad9868f17f3b0d352b2c2d45ac4ce71afa25a6f02580b24c7dd246e9f3655bb3",
+      "model/stage2/vlm/LICENSE-APACHE-2.0.txt": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "model/stage2/vlm/merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "model/stage2/vlm/model-00001-of-00002.safetensors": "60cfa3b31933793fcbe97002a162e61e89abdd84876cbec4f3cae090fd8a57e0",
+      "model/stage2/vlm/model-00002-of-00002.safetensors": "acddfb8561f15589c3816a8ad00ad8ef1bccd8f6eea9eba612fad1668f459e5f",
+      "model/stage2/vlm/model.safetensors.index.json": "ffe51f7b55fbaa8c5e1db381934668136cfd3ea87fabb23723ec5557fd07603b",
+      "model/stage2/vlm/preprocessor_config.json": "932a67b907ae5ec809c4fb66cbcc951436ab686977e8b5fed9dce916c3a81e9e",
+      "model/stage2/vlm/README.md": "e1d74f17eb4dcaf72dd26b8ef5e8e8a352f4f1d35a899dbbab2c3089c1976533",
+      "model/stage2/vlm/README.original.md": "a884e5e78f7d6f7bfe237f909dbc41a126542e259dc79d8ab33cc8980580ff79",
+      "model/stage2/vlm/SOURCE_DOWNLOAD_MANIFEST.json": "0455c7f4577bced191b5acfb3de853c4c8ebb88fbb8b7f090fd2de0ef65b0fca",
+      "model/stage2/vlm/special_tokens_map.json": "57255613bbe23c9497211ca68561ff429a51e871dbaf5a59998fa4c8f7fe168a",
+      "model/stage2/vlm/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "model/stage2/vlm/tokenizer_config.json": "394a86fd18585e173a0b8ac275bf1a8a44ab1b155b11cb27141ff2c8ee29851d",
+      "model/stage2/vlm/video_preprocessor_config.json": "7cbbda8582bde10b9d94184c676654967fbdf5668a1d1262e83dde7731d74649",
+      "model/stage2/vlm/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    "weights_rehashed_in_this_cpu_audit": false,
+    "actual_v5_predictions_equal": true,
+    "detailed_trace_is_archived_development_not_actual_v5_runtime": true
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "status": "complete",
+  "exact_package_match": true,
+  "calls": 40,
+  "all_sources_under_package_asserted": true,
+  "input_representation_pairs": [
+    {
+      "ID": "S2_001",
+      "same_frame_numbers": true,
+      "same_first_prompt": true,
+      "same_first_rgb": false,
+      "old_overview": "{\n  \"collision_frame\": 33,\n  \"entry_side\": \"RIGHT\"\n}",
+      "new_overview": "{\n  \"collision_frame\": 33,\n  \"entry_side\": \"RIGHT\"\n}",
+      "old_prediction": {
+        "collision_frame": 35,
+        "entry_frame": 24,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "new_prediction": {
+        "collision_frame": 35,
+        "entry_frame": 24,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      }
+    },
+    {
+      "ID": "S2_002",
+      "same_frame_numbers": true,
+      "same_first_prompt": true,
+      "same_first_rgb": false,
+      "old_overview": "{\n  \"collision_frame\": 44,\n  \"entry_side\": \"LEFT\"\n}",
+      "new_overview": "{\n  \"collision_frame\": 38,\n  \"entry_side\": \"RIGHT\"\n}",
+      "old_prediction": {
+        "collision_frame": 47,
+        "entry_frame": 36,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "new_prediction": {
+        "collision_frame": 47,
+        "entry_frame": 4,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      }
+    },
+    {
+      "ID": "S2_003",
+      "same_frame_numbers": true,
+      "same_first_prompt": true,
+      "same_first_rgb": false,
+      "old_overview": "{\n  \"collision_frame\": 27,\n  \"entry_side\": \"LEFT\"\n}",
+      "new_overview": "{\n  \"collision_frame\": 27,\n  \"entry_side\": \"LEFT\"\n}",
+      "old_prediction": {
+        "collision_frame": 33,
+        "entry_frame": 23,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "new_prediction": {
+        "collision_frame": 33,
+        "entry_frame": 23,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      }
+    },
+    {
+      "ID": "S2_004",
+      "same_frame_numbers": true,
+      "same_first_prompt": true,
+      "same_first_rgb": false,
+      "old_overview": "{\n  \"collision_frame\": 44,\n  \"entry_side\": \"RIGHT\"\n}",
+      "new_overview": "{\n  \"collision_frame\": 44,\n  \"entry_side\": \"RIGHT\"\n}",
+      "old_prediction": {
+        "collision_frame": 42,
+        "entry_frame": 4,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "new_prediction": {
+        "collision_frame": 42,
+        "entry_frame": 4,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      }
+    },
+    {
+      "ID": "S2_005",
+      "same_frame_numbers": true,
+      "same_first_prompt": true,
+      "same_first_rgb": false,
+      "old_overview": "{\n  \"collision_frame\": 27,\n  \"entry_side\": \"RIGHT\"\n}",
+      "new_overview": "{\n  \"collision_frame\": 27,\n  \"entry_side\": \"RIGHT\"\n}",
+      "old_prediction": {
+        "collision_frame": 33,
+        "entry_frame": 23,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "new_prediction": {
+        "collision_frame": 33,
+        "entry_frame": 23,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      }
+    }
+  ]
+}

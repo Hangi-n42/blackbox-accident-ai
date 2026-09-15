@@ -1,0 +1,1376 @@
+{
+  "scope": "Acquisition and file integrity only; no viewing/annotation/model inference",
+  "source_selected_before_predictions": "First complete tar source, not random representative sample",
+  "additional_transfer_bytes": 50331648,
+  "content_range": "bytes 16777216-67108863/2147483648",
+  "url": "https://huggingface.co/datasets/JeffreyChou/MM-AU/resolve/540cb1277cb70e91a7022abe852decb3ee9adb0a/CAP-DATA_chunks/1-10/1-10.part_aa?probe=remaining48m",
+  "sha256": "7ed08f54e565531923ad4041a654b227bdb388e79404af54f36053e8391d08da",
+  "entire_prefix_bytes": 67108864,
+  "complete_source": true,
+  "next_source_seen": "CAP-DATA/1-10/8/005854/images/000125.jpg",
+  "files": [
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000125.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000125.jpg",
+      "bytes": 201919,
+      "sha256": "2970cd9a0cf0606ed9335bf367cdb827b05582f00b1f5db1e375b715adf7b409"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000221.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000221.jpg",
+      "bytes": 208180,
+      "sha256": "620f4eaa6b0df3695c168bf56558f76a8e88656a0498bbf198366d93b706717f"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000190.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000190.jpg",
+      "bytes": 209411,
+      "sha256": "68807b06279788469b4c642ef69c4865844ff10b2c75a35f7d0f4e13d8e0f387"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000185.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000185.jpg",
+      "bytes": 209121,
+      "sha256": "fafbf25a51d359e4615a6a1203251df660772e4e97904253db5acfb1d326378e"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000078.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000078.jpg",
+      "bytes": 194290,
+      "sha256": "658f717c0a6f98493cde4b35d6b26cbf9ce41de7b4b3dfd552c8c39d24a2e096"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000139.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000139.jpg",
+      "bytes": 215478,
+      "sha256": "48f2be4ad450b42b23569cc7a15252d507dc562c282d8f3018689b22c5f3daaf"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000126.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000126.jpg",
+      "bytes": 202721,
+      "sha256": "a440ed8247e281e2b32e093ef44945386ebb80560ca55b579a0a3a181d7084f2"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000069.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000069.jpg",
+      "bytes": 194140,
+      "sha256": "52b655739c10590b02df66bee80b79f49fe4b745aff5e89fc01002f74ed2ebbc"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000179.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000179.jpg",
+      "bytes": 210953,
+      "sha256": "55d1b4a086ff114665040c855775771b6aee1bbcd079bccd2d0f9833427728c5"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000113.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000113.jpg",
+      "bytes": 197694,
+      "sha256": "6647652f241dcc015c41c5a35a4caff71139e8c0ac90010e3a2b791dd38dff96"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000115.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000115.jpg",
+      "bytes": 199863,
+      "sha256": "e140bb82259f128a3d148e0ef757541d31550ebb8be168565796939d52546361"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000162.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000162.jpg",
+      "bytes": 206915,
+      "sha256": "3d8bd1558fe6eb210d4f7cae0da82ad066d7e3e0fd758e89cf58f36e4765930d"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000045.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000045.jpg",
+      "bytes": 185513,
+      "sha256": "c1e6807bb4d9ec13a4a46c197de6cee6e33e14e126aa36a72d30d2373f16763d"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000172.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000172.jpg",
+      "bytes": 205702,
+      "sha256": "7a3f2e1ee2e8d492dd32a48224b28e45fb7c85b98fe3658f114fe9fb3f32d593"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000081.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000081.jpg",
+      "bytes": 199189,
+      "sha256": "2c5e38c71b72149a7571d8c9a878123ef65d2a51098f1c41a419cf0a7f05550c"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000194.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000194.jpg",
+      "bytes": 201890,
+      "sha256": "06b8627f1dda7c95c6ff946af5a144bfdbb70ff09aa49defa93ed58d1a7faf1a"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000117.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000117.jpg",
+      "bytes": 202006,
+      "sha256": "bada5ab02cad8198d1b6a375d307e389edcc7fa4332b56f47d5b15f52567ba48"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000106.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000106.jpg",
+      "bytes": 204657,
+      "sha256": "9225e2ed7f5aed5aefb900961e0485d3afbb2a524740b923b6c5a58a692e543f"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000065.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000065.jpg",
+      "bytes": 187222,
+      "sha256": "b5e5a495832e87af829af8acc4f68865a9aea638dfb01c03ddff9632f37dd6d7"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000131.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000131.jpg",
+      "bytes": 214241,
+      "sha256": "ce4c937ef0383ed106a4f0079afa473cc24a8d3cbcb0e70aebe9ee2eba7e4119"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000064.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000064.jpg",
+      "bytes": 182310,
+      "sha256": "50b97b2e6e4cdcea021344723c1f9f1f31d0a3be41b087fb548da9ac6e77c974"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000168.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000168.jpg",
+      "bytes": 209346,
+      "sha256": "b203615b984e49f7c3a005e5291077a2b919d96de3b26eb475619d7eaf131551"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000018.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000018.jpg",
+      "bytes": 162977,
+      "sha256": "b28b795b1724b5f9ae59eaffd23649af2bc18e8a58757bbf39d7e8db3a90f037"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000182.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000182.jpg",
+      "bytes": 201963,
+      "sha256": "b1199abd07040c8106690cd7bc333357694b3094806f72eea7b5a5a829011b67"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000217.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000217.jpg",
+      "bytes": 179695,
+      "sha256": "5e93e474cc3fa50abee71f0c2981ecf9fbd7009696e35556946380d7df7d8070"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000088.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000088.jpg",
+      "bytes": 202834,
+      "sha256": "58ce0ca63d3ca7b09d256fd1c82f3b8cb950d803576064f99853aa614f796869"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000029.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000029.jpg",
+      "bytes": 173376,
+      "sha256": "95390deb33c07e0b5cd81f97b206a78a1ed7a8a83f0750d86fcb6cc944ae20a1"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000033.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000033.jpg",
+      "bytes": 177709,
+      "sha256": "d652a57536860b4c475268029a962bcd764a7d5c200d3f3d420edd7cbd1c2237"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000164.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000164.jpg",
+      "bytes": 210860,
+      "sha256": "dcde8442517f586816985572e3491d5c1558bd792d00da72acb7c5671ebdb2ab"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000050.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000050.jpg",
+      "bytes": 175447,
+      "sha256": "183f771105729c9bd40a5ff3329aa0063dbc51b889657aef19fdeb2beeb04843"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000104.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000104.jpg",
+      "bytes": 206676,
+      "sha256": "89418e2a8212c4571bd9bc1eb02e4100e5ad245dce6b8d1ce3455b0d7c875d5c"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000127.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000127.jpg",
+      "bytes": 202631,
+      "sha256": "7ab0ebe3383b8093f881989ea0b3309750663e2207f955dce9fcf24e501ec0a2"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000043.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000043.jpg",
+      "bytes": 182099,
+      "sha256": "0a16209550282744eacd95c20407cd0189cb10a0f463f2c4b3a2d24ddd1b704f"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000010.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000010.jpg",
+      "bytes": 161112,
+      "sha256": "64182735051cf05ed485ac3f4b12df392c59e540cd7d41364e57d1b3cc9fb3a3"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000063.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000063.jpg",
+      "bytes": 179603,
+      "sha256": "f54739d97a5dbcc1915f5d66e8800e2e485f0703de19b6f32e54328a471f1969"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000173.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000173.jpg",
+      "bytes": 205364,
+      "sha256": "8cfc7e955fba53b145cbfd8aa0ee280d3c0b664af861e3bc9e33c614abbc1b74"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000021.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000021.jpg",
+      "bytes": 168700,
+      "sha256": "2acece55a2d1847820330d424d5b692177702ccd3611b4412f2e4c0920966509"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000105.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000105.jpg",
+      "bytes": 203618,
+      "sha256": "fe7183c8d5a2cc4c709aa869b199096f7deca4dc0b87685d0200beaeb1caded0"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000166.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000166.jpg",
+      "bytes": 211888,
+      "sha256": "aaaf9890637bacc2ad3c021c2746bd2d9c9eb3b124cd999300de1915a6bf6cd1"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000161.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000161.jpg",
+      "bytes": 207826,
+      "sha256": "e8f3a7b5bdd9a23a89e1565fb1d45a4da33b6000853d3087b1ee4217c1915b4e"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000138.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000138.jpg",
+      "bytes": 215622,
+      "sha256": "cbcbffde7381e3e9d89ec6983b1c0e97bd7a357e0e7dd4ed88f6c7177d577d27"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000040.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000040.jpg",
+      "bytes": 177071,
+      "sha256": "48dcc3a4ac6561f017ef718dc72178516eff8b801dc8fc41e10805c074d323d5"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000006.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000006.jpg",
+      "bytes": 153849,
+      "sha256": "3fa77afae4362c508c6ba26f565a47ff8c898d6a0c8beb5f679a281ce00514ee"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000059.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000059.jpg",
+      "bytes": 188472,
+      "sha256": "ea4ce174754e32228d48621eb8ec33dd28aacb272b168b7e633a346eaaa7eb0a"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000215.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000215.jpg",
+      "bytes": 211202,
+      "sha256": "f1502ef867e981b6d77037ad68c44b0e70ec795e2711e1c72dcf3fe6617695e6"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000054.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000054.jpg",
+      "bytes": 187836,
+      "sha256": "58481b6f3c250584f54b6a562db57b407f01b5edaa3c7e8f6b8c978566a15a5b"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000095.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000095.jpg",
+      "bytes": 210809,
+      "sha256": "801996649f970758b9f977a50659490fc04afeef844ca8daf9c00163c427bb48"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000149.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000149.jpg",
+      "bytes": 208535,
+      "sha256": "474b4ef681ed96e8b4ea9580c3b12a2fcbfb7d43fb650e677c5b9c939b181da7"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000177.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000177.jpg",
+      "bytes": 209114,
+      "sha256": "59e68424beff4477c4951a805da8d8cec50efd2b668c77f72f639810c3daaab6"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000111.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000111.jpg",
+      "bytes": 197024,
+      "sha256": "2bb3934916b01f46b32e0010b5d7275d0cc04e62e83dc6c7fa4abf7f5d907852"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000036.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000036.jpg",
+      "bytes": 178139,
+      "sha256": "7ca5474d719d94596cc99f5c0f298933f180a531366cff988831a6a7dad51515"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000150.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000150.jpg",
+      "bytes": 206548,
+      "sha256": "187160d3a3719a28d4add84987ee913a678d52645344738009f4a5ac74f1d6c5"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000219.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000219.jpg",
+      "bytes": 204853,
+      "sha256": "bd5b5fb09a9c35e456db4aa8446aa7cda8e1887fc21852e3df28a4cfc0b52f0d"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000213.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000213.jpg",
+      "bytes": 210174,
+      "sha256": "04d5ca5669cc0cf2784bccd07cbfa9fdecce310a67e378a536ede96885dc4f99"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000158.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000158.jpg",
+      "bytes": 203340,
+      "sha256": "8a6c2e1f56da4fad0285f35bad5241b2523a0e055793670403cb2b4ceecb6518"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000154.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000154.jpg",
+      "bytes": 210790,
+      "sha256": "77704a1020a6e827a6ca9aaf25f843b692e22f13edecdc0918be2f0fbf8c06cc"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000052.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000052.jpg",
+      "bytes": 184833,
+      "sha256": "d86bc88fde9833a9eb1ae3c91e54eb8eb9fa5cf88eb436d8cb3fe9f2cc28ac49"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000202.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000202.jpg",
+      "bytes": 210446,
+      "sha256": "559c9ad8bfaac6863fa64bf46696391e7a2f5bc528a193b03bdf865c3b86b5e3"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000079.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000079.jpg",
+      "bytes": 195212,
+      "sha256": "4e3c8ef3f06cace0a5fdae2ae15f5f96c87811b8325c585912c94f97ff86328e"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000093.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000093.jpg",
+      "bytes": 210278,
+      "sha256": "cf86c40fb52cfcf5a931835fc850110162fa4b91bf1d169154a245dc257a3918"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000015.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000015.jpg",
+      "bytes": 156620,
+      "sha256": "909c074ec06464cf1e00957d1cd7ed80de3031d4051847fd5fc846f83cc5f994"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000097.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000097.jpg",
+      "bytes": 170150,
+      "sha256": "be07a15a74924244a42e5a6246f138f786d9e2ebe1637e14bec0c3e446dab072"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000208.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000208.jpg",
+      "bytes": 203895,
+      "sha256": "fe1116a6a27253707e2fb1243587c92b2965549fa3deb1e6bcb84301d23fba3b"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000209.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000209.jpg",
+      "bytes": 207790,
+      "sha256": "3306dffb26379985bfe5f953281c672dd6dd6e44d4de6d76bfe63c4581fbfb96"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000223.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000223.jpg",
+      "bytes": 203272,
+      "sha256": "5ad38c86f10465b681a38c6c403d54bae96b569ab0d1fa8f1b0776ce73160669"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000130.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000130.jpg",
+      "bytes": 210717,
+      "sha256": "631fe7d66b9e792929b4e44833451208ee664dbb86b6d2c0c163d6591f76035a"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000211.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000211.jpg",
+      "bytes": 207614,
+      "sha256": "682474daa4f7ab5272d30202b3004e99740bc04f6a2f77ff0d98a56ab9b6b4ad"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000156.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000156.jpg",
+      "bytes": 215374,
+      "sha256": "3194621e28d0090d70b020821e928a3ef0667821b3ccac04925812d8709721ff"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000167.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000167.jpg",
+      "bytes": 210218,
+      "sha256": "c9901facc397adf3667c7060e260406fa7c2dbcfde12c9a7fd7a0a8b9a57c0be"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000072.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000072.jpg",
+      "bytes": 196892,
+      "sha256": "63f4ce9b119aeb6cc373db762f61f149c27012fec987d27e493ee4eb57a152f1"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000086.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000086.jpg",
+      "bytes": 195909,
+      "sha256": "1069cdd23b3f764af3aacfdd396771e91411b837cbb78dfd8d9940f3c21d354e"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000193.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000193.jpg",
+      "bytes": 180226,
+      "sha256": "85ae1acf17536cded968c333568f18473aee85c95c76a2d4697ecf9af1dd48b2"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000089.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000089.jpg",
+      "bytes": 206606,
+      "sha256": "56048e874335119acf840a30f764194fe4410b14944be8bb25c4f7dfe87b38a2"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000216.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000216.jpg",
+      "bytes": 212097,
+      "sha256": "39b7a20caf751c8bdc13d8689b875a241072c7605d060f33f7d7b2364df0d9bb"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000005.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000005.jpg",
+      "bytes": 153376,
+      "sha256": "f6c2eb089f3bb0e01cc5ec8417b8ed983d6a411fc701e5716d0a88d659506a2c"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000134.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000134.jpg",
+      "bytes": 208265,
+      "sha256": "e5e12452d0155d414ba5dd1ed3e495be97406daeee94b2cd7b3d905d8bacf066"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000053.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000053.jpg",
+      "bytes": 185500,
+      "sha256": "2acbfbce868e236364b9d4b65f93024b53133fd6362c8d891999fc15cc861ec2"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000062.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000062.jpg",
+      "bytes": 176297,
+      "sha256": "b29d69c6e2712c77fb504bfe60fe7b8d607d2856fd96716a6c9474124010332a"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000049.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000049.jpg",
+      "bytes": 154262,
+      "sha256": "c3dd0d5cc4b48c26844972a13b1f2b0a8c0e3f0e2e533d5329046271544cab8f"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000147.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000147.jpg",
+      "bytes": 209013,
+      "sha256": "d99a1e0902d11b2b3a81f25e910dbadfb2f33e2dde95ef0e888c498520f9f34f"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000178.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000178.jpg",
+      "bytes": 208157,
+      "sha256": "8a4ff0b5de783470f7caa998c43b21931744f8008005faa9ffa12e18affdfe38"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000121.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000121.jpg",
+      "bytes": 170445,
+      "sha256": "6cd606b53ba9b66bff19d1e236c8034ec7f9dab3177ccb990b739255b0a14983"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000085.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000085.jpg",
+      "bytes": 165369,
+      "sha256": "6f71dcf8bad2fc5683058a0ce14716e4cf1ab4b087ea21e5fa7615128c38be87"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000026.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000026.jpg",
+      "bytes": 160521,
+      "sha256": "c1da3de7d3ffffbeff6097a7eeb995746912b767fa6fa4692fb20997d4a8e392"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000030.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000030.jpg",
+      "bytes": 175472,
+      "sha256": "05b524d28ad9f8e5c277d119b1654f006783df3edbc214235777fbab9663a1fe"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000165.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000165.jpg",
+      "bytes": 209836,
+      "sha256": "bd0f831daf15b6b2647e258a44364331eb886bb3fbb4c18b5e301748351bd9bf"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000039.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000039.jpg",
+      "bytes": 173928,
+      "sha256": "5467484a2f26957d13cfda8dbb893087fb202939992fb5a974ccad8bc520baca"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000044.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000044.jpg",
+      "bytes": 184995,
+      "sha256": "45db95f16e461cc9121e1db3562df63bf67d5e789adddc8ec9a6db19c8e30912"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000199.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000199.jpg",
+      "bytes": 211083,
+      "sha256": "e5c651b084c1e487c27faa1c4f8a855d459a02c2da1f6413dddd3ebd51535382"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000155.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000155.jpg",
+      "bytes": 212216,
+      "sha256": "d91f7b4a64e6c43bc3e55792abf7e9ff03e3d4683d6eeb42144ae10f4e3f1b87"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000067.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000067.jpg",
+      "bytes": 189793,
+      "sha256": "079767598b07a0076cf400ac1bef86bc4ca623f913766038989b5f74e2e04842"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000012.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000012.jpg",
+      "bytes": 162604,
+      "sha256": "acdbd14e7284280a59fea07871e1dd4cfd1dd60105e86d9788bf9e5c701b1227"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000102.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000102.jpg",
+      "bytes": 204861,
+      "sha256": "955e4c02757e08344153b31fb0e1052d7821e9e9c2752231d5608e8840ffdd40"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000035.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000035.jpg",
+      "bytes": 177361,
+      "sha256": "fbeb96d49e41f969628f4d6184a173f6518c2b3f22ce03dc601d0df3d8c729bb"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000212.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000212.jpg",
+      "bytes": 211058,
+      "sha256": "170575d62da5f04ad88ae7263e8f0feb71bbe368898020feddef95641a0d2836"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000092.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000092.jpg",
+      "bytes": 207804,
+      "sha256": "6a1a081ac6da21c9a16c9b88217a048ec59fcf9a30279fe494fd1422be2be3e7"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000197.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000197.jpg",
+      "bytes": 206263,
+      "sha256": "97e60e41ab06847e3ca247b95db33f14a06b3309f7908535d0f3b0404302ea2b"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000218.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000218.jpg",
+      "bytes": 200709,
+      "sha256": "7377241dfef9ac0a9ff06af44cbb89165a47974dcf30eee54f4262aaae43f03d"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000135.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000135.jpg",
+      "bytes": 211826,
+      "sha256": "4fc70617d8891e704e6547f49bf33bbe183a835fb9d5cbe09b8fda37b914ef11"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000136.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000136.jpg",
+      "bytes": 212219,
+      "sha256": "07455c8f205caebad570e2145e5f57ec9efedd6967d28f78984c7b3f415c0d67"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000181.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000181.jpg",
+      "bytes": 182686,
+      "sha256": "a5e957b63a455b95b4f9665af473f3994861115af657b69b1889babac2406970"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000083.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000083.jpg",
+      "bytes": 202838,
+      "sha256": "4cdb09adbf89d7e16d131630ed58786754f0d5faf825db2d896577a23e82b3d5"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000017.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000017.jpg",
+      "bytes": 161594,
+      "sha256": "40137bf5767c3a3859bb85e5277abe14e534bc1948d8e7f2e37e9d288c9cee92"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000087.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000087.jpg",
+      "bytes": 199526,
+      "sha256": "db51cc0027d4b625d13c7f51644899c1954ee7716d703d4c6c2fdc3d89f40da0"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000180.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000180.jpg",
+      "bytes": 210615,
+      "sha256": "d31ebfc0839ffeee39f5b81aabf4b727ebd4ee1be34c3284b351ab093c3f9b44"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000120.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000120.jpg",
+      "bytes": 204593,
+      "sha256": "b917aa192328cf65a555774351c5ce02dfaa9f45e0053c9d85bdcf1b8749861d"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000090.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000090.jpg",
+      "bytes": 204985,
+      "sha256": "244ade4304bf3e4232a5947e03a114d183d8f0667286dcb8a797c52c8a8bd9b4"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000091.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000091.jpg",
+      "bytes": 207604,
+      "sha256": "118d61f281005680ef92ace41a27e98961d8d41af990eb32ffc1747edeadc2cc"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000170.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000170.jpg",
+      "bytes": 202868,
+      "sha256": "1ba313ae80100e1cd8c7c3c35f0e6bd1cebd74a0d04642feba0d37a75c092a05"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000070.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000070.jpg",
+      "bytes": 194333,
+      "sha256": "3ea92d34b2bc3aadc8e8eb289a851da6d4760adbd87ff91faaee688e7e055265"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000160.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000160.jpg",
+      "bytes": 203909,
+      "sha256": "902bfab49c61aeb85dc88cbfd501f882881ad988dfe1da1d7ced1bf43c29bbc3"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000118.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000118.jpg",
+      "bytes": 199451,
+      "sha256": "2a822fbd1be1505836b0cf7eb35888bd69205275f810d4e29315c5600ee37572"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000075.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000075.jpg",
+      "bytes": 187228,
+      "sha256": "a19adf1100f6b197eb10102f9fbb48f7135d0e7c6023e36ea645330a12ccd98a"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000047.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000047.jpg",
+      "bytes": 189351,
+      "sha256": "704e0b7d2b26f878a60827963994f64cef740046306495653f322d7f3df2fc1b"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000027.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000027.jpg",
+      "bytes": 165456,
+      "sha256": "5d6598813881871e5db02d17df85fce22629de91a3c57c257c05c25f9de3af4f"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000171.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000171.jpg",
+      "bytes": 205992,
+      "sha256": "c7d439d2ac31c43ad0b80d1736760ac47eeb158699efe3ee4f4372645dc64169"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000076.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000076.jpg",
+      "bytes": 189293,
+      "sha256": "1d9973e220b704c035197dbd76760a6c64ff4c89d84da408606658f75e2d9b69"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000188.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000188.jpg",
+      "bytes": 209675,
+      "sha256": "64f313c732dd680e140216ce4ed8dfd5f67e4f9edf6c49eebf7af20af15dd8f5"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000077.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000077.jpg",
+      "bytes": 190964,
+      "sha256": "e479f59638ef57514d466e582c4b74eaef9f599d730f9a1c3cd52d18d5dd326e"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000187.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000187.jpg",
+      "bytes": 211112,
+      "sha256": "6a188697f98e331dbe8ea9a4b25acff7fa306f63b87c5549ea37fe9f7265c461"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000004.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000004.jpg",
+      "bytes": 152952,
+      "sha256": "3b149b26ec03e3c28948384885c48550d296ce8bd141ac14a7e4ed3f56de7fbf"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000207.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000207.jpg",
+      "bytes": 200922,
+      "sha256": "35eb75e6ef10630a3c74e0739ded18b2a37e9001667898afbe59e1580c1586a1"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000176.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000176.jpg",
+      "bytes": 207501,
+      "sha256": "fda44edec56250e7650ec6e5ab86beb8b464f7d7a668ae37874488ee0b1c16f7"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000028.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000028.jpg",
+      "bytes": 170563,
+      "sha256": "4db5ba65f11a37008021e19839e51c85dd9ef4fae37032532c7c3dfb0eb36442"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000151.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000151.jpg",
+      "bytes": 207551,
+      "sha256": "7d1a25a86233c028cc5a2300c62ad670e4a687ee9e7c6336f6d55f19d65ee488"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000014.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000014.jpg",
+      "bytes": 151968,
+      "sha256": "68e1f50025407e66ddf1e54fbc168d273e0249f26052b77ac318cbd44854499d"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000002.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000002.jpg",
+      "bytes": 139665,
+      "sha256": "dfbc9331c3022ed09f65d7a1d7f1a60662329091d7029598d5f1f7325955ce1b"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000001.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000001.jpg",
+      "bytes": 103007,
+      "sha256": "1167e69977ba0f1fcea462b573672322a5d4f5ad0d67446d3f67dab34a9c1920"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000008.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000008.jpg",
+      "bytes": 157531,
+      "sha256": "8c91a996ad0dcf2a4d0e8fe5e8fdd2338e47ceb6541942fe182b8155b2008b80"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000107.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000107.jpg",
+      "bytes": 204901,
+      "sha256": "ebbbe982bc7dea3a1a72d6128f80c5873df7f71969b31fc584f9ab1dd882a55f"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000007.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000007.jpg",
+      "bytes": 155636,
+      "sha256": "ae95723c4eb16f9fd327e31898cf4377ab718bece9ecd6d9d45b05a3441e0fd4"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000034.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000034.jpg",
+      "bytes": 177627,
+      "sha256": "fcf39791ec1df3f336632f13af5cab96c6fe403fb4ec7d7530a613639dbe6cd0"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000124.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000124.jpg",
+      "bytes": 203923,
+      "sha256": "3c1285481f9e3ff1c0d37066e46bc8ba8c8fbd5b71258e77363b1b4791fcefe7"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000116.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000116.jpg",
+      "bytes": 202682,
+      "sha256": "c451d5fbe3a6a5c5dfa6815b45d002db2de0acf7457f33f3f66a485b384530fe"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000204.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000204.jpg",
+      "bytes": 211200,
+      "sha256": "e7d0170fcf83b6146357520a2e9b840197719f5c8140afe3fc5937aeecca0d6a"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000146.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000146.jpg",
+      "bytes": 206884,
+      "sha256": "2d6c5397ce59f8c97c0cf1916ced026d0cef6acecdb072e9196877ae17c1108d"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000144.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000144.jpg",
+      "bytes": 218172,
+      "sha256": "dc076b73ce54f8202073054e0be77e044055ba8940370e10c2ca9ad614f2600a"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000051.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000051.jpg",
+      "bytes": 181711,
+      "sha256": "a31b0c46b60222720b71f25a686fcf63d08d6e12f6936e3d0f1ca80cb74d5e4e"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000133.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000133.jpg",
+      "bytes": 186564,
+      "sha256": "9f3cc7b7984ad5455e66a8a5eb8902d4983c3f1b5b5117952f5e3ddb82fe34d9"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000163.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000163.jpg",
+      "bytes": 206904,
+      "sha256": "073faac9d7585f91a2d494eeca96bef41ae5ff69d26b66ce6cba91f0b7ee5708"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000025.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000025.jpg",
+      "bytes": 140627,
+      "sha256": "e5c0fde463837840dadadc159e47d1a3ce58c5cb02b506a02ad019c1db6f55d7"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000195.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000195.jpg",
+      "bytes": 204155,
+      "sha256": "b746508c7587ac20b34a8333c1d5624c4b038b813ef1a303283a7ea9b6048c13"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000011.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000011.jpg",
+      "bytes": 162170,
+      "sha256": "9787bc80b056e0b26db35367c6a2d729ac3347ac010adeb227c5667f69fff7de"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000174.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000174.jpg",
+      "bytes": 209764,
+      "sha256": "64e099ab3a397ec3ec89d3e5fb3474555d9ebf65a83df7d7de28a7c6cff2670e"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000114.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000114.jpg",
+      "bytes": 199518,
+      "sha256": "4a7ad40192ae150da78277d5e73d54ef8adb8fff00d66bf55a388140d862208f"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000220.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000220.jpg",
+      "bytes": 206005,
+      "sha256": "9f48fb5221a5a8f28be04a22b41060919e3e51e911700f3574087f30d5f02d96"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000016.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000016.jpg",
+      "bytes": 158916,
+      "sha256": "beb7fa3e446962e10b4e963cfd54b9d30883b00972b7850d754de5065ffa582f"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000132.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000132.jpg",
+      "bytes": 215428,
+      "sha256": "ea65af4f67367e00ddfbfb4bce4c32448621c028d266aebd740d05e116ea2866"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000094.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000094.jpg",
+      "bytes": 210836,
+      "sha256": "e8b87e72bc8d606dec4fb0c8958e36386c94ba026a27d23766d57b0e947b5094"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000148.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000148.jpg",
+      "bytes": 204025,
+      "sha256": "adf0fc92cf5e4561ca0b0a4b971998b03c4d3ae1c1b394bb8b6f3c76dfb84890"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000042.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000042.jpg",
+      "bytes": 181934,
+      "sha256": "d79eea950a0b2d1cd76c9fbd0828d9e8f57ae3d89fc9541a2e437b1dc0050492"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000098.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000098.jpg",
+      "bytes": 197931,
+      "sha256": "326d995ec28e03d5e9f1c84fb1a97aafeae4804b82a04b03f2f605dbf82eba0d"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000123.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000123.jpg",
+      "bytes": 200337,
+      "sha256": "6fdd8b11334abe0a22506949313b61af9488f58f84429dc6afd89a1b9dce98ab"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000109.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000109.jpg",
+      "bytes": 164492,
+      "sha256": "72b2162d124c7c52f1d7c894b41f56a09bd50a04d0ec270c4ccecc1961a80807"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000119.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000119.jpg",
+      "bytes": 204646,
+      "sha256": "b535f0fb6921f39d7b6ef6cd98118d5c465ea8804be574f962ed3b414ca82f88"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000023.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000023.jpg",
+      "bytes": 172365,
+      "sha256": "4a63c709ddae169c96ab9a429c972febb6648862f4b4a074acdfe4c3197b824b"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000068.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000068.jpg",
+      "bytes": 191364,
+      "sha256": "8b622a44e258fa4f535b919eb11db9f7b52150b859d413113517a521c8de3331"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000019.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000019.jpg",
+      "bytes": 165134,
+      "sha256": "d3b631b32db534305ac401abf7b64c221c45f7353fbec26fea65112b1c9edc9a"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000066.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000066.jpg",
+      "bytes": 188403,
+      "sha256": "9ee6bd84fe0614618963cddbfa1e11ceb852b62450466ca604778921db2c9c73"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000214.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000214.jpg",
+      "bytes": 212289,
+      "sha256": "db898271d533b49fd5252826544976c9830d612ed7405815650a0c9faa61425f"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000071.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000071.jpg",
+      "bytes": 196615,
+      "sha256": "506a4e9a8cc917cc6dced5e7c9926c7a9d3e4a557f3bc509e1c3f17c6b660aca"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000013.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000013.jpg",
+      "bytes": 133467,
+      "sha256": "9983e4d3177d5ce14658ee3d45487901ea1f365ed40b22825a84ac757ca2d461"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000055.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000055.jpg",
+      "bytes": 188355,
+      "sha256": "9b75f182a5acdb3eb681d17a568652940326339a0b3fa75fe0cae74c25ecf7fa"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000152.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000152.jpg",
+      "bytes": 207796,
+      "sha256": "c63348283e267e45f528a8a986f0a0ca90368ea5f137dd2b66c525edfb69d0c6"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000080.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000080.jpg",
+      "bytes": 198761,
+      "sha256": "8b1400da392fbbcd25b5b578edcc06e3d2ff5e5356b112fb0d69a2fca4e3ed0c"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000153.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000153.jpg",
+      "bytes": 210745,
+      "sha256": "a2d63a8e26174106f43c3af78215e737bcc45949853003167af85ed07d6125ad"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000056.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000056.jpg",
+      "bytes": 189711,
+      "sha256": "31d7f9e9b6132c4a81a5611ed40ec63872943fc4c0b894cb0e2788a98b9457d1"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000175.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000175.jpg",
+      "bytes": 208295,
+      "sha256": "37bacdaeaf8f9331c9afb214094ae655c3d7b5c08a353ed4cb16f350b7b8db4e"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000096.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000096.jpg",
+      "bytes": 209626,
+      "sha256": "bf5735db355cd1b4efc538dd3c526b27407896878814ad83de54d1251dfdd99f"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000189.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000189.jpg",
+      "bytes": 210861,
+      "sha256": "a4155f51e9db3044ba73e670ddda951eaedd81a6a2eaf90642cfa27ae8749fcf"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000046.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000046.jpg",
+      "bytes": 187653,
+      "sha256": "e59ce9b1e0621656241a447b8a6dfb54e99e83b7f08f54178be7a121d811fb67"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000205.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000205.jpg",
+      "bytes": 178214,
+      "sha256": "cc8dbddc5382408dfc00ea6396757711b6e4998440ff25e8b2339bb637062466"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000060.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000060.jpg",
+      "bytes": 188600,
+      "sha256": "26d90eb96ebede4eaf8b1a48e6e609c0369f194dafdffdf20c0e3546ebe4e0bb"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000103.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000103.jpg",
+      "bytes": 206632,
+      "sha256": "b72f17b6a4f6a251d1da2b485c5b900e2ad81ece3dd90a5ec5c2621b49ea010a"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000122.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000122.jpg",
+      "bytes": 195753,
+      "sha256": "c641ced938344b8e732491e48c624cc9b00279cb9a6191a5aa70a0552ddf86b6"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000022.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000022.jpg",
+      "bytes": 170033,
+      "sha256": "035fa37f2c9fad2fd7422cc38fc8c783aa2b450aed1ca1555569dc47d0d09493"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000082.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000082.jpg",
+      "bytes": 201074,
+      "sha256": "b48a29675e09e455d1903435ecafbfea05d59528e3880defb44b1b6ed5b9e94a"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000058.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000058.jpg",
+      "bytes": 188381,
+      "sha256": "eea46765c865bee3b4553b177c9dc91b906ade60b8139cdfd3c2b4228dd677f1"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000099.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000099.jpg",
+      "bytes": 202786,
+      "sha256": "441428c97579226a5953b87879076f8d0ca52ae46505fb9c767d40292e69bbe9"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000141.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000141.jpg",
+      "bytes": 216935,
+      "sha256": "0f1329d5653ef2c9a8eee5f77c2daa24320c33737f2116b8785522a917518934"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000184.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000184.jpg",
+      "bytes": 206824,
+      "sha256": "79b04b9f2664d86942b3aa934825fd373955437cc52c78739464f508a5aaab37"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000048.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000048.jpg",
+      "bytes": 190084,
+      "sha256": "633066b5620bd3231d661d17bc389cacd0ad7801035c8182c9140abeada93404"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000003.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000003.jpg",
+      "bytes": 151101,
+      "sha256": "565b5b40b7babdb1f54f55d5abce96851b15fc764c261eb27a4074163f03457b"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000112.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000112.jpg",
+      "bytes": 197990,
+      "sha256": "e23740c2f7ce91059b678a99fbf9e1e982aeeacf0efccee099d9a30f4b28d350"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000108.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000108.jpg",
+      "bytes": 207093,
+      "sha256": "cb8fa1d3f51225d049d8246b2fd3d01863d86c5471a61e8552d596465f551733"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000128.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000128.jpg",
+      "bytes": 204611,
+      "sha256": "481b748d7513b80f70713c38b1c4cf050f49164f833c3ed58338c404b40162b6"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000222.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000222.jpg",
+      "bytes": 207528,
+      "sha256": "8c3c67a30a4c11e4a6c28004d6c601b1cbcc1d3b43b21c9dd5e9c03a5a242f38"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000100.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000100.jpg",
+      "bytes": 202190,
+      "sha256": "9e8c2a8de3b0ac6814b1efd02ca54f051d23ee6bc7cdc1ce2ca60de94bb57d08"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000201.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000201.jpg",
+      "bytes": 208655,
+      "sha256": "375d71741410156b4186d2263b97205c6edf46991b7da608a7a2c098efed1590"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000143.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000143.jpg",
+      "bytes": 215741,
+      "sha256": "5706b7981086be03bdb8af27883730125031f734ac8f6ac291d515fe10829657"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000041.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000041.jpg",
+      "bytes": 180280,
+      "sha256": "7d1431aa6f86b989ff350ef5551c2db04cb0ebed792cc60dbfb8ae3f8cadee9a"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000101.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000101.jpg",
+      "bytes": 203288,
+      "sha256": "2f90d1df70350279cbf0be00a6bc4c9f7a1bf8098a9e61ead04726b79913a910"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000038.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000038.jpg",
+      "bytes": 167388,
+      "sha256": "eb60ce11844415f5cf6b4fdb7e2286b76b2767e899fa35a312b9236495772f0e"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000159.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000159.jpg",
+      "bytes": 203800,
+      "sha256": "aebc5713d4fae3ec056f52d15235fe43e9315787484319458a5d6eb974e97b2e"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000210.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000210.jpg",
+      "bytes": 206394,
+      "sha256": "14d3ff8e6028e26824c3364442abc32cacb01f2f4e09d653dfb18a76c6b67ce0"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000186.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000186.jpg",
+      "bytes": 208687,
+      "sha256": "ca264a99314335877071cf59aedefea7a10133a1aa2c45e6910760954649e6f6"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000200.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000200.jpg",
+      "bytes": 211799,
+      "sha256": "2872788291a86c5b5659a624db7edaaaa9f24bdc1e32c373f14764ce87ca79de"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000024.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000024.jpg",
+      "bytes": 173640,
+      "sha256": "2dd12e0b7e022a62f3737f064cd604990354c2d21f371340af3420363e6e6db2"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000140.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000140.jpg",
+      "bytes": 218431,
+      "sha256": "0b5092eb3a7d9f84f3885ebf35234abdc52ad71d74a14952cc73fe46155bb2f6"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000192.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000192.jpg",
+      "bytes": 210077,
+      "sha256": "83155760d332149ed062cf32a97a350983472fd3d8b687c687f741304a6c2043"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000073.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000073.jpg",
+      "bytes": 160090,
+      "sha256": "bb4be50c47b151a45f9137d0e9cf4a52bb5090de8cbd348a8a31f85d199166fb"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000057.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000057.jpg",
+      "bytes": 187984,
+      "sha256": "8c444f584f239118c68c850250e26b0e0457b4feda2b7d9e03c126f0348c2303"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000031.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000031.jpg",
+      "bytes": 176154,
+      "sha256": "679780da96f03e309d62aa04a88896d5abeec899211e62713a6b4fce6108ec18"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000169.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000169.jpg",
+      "bytes": 185770,
+      "sha256": "95c1aebb1d8d8b32088aef4bd78dda1b9b64ccd65a5e22f9d265baba346c50a5"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000032.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000032.jpg",
+      "bytes": 176777,
+      "sha256": "99722101102eb5c68e304899f46089f7b138e006e03cb0248c1d0ff3d372fd17"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000183.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000183.jpg",
+      "bytes": 205857,
+      "sha256": "b985729eb04f1a8b4e9188f57edb92fc3bb360e852425e40b25b4d6f21327a55"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000084.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000084.jpg",
+      "bytes": 204373,
+      "sha256": "89a73c968cca922816b6f67a0a2d8fc464099f0723a50f074d0b6ad89b88e312"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000129.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000129.jpg",
+      "bytes": 209324,
+      "sha256": "bb9bef1d2301a96893e92b43858a0fd5d808c0399c662db03a40c792e7a9909d"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000203.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000203.jpg",
+      "bytes": 208369,
+      "sha256": "b3c5de357d0fc7d5c4654318a44952139c15ff3b622728dcfbd79d4f59eb50ee"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000198.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000198.jpg",
+      "bytes": 209807,
+      "sha256": "51ab64f75a5ec794968eff519f1e7e3916105e1de3ba5f4275490dfaa25a930f"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000142.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000142.jpg",
+      "bytes": 217464,
+      "sha256": "25e2258ac9fb49669d1903c27676bb75a78097ebf592dca57ce2652968fc53ce"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000074.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000074.jpg",
+      "bytes": 184800,
+      "sha256": "334a0400cc2014686bfead15236342f57675be2af76be4be88563f064b108db0"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000110.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000110.jpg",
+      "bytes": 192896,
+      "sha256": "d15db052bc69940f6b403e7af13ba2e05be43d3a5877b62c878c2c27c2a96a68"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000196.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000196.jpg",
+      "bytes": 206943,
+      "sha256": "1f2618483f143c3a882dab82b9ede33f75ceab38b131b9346364a6ce46d6d3c6"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000206.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000206.jpg",
+      "bytes": 200202,
+      "sha256": "d968e061ebd63dbce867e23c86a991d562fdcaabe87beb295534f29d859e1939"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000009.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000009.jpg",
+      "bytes": 160050,
+      "sha256": "8347addb4b0e2b41c672f6bda144e7cb051429e0301f9c31f1abe2ab6c16a94c"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000037.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000037.jpg",
+      "bytes": 147270,
+      "sha256": "f947253b6b7bce87645813f74bd25710a11e6753b0b3f520ff85299e937d27ef"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000157.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000157.jpg",
+      "bytes": 180028,
+      "sha256": "79cacff23a11595cd9e595576f0929a649369a027d6be10a6cf621cf24b20da7"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000020.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000020.jpg",
+      "bytes": 166493,
+      "sha256": "f9066a06e881891b22cca1e4da1598872d16b618d30e3d3091ac3cb52c11e914"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000191.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000191.jpg",
+      "bytes": 211907,
+      "sha256": "038296353f7d0b6986762c5722a05a78172dfc86e82e7677c5048b08405228f8"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000145.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000145.jpg",
+      "bytes": 184698,
+      "sha256": "13f4f42b589fdebf2c14b5d41b58ff64d96a8c8026eec78b8251ea988a208ded"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000137.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000137.jpg",
+      "bytes": 216703,
+      "sha256": "b183defb185c6942f312203df1a71023333b9037853aa3a80e62c519d5fd0c95"
+    },
+    {
+      "path": "research/v6_stage2/mmau_probe/cap_8_009509/images/000061.jpg",
+      "archive_name": "CAP-DATA/1-10/8/009509/images/000061.jpg",
+      "bytes": 149167,
+      "sha256": "7393ca278a81c1b7fee48589e3ba11dfcd756ecdc06b0eb1b170d1e872459127"
+    }
+  ],
+  "images": 223,
+  "frame_min": 1,
+  "frame_max": 223,
+  "official_annotation": {
+    "video_hashcode": "9ca724b1",
+    "video_name": "8_9509",
+    "id": "8281",
+    "type": "8",
+    "weather": "1",
+    "light": "1",
+    "scenes": "4",
+    "linear": "4",
+    "accident occurred": "1",
+    "abnormal_start_frame": "20",
+    "abnormal_end_frame": "200",
+    "accident_frame": "90",
+    "total_frames": "223",
+    "t_ai": "20",
+    "t_co": "90",
+    "t_ae": "200",
+    "texts": "a motorbike turns left across path at non-signalized junctions",
+    "causes": "the truck does not notice the coming vehicles when turning or changling lanes",
+    "measures": "If the trucks turn on the turn signal in advance when turning or turning, they should pay attention to the speed limit, and give way to the straightly moving vehicles."
+  },
+  "official_seconds_mapping_available": false
+}

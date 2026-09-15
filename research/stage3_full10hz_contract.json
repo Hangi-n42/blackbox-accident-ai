@@ -1,0 +1,22 @@
+{
+  "expected_decoded_counts": {
+    "OPEN_001": 600,
+    "OPEN_002": 601,
+    "OPEN_003": 599,
+    "OPEN_004": 599,
+    "OPEN_005": 599
+  },
+  "actual_counts": {
+    "OPEN_001": 600,
+    "OPEN_002": 601,
+    "OPEN_003": 599,
+    "OPEN_004": 599,
+    "OPEN_005": 599
+  },
+  "all_decoded_frames_returned": true,
+  "all_indices_contiguous": true,
+  "allowed_labels": true,
+  "elapsed_seconds": 50.75315380000393,
+  "model_sha256": "c52ecd15cf68856f2a7b0b37b120c7a961b3bd8889a33af4ec47f8b9719bb3b3",
+  "scope": "Actual predict_stage3 on public videos converted to 10Hz; these are training-fit predictions, not OOF accuracy."
+}

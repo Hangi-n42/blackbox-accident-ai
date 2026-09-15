@@ -1,0 +1,23 @@
+{
+  "prompt": "These original dashcam frames show candidate collision regions. Identify the OTHER vehicle that actually contacts the camera car, not a nearby uninvolved vehicle. Choose one shown frame where that vehicle is visible. Return JSON status IDENTIFIED, reference_frame, bbox [left,top,right,bottom] normalized to that full frame (0..1). If identity is unclear return status UNCERTAIN. Shown original frame numbers: [0, 1, 40, 42].",
+  "max_new_tokens": 64,
+  "input_images": [
+    {
+      "size": [
+        1280,
+        928
+      ],
+      "bounded_size": [
+        1280,
+        928
+      ],
+      "rgb_sha256": "e890004e49560499e0811a0bcfa133e15cd80c0865b08b805be0d30206a0ea28"
+    }
+  ],
+  "status": "complete",
+  "bounded_pixel_total": 1187840,
+  "raw_output": "{\n  \"status\": \"UNCERTAIN\"\n}",
+  "seconds": 2.111148800002411,
+  "peak_allocated_bytes": 3904728576,
+  "peak_reserved_bytes": 5647630336
+}

@@ -1,0 +1,53 @@
+{
+  "call": 4,
+  "name": "entry_fine",
+  "prompt": "Image 1 is the original full clip's first frame, numbered 0. Image 2 is a local chronological contact sheet, ordered left to right then top to bottom. Its first tile may not be the start of the clip. Find when the SAME vehicle that collides with the camera car first enters the camera car's lane. Do not substitute a different vehicle merely because it is ahead in Image 1. Entry is that vehicle's first wheel touching the lane boundary; at intersections extend the camera car's lane forward. If that same vehicle is already inside this lane in Image 1, use status ALREADY_IN_LANE_AT_START and entry_frame 0. Use status OBSERVED only when the actual lane entry is visible in Image 2. Otherwise use BEFORE_WINDOW or AFTER_WINDOW for entry outside the local window; use UNCERTAIN if the collision vehicle or its lane entry cannot be identified. Lane entry candidates: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]. Return JSON with status and entry_frame. OBSERVED requires a shown local integer frame; ALREADY_IN_LANE_AT_START requires the original first frame number; other statuses use null.",
+  "offered_frames": {
+    "Lane entry candidates": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "input_images": [
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "raw_rgb_sha256": "5fa7b92065f3b30ade7917e9e87bd72e8d9c2a141fb396073e0325f6fd706f3d"
+    },
+    {
+      "size": [
+        1536,
+        768
+      ],
+      "raw_rgb_sha256": "912367faa45a56e1ae839e87e128002fa45d03c05310ceb6303daf2eef01628a"
+    }
+  ],
+  "bounded_image_sizes": [
+    [
+      1024,
+      576
+    ],
+    [
+      1088,
+      544
+    ]
+  ],
+  "bounded_pixel_total": 1181696,
+  "pixel_budget": 1200000,
+  "max_new_tokens": 64,
+  "status": "complete",
+  "raw_output": "{\n  \"status\": \"BEFORE_WINDOW\",\n  \"entry_frame\": null\n}",
+  "seconds": 2.8781369000207633,
+  "gpu_peak_allocated_bytes": 4059778560,
+  "gpu_peak_reserved_bytes": 5291114496
+}

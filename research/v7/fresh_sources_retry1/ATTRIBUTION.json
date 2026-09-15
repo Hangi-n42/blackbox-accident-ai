@@ -1,0 +1,17 @@
+{
+  "repository": "nexar-ai/nexar_collision_prediction",
+  "revision": "aa97deda5a59f00bb7187739053b7c72e14374df",
+  "files": {
+    "LICENSE": {
+      "copied_from": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\LICENSE",
+      "sha256": "9c62949a76b4a3039023a93a31aac964847cbcfcac8376daaa541cc620788824",
+      "same_revision_prior_source": true
+    },
+    "README.md": {
+      "copied_from": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\README.md",
+      "sha256": "edad8be48ad54b390de2ae116f0626ef3d9e7d3ae8eda7831b9d5e0f40bbf90b",
+      "same_revision_prior_source": true
+    }
+  },
+  "note": "Original source README/LICENSE copied byte-for-byte from the previously acquired same revision. The positive directory is not contact ground truth."
+}

@@ -1,0 +1,138 @@
+{
+  "gate_passed": false,
+  "checks": {
+    "all_nine_complete": true,
+    "offline_unchanged_bindings": true,
+    "other_three_cached_fields_identical": true,
+    "contact_accuracy_strictly_increases": false,
+    "at_least_one_gained": true,
+    "no_correct_lost": false,
+    "wall_budget": true
+  },
+  "report_sha256": "8ca554c2a63438700ee85b9b680e4266cf835ad817a4498fadf248ddf0f9b432",
+  "evaluation_sha256": "1507eb1300349fb53b62b31ac765c20f27ea8c644aeb9bcac8341dfb3c92c403",
+  "source_role": "exposed_development",
+  "official_accuracy": null,
+  "original_internal_correct": 0,
+  "offered_coverage_count": 5,
+  "fallback_count": 0,
+  "fallback_correct_count": 0,
+  "direct_offered_correct_count": 1,
+  "videos": [
+    {
+      "ID": "00000",
+      "offered_in_tolerance": [
+        583,
+        584,
+        585,
+        586,
+        587
+      ],
+      "original_internal_error_seconds": 17.612456747404842,
+      "baseline_error_seconds": 0.0,
+      "candidate_error_seconds": 17.612456747404842,
+      "accepted_offered_frame": true,
+      "fallback": false,
+      "candidate_correct": false
+    },
+    {
+      "ID": "00003",
+      "offered_in_tolerance": [],
+      "original_internal_error_seconds": 0.6333333333333364,
+      "baseline_error_seconds": 0.03333333333333499,
+      "candidate_error_seconds": 7.300000000000001,
+      "accepted_offered_frame": true,
+      "fallback": false,
+      "candidate_correct": false
+    },
+    {
+      "ID": "00004",
+      "offered_in_tolerance": [
+        588
+      ],
+      "original_internal_error_seconds": 16.3,
+      "baseline_error_seconds": 0.3999999999999986,
+      "candidate_error_seconds": 20.73333333333333,
+      "accepted_offered_frame": true,
+      "fallback": false,
+      "candidate_correct": false
+    },
+    {
+      "ID": "00005",
+      "offered_in_tolerance": [
+        644,
+        645,
+        646,
+        647,
+        648
+      ],
+      "original_internal_error_seconds": 12.385620915032682,
+      "baseline_error_seconds": -0.4575163398692794,
+      "candidate_error_seconds": 19.052287581699346,
+      "accepted_offered_frame": true,
+      "fallback": false,
+      "candidate_correct": false
+    },
+    {
+      "ID": "00006",
+      "offered_in_tolerance": [],
+      "original_internal_error_seconds": 20.63333333333333,
+      "baseline_error_seconds": -0.03333333333333499,
+      "candidate_error_seconds": 20.63333333333333,
+      "accepted_offered_frame": true,
+      "fallback": false,
+      "candidate_correct": false
+    },
+    {
+      "ID": "00007",
+      "offered_in_tolerance": [
+        627,
+        628,
+        629,
+        630,
+        631
+      ],
+      "original_internal_error_seconds": -7.433333333333332,
+      "baseline_error_seconds": -9.833333333333332,
+      "candidate_error_seconds": 0.10000000000000142,
+      "accepted_offered_frame": true,
+      "fallback": false,
+      "candidate_correct": true
+    },
+    {
+      "ID": "00008",
+      "offered_in_tolerance": [],
+      "original_internal_error_seconds": 14.0,
+      "baseline_error_seconds": 0.23333333333333428,
+      "candidate_error_seconds": 14.0,
+      "accepted_offered_frame": true,
+      "fallback": false,
+      "candidate_correct": false
+    },
+    {
+      "ID": "00010",
+      "offered_in_tolerance": [],
+      "original_internal_error_seconds": -0.5666666666666664,
+      "baseline_error_seconds": -21.2,
+      "candidate_error_seconds": -0.6000000000000014,
+      "accepted_offered_frame": true,
+      "fallback": false,
+      "candidate_correct": false
+    },
+    {
+      "ID": "00013",
+      "offered_in_tolerance": [
+        666
+      ],
+      "original_internal_error_seconds": -5.199999999999999,
+      "baseline_error_seconds": -1.3999999999999986,
+      "candidate_error_seconds": -5.199999999999999,
+      "accepted_offered_frame": true,
+      "fallback": false,
+      "candidate_correct": false
+    }
+  ],
+  "adopted": false,
+  "submission_approved": false,
+  "decision": "Failed frozen gate: stop this native-video hypothesis without tuning or packaging"
+}

@@ -1,0 +1,24 @@
+{
+  "evaluation_unit": "one ordered distributed-JPEG subset per source video; not decoded-video evaluation",
+  "selection_plan_sha256": "2d4ed73347882ed4715b3aedb52aa911bd560d0b1b1e7483599120c5aac05d6b",
+  "artifact_sha256": {
+    "model\\stage1\\config.json": "10e1c0d0c9cc0fa69cfa829db7f1454b2ce63c365dde02a847120f29165d8a8a",
+    "model\\stage1\\forensic_frequency_augmented.json": "46ccafe0477b30889d572524fe2f0f3856dd1dead6cd1b9f7aa54118870f854b",
+    "model\\stage1\\tpo\\merged_visual.pt": "2935322b6984ba7c3f314607ae8fdf1145d2d3d7671ede13b4b324659a5c51a9",
+    "solution\\stage1.py": "f9def79197fdfc949cc01ec373b7a019f11d7c276e81fedb2015c2bc6f24eeb9",
+    "solution\\stage1_tpo_merged.py": "e1ddcbd9956b2c3e2d9d0edee55d2162d3d164b16c6423f8968c176526ff5011"
+  },
+  "configuration": {
+    "mode": "tpo_forensic_ensemble",
+    "forensic_artifact": "forensic_frequency_augmented.json",
+    "forensic_weight": 0.5,
+    "threshold": 0.5,
+    "validation_scope": "Candidate chosen from public synthetic source-group robustness diagnostics; actual dashcam recapture generalization unverified."
+  },
+  "thresholds": {
+    "tpo": 0.5,
+    "forensic": 0.5,
+    "blend": 0.5
+  },
+  "training_or_tuning": false
+}

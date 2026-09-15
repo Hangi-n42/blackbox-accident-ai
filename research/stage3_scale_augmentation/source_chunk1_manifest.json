@@ -1,0 +1,170 @@
+[
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57",
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10",
+    "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-03-57\\10",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+    "members": [
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10/global_pose/frame_times",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10/processed_log/CAN/speed/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10/processed_log/CAN/speed/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10/processed_log/CAN/steering_angle/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10/processed_log/CAN/steering_angle/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10/video.hevc"
+    ]
+  },
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48",
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10",
+    "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-50-48\\10",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+    "members": [
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/global_pose/frame_times",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/video.hevc",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/processed_log/CAN/speed/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/processed_log/CAN/speed/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/processed_log/CAN/steering_angle/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/processed_log/CAN/steering_angle/value"
+    ]
+  },
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20",
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3",
+    "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--11-17-20\\3",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+    "members": [
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/global_pose/frame_times",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/processed_log/CAN/speed/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/processed_log/CAN/speed/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/processed_log/CAN/steering_angle/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/processed_log/CAN/steering_angle/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/video.hevc"
+    ]
+  },
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42",
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27",
+    "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--12-02-42\\27",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+    "members": [
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/global_pose/frame_times",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/processed_log/CAN/speed/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/processed_log/CAN/speed/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/processed_log/CAN/steering_angle/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/processed_log/CAN/steering_angle/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/video.hevc"
+    ]
+  },
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17",
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4",
+    "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--16-37-17\\4",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+    "members": [
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/video.hevc",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/processed_log/CAN/speed/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/processed_log/CAN/speed/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/processed_log/CAN/steering_angle/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/processed_log/CAN/steering_angle/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/global_pose/frame_times"
+    ]
+  },
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07",
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14",
+    "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-03-07\\14",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+    "members": [
+      "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/global_pose/frame_times",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/processed_log/CAN/speed/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/processed_log/CAN/speed/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/processed_log/CAN/steering_angle/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/processed_log/CAN/steering_angle/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/video.hevc"
+    ]
+  },
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30",
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10",
+    "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-44-30\\10",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+    "members": [
+      "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/global_pose/frame_times",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/video.hevc",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/processed_log/CAN/steering_angle/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/processed_log/CAN/steering_angle/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/processed_log/CAN/speed/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/processed_log/CAN/speed/value"
+    ]
+  },
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28",
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12",
+    "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-31--20-50-28\\12",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+    "members": [
+      "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/video.hevc",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/global_pose/frame_times",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/processed_log/CAN/speed/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/processed_log/CAN/speed/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/processed_log/CAN/steering_angle/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/processed_log/CAN/steering_angle/value"
+    ]
+  },
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49",
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10",
+    "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-01--21-13-49\\10",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+    "members": [
+      "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/processed_log/CAN/speed/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/processed_log/CAN/speed/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/processed_log/CAN/steering_angle/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/processed_log/CAN/steering_angle/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/video.hevc",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/global_pose/frame_times"
+    ]
+  },
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47",
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29",
+    "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--08-34-47\\29",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+    "members": [
+      "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/global_pose/frame_times",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/processed_log/CAN/speed/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/processed_log/CAN/speed/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/processed_log/CAN/steering_angle/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/processed_log/CAN/steering_angle/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/video.hevc"
+    ]
+  },
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38",
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10",
+    "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--16-41-38\\10",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+    "members": [
+      "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/global_pose/frame_times",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/processed_log/CAN/speed/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/processed_log/CAN/speed/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/processed_log/CAN/steering_angle/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/processed_log/CAN/steering_angle/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/video.hevc"
+    ]
+  },
+  {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16",
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10",
+    "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-03--10-35-16\\10",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+    "members": [
+      "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/global_pose/frame_times",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/processed_log/CAN/speed/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/processed_log/CAN/speed/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/processed_log/CAN/steering_angle/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/processed_log/CAN/steering_angle/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/video.hevc"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "frozen_at": "2026-09-12T17:36:30.964757+00:00",
+  "status": "before_new_A_B_results",
+  "protected_sha256": {
+    "solution/stage2.py": "2323653c4271ec09e2bf1761f6938d5cec1f76bbe5a01df96ce7aa22b183dc1a",
+    "solution/stage2_v2.py": "89ae0bc640670d7ed76103ce7c829d405ad27cc25368c74d153d3b96962b8442",
+    "solution/stage2_nf4.py": "91e664e42d87e1062614bbe3bc28175f22b000d7938a9b5329e7f887871d0341",
+    "solution/stage2_motion_collision.py": "091d1b4b53353cf08bc5431fb658d1c7fcc45604a4288546f3aac0fd6a207e2e",
+    "solution/stage2_entry_refine.py": "d31bcebe7885828bf58cf51b3cb70cc4a9301c8586032fd3feac3c689dfad475",
+    "solution/vlm.py": "01680e84220c64a6ff8f3415cf59bb7cd225f425814c92f6d2fe8213c5fe1cda",
+    "solution/vlm_candidate.py": "99b1cccb3de3172d08b4db8a40cbca3f6a1e595f6f6beb7250ab0c501d47ba7a",
+    "research/v4_stage2/design_frozen_before_results.md": "9a66713a88e1c1ed6344cb1715f8921f5dce864db03ef23631b34f84714a1726",
+    "artifacts/candidates/qwen3_vl_4b_nf4/EXPORT_MANIFEST.json": "ca6a1131fd311ece208b953a3c4806b1448dd1eb19afafd2e11a2139ea7dcf0d"
+  }
+}

@@ -1,0 +1,1294 @@
+{
+  "frozen_at_utc": "2026-09-13T10:49:12.551573+00:00",
+  "official_ground_truth_valid_clips": 0,
+  "review_type": "prediction-blind independent AI review reconciliation, not official/human-expert GT",
+  "independent_review_sha256": {
+    "root_labels.json": "f45d4a96098192ed546dfba8dfa2bc26fe9300e2731625c7c42893349a7db016",
+    "agent1_labels.json": "d5b9bddd57718cfba9fd404851c53a1ae84d25de1d7515db04a967f941c1ab2b",
+    "root_reserve_labels.json": "e0254ce350e888e7222b60908e58d99864cf17cab10084c11870bd7ea0435dad",
+    "labels_reserve_agent1.json": "22f75578a5f24b4ac093a75e6f82ba92bf3ef681c8cfc778c8eaee8a2367c5cc"
+  },
+  "acquisition_provenance_file_sha256": {
+    "provenance.md": "1bdea27debb0c10ebba0d88f114f26730cdff566d50f23135389953feea1cfc3",
+    "selection_frozen.json": "c615cc166cfcf7eaf04ef0734e72797742945f5b2f3874abea46ea1b0837221f",
+    "replacements_frozen.json": "a837f8c01672fbea3c114e90b26da6a32c6b6042f28ec780ee8f02dd953839bb",
+    "selected_members.json": "38451d1059231c9a931b4805a83dce22ae78e56746e0d5a712f99cc618c0cf8f",
+    "overlap_audit.json": "b07c3844b6c18593d06b72f568106acbbeff0aa40152150a179e7a383b60a50b"
+  },
+  "acquisition_provenance_handling": "Provenance/selection files hashed opaquely; numeric accident metadata not read by agent1. See original preserved provenance for author/source/license.",
+  "prediction_results_read": false,
+  "temporal_blinding_limit": "Contact sheets were selected around author accident metadata. Review is not blind to those temporal windows.",
+  "conditional_origin_cohort": [
+    "DADA_8_036",
+    "DADA_8_039",
+    "DADA_9_001",
+    "DADA_10_142",
+    "DADA_11_045",
+    "DADA_11_129"
+  ],
+  "entry_interval_cohort": [
+    "DADA_8_036",
+    "DADA_9_001",
+    "DADA_10_142",
+    "DADA_11_045",
+    "DADA_11_129"
+  ],
+  "diagnostic_only_cohort": [
+    "DADA_10_120",
+    "DADA_10_155",
+    "DADA_49_002",
+    "DADA_49_015",
+    "DADA_49_026",
+    "DADA_49_036",
+    "DADA_50_031",
+    "DADA_50_133",
+    "DADA_50_172",
+    "DADA_9_009"
+  ],
+  "replacement_mapping": {
+    "DADA_10_120": "DADA_10_155",
+    "DADA_49_002": "DADA_49_026",
+    "DADA_49_015": "DADA_49_036",
+    "DADA_50_172": "DADA_50_133"
+  },
+  "reserve_outcome": "All four reserve scenes remain diagnostic-only; no further acquisition.",
+  "frame_rule": "original 1-based filenames; no FPS/PTS manufactured from video-clock OCR",
+  "interval_rule": "union of independent coarse visual hypotheses; 8_039 entry unknown; interval membership is not correctness",
+  "records": [
+    {
+      "ID": "DADA_10_120",
+      "acquisition_cohort": "initial12",
+      "original_input_directory": "research/v5_external/dada/inputs/images/DADA_10_120",
+      "source_archive_clip_id": "10/120",
+      "review_sources": [
+        "root_labels.json",
+        "agent1_labels.json"
+      ],
+      "replacement_requested_for": null,
+      "replaced_by_acquisition_only": "DADA_10_155",
+      "classification": "diagnostic_only_no_adoption_score",
+      "official_GT_valid": false,
+      "conditional_counterpart": null,
+      "origin_side": null,
+      "origin_scope": "not scored",
+      "lane_entry_union_interval": null,
+      "lane_entry_exact": null,
+      "contact_union_hypothesis_not_scored": null,
+      "collision_exact": null,
+      "evasion_space_GT": null,
+      "contact_review_root": "not_discernible",
+      "contact_review_agent1": "not_discernible_from_reviewed_images",
+      "independent_root_observation": {
+        "ID": "DADA_10_120",
+        "target": null,
+        "ego_contact": "not_discernible",
+        "contact_hypothesis": null,
+        "entry_hypothesis": null,
+        "entry_side": null,
+        "space": null,
+        "note": "Several white crossing vehicles leave left edge before camera shake; collision partner cannot be established from sheets."
+      },
+      "independent_agent1_observation": {
+        "ID": "DADA_10_120",
+        "counterpart_description": "미확정. 73~94의 왼쪽 화면 가장자리 흰색 세단이 근접 후보이며 초반 흰색 SUV와 구분해야 함.",
+        "ego_vehicle_contact_status": "not_discernible_from_reviewed_images",
+        "first_physical_contact": {
+          "exact_frame": null,
+          "interval": null,
+          "interval_kind": "unknown",
+          "confidence": "low"
+        },
+        "entry_side": null,
+        "entry_side_confidence": "unknown",
+        "lane_entry": {
+          "status": "unknown",
+          "exact_frame": null,
+          "interval": null,
+          "confidence": "low",
+          "definition": "first target wheel touching ego lane boundary or visible intersection extension; never first screen appearance"
+        },
+        "screen_first_visible_diagnostic_only": {
+          "interval": null,
+          "status": "target_identity_not_confirmed"
+        },
+        "evidence": [
+          "73/87/94에서 흰 세단 일부가 왼쪽 끝에 보이나 101 이후 화면 안 충돌 상대를 확인하지 못함.",
+          "자차 시야가 오른쪽으로 회전하고 123에서 실내 장식이 크게 움직임. 이것만으로 어느 차량과 언제 접촉했는지 정할 수 없음."
+        ],
+        "limitations": [
+          "접촉이 왼쪽 화면 밖에서 일어났는지 확인 불가. 교차로 연장 차선과 상대 바퀴의 첫 접점도 불명.",
+          "흰 세단의 LEFT 근접 위치를 확정된 entry_side로 대체하지 않음."
+        ],
+        "metric_eligibility": {
+          "exact_collision": false,
+          "exact_entry": false,
+          "exact_entry_conditional_on_counterpart_and_contact_confirmation": false,
+          "side_only_candidate": false,
+          "requires_root_independent_consensus": true
+        }
+      },
+      "caution": "Union preserves reviewer uncertainty; no midpoint, intersection, or exact GT conversion."
+    },
+    {
+      "ID": "DADA_10_142",
+      "acquisition_cohort": "initial12",
+      "original_input_directory": "research/v5_external/dada/inputs/images/DADA_10_142",
+      "source_archive_clip_id": "10/142",
+      "review_sources": [
+        "root_labels.json",
+        "agent1_labels.json"
+      ],
+      "replacement_requested_for": null,
+      "replaced_by_acquisition_only": null,
+      "classification": "conditional_same_target_origin_hypothesis_filter",
+      "official_GT_valid": false,
+      "conditional_counterpart": "black sedan crossing left to right",
+      "origin_side": "LEFT",
+      "origin_scope": "conditional on same specified target and inferred ego corridor; does not prove ego contact",
+      "lane_entry_union_interval": [
+        155,
+        169
+      ],
+      "lane_entry_exact": null,
+      "contact_union_hypothesis_not_scored": [
+        166,
+        184
+      ],
+      "collision_exact": null,
+      "evasion_space_GT": null,
+      "contact_review_root": "visually_supported_event_contact_surface_occluded",
+      "contact_review_agent1": "probable_ego_vehicle_contact_surface_occluded",
+      "independent_root_observation": {
+        "ID": "DADA_10_142",
+        "target": "black sedan crossing left to right",
+        "ego_contact": "visually_supported_event_contact_surface_occluded",
+        "contact_hypothesis": [
+          166,
+          180
+        ],
+        "entry_hypothesis": [
+          155,
+          166
+        ],
+        "entry_side": "LEFT",
+        "space": null,
+        "note": "Sedan crosses directly ahead and scene changes orientation; exact contact hidden below camera."
+      },
+      "independent_agent1_observation": {
+        "ID": "DADA_10_142",
+        "counterpart_description": "155부터 왼쪽에서 가로질러 자차 앞에 들어오는 검정 세단. 초반 은색 해치백·앞서 지나간 빨간 세단과 다름.",
+        "ego_vehicle_contact_status": "probable_ego_vehicle_contact_surface_occluded",
+        "first_physical_contact": {
+          "exact_frame": null,
+          "interval": [
+            169,
+            184
+          ],
+          "interval_kind": "visually_suspected_event_window_not_exact_contact_GT",
+          "confidence": "medium"
+        },
+        "entry_side": "LEFT",
+        "entry_side_confidence": "high",
+        "lane_entry": {
+          "status": "interval_uncertain_lane_extension",
+          "exact_frame": null,
+          "interval": [
+            155,
+            169
+          ],
+          "confidence": "low",
+          "definition": "first target wheel touching ego lane boundary or visible intersection extension; never first screen appearance"
+        },
+        "screen_first_visible_diagnostic_only": {
+          "interval": [
+            145,
+            155
+          ],
+          "status": "not_visible_at_145_visible_at_155"
+        },
+        "evidence": [
+          "155에서 검정 세단 앞부분이 왼쪽 화면에 등장하고 163~175 자차 바로 앞을 왼쪽→오른쪽으로 가로지름.",
+          "169~184 동안 차체가 보닛 앞을 채우고 시야가 회전한 뒤 차량 뒤쪽을 보게 됨."
+        ],
+        "limitations": [
+          "접촉면이 보닛 아래에 가려져 첫 물리 접촉을 정확히 관찰하지 못함.",
+          "교차로 차선 연장선이 명확하지 않아 155~169는 넓은 진입 검토구간이며 ±0.3초 정답으로 사용할 수 없음."
+        ],
+        "metric_eligibility": {
+          "exact_collision": false,
+          "exact_entry": false,
+          "exact_entry_conditional_on_counterpart_and_contact_confirmation": false,
+          "side_only_candidate": true,
+          "requires_root_independent_consensus": true
+        }
+      },
+      "caution": "Union preserves reviewer uncertainty; no midpoint, intersection, or exact GT conversion."
+    },
+    {
+      "ID": "DADA_10_155",
+      "acquisition_cohort": "fixed_reserve4",
+      "original_input_directory": "research/v5_external/dada/inputs/images/DADA_10_155",
+      "source_archive_clip_id": "10/155",
+      "review_sources": [
+        "root_reserve_labels.json",
+        "labels_reserve_agent1.json"
+      ],
+      "replacement_requested_for": "DADA_10_120",
+      "replaced_by_acquisition_only": null,
+      "classification": "diagnostic_only_no_adoption_score",
+      "official_GT_valid": false,
+      "conditional_counterpart": null,
+      "origin_side": null,
+      "origin_scope": "not scored",
+      "lane_entry_union_interval": null,
+      "lane_entry_exact": null,
+      "contact_union_hypothesis_not_scored": null,
+      "collision_exact": null,
+      "evasion_space_GT": null,
+      "contact_review_root": "not_discernible",
+      "contact_review_agent1": "not_discernible_counterpart_unresolved",
+      "independent_root_observation": {
+        "ID": "DADA_10_155",
+        "target": null,
+        "ego_contact": "not_discernible",
+        "entry_interval": null,
+        "contact_interval": null,
+        "entry_side": null,
+        "space": null,
+        "note": "Parking area; ego drives between parked vehicles. Left nearby white vehicle leaves edge; no identifiable ego contact partner in inspected frames."
+      },
+      "independent_agent1_observation": {
+        "ID": "DADA_10_155",
+        "ego_contact_status": "not_discernible_counterpart_unresolved",
+        "counterpart": null,
+        "entry_side": null,
+        "entry_exact": null,
+        "entry_interval": null,
+        "contact_exact": null,
+        "contact_interval": null,
+        "evidence": [
+          "주차장/마당 형태 공간을 자차가 통과하며 양쪽에 주차 차량과 오른쪽 건물·오토바이가 보인다.",
+          "152~212 및 확대 182에서 전방에는 빈 노면이 보이고 특정 차량과 자차의 접촉을 식별하지 못했다.",
+          "자차 차선 도색이 없고 실제 충돌 상대도 불명확하여 진행 공간의 첫 바퀴 진입을 부여할 수 없다."
+        ],
+        "limitation": "화면 밖 접촉을 배제한 것이 아니라 현재 자료에서 ego-vehicle 접촉과 대상을 확인하지 못한 상태.",
+        "recommendation": "diagnostic_only_not_confirmed_ego_vehicle_collision"
+      },
+      "caution": "Reserve acquisition does not promote an unresolved scene to verified ego collision."
+    },
+    {
+      "ID": "DADA_11_045",
+      "acquisition_cohort": "initial12",
+      "original_input_directory": "research/v5_external/dada/inputs/images/DADA_11_045",
+      "source_archive_clip_id": "11/045",
+      "review_sources": [
+        "root_labels.json",
+        "agent1_labels.json"
+      ],
+      "replacement_requested_for": null,
+      "replaced_by_acquisition_only": null,
+      "classification": "conditional_same_target_origin_hypothesis_filter",
+      "official_GT_valid": false,
+      "conditional_counterpart": "silver sedan along ego right",
+      "origin_side": "RIGHT",
+      "origin_scope": "conditional on same specified target and inferred ego corridor; does not prove ego contact",
+      "lane_entry_union_interval": [
+        57,
+        96
+      ],
+      "lane_entry_exact": null,
+      "contact_union_hypothesis_not_scored": null,
+      "collision_exact": null,
+      "evasion_space_GT": null,
+      "contact_review_root": "uncertain",
+      "contact_review_agent1": "probable_ego_vehicle_contact_surface_occluded",
+      "independent_root_observation": {
+        "ID": "DADA_11_045",
+        "target": "silver sedan along ego right",
+        "ego_contact": "uncertain",
+        "contact_hypothesis": null,
+        "entry_hypothesis": [
+          57,
+          96
+        ],
+        "entry_side": "RIGHT",
+        "space": null,
+        "note": "Already visible on right at clip start but not established inside ego lane then. Closely approaches ego front-right."
+      },
+      "independent_agent1_observation": {
+        "ID": "DADA_11_045",
+        "counterpart_description": "시작부터 자차 오른쪽에 나란히 있는 은색 세단. 앞의 검정 세단이나 반대편 빨간 화물차와 다름.",
+        "ego_vehicle_contact_status": "probable_ego_vehicle_contact_surface_occluded",
+        "first_physical_contact": {
+          "exact_frame": null,
+          "interval": [
+            81,
+            100
+          ],
+          "interval_kind": "visually_suspected_event_window_not_exact_contact_GT",
+          "confidence": "medium"
+        },
+        "entry_side": "RIGHT",
+        "entry_side_confidence": "high",
+        "lane_entry": {
+          "status": "interval_uncertain_wheel_boundary",
+          "exact_frame": null,
+          "interval": [
+            57,
+            87
+          ],
+          "confidence": "medium",
+          "definition": "first target wheel touching ego lane boundary or visible intersection extension; never first screen appearance"
+        },
+        "screen_first_visible_diagnostic_only": {
+          "interval": [
+            1,
+            1
+          ],
+          "status": "visible_at_start_not_equivalent_to_lane_entry"
+        },
+        "evidence": [
+          "1/30/45에서 은색 차량은 자차 오른쪽 차로의 경계 바깥쪽에 있음.",
+          "57~87에 차량 앞바퀴와 차체가 자차 오른쪽 경계 방향으로 다가오며 보닛 오른쪽을 차지함.",
+          "81~100 근접 이후 두 차량이 매우 가까운 상태로 이어짐."
+        ],
+        "limitations": [
+          "가장 가까운 바퀴·접촉면 일부가 보닛 아래에 가려져 최초 차선 접점과 접촉 시점의 정확한 번호는 불명.",
+          "우측 차량이 처음부터 보인다는 이유로 entry=1을 부여하지 않음."
+        ],
+        "metric_eligibility": {
+          "exact_collision": false,
+          "exact_entry": false,
+          "exact_entry_conditional_on_counterpart_and_contact_confirmation": false,
+          "side_only_candidate": true,
+          "requires_root_independent_consensus": true
+        }
+      },
+      "caution": "Union preserves reviewer uncertainty; no midpoint, intersection, or exact GT conversion."
+    },
+    {
+      "ID": "DADA_11_129",
+      "acquisition_cohort": "initial12",
+      "original_input_directory": "research/v5_external/dada/inputs/images/DADA_11_129",
+      "source_archive_clip_id": "11/129",
+      "review_sources": [
+        "root_labels.json",
+        "agent1_labels.json"
+      ],
+      "replacement_requested_for": null,
+      "replaced_by_acquisition_only": null,
+      "classification": "conditional_same_target_origin_hypothesis_filter",
+      "official_GT_valid": false,
+      "conditional_counterpart": "white SUV crossing left to right",
+      "origin_side": "LEFT",
+      "origin_scope": "conditional on same specified target and inferred ego corridor; does not prove ego contact",
+      "lane_entry_union_interval": [
+        25,
+        68
+      ],
+      "lane_entry_exact": null,
+      "contact_union_hypothesis_not_scored": [
+        71,
+        83
+      ],
+      "collision_exact": null,
+      "evasion_space_GT": null,
+      "contact_review_root": "visually_supported_event_contact_surface_occluded",
+      "contact_review_agent1": "probable_ego_vehicle_contact_surface_occluded",
+      "independent_root_observation": {
+        "ID": "DADA_11_129",
+        "target": "white SUV crossing left to right",
+        "ego_contact": "visually_supported_event_contact_surface_occluded",
+        "contact_hypothesis": [
+          71,
+          80
+        ],
+        "entry_hypothesis": [
+          47,
+          68
+        ],
+        "entry_side": "LEFT",
+        "space": null,
+        "note": "SUV body crosses camera front, ego stops, exact surface contact hidden by hood."
+      },
+      "independent_agent1_observation": {
+        "ID": "DADA_11_129",
+        "counterpart_description": "시작부터 왼쪽 앞에 보이며 교차로를 가로질러 자차 앞을 통과하는 흰색 SUV.",
+        "ego_vehicle_contact_status": "probable_ego_vehicle_contact_surface_occluded",
+        "first_physical_contact": {
+          "exact_frame": null,
+          "interval": [
+            71,
+            83
+          ],
+          "interval_kind": "visually_suspected_event_window_not_exact_contact_GT",
+          "confidence": "medium"
+        },
+        "entry_side": "LEFT",
+        "entry_side_confidence": "high",
+        "lane_entry": {
+          "status": "interval_uncertain_lane_extension",
+          "exact_frame": null,
+          "interval": [
+            25,
+            55
+          ],
+          "confidence": "low",
+          "definition": "first target wheel touching ego lane boundary or visible intersection extension; never first screen appearance"
+        },
+        "screen_first_visible_diagnostic_only": {
+          "interval": [
+            1,
+            1
+          ],
+          "status": "visible_at_start_outside_projected_ego_corridor"
+        },
+        "evidence": [
+          "1/25에서는 SUV가 자차 왼쪽 앞에 있고 35/45/55에서 자차 진행 공간을 가로지름.",
+          "65~80에 SUV 옆면이 화면 바로 앞을 채우고 이후 자차 앞 오른쪽에 정지한 모습이 지속됨."
+        ],
+        "limitations": [
+          "표시 차선이 없는 교차로이고 자차 연장선 폭이 불명확하여 정확한 바퀴 접점을 정하지 못함.",
+          "SUV가 이미 화면에 보이는 것과 차선 안에 있는 것은 다름. 접촉면은 화면 아래에 가려짐."
+        ],
+        "metric_eligibility": {
+          "exact_collision": false,
+          "exact_entry": false,
+          "exact_entry_conditional_on_counterpart_and_contact_confirmation": false,
+          "side_only_candidate": true,
+          "requires_root_independent_consensus": true
+        }
+      },
+      "caution": "Union preserves reviewer uncertainty; no midpoint, intersection, or exact GT conversion."
+    },
+    {
+      "ID": "DADA_49_002",
+      "acquisition_cohort": "initial12",
+      "original_input_directory": "research/v5_external/dada/inputs/images/DADA_49_002",
+      "source_archive_clip_id": "49/002",
+      "review_sources": [
+        "root_labels.json",
+        "agent1_labels.json"
+      ],
+      "replacement_requested_for": null,
+      "replaced_by_acquisition_only": "DADA_49_026",
+      "classification": "diagnostic_only_no_adoption_score",
+      "official_GT_valid": false,
+      "conditional_counterpart": null,
+      "origin_side": null,
+      "origin_scope": "not scored",
+      "lane_entry_union_interval": null,
+      "lane_entry_exact": null,
+      "contact_union_hypothesis_not_scored": null,
+      "collision_exact": null,
+      "evasion_space_GT": null,
+      "contact_review_root": "not_discernible",
+      "contact_review_agent1": "not_discernible_from_reviewed_images",
+      "independent_root_observation": {
+        "ID": "DADA_49_002",
+        "target": null,
+        "ego_contact": "not_discernible",
+        "contact_hypothesis": null,
+        "entry_hypothesis": null,
+        "entry_side": null,
+        "space": null,
+        "note": "Red truck ahead shifts left with persistent visible road gap. Cannot establish ego contact."
+      },
+      "independent_agent1_observation": {
+        "ID": "DADA_49_002",
+        "counterpart_description": "자차 정면을 선행하다 비스듬히 움직이는 빨간 대형 화물차가 장면의 주요 대상. 실제 충돌 상대인지는 미확정.",
+        "ego_vehicle_contact_status": "not_discernible_from_reviewed_images",
+        "first_physical_contact": {
+          "exact_frame": null,
+          "interval": null,
+          "interval_kind": "unknown",
+          "confidence": "unknown"
+        },
+        "entry_side": null,
+        "entry_side_confidence": "unknown",
+        "lane_entry": {
+          "status": "already_in_ego_corridor_at_start",
+          "exact_frame": 1,
+          "interval": [
+            1,
+            1
+          ],
+          "confidence": "medium",
+          "definition": "first target wheel touching ego lane boundary or visible intersection extension; never first screen appearance"
+        },
+        "screen_first_visible_diagnostic_only": {
+          "interval": [
+            1,
+            1
+          ],
+          "status": "visible_at_start"
+        },
+        "evidence": [
+          "원본 1에서 화물차가 황색 중앙선 오른쪽의 자차 전방 진행 공간에 이미 있음.",
+          "105~165 및 이후 화물차 후면과 자차 사이에 도로가 보이며 물리 접촉을 식별하지 못함."
+        ],
+        "limitations": [
+          "조건부 대상이 이 화물차라면 entry=첫 프레임이지만 ego-vehicle 충돌 여부를 먼저 확인해야 함.",
+          "화물차의 이후 회전 방향으로 시작 전 진입측을 복원할 수 없음."
+        ],
+        "metric_eligibility": {
+          "exact_collision": false,
+          "exact_entry": true,
+          "exact_entry_conditional_on_counterpart_and_contact_confirmation": true,
+          "side_only_candidate": false,
+          "requires_root_independent_consensus": true
+        }
+      },
+      "caution": "Union preserves reviewer uncertainty; no midpoint, intersection, or exact GT conversion."
+    },
+    {
+      "ID": "DADA_49_015",
+      "acquisition_cohort": "initial12",
+      "original_input_directory": "research/v5_external/dada/inputs/images/DADA_49_015",
+      "source_archive_clip_id": "49/015",
+      "review_sources": [
+        "root_labels.json",
+        "agent1_labels.json"
+      ],
+      "replacement_requested_for": null,
+      "replaced_by_acquisition_only": "DADA_49_036",
+      "classification": "diagnostic_only_no_adoption_score",
+      "official_GT_valid": false,
+      "conditional_counterpart": null,
+      "origin_side": null,
+      "origin_scope": "not scored",
+      "lane_entry_union_interval": null,
+      "lane_entry_exact": null,
+      "contact_union_hypothesis_not_scored": null,
+      "collision_exact": null,
+      "evasion_space_GT": null,
+      "contact_review_root": "third_party_interaction_visible_ego_contact_not_discernible",
+      "contact_review_agent1": "not_discernible_from_reviewed_images",
+      "independent_root_observation": {
+        "ID": "DADA_49_015",
+        "target": null,
+        "ego_contact": "third_party_interaction_visible_ego_contact_not_discernible",
+        "contact_hypothesis": null,
+        "entry_hypothesis": null,
+        "entry_side": null,
+        "space": null,
+        "note": "Green truck crowds red sedan ahead; ego remains behind. Not eligible as confirmed ego collision."
+      },
+      "independent_agent1_observation": {
+        "ID": "DADA_49_015",
+        "counterpart_description": "왼쪽의 녹색 대형 화물차가 오른쪽으로 이동. 정면의 붉은 소형 세단도 근접하며 실제 ego 충돌 상대는 미확정.",
+        "ego_vehicle_contact_status": "not_discernible_from_reviewed_images",
+        "first_physical_contact": {
+          "exact_frame": null,
+          "interval": null,
+          "interval_kind": "unknown",
+          "confidence": "unknown"
+        },
+        "entry_side": "LEFT",
+        "entry_side_confidence": "medium",
+        "lane_entry": {
+          "status": "interval_conditional_on_green_truck_target",
+          "exact_frame": null,
+          "interval": [
+            247,
+            310
+          ],
+          "confidence": "low",
+          "definition": "first target wheel touching ego lane boundary or visible intersection extension; never first screen appearance"
+        },
+        "screen_first_visible_diagnostic_only": {
+          "interval": [
+            1,
+            1
+          ],
+          "status": "green_truck_visible_at_start_in_left_adjacent_lane"
+        },
+        "evidence": [
+          "1~247 녹색 화물차가 자차 왼쪽, 붉은 세단이 정면에 있음.",
+          "247~310 화물차 후면이 자차 전방 공간으로 이동하고 붉은 세단은 그 오른쪽으로 밀집됨.",
+          "검토한 장면에서 자차와 화물차 또는 붉은 세단의 물리 접촉을 식별하지 못함."
+        ],
+        "limitations": [
+          "LEFT는 녹색 화물차를 대상으로 한 조건부 기원측. 확정 충돌 상대 라벨이 아님.",
+          "화물차/붉은 세단 사이의 접촉 여부도 충분히 보이지 않아 제3자 사고로 확정하지 않음."
+        ],
+        "metric_eligibility": {
+          "exact_collision": false,
+          "exact_entry": false,
+          "exact_entry_conditional_on_counterpart_and_contact_confirmation": false,
+          "side_only_candidate": true,
+          "requires_root_independent_consensus": true
+        }
+      },
+      "caution": "Union preserves reviewer uncertainty; no midpoint, intersection, or exact GT conversion."
+    },
+    {
+      "ID": "DADA_49_026",
+      "acquisition_cohort": "fixed_reserve4",
+      "original_input_directory": "research/v5_external/dada/inputs/images/DADA_49_026",
+      "source_archive_clip_id": "49/026",
+      "review_sources": [
+        "root_reserve_labels.json",
+        "labels_reserve_agent1.json"
+      ],
+      "replacement_requested_for": "DADA_49_002",
+      "replaced_by_acquisition_only": null,
+      "classification": "diagnostic_only_no_adoption_score",
+      "official_GT_valid": false,
+      "conditional_counterpart": null,
+      "origin_side": null,
+      "origin_scope": "not scored",
+      "lane_entry_union_interval": null,
+      "lane_entry_exact": null,
+      "contact_union_hypothesis_not_scored": null,
+      "collision_exact": null,
+      "evasion_space_GT": null,
+      "contact_review_root": "third_party_scene_ego_contact_not_discernible",
+      "contact_review_agent1": "third_party_truck_sedan_interaction_visible_ego_contact_not_discernible",
+      "independent_root_observation": {
+        "ID": "DADA_49_026",
+        "target": null,
+        "ego_contact": "third_party_scene_ego_contact_not_discernible",
+        "entry_interval": null,
+        "contact_interval": null,
+        "entry_side": null,
+        "space": null,
+        "note": "Container truck crowds white car ahead with standing person. Ego remains behind. Do not use third-party interaction time as ego contact."
+      },
+      "independent_agent1_observation": {
+        "ID": "DADA_49_026",
+        "ego_contact_status": "third_party_truck_sedan_interaction_visible_ego_contact_not_discernible",
+        "counterpart": null,
+        "entry_side": null,
+        "entry_exact": null,
+        "entry_interval": null,
+        "contact_exact": null,
+        "contact_interval": null,
+        "evidence": [
+          "빨간 컨테이너 견인차와 흰색 선행 세단이 전방에서 접촉할 정도로 밀집한다.",
+          "166~202과 확대 181에서 견인차 앞 오른쪽과 흰 세단 왼쪽 뒤가 겹치는 제3자 상호작용이 보인다.",
+          "자차 보닛과 두 차량 사이에는 노면이 보이며 자차 직접 접촉은 식별되지 않는다."
+        ],
+        "limitation": "제3자 차량 간 실제 첫 접촉 프레임도 확정하지 않으며 이를 자차 collision_frame으로 전용하지 않는다. 선행 세단의 frame1 위치를 자차 피해차량 entry GT로 사용하지 않는다.",
+        "recommendation": "diagnostic_only_third_party_interaction_not_confirmed_ego_collision"
+      },
+      "caution": "Reserve acquisition does not promote an unresolved scene to verified ego collision."
+    },
+    {
+      "ID": "DADA_49_036",
+      "acquisition_cohort": "fixed_reserve4",
+      "original_input_directory": "research/v5_external/dada/inputs/images/DADA_49_036",
+      "source_archive_clip_id": "49/036",
+      "review_sources": [
+        "root_reserve_labels.json",
+        "labels_reserve_agent1.json"
+      ],
+      "replacement_requested_for": "DADA_49_015",
+      "replaced_by_acquisition_only": null,
+      "classification": "diagnostic_only_no_adoption_score",
+      "official_GT_valid": false,
+      "conditional_counterpart": null,
+      "origin_side": null,
+      "origin_scope": "not scored",
+      "lane_entry_union_interval": null,
+      "lane_entry_exact": null,
+      "contact_union_hypothesis_not_scored": null,
+      "collision_exact": null,
+      "evasion_space_GT": null,
+      "contact_review_root": "not_discernible",
+      "contact_review_agent1": "right_truck_close_pass_and_windshield_contamination_visible_body_contact_unresolved",
+      "independent_root_observation": {
+        "ID": "DADA_49_036",
+        "target": null,
+        "ego_contact": "not_discernible",
+        "entry_interval": null,
+        "contact_interval": null,
+        "entry_side": null,
+        "space": null,
+        "note": "Large blue truck overtakes on right and water/spray obscures windshield; later blue car passes left. Spray and motion do not establish physical contact with ego."
+      },
+      "independent_agent1_observation": {
+        "ID": "DADA_49_036",
+        "ego_contact_status": "right_truck_close_pass_and_windshield_contamination_visible_body_contact_unresolved",
+        "counterpart": "조건부 후보: 오른쪽에서 나란히 지나가 앞으로 이동하는 파란색 대형 화물차",
+        "entry_side": "RIGHT",
+        "entry_side_conditional": true,
+        "entry_exact": null,
+        "entry_interval": null,
+        "contact_exact": null,
+        "contact_interval": null,
+        "screen_first_visible_diagnostic": [
+          20,
+          38
+        ],
+        "evidence": [
+          "20~38 사이 오른쪽 가장자리에 파란 대형 화물차가 나타나며 이후 옆에서 전방으로 이동한다.",
+          "75~94 사이 전면 유리에 다수의 액적/입자 형태가 나타나고 이후 시야를 가린다.",
+          "132~192 및 확대 162에서 화물차가 매우 가깝지만 차체 간 직접 접촉은 보이지 않는다.",
+          "후반 왼쪽의 파란 소형차 출현은 다른 대상이므로 오른쪽 화물차와 혼동하지 않는다."
+        ],
+        "limitation": "액적/먼지/파편의 정체와 발생 원인은 영상만으로 확정하지 못한다. 유리 오염이나 근접 통과는 두 차량 차체 접촉의 증거와 같지 않다. 바퀴/차로 경계가 가려져 차선진입 시점은 unknown.",
+        "recommendation": "diagnostic_only_until_ego_vehicle_body_contact_confirmed"
+      },
+      "caution": "Reserve acquisition does not promote an unresolved scene to verified ego collision."
+    },
+    {
+      "ID": "DADA_50_031",
+      "acquisition_cohort": "initial12",
+      "original_input_directory": "research/v5_external/dada/inputs/images/DADA_50_031",
+      "source_archive_clip_id": "50/031",
+      "review_sources": [
+        "root_labels.json",
+        "agent1_labels.json"
+      ],
+      "replacement_requested_for": null,
+      "replaced_by_acquisition_only": null,
+      "classification": "diagnostic_only_no_adoption_score",
+      "official_GT_valid": false,
+      "conditional_counterpart": null,
+      "origin_side": null,
+      "origin_scope": "not scored",
+      "lane_entry_union_interval": null,
+      "lane_entry_exact": null,
+      "contact_union_hypothesis_not_scored": null,
+      "collision_exact": null,
+      "evasion_space_GT": null,
+      "contact_review_root": "uncertain",
+      "contact_review_agent1": "possible_ego_rear_contact_not_visually_resolved",
+      "independent_root_observation": {
+        "ID": "DADA_50_031",
+        "target": "silver Volkswagen directly ahead, tentative",
+        "ego_contact": "uncertain",
+        "contact_hypothesis": null,
+        "entry_hypothesis": [
+          1,
+          1
+        ],
+        "entry_side": null,
+        "space": null,
+        "note": "VW is already directly in ego corridor at first frame; ego approaches rear. Contact and whether VW is true collision partner remain uncertain; first-frame entry conditional on target identity."
+      },
+      "independent_agent1_observation": {
+        "ID": "DADA_50_031",
+        "counterpart_description": "정면의 은색 Volkswagen 해치백/MPV가 선행 대상. 오른쪽의 검정 가로방향 세단과 혼동하지 않아야 함.",
+        "ego_vehicle_contact_status": "possible_ego_rear_contact_not_visually_resolved",
+        "first_physical_contact": {
+          "exact_frame": null,
+          "interval": [
+            181,
+            226
+          ],
+          "interval_kind": "visually_suspected_event_window_not_exact_contact_GT",
+          "confidence": "low"
+        },
+        "entry_side": null,
+        "entry_side_confidence": "unknown",
+        "lane_entry": {
+          "status": "already_in_ego_corridor_at_start",
+          "exact_frame": 1,
+          "interval": [
+            1,
+            1
+          ],
+          "confidence": "medium",
+          "definition": "first target wheel touching ego lane boundary or visible intersection extension; never first screen appearance"
+        },
+        "screen_first_visible_diagnostic_only": {
+          "interval": [
+            1,
+            1
+          ],
+          "status": "visible_at_start"
+        },
+        "evidence": [
+          "1에서 은색 차량이 자차 정면 진행 공간에 있고 154 이후 브레이크등이 켜진 상태로 가까워짐.",
+          "181~226 은색 차량 후면이 커지지만 정확한 범퍼 접점이나 접촉 순간은 보닛 아래에 가림."
+        ],
+        "limitations": [
+          "접촉은 가능 구간에 불과하며 사고 GT로 인정하지 않음.",
+          "대상이 은색 선행차이고 실제 ego 접촉이 확인될 경우 entry=첫 프레임으로 조건부 판단. 이전 진입측은 불명."
+        ],
+        "metric_eligibility": {
+          "exact_collision": false,
+          "exact_entry": true,
+          "exact_entry_conditional_on_counterpart_and_contact_confirmation": true,
+          "side_only_candidate": false,
+          "requires_root_independent_consensus": true
+        }
+      },
+      "caution": "Frame1 entry was conditional on unconfirmed silver VW target; not admitted to temporal gate."
+    },
+    {
+      "ID": "DADA_50_133",
+      "acquisition_cohort": "fixed_reserve4",
+      "original_input_directory": "research/v5_external/dada/inputs/images/DADA_50_133",
+      "source_archive_clip_id": "50/133",
+      "review_sources": [
+        "root_reserve_labels.json",
+        "labels_reserve_agent1.json"
+      ],
+      "replacement_requested_for": "DADA_50_172",
+      "replaced_by_acquisition_only": null,
+      "classification": "diagnostic_only_no_adoption_score",
+      "official_GT_valid": false,
+      "conditional_counterpart": null,
+      "origin_side": null,
+      "origin_scope": "not scored",
+      "lane_entry_union_interval": null,
+      "lane_entry_exact": null,
+      "contact_union_hypothesis_not_scored": null,
+      "collision_exact": null,
+      "evasion_space_GT": null,
+      "contact_review_root": "uncertain_target_and_author_time_alignment",
+      "contact_review_agent1": "not_discernible_counterpart_unresolved",
+      "independent_root_observation": {
+        "ID": "DADA_50_133",
+        "target": null,
+        "ego_contact": "uncertain_target_and_author_time_alignment",
+        "entry_interval": null,
+        "contact_interval": null,
+        "entry_side": null,
+        "space": null,
+        "note": "Author-centered76 window has distant road users without identifiable contact; much later203..254 a white sedan from right passes near ego front. Cannot identify first actual contact and partner confidently. Do not substitute later vehicle automatically."
+      },
+      "independent_agent1_observation": {
+        "ID": "DADA_50_133",
+        "ego_contact_status": "not_discernible_counterpart_unresolved",
+        "counterpart": null,
+        "entry_side": null,
+        "entry_exact": null,
+        "entry_interval": null,
+        "contact_exact": null,
+        "contact_interval": null,
+        "evidence": [
+          "교차로에서 자전거/삼륜차와 여러 승용차가 자차 전방을 통과한다.",
+          "46~106 및 확대 76에서 앞의 이륜·삼륜 차량과 승용차들은 자차와 간격을 두고 보인다.",
+          "후반 오른쪽 흰색/은색 승용차가 비스듬히 보이지만 이 차 또는 다른 차량의 자차 접촉을 식별하지 못했다."
+        ],
+        "limitation": "화면에 가까이 보이거나 정면을 가로지른 차량을 임의로 피해차량으로 정하지 않는다. 접촉 대상을 확정하지 못하여 차선진입과 방향도 unknown.",
+        "recommendation": "diagnostic_only_not_confirmed_ego_vehicle_collision"
+      },
+      "caution": "Reserve acquisition does not promote an unresolved scene to verified ego collision."
+    },
+    {
+      "ID": "DADA_50_172",
+      "acquisition_cohort": "initial12",
+      "original_input_directory": "research/v5_external/dada/inputs/images/DADA_50_172",
+      "source_archive_clip_id": "50/172",
+      "review_sources": [
+        "root_labels.json",
+        "agent1_labels.json"
+      ],
+      "replacement_requested_for": null,
+      "replaced_by_acquisition_only": "DADA_50_133",
+      "classification": "diagnostic_only_no_adoption_score",
+      "official_GT_valid": false,
+      "conditional_counterpart": null,
+      "origin_side": null,
+      "origin_scope": "not scored",
+      "lane_entry_union_interval": null,
+      "lane_entry_exact": null,
+      "contact_union_hypothesis_not_scored": null,
+      "collision_exact": null,
+      "evasion_space_GT": null,
+      "contact_review_root": "not_discernible",
+      "contact_review_agent1": "not_discernible_from_reviewed_images",
+      "independent_root_observation": {
+        "ID": "DADA_50_172",
+        "target": null,
+        "ego_contact": "not_discernible",
+        "contact_hypothesis": null,
+        "entry_hypothesis": null,
+        "entry_side": null,
+        "space": null,
+        "note": "Taxi and motorbike ahead with road gap; no identifiable ego contact in viewed sheets."
+      },
+      "independent_agent1_observation": {
+        "ID": "DADA_50_172",
+        "counterpart_description": "노란색/파란색 택시와 오른쪽 오토바이가 선행하지만 ego 충돌 상대를 식별하지 못함.",
+        "ego_vehicle_contact_status": "not_discernible_from_reviewed_images",
+        "first_physical_contact": {
+          "exact_frame": null,
+          "interval": null,
+          "interval_kind": "unknown",
+          "confidence": "low"
+        },
+        "entry_side": null,
+        "entry_side_confidence": "unknown",
+        "lane_entry": {
+          "status": "unknown",
+          "exact_frame": null,
+          "interval": null,
+          "confidence": "low",
+          "definition": "first target wheel touching ego lane boundary or visible intersection extension; never first screen appearance"
+        },
+        "screen_first_visible_diagnostic_only": {
+          "interval": null,
+          "status": "counterpart_unknown_several_vehicles_visible_at_start"
+        },
+        "evidence": [
+          "194~254 택시와 오토바이는 자차 앞에 거리를 두고 보임.",
+          "뒤쪽 구간에서는 보행자가 횡단하며 자차와 특정 차량의 직접 접촉을 식별하지 못함."
+        ],
+        "limitations": [
+          "택시·오토바이·다른 차량 중 대상을 추정해서 차선진입/접촉 라벨을 강제하지 않음.",
+          "접촉을 못 본 것과 무충돌임을 증명한 것은 다름."
+        ],
+        "metric_eligibility": {
+          "exact_collision": false,
+          "exact_entry": false,
+          "exact_entry_conditional_on_counterpart_and_contact_confirmation": false,
+          "side_only_candidate": false,
+          "requires_root_independent_consensus": true
+        }
+      },
+      "caution": "Union preserves reviewer uncertainty; no midpoint, intersection, or exact GT conversion."
+    },
+    {
+      "ID": "DADA_8_036",
+      "acquisition_cohort": "initial12",
+      "original_input_directory": "research/v5_external/dada/inputs/images/DADA_8_036",
+      "source_archive_clip_id": "8/036",
+      "review_sources": [
+        "root_labels.json",
+        "agent1_labels.json"
+      ],
+      "replacement_requested_for": null,
+      "replaced_by_acquisition_only": null,
+      "classification": "conditional_same_target_origin_hypothesis_filter",
+      "official_GT_valid": false,
+      "conditional_counterpart": "orange small pickup turning across from left",
+      "origin_side": "LEFT",
+      "origin_scope": "conditional on same specified target and inferred ego corridor; does not prove ego contact",
+      "lane_entry_union_interval": [
+        102,
+        120
+      ],
+      "lane_entry_exact": null,
+      "contact_union_hypothesis_not_scored": [
+        119,
+        125
+      ],
+      "collision_exact": null,
+      "evasion_space_GT": null,
+      "contact_review_root": "visually_supported_event_contact_surface_occluded",
+      "contact_review_agent1": "strong_visual_sequence_evidence_of_ego_vehicle_impact",
+      "independent_root_observation": {
+        "ID": "DADA_8_036",
+        "target": "orange small pickup turning across from left",
+        "ego_contact": "visually_supported_event_contact_surface_occluded",
+        "contact_hypothesis": [
+          121,
+          125
+        ],
+        "entry_hypothesis": [
+          102,
+          116
+        ],
+        "entry_side": "LEFT",
+        "space": null,
+        "note": "Vehicle approaches left front; abrupt view/dashboard ornament displacement after frame121."
+      },
+      "independent_agent1_observation": {
+        "ID": "DADA_8_036",
+        "counterpart_description": "왼쪽에서 교차로를 가로질러 접근하는 주황색 소형 화물차/삼륜 화물차.",
+        "ego_vehicle_contact_status": "strong_visual_sequence_evidence_of_ego_vehicle_impact",
+        "first_physical_contact": {
+          "exact_frame": null,
+          "interval": [
+            119,
+            125
+          ],
+          "interval_kind": "visually_suspected_event_window_not_exact_contact_GT",
+          "confidence": "high"
+        },
+        "entry_side": "LEFT",
+        "entry_side_confidence": "high",
+        "lane_entry": {
+          "status": "interval_uncertain_lane_extension",
+          "exact_frame": null,
+          "interval": [
+            102,
+            120
+          ],
+          "confidence": "low",
+          "definition": "first target wheel touching ego lane boundary or visible intersection extension; never first screen appearance"
+        },
+        "screen_first_visible_diagnostic_only": {
+          "interval": null,
+          "status": "distant_target_visible_before_90_exact_first_appearance_not_assigned"
+        },
+        "evidence": [
+          "90~114 주황색 화물차가 왼쪽에서 자차 전방으로 접근함.",
+          "119~123 차량 앞부분이 자차 왼쪽 보닛 바로 앞을 채우면서 시야가 급격히 움직이고 125에서 실내 물체가 튀어 보임."
+        ],
+        "limitations": [
+          "직접 접촉면 일부는 보닛 아래/왼쪽 화면 밖에 있어 정확한 한 프레임은 부여하지 않음.",
+          "교차로 바퀴-차선 연장 접점은 명확하지 않아 102~120은 넓은 시각구간."
+        ],
+        "metric_eligibility": {
+          "exact_collision": false,
+          "exact_entry": false,
+          "exact_entry_conditional_on_counterpart_and_contact_confirmation": false,
+          "side_only_candidate": true,
+          "requires_root_independent_consensus": true
+        }
+      },
+      "caution": "Union preserves reviewer uncertainty; no midpoint, intersection, or exact GT conversion."
+    },
+    {
+      "ID": "DADA_8_039",
+      "acquisition_cohort": "initial12",
+      "original_input_directory": "research/v5_external/dada/inputs/images/DADA_8_039",
+      "source_archive_clip_id": "8/039",
+      "review_sources": [
+        "root_labels.json",
+        "agent1_labels.json"
+      ],
+      "replacement_requested_for": null,
+      "replaced_by_acquisition_only": null,
+      "classification": "conditional_same_target_origin_hypothesis_filter",
+      "official_GT_valid": false,
+      "conditional_counterpart": "blue pickup ahead-right",
+      "origin_side": "RIGHT",
+      "origin_scope": "conditional on same specified target and inferred ego corridor; does not prove ego contact",
+      "lane_entry_union_interval": null,
+      "lane_entry_exact": null,
+      "contact_union_hypothesis_not_scored": null,
+      "collision_exact": null,
+      "evasion_space_GT": null,
+      "contact_review_root": "uncertain",
+      "contact_review_agent1": "probable_ego_vehicle_contact_surface_occluded",
+      "independent_root_observation": {
+        "ID": "DADA_8_039",
+        "target": "blue pickup ahead-right",
+        "ego_contact": "uncertain",
+        "contact_hypothesis": null,
+        "entry_hypothesis": [
+          182,
+          245
+        ],
+        "entry_side": "RIGHT",
+        "space": null,
+        "note": "Pickup changes relative lane alignment and ego approaches its rear; exact first contact not directly visible. Frame1 visibility does not establish lane entry."
+      },
+      "independent_agent1_observation": {
+        "ID": "DADA_8_039",
+        "counterpart_description": "시작부터 오른쪽 차로에 있는 파란 소형 평판 화물차가 후반 자차 정면의 근접 대상. 정면 빨간 해치백과 다름.",
+        "ego_vehicle_contact_status": "probable_ego_vehicle_contact_surface_occluded",
+        "first_physical_contact": {
+          "exact_frame": null,
+          "interval": [
+            236,
+            251
+          ],
+          "interval_kind": "visually_suspected_event_window_not_exact_contact_GT",
+          "confidence": "medium"
+        },
+        "entry_side": "RIGHT",
+        "entry_side_confidence": "medium",
+        "lane_entry": {
+          "status": "unknown_ego_turn_and_target_motion_confound",
+          "exact_frame": null,
+          "interval": null,
+          "confidence": "unknown",
+          "definition": "first target wheel touching ego lane boundary or visible intersection extension; never first screen appearance"
+        },
+        "screen_first_visible_diagnostic_only": {
+          "interval": [
+            1,
+            1
+          ],
+          "status": "visible_at_start_in_right_adjacent_lane"
+        },
+        "evidence": [
+          "원본 1에서 빨간 해치백이 자차 정면 차로, 파란 화물차가 오른쪽 인접 차로에 있음.",
+          "160~238에 시야가 우회전 방향으로 변하며 파란 화물차가 정면을 차지하고 238~242 실내 물체가 크게 움직임."
+        ],
+        "limitations": [
+          "파란 차량의 차선 변경과 자차 경로 변화의 기여를 분리하지 못해 최초 바퀴 진입구간은 unknown.",
+          "RIGHT는 관찰 가능한 이전 상대 위치에 근거하지만 교차로 차로 연장과 함께 root 합의가 필요.",
+          "급격한 실내 움직임이 접촉 시점 그 자체임을 보장하지 않음."
+        ],
+        "metric_eligibility": {
+          "exact_collision": false,
+          "exact_entry": false,
+          "exact_entry_conditional_on_counterpart_and_contact_confirmation": false,
+          "side_only_candidate": true,
+          "requires_root_independent_consensus": true
+        }
+      },
+      "caution": "Target initially right but ego-turn/target-motion confound; entry remains unknown."
+    },
+    {
+      "ID": "DADA_9_001",
+      "acquisition_cohort": "initial12",
+      "original_input_directory": "research/v5_external/dada/inputs/images/DADA_9_001",
+      "source_archive_clip_id": "9/001",
+      "review_sources": [
+        "root_labels.json",
+        "agent1_labels.json"
+      ],
+      "replacement_requested_for": null,
+      "replaced_by_acquisition_only": null,
+      "classification": "conditional_same_target_origin_hypothesis_filter",
+      "official_GT_valid": false,
+      "conditional_counterpart": "small gray open-bed truck overtaking from left",
+      "origin_side": "LEFT",
+      "origin_scope": "conditional on same specified target and inferred ego corridor; does not prove ego contact",
+      "lane_entry_union_interval": [
+        103,
+        146
+      ],
+      "lane_entry_exact": null,
+      "contact_union_hypothesis_not_scored": null,
+      "collision_exact": null,
+      "evasion_space_GT": null,
+      "contact_review_root": "uncertain",
+      "contact_review_agent1": "probable_close_ego_side_interaction_contact_not_resolved",
+      "independent_root_observation": {
+        "ID": "DADA_9_001",
+        "target": "small gray open-bed truck overtaking from left",
+        "ego_contact": "uncertain",
+        "contact_hypothesis": null,
+        "entry_hypothesis": [
+          103,
+          146
+        ],
+        "entry_side": "LEFT",
+        "space": null,
+        "note": "Close lateral pass; camera-front contact surface hidden. Do not equate author accident timestamp with visible contact."
+      },
+      "independent_agent1_observation": {
+        "ID": "DADA_9_001",
+        "counterpart_description": "왼쪽에서 자차를 추월해 앞으로 들어오는 짙은 회색 소형 평판 화물차.",
+        "ego_vehicle_contact_status": "probable_close_ego_side_interaction_contact_not_resolved",
+        "first_physical_contact": {
+          "exact_frame": null,
+          "interval": [
+            114,
+            132
+          ],
+          "interval_kind": "visually_suspected_event_window_not_exact_contact_GT",
+          "confidence": "low"
+        },
+        "entry_side": "LEFT",
+        "entry_side_confidence": "high",
+        "lane_entry": {
+          "status": "interval_uncertain_unmarked_road",
+          "exact_frame": null,
+          "interval": [
+            103,
+            132
+          ],
+          "confidence": "low",
+          "definition": "first target wheel touching ego lane boundary or visible intersection extension; never first screen appearance"
+        },
+        "screen_first_visible_diagnostic_only": {
+          "interval": [
+            88,
+            93
+          ],
+          "status": "not_visible_at_88_visible_at_93"
+        },
+        "evidence": [
+          "93~110 화물차가 왼쪽 가까이 나타나고 117~132 자차 앞쪽을 가로막으며 이후 선행함.",
+          "우측은 풀·경사면 경계인 좁은 도로이며 도색 차선이 보이지 않음."
+        ],
+        "limitations": [
+          "도로폭과 자차 차선의 실제 경계가 불명확하고 가까운 바퀴가 보닛/화면 하단에 가려짐.",
+          "좁은 간격과 경로 중첩은 보이지만 접촉면을 직접 식별하지 못함."
+        ],
+        "metric_eligibility": {
+          "exact_collision": false,
+          "exact_entry": false,
+          "exact_entry_conditional_on_counterpart_and_contact_confirmation": false,
+          "side_only_candidate": true,
+          "requires_root_independent_consensus": true
+        }
+      },
+      "caution": "Union preserves reviewer uncertainty; no midpoint, intersection, or exact GT conversion."
+    },
+    {
+      "ID": "DADA_9_009",
+      "acquisition_cohort": "initial12",
+      "original_input_directory": "research/v5_external/dada/inputs/images/DADA_9_009",
+      "source_archive_clip_id": "9/009",
+      "review_sources": [
+        "root_labels.json",
+        "agent1_labels.json"
+      ],
+      "replacement_requested_for": null,
+      "replaced_by_acquisition_only": null,
+      "classification": "diagnostic_only_no_adoption_score",
+      "official_GT_valid": false,
+      "conditional_counterpart": null,
+      "origin_side": null,
+      "origin_scope": "not scored",
+      "lane_entry_union_interval": null,
+      "lane_entry_exact": null,
+      "contact_union_hypothesis_not_scored": null,
+      "collision_exact": null,
+      "evasion_space_GT": null,
+      "contact_review_root": "uncertain_target",
+      "contact_review_agent1": "strong_visual_sequence_evidence_multiple_ego_vehicle_interactions",
+      "independent_root_observation": {
+        "ID": "DADA_9_009",
+        "target": null,
+        "ego_contact": "uncertain_target",
+        "contact_hypothesis": null,
+        "entry_hypothesis": null,
+        "entry_side": null,
+        "space": null,
+        "note": "Black sedan close on right and orange truck on left. Sheets do not establish which physically contacts ego first."
+      },
+      "independent_agent1_observation": {
+        "ID": "DADA_9_009",
+        "counterpart_description": "1차 근접 대상은 오른쪽 검정 세단. 뒤이어 왼쪽 노란 대형 화물차가 매우 가깝게 들어오므로 다중 상호작용 구분 필요.",
+        "ego_vehicle_contact_status": "strong_visual_sequence_evidence_multiple_ego_vehicle_interactions",
+        "first_physical_contact": {
+          "exact_frame": null,
+          "interval": [
+            211,
+            250
+          ],
+          "interval_kind": "visually_suspected_event_window_not_exact_contact_GT",
+          "confidence": "medium"
+        },
+        "entry_side": "RIGHT",
+        "entry_side_confidence": "medium",
+        "lane_entry": {
+          "status": "interval_uncertain_wheel_boundary",
+          "exact_frame": null,
+          "interval": [
+            185,
+            215
+          ],
+          "confidence": "low",
+          "definition": "first target wheel touching ego lane boundary or visible intersection extension; never first screen appearance"
+        },
+        "screen_first_visible_diagnostic_only": {
+          "interval": null,
+          "status": "black_sedan_already_visible_by_124_exact_initial_identity_not_traced"
+        },
+        "evidence": [
+          "145~205 검정 세단이 오른쪽에서 자차 앞/옆으로 가까워지며 211~223 화면 오른쪽 가장자리에 밀집됨.",
+          "226 이후 노란 화물차가 왼쪽에서 들어오고 242에 막대 모양 부품이 화면 하단 앞으로 돌출되는 별도 위험 장면이 있음."
+        ],
+        "limitations": [
+          "검정 세단과의 첫 물리 접촉을 화면 아래에서 직접 확인하지 못해 두 사건 중 어떤 것이 첫 접촉인지 불확실.",
+          "211~250은 다중 사건 검토 창이지 ±0.3초 접촉 정답이 아님.",
+          "RIGHT는 검정 세단을 1차 대상으로 보는 조건부 기원측. 노란 화물차를 대상으로 하면 LEFT이므로 target 합의가 필수."
+        ],
+        "metric_eligibility": {
+          "exact_collision": false,
+          "exact_entry": false,
+          "exact_entry_conditional_on_counterpart_and_contact_confirmation": false,
+          "side_only_candidate": true,
+          "requires_root_independent_consensus": true
+        }
+      },
+      "caution": "Multiple targets; do not choose the correct-looking one after seeing predictions."
+    }
+  ]
+}

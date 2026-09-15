@@ -1,0 +1,152 @@
+{
+  "scope": "Current one-pass 12-frame entry candidate grid, assuming collision already correct and at timeline end.",
+  "source_sha256": "89ae0bc640670d7ed76103ce7c829d405ad27cc25368c74d153d3b96962b8442",
+  "synthetic_cases": [
+    {
+      "synthetic_fps": 10,
+      "synthetic_frames_before_and_including_contact": 50,
+      "synthetic_duration_seconds": 5,
+      "entry_candidate_count": 12,
+      "candidate_indices": [
+        0,
+        4,
+        9,
+        13,
+        18,
+        22,
+        27,
+        31,
+        36,
+        40,
+        45,
+        49
+      ],
+      "maximum_nearest_candidate_error_seconds": 0.2,
+      "possible_target_frames_with_candidate_within_0_3_seconds": 50,
+      "all_possible_target_frames": 50,
+      "interpretation": "Coverage of a synthetic time grid; NOT expected accuracy. Actual target distribution and evaluation FPS are unknown."
+    },
+    {
+      "synthetic_fps": 10,
+      "synthetic_frames_before_and_including_contact": 300,
+      "synthetic_duration_seconds": 30,
+      "entry_candidate_count": 12,
+      "candidate_indices": [
+        0,
+        27,
+        54,
+        82,
+        109,
+        136,
+        163,
+        190,
+        217,
+        245,
+        272,
+        299
+      ],
+      "maximum_nearest_candidate_error_seconds": 1.4,
+      "possible_target_frames_with_candidate_within_0_3_seconds": 78,
+      "all_possible_target_frames": 300,
+      "interpretation": "Coverage of a synthetic time grid; NOT expected accuracy. Actual target distribution and evaluation FPS are unknown."
+    },
+    {
+      "synthetic_fps": 10,
+      "synthetic_frames_before_and_including_contact": 600,
+      "synthetic_duration_seconds": 60,
+      "entry_candidate_count": 12,
+      "candidate_indices": [
+        0,
+        54,
+        109,
+        163,
+        218,
+        272,
+        327,
+        381,
+        436,
+        490,
+        545,
+        599
+      ],
+      "maximum_nearest_candidate_error_seconds": 2.7,
+      "possible_target_frames_with_candidate_within_0_3_seconds": 78,
+      "all_possible_target_frames": 600,
+      "interpretation": "Coverage of a synthetic time grid; NOT expected accuracy. Actual target distribution and evaluation FPS are unknown."
+    },
+    {
+      "synthetic_fps": 30,
+      "synthetic_frames_before_and_including_contact": 150,
+      "synthetic_duration_seconds": 5,
+      "entry_candidate_count": 12,
+      "candidate_indices": [
+        0,
+        14,
+        27,
+        41,
+        54,
+        68,
+        81,
+        95,
+        108,
+        122,
+        135,
+        149
+      ],
+      "maximum_nearest_candidate_error_seconds": 0.23333333333333334,
+      "possible_target_frames_with_candidate_within_0_3_seconds": 150,
+      "all_possible_target_frames": 150,
+      "interpretation": "Coverage of a synthetic time grid; NOT expected accuracy. Actual target distribution and evaluation FPS are unknown."
+    },
+    {
+      "synthetic_fps": 30,
+      "synthetic_frames_before_and_including_contact": 900,
+      "synthetic_duration_seconds": 30,
+      "entry_candidate_count": 12,
+      "candidate_indices": [
+        0,
+        82,
+        163,
+        245,
+        327,
+        409,
+        490,
+        572,
+        654,
+        736,
+        817,
+        899
+      ],
+      "maximum_nearest_candidate_error_seconds": 1.3666666666666667,
+      "possible_target_frames_with_candidate_within_0_3_seconds": 210,
+      "all_possible_target_frames": 900,
+      "interpretation": "Coverage of a synthetic time grid; NOT expected accuracy. Actual target distribution and evaluation FPS are unknown."
+    },
+    {
+      "synthetic_fps": 30,
+      "synthetic_frames_before_and_including_contact": 1800,
+      "synthetic_duration_seconds": 60,
+      "entry_candidate_count": 12,
+      "candidate_indices": [
+        0,
+        164,
+        327,
+        491,
+        654,
+        818,
+        981,
+        1145,
+        1308,
+        1472,
+        1635,
+        1799
+      ],
+      "maximum_nearest_candidate_error_seconds": 2.7333333333333334,
+      "possible_target_frames_with_candidate_within_0_3_seconds": 210,
+      "all_possible_target_frames": 1800,
+      "interpretation": "Coverage of a synthetic time grid; NOT expected accuracy. Actual target distribution and evaluation FPS are unknown."
+    }
+  ],
+  "conclusion": "Long pre-contact timelines can contain target frames farther than the metric tolerance from every offered entry candidate. A more accurate VLM alone cannot remove this grid limitation.",
+  "not_proven": "This does not establish that the actual evaluation inputs have long timelines, or that quantization caused the observed Stage 2 score."
+}

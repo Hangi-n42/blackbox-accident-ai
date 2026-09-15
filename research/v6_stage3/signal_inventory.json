@@ -1,0 +1,43 @@
+{
+  "local_files": [
+    "video.hevc",
+    "global_pose\\frame_times",
+    "processed_log\\CAN\\speed\\t",
+    "processed_log\\CAN\\speed\\value",
+    "processed_log\\CAN\\steering_angle\\t",
+    "processed_log\\CAN\\steering_angle\\value"
+  ],
+  "cached_archive_CAN_members": [
+    "processed_log/CAN/",
+    "processed_log/CAN/speed/",
+    "processed_log/CAN/speed/t",
+    "processed_log/CAN/speed/value",
+    "processed_log/CAN/steering_angle/",
+    "processed_log/CAN/steering_angle/t",
+    "processed_log/CAN/steering_angle/value",
+    "processed_log/CAN/radar/",
+    "processed_log/CAN/radar/t",
+    "processed_log/CAN/radar/value",
+    "processed_log/CAN/wheel_speed/",
+    "processed_log/CAN/wheel_speed/t",
+    "processed_log/CAN/wheel_speed/value",
+    "processed_log/CAN/raw_can/",
+    "processed_log/CAN/raw_can/src",
+    "processed_log/CAN/raw_can/data",
+    "processed_log/CAN/raw_can/t",
+    "processed_log/CAN/raw_can/address"
+  ],
+  "cached_archive_acceleration_named_members": [
+    "processed_log/IMU/accelerometer/",
+    "processed_log/IMU/accelerometer/t",
+    "processed_log/IMU/accelerometer/value"
+  ],
+  "explicit_longitudinal_CAN_acceleration_file_local": false,
+  "explicit_longitudinal_CAN_acceleration_named_member": false,
+  "IMU_accelerometer_listed": true,
+  "IMU_accelerometer_downloaded": false,
+  "limits": "Archive member names prove listed paths only. Raw CAN contents were not decoded; presence or derivability of an acceleration signal inside raw_can/raw_log is unverified. IMU acceleration is not declared equivalent to official CAN longitudinal acceleration.",
+  "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+  "cached_member_index_sha256": "1782e994e9767bfc3e2f7ffdf088d45d468525ea3ae528c65b3eac89fca45f40",
+  "license": "MIT; local LICENSE hash frozen"
+}

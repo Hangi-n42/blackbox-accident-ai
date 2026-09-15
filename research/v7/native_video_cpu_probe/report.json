@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "helper_sha256": "550d66b557c8e7275bf1d21068737fb4229a13fbe5237ac45916cfe72bd6bffd",
+  "helper_path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\solution\\native_video_v7.py",
+  "raw_report_path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\native_video_processor_probe\\report.json",
+  "raw_report_sha256": "411c3b6d921ee165cbabe31a7fe32381320b1855182dc4fffe6b331b04d0422f",
+  "frozen_plan_sha256": "594735d6d11273d407b08dd7e4ab577b775d405f3f32a76b230cda67c439eab3",
+  "model_or_weights_loaded": false,
+  "GPU_used": false,
+  "cases": [
+    {
+      "original_candidate_count": 3,
+      "encoded_frame_count": 4,
+      "video_grid_thw": [
+        [
+          2,
+          16,
+          24
+        ]
+      ],
+      "input_tokens": 266,
+      "video_placeholder_tokens": 192,
+      "encoded_pixels_including_padding": 393216,
+      "temporal_padding_frames": 1,
+      "last_encoded_temporal_pair_RGB_normalized_exact_equal": true
+    },
+    {
+      "original_candidate_count": 15,
+      "encoded_frame_count": 16,
+      "video_grid_thw": [
+        [
+          8,
+          12,
+          20
+        ]
+      ],
+      "input_tokens": 667,
+      "video_placeholder_tokens": 480,
+      "encoded_pixels_including_padding": 983040,
+      "temporal_padding_frames": 1,
+      "last_encoded_temporal_pair_RGB_normalized_exact_equal": true
+    },
+    {
+      "original_candidate_count": 18,
+      "encoded_frame_count": 18,
+      "video_grid_thw": [
+        [
+          9,
+          12,
+          18
+        ]
+      ],
+      "input_tokens": 699,
+      "video_placeholder_tokens": 486,
+      "encoded_pixels_including_padding": 995328,
+      "temporal_padding_frames": 0,
+      "last_encoded_temporal_pair_RGB_normalized_exact_equal": false
+    }
+  ],
+  "note": "Compatibility summary of unchanged completed CPU probe; no extra processor/model run."
+}

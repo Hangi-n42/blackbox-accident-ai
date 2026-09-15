@@ -1,0 +1,31 @@
+{
+  "accel": {
+    "raw": {
+      "transitions": 207,
+      "runs_at_most_3_frames": 95
+    },
+    "smoothed": {
+      "transitions": 122,
+      "runs_at_most_3_frames": 20
+    },
+    "proxy_ground_truth": {
+      "transitions": 119,
+      "runs_at_most_3_frames": 36
+    }
+  },
+  "steer": {
+    "raw": {
+      "transitions": 161,
+      "runs_at_most_3_frames": 61
+    },
+    "smoothed": {
+      "transitions": 113,
+      "runs_at_most_3_frames": 26
+    },
+    "proxy_ground_truth": {
+      "transitions": 104,
+      "runs_at_most_3_frames": 11
+    }
+  },
+  "interpretation": "Counts across six independent external validation videos; short runs are not necessarily errors. All frames included in jitter count, including stopped steering; macro-F1 evaluation separately masks GT stopped steering."
+}

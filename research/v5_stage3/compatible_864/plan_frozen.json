@@ -1,0 +1,426 @@
+{
+  "timestamp_unix": 1789296611.9424996,
+  "operation": "Existing864 frozen model compatible compute optimization only; no accuracy search",
+  "source_sha256": "8e9d3b5ce7c60cbcfcca674e42523b8a006e758ca92dd459171c5de8107b120d",
+  "baseline_source_sha256": "b93fc1565e476c8b84627fe5d6379f2314b129444942044987fb6b75ca660dca",
+  "model_sha256": "c52ecd15cf68856f2a7b0b37b120c7a961b3bd8889a33af4ec47f8b9719bb3b3",
+  "audit_source_sha256": "cf52341f3c6bf57e783bdf2f7552386630431ab196a0be68b767068aa3f54854",
+  "imports": [
+    "pathlib",
+    "cv2",
+    "joblib",
+    "numpy",
+    "pandas",
+    "scipy.ndimage",
+    ".stage3"
+  ],
+  "external_records": [
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-50-48\\10",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/video.hevc",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/processed_log/CAN/steering_angle/value"
+      ]
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--11-17-20\\3",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/video.hevc"
+      ]
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--12-02-42\\27",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/video.hevc"
+      ]
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-29--16-37-17\\4",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/video.hevc",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4/global_pose/frame_times"
+      ]
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-03-07\\14",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14/video.hevc"
+      ]
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-30--13-44-30\\10",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/video.hevc",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/processed_log/CAN/speed/value"
+      ]
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-31--20-50-28\\12",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/video.hevc",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/processed_log/CAN/steering_angle/value"
+      ]
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-01--21-13-49\\10",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/video.hevc",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/global_pose/frame_times"
+      ]
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--08-34-47\\29",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/video.hevc"
+      ]
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-02--16-41-38\\10",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/video.hevc"
+      ]
+    },
+    {
+      "route": "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16",
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10",
+      "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-08-03--10-35-16\\10",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+      "members": [
+        "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/global_pose/frame_times",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/processed_log/CAN/speed/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/processed_log/CAN/speed/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/processed_log/CAN/steering_angle/t",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/processed_log/CAN/steering_angle/value",
+        "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10/video.hevc"
+      ]
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--08-13-53\\17",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17/processed_log/CAN/steering_angle/value"
+      ]
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--10-47-27\\25",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/processed_log/CAN/steering_angle/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25/processed_log/CAN/speed/value"
+      ]
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-01--11-24-52\\0",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/processed_log/CAN/steering_angle/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0/global_pose/frame_times"
+      ]
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-32-52\\7",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/processed_log/CAN/steering_angle/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7/video.hevc"
+      ]
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--11-42-52\\0",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0/processed_log/CAN/steering_angle/value"
+      ]
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--16-01-39\\59",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/processed_log/CAN/steering_angle/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59/global_pose/frame_times"
+      ]
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--19-07-03\\5",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/processed_log/CAN/steering_angle/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5/processed_log/CAN/speed/value"
+      ]
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-02--20-07-13\\2",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/processed_log/CAN/steering_angle/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2/processed_log/CAN/speed/value"
+      ]
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--08-13-12\\10",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10/processed_log/CAN/steering_angle/value"
+      ]
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-03--09-25-46\\24",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24/processed_log/CAN/steering_angle/value"
+      ]
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--11-09-01\\10",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/video.hevc",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/processed_log/CAN/steering_angle/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10/global_pose/frame_times"
+      ]
+    },
+    {
+      "route": "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30",
+      "segment": "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10",
+      "local": "external_data\\comma2k19\\Chunk_3\\99c94dc769b5d96e_2018-05-05--16-36-30\\10",
+      "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_3.zip",
+      "members": [
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/global_pose/frame_times",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/processed_log/CAN/speed/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/processed_log/CAN/speed/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/processed_log/CAN/steering_angle/t",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/processed_log/CAN/steering_angle/value",
+        "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10/video.hevc"
+      ]
+    }
+  ],
+  "contracts": [
+    "original864 cache bit identity on23 external and5 public full decoded sequences",
+    "both existinghead predictions identical on every cached and computed row",
+    "actual10Hz public features/predictions identical",
+    "synthetic signedzero/nonfinite fallback",
+    "oneframe/renamedfile/otherfile invariance"
+  ],
+  "runtime": {
+    "function": "complete predict_stage3 including read-only model loading, extraction, classification and output assembly",
+    "sets": [
+      "public_actual10hz2998",
+      "external_repeat5min3000_runtime_only"
+    ],
+    "repeats": 3,
+    "order": [
+      [
+        "baseline",
+        "compatible"
+      ],
+      [
+        "compatible",
+        "baseline"
+      ],
+      [
+        "baseline",
+        "compatible"
+      ]
+    ],
+    "gate": "median compatible / median baseline <=1.0 in both sets AND identical DataFrame in every paired run",
+    "local_only_not_server_guarantee": true
+  },
+  "synthetic_seed": 49013,
+  "cpu_threads": 2,
+  "gpu": false,
+  "training_allowed": false,
+  "new_model_allowed": false,
+  "prior_reports_preserved": {
+    "research\\v5_stage3\\audit_report.json": "ac58497641a0269e5cae8f373fdf236a1204cb36f0ec3d97af325408bf8de258",
+    "research\\v5_stage3\\summary.md": "42ecd54d96f259694d29b4d9ca77e7b7c827cb71a4c4b0d23987e766acda416b",
+    "research\\v5_stage3\\equivalent_optimization\\audit_report.json": "15c603535b20916bb85d66f4bf86176850ff215b7c87a71734578c30b579a7d3",
+    "research\\v5_stage3\\equivalent_optimization\\experiment_report.json": "e9468d76146b4bd322bbf2c0d78d6ef5b8eaf771034d3e9731530d17aa14935d",
+    "research\\v5_stage3\\equivalent_optimization\\summary.md": "ef9ae9419307a73c9c3993ae0f0144e048235581c9e33596453d46d1c254de32"
+  },
+  "protected_before": {
+    "solution\\stage3.py": {
+      "bytes": 4120,
+      "mtime_ns": 1789121208393627300,
+      "sha256": "4b211a1c4f731bbd28b0f6e60de172e9692bfc1fe0f46d49ce21d89ad44f3835"
+    },
+    "solution\\stage3_fast.py": {
+      "bytes": 4310,
+      "mtime_ns": 1789124835536566200,
+      "sha256": "b93fc1565e476c8b84627fe5d6379f2314b129444942044987fb6b75ca660dca"
+    },
+    "model\\stage3\\motion_model.joblib": {
+      "bytes": 1192151,
+      "mtime_ns": 1789121448670626800,
+      "sha256": "c52ecd15cf68856f2a7b0b37b120c7a961b3bd8889a33af4ec47f8b9719bb3b3"
+    },
+    "artifacts\\submissions\\candidate_nf4_fast.zip": {
+      "bytes": 2914581099,
+      "mtime_ns": 1789125447604419500,
+      "sha256": null
+    },
+    "artifacts\\submissions\\submit_v1.zip": {
+      "bytes": 3653603309,
+      "mtime_ns": 1789121877491584000,
+      "sha256": null
+    },
+    "artifacts\\submissions\\submit_v2_nf4.zip": {
+      "bytes": 2914579028,
+      "mtime_ns": 1789123807718839000,
+      "sha256": null
+    },
+    "artifacts\\submissions\\submit_v3_motion_fast.zip": {
+      "bytes": 2914582277,
+      "mtime_ns": 1789128384326864600,
+      "sha256": null
+    },
+    "artifacts\\submissions\\submit_v4.zip": {
+      "bytes": 2914586291,
+      "mtime_ns": 1789236309993404000,
+      "sha256": null
+    }
+  }
+}

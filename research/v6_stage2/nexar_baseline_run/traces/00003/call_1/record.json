@@ -1,0 +1,36 @@
+{
+  "number": 1,
+  "prompt": "These are frames from one dashcam clip, ordered left to right, top to bottom. Which numbered frame first shows physical contact of the camera vehicle with another vehicle? From which side of the image did that other vehicle approach? Return JSON with collision_frame and entry_side (LEFT or RIGHT). Available frames: [0, 135, 267, 402, 534, 669, 801, 936, 1068, 1202].",
+  "max_new_tokens": 64,
+  "status": "complete",
+  "input_images": [
+    {
+      "size": [
+        1920,
+        512
+      ],
+      "bounded_size": [
+        1920,
+        512
+      ],
+      "rgb_sha256": "dd93d601b93c97768726a59fb9f0e62bb600bcc860b0930748e3cba55c1fed2b"
+    }
+  ],
+  "offered_original_numbers": [
+    0,
+    135,
+    267,
+    402,
+    534,
+    669,
+    801,
+    936,
+    1068,
+    1202
+  ],
+  "bounded_pixel_total": 983040,
+  "raw_output": "{\n  \"collision_frame\": 669,\n  \"entry_side\": \"RIGHT\"\n}",
+  "seconds": 3.228965000016615,
+  "peak_allocated_bytes": 3722686976,
+  "peak_reserved_bytes": 4724883456
+}

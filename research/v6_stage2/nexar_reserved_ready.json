@@ -1,0 +1,33 @@
+{
+  "status": "CPU_prepared_and_verified_no_inference",
+  "freeze_sha256": "e58e0a343e61378228391d089fc77c5f0313d5a4f18eec051935394a964c9833",
+  "runner_sha256": "5d8acfca79402d84d917fea144ab330167ee68d9da7f0d06dec2b0366c0c7cd1",
+  "protocol_sha256": "af49693ba83de220028b148030efaafa282f7c452111c39e941dd949d185d67c",
+  "protected_sha256_unchanged": true,
+  "GT_read": false,
+  "predictions_read": false,
+  "GPU_or_model_inference": false,
+  "videos": [
+    {
+      "ID": "00005",
+      "source_frame_count": 1227,
+      "sampled_count": 402,
+      "duration_seconds": 40.06535947712418,
+      "max_sample_gap_seconds": 0.1307189542483691
+    },
+    {
+      "ID": "00006",
+      "source_frame_count": 1199,
+      "sampled_count": 401,
+      "duration_seconds": 39.93333333333333,
+      "max_sample_gap_seconds": 0.10000000000000142
+    },
+    {
+      "ID": "00007",
+      "source_frame_count": 1205,
+      "sampled_count": 403,
+      "duration_seconds": 40.13333333333333,
+      "max_sample_gap_seconds": 0.10000000000000142
+    }
+  ]
+}

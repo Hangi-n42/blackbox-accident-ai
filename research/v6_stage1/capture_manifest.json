@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "purpose": "Preparation only: no real road screen-recapture footage acquired in V6",
+  "protocol": {
+    "frozen_at": null,
+    "selection_rule": null,
+    "required_use": "competition_evaluation",
+    "device_holdout_fields": ["original_camera_id", "display_id", "recapture_camera_id"]
+  },
+  "records": []
+}

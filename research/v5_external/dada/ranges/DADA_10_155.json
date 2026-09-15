@@ -1,0 +1,8 @@
+{
+  "id": "1q2wU6zZJekNEjgCeJGb9wS2EQwICswLV",
+  "range": "bytes=12589445664-12653490704",
+  "status": 206,
+  "content_range": "bytes 12589445664-12653490704/21367462297",
+  "bytes_received": 64045041,
+  "sha256": "043a44061993413c5a50429a88ea508c6446603dd2f088ecf4260d4c88838664"
+}

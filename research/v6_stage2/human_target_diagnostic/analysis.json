@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "candidate": false,
+  "submission_eligible": false,
+  "rows": [
+    {
+      "ID": "00000",
+      "raw_value": null,
+      "accepted_offered_integer": false,
+      "conditional_collision_frame": 587,
+      "V5_collision_frame": 587,
+      "V6A_collision_frame": 587,
+      "image_same_as_V6A": true
+    },
+    {
+      "ID": "00003",
+      "raw_value": null,
+      "accepted_offered_integer": false,
+      "conditional_collision_frame": 345,
+      "V5_collision_frame": 345,
+      "V6A_collision_frame": 615,
+      "image_same_as_V6A": true
+    },
+    {
+      "ID": "00004",
+      "raw_value": null,
+      "accepted_offered_integer": false,
+      "conditional_collision_frame": 594,
+      "V5_collision_frame": 594,
+      "V6A_collision_frame": 1044,
+      "image_same_as_V6A": true
+    }
+  ],
+  "accepted_count": 0,
+  "null_count": 3,
+  "interpretation": "All three responses null with human target description. Text hint alone did not produce a usable physical-contact selection. Visual grounding of the hint has not been verified; identity failure is not disproven. Reconstructed fallback is V5, not model observation.",
+  "freeze_sha256": "48a2400f9183b766a3ec2aa427bbcf606949d6d6f41d8aaa1c1c90d3554cdc2c",
+  "report_sha256": "53c5624986e75e07e1f4b8fbf4278f378bfeb7c82eb648973d160fe701e95806"
+}

@@ -1,0 +1,71 @@
+{
+  "status": "complete",
+  "scope": "Human-target conditional development diagnosis only; forbidden for candidate adoption or submission",
+  "candidate": false,
+  "submission_eligible": false,
+  "freeze_sha256": "48a2400f9183b766a3ec2aa427bbcf606949d6d6f41d8aaa1c1c90d3554cdc2c",
+  "call_count": 3,
+  "network_attempts": 0,
+  "videos": [
+    {
+      "ID": "00000",
+      "prompt": "Use this externally supplied description to identify the same counterpart throughout the images: The collision counterpart is the white vehicle that approaches from the left and suddenly enters toward the right. These dashcam frames are chronological, left to right, top to bottom. They come from two local time windows and do not show the whole clip; there may be a time gap between the windows. Which offered numbered frame first shows actual physical contact between the camera vehicle and the other vehicle? Do not select mere close proximity, braking, or camera shake without visible contact evidence. If the first physical contact cannot be determined from these images, return null. Allowed frames: [558, 566, 572, 578, 587, 595, 601, 607, 616, 829, 838, 844, 850, 858, 867, 873, 879, 887]. Return JSON only with collision_frame: an offered integer frame number, or null.",
+      "max_new_tokens": 48,
+      "raw": "{\n  \"collision_frame\": null\n}",
+      "seconds": 2.5564090999541804,
+      "image_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\contact_verify_v6a_development\\traces\\00000\\call_1\\input_0.png",
+      "image_sha256": "aceb492c4c8fd4aec93eca438cc8a1200728300872ee862be0e6117155f758df",
+      "image_rgb_sha256": "8b8a125b2d57632353d59bd119b7512baa54b61fc12b9803b05e789cc1f2a907",
+      "candidate": false,
+      "submission_eligible": false
+    },
+    {
+      "ID": "00003",
+      "prompt": "Use this externally supplied description to identify the same counterpart throughout the images: The collision counterpart is the vehicle directly ahead that appears black. These dashcam frames are chronological, left to right, top to bottom. They come from two local time windows and do not show the whole clip; there may be a time gap between the windows. Which offered numbered frame first shows actual physical contact between the camera vehicle and the other vehicle? Do not select mere close proximity, braking, or camera shake without visible contact evidence. If the first physical contact cannot be determined from these images, return null. Allowed frames: [315, 324, 330, 336, 345, 354, 360, 366, 375, 570, 576, 585, 594, 600, 606, 615, 624, 630]. Return JSON only with collision_frame: an offered integer frame number, or null.",
+      "max_new_tokens": 48,
+      "raw": "{\n  \"collision_frame\": null\n}",
+      "seconds": 2.161458100017626,
+      "image_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\contact_verify_v6a_development\\traces\\00003\\call_1\\input_0.png",
+      "image_sha256": "a5b48b340cc22620a52ece849d1d378c6152c80d94aac62d3e37dcebd754d664",
+      "image_rgb_sha256": "b038c22be4780d1ba956ee033154095faf3375e4ef4d87702cf9a0670ad65653",
+      "candidate": false,
+      "submission_eligible": false
+    },
+    {
+      "ID": "00004",
+      "prompt": "Use this externally supplied description to identify the same counterpart throughout the images: The collision counterpart is the dark vehicle that suddenly comes from the right. These dashcam frames are chronological, left to right, top to bottom. They come from two local time windows and do not show the whole clip; there may be a time gap between the windows. Which offered numbered frame first shows actual physical contact between the camera vehicle and the other vehicle? Do not select mere close proximity, braking, or camera shake without visible contact evidence. If the first physical contact cannot be determined from these images, return null. Allowed frames: [564, 570, 579, 588, 594, 600, 609, 618, 624, 1038, 1044, 1053, 1062, 1068, 1074, 1083, 1092, 1098]. Return JSON only with collision_frame: an offered integer frame number, or null.",
+      "max_new_tokens": 48,
+      "raw": "{\n  \"collision_frame\": null\n}",
+      "seconds": 2.1173721000086516,
+      "image_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\contact_verify_v6a_development\\traces\\00004\\call_1\\input_0.png",
+      "image_sha256": "b5f8bd5b6620632ba0ab3101aa29ab79ebbef291c65704a4774fe2a9bfc9e689",
+      "image_rgb_sha256": "5c6a54a04a1b5ab589c14dd78ea275a6345a83df22a744adddcbe15325926553",
+      "candidate": false,
+      "submission_eligible": false
+    }
+  ],
+  "runtime": {
+    "precision": "nf4",
+    "compute_dtype": "float16",
+    "attention": "sdpa",
+    "prequantized_checkpoint": true,
+    "quantization_config_source": "saved_config",
+    "double_quant": false,
+    "model_load_seconds": 5.08100549998926,
+    "load_peak_allocated_bytes": 3087007744,
+    "load_peak_reserved_bytes": 3189768192,
+    "loaded_allocated_bytes": 3062069248,
+    "model_memory_footprint_bytes": 2809095488,
+    "device_map": {
+      "": "0"
+    },
+    "max_memory": null,
+    "versions": {
+      "torch": "2.8.0+cu128",
+      "transformers": "4.57.6",
+      "accelerate": "1.9.0",
+      "bitsandbytes": "0.48.1"
+    },
+    "ask_implementation": "inherited unchanged from solution.vlm.LocalVLM.ask"
+  }
+}

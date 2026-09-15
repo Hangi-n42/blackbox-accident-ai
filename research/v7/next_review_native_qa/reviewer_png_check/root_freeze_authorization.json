@@ -1,0 +1,10 @@
+{
+  "source": "Parent root message explicitly authorized execution after both reviews frozen",
+  "review_A_reported_file": "research/v7/next_review_a/review.json",
+  "review_A_reported_sha256": "e8eec2f1889c97fbbe8ef05f029837d808047c30ffda7d723cc353fd2b789888",
+  "review_B_reported_file": "research/v7/next_review_b/review_summary.json",
+  "review_B_reported_sha256": "ce30cef736a69d12551ecf276ace4606a08d8b9f5910b861f7609b115c832c2c",
+  "annotation_files_read_by_this_auditor": false,
+  "reported_annotation_hashes_independently_verified_by_this_auditor": false,
+  "scope": "Native mapping and sampled individual PNG provenance only; root owns semantic adjudication"
+}

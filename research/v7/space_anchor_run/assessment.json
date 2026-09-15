@@ -1,0 +1,31 @@
+{
+  "gate_passed": false,
+  "checks": {
+    "space_macro_strictly_improves": false,
+    "at_least_one_corrected": false,
+    "no_correct_lost": true,
+    "other_three_cached_fields_identical": true
+  },
+  "gained": [],
+  "lost": [],
+  "actual_space_outputs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "fallback_count": 0,
+  "cached_other_fields": true,
+  "end_to_end_replay_performed": false,
+  "adopted": false,
+  "submission_approved": false,
+  "report_sha256": "33a37390e7f80b1cd0463c836b1cf88379bab33302662f1b81dd832c9f068074",
+  "evaluation_sha256": "3a13bfe4a3972107f86698998f10797ebdadb57177dcb837346448e6ec08f0ae",
+  "protocol_sha256": "79422c8bd986ab36a08f1a7a39a226aef1aa2cf2d7dce2335becbce8464b6704",
+  "decision": "Failed fixed space gate. No full4call replay or packaging. Preserve negative prior and stop this contrast."
+}

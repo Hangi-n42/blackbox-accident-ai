@@ -1,0 +1,15 @@
+{
+  "scope": "One exposed development source, 4 fixed diagnostic calls, no accuracy or parameter selection",
+  "conditions": [
+    "single real frame description",
+    "same-size black image description",
+    "20-frame real sheet description",
+    "same real sheet with simple V6 coarse prompt"
+  ],
+  "max_tokens": [
+    64,
+    64,
+    64,
+    64
+  ]
+}

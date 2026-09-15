@@ -1,0 +1,12 @@
+{
+  "timestamp_utc": "2026-09-11 11:31:41 UTC",
+  "reason": "Parent requested a same-size replication control before any external scores were observed, to distinguish scale augmentation from sample-count regularization and bootstrap effects.",
+  "additional_control": "Original features replicated three times, scales [1.0, 1.0, 1.0], unit sample weights, identical model types, hyperparameters, random seed and external split.",
+  "new_gate": "Augmented external stage3 score must be strictly greater than both the original nonaugmented baseline and the threefold identical-replication control before any public OOF diagnostic runs.",
+  "control_is_not_an_adoption_candidate": true,
+  "no_external_validation_score_observed_before_amendment": true,
+  "interrupted_initial_run": "Stopped during augmented external RandomForest fitting, before external score output, gate file, or public OOF. Only baseline checkpoint and configuration/source artifacts existed at interruption.",
+  "initial_source_preserved": "experiment_initial_preserved.py",
+  "initial_frozen_config_preserved": "config_frozen_before_fit.json",
+  "rerun_policy": "Refit all three arms with same split and seed. Preserve original configuration and this amendment; do not search scales. Public OOF, if allowed, compares all three arms; replication is only a confound control."
+}

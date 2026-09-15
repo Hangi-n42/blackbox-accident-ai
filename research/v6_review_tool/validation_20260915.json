@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "command": "node research/v6_review_tool/test_review.cjs",
+  "exit_code": 0,
+  "cases": 11,
+  "frames": 7444,
+  "checks": ["development_scope", "frame_boundary", "contact_mark", "entry_at_start", "uncertain", "local_draft_save", "all_registered_asset_hashes"],
+  "http_cases_js_status": 200,
+  "browser_visual_qa_performed": false,
+  "human_labels_generated_by_tests": false,
+  "model_accuracy_evidence": false
+}

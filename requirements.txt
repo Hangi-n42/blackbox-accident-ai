@@ -1,0 +1,3 @@
+# DACON 236753 runtime provides torch, torchvision, transformers, numpy,
+# pandas, opencv-python-headless, scipy, scikit-learn, pillow, av and joblib.
+# Do not reinstall or change the server's pinned packages.

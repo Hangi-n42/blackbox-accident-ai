@@ -1,0 +1,11 @@
+{
+  "condition": "sheet",
+  "prompt": "Describe the vehicles and road scene visible in this image. State if the image is blank. Do not invent objects. Be concise.",
+  "raw": "Not blank. Multiple vehicles including a white U-Haul van, cars with red brake lights, and traffic lights visible. Road scene shows urban street at night with buildings, crosswalks, and traffic.",
+  "seconds": 5.183019299991429,
+  "size": [
+    1536,
+    1280
+  ],
+  "rgb_sha256": "c9e8af63b7a1c4e1be642e11a7f6c900706a17eef4d941240af80e23deb4ea6d"
+}

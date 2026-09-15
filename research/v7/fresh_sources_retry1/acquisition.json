@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "records": [
+    {
+      "ID": "00014",
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\fresh_sources_retry1\\00014.mp4",
+      "url": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00014.mp4",
+      "bytes": 12482330,
+      "sha256": "90f401dbf91ead5098e1629ebf384036e0d2ca7943269fd2b48327b3a558c7ee"
+    },
+    {
+      "ID": "00015",
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\fresh_sources_retry1\\00015.mp4",
+      "url": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00015.mp4",
+      "bytes": 8094504,
+      "sha256": "929e9e6f2494f30c47f5567e95412d168b458336f31024ab1cd6dea4c9b2cb1a"
+    },
+    {
+      "ID": "00016",
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\fresh_sources_retry1\\00016.mp4",
+      "url": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00016.mp4",
+      "bytes": 28279207,
+      "sha256": "87b96caf17ebd8a76ee7ccc93aec6f5932def39fd5f6d2ccaf65690b72e0f67e"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "prompt": "One dashcam clip; images run left to right, top to bottom. Locate the SAME vehicle involved in the first physical contact with the camera car. Return a JSON plan: contact:[before_frame,best_frame,after_frame], entry:[before_frame,best_frame,after_frame], reference_frame, bbox:[left,top,right,bottom], target (short visual description). All frame numbers must be offered below. Bbox uses 0..1000 coordinates of the original reference image, not this sheet. Use the closest surrounding offered frames for each event. Entry is its first wheel touching the camera car lane boundary; extend that lane through an intersection. If already inside at the true clip start use the first frame for entry. Search the whole timeline for both events; later reentry is not first entry. Use null for unknown fields. True first frame: 0. Offered frames: [0, 10, 80, 160, 240, 319, 399, 479, 492, 559, 578, 639, 719, 799, 879, 958, 1034, 1038, 1118, 1198].",
+  "max_new_tokens": 120,
+  "input_sizes": [
+    [
+      1536,
+      1280
+    ]
+  ],
+  "status": "complete",
+  "raw": "{\n  \"contact\": [null, null, null],\n  \"entry\": [null, null, null],\n  \"reference_frame\": 0,\n  \"bbox\": [null, null, null, null],\n  \"target\": \"null\"\n}",
+  "seconds": 6.67715230002068
+}

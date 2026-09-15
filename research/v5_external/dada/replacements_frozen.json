@@ -1,0 +1,14 @@
+{
+  "reason": "Both independent AI reviewers could not identify discernible ego-vehicle contact/partner. This is not a proof that no collision occurred.",
+  "prediction_blind": true,
+  "preserve_originals_as_diagnostic_only": true,
+  "mapping": {
+    "10/120": "10/155",
+    "49/002": "49/026",
+    "49/015": "49/036",
+    "50/172": "50/133"
+  },
+  "ordering": "First unused reserve in each category under original SHA ranking, two49 replacements assigned in ascending original ID order.",
+  "bounded_scope": "These four reserve clips only. No further replacement to improve prediction results. Ambiguous9/009 and conditional50/031 remain diagnostic-only until reconciled.",
+  "reviewer_files": ["blind_review/root_labels.json", "blind_review/agent1_labels.json"]
+}

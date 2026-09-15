@@ -1,0 +1,258 @@
+{
+  "created_utc": "2026-09-15T12:04:56.873548+00:00",
+  "record_type": "AI_secondary_evidence",
+  "reviewer": "stage1_research",
+  "human_review": false,
+  "official_GT": false,
+  "exact_official_GT_count": 0,
+  "blind_to_other_reviewers_and_model_predictions": true,
+  "review_source_scope": "Only original three MP4 files, acquisition/plan and own extraction outputs. No other reviewer labels or model outputs read.",
+  "visual_scope": "Full timeline 36-frame contact sheet per source, denser event sheets, fine sheets and selected original-resolution PNG inspection. Not every decoded frame was visually inspected; no audio assessment.",
+  "frame_rule": "Zero-based native decode index; frame.pts * rational time_base, never inferred FPS",
+  "source_plan_sha256": "9a5cb3d678ec9a3a7b04e3f74e622e04424ee47b7204a9b0c2c5ef45c884ffe1",
+  "acquisition_sha256": "4ccd7c3fe9479e72b4c7f80ffed9691597dc68925f05c6d5997ec316458a1a7b",
+  "extractor_sha256": "467ae09c69d4a683392600b9691a024a37ff913a5b278a3d3606d5aafdc46580",
+  "no_source_replacement_after_review": true,
+  "primary_contact_interval_available_count": 1,
+  "strict_fully_labeled_cases": 0,
+  "results": [
+    {
+      "ID": "00014",
+      "applicability": "uncertain_contact_and_counterpart",
+      "ego_direct_contact": {
+        "status": "unknown",
+        "surface_visible": false,
+        "evidence": "교차로 회전 뒤 약 19초대의 급격한 시야 회전과 번짐은 확인된다. 직접 접촉면은 보이지 않아 흔들림만으로 접촉을 확정하지 않는다."
+      },
+      "target": {
+        "status": "ambiguous",
+        "description": "정면 검은 세단과 별도로 오른쪽에서 접근·통과한 흰 SUV 및 뒤의 짙은 밴/MPV가 있다. 실제 ego 접촉 상대를 이 영상의 보이는 부분만으로 하나로 확정하지 못했다."
+      },
+      "contact": {
+        "status": "unknown",
+        "interval": null
+      },
+      "diagnostic_event_window": {
+        "frame_interval_inclusive": [
+          572,
+          581
+        ],
+        "native_pts_seconds_interval": [
+          19.066666666666666,
+          19.366666666666667
+        ],
+        "exact_frame": null,
+        "meaning": "Visible abrupt camera motion; NOT a contact label"
+      },
+      "entry": {
+        "status": "unknown",
+        "interval": null,
+        "already_entered_at_start": null,
+        "reason": "실제 상대 미확정 및 ego 좌회전 중 차선 연장 영역/가시 바퀴 대응 불명확"
+      },
+      "origin_side": {
+        "value": null,
+        "status": "unknown",
+        "conditional_candidate_side": "RIGHT",
+        "reason": "오른편 SUV/밴이 상대라면 RIGHT이지만 대상 확정 전에 방향 정답으로 쓰지 않는다."
+      },
+      "evasion_space": {
+        "value": null,
+        "status": "unknown",
+        "reason": "접촉 상대/시점 및 회전 중 실제 진행 영역이 불명확. 정면 빈 도로를 자동 회피 공간으로 판정하지 않는다."
+      },
+      "source": {
+        "ID": "00014",
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\fresh_sources_retry1\\00014.mp4",
+        "url": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00014.mp4",
+        "bytes": 12482330,
+        "sha256": "90f401dbf91ead5098e1629ebf384036e0d2ca7943269fd2b48327b3a558c7ee"
+      },
+      "native_mapping_sha256": "19c7316a269ef9dcf88634774b11615e91cc8ccfebcbc6022def035c1d48b043",
+      "viewed_sheets": [
+        {
+          "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00014\\event.jpg",
+          "sha256": "525e682ec97c7bbbf5bf175a3db241123eadd77f813a23c2359b1d650a163562"
+        },
+        {
+          "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00014\\fine.jpg",
+          "sha256": "5fe593035d969a600b9b52f31a2f0a7d08c4bccf71486770b6f90028c3d870f9"
+        },
+        {
+          "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00014\\opponent.jpg",
+          "sha256": "72a526dfc58df47dee80357b9aa03ede595d04c42bd576799a61c54312d97a21"
+        },
+        {
+          "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00014\\overview.jpg",
+          "sha256": "d478132e976ff46baf5a89fde465aa2734710ac2ee8012411c436a89bba69b1d"
+        }
+      ],
+      "extraction_manifests": {
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00014\\event_manifest.json": "3205079b439f35633497976239f5c29fd8a4c3d20b391a325a58fa1ee3c50b69",
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00014\\fine_manifest.json": "e0c2b4655186dbfb686fa3b821cb03e6d074876c7ea3e084831f419fd47adb25",
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00014\\opponent_manifest.json": "f364fec7eced641b7c59829d6c40a787e195c202aa8b94a197caf01e4eae5899",
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00014\\overview_manifest.json": "f5909352a3daea83713fb5ec5007cf86f4d0038d5dca69826212575afda8e3ab"
+      }
+    },
+    {
+      "ID": "00015",
+      "applicability": "conditional_contact_interval_and_already_entered_only",
+      "ego_direct_contact": {
+        "status": "strong_visual_inference",
+        "surface_visible": false,
+        "evidence": "ego가 계속 앞서던 짙은 회색 세단 뒤로 접근한 뒤 오른편으로 지나가며, 592~596프레임에 붉은 파편과 작은 조각이 나타난다. 단순 근접보다 강한 충돌 단서지만 접촉면은 하단 가림 때문에 보이지 않는다."
+      },
+      "target": {
+        "status": "identified_visual_candidate",
+        "description": "시작부터 ego 차선 전방에 있던 짙은 회색 Toyota 세단. 오른쪽 흰 SUV와 구분한다."
+      },
+      "contact": {
+        "status": "inferred_interval_not_exact_GT",
+        "interval": {
+          "frame_interval_inclusive": [
+            587,
+            593
+          ],
+          "native_pts_seconds_interval": [
+            19.566666666666666,
+            19.766666666666666
+          ],
+          "exact_frame": null
+        },
+        "reason": "587 이전 접근, 589~592 사이 하단/좌측으로 근접 통과, 592~593에서 파편 출현. 구간은 보이는 전후 증거에 따른 AI 추정 범위이며 모든 내부 프레임을 정답으로 인정하지 않는다."
+      },
+      "entry": {
+        "status": "already_entered_visual_observation",
+        "interval": {
+          "frame_interval_inclusive": [
+            0,
+            0
+          ],
+          "native_pts_seconds_interval": [
+            0.0,
+            0.0
+          ],
+          "exact_frame": null
+        },
+        "already_entered_at_start": true,
+        "reason": "초기 0~100프레임 및 전체 시간축에서 같은 전방 세단이 ego 차선 안에 있다. 영상 안 신규 wheel crossing은 관측되지 않았다."
+      },
+      "origin_side": {
+        "value": null,
+        "status": "unknown",
+        "reason": "시작 이전 진입의 방향은 보이지 않는다. 충돌 때 왼쪽에 있다는 이유로 LEFT를 부여하지 않는다."
+      },
+      "evasion_space": {
+        "value": 1,
+        "status": "conditional_visual_assessment_at_inferred_contact",
+        "reason": "추정 접촉 구간 오른쪽에 ego 진행 방향을 바꿀 수 있는 포장 차로가 보인다. 흰 SUV는 우전방에 있으므로 완전한 빈 화면과 구별해 판단했으며, 속도/반응시간 성공 가능성은 평가하지 않았다."
+      },
+      "source": {
+        "ID": "00015",
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\fresh_sources_retry1\\00015.mp4",
+        "url": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00015.mp4",
+        "bytes": 8094504,
+        "sha256": "929e9e6f2494f30c47f5567e95412d168b458336f31024ab1cd6dea4c9b2cb1a"
+      },
+      "native_mapping_sha256": "bdbc1d7897863f4e99b56c0c1e46bde2bab733f248d2d6a16af9a5345f21d860",
+      "viewed_sheets": [
+        {
+          "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00015\\event.jpg",
+          "sha256": "fadbc9ce8609c45cf2fa649b38cd348fffcfa05ae6bb686d181f481ccfa9102e"
+        },
+        {
+          "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00015\\fine.jpg",
+          "sha256": "da490ab7d16480f2938f63923a530fc7b09ae7dbaebcbcdcdbb4e2d202686e40"
+        },
+        {
+          "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00015\\initial.jpg",
+          "sha256": "0c352fb949d1be2a59736d4b97b04ce1a89725e5236260d61c13259bd06e8148"
+        },
+        {
+          "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00015\\overview.jpg",
+          "sha256": "f5c01b743dafe1d933abab661680631ece814685b1a8ccbec1b675ecdd9ea5c2"
+        }
+      ],
+      "extraction_manifests": {
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00015\\event_manifest.json": "aa069a4bd7fb6f7d3637823fc0ed00778b5655bd65f299077439f176521a7343",
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00015\\fine_manifest.json": "75733208a909f63c629fd1eb07fded49484112594ccd8cbceb5d3e1444be6235",
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00015\\initial_manifest.json": "7d5410ee98d25b142ab921aa8ab9a0f467b98a23ba03d7bb1b00420df288b4e3",
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00015\\overview_manifest.json": "fab73ee95a38076525bb703f0f300c67a83ba263f5e4fafd567b43bd08c1d317"
+      }
+    },
+    {
+      "ID": "00016",
+      "applicability": "uncertain_contact_wheel_entry_not_observed",
+      "ego_direct_contact": {
+        "status": "unknown",
+        "surface_visible": false,
+        "evidence": "ego가 오른쪽 주차 은색 SUV 가까이 지나며 멈추고 이후 사람도 등장한다. 직접 접촉면, 분명한 새 손상/파편을 확인하지 못해 접촉 사실을 확정하지 않는다."
+      },
+      "target": {
+        "status": "proximate_candidate_only",
+        "description": "오른쪽 청색 SUV 뒤의 은색 SUV가 가장 가까운 차량이다. 실제 충돌 상대임을 확정한 것은 아니다."
+      },
+      "contact": {
+        "status": "unknown",
+        "interval": null
+      },
+      "diagnostic_event_window": {
+        "frame_interval_inclusive": [
+          564,
+          587
+        ],
+        "native_pts_seconds_interval": [
+          18.926174496644297,
+          19.697986577181208
+        ],
+        "exact_frame": null,
+        "meaning": "Close passing and cessation of relative motion; NOT a contact label"
+      },
+      "entry": {
+        "status": "unknown",
+        "interval": null,
+        "already_entered_at_start": null,
+        "reason": "은색 SUV가 주차 구역에서 ego 차로로 바퀴를 이동하는 사건을 보지 못했다. ego 접근·차량 문 형태를 wheel entry로 대체하지 않는다."
+      },
+      "origin_side": {
+        "value": null,
+        "status": "unknown",
+        "candidate_screen_location": "RIGHT",
+        "reason": "오른쪽에 주차된 위치는 진입 방향과 다르다."
+      },
+      "evasion_space": {
+        "value": null,
+        "status": "unknown_contact_time",
+        "conditional_value_if_close_passing_window_is_contact": 1,
+        "reason": "근접 정지 구간의 은색 SUV 왼쪽 ego 차로에는 공간이 보이나, 접촉 시점이 확정되지 않아 주 필드로 1을 부여하지 않는다."
+      },
+      "source": {
+        "ID": "00016",
+        "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\fresh_sources_retry1\\00016.mp4",
+        "url": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00016.mp4",
+        "bytes": 28279207,
+        "sha256": "87b96caf17ebd8a76ee7ccc93aec6f5932def39fd5f6d2ccaf65690b72e0f67e"
+      },
+      "native_mapping_sha256": "33532b241c25952219f55b7d57c28f8090bc32c1ff8d63c69d08cf5c2c3eb068",
+      "viewed_sheets": [
+        {
+          "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00016\\event.jpg",
+          "sha256": "fbc58387a4fbd464a551a4f983005ab17c5981b5f871d18c5f0f45a596d6316e"
+        },
+        {
+          "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00016\\fine.jpg",
+          "sha256": "2a3e913a8d7909e03b9122f8bf799f7eb1bd6df6c5b86cc18e5e07bf9b8bdd20"
+        },
+        {
+          "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00016\\overview.jpg",
+          "sha256": "f4305f5198f07530885be807dbca5d27fc6cf21e3ec9dfc9a9dbe0ff1909b790"
+        }
+      ],
+      "extraction_manifests": {
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00016\\event_manifest.json": "2aa8247fed4046487b5d0f35d13926ec3608178ef31b1e5bad32518520334b25",
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00016\\fine_manifest.json": "0cb108db58c7566b9af072f73c0c0f02b27f48912d382f8869fe40e89d7101b7",
+        "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage1\\00016\\overview_manifest.json": "e26bf9f264d2f1fa56d077223b0f3ef551c8294aeaba7430c5c784625d0f0d43"
+      }
+    }
+  ]
+}

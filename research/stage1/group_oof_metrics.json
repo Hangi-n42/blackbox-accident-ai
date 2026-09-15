@@ -1,0 +1,60 @@
+{
+  "scope": "Synthetic public-example diagnostic only; no actual recapture validation.",
+  "fixed_C": 0.1,
+  "threshold": 0.5,
+  "source_groups": 5,
+  "models": {
+    "quality": {
+      "macro_f1": 0.696969696969697,
+      "confusion_matrix": [
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    "frequency": {
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          5,
+          0
+        ],
+        [
+          0,
+          5
+        ]
+      ]
+    },
+    "border": {
+      "macro_f1": 0.6,
+      "confusion_matrix": [
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    "all": {
+      "macro_f1": 0.8,
+      "confusion_matrix": [
+        [
+          4,
+          1
+        ],
+        [
+          1,
+          4
+        ]
+      ]
+    }
+  }
+}

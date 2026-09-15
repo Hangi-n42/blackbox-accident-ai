@@ -1,0 +1,412 @@
+{
+  "reference": "research\\stage1\\tpo_judgments.json",
+  "reference_scope": "Previously measured original TPO wrapper, identical local source weights and deterministic frame preprocessing",
+  "device": "cuda",
+  "tolerance": 5e-05,
+  "frames_compared": 480,
+  "max_abs_probability_difference": 1.4901161193847656e-06,
+  "all_video_answers_unchanged": true,
+  "passed": true,
+  "samples": [
+    {
+      "ID": "S1_O_001",
+      "variant": "clean",
+      "frames": 12,
+      "max_abs_probability_difference": 1.0728836059570312e-06,
+      "original_video_probability": 0.782147504389286,
+      "merged_video_probability": 0.7821476235985756,
+      "video_answer_unchanged": true,
+      "seconds": 0.28100000000267755
+    },
+    {
+      "ID": "S1_O_001",
+      "variant": "jpeg75",
+      "frames": 12,
+      "max_abs_probability_difference": 6.556510925292969e-07,
+      "original_video_probability": 0.79877853145202,
+      "merged_video_probability": 0.7987783973415693,
+      "video_answer_unchanged": true,
+      "seconds": 0.07800000000861473
+    },
+    {
+      "ID": "S1_O_001",
+      "variant": "half_resolution",
+      "frames": 12,
+      "max_abs_probability_difference": 8.940696716308594e-07,
+      "original_video_probability": 0.7970661371946335,
+      "merged_video_probability": 0.7970657969514529,
+      "video_answer_unchanged": true,
+      "seconds": 0.07799999999406282
+    },
+    {
+      "ID": "S1_O_001",
+      "variant": "center_crop",
+      "frames": 12,
+      "max_abs_probability_difference": 4.470348358154297e-07,
+      "original_video_probability": 0.924134207268556,
+      "merged_video_probability": 0.924134279290835,
+      "video_answer_unchanged": true,
+      "seconds": 0.07799999999406282
+    },
+    {
+      "ID": "S1_O_002",
+      "variant": "clean",
+      "frames": 12,
+      "max_abs_probability_difference": 6.854534149169922e-07,
+      "original_video_probability": 0.39816481868426007,
+      "merged_video_probability": 0.3981648435195287,
+      "video_answer_unchanged": true,
+      "seconds": 0.07799999999406282
+    },
+    {
+      "ID": "S1_O_002",
+      "variant": "jpeg75",
+      "frames": 12,
+      "max_abs_probability_difference": 7.152557373046875e-07,
+      "original_video_probability": 0.4274502918124199,
+      "merged_video_probability": 0.4274502173066139,
+      "video_answer_unchanged": true,
+      "seconds": 0.07800000000861473
+    },
+    {
+      "ID": "S1_O_002",
+      "variant": "half_resolution",
+      "frames": 12,
+      "max_abs_probability_difference": 9.5367431640625e-07,
+      "original_video_probability": 0.44630225251118344,
+      "merged_video_probability": 0.4463021804889043,
+      "video_answer_unchanged": true,
+      "seconds": 0.0629999999946449
+    },
+    {
+      "ID": "S1_O_002",
+      "variant": "center_crop",
+      "frames": 12,
+      "max_abs_probability_difference": 1.1324882507324219e-06,
+      "original_video_probability": 0.8534788439671198,
+      "merged_video_probability": 0.8534788688023885,
+      "video_answer_unchanged": true,
+      "seconds": 0.07799999999406282
+    },
+    {
+      "ID": "S1_O_003",
+      "variant": "clean",
+      "frames": 12,
+      "max_abs_probability_difference": 5.662441253662109e-07,
+      "original_video_probability": 0.28445572033524513,
+      "merged_video_probability": 0.2844558333357175,
+      "video_answer_unchanged": true,
+      "seconds": 0.07799999999406282
+    },
+    {
+      "ID": "S1_O_003",
+      "variant": "jpeg75",
+      "frames": 12,
+      "max_abs_probability_difference": 5.364418029785156e-07,
+      "original_video_probability": 0.2853690062959989,
+      "merged_video_probability": 0.2853690981864929,
+      "video_answer_unchanged": true,
+      "seconds": 0.07800000000861473
+    },
+    {
+      "ID": "S1_O_003",
+      "variant": "half_resolution",
+      "frames": 12,
+      "max_abs_probability_difference": 5.364418029785156e-07,
+      "original_video_probability": 0.27263979737957317,
+      "merged_video_probability": 0.27263979241251945,
+      "video_answer_unchanged": true,
+      "seconds": 0.07899999999790452
+    },
+    {
+      "ID": "S1_O_003",
+      "variant": "center_crop",
+      "frames": 12,
+      "max_abs_probability_difference": 4.76837158203125e-07,
+      "original_video_probability": 0.3207492319246133,
+      "merged_video_probability": 0.3207492033640544,
+      "video_answer_unchanged": true,
+      "seconds": 0.062000000005355105
+    },
+    {
+      "ID": "S1_O_004",
+      "variant": "clean",
+      "frames": 12,
+      "max_abs_probability_difference": 5.066394805908203e-07,
+      "original_video_probability": 0.4242596651117007,
+      "merged_video_probability": 0.42425963779290515,
+      "video_answer_unchanged": true,
+      "seconds": 0.07799999999406282
+    },
+    {
+      "ID": "S1_O_004",
+      "variant": "jpeg75",
+      "frames": 12,
+      "max_abs_probability_difference": 3.5762786865234375e-07,
+      "original_video_probability": 0.4339907765388489,
+      "merged_video_probability": 0.4339907690882683,
+      "video_answer_unchanged": true,
+      "seconds": 0.07800000000861473
+    },
+    {
+      "ID": "S1_O_004",
+      "variant": "half_resolution",
+      "frames": 12,
+      "max_abs_probability_difference": 6.556510925292969e-07,
+      "original_video_probability": 0.4718897690375646,
+      "merged_video_probability": 0.47188979883988696,
+      "video_answer_unchanged": true,
+      "seconds": 0.07899999999790452
+    },
+    {
+      "ID": "S1_O_004",
+      "variant": "center_crop",
+      "frames": 12,
+      "max_abs_probability_difference": 7.450580596923828e-07,
+      "original_video_probability": 0.37811094522476196,
+      "merged_video_probability": 0.37811090300480527,
+      "video_answer_unchanged": true,
+      "seconds": 0.07799999999406282
+    },
+    {
+      "ID": "S1_O_005",
+      "variant": "clean",
+      "frames": 12,
+      "max_abs_probability_difference": 4.76837158203125e-07,
+      "original_video_probability": 0.32821039110422134,
+      "merged_video_probability": 0.3282104829947154,
+      "video_answer_unchanged": true,
+      "seconds": 0.07799999999406282
+    },
+    {
+      "ID": "S1_O_005",
+      "variant": "jpeg75",
+      "frames": 12,
+      "max_abs_probability_difference": 5.662441253662109e-07,
+      "original_video_probability": 0.33839065084854764,
+      "merged_video_probability": 0.3383905850350857,
+      "video_answer_unchanged": true,
+      "seconds": 0.07800000000861473
+    },
+    {
+      "ID": "S1_O_005",
+      "variant": "half_resolution",
+      "frames": 12,
+      "max_abs_probability_difference": 8.940696716308594e-07,
+      "original_video_probability": 0.36991311485568684,
+      "merged_video_probability": 0.3699130949874719,
+      "video_answer_unchanged": true,
+      "seconds": 0.0629999999946449
+    },
+    {
+      "ID": "S1_O_005",
+      "variant": "center_crop",
+      "frames": 12,
+      "max_abs_probability_difference": 8.344650268554688e-07,
+      "original_video_probability": 0.6332626218597094,
+      "merged_video_probability": 0.6332625895738602,
+      "video_answer_unchanged": true,
+      "seconds": 0.07800000000861473
+    },
+    {
+      "ID": "S1_R_001",
+      "variant": "clean",
+      "frames": 12,
+      "max_abs_probability_difference": 1.0132789611816406e-06,
+      "original_video_probability": 0.7756014664967855,
+      "merged_video_probability": 0.7756014118591944,
+      "video_answer_unchanged": true,
+      "seconds": 0.07799999999406282
+    },
+    {
+      "ID": "S1_R_001",
+      "variant": "jpeg75",
+      "frames": 12,
+      "max_abs_probability_difference": 1.0728836059570312e-06,
+      "original_video_probability": 0.8305590202411016,
+      "merged_video_probability": 0.8305590699116389,
+      "video_answer_unchanged": true,
+      "seconds": 0.07800000000861473
+    },
+    {
+      "ID": "S1_R_001",
+      "variant": "half_resolution",
+      "frames": 12,
+      "max_abs_probability_difference": 5.960464477539062e-07,
+      "original_video_probability": 0.8097778608401617,
+      "merged_video_probability": 0.8097777416308721,
+      "video_answer_unchanged": true,
+      "seconds": 0.07799999999406282
+    },
+    {
+      "ID": "S1_R_001",
+      "variant": "center_crop",
+      "frames": 12,
+      "max_abs_probability_difference": 5.960464477539062e-07,
+      "original_video_probability": 0.9127613057692846,
+      "merged_video_probability": 0.9127612859010696,
+      "video_answer_unchanged": true,
+      "seconds": 0.062000000005355105
+    },
+    {
+      "ID": "S1_R_002",
+      "variant": "clean",
+      "frames": 12,
+      "max_abs_probability_difference": 1.0728836059570312e-06,
+      "original_video_probability": 0.6128866548339525,
+      "merged_video_probability": 0.6128864039977392,
+      "video_answer_unchanged": true,
+      "seconds": 0.07800000000861473
+    },
+    {
+      "ID": "S1_R_002",
+      "variant": "jpeg75",
+      "frames": 12,
+      "max_abs_probability_difference": 1.3709068298339844e-06,
+      "original_video_probability": 0.5967559615770975,
+      "merged_video_probability": 0.596755767862002,
+      "video_answer_unchanged": true,
+      "seconds": 0.0629999999946449
+    },
+    {
+      "ID": "S1_R_002",
+      "variant": "half_resolution",
+      "frames": 12,
+      "max_abs_probability_difference": 7.152557373046875e-07,
+      "original_video_probability": 0.6732860207557678,
+      "merged_video_probability": 0.6732859363158544,
+      "video_answer_unchanged": true,
+      "seconds": 0.07800000000861473
+    },
+    {
+      "ID": "S1_R_002",
+      "variant": "center_crop",
+      "frames": 12,
+      "max_abs_probability_difference": 8.940696716308594e-07,
+      "original_video_probability": 0.924971138437589,
+      "merged_video_probability": 0.9249710341294607,
+      "video_answer_unchanged": true,
+      "seconds": 0.07799999999406282
+    },
+    {
+      "ID": "S1_R_003",
+      "variant": "clean",
+      "frames": 12,
+      "max_abs_probability_difference": 8.344650268554688e-07,
+      "original_video_probability": 0.35240840787688893,
+      "merged_video_probability": 0.3524085047344367,
+      "video_answer_unchanged": true,
+      "seconds": 0.062000000005355105
+    },
+    {
+      "ID": "S1_R_003",
+      "variant": "jpeg75",
+      "frames": 12,
+      "max_abs_probability_difference": 3.2782554626464844e-07,
+      "original_video_probability": 0.30995456626017887,
+      "merged_video_probability": 0.30995453397432965,
+      "video_answer_unchanged": true,
+      "seconds": 0.07899999999790452
+    },
+    {
+      "ID": "S1_R_003",
+      "variant": "half_resolution",
+      "frames": 12,
+      "max_abs_probability_difference": 5.960464477539062e-07,
+      "original_video_probability": 0.3798318492869536,
+      "merged_video_probability": 0.3798317350447178,
+      "video_answer_unchanged": true,
+      "seconds": 0.07799999999406282
+    },
+    {
+      "ID": "S1_R_003",
+      "variant": "center_crop",
+      "frames": 12,
+      "max_abs_probability_difference": 3.5762786865234375e-07,
+      "original_video_probability": 0.37119608620802563,
+      "merged_video_probability": 0.37119612097740173,
+      "video_answer_unchanged": true,
+      "seconds": 0.07800000000861473
+    },
+    {
+      "ID": "S1_R_004",
+      "variant": "clean",
+      "frames": 12,
+      "max_abs_probability_difference": 8.344650268554688e-07,
+      "original_video_probability": 0.6248864407340685,
+      "merged_video_probability": 0.6248867213726044,
+      "video_answer_unchanged": true,
+      "seconds": 0.07800000000861473
+    },
+    {
+      "ID": "S1_R_004",
+      "variant": "jpeg75",
+      "frames": 12,
+      "max_abs_probability_difference": 1.4901161193847656e-06,
+      "original_video_probability": 0.5589591562747955,
+      "merged_video_probability": 0.558959074318409,
+      "video_answer_unchanged": true,
+      "seconds": 0.07799999999406282
+    },
+    {
+      "ID": "S1_R_004",
+      "variant": "half_resolution",
+      "frames": 12,
+      "max_abs_probability_difference": 5.364418029785156e-07,
+      "original_video_probability": 0.6578283781806628,
+      "merged_video_probability": 0.6578283334771792,
+      "video_answer_unchanged": true,
+      "seconds": 0.07799999999406282
+    },
+    {
+      "ID": "S1_R_004",
+      "variant": "center_crop",
+      "frames": 12,
+      "max_abs_probability_difference": 9.5367431640625e-07,
+      "original_video_probability": 0.644840732216835,
+      "merged_video_probability": 0.6448406924804052,
+      "video_answer_unchanged": true,
+      "seconds": 0.07800000000861473
+    },
+    {
+      "ID": "S1_R_005",
+      "variant": "clean",
+      "frames": 12,
+      "max_abs_probability_difference": 1.1324882507324219e-06,
+      "original_video_probability": 0.4439723814527194,
+      "merged_video_probability": 0.4439721927046776,
+      "video_answer_unchanged": true,
+      "seconds": 0.06300000000919681
+    },
+    {
+      "ID": "S1_R_005",
+      "variant": "jpeg75",
+      "frames": 12,
+      "max_abs_probability_difference": 7.152557373046875e-07,
+      "original_video_probability": 0.42367880543073017,
+      "merged_video_probability": 0.42367875576019287,
+      "video_answer_unchanged": true,
+      "seconds": 0.07799999999406282
+    },
+    {
+      "ID": "S1_R_005",
+      "variant": "half_resolution",
+      "frames": 12,
+      "max_abs_probability_difference": 3.5762786865234375e-07,
+      "original_video_probability": 0.47495636840661365,
+      "merged_video_probability": 0.47495634605487186,
+      "video_answer_unchanged": true,
+      "seconds": 0.07800000000861473
+    },
+    {
+      "ID": "S1_R_005",
+      "variant": "center_crop",
+      "frames": 12,
+      "max_abs_probability_difference": 6.556510925292969e-07,
+      "original_video_probability": 0.7750655363003413,
+      "merged_video_probability": 0.7750656306743622,
+      "video_answer_unchanged": true,
+      "seconds": 0.07799999999406282
+    }
+  ]
+}

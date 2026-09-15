@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "paths": [
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\candidates\\qwen3_vl_4b\\tokenizer.json",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm\\tokenizer.json"
+  ],
+  "sha256": [
+    "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+    "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  ],
+  "pretokenizer_equal": true,
+  "vocab_equal": true,
+  "normalized_merges_equal": true,
+  "encoding_pairs": [
+    {
+      "text": "Return JSON with collision_frame only. Allowed event frames: [0, 1, 584, 1256].",
+      "ids_equal": true
+    },
+    {
+      "text": "<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|> Choose the first wheel touching the lane.\n<|im_end|>",
+      "ids_equal": true
+    },
+    {
+      "text": "{\"entry_side\":\"RIGHT\",\"evasion_space\":1}",
+      "ids_equal": true
+    },
+    {
+      "text": "접촉 시점·진입 방향: 왼쪽과 오른쪽",
+      "ids_equal": true
+    },
+    {
+      "text": "camera car's lane; before/after.\n0123456789",
+      "ids_equal": true
+    }
+  ],
+  "warning_origin": "Local Transformers4.57.6 checks model_type only when saved transformers_version<=4.57.2. Saved Qwen3_VL config version4.57.6 falls through to Mistral warning without establishing Mistral identity.",
+  "interpretation": "Warning alone is not evidence that V6 tokenization differs from original Qwen assets. Do not apply Mistral regex to Qwen merely to suppress this warning.",
+  "model_or_tokenizer_changed": false
+}

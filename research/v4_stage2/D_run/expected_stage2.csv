@@ -1,0 +1,6 @@
+ID,collision_frame,entry_frame,evasion_space,entry_side
+S2_001,35,24,0,RIGHT
+S2_002,47,36,0,LEFT
+S2_003,33,23,0,LEFT
+S2_004,42,4,0,RIGHT
+S2_005,33,23,0,RIGHT

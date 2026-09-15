@@ -1,0 +1,52 @@
+{
+  "created_utc": "2026-09-15T13:21:05.202873+00:00",
+  "previous_turn_classification": "progress",
+  "basis": "Completed frozen4B/8B factorial andspacecontrast, CPUaudits, preservedfailedgates; noadoption.",
+  "goal_status": "active",
+  "completion_proven": false,
+  "requirements": [
+    {
+      "requirement": "Study taskdefinitions and primary top-tier papers with experts, includingotherstages",
+      "status": "evidence_available",
+      "evidence": [
+        "literature_stage2.md",
+        "task_and_review_audit.md",
+        "validation_and_resource_plan.md",
+        "stage1_preprocessing_audit.md",
+        "submission_contract_audit.md"
+      ]
+    },
+    {
+      "requirement": "Correct Stage2 candidateomission,selection,entrytime,direction,space with validatedimprovements",
+      "status": "not_achieved",
+      "evidence": [
+        "factorial_summary.json",
+        "space_anchor_run/assessment.json",
+        "motion_init_dev/evaluation.json"
+      ]
+    },
+    {
+      "requirement": "Produce actualV7 artifact and verify offline/resourcecontracts",
+      "status": "not_achieved",
+      "evidence": "NoV7 package selected orcreated; exporthelperpreparationisnotexecution."
+    },
+    {
+      "requirement": "SubmitV7 toDACON",
+      "status": "not_achieved",
+      "evidence": "NoV7submissionactionorreceipt inthiswork; remoteUI notqueriedinthiscontinuation."
+    }
+  ],
+  "current_concrete_progress": "Acquiredfixed6newsourceobjects85,811,684bytes againstpinnedLFS_SHA; twoblindAIreviews andnativePTS audit inprogress.",
+  "new_sources_are_not_GT": true,
+  "current_blocker": "No adoptedaccuracycandidate andno newlyestablished independentprecisehuman/officialreference forchangedfields.",
+  "meaningful_next_action_available": true,
+  "next_action": "Finishfixedsixreview andsourceQA, preserveuncertainty underfrozenadjudicationrules; nomodelretuningorGTpromotion.",
+  "files": {
+    "research\\v7\\research_decision_20260915.md": "396052c47f0e18a4f2e93c047b0958f6b239a03cc9dc55f8ba3d78f197b211ac",
+    "research\\v7\\factorial_summary.json": "e57fa2d05bfc87fdb1b50a5b422562652c0c7e8700f0ea3ee0573753efd11681",
+    "research\\v7\\space_anchor_run\\assessment.json": "c7bb6e5207e01aa9c2a585c32a1736658acffb2fa63654429c1f8b94f3e9621a",
+    "research\\v7\\new_validation_sources\\selection_plan.json": "fd23f561b30fb3a5917e1342ec964f7625c86f8aec3d5819749e202a08dcfc17",
+    "research\\v7\\new_validation_sources\\acquisition.json": "4fc2fda7db03ffc3f2bc11f90a1d18d7760f03c5b86d4616f8e4a101d74fd5d2",
+    "research\\v7\\next_review_adjudication_protocol.json": "75fd167e7c3578f721a611a9e3fe9dcb9340570ffaccca465fc87e28658ace12"
+  }
+}

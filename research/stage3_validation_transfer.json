@@ -1,0 +1,255 @@
+{
+  "method": "External CAN continuous regression, then public-label classifier. External thresholds not used. Public training fold includes reflection augmentation.",
+  "external_rows": 2761,
+  "external_routes": 23,
+  "results": {
+    "accel": [
+      {
+        "name": "linear",
+        "macro_f1": 0.5095099935525467,
+        "report": {
+          "ACCELERATING": {
+            "precision": 0.46153846153846156,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.5454545454545454,
+            "support": 9.0
+          },
+          "DECELERATING": {
+            "precision": 0.21428571428571427,
+            "recall": 0.375,
+            "f1-score": 0.2727272727272727,
+            "support": 8.0
+          },
+          "CONSTANT": {
+            "precision": 0.7647058823529411,
+            "recall": 0.43333333333333335,
+            "f1-score": 0.5531914893617021,
+            "support": 30.0
+          },
+          "STOPPED": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1-score": 0.6666666666666666,
+            "support": 3.0
+          },
+          "accuracy": 0.5,
+          "macro avg": {
+            "precision": 0.48513251454427925,
+            "recall": 0.6187499999999999,
+            "f1-score": 0.5095099935525467,
+            "support": 50.0
+          },
+          "weighted avg": {
+            "precision": 0.606186166774402,
+            "recall": 0.5,
+            "f1-score": 0.5137330754352031,
+            "support": 50.0
+          }
+        }
+      },
+      {
+        "name": "extra",
+        "macro_f1": 0.5277777777777777,
+        "report": {
+          "ACCELERATING": {
+            "precision": 0.4,
+            "recall": 0.2222222222222222,
+            "f1-score": 0.2857142857142857,
+            "support": 9.0
+          },
+          "DECELERATING": {
+            "precision": 0.5,
+            "recall": 0.375,
+            "f1-score": 0.42857142857142855,
+            "support": 8.0
+          },
+          "CONSTANT": {
+            "precision": 0.696969696969697,
+            "recall": 0.7666666666666667,
+            "f1-score": 0.7301587301587301,
+            "support": 30.0
+          },
+          "STOPPED": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1-score": 0.6666666666666666,
+            "support": 3.0
+          },
+          "accuracy": 0.62,
+          "macro avg": {
+            "precision": 0.5242424242424243,
+            "recall": 0.5909722222222222,
+            "f1-score": 0.5277777777777777,
+            "support": 50.0
+          },
+          "weighted avg": {
+            "precision": 0.6001818181818181,
+            "recall": 0.62,
+            "f1-score": 0.5980952380952381,
+            "support": 50.0
+          }
+        }
+      },
+      {
+        "name": "forest",
+        "macro_f1": 0.5219706368899917,
+        "report": {
+          "ACCELERATING": {
+            "precision": 0.2857142857142857,
+            "recall": 0.2222222222222222,
+            "f1-score": 0.25,
+            "support": 9.0
+          },
+          "DECELERATING": {
+            "precision": 0.6,
+            "recall": 0.375,
+            "f1-score": 0.46153846153846156,
+            "support": 8.0
+          },
+          "CONSTANT": {
+            "precision": 0.6875,
+            "recall": 0.7333333333333333,
+            "f1-score": 0.7096774193548387,
+            "support": 30.0
+          },
+          "STOPPED": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1-score": 0.6666666666666666,
+            "support": 3.0
+          },
+          "accuracy": 0.6,
+          "macro avg": {
+            "precision": 0.5183035714285714,
+            "recall": 0.5826388888888889,
+            "f1-score": 0.5219706368899917,
+            "support": 50.0
+          },
+          "weighted avg": {
+            "precision": 0.5899285714285714,
+            "recall": 0.6,
+            "f1-score": 0.5846526054590572,
+            "support": 50.0
+          }
+        }
+      }
+    ],
+    "steer": [
+      {
+        "name": "linear",
+        "macro_f1": 0.5191697191697191,
+        "report": {
+          "LEFT": {
+            "precision": 0.4444444444444444,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.5333333333333333,
+            "support": 6.0
+          },
+          "STRAIGHT": {
+            "precision": 0.8275862068965517,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.7384615384615385,
+            "support": 36.0
+          },
+          "RIGHT": {
+            "precision": 0.2222222222222222,
+            "recall": 0.4,
+            "f1-score": 0.2857142857142857,
+            "support": 5.0
+          },
+          "accuracy": 0.6382978723404256,
+          "macro avg": {
+            "precision": 0.4980842911877395,
+            "recall": 0.5777777777777778,
+            "f1-score": 0.5191697191697191,
+            "support": 47.0
+          },
+          "weighted avg": {
+            "precision": 0.7142740686394392,
+            "recall": 0.6382978723404256,
+            "f1-score": 0.664110357727379,
+            "support": 47.0
+          }
+        }
+      },
+      {
+        "name": "extra",
+        "macro_f1": 0.5415695415695416,
+        "report": {
+          "LEFT": {
+            "precision": 0.8,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.7272727272727273,
+            "support": 6.0
+          },
+          "STRAIGHT": {
+            "precision": 0.8333333333333334,
+            "recall": 0.9722222222222222,
+            "f1-score": 0.8974358974358975,
+            "support": 36.0
+          },
+          "RIGHT": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 5.0
+          },
+          "accuracy": 0.8297872340425532,
+          "macro avg": {
+            "precision": 0.5444444444444444,
+            "recall": 0.5462962962962963,
+            "f1-score": 0.5415695415695416,
+            "support": 47.0
+          },
+          "weighted avg": {
+            "precision": 0.7404255319148936,
+            "recall": 0.8297872340425532,
+            "f1-score": 0.7802410355601844,
+            "support": 47.0
+          }
+        }
+      },
+      {
+        "name": "forest",
+        "macro_f1": 0.6861861861861862,
+        "report": {
+          "LEFT": {
+            "precision": 0.6666666666666666,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.6666666666666666,
+            "support": 6.0
+          },
+          "STRAIGHT": {
+            "precision": 0.868421052631579,
+            "recall": 0.9166666666666666,
+            "f1-score": 0.8918918918918919,
+            "support": 36.0
+          },
+          "RIGHT": {
+            "precision": 0.6666666666666666,
+            "recall": 0.4,
+            "f1-score": 0.5,
+            "support": 5.0
+          },
+          "accuracy": 0.8297872340425532,
+          "macro avg": {
+            "precision": 0.7339181286549707,
+            "recall": 0.6611111111111111,
+            "f1-score": 0.6861861861861862,
+            "support": 47.0
+          },
+          "weighted avg": {
+            "precision": 0.8212019410227698,
+            "recall": 0.8297872340425532,
+            "f1-score": 0.8214491086831511,
+            "support": 47.0
+          }
+        }
+      }
+    ]
+  },
+  "accel_selected": "extra",
+  "steer_selected": "forest",
+  "selected_oof_stage3": 0.5753003003003002,
+  "caveat": "Model selection uses same small public OOF set. External aligned-video duplicates excluded; route overlap not fully ruled out."
+}

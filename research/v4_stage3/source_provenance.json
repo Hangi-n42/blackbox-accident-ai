@@ -1,0 +1,26 @@
+{
+  "official_dataset": "https://github.com/commaai/comma2k19",
+  "license": "MIT",
+  "files": [
+    {
+      "path": "research\\stage3_temporal_experiment.py",
+      "sha256": "5386ad5cb8095171ce4a339bbf9af0334d163e959130692f7456c9ca57fd16fe"
+    },
+    {
+      "path": "research\\stage3_external_overlap.json",
+      "sha256": "c6c1506989337f8304a0dddc03a212586466a327ecb9141438d154d4cd41d47e"
+    },
+    {
+      "path": "external_data\\comma2k19\\chunk1_manifest.json",
+      "sha256": "6be1c00bdd5c4e17b8d892bc58c6b17eba285b6e109bd1dd998285db47919e65"
+    },
+    {
+      "path": "external_data\\comma2k19\\chunk3_manifest.json",
+      "sha256": "6b0adc2f29fcf0435903428eeafa7bfa3dadb6267fa3e2169d122619e41ebb94"
+    },
+    {
+      "path": "external_data\\comma2k19\\LICENSE",
+      "sha256": "89bc004605a774df644fb4166f39c11fe680d508b2ea9e27d9ad714021efeefb"
+    }
+  ]
+}

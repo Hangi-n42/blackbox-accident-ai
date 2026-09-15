@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "record_type": "human_review_draft",
+  "evaluation_eligible": false,
+  "created_at": "2026-09-14T15:34:31.865Z",
+  "ID": "NEXAR_REVIEW_00000",
+  "source_group_id": "PENDING_SOURCE_AUDIT_00000",
+  "source_video_sha256": "9b7364178cb8b6194db0ee0f96df0ad44615fc265efe435297394dcf6a9be5f9",
+  "source_uri": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00000.mp4",
+  "split": "unassigned",
+  "exposure": "unseen",
+  "time_origin": "native source presentation timestamp seconds, no offset applied",
+  "frame_mapping_sha256": "e29432ec35bdade3f8cbcfc6320584500cbc3b139d6b68fde6af60f4ead6dbf0",
+  "review": {
+    "contact": {
+      "status": "observed",
+      "frame": 584,
+      "pts_seconds": 20.207612456747405
+    },
+    "annotator": "나",
+    "target": "왼편에서 하얀색의 차량이 갑자기 오른쪽으로 진입하며 사고 발생",
+    "side": "LEFT",
+    "space": "0",
+    "notes": "",
+    "annotation_blinded": true,
+    "entry": {
+      "status": "observed",
+      "frame": 555,
+      "pts_seconds": 19.20415224913495
+    },
+    "already_entered_at_start": false
+  },
+  "requires": "Independent review and documented adjudication; no automatic promotion to ground truth."
+}

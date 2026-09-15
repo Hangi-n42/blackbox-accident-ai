@@ -1,0 +1,467 @@
+{
+  "source_sha256": "90f401dbf91ead5098e1629ebf384036e0d2ca7943269fd2b48327b3a558c7ee",
+  "start_frame": 480,
+  "end_frame": 630,
+  "step": 3,
+  "selected": [
+    {
+      "frame": 480,
+      "native_pts": 245760,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 16.0,
+      "path": "native_frame000480.png",
+      "sha256": "c55348f92b318bef3cac5a93ebd9834483981ebf64a0e0ef98048c15a3c8857c"
+    },
+    {
+      "frame": 483,
+      "native_pts": 247296,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 16.1,
+      "path": "native_frame000483.png",
+      "sha256": "27fe5983c9ee2d6f9312aa9292f2acdfa02da56356f939a817d7c441d3ef2a2e"
+    },
+    {
+      "frame": 486,
+      "native_pts": 248832,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 16.2,
+      "path": "native_frame000486.png",
+      "sha256": "bf52550295e3ff6eb772cb92da0a93bfc760e45445f4cd04fc44faed6f531ee6"
+    },
+    {
+      "frame": 489,
+      "native_pts": 250368,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 16.3,
+      "path": "native_frame000489.png",
+      "sha256": "516a41f1ad22ed014ba89d59c261658911e50f7b8c05d19123d544d97d74d03d"
+    },
+    {
+      "frame": 492,
+      "native_pts": 251904,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 16.4,
+      "path": "native_frame000492.png",
+      "sha256": "6ce665361fb3b16ac76e12d1df217cf062668c47b9c93b5a92b7f5b037da63da"
+    },
+    {
+      "frame": 495,
+      "native_pts": 253440,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 16.5,
+      "path": "native_frame000495.png",
+      "sha256": "254801104ff9b4643dc94621c734fc009ee83dac3c0bec6d10d5886a7e1395ee"
+    },
+    {
+      "frame": 498,
+      "native_pts": 254976,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 16.6,
+      "path": "native_frame000498.png",
+      "sha256": "e05d03d3b7db0a71efe04b3695472c2e47228f6edcb9836192cf84ff3c5c97f8"
+    },
+    {
+      "frame": 501,
+      "native_pts": 256512,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 16.7,
+      "path": "native_frame000501.png",
+      "sha256": "84f8347c9e975672e70a63aad109b8cccb63d5004ffed5efb0a5872f610d2695"
+    },
+    {
+      "frame": 504,
+      "native_pts": 258048,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 16.8,
+      "path": "native_frame000504.png",
+      "sha256": "3971179d186772a5f91f992b2db4ebe6506db81c4bf4ac54634dd4c4e25737d2"
+    },
+    {
+      "frame": 507,
+      "native_pts": 259584,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 16.9,
+      "path": "native_frame000507.png",
+      "sha256": "6694538a90d832ea8fc6cc846e1d9d8ae6a980e2dec54eff8fec92ed48da1725"
+    },
+    {
+      "frame": 510,
+      "native_pts": 261120,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 17.0,
+      "path": "native_frame000510.png",
+      "sha256": "061a65ea31f3e48ce3507cacdfb5b5b65c68838519bef91d536157731cdecab0"
+    },
+    {
+      "frame": 513,
+      "native_pts": 262656,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 17.1,
+      "path": "native_frame000513.png",
+      "sha256": "e7cb8f671aa68a45460f6eb73444d581e68be3f3609f11a6d443dcf778709c2b"
+    },
+    {
+      "frame": 516,
+      "native_pts": 264192,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 17.2,
+      "path": "native_frame000516.png",
+      "sha256": "fcd5552d5f895f57807952f3150127109694d8144339e17d76763a49417a6b94"
+    },
+    {
+      "frame": 519,
+      "native_pts": 265728,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 17.3,
+      "path": "native_frame000519.png",
+      "sha256": "61fbdc6ff5cd5c639d0cc0a39f893f3a98a0157e7b9ff4258e8f504e3b852af0"
+    },
+    {
+      "frame": 522,
+      "native_pts": 267264,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 17.4,
+      "path": "native_frame000522.png",
+      "sha256": "a0e16e688d60acd9e3aaa7e6fd03acfb31a9a70537213b895fa99abcf8697663"
+    },
+    {
+      "frame": 525,
+      "native_pts": 268800,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 17.5,
+      "path": "native_frame000525.png",
+      "sha256": "a8b45f22b23bf4423308f37e72c88c199596d9f1b98acfb6acbc60ca648bd4b8"
+    },
+    {
+      "frame": 528,
+      "native_pts": 270336,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 17.6,
+      "path": "native_frame000528.png",
+      "sha256": "6b4c91880f3cd8f8880fb8c1f32a44013799c9007f9318f380cf38f9106c355e"
+    },
+    {
+      "frame": 531,
+      "native_pts": 271872,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 17.7,
+      "path": "native_frame000531.png",
+      "sha256": "77d07fcfb16ce00abb0f7f418bb4f65056cc762d2e568a6836826c185e1d493d"
+    },
+    {
+      "frame": 534,
+      "native_pts": 273408,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 17.8,
+      "path": "native_frame000534.png",
+      "sha256": "63a33ced34ed098e3acc555388f6513446172e4e00ea7c2679fae9452675db43"
+    },
+    {
+      "frame": 537,
+      "native_pts": 274944,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 17.9,
+      "path": "native_frame000537.png",
+      "sha256": "d92c305d09d1581b2e4baae24517a355c65bd6bfdf634894609ffb1fcfc0b7a7"
+    },
+    {
+      "frame": 540,
+      "native_pts": 276480,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 18.0,
+      "path": "native_frame000540.png",
+      "sha256": "ba4354349fe8905b6803dc3548470223b9ab070ae5224f201036f4346ad06875"
+    },
+    {
+      "frame": 543,
+      "native_pts": 278016,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 18.1,
+      "path": "native_frame000543.png",
+      "sha256": "43828b2455eff1f839f03d58e068781727fb77b7457ad03c5fa7a523193829cc"
+    },
+    {
+      "frame": 546,
+      "native_pts": 279552,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 18.2,
+      "path": "native_frame000546.png",
+      "sha256": "5d8d950fe795c03c42d3c4cb58664bc6439fe1616902269ed294498bbad78bf4"
+    },
+    {
+      "frame": 549,
+      "native_pts": 281088,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 18.3,
+      "path": "native_frame000549.png",
+      "sha256": "79375daaee57f7ba61c9d5be425251083fdd336d392d3735486883b5baac1d6b"
+    },
+    {
+      "frame": 552,
+      "native_pts": 282624,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 18.4,
+      "path": "native_frame000552.png",
+      "sha256": "5217839fc488a1963d33b96ff8391c963f5b6d6e2f4d31a31105db52b4fd536d"
+    },
+    {
+      "frame": 555,
+      "native_pts": 284160,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 18.5,
+      "path": "native_frame000555.png",
+      "sha256": "84f665e3ab0a91de95838bd055ac737c15f5d0ea465e92f80deee999f3e1cbef"
+    },
+    {
+      "frame": 558,
+      "native_pts": 285696,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 18.6,
+      "path": "native_frame000558.png",
+      "sha256": "3b26e9cd1c41afdea6949d7e0b2ce345a9237f2b6c9978a49dd4826288718941"
+    },
+    {
+      "frame": 561,
+      "native_pts": 287232,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 18.7,
+      "path": "native_frame000561.png",
+      "sha256": "2a8be7b5202ed7bffd859181ffeb586409b41520a10bc0ec1b163e6b80bb2e1d"
+    },
+    {
+      "frame": 564,
+      "native_pts": 288768,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 18.8,
+      "path": "native_frame000564.png",
+      "sha256": "8964dc625d063acf1a9f015f34b711179e849e7e712f142b02bfd8bdba838ef5"
+    },
+    {
+      "frame": 567,
+      "native_pts": 290304,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 18.9,
+      "path": "native_frame000567.png",
+      "sha256": "a43a91079b84e3f0cc5f52ec128696cad774a7c0bdfa7f18d35f3e3751fddbbb"
+    },
+    {
+      "frame": 570,
+      "native_pts": 291840,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.0,
+      "path": "native_frame000570.png",
+      "sha256": "28f89504e3f4ae6627789a466961a42b0a88d53c297bbac2d3dce7f2941f13c2"
+    },
+    {
+      "frame": 573,
+      "native_pts": 293376,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.1,
+      "path": "native_frame000573.png",
+      "sha256": "a066ebbb4e6994ac0c54627a604647e780a3bf27382ec477878855231f00311f"
+    },
+    {
+      "frame": 576,
+      "native_pts": 294912,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.2,
+      "path": "native_frame000576.png",
+      "sha256": "159d7fdd0b0e3f87f3692201b51702031a0ff62cc1d0c4691184eccd4b47db4a"
+    },
+    {
+      "frame": 579,
+      "native_pts": 296448,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.3,
+      "path": "native_frame000579.png",
+      "sha256": "3cb34134043e26f6b648b71bcb84154ea433aceaa5fae82a24fff25383881d4a"
+    },
+    {
+      "frame": 582,
+      "native_pts": 297984,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.4,
+      "path": "native_frame000582.png",
+      "sha256": "44712771731226d50bb4553e62f7032d9595021691ca7bda5c2cce0a066aaaae"
+    },
+    {
+      "frame": 585,
+      "native_pts": 299520,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.5,
+      "path": "native_frame000585.png",
+      "sha256": "dab0634baa5b9651a662e77064823c1540e5ad11120edb9c331477a635c8a631"
+    },
+    {
+      "frame": 588,
+      "native_pts": 301056,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.6,
+      "path": "native_frame000588.png",
+      "sha256": "5cdac7da35f6179878654f9c3ba4c69fdeb1a42b05fa4983e08c12986d31647d"
+    },
+    {
+      "frame": 591,
+      "native_pts": 302592,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.7,
+      "path": "native_frame000591.png",
+      "sha256": "b421b4b187cbd2e570f157728f62d67a5931f6d08774e1192c3260228b7ac12c"
+    },
+    {
+      "frame": 594,
+      "native_pts": 304128,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.8,
+      "path": "native_frame000594.png",
+      "sha256": "deb9b62322e3af8d5ca49e3731b5b119a7c9b3e999e8226f3be97fa6f8288bda"
+    },
+    {
+      "frame": 597,
+      "native_pts": 305664,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 19.9,
+      "path": "native_frame000597.png",
+      "sha256": "dddd9f0f03abbed076d3224788cb4ef459f32c8e3d82351edc30d52a4c7226e5"
+    },
+    {
+      "frame": 600,
+      "native_pts": 307200,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 20.0,
+      "path": "native_frame000600.png",
+      "sha256": "39a27fa13be7abfddf5d31ac71d37615113303745efe3352eb41d9e46ae1bd70"
+    },
+    {
+      "frame": 603,
+      "native_pts": 308736,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 20.1,
+      "path": "native_frame000603.png",
+      "sha256": "3bcc6b2ec03b11cce4de116d83f2a9e99a324a062f3f543725817f0d26d647d8"
+    },
+    {
+      "frame": 606,
+      "native_pts": 310272,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 20.2,
+      "path": "native_frame000606.png",
+      "sha256": "dc430e5a8aa0fef02a87d67d132c0665b7c9b9e824d778eb6e28bcc990b50d37"
+    },
+    {
+      "frame": 609,
+      "native_pts": 311808,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 20.3,
+      "path": "native_frame000609.png",
+      "sha256": "fcdf5a8465143b02e1fde7149d905180ec4fc71ef9874e3981a3e1909b6b926c"
+    },
+    {
+      "frame": 612,
+      "native_pts": 313344,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 20.4,
+      "path": "native_frame000612.png",
+      "sha256": "e1034f7e292fa3badc4d6aee360bd75f39a07d073393635cb1d20166c27fb21b"
+    },
+    {
+      "frame": 615,
+      "native_pts": 314880,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 20.5,
+      "path": "native_frame000615.png",
+      "sha256": "07bff581bd41187c568c9ae938bee76afbaa6e97db907ad72a979cd808aae06c"
+    },
+    {
+      "frame": 618,
+      "native_pts": 316416,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 20.6,
+      "path": "native_frame000618.png",
+      "sha256": "dd3b4f979d0326a06bd65200c864c7d776ba98d4c2a544346fd75f2749087d9a"
+    },
+    {
+      "frame": 621,
+      "native_pts": 317952,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 20.7,
+      "path": "native_frame000621.png",
+      "sha256": "d2d1a8d9a077f2f1995a34dea599068ad136b6151a217b955e35326739c734f2"
+    },
+    {
+      "frame": 624,
+      "native_pts": 319488,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 20.8,
+      "path": "native_frame000624.png",
+      "sha256": "13793aee351a0d2d77aeff2715c0eb8ec0820512630037b5c055552b27d80630"
+    },
+    {
+      "frame": 627,
+      "native_pts": 321024,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 20.9,
+      "path": "native_frame000627.png",
+      "sha256": "c8d7885e3544612330813bdde56ddc7bca11de8995a630e9792330c1c047b52a"
+    },
+    {
+      "frame": 630,
+      "native_pts": 322560,
+      "time_base_num": 1,
+      "time_base_den": 15360,
+      "pts_seconds": 21.0,
+      "path": "native_frame000630.png",
+      "sha256": "d9c9dbaa998e41ecd3da31af10a7fcd83716eaa710b76050094f9fd5c39f2f67"
+    }
+  ]
+}

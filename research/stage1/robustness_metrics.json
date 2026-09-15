@@ -1,0 +1,221 @@
+{
+  "scope": "Synthetic example source-held-out robustness diagnostic. Not actual recapture performance.",
+  "models": {
+    "frequency_clean": {
+      "clean": {
+        "macro_f1": 1.0,
+        "confusion_matrix": [
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      "jpeg75": {
+        "macro_f1": 1.0,
+        "confusion_matrix": [
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      "jpeg95": {
+        "macro_f1": 1.0,
+        "confusion_matrix": [
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      "half_resolution": {
+        "macro_f1": 0.3333333333333333,
+        "confusion_matrix": [
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            0
+          ]
+        ]
+      }
+    },
+    "frequency_augmented": {
+      "clean": {
+        "macro_f1": 1.0,
+        "confusion_matrix": [
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      "jpeg75": {
+        "macro_f1": 1.0,
+        "confusion_matrix": [
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      "jpeg95": {
+        "macro_f1": 1.0,
+        "confusion_matrix": [
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      "half_resolution": {
+        "macro_f1": 0.45054945054945056,
+        "confusion_matrix": [
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      }
+    },
+    "all_clean": {
+      "clean": {
+        "macro_f1": 0.8,
+        "confusion_matrix": [
+          [
+            4,
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "jpeg75": {
+        "macro_f1": 0.8,
+        "confusion_matrix": [
+          [
+            4,
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "jpeg95": {
+        "macro_f1": 0.8,
+        "confusion_matrix": [
+          [
+            4,
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "half_resolution": {
+        "macro_f1": 0.45054945054945056,
+        "confusion_matrix": [
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      }
+    },
+    "all_augmented": {
+      "clean": {
+        "macro_f1": 0.696969696969697,
+        "confusion_matrix": [
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "jpeg75": {
+        "macro_f1": 0.696969696969697,
+        "confusion_matrix": [
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "jpeg95": {
+        "macro_f1": 0.696969696969697,
+        "confusion_matrix": [
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "half_resolution": {
+        "macro_f1": 0.4949494949494949,
+        "confusion_matrix": [
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    }
+  }
+}

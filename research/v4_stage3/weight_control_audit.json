@@ -1,0 +1,86 @@
+[
+  {
+    "scope": "public_oof",
+    "task": "accel",
+    "held": "OPEN_001",
+    "same_x_y_and_class_weights": true,
+    "same_effective_total": true
+  },
+  {
+    "scope": "public_oof",
+    "task": "accel",
+    "held": "OPEN_002",
+    "same_x_y_and_class_weights": true,
+    "same_effective_total": true
+  },
+  {
+    "scope": "public_oof",
+    "task": "accel",
+    "held": "OPEN_003",
+    "same_x_y_and_class_weights": true,
+    "same_effective_total": true
+  },
+  {
+    "scope": "public_oof",
+    "task": "accel",
+    "held": "OPEN_004",
+    "same_x_y_and_class_weights": true,
+    "same_effective_total": true
+  },
+  {
+    "scope": "public_oof",
+    "task": "accel",
+    "held": "OPEN_005",
+    "same_x_y_and_class_weights": true,
+    "same_effective_total": true
+  },
+  {
+    "scope": "public_oof",
+    "task": "steer",
+    "held": "OPEN_001",
+    "same_x_y_and_class_weights": true,
+    "same_effective_total": true
+  },
+  {
+    "scope": "public_oof",
+    "task": "steer",
+    "held": "OPEN_002",
+    "same_x_y_and_class_weights": true,
+    "same_effective_total": true
+  },
+  {
+    "scope": "public_oof",
+    "task": "steer",
+    "held": "OPEN_003",
+    "same_x_y_and_class_weights": true,
+    "same_effective_total": true
+  },
+  {
+    "scope": "public_oof",
+    "task": "steer",
+    "held": "OPEN_004",
+    "same_x_y_and_class_weights": true,
+    "same_effective_total": true
+  },
+  {
+    "scope": "public_oof",
+    "task": "steer",
+    "held": "OPEN_005",
+    "same_x_y_and_class_weights": true,
+    "same_effective_total": true
+  },
+  {
+    "scope": "source_stress",
+    "task": "accel",
+    "held": null,
+    "same_x_y_and_class_weights": true,
+    "same_effective_total": true
+  },
+  {
+    "scope": "source_stress",
+    "task": "steer",
+    "held": null,
+    "same_x_y_and_class_weights": true,
+    "same_effective_total": true
+  }
+]

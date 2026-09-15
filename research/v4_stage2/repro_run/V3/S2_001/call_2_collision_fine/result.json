@@ -1,0 +1,42 @@
+{
+  "name": "collision_fine",
+  "prompt": "These dashcam frames are ordered left to right, top to bottom. Which numbered frame first shows actual contact of the camera car with the other vehicle? Look for contact, not the later strongest shake. Allowed frames: [22, 25, 28, 30, 32, 33, 34, 35, 36, 41, 42, 43, 44, 45]. Return JSON with collision_frame.",
+  "max_new_tokens": 48,
+  "input_images": [
+    {
+      "size": [
+        1920,
+        768
+      ],
+      "rgb_sha256": "3d643cc2c1a37df66ad0cd7a70a2d966176c5c8aa068d12509b02602e18de19f"
+    }
+  ],
+  "bounded_image_sizes": [
+    [
+      1728,
+      672
+    ]
+  ],
+  "pixel_budget": 1200000,
+  "offered_frames": {
+    "Allowed frames": [
+      22,
+      25,
+      28,
+      30,
+      32,
+      33,
+      34,
+      35,
+      36,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  "status": "complete",
+  "raw_output": "{\n  \"collision_frame\": 33\n}",
+  "seconds": 2.2142387999920174
+}

@@ -1,0 +1,784 @@
+{
+  "scope": "CPU-only mocked VLM synthetic contracts; NOT model accuracy or timing validation.",
+  "gpu_used": false,
+  "torch_imported": false,
+  "tests_run": 8,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "sources_sha256": {
+    "solution/stage2_entry_refine.py": "d31bcebe7885828bf58cf51b3cb70cc4a9301c8586032fd3feac3c689dfad475",
+    "solution/stage2_v2.py": "89ae0bc640670d7ed76103ce7c829d405ad27cc25368c74d153d3b96962b8442",
+    "scripts/test_stage2_entry_refine.py": "48edb2a85af9cc45b640733313c78517c2198126f4b26d0b3ac03eba2c15491d"
+  },
+  "synthetic_runs": [
+    {
+      "input_count": 12,
+      "first_number": 0,
+      "last_number": 11,
+      "calls": 4,
+      "prediction": {
+        "collision_frame": 11,
+        "entry_frame": 5,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 5,
+        "additional_calls": 0,
+        "fine_candidates": [],
+        "interval_positions": null,
+        "interval_frames": null,
+        "skip_reason": "all_precontact_frames_already_shown",
+        "accepted": false
+      }
+    },
+    {
+      "input_count": 300,
+      "first_number": 0,
+      "last_number": 299,
+      "calls": 5,
+      "prediction": {
+        "collision_frame": 299,
+        "entry_frame": 136,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 136,
+        "additional_calls": 1,
+        "fine_candidates": [
+          109,
+          114,
+          118,
+          122,
+          127,
+          132,
+          136,
+          141,
+          147,
+          152,
+          158,
+          163
+        ],
+        "interval_positions": [
+          109,
+          163
+        ],
+        "interval_frames": [
+          109,
+          163
+        ],
+        "skip_reason": null,
+        "accepted": false,
+        "prompt": "These dashcam frames are chronological, left to right then top to bottom. They show a local time window of the full clip; the first image may not be the start of the clip. Which numbered frame first shows the other collision vehicle entering the camera car's lane? Entry is its first wheel touching the lane boundary. If it entered before this window, choose the first shown frame as the window boundary, not as proof of the actual entry time. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [109, 114, 118, 122, 127, 132, 136, 141, 147, 152, 158, 163]. Return JSON with entry_frame only.",
+        "raw_output": "not JSON",
+        "parsed": {},
+        "fallback_reason": "invalid_or_unshown_entry_frame"
+      }
+    },
+    {
+      "input_count": 300,
+      "first_number": 0,
+      "last_number": 299,
+      "calls": 5,
+      "prediction": {
+        "collision_frame": 299,
+        "entry_frame": 136,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 136,
+        "additional_calls": 1,
+        "fine_candidates": [
+          109,
+          114,
+          118,
+          122,
+          127,
+          132,
+          136,
+          141,
+          147,
+          152,
+          158,
+          163
+        ],
+        "interval_positions": [
+          109,
+          163
+        ],
+        "interval_frames": [
+          109,
+          163
+        ],
+        "skip_reason": null,
+        "accepted": false,
+        "prompt": "These dashcam frames are chronological, left to right then top to bottom. They show a local time window of the full clip; the first image may not be the start of the clip. Which numbered frame first shows the other collision vehicle entering the camera car's lane? Entry is its first wheel touching the lane boundary. If it entered before this window, choose the first shown frame as the window boundary, not as proof of the actual entry time. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [109, 114, 118, 122, 127, 132, 136, 141, 147, 152, 158, 163]. Return JSON with entry_frame only.",
+        "raw_output": "[]",
+        "parsed": {},
+        "fallback_reason": "invalid_or_unshown_entry_frame"
+      }
+    },
+    {
+      "input_count": 300,
+      "first_number": 0,
+      "last_number": 299,
+      "calls": 5,
+      "prediction": {
+        "collision_frame": 299,
+        "entry_frame": 136,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 136,
+        "additional_calls": 1,
+        "fine_candidates": [
+          109,
+          114,
+          118,
+          122,
+          127,
+          132,
+          136,
+          141,
+          147,
+          152,
+          158,
+          163
+        ],
+        "interval_positions": [
+          109,
+          163
+        ],
+        "interval_frames": [
+          109,
+          163
+        ],
+        "skip_reason": null,
+        "accepted": false,
+        "prompt": "These dashcam frames are chronological, left to right then top to bottom. They show a local time window of the full clip; the first image may not be the start of the clip. Which numbered frame first shows the other collision vehicle entering the camera car's lane? Entry is its first wheel touching the lane boundary. If it entered before this window, choose the first shown frame as the window boundary, not as proof of the actual entry time. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [109, 114, 118, 122, 127, 132, 136, 141, 147, 152, 158, 163]. Return JSON with entry_frame only.",
+        "raw_output": "{}",
+        "parsed": {},
+        "fallback_reason": "invalid_or_unshown_entry_frame"
+      }
+    },
+    {
+      "input_count": 300,
+      "first_number": 0,
+      "last_number": 299,
+      "calls": 5,
+      "prediction": {
+        "collision_frame": 299,
+        "entry_frame": 136,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 136,
+        "additional_calls": 1,
+        "fine_candidates": [
+          109,
+          114,
+          118,
+          122,
+          127,
+          132,
+          136,
+          141,
+          147,
+          152,
+          158,
+          163
+        ],
+        "interval_positions": [
+          109,
+          163
+        ],
+        "interval_frames": [
+          109,
+          163
+        ],
+        "skip_reason": null,
+        "accepted": false,
+        "prompt": "These dashcam frames are chronological, left to right then top to bottom. They show a local time window of the full clip; the first image may not be the start of the clip. Which numbered frame first shows the other collision vehicle entering the camera car's lane? Entry is its first wheel touching the lane boundary. If it entered before this window, choose the first shown frame as the window boundary, not as proof of the actual entry time. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [109, 114, 118, 122, 127, 132, 136, 141, 147, 152, 158, 163]. Return JSON with entry_frame only.",
+        "raw_output": "{\"entry_frame\": true}",
+        "parsed": {
+          "entry_frame": true
+        },
+        "fallback_reason": "invalid_or_unshown_entry_frame"
+      }
+    },
+    {
+      "input_count": 300,
+      "first_number": 0,
+      "last_number": 299,
+      "calls": 5,
+      "prediction": {
+        "collision_frame": 299,
+        "entry_frame": 136,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 136,
+        "additional_calls": 1,
+        "fine_candidates": [
+          109,
+          114,
+          118,
+          122,
+          127,
+          132,
+          136,
+          141,
+          147,
+          152,
+          158,
+          163
+        ],
+        "interval_positions": [
+          109,
+          163
+        ],
+        "interval_frames": [
+          109,
+          163
+        ],
+        "skip_reason": null,
+        "accepted": false,
+        "prompt": "These dashcam frames are chronological, left to right then top to bottom. They show a local time window of the full clip; the first image may not be the start of the clip. Which numbered frame first shows the other collision vehicle entering the camera car's lane? Entry is its first wheel touching the lane boundary. If it entered before this window, choose the first shown frame as the window boundary, not as proof of the actual entry time. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [109, 114, 118, 122, 127, 132, 136, 141, 147, 152, 158, 163]. Return JSON with entry_frame only.",
+        "raw_output": "{\"entry_frame\": 1.5}",
+        "parsed": {
+          "entry_frame": 1.5
+        },
+        "fallback_reason": "invalid_or_unshown_entry_frame"
+      }
+    },
+    {
+      "input_count": 300,
+      "first_number": 0,
+      "last_number": 299,
+      "calls": 5,
+      "prediction": {
+        "collision_frame": 299,
+        "entry_frame": 136,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 136,
+        "additional_calls": 1,
+        "fine_candidates": [
+          109,
+          114,
+          118,
+          122,
+          127,
+          132,
+          136,
+          141,
+          147,
+          152,
+          158,
+          163
+        ],
+        "interval_positions": [
+          109,
+          163
+        ],
+        "interval_frames": [
+          109,
+          163
+        ],
+        "skip_reason": null,
+        "accepted": false,
+        "prompt": "These dashcam frames are chronological, left to right then top to bottom. They show a local time window of the full clip; the first image may not be the start of the clip. Which numbered frame first shows the other collision vehicle entering the camera car's lane? Entry is its first wheel touching the lane boundary. If it entered before this window, choose the first shown frame as the window boundary, not as proof of the actual entry time. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [109, 114, 118, 122, 127, 132, 136, 141, 147, 152, 158, 163]. Return JSON with entry_frame only.",
+        "raw_output": "{\"entry_frame\": \"136\"}",
+        "parsed": {
+          "entry_frame": "136"
+        },
+        "fallback_reason": "invalid_or_unshown_entry_frame"
+      }
+    },
+    {
+      "input_count": 300,
+      "first_number": 0,
+      "last_number": 299,
+      "calls": 5,
+      "prediction": {
+        "collision_frame": 299,
+        "entry_frame": 136,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 136,
+        "additional_calls": 1,
+        "fine_candidates": [
+          109,
+          114,
+          118,
+          122,
+          127,
+          132,
+          136,
+          141,
+          147,
+          152,
+          158,
+          163
+        ],
+        "interval_positions": [
+          109,
+          163
+        ],
+        "interval_frames": [
+          109,
+          163
+        ],
+        "skip_reason": null,
+        "accepted": false,
+        "prompt": "These dashcam frames are chronological, left to right then top to bottom. They show a local time window of the full clip; the first image may not be the start of the clip. Which numbered frame first shows the other collision vehicle entering the camera car's lane? Entry is its first wheel touching the lane boundary. If it entered before this window, choose the first shown frame as the window boundary, not as proof of the actual entry time. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [109, 114, 118, 122, 127, 132, 136, 141, 147, 152, 158, 163]. Return JSON with entry_frame only.",
+        "raw_output": "{\"entry_frame\": 999999}",
+        "parsed": {
+          "entry_frame": 999999
+        },
+        "fallback_reason": "invalid_or_unshown_entry_frame"
+      }
+    },
+    {
+      "input_count": 300,
+      "first_number": 0,
+      "last_number": 299,
+      "calls": 5,
+      "prediction": {
+        "collision_frame": 299,
+        "entry_frame": 136,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 136,
+        "additional_calls": 1,
+        "fine_candidates": [
+          109,
+          114,
+          118,
+          122,
+          127,
+          132,
+          136,
+          141,
+          147,
+          152,
+          158,
+          163
+        ],
+        "interval_positions": [
+          109,
+          163
+        ],
+        "interval_frames": [
+          109,
+          163
+        ],
+        "skip_reason": null,
+        "accepted": false,
+        "prompt": "These dashcam frames are chronological, left to right then top to bottom. They show a local time window of the full clip; the first image may not be the start of the clip. Which numbered frame first shows the other collision vehicle entering the camera car's lane? Entry is its first wheel touching the lane boundary. If it entered before this window, choose the first shown frame as the window boundary, not as proof of the actual entry time. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [109, 114, 118, 122, 127, 132, 136, 141, 147, 152, 158, 163]. Return JSON with entry_frame only.",
+        "raw_output": "[{\"entry_frame\": 125}]",
+        "parsed": {},
+        "fallback_reason": "invalid_or_unshown_entry_frame"
+      }
+    },
+    {
+      "input_count": 300,
+      "first_number": 0,
+      "last_number": 299,
+      "calls": 5,
+      "prediction": {
+        "collision_frame": 299,
+        "entry_frame": 136,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 136,
+        "additional_calls": 1,
+        "fine_candidates": [
+          109,
+          114,
+          118,
+          122,
+          127,
+          132,
+          136,
+          141,
+          147,
+          152,
+          158,
+          163
+        ],
+        "interval_positions": [
+          109,
+          163
+        ],
+        "interval_frames": [
+          109,
+          163
+        ],
+        "skip_reason": null,
+        "accepted": false,
+        "prompt": "These dashcam frames are chronological, left to right then top to bottom. They show a local time window of the full clip; the first image may not be the start of the clip. Which numbered frame first shows the other collision vehicle entering the camera car's lane? Entry is its first wheel touching the lane boundary. If it entered before this window, choose the first shown frame as the window boundary, not as proof of the actual entry time. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [109, 114, 118, 122, 127, 132, 136, 141, 147, 152, 158, 163]. Return JSON with entry_frame only.",
+        "raw_output": "prefix {\"entry_frame\": 125}",
+        "parsed": {},
+        "fallback_reason": "invalid_or_unshown_entry_frame"
+      }
+    },
+    {
+      "input_count": 300,
+      "first_number": 0,
+      "last_number": 299,
+      "calls": 5,
+      "prediction": {
+        "collision_frame": 299,
+        "entry_frame": 136,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 136,
+        "additional_calls": 1,
+        "fine_candidates": [
+          109,
+          114,
+          118,
+          122,
+          127,
+          132,
+          136,
+          141,
+          147,
+          152,
+          158,
+          163
+        ],
+        "interval_positions": [
+          109,
+          163
+        ],
+        "interval_frames": [
+          109,
+          163
+        ],
+        "skip_reason": null,
+        "accepted": false,
+        "prompt": "These dashcam frames are chronological, left to right then top to bottom. They show a local time window of the full clip; the first image may not be the start of the clip. Which numbered frame first shows the other collision vehicle entering the camera car's lane? Entry is its first wheel touching the lane boundary. If it entered before this window, choose the first shown frame as the window boundary, not as proof of the actual entry time. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [109, 114, 118, 122, 127, 132, 136, 141, 147, 152, 158, 163]. Return JSON with entry_frame only.",
+        "fallback_reason": "refinement_call_failed",
+        "error": "RuntimeError: synthetic model failure"
+      }
+    },
+    {
+      "input_count": 300,
+      "first_number": 0,
+      "last_number": 299,
+      "calls": 5,
+      "prediction": {
+        "collision_frame": 299,
+        "entry_frame": 109,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 136,
+        "additional_calls": 1,
+        "fine_candidates": [
+          109,
+          114,
+          118,
+          122,
+          127,
+          132,
+          136,
+          141,
+          147,
+          152,
+          158,
+          163
+        ],
+        "interval_positions": [
+          109,
+          163
+        ],
+        "interval_frames": [
+          109,
+          163
+        ],
+        "skip_reason": null,
+        "accepted": true,
+        "prompt": "These dashcam frames are chronological, left to right then top to bottom. They show a local time window of the full clip; the first image may not be the start of the clip. Which numbered frame first shows the other collision vehicle entering the camera car's lane? Entry is its first wheel touching the lane boundary. If it entered before this window, choose the first shown frame as the window boundary, not as proof of the actual entry time. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [109, 114, 118, 122, 127, 132, 136, 141, 147, 152, 158, 163]. Return JSON with entry_frame only.",
+        "raw_output": "{\"entry_frame\": 109}",
+        "parsed": {
+          "entry_frame": 109
+        },
+        "selected_local_window_start": true
+      }
+    },
+    {
+      "input_count": 600,
+      "first_number": 0,
+      "last_number": 599,
+      "calls": 5,
+      "prediction": {
+        "collision_frame": 599,
+        "entry_frame": 250,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 272,
+        "additional_calls": 1,
+        "fine_candidates": [
+          218,
+          229,
+          240,
+          250,
+          261,
+          272,
+          281,
+          290,
+          300,
+          309,
+          318,
+          327
+        ],
+        "interval_positions": [
+          218,
+          327
+        ],
+        "interval_frames": [
+          218,
+          327
+        ],
+        "skip_reason": null,
+        "accepted": true,
+        "prompt": "These dashcam frames are chronological, left to right then top to bottom. They show a local time window of the full clip; the first image may not be the start of the clip. Which numbered frame first shows the other collision vehicle entering the camera car's lane? Entry is its first wheel touching the lane boundary. If it entered before this window, choose the first shown frame as the window boundary, not as proof of the actual entry time. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [218, 229, 240, 250, 261, 272, 281, 290, 300, 309, 318, 327]. Return JSON with entry_frame only.",
+        "raw_output": "{\"entry_frame\": 250}",
+        "parsed": {
+          "entry_frame": 250
+        },
+        "selected_local_window_start": false
+      }
+    },
+    {
+      "input_count": 300,
+      "first_number": 101,
+      "last_number": 2194,
+      "calls": 5,
+      "prediction": {
+        "collision_frame": 2194,
+        "entry_frame": 955,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 1053,
+        "additional_calls": 1,
+        "fine_candidates": [
+          864,
+          899,
+          927,
+          955,
+          990,
+          1025,
+          1053,
+          1088,
+          1130,
+          1165,
+          1207,
+          1242
+        ],
+        "interval_positions": [
+          109,
+          163
+        ],
+        "interval_frames": [
+          864,
+          1242
+        ],
+        "skip_reason": null,
+        "accepted": true,
+        "prompt": "These dashcam frames are chronological, left to right then top to bottom. They show a local time window of the full clip; the first image may not be the start of the clip. Which numbered frame first shows the other collision vehicle entering the camera car's lane? Entry is its first wheel touching the lane boundary. If it entered before this window, choose the first shown frame as the window boundary, not as proof of the actual entry time. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [864, 899, 927, 955, 990, 1025, 1053, 1088, 1130, 1165, 1207, 1242]. Return JSON with entry_frame only.",
+        "raw_output": "{\"entry_frame\": 955}",
+        "parsed": {
+          "entry_frame": 955
+        },
+        "selected_local_window_start": false
+      }
+    },
+    {
+      "input_count": 300,
+      "first_number": 0,
+      "last_number": 299,
+      "calls": 5,
+      "prediction": {
+        "collision_frame": 299,
+        "entry_frame": 122,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 136,
+        "additional_calls": 1,
+        "fine_candidates": [
+          109,
+          114,
+          118,
+          122,
+          127,
+          132,
+          136,
+          141,
+          147,
+          152,
+          158,
+          163
+        ],
+        "interval_positions": [
+          109,
+          163
+        ],
+        "interval_frames": [
+          109,
+          163
+        ],
+        "skip_reason": null,
+        "accepted": true,
+        "prompt": "These dashcam frames are chronological, left to right then top to bottom. They show a local time window of the full clip; the first image may not be the start of the clip. Which numbered frame first shows the other collision vehicle entering the camera car's lane? Entry is its first wheel touching the lane boundary. If it entered before this window, choose the first shown frame as the window boundary, not as proof of the actual entry time. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [109, 114, 118, 122, 127, 132, 136, 141, 147, 152, 158, 163]. Return JSON with entry_frame only.",
+        "raw_output": "{\"entry_frame\": 122}",
+        "parsed": {
+          "entry_frame": 122
+        },
+        "selected_local_window_start": false
+      }
+    },
+    {
+      "input_count": 300,
+      "first_number": 1000,
+      "last_number": 1299,
+      "calls": 5,
+      "prediction": {
+        "collision_frame": 1299,
+        "entry_frame": 1122,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 1136,
+        "additional_calls": 1,
+        "fine_candidates": [
+          1109,
+          1114,
+          1118,
+          1122,
+          1127,
+          1132,
+          1136,
+          1141,
+          1147,
+          1152,
+          1158,
+          1163
+        ],
+        "interval_positions": [
+          109,
+          163
+        ],
+        "interval_frames": [
+          1109,
+          1163
+        ],
+        "skip_reason": null,
+        "accepted": true,
+        "prompt": "These dashcam frames are chronological, left to right then top to bottom. They show a local time window of the full clip; the first image may not be the start of the clip. Which numbered frame first shows the other collision vehicle entering the camera car's lane? Entry is its first wheel touching the lane boundary. If it entered before this window, choose the first shown frame as the window boundary, not as proof of the actual entry time. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [1109, 1114, 1118, 1122, 1127, 1132, 1136, 1141, 1147, 1152, 1158, 1163]. Return JSON with entry_frame only.",
+        "raw_output": "{\"entry_frame\": 1122}",
+        "parsed": {
+          "entry_frame": 1122
+        },
+        "selected_local_window_start": false
+      }
+    },
+    {
+      "input_count": 1,
+      "first_number": 901,
+      "last_number": 901,
+      "calls": 4,
+      "prediction": {
+        "collision_frame": 901,
+        "entry_frame": 901,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 901,
+        "additional_calls": 0,
+        "fine_candidates": [],
+        "interval_positions": null,
+        "interval_frames": null,
+        "skip_reason": "all_precontact_frames_already_shown",
+        "accepted": false
+      }
+    },
+    {
+      "input_count": 300,
+      "first_number": 0,
+      "last_number": 299,
+      "calls": 5,
+      "prediction": {
+        "collision_frame": 299,
+        "entry_frame": 122,
+        "entry_side": "RIGHT",
+        "evasion_space": 1
+      },
+      "entry_refinement": {
+        "coarse_entry_frame": 136,
+        "additional_calls": 1,
+        "fine_candidates": [
+          109,
+          114,
+          118,
+          122,
+          127,
+          132,
+          136,
+          141,
+          147,
+          152,
+          158,
+          163
+        ],
+        "interval_positions": [
+          109,
+          163
+        ],
+        "interval_frames": [
+          109,
+          163
+        ],
+        "skip_reason": null,
+        "accepted": true,
+        "prompt": "These dashcam frames are chronological, left to right then top to bottom. They show a local time window of the full clip; the first image may not be the start of the clip. Which numbered frame first shows the other collision vehicle entering the camera car's lane? Entry is its first wheel touching the lane boundary. If it entered before this window, choose the first shown frame as the window boundary, not as proof of the actual entry time. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [109, 114, 118, 122, 127, 132, 136, 141, 147, 152, 158, 163]. Return JSON with entry_frame only.",
+        "raw_output": "{\"entry_frame\": 122, \"collision_frame\": 0, \"entry_side\": \"LEFT\", \"evasion_space\": 0}",
+        "parsed": {
+          "entry_frame": 122,
+          "collision_frame": 0,
+          "entry_side": "LEFT",
+          "evasion_space": 0
+        },
+        "selected_local_window_start": false
+      }
+    }
+  ]
+}

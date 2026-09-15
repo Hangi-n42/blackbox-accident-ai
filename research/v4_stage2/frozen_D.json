@@ -1,0 +1,11 @@
+{
+  "frozen_at": "2026-09-12T17:58:12.053324+00:00",
+  "status": "before_D_results",
+  "protected_sha256": {
+    "research/v4_stage2/design_D_frozen_before_results.md": "77846b57a2eef321521a8051c918ef02e5e206ddb6811c2ef81e654af8593420",
+    "solution/stage2_v4_d.py": "5dc50281d04a9310adeb5e1e42b11ff6d28ee0868828d3964ef652788e5b3e73",
+    "research/v4_stage2/public_run/report.json": "bf02170885e3388167772aeced26e31f39c37ed8fa1c82b8fada54b66d11bd0e",
+    "research/v4_stage2/C_run/report.json": "5fae986064824b4bbe33655cc84dc7b1d200b604de37a2c72b0644cb9002dd0a",
+    "research/v4_stage2_annotation/root_review.json": "5aa75a88b8902c6bb1e68d4f005aacdf0d0b1c6bab66774b0a374943a57fe0f8"
+  }
+}

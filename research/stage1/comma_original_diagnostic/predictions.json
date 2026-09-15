@@ -1,0 +1,2969 @@
+[
+  {
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10",
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48",
+    "vehicle": "RAV4",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1199,
+      "decoded_total": 1199,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        653,
+        762,
+        871,
+        980,
+        1089,
+        1198
+      ],
+      "decoded_rgb_sha256": [
+        "d937706a6826cce9117df14c3c968291ae6b587ed3682090226e0d3dac6897d6",
+        "af68c97be92570f06ea38cc3c6ac9dfc63a40845311ee573ed7fd40338dd3f0e",
+        "316a32c6e8bedd23b6b13776b4fc9bfb635d404be22f9749eead35edd5e8673b",
+        "b0b4ee23514f2f8333870c700de92331e74c7f0b37ad2bcc963ee53f99927078",
+        "7f9b757d213e7bc298cf0b693cfaf463862dbabfb1e54949c819001e9ce08e8e",
+        "4cda8db4fea3dc4c803cc19279f67b76696504fdaaa7565b88e45d71ac075a19",
+        "79a1859a9b01026b5b0c15a60abe8a0756c10542b7fc4ac3580b938b02ef8492",
+        "d2dfade4e0fec9974cc3fb644aad3a716e6ea4b04305f69c574190b450c2eb1e",
+        "aa58e318d60d34601b84eee27ea0916c4b5a99dbef7fe932da1fa401ced82de7",
+        "e5f9394a0fe2ed269da11e59a15a4c717948a0679aa54520d371e021bb830b62",
+        "1da12e926cf5abd26a69faddd38b82dd18d4a57ff394dcbb993c03065889581e",
+        "322ae14e2cb47936002eed64cdc1092ad0a4824252a521943a96f2f565e2041a"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.9467039108276367,
+      0.696958065032959,
+      0.7276087999343872,
+      0.8499337434768677,
+      0.8142060041427612,
+      0.7733058333396912,
+      0.8106247186660767,
+      0.7005394101142883,
+      0.7770904898643494,
+      0.8410608172416687,
+      0.8310080170631409,
+      0.7856015563011169
+    ],
+    "tpo": 0.7962201138337454,
+    "forensic": 0.059822665175880335,
+    "blend": 0.42802138950481283,
+    "seconds": 2.812000000005355,
+    "false_positives": {
+      "tpo": true,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3",
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20",
+    "vehicle": "RAV4",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1200,
+      "decoded_total": 1200,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        654,
+        763,
+        872,
+        981,
+        1090,
+        1199
+      ],
+      "decoded_rgb_sha256": [
+        "ba664669fa6646adf1d221717eaec7de0643ac97898d6196b29595bed2d59a04",
+        "0ea114a57df5dc38e4947e215c6ee06f63b47f71f61775cca6a55b7f5cd5fac1",
+        "3276e5b455df1447f3773d1b527f14ffe0895e225e47e6b2d6958271b8978a9d",
+        "ba17c8fdfedd9a2dbc32eadc2cbcf7bc4e969405397429972fe0a1bd25cd36e5",
+        "0fe3faf4b003dd84b695ba1cd8b3613a805338beb9e7cd4f54998225094f9222",
+        "9d0c2f4fc80a2926e92fbab64afedbe289b6907e7dab3580763843fc240c0628",
+        "b71621c27a80e2ec3767e541bfc787a932658e3071e65f355e1a770847c494a7",
+        "49377751f07ef7c3cdfc1f698ee6aae3b13ed53a467f0a6c2b3c933764bde450",
+        "63d2f81167f6453bdfce45a0c0b3c00619a7d8e2d054bc033bb42c6fe98592d9",
+        "66dfda1a5fe3524d3ed19557b3b99957d081f03899cffefdd2590b1ecbeab281",
+        "2eca5fa7d1be56a0436f2742f3841ac98273838f767fa14f60bbebb9ca916adb",
+        "ca8a2b0c463dad4916f3635fe33a05b1682909c9d4b8698ff1f352da5f75ea99"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.2672220766544342,
+      0.2688762843608856,
+      0.3300407826900482,
+      0.32803210616111755,
+      0.2884725332260132,
+      0.33235257863998413,
+      0.39977720379829407,
+      0.2775189280509949,
+      0.31997668743133545,
+      0.2582736313343048,
+      0.23477059602737427,
+      0.30665692687034607
+    ],
+    "tpo": 0.3009975279370944,
+    "forensic": 0.12459701524990764,
+    "blend": 0.212797271593501,
+    "seconds": 3.062999999994645,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27",
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42",
+    "vehicle": "RAV4",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1200,
+      "decoded_total": 1200,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        654,
+        763,
+        872,
+        981,
+        1090,
+        1199
+      ],
+      "decoded_rgb_sha256": [
+        "be16036e936639ae314b3f8d055765e8eab57f7f232aa95a45121b9fe18fe7b7",
+        "a9abdbb485a3a0ff0cf4ed4be2684033ba10feb0abc066d046106ac61eb67714",
+        "d489d71ae7fef0b457584ca5b554cf6f7f37e40c7b1b93a14cebe83945b7d195",
+        "46c08a9720e74f6b476a9c8d6ea86213d9ccf80f608f0418aac9a460bc2a3283",
+        "38c35b4a3bfda83be6f2adbeae1034bb9bbd4503d493685c9f7c6b175e3e59c0",
+        "7a2e7150b2d631c590cd245a001142e61a9a06a36b3f35031c2c122957c312d3",
+        "d0f461154fbcec2de8b2de31f7487eff8ff7cb14b0997ae28d2d033f3c9d5513",
+        "f1b60a3847c61a3e5eb10ad16fd133cc1663391c0733a5655a3a046c283ca6d5",
+        "1b0ed0cbed984cc634dcb3c7051ecccca42cd2180cf72c03186af4b9e2ba665b",
+        "5ca2112a26dc2c2c3b5bbce1eaef6eac2480d237e5e783567946b487e8880fbd",
+        "8b7feff24c8bea7cc723abcd67a3cdcf4f4bef44bfc99e2faa32debea61f41a1",
+        "6438bde3e6d3aca853f87d4b7ffa6d0f982035d527fb13203c677806e7061e3b"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.3760078549385071,
+      0.3061804473400116,
+      0.3184480369091034,
+      0.3123532235622406,
+      0.2914524972438812,
+      0.3640800416469574,
+      0.39070335030555725,
+      0.34273380041122437,
+      0.4014147222042084,
+      0.3981432318687439,
+      0.38800954818725586,
+      0.3845216929912567
+    ],
+    "tpo": 0.3561707039674123,
+    "forensic": 0.22133868358713335,
+    "blend": 0.2887546937772728,
+    "seconds": 3.2960000000020955,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/4",
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17",
+    "vehicle": "RAV4",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1200,
+      "decoded_total": 1200,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        654,
+        763,
+        872,
+        981,
+        1090,
+        1199
+      ],
+      "decoded_rgb_sha256": [
+        "2af6abc10a42df8f2cfae0a2ff87ca91ed1358b5bf45508f559cc9ba2bc76155",
+        "a2d159bf1d9dfa2c0676afef0a88dc2a09879e6a7634c54089e3e504191ccfdd",
+        "4214080ff30241a10a3a9e2bb98340ef01a828ced60465f43a3c2182ba8b306a",
+        "91f21d325f40c2d10183dd26362f032101742e6d27ce0fef10ac42c82c9f8433",
+        "32dd92e17e994dcc5ca9d57ecc191c69f1a42343a6c35794f508df14063f972c",
+        "bf95a5b9ac1b228fccf9d79490f955cca74049bb152fbb363bbc80f6e0ca5e0f",
+        "ec1aaee178eeec44f62cf3ed74d020f2a108b6a615989b5cb3a30243290a05aa",
+        "cedb7ea27cfef13b99caa9450dd4a326972a003db4bcacb49ba7681d94d3dde4",
+        "8fecadfab31da76f2f58f94cf06e7ca0681b501ae201d1b4f744148e9a9e49e7",
+        "97f4760c5a3f4b24a5d78cb57d38ca6a2c62fb67d7968c06a496c610506478fe",
+        "4817c8b7e6e223cffbb8c6072ebbfc9d1d627b2f938fbbfb4a5bca9480f39a30",
+        "1691e7dd1229d0ea15bdb2328ac667968221917903a01fcd6a98dfce0b9d3603"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.4952155351638794,
+      0.4422755241394043,
+      0.5646840333938599,
+      0.31480205059051514,
+      0.4515473544597626,
+      0.3615894615650177,
+      0.2788427174091339,
+      0.35697832703590393,
+      0.3370625674724579,
+      0.34747302532196045,
+      0.4702238440513611,
+      0.27465784549713135
+    ],
+    "tpo": 0.3912793571750323,
+    "forensic": 0.21112441158320433,
+    "blend": 0.3012018843791183,
+    "seconds": 3.360000000000582,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/14",
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07",
+    "vehicle": "RAV4",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1201,
+      "decoded_total": 1201,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        655,
+        764,
+        873,
+        982,
+        1091,
+        1200
+      ],
+      "decoded_rgb_sha256": [
+        "34453a4a8a62228b9797ef390dfcc8c6cf146021d3c228555646101e3fa456cc",
+        "3671c903893a5d7abc874370828cb1992a348d0eeb21cb5e9bd4be2b822a1014",
+        "5bc73e655f3b2823464a6c9fb0c93dbaef5762abeb25459282c182a805c006ea",
+        "86020a2ea221de54b329ab7133209b59e3fef019978f9f9fac12083811caaf27",
+        "b5932170949f8a794b9f2cf67b41f899c7898585c0a376218f1b11f3fb2c0bad",
+        "a40fedb2c94851ff90ae3776e5e352c81bef71f5b2baf36d3711bd6dffbe770c",
+        "0c0da43311a8d4ee7eaa00958f6d7de0b0ec0cd4400b7f9862fc45737e3b168c",
+        "25694de2f785fabc69c35c81983a3dbd10d98127c39dd41c8b2a9c90f3c17b1e",
+        "ceb24f444ef66ec5ebc22c61121f9746356420bccfaafb628f4d16f5888ac26f",
+        "9821cbfee6ff07015d7d7d37adbf05c2adeca285869a175dcf34683dc3904b67",
+        "b474621ad1161c0693340e56f74485153f9517885ea2438e57c51a29f0247b5c",
+        "777cb632f5c572eb59b7f5fe43619bb075a15c932c73e375f1ce7cb6c5ea62e8"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.2130226194858551,
+      0.3192485272884369,
+      0.2673630118370056,
+      0.27160146832466125,
+      0.33912545442581177,
+      0.2505587339401245,
+      0.2833927869796753,
+      0.28351911902427673,
+      0.2860659956932068,
+      0.309009850025177,
+      0.36756959557533264,
+      0.3034798204898834
+    ],
+    "tpo": 0.2911630819241206,
+    "forensic": 0.20730150381178947,
+    "blend": 0.24923229286795504,
+    "seconds": 3.264999999999418,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10",
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30",
+    "vehicle": "RAV4",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1200,
+      "decoded_total": 1200,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        654,
+        763,
+        872,
+        981,
+        1090,
+        1199
+      ],
+      "decoded_rgb_sha256": [
+        "2da646c7db1c0657844b46ab99ce4c1814ad2a07b703f475f49e48d4aab7df8d",
+        "83c1e36cf7d92260187a0a57f7e46f3da19ac858357cba2fc295e969966fcc1c",
+        "8f1aeda2ca3650bb1ecb72afc1618988df696fdb1d788e5e6f11f5f1c1b7b853",
+        "547d4db08928f7fb7d45cbd19947891046a741189d2fec4d86ecb836d0b7496f",
+        "df0d88ed6d2193261334b8632e16c50c946011b8fe879177e0355734596112c6",
+        "c4469764cba7bffe0263b868bdec12374fe83a8b11ea296657d3f467781b68ba",
+        "e89ebeb6f5198ceb5a6bdc02ba168ae646ed4926e6caababf458b78e8e0e6189",
+        "5b9c9ad1df4d05abc875e7942979a276effa9e4b46c3b87d0391c515b0292221",
+        "f27a988d3a5b6c6c549610968d732f908f6a114ebd18864b5e04fc598374c293",
+        "c2b76328b6890ffacf37d75a69de33c28621ddcb47bbc0a96b24eb9493f054f3",
+        "b327ca836a812a5753580e351b6bf7a58910970cb9ad2f32f55aae85e7dd2322",
+        "fed31b1ee4d3c350bfe8e4fd61164fda5a12851bc21698acf7b88604c056f5e4"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.34800028800964355,
+      0.32156193256378174,
+      0.37489303946495056,
+      0.3832250237464905,
+      0.28081515431404114,
+      0.33077114820480347,
+      0.364450067281723,
+      0.2878624498844147,
+      0.4008813202381134,
+      0.25050416588783264,
+      0.30444908142089844,
+      0.4028264582157135
+    ],
+    "tpo": 0.3375200107693672,
+    "forensic": 0.22863038867423602,
+    "blend": 0.2830751997218016,
+    "seconds": 3.2039999999979045,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12",
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28",
+    "vehicle": "RAV4",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1201,
+      "decoded_total": 1201,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        655,
+        764,
+        873,
+        982,
+        1091,
+        1200
+      ],
+      "decoded_rgb_sha256": [
+        "44736cefcce84c25a7b8fedbab338879bdb2d2e4a0df1f3a2e4fbf7aa4d6c0e1",
+        "2ccd746df5c7206903edc94ee6bb79655a613d3a1e1a0855d48a258e9431ab5b",
+        "f37755b696b6ce98b4cd09d4c69630b8390bbc1517ca524dd73c0af33414fceb",
+        "85d0ac048104a2c9bd31f4ae4b522902b15a6a7239e522e88de0e8ca248fcd03",
+        "6150c9d8e830ad98af13f97b5a02fa7ad36df2326aeaed2866c3cb3a2edf3291",
+        "b02368a4216e331ef916678b3ebf48d431bdaf49e5bf60175411f14356bd745d",
+        "58bb580f7549338002930e70d8f19cd60812314094d09cfed3466a4bf946aee1",
+        "074a1205c280f390a60b700b82cff94b9be1ecf99fd57766f93ce234b13fddd1",
+        "57391953193fe1477c232dbd32c240892e77026c4c5d7a2b373bb5bccaebc466",
+        "b8d420be88ae257a92019e6987144b071653edeeab9ed84cdd70a83ff6087f1d",
+        "3cae1ab01f37278d498783cc8c0db90ee14b769b6bbbd7210db7e9d93e82d762",
+        "7fea710a4f02159a2c8e977e32d74e6ee2815d0e0f4a6dbfd3ffe54e0e75ed5a"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.7668203115463257,
+      0.8360005021095276,
+      0.8089594841003418,
+      0.674369215965271,
+      0.5704699754714966,
+      0.6529567241668701,
+      0.7121149301528931,
+      0.780851423740387,
+      0.8256905674934387,
+      0.7936487793922424,
+      0.8132003545761108,
+      0.8049238324165344
+    ],
+    "tpo": 0.7533338417609533,
+    "forensic": 0.0835113828871593,
+    "blend": 0.4184226123240563,
+    "seconds": 2.812000000005355,
+    "false_positives": {
+      "tpo": true,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10",
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49",
+    "vehicle": "RAV4",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1200,
+      "decoded_total": 1200,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        654,
+        763,
+        872,
+        981,
+        1090,
+        1199
+      ],
+      "decoded_rgb_sha256": [
+        "8a610a3d23504badf56894d6950e68454c1416e8d983ff30297fa651d879817d",
+        "74c56762cb4358f5afe6706a32abeeb099b90c9918020978e81756ae6407fb0a",
+        "fcb1557195a455ec34793e6ae872bc407470672e265f182e6ba658f482aee6e3",
+        "be852cd6ef774b026a2e0026f6d5f2c0a6cebc762b270730e43eb390d06771bf",
+        "5b123346acf9cdb10f5134453f050c378cec409d4a0cfd8da45383e3c069e0f8",
+        "8078d937c9c860908e2d80ac78636b6b1dd0e04d334dfe9c52400a759f94fc71",
+        "60c569ac05dadc1d11b1573289a5bba366cb6ac09426fb06a96cc2469c4b64a4",
+        "c83c20c1838f4906dc5f0740d8f453c713301012acd209b82cef177343fed891",
+        "21b9b4d09b19d5048de3ac5e8764b5aa3922fa0e300dcf8ecc5e046863183253",
+        "b091fd8337659f892c3607164fb7974f2b0b87450f448f574fa0d7e1e172ceab",
+        "6c7628acbe12e564d76d5780c3e452e89174c59b7e3cfbd84181e26e945e6af1",
+        "476dbc484e5d54a8335aea6e29fd6351f72d0b478be4a23ed791a0619eb03aa1"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.8708972930908203,
+      0.8627576231956482,
+      0.859096884727478,
+      0.8163785338401794,
+      0.7920820116996765,
+      0.9634311199188232,
+      0.6971161961555481,
+      0.8333975672721863,
+      0.7406012415885925,
+      0.7908428311347961,
+      0.7513496279716492,
+      0.792019784450531
+    ],
+    "tpo": 0.8141642262538274,
+    "forensic": 0.07923516274920264,
+    "blend": 0.44669969450151503,
+    "seconds": 2.7809999999881256,
+    "false_positives": {
+      "tpo": true,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29",
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47",
+    "vehicle": "RAV4",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1200,
+      "decoded_total": 1200,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        654,
+        763,
+        872,
+        981,
+        1090,
+        1199
+      ],
+      "decoded_rgb_sha256": [
+        "065dfedb605f075cbbf6cd1a4af3776d1139b44dc23c473427b2335848c12747",
+        "0541cde06f8af107de518f069177bb14d8d03c5a9f59093c926379a3cf51120b",
+        "3de411ef9782c2a1333be75a1999f35557e0fe7fab21f434698f8e15d481587d",
+        "7d1cc7a174af05bfa9c983ffa61a57aefaa7d72a8e38df0b4f97bff3554044f3",
+        "1b381fef0894707a35f2fbed75d2c9526bb77979ebac77dd34c36e344b5c255f",
+        "bd1aa9bdf004c924cee292938f290bef7e3e07deb22b85d6c29fce11540d4e12",
+        "94394ef87dcb67706628977e66f8c5312ce0acd22f28e4a860829bdcc066a562",
+        "71a065f5e4cbacaf7e62bb90d6b21f0c1b640ac0919679c411f5d415f9e71ba0",
+        "bdf97f18fb3dabfe0670ca997cfec7bbc4fca8e20727d88249bf1f5d97136031",
+        "c3a272f0b2840272c08c061c1783d43b826826148ff0ecc4111fd71f170cb7e4",
+        "b7dd2238cdcc4933c6572c2f9e036dd636c16e410687c5756b9f92039f81edf1",
+        "8ac3c06015b1f22a10b44358720ec1ad49779210497781cc4d055bff77e63661"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.42571815848350525,
+      0.41753435134887695,
+      0.484260231256485,
+      0.37089067697525024,
+      0.4205443859100342,
+      0.4692719876766205,
+      0.39747491478919983,
+      0.39931589365005493,
+      0.5242092609405518,
+      0.5698039531707764,
+      0.380685418844223,
+      0.3672359585762024
+    ],
+    "tpo": 0.4355787659684817,
+    "forensic": 0.19866604821973355,
+    "blend": 0.31712240709410766,
+    "seconds": 3.25,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10",
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38",
+    "vehicle": "RAV4",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1200,
+      "decoded_total": 1200,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        654,
+        763,
+        872,
+        981,
+        1090,
+        1199
+      ],
+      "decoded_rgb_sha256": [
+        "0d37340939fd58626516d9b6e1be9e0443d3070a952752eda67ba74ae3c2b3ba",
+        "7532dd6a15b0dbdf038681f119b85efb256f3d49bd3c8a90d57c8dc4f9b8b9c6",
+        "6de18dd703d8d607adfade4babe4174b59573896a2bdd017d8ecfff06f204ef4",
+        "c5cce2b74732453598220f545561c7f8f67b8087fbae0e6eb1a45f6e7366d96a",
+        "965e8229e0cd7a9bd95f26065284d800984707d7012993c38f8db4d7e82584a0",
+        "87c1b560a6a623f65884b416d895b5de50f150b2c08250fee1a7f5596eafc316",
+        "fe2b66048cbee3c5e621825374ca0a743ee79b90f42d940da61f5fdc962a3258",
+        "e493011640e8974fe0d2a3d8383871a6fd3b98a4f3ce8abcd68175076a5ee80f",
+        "f25311353ea818dc6841f023fdf3a1ca4b78be9b27fbd3394b68865c947483f8",
+        "9cac1b63fbe44fad28c9e2a781ac5ab827d9a936f1cb29e304aedab97ff3ffb8",
+        "f8562ea4f1af46a762216c01046d9324cea7147a7d43fb3509f4f2c12621c2d7",
+        "acb767d152d4e9f0c7fb9f663f8a46bb66dcf69cd94400200de1a182da99650b"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.4078620672225952,
+      0.43893709778785706,
+      0.4575370252132416,
+      0.25948822498321533,
+      0.45065805315971375,
+      0.43640848994255066,
+      0.2962622344493866,
+      0.2925300896167755,
+      0.34040847420692444,
+      0.3697388172149658,
+      0.31262508034706116,
+      0.4158124327659607
+    ],
+    "tpo": 0.37318900724252063,
+    "forensic": 0.23050197579990736,
+    "blend": 0.301845491521214,
+    "seconds": 3.4070000000065193,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/10",
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16",
+    "vehicle": "RAV4",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1200,
+      "decoded_total": 1200,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        654,
+        763,
+        872,
+        981,
+        1090,
+        1199
+      ],
+      "decoded_rgb_sha256": [
+        "e868eff01c560f9bc0a2e46e2f0a587a8624e03792e49fd457bb86687c207bc1",
+        "f1d7c5b9f02f599fe02047d76e498ec3c45314d23aef0fe235fb52439ab02e2b",
+        "e2d732bd63ec7fd63ada9652936b6b6fdcb3bc6e7c8e33f4e40a0222856f0bb2",
+        "4f42d07b06c74897fa36fd30fbcbadf7c853738bea26dd4b88b3f74460efd188",
+        "5c3a5f9bf9a9b85e1aefc04c4d694ba0a4888317227707b6ab18dd8d24becc31",
+        "d9200ca84d612e3cb74626375b872edb00b0f5542df7d79f301bae45bd851e2d",
+        "8b0cdfe1ce3b78f33b72f6223699065a0c7f7b1a062fe458ec3b36ef7ee4ac6e",
+        "ff36c83ecc97b311f911934c4bda1b9e918cc2d33e8b0cea6155a55da16939c5",
+        "ab1266a4fd3c65b20f8b2d69b0276cbec16aa6be1d6fef1032bff5518fc7d992",
+        "071c30eb786ba7812cf70f15190e497b75f28b7f3d0e5560b9bb2c594aa0732e",
+        "c3556a8cef867ccc63ccdbdee5318595a07f663f3c11610f7a3d4278c4cbfb96",
+        "e35334f2acd841008d68ff4a8f176972abe660e43d01f9c969489493a9625fe2"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.32711565494537354,
+      0.2731928527355194,
+      0.35615620017051697,
+      0.2926620841026306,
+      0.34860536456108093,
+      0.43671730160713196,
+      0.3274073004722595,
+      0.41322585940361023,
+      0.4201708436012268,
+      0.3980376422405243,
+      0.3438083231449127,
+      0.36247947812080383
+    ],
+    "tpo": 0.35829824209213257,
+    "forensic": 0.22936582778895961,
+    "blend": 0.2938320349405461,
+    "seconds": 3.2960000000020955,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53/17",
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53",
+    "vehicle": "Civic",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1200,
+      "decoded_total": 1200,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        654,
+        763,
+        872,
+        981,
+        1090,
+        1199
+      ],
+      "decoded_rgb_sha256": [
+        "c14b879acacc9c40e594a9d04f39f14420dd677243d706de868603f0dc3f4110",
+        "1fc1d901121092b0b1f0a14953a67af5e303aecb868f990aac39dcb7035a9d2f",
+        "e59c7b005af3b916e7f381f51a7288870349eeb4d4c46a74c1a2f96c473859ef",
+        "58699e561ca66e107bd2698cdbb4ce40c1dcbecba80dd61ce9d8639e85603303",
+        "e6457b130d1189b7a8218e68420cf668bc1d5520703887d45b2bca2abc8ff9c6",
+        "1ece82e4c8c90cc2715e366347c8b7aa618a2ba0e7e1ab82b097099036db3274",
+        "650c2125c958f0b13e03b912f187c9c69d12fcbb8ec921d871c5a6838befe52a",
+        "d3e61d61a03be717eaedf75063df0c9626cb2a36156796f8865167c4d9ad8418",
+        "82b2303f2345d5a6f158fc2da29692f81cddc45a634be5ea42bc80afd0a201f5",
+        "b402e9d25876d2ce3e06e23f8e12e4720f8865f675530b9110eb7d2f9539a281",
+        "912920e373a3c9f850b9a7f1354779ffb20403eedf0422e10898a65e8bd06221",
+        "1e431138839898984edd88e24d5dc5778e111263bb17ac12ccc0d7a088fc1ea1"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.21264910697937012,
+      0.23054541647434235,
+      0.29237669706344604,
+      0.24261759221553802,
+      0.3621322512626648,
+      0.20978641510009766,
+      0.4154402017593384,
+      0.21341350674629211,
+      0.2902987003326416,
+      0.3854522705078125,
+      0.3264733552932739,
+      0.2637743353843689
+    ],
+    "tpo": 0.28707998742659885,
+    "forensic": 0.30105885711903135,
+    "blend": 0.2940694222728151,
+    "seconds": 3.375,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27/25",
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27",
+    "vehicle": "Civic",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1200,
+      "decoded_total": 1200,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        654,
+        763,
+        872,
+        981,
+        1090,
+        1199
+      ],
+      "decoded_rgb_sha256": [
+        "37c821dd9dbdef71aa4ebf311b9c829bd69bbae6538f52f541659180feca10bb",
+        "7b4fdc090ceeeea9f7fc11206658c2d357f7a8278fbf24209eb35c72505e54e7",
+        "5b19d3c1458792f5bcabca77889a6b2ea6cd4174be2e3d2410d17a63265f4c6d",
+        "9986998dda9dcfd999b581f7e710fbb4a8a4073ba1000fadd74a098198b987b2",
+        "1282c78239970561fe3306dd344ffa5fd3ae53125721abd5b7e780757d8975f6",
+        "486ee312538085c388581a78c797dd1cf0bca2c62703ba708fa629a3843aaea5",
+        "e65b38c78a8a7f767efc8974b18be8554a7fce6a04064b83a2305f70667b424c",
+        "836f3acbf863914601c9f1b1530a7673b2cb0c1f8f08d439ad5cdd92150c9c9f",
+        "db277697e4cce6149c4266fdc54d191e979caa74cde7df718ca8e94193f31d22",
+        "015eb13317dbafd302ad2471d93c7b3c122c1ebace141ddaea4fda95aab13cc9",
+        "56fc68e6ff84f993bd3c9177a2dad2dcb242c49b599ad72ab15a98e8b76affea",
+        "247ee433fa0e736031330b7a8fbb7073751477fed86bf48cf6d51f2e3e07f58c"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.36133378744125366,
+      0.43614453077316284,
+      0.3053104877471924,
+      0.2986067533493042,
+      0.37778347730636597,
+      0.30178847908973694,
+      0.4228568375110626,
+      0.26619166135787964,
+      0.40184861421585083,
+      0.23781730234622955,
+      0.3565431535243988,
+      0.39100900292396545
+    ],
+    "tpo": 0.34643617396553356,
+    "forensic": 0.4278713304156432,
+    "blend": 0.38715375219058834,
+    "seconds": 3.2189999999973224,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52/0",
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52",
+    "vehicle": "Civic",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1187,
+      "decoded_total": 1187,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        108,
+        216,
+        323,
+        431,
+        539,
+        647,
+        755,
+        863,
+        970,
+        1078,
+        1186
+      ],
+      "decoded_rgb_sha256": [
+        "975a2ca972271c3e4446b26c3d5582b0ab2bdb36a55af97ec5ab7babe513f81c",
+        "7e692e279034c28a24eb9019e11f2935b1ed63efd33a8a10909b077349ce4065",
+        "d9fad942fd1401c8015e929a7a861a631e9e2aa21ac4605fbb2efa79dc7efad7",
+        "9d34036584858ecffcf3f4d22abd878391705153d70c6a78332c11c7d30a6c2d",
+        "b222e30ac4bf1f6de9c98b422309cb059b758faafba082cafef1692812321b4e",
+        "6c3e393b860a5a2ecb5f7ee62d2a106bcb788a7635dc495d500b55a2a83829e5",
+        "21cad5e71b212668f3544bb544d0d5906a1149c711cae6e2db9be5bc9d179834",
+        "6b8baaf18776505e00c294046338ea4f00a7401532eb669a5313445f3349c0ae",
+        "99c751e9ac2e055846d4e00e01a0a3b785a4bc461e25334e1892330fdbcfe055",
+        "baf19b4eda9945ecc5fdcce412b637b814d6b448d7240faac22030eb5a3383bc",
+        "8b54698d9babda772e5bd748b43966053f5f8900cd8ebb7cd3e32d72f09fcdfb",
+        "f91b737f4087ee51d194f9866c09b20e4c2d71ca2b6c9aafa36c1c52b35e0f8b"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.4726780652999878,
+      0.40375420451164246,
+      0.44916045665740967,
+      0.515753984451294,
+      0.3876485526561737,
+      0.409246563911438,
+      0.35194075107574463,
+      0.3140575885772705,
+      0.38750913739204407,
+      0.31751981377601624,
+      0.3622232675552368,
+      0.3415905833244324
+    ],
+    "tpo": 0.3927569140990575,
+    "forensic": 0.26915072131831136,
+    "blend": 0.33095381770868443,
+    "seconds": 3.2189999999973224,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52/7",
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52",
+    "vehicle": "Civic",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1200,
+      "decoded_total": 1200,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        654,
+        763,
+        872,
+        981,
+        1090,
+        1199
+      ],
+      "decoded_rgb_sha256": [
+        "795f023f4b85700ab2bc3644f493f05e12e7baef00d78fde35f98000ff79f46c",
+        "e5b70950c0d0f3ed769ff9f0c169ce9d9f58617121c8988449fcfe26a835030a",
+        "705e7f95d10879b9c120a23659be0ed6a56b020e7846fb75a8120425e4fa83e8",
+        "9953d61b0d52b8dbd415e065317227d933970543cd09c2b42f041a5f5eb8328c",
+        "a67c6a7033e916ec4183edb178ab989b4670e06985575320a27ddf919e9a9ddb",
+        "2caa929d1317733438319479d22e5e7f8edb40a448c379f6903140323915d714",
+        "18e9705f4a35c91074eba7e0eaaab346c3ffea76a14b9ca32982808667a12424",
+        "361fe079ab47650e3d02f5bfc1bc9b331582ef4d64c0559331d22aa8d78ab830",
+        "dffe6ac0d2776dc4554c0104a04ff6f63a612debf76895e0b70772539353b89a",
+        "012e844dde9286074250b18391846d4d77797bdcf1ada529b0e6a07f7bb82ed2",
+        "d528164e09c7d59438d6b326f6b08ebde6cd21088c2379a24956c84342565aa6",
+        "0cc66574fbf76156cdecedd1498819854219368f7e42e2641bba43801d406903"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.3067680299282074,
+      0.30588576197624207,
+      0.30824804306030273,
+      0.2931566536426544,
+      0.3015865683555603,
+      0.2555215060710907,
+      0.3008582890033722,
+      0.2879086434841156,
+      0.27877387404441833,
+      0.36366546154022217,
+      0.21868515014648438,
+      0.5761086344718933
+    ],
+    "tpo": 0.3164305513103803,
+    "forensic": 0.2432061335369504,
+    "blend": 0.2798183424236653,
+    "seconds": 3.25,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52/0",
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52",
+    "vehicle": "Civic",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1189,
+      "decoded_total": 1189,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        108,
+        216,
+        324,
+        432,
+        540,
+        648,
+        756,
+        864,
+        972,
+        1080,
+        1188
+      ],
+      "decoded_rgb_sha256": [
+        "975a2ca972271c3e4446b26c3d5582b0ab2bdb36a55af97ec5ab7babe513f81c",
+        "9d9f99602fb49294f4c71cfc78edcd1fa724e804b10c16ae45a9441b7e46b431",
+        "adce5e0ba596d8c92552ef3a62b998db46c80629aa4a85fc8afdd51b7f513620",
+        "8be9a7c151eea3bb66c76931da72a76ead7a41030c7afa8f71bff972d8223482",
+        "0084e76cd3a36b772a765560b53d7f5b080a073247ba6a2e901e21fe4d0b439a",
+        "1fd5f15b8d0677168a7d9b653e6170eb6ddc9ede7dc3c8af8654ce8c38ac54ea",
+        "8ca89c7ddb7c105f24787b2e21359fa256378fc7fa7ff46afbac8b817a25d27f",
+        "951906bd37a860094e611e9f9d35927bc2b6aa8facab26ba987eb41280780715",
+        "16a36ea61b2bcd298f1f6c453b035fb8761aa5c3794453db9713c44db7c7bb85",
+        "af7ee76c6533a6112685351bf5d52e1d95ee9127726bf0c17ea08920df1c90cd",
+        "1b734fec0c6e1ea4a8955e57d41ff409534ee92997b509eb5d63332b915cc7dd",
+        "d9a64236fd8515107942666bebb33d3054bccad19dbe903f17d71bfd368ae4ce"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.4726780652999878,
+      0.2288101613521576,
+      0.31302347779273987,
+      0.2821708619594574,
+      0.33430910110473633,
+      0.32318562269210815,
+      0.34793511033058167,
+      0.3021577000617981,
+      0.39519059658050537,
+      0.3274569511413574,
+      0.4501129984855652,
+      0.4434890151023865
+    ],
+    "tpo": 0.3517099718252818,
+    "forensic": 0.3578285821062006,
+    "blend": 0.35476927696574123,
+    "seconds": 3.25,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39/59",
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39",
+    "vehicle": "Civic",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1200,
+      "decoded_total": 1200,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        654,
+        763,
+        872,
+        981,
+        1090,
+        1199
+      ],
+      "decoded_rgb_sha256": [
+        "d202b549f46ca49f84c3949603b57ae52d0ea74255cab9a9989b5cbdf0128d13",
+        "964c65215158ae5b604da0bea4fea2ef00f529d2e465562df5ce78735a8d159f",
+        "9bc7706e9df7d28aa07a6ea5acf0349db0be92fbdf012e0a178649f687ac0295",
+        "ea548ead70013d7f22e7407de952fa90ccaa138678b89500275633f555c36793",
+        "76adb448bc1d61737573a19b803e96f058fb9593786275fac567324191c91968",
+        "401ef16b7f10673d309572c7f4868f59767bd633d025c24484ac86b3f48287b7",
+        "757b885f94279ad5f334aa9ee6b09fd0eba05706bc11c0d013fa7a01fe83f582",
+        "883f0cd5bdbbd697e53186c1d9b30802f6c25930b735c7bb8e2e07cad5a82cce",
+        "f72d2f4b2d98e7cdf36322ecc72ee416b03d847a1fc126ae1a8f7dc5337da23b",
+        "5d93a56156118d83993357603c03a20f7bb217a56b7585fdba6ee6cf61c576e7",
+        "fe085995f47d5e8124877150aed65661522820cd31704c56a885f373187362f9",
+        "d4a2a86188d0d2c322ab27831fd020d8e9efe489b03756c5c42777728e2300ee"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.4513295590877533,
+      0.416767418384552,
+      0.369157075881958,
+      0.29516953229904175,
+      0.37749961018562317,
+      0.36829954385757446,
+      0.2754361629486084,
+      0.4366620182991028,
+      0.3306923806667328,
+      0.3188610076904297,
+      0.4323660731315613,
+      0.3892352283000946
+    ],
+    "tpo": 0.3717896342277527,
+    "forensic": 0.2809535440806837,
+    "blend": 0.32637158915421816,
+    "seconds": 3.187000000005355,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03/5",
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03",
+    "vehicle": "Civic",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1200,
+      "decoded_total": 1200,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        654,
+        763,
+        872,
+        981,
+        1090,
+        1199
+      ],
+      "decoded_rgb_sha256": [
+        "feceddde184ff4f5ba0549dff47d70371b6b1ad7de448fd254f059c5e0b7840d",
+        "6619df8b85d49540fe78c93cd2badd72668916dab622a0aab25b512d11d3d24b",
+        "5b4c63611e55984c92dddff0e48da40d63f013f8e6d300dcba316fb7fef29705",
+        "4a8affd558173a0e358d56d288cfbb3c7ea9c3ee8d8c46cf84e9032fc6ab1e5e",
+        "b99ad1f5c1004cd60c7e6251936cff05884ef2e48394586423d7930c7b5d238e",
+        "a87dfc1e7edce25712c2188d0ab49190697954f00eafc080ab7a4076c2c694f6",
+        "f3f72cc5f455002f65a51e5e612438de8726a54b12b17cbeebd68f5fb87ec2c4",
+        "bd03dcdb91eefb32db995c51be2749a09062b5fd96b5535e707819d68ba85c70",
+        "95cc84d519acfd44e4fdf66546bacea0f262b74c4268b6a83354347f568ff0d8",
+        "8c6188fbf9d94620661fd7f90668d428c2d33d5ec87f6dc00faf0e66e8ee1c0a",
+        "bccb92cabb5172c90e390af5a30f199a99a5965fdce80f999bb5e8956a4de172",
+        "729d6133d20f01c4ed50fa72e6fd5e5bc2acc1ca9a1f1e45fbd8f7950f9facaf"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.584656298160553,
+      0.2324252426624298,
+      0.1955946683883667,
+      0.48890069127082825,
+      0.6148084998130798,
+      0.33360180258750916,
+      0.5187283754348755,
+      0.5051538944244385,
+      0.40621381998062134,
+      0.3038860559463501,
+      0.5445544719696045,
+      0.42946651577949524
+    ],
+    "tpo": 0.429832528034846,
+    "forensic": 0.2716246951974657,
+    "blend": 0.35072861161615587,
+    "seconds": 3.375,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13/2",
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13",
+    "vehicle": "Civic",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1200,
+      "decoded_total": 1200,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        654,
+        763,
+        872,
+        981,
+        1090,
+        1199
+      ],
+      "decoded_rgb_sha256": [
+        "750e5769d7719df8379a2186330c9854dd4c1acd24f802bd776c01b56d79a66b",
+        "af26db23067447dbff43be15085f09a7847414464cc1e5dfb5ef4989654914b6",
+        "d6c91497d7bb5a1667591028d2977d7d0f0722f01ac23b7de3b5847833101c94",
+        "96a7c675aca4f1d83af49ce28bd81d1fd254dc2cf4c90285192d9930fe901b30",
+        "bc3680883314aad66f958db0f9c563a890c774458220d0ac1e7577a656247c70",
+        "4ed7c9863a4e58bcaf4816f3135148b12b20e0ad4634a9ff690fa340c7b4e935",
+        "41267c10f910800d772f50475b5ca9acd97eb5b26a9574c2af0a6947ebd54b85",
+        "433cd4220ddd51db38bdba53b52fedea552d6ed83cf6de42b45e9d002be78aaa",
+        "8e54ee24201166d195c48f47d05761cb8b662bc382810b3416c4123958658ce1",
+        "a4466b12a36d7ff1ed621ad811fb767349313c3d5b400b5820295757dd3efe6c",
+        "2fe4323e5bbdedca141b46e5d082c3c26e462f3e23c39801c9a3de7a32e87d1f",
+        "a326b6a90cd365dd4f557ce38b4bfa5dd270f139748c5e375d2a9a203467586b"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.5592275261878967,
+      0.519095778465271,
+      0.7008280158042908,
+      0.6910848617553711,
+      0.6441859602928162,
+      0.6404914855957031,
+      0.6989200711250305,
+      0.5578752160072327,
+      0.47248032689094543,
+      0.5111119151115417,
+      0.4974120557308197,
+      0.4692736268043518
+    ],
+    "tpo": 0.5801655699809393,
+    "forensic": 0.1692194797173931,
+    "blend": 0.37469252484916615,
+    "seconds": 3.0469999999913853,
+    "false_positives": {
+      "tpo": true,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12/10",
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12",
+    "vehicle": "Civic",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1202,
+      "decoded_total": 1202,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        328,
+        437,
+        546,
+        655,
+        764,
+        873,
+        983,
+        1092,
+        1201
+      ],
+      "decoded_rgb_sha256": [
+        "c28aa7ecfed33686b308f33bb622e277aba29dcb839a3b20701bc8ed0981a1f5",
+        "e7ca0f6f21610b7624f9408a9e25bf18663dc527d25df4ced7cd9824d4ecbba6",
+        "1fa7a99f1c56758a78d63b8b94df1e2cc1e4c9dd03cd9e219e5bc873bb4ecded",
+        "2731db09784821559d64fc84f8ad39d42876b350aa17b9a59bc883d39ff7fcdc",
+        "9782c97cf8443b88b0c44ea85d76d9cae69873735bbd778ef2de7722350f0a64",
+        "f54c88656e7a4a9146b499e706fffd0bcbd8a4f64681a23fa549000ddf925fd7",
+        "846895ad77d7aadac54597b079b2ff5f3fb7819a583ea7550299d4459a6a693c",
+        "fe74e65b32c289d3e4deed692168c2d47312bd3e2908c8e0512414e43d8db539",
+        "27254e7492ed87c58f96af78602d450e9e14e81badab18c8fa506982ec104546",
+        "82c779e5e14d95d7ef42fa4e6f9656b5a978b9eba83945df8ae9ef980cde6d3f",
+        "b99abe52f8e000c1a085ca5f1c5a9322779b016b3e1ebf76f13be719361a1885",
+        "9c2d8a379f1f4357c561741d672c71884ca93096b5ea04c04096a8b3ec6ed5c9"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.4395259618759155,
+      0.5048189759254456,
+      0.5205884575843811,
+      0.37987667322158813,
+      0.4813474416732788,
+      0.38885441422462463,
+      0.37331539392471313,
+      0.39189696311950684,
+      0.3611048758029938,
+      0.37419161200523376,
+      0.4129776954650879,
+      0.35313093662261963
+    ],
+    "tpo": 0.4151357834537824,
+    "forensic": 0.27420526193116307,
+    "blend": 0.3446705226924727,
+    "seconds": 3.187000000005355,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46/24",
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46",
+    "vehicle": "Civic",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1199,
+      "decoded_total": 1199,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        653,
+        762,
+        871,
+        980,
+        1089,
+        1198
+      ],
+      "decoded_rgb_sha256": [
+        "a9dd78f93a3ddf91c3b6ee7035da5f27f2bbc9d050c76879fe7d4b280b8d8570",
+        "6a9974863d9d6b462e88535e0b6a5b37c073553868aab11ca541c6bfc2e56ca3",
+        "4db5d17d3160d65a8ff9c05431fc0392eefb0616ffb6e288aacaa0ede98c3290",
+        "1815685f0819a4ce351aff8d589097b701b9bb91bc4bad54055f297316461541",
+        "e3d2ee5e66142b61cf5ac776ef386c76646f2eec7faba235a2098f7ae8bd0086",
+        "6ee5feddd475b9dfc66193c4d2525272f090358160f92c03883979ab6be53168",
+        "cb1ae5f9403aa0b271bb0649076da8431d263c82192795613ec0c8a5c79ffe16",
+        "62766f70c57ecf808ec28824614ef25a3fcb16994647aac166e3a998eef31da6",
+        "727077562e2e9340d119134d5cda35eec10b8d6d14265b35be46f4de248c0fcb",
+        "c02fb27002c23670a6b66f04827934475a57d1946572a6acbf86156f46317e77",
+        "eb0d05748fed9d501eecd0bf4f10c0f00bbabadee0b317d056999d296b2afa52",
+        "ce512811d4137ba811c07c030795bc84ffada36d383405d949e2f126fbdcc7a7"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.3948950469493866,
+      0.41324856877326965,
+      0.35926610231399536,
+      0.3780957758426666,
+      0.5848795175552368,
+      0.5206039547920227,
+      0.4600120186805725,
+      0.478467732667923,
+      0.5395142436027527,
+      0.584351122379303,
+      0.3973701596260071,
+      0.3663429617881775
+    ],
+    "tpo": 0.4564206004142761,
+    "forensic": 0.31467827947691107,
+    "blend": 0.3855494399455936,
+    "seconds": 3.2189999999973224,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01/10",
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01",
+    "vehicle": "Civic",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1200,
+      "decoded_total": 1200,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        654,
+        763,
+        872,
+        981,
+        1090,
+        1199
+      ],
+      "decoded_rgb_sha256": [
+        "f6e4513c36c71da4301eb3f959a089eea452ac994d80a16d7a1a865b38e3d84c",
+        "a5951a85270062432f87476d2f3db6ff89297f029c31b6940c3387894f3b505e",
+        "af4727b5248ee414ecd9fd5adbbb637c73675c970d7ce70caa43c0b1c236bb9e",
+        "c7efb50909dbc3fef4f563adedcad5b7eb3cac7d39a528410e8f6b86d5dfb81f",
+        "a996401c7c3242f74ba95826926f479d7f1753295393f405f5100ec31d64e0fd",
+        "5a449d55416b93aaa5d206765a60967b87696d302d766749524be921e7f232bc",
+        "7b1a4a0a3e51f6b2198215eb6583b157e99e52c5c4c22dff8c0c71d94934a187",
+        "a0697ad225b1afd2ef593a85a12b966b1f54625b0e78f8bebc479f3beb84ebc1",
+        "a66794e8a13d531f4b6c8a6708403ffecb2ef2e1e7e0dcd79d9b2894032ed253",
+        "6b98076687c75336c7c382d012348c5401e572f0ffc37aec5debd9dd5a08b294",
+        "a0b0080dc7d9450c7f362988c469123cb7863e5c5fe1046b92c8c3f1c6c6c55c",
+        "87d7af9043fcb6073554577bfc300596e7af86ae98fab5444b76fc1d203ecee0"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.5498417019844055,
+      0.32155558466911316,
+      0.5016953945159912,
+      0.3680184483528137,
+      0.3579537868499756,
+      0.3334367871284485,
+      0.3821912407875061,
+      0.35215309262275696,
+      0.32703351974487305,
+      0.42126336693763733,
+      0.36947011947631836,
+      0.4205615222454071
+    ],
+    "tpo": 0.3920978804429372,
+    "forensic": 0.364674610207702,
+    "blend": 0.3783862453253196,
+    "seconds": 3.202999999994063,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  },
+  {
+    "segment": "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30/10",
+    "route": "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30",
+    "vehicle": "Civic",
+    "y_true": "ORIGINAL",
+    "frame_sampling": {
+      "method": "sequential HEVC decode; linspace index rule identical to Stage1 with actual decoded total",
+      "passes": 1,
+      "initial_count_from_frame_times": 1199,
+      "decoded_total": 1199,
+      "reported_opencv": {
+        "frame_count": -192153584101141.0,
+        "fps": 25.0
+      },
+      "selected_zero_based_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        653,
+        762,
+        871,
+        980,
+        1089,
+        1198
+      ],
+      "decoded_rgb_sha256": [
+        "2c04f77e81498f9417c000274eb0b0e6e945fe31a76a5c2f62c5bebca61aaa83",
+        "926da6a0227a8af7fc61f16426b15c447e2d7613f732f5cf04b77807e79ccfbb",
+        "9aa19195f311391b1d24889b1988a5f87f80b82dfc1e02fe6981c114156f8f6f",
+        "952f847671e9874fde2ee7228288a1bd0816a8a03e013d8fa8ec673fa046954b",
+        "e69ffe568d4afd4dfdbe73929206ab7b7432f0f7cc7f848a7de2fd2af455585a",
+        "79074d062c5258ca9db23465777a451b7d2a75b94afb6392681c5fdb1c7f660b",
+        "e60a554263d8278a8bd5190e78e21288bd0e2d99e6c4f5fdfe5cadb2979eb3b5",
+        "94ca0df799da01e7d4a8d677c195047469bfa5566a028b677c5737e499d2f615",
+        "079a02bad7d789c5d40c591d774b67724974daa19942945a69ff594cc7ddec06",
+        "44ac0777a387fa2dc3bf8b2248fbe69d44ef68a43be9630497e7b51eaf48d8dc",
+        "6a536ce75e006f78cf042f2df5de61f0a15acd3789f111fc3ee5cb2e1ab1bc39",
+        "473b7a6b393b9b890ab7848827451ffa293cdeb8b6ed3c6e6a9aed14bcccd870"
+      ]
+    },
+    "image_shapes": [
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ],
+      [
+        874,
+        1164,
+        3
+      ]
+    ],
+    "tpo_per_frame": [
+      0.45713192224502563,
+      0.3512156903743744,
+      0.36747342348098755,
+      0.4393044710159302,
+      0.370182603597641,
+      0.30207958817481995,
+      0.4123570919036865,
+      0.4570411145687103,
+      0.40280237793922424,
+      0.4736845791339874,
+      0.5085707306861877,
+      0.29421016573905945
+    ],
+    "tpo": 0.4030044799049695,
+    "forensic": 0.3143946970017484,
+    "blend": 0.3586995884533589,
+    "seconds": 3.187000000005355,
+    "false_positives": {
+      "tpo": false,
+      "forensic": false,
+      "blend": false
+    }
+  }
+]

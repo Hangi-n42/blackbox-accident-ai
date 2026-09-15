@@ -1,0 +1,13 @@
+{
+  "prompt": "Event candidates are chronological full dashcam frames. No reliable vehicle reference is available; use the whole frames. Choose the first physical contact with the camera car, not a later maximum shake. Contact can be outside the image; use the before/after vehicle motion evidence, not shake or proximity alone. Allowed event frames: [508, 518, 528, 538, 548, 558, 568, 578, 583, 589, 599, 609, 619, 629, 639, 649, 659]. Return JSON with collision_frame only, or null if unknown.",
+  "max_new_tokens": 24,
+  "input_sizes": [
+    [
+      1536,
+      1280
+    ]
+  ],
+  "status": "complete",
+  "raw": "{\n  \"collision_frame\": 659\n}",
+  "seconds": 2.5674189000274055
+}

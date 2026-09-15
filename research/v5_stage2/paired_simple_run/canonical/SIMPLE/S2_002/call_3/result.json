@@ -1,0 +1,23 @@
+{
+  "prompt": "These original dashcam frames are chronological, left to right then top to bottom. They contain a local search window plus the original clip start and end anchors. The first image of the local window may not be the start of the full clip. When did the other collision vehicle FIRST enter the camera car's driving lane? Select the first wheel touching the lane boundary, not a later re-entry. If it was already inside at the ORIGINAL clip start, select that original first frame. At intersections continue the camera car's lane boundaries forward. Original first frame: 0. Lane entry candidates: [0, 1, 2, 3, 4, 6, 7, 8, 9, 49]. Return JSON with entry_frame only.",
+  "max_new_tokens": 48,
+  "input_images": [
+    {
+      "size": [
+        1536,
+        768
+      ],
+      "bounded_size": [
+        1536,
+        768
+      ],
+      "rgb_sha256": "e13490f38e263e765c19f6ad01e4c3d4904d40f7dc2941e7bd54ce1f3caee483"
+    }
+  ],
+  "status": "complete",
+  "bounded_pixel_total": 1179648,
+  "raw_output": "{\n  \"entry_frame\": 4\n}",
+  "seconds": 1.9604837000078987,
+  "peak_allocated_bytes": 3954560000,
+  "peak_reserved_bytes": 5580521472
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "file": "OPEN_001.mp4",
+    "rows": 600,
+    "features": {
+      "shape_equal": true,
+      "shape": [
+        600,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "prediction_changed": {
+      "accel": 0,
+      "steer": 0
+    }
+  },
+  {
+    "file": "OPEN_002.mp4",
+    "rows": 601,
+    "features": {
+      "shape_equal": true,
+      "shape": [
+        601,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "prediction_changed": {
+      "accel": 0,
+      "steer": 0
+    }
+  },
+  {
+    "file": "OPEN_003.mp4",
+    "rows": 599,
+    "features": {
+      "shape_equal": true,
+      "shape": [
+        599,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "prediction_changed": {
+      "accel": 0,
+      "steer": 0
+    }
+  },
+  {
+    "file": "OPEN_004.mp4",
+    "rows": 599,
+    "features": {
+      "shape_equal": true,
+      "shape": [
+        599,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "prediction_changed": {
+      "accel": 0,
+      "steer": 0
+    }
+  },
+  {
+    "file": "OPEN_005.mp4",
+    "rows": 599,
+    "features": {
+      "shape_equal": true,
+      "shape": [
+        599,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "prediction_changed": {
+      "accel": 0,
+      "steer": 0
+    }
+  }
+]

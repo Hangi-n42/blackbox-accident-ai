@@ -1,0 +1,25 @@
+{
+  "external_stage3_improved": true,
+  "delta": {
+    "stage3": 0.014557110021060304,
+    "accel": {
+      "macro_f1": 0.008294648274525196,
+      "class_f1": {
+        "ACCELERATING": -0.0031331504658785314,
+        "DECELERATING": 0.00439481789073165,
+        "CONSTANT": -0.0025393932410869846,
+        "STOPPED": 0.034456318914334205
+      }
+    },
+    "steer": {
+      "macro_f1": 0.02916952076297541,
+      "class_f1": {
+        "LEFT": 0.011928918403738553,
+        "STRAIGHT": 0.020667775495058383,
+        "RIGHT": 0.05491186839012929
+      }
+    }
+  },
+  "public_oof_authorized_by_gate": true,
+  "elapsed_seconds": 232.2558638000046
+}

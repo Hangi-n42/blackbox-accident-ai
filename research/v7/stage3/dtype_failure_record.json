@@ -1,0 +1,11 @@
+{
+  "status": "interrupted_before_first_optimizer_step_and_candidate_prediction",
+  "error": "RuntimeError: expected scalar type Long but found Int at first cross_entropy",
+  "cause": "Windows NumPy integer labels are int32; torch cross_entropy requires int64 targets",
+  "preserved_source": "run_temporal_initial_dtype_failure.py",
+  "preserved_protocol": "frozen_plan.json",
+  "preserved_checks": ["raw_recovery_audit.json", "baseline_reproduction.json"],
+  "correction": "Explicit torch.long for target labels only; new output directory dtype_fix_run; architecture/split/seed/epochs/optimizer/gate unchanged",
+  "candidate_optimization_steps_before_error": 0,
+  "candidate_heldout_results_seen": false
+}

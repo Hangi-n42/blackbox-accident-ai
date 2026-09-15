@@ -1,0 +1,574 @@
+[
+  {
+    "name": "96x256_zero",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "96x256_negative_zero",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "96x256_normal",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "96x256_ties",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "96x256_nan",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "96x256_largefinite",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "96x256_sparse_nan",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "144x256_zero",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "144x256_negative_zero",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "144x256_normal",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "144x256_ties",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "144x256_nan",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "144x256_largefinite",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "144x256_sparse_nan",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "160x256_zero",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "160x256_negative_zero",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "160x256_normal",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "160x256_ties",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "160x256_nan",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "160x256_largefinite",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "160x256_sparse_nan",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "145x257_zero",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "145x257_negative_zero",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "145x257_normal",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "145x257_ties",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "145x257_nan",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "145x257_largefinite",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "145x257_sparse_nan",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_0",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_1",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_2",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_3",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_4",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_5",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_6",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_7",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_8",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_9",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_10",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_11",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_12",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_13",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_14",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_15",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_16",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_17",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_18",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_19",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_20",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_21",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_22",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  },
+  {
+    "name": "fixed_real_23",
+    "shape_equal": true,
+    "shape": [
+      144
+    ],
+    "bit_equal": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "unequal_values": 0
+  }
+]

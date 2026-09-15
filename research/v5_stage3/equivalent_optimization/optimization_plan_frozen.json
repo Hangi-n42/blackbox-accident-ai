@@ -1,0 +1,222 @@
+{
+  "timestamp_unix": 1789295463.958886,
+  "single_equivalent_implementation_attempt": 1,
+  "original_plan_sha256": "14a625a2dbf0dc40dbe1c8581256529a28cfe41091eaa8eda7630f83d9de3c4a",
+  "original_failed_audit_sha256": "ac58497641a0269e5cae8f373fdf236a1204cb36f0ec3d97af325408bf8de258",
+  "original_summary_sha256": "42ecd54d96f259694d29b4d9ca77e7b7c827cb71a4c4b0d23987e766acda416b",
+  "original_feature_source_sha256": "6483067dae2efe894f2268b34a79b2700f7226d19de253614618705d8366d6db",
+  "optimized_feature_source_sha256": "90cf626638648fa9262d0fff86372f8bae0b78199b46e831ccad9ba07f880033",
+  "audit_source_sha256": "f14380d4b6f28e1d611fb9cf183aa05ecfc5d481a7c9fddb288e72ac9c581a83",
+  "profile_plan_sha256": "79a92bfab1f62d68ed42b7ed7fa33c08b5051f0ff44e4d7b0a41b78dd6171d7b",
+  "intervention": "Cache ROI quantile indices/gamma; reuse one partition for median and percentiles. Preserve NumPy float32 median and float32-difference/float64-interpolation arithmetic. Signed-zero quantiles use original routine.",
+  "unchanged": [
+    "IRLS3",
+    "192 fixed samples",
+    "ROI geometry",
+    "4 coefficient field",
+    "all1128 mathematical features",
+    "10Hz time summaries",
+    "model parameters",
+    "class/sample weights",
+    "source splits",
+    "statistical gates"
+  ],
+  "contracts": [
+    "full1128 float32 bit exact synthetic and fixed24 real flows",
+    "public5 original20Hz and actual10Hz full sequences against original1128 caches",
+    "one complete real Civic20Hz video against original1128",
+    "same decoded pixel20/10 alignment",
+    "finite outputs and row counts"
+  ],
+  "synthetic_seed": 49013,
+  "synthetic_shapes": [
+    [
+      96,
+      256
+    ],
+    [
+      144,
+      256
+    ],
+    [
+      160,
+      256
+    ],
+    [
+      145,
+      257
+    ]
+  ],
+  "local_runtime_gate": {
+    "repeats": 3,
+    "statistic": "median of full-set extraction times per arm",
+    "maximum_ratio": 1.25,
+    "datasets": [
+      "public_actual10hz_2998rows",
+      "comma_repeat5_runtime_only_3000rows"
+    ],
+    "order": [
+      [
+        "baseline",
+        "candidate"
+      ],
+      [
+        "candidate",
+        "baseline"
+      ],
+      [
+        "baseline",
+        "candidate"
+      ]
+    ],
+    "not_server_guarantee": true,
+    "other_work": "Other stage may use CPU2 concurrently; paired alternating order reduces but does not remove contention."
+  },
+  "source_gate": {
+    "both_head_delta_min": 0.0,
+    "stage3_delta_gt": 1e-12,
+    "positive_routes_min": 7,
+    "routes": 12
+  },
+  "public_gate": {
+    "both_head_delta_min": 0.0,
+    "stage3_delta_gt": 1e-12
+  },
+  "external_stress": {
+    "train_public": [
+      "OPEN_001"
+    ],
+    "train_external": [
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16"
+    ],
+    "validation_external": [
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13",
+      "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12",
+      "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46",
+      "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01",
+      "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30"
+    ],
+    "validation_unit": "all10Hz proxy rows, stationary GT masks steering",
+    "independence": "Validation vehicle absent from this model fit; only known-RAV4 public clip allowed. Unknown-source public4 clips excluded. Data previously used in other experiments, not a fresh untouched test set.",
+    "limits": "One direction, two vehicles, one highway family. Public training10 labels are all CONSTANT. Stress model is not final full-public candidate."
+  },
+  "model_params": {
+    "accel": {
+      "memory": null,
+      "steps": [
+        [
+          "standardscaler",
+          "StandardScaler()"
+        ],
+        [
+          "logisticregression",
+          "LogisticRegression(C=0.03, class_weight='balanced', max_iter=2000,\n                   random_state=42)"
+        ]
+      ],
+      "verbose": false,
+      "standardscaler": "StandardScaler()",
+      "logisticregression": "LogisticRegression(C=0.03, class_weight='balanced', max_iter=2000,\n                   random_state=42)",
+      "standardscaler__copy": true,
+      "standardscaler__with_mean": true,
+      "standardscaler__with_std": true,
+      "logisticregression__C": 0.03,
+      "logisticregression__class_weight": "balanced",
+      "logisticregression__dual": false,
+      "logisticregression__fit_intercept": true,
+      "logisticregression__intercept_scaling": 1,
+      "logisticregression__l1_ratio": null,
+      "logisticregression__max_iter": 2000,
+      "logisticregression__multi_class": "deprecated",
+      "logisticregression__n_jobs": null,
+      "logisticregression__penalty": "l2",
+      "logisticregression__random_state": 42,
+      "logisticregression__solver": "lbfgs",
+      "logisticregression__tol": 0.0001,
+      "logisticregression__verbose": 0,
+      "logisticregression__warm_start": false
+    },
+    "steer": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": "balanced",
+      "criterion": "gini",
+      "max_depth": 10,
+      "max_features": 0.4,
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 2,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 160,
+      "n_jobs": 2,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "final_checkpoint_or_refit_authorized": false,
+  "cpu_threads": 2,
+  "gpu": false,
+  "protected_before": {
+    "solution\\stage3.py": {
+      "bytes": 4120,
+      "mtime_ns": 1789121208393627300,
+      "sha256": "4b211a1c4f731bbd28b0f6e60de172e9692bfc1fe0f46d49ce21d89ad44f3835"
+    },
+    "solution\\stage3_fast.py": {
+      "bytes": 4310,
+      "mtime_ns": 1789124835536566200,
+      "sha256": "b93fc1565e476c8b84627fe5d6379f2314b129444942044987fb6b75ca660dca"
+    },
+    "model\\stage3\\motion_model.joblib": {
+      "bytes": 1192151,
+      "mtime_ns": 1789121448670626800,
+      "sha256": "c52ecd15cf68856f2a7b0b37b120c7a961b3bd8889a33af4ec47f8b9719bb3b3"
+    },
+    "artifacts\\submissions\\candidate_nf4_fast.zip": {
+      "bytes": 2914581099,
+      "mtime_ns": 1789125447604419500,
+      "sha256": null
+    },
+    "artifacts\\submissions\\submit_v1.zip": {
+      "bytes": 3653603309,
+      "mtime_ns": 1789121877491584000,
+      "sha256": null
+    },
+    "artifacts\\submissions\\submit_v2_nf4.zip": {
+      "bytes": 2914579028,
+      "mtime_ns": 1789123807718839000,
+      "sha256": null
+    },
+    "artifacts\\submissions\\submit_v3_motion_fast.zip": {
+      "bytes": 2914582277,
+      "mtime_ns": 1789128384326864600,
+      "sha256": null
+    },
+    "artifacts\\submissions\\submit_v4.zip": {
+      "bytes": 2914586291,
+      "mtime_ns": 1789236309993404000,
+      "sha256": null
+    }
+  }
+}

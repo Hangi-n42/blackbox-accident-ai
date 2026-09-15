@@ -1,0 +1,1984 @@
+{
+  "selection": "first 6 eligible document IDs in SHA256(document ID) ascending order; one video per label/camera by SHA256(video ID); at most 8 evenly spaced distributed JPEGs",
+  "eligible_documents": 65,
+  "documents": [
+    "srb_passport/04",
+    "aze_passport/03",
+    "esp_id/01",
+    "aze_passport/04",
+    "rus_internalpassport/01",
+    "lva_passport/02"
+  ],
+  "videos": [
+    {
+      "document_id": "srb_passport/04",
+      "video_id": "srb_passport/04.or0002",
+      "label": "or",
+      "camera": "iphone",
+      "condition_or_display": "daylight",
+      "available_frames": 60,
+      "frames": [
+        {
+          "path": "or/clips/images/srb_passport/04.or0002/000001.jpg",
+          "compressed_bytes": "160677",
+          "uncompressed_bytes": "160713",
+          "start_disk": "0",
+          "local_header_offset": "2322968223",
+          "method": "8",
+          "crc32": "312d21b2"
+        },
+        {
+          "path": "or/clips/images/srb_passport/04.or0002/000033.jpg",
+          "compressed_bytes": "90290",
+          "uncompressed_bytes": "90459",
+          "start_disk": "0",
+          "local_header_offset": "2323856916",
+          "method": "8",
+          "crc32": "41781203"
+        },
+        {
+          "path": "or/clips/images/srb_passport/04.or0002/000069.jpg",
+          "compressed_bytes": "90753",
+          "uncompressed_bytes": "90956",
+          "start_disk": "0",
+          "local_header_offset": "2324661783",
+          "method": "8",
+          "crc32": "8fcfd7eb"
+        },
+        {
+          "path": "or/clips/images/srb_passport/04.or0002/000101.jpg",
+          "compressed_bytes": "81221",
+          "uncompressed_bytes": "81474",
+          "start_disk": "0",
+          "local_header_offset": "2325377966",
+          "method": "8",
+          "crc32": "7247a99f"
+        },
+        {
+          "path": "or/clips/images/srb_passport/04.or0002/000137.jpg",
+          "compressed_bytes": "97945",
+          "uncompressed_bytes": "98102",
+          "start_disk": "0",
+          "local_header_offset": "2326226334",
+          "method": "8",
+          "crc32": "1ab9b0a9"
+        },
+        {
+          "path": "or/clips/images/srb_passport/04.or0002/000169.jpg",
+          "compressed_bytes": "96858",
+          "uncompressed_bytes": "97098",
+          "start_disk": "0",
+          "local_header_offset": "2326998258",
+          "method": "8",
+          "crc32": "223831fa"
+        },
+        {
+          "path": "or/clips/images/srb_passport/04.or0002/000205.jpg",
+          "compressed_bytes": "98937",
+          "uncompressed_bytes": "99088",
+          "start_disk": "0",
+          "local_header_offset": "2327891690",
+          "method": "8",
+          "crc32": "e286e91a"
+        },
+        {
+          "path": "or/clips/images/srb_passport/04.or0002/000237.jpg",
+          "compressed_bytes": "96759",
+          "uncompressed_bytes": "96991",
+          "start_disk": "0",
+          "local_header_offset": "2328677513",
+          "method": "8",
+          "crc32": "4d0dc8fd"
+        }
+      ]
+    },
+    {
+      "document_id": "srb_passport/04",
+      "video_id": "srb_passport/04.or0004",
+      "label": "or",
+      "camera": "android",
+      "condition_or_display": "frontally close without much projectivity",
+      "available_frames": 60,
+      "frames": [
+        {
+          "path": "or/clips/images/srb_passport/04.or0004/000001.jpg",
+          "compressed_bytes": "414865",
+          "uncompressed_bytes": "415247",
+          "start_disk": "0",
+          "local_header_offset": "2337629775",
+          "method": "8",
+          "crc32": "6eeb2075"
+        },
+        {
+          "path": "or/clips/images/srb_passport/04.or0004/000033.jpg",
+          "compressed_bytes": "289268",
+          "uncompressed_bytes": "291593",
+          "start_disk": "0",
+          "local_header_offset": "2340051328",
+          "method": "8",
+          "crc32": "00a0e7b1"
+        },
+        {
+          "path": "or/clips/images/srb_passport/04.or0004/000069.jpg",
+          "compressed_bytes": "291520",
+          "uncompressed_bytes": "293635",
+          "start_disk": "0",
+          "local_header_offset": "2342664788",
+          "method": "8",
+          "crc32": "d24585f1"
+        },
+        {
+          "path": "or/clips/images/srb_passport/04.or0004/000101.jpg",
+          "compressed_bytes": "264408",
+          "uncompressed_bytes": "265501",
+          "start_disk": "0",
+          "local_header_offset": "2344844971",
+          "method": "8",
+          "crc32": "cc8a2540"
+        },
+        {
+          "path": "or/clips/images/srb_passport/04.or0004/000137.jpg",
+          "compressed_bytes": "293779",
+          "uncompressed_bytes": "294242",
+          "start_disk": "0",
+          "local_header_offset": "2347219941",
+          "method": "8",
+          "crc32": "36734520"
+        },
+        {
+          "path": "or/clips/images/srb_passport/04.or0004/000169.jpg",
+          "compressed_bytes": "296081",
+          "uncompressed_bytes": "297879",
+          "start_disk": "0",
+          "local_header_offset": "2349558836",
+          "method": "8",
+          "crc32": "6d9d3a40"
+        },
+        {
+          "path": "or/clips/images/srb_passport/04.or0004/000205.jpg",
+          "compressed_bytes": "281362",
+          "uncompressed_bytes": "282183",
+          "start_disk": "0",
+          "local_header_offset": "2352004981",
+          "method": "8",
+          "crc32": "06d51972"
+        },
+        {
+          "path": "or/clips/images/srb_passport/04.or0004/000237.jpg",
+          "compressed_bytes": "291253",
+          "uncompressed_bytes": "291670",
+          "start_disk": "0",
+          "local_header_offset": "2354185599",
+          "method": "8",
+          "crc32": "2618b12a"
+        }
+      ]
+    },
+    {
+      "document_id": "srb_passport/04",
+      "video_id": "srb_passport/04.re0001",
+      "label": "re",
+      "camera": "iphone",
+      "condition_or_display": "macbook pro",
+      "available_frames": 51,
+      "frames": [
+        {
+          "path": "re/clips/images/srb_passport/04.re0001/000001.jpg",
+          "compressed_bytes": "308791",
+          "uncompressed_bytes": "308791",
+          "start_disk": "1",
+          "local_header_offset": "1803966489",
+          "method": "0",
+          "crc32": "ef88ebb7"
+        },
+        {
+          "path": "re/clips/images/srb_passport/04.re0001/000078.jpg",
+          "compressed_bytes": "204072",
+          "uncompressed_bytes": "204072",
+          "start_disk": "1",
+          "local_header_offset": "1805624070",
+          "method": "0",
+          "crc32": "c154cb06"
+        },
+        {
+          "path": "re/clips/images/srb_passport/04.re0001/000155.jpg",
+          "compressed_bytes": "218508",
+          "uncompressed_bytes": "218508",
+          "start_disk": "1",
+          "local_header_offset": "1807186553",
+          "method": "0",
+          "crc32": "0a556489"
+        },
+        {
+          "path": "re/clips/images/srb_passport/04.re0001/000232.jpg",
+          "compressed_bytes": "236987",
+          "uncompressed_bytes": "236987",
+          "start_disk": "1",
+          "local_header_offset": "1808856572",
+          "method": "0",
+          "crc32": "6be7cc12"
+        },
+        {
+          "path": "re/clips/images/srb_passport/04.re0001/000320.jpg",
+          "compressed_bytes": "246072",
+          "uncompressed_bytes": "246072",
+          "start_disk": "1",
+          "local_header_offset": "1810802217",
+          "method": "0",
+          "crc32": "e5515e00"
+        },
+        {
+          "path": "re/clips/images/srb_passport/04.re0001/000397.jpg",
+          "compressed_bytes": "253819",
+          "uncompressed_bytes": "253819",
+          "start_disk": "1",
+          "local_header_offset": "1812551537",
+          "method": "0",
+          "crc32": "32ba5e38"
+        },
+        {
+          "path": "re/clips/images/srb_passport/04.re0001/000474.jpg",
+          "compressed_bytes": "258398",
+          "uncompressed_bytes": "258398",
+          "start_disk": "1",
+          "local_header_offset": "1814307061",
+          "method": "0",
+          "crc32": "990a44cc"
+        },
+        {
+          "path": "re/clips/images/srb_passport/04.re0001/000551.jpg",
+          "compressed_bytes": "264956",
+          "uncompressed_bytes": "264956",
+          "start_disk": "1",
+          "local_header_offset": "1816007730",
+          "method": "0",
+          "crc32": "a855d1c1"
+        }
+      ]
+    },
+    {
+      "document_id": "srb_passport/04",
+      "video_id": "srb_passport/04.re0004",
+      "label": "re",
+      "camera": "android",
+      "condition_or_display": "philips",
+      "available_frames": 62,
+      "frames": [
+        {
+          "path": "re/clips/images/srb_passport/04.re0004/000001.jpg",
+          "compressed_bytes": "714147",
+          "uncompressed_bytes": "714147",
+          "start_disk": "1",
+          "local_header_offset": "1859827385",
+          "method": "0",
+          "crc32": "4e2f89ac"
+        },
+        {
+          "path": "re/clips/images/srb_passport/04.re0004/000037.jpg",
+          "compressed_bytes": "379189",
+          "uncompressed_bytes": "379189",
+          "start_disk": "1",
+          "local_header_offset": "1864166608",
+          "method": "0",
+          "crc32": "2f5c92a5"
+        },
+        {
+          "path": "re/clips/images/srb_passport/04.re0004/000069.jpg",
+          "compressed_bytes": "562780",
+          "uncompressed_bytes": "562780",
+          "start_disk": "1",
+          "local_header_offset": "1867602756",
+          "method": "0",
+          "crc32": "f7549698"
+        },
+        {
+          "path": "re/clips/images/srb_passport/04.re0004/000105.jpg",
+          "compressed_bytes": "349305",
+          "uncompressed_bytes": "349305",
+          "start_disk": "1",
+          "local_header_offset": "1871458589",
+          "method": "0",
+          "crc32": "e9a9f8b2"
+        },
+        {
+          "path": "re/clips/images/srb_passport/04.re0004/000141.jpg",
+          "compressed_bytes": "343894",
+          "uncompressed_bytes": "343894",
+          "start_disk": "1",
+          "local_header_offset": "1875580112",
+          "method": "0",
+          "crc32": "c44a0f3c"
+        },
+        {
+          "path": "re/clips/images/srb_passport/04.re0004/000177.jpg",
+          "compressed_bytes": "555570",
+          "uncompressed_bytes": "555570",
+          "start_disk": "1",
+          "local_header_offset": "1879767785",
+          "method": "0",
+          "crc32": "760cc3ad"
+        },
+        {
+          "path": "re/clips/images/srb_passport/04.re0004/000209.jpg",
+          "compressed_bytes": "561694",
+          "uncompressed_bytes": "561694",
+          "start_disk": "1",
+          "local_header_offset": "1883713975",
+          "method": "0",
+          "crc32": "5faf7d06"
+        },
+        {
+          "path": "re/clips/images/srb_passport/04.re0004/000245.jpg",
+          "compressed_bytes": "557222",
+          "uncompressed_bytes": "557222",
+          "start_disk": "1",
+          "local_header_offset": "1888503512",
+          "method": "0",
+          "crc32": "1f5085ba"
+        }
+      ]
+    },
+    {
+      "document_id": "aze_passport/03",
+      "video_id": "aze_passport/03.or0002",
+      "label": "or",
+      "camera": "iphone",
+      "condition_or_display": "colored light + flash",
+      "available_frames": 60,
+      "frames": [
+        {
+          "path": "or/clips/images/aze_passport/03.or0002/000001.jpg",
+          "compressed_bytes": "243933",
+          "uncompressed_bytes": "244591",
+          "start_disk": "0",
+          "local_header_offset": "399879127",
+          "method": "8",
+          "crc32": "431b6a34"
+        },
+        {
+          "path": "or/clips/images/aze_passport/03.or0002/000033.jpg",
+          "compressed_bytes": "110419",
+          "uncompressed_bytes": "110684",
+          "start_disk": "0",
+          "local_header_offset": "400895787",
+          "method": "8",
+          "crc32": "4e209e38"
+        },
+        {
+          "path": "or/clips/images/aze_passport/03.or0002/000069.jpg",
+          "compressed_bytes": "113036",
+          "uncompressed_bytes": "113335",
+          "start_disk": "0",
+          "local_header_offset": "401881613",
+          "method": "8",
+          "crc32": "f4f06e9d"
+        },
+        {
+          "path": "or/clips/images/aze_passport/03.or0002/000101.jpg",
+          "compressed_bytes": "113690",
+          "uncompressed_bytes": "113981",
+          "start_disk": "0",
+          "local_header_offset": "402780398",
+          "method": "8",
+          "crc32": "fa005252"
+        },
+        {
+          "path": "or/clips/images/aze_passport/03.or0002/000137.jpg",
+          "compressed_bytes": "115705",
+          "uncompressed_bytes": "116125",
+          "start_disk": "0",
+          "local_header_offset": "403790094",
+          "method": "8",
+          "crc32": "d710f08d"
+        },
+        {
+          "path": "or/clips/images/aze_passport/03.or0002/000169.jpg",
+          "compressed_bytes": "115255",
+          "uncompressed_bytes": "115567",
+          "start_disk": "0",
+          "local_header_offset": "404742308",
+          "method": "8",
+          "crc32": "ef12c15e"
+        },
+        {
+          "path": "or/clips/images/aze_passport/03.or0002/000205.jpg",
+          "compressed_bytes": "116703",
+          "uncompressed_bytes": "117142",
+          "start_disk": "0",
+          "local_header_offset": "405799833",
+          "method": "8",
+          "crc32": "0932be60"
+        },
+        {
+          "path": "or/clips/images/aze_passport/03.or0002/000237.jpg",
+          "compressed_bytes": "115125",
+          "uncompressed_bytes": "115530",
+          "start_disk": "0",
+          "local_header_offset": "406714613",
+          "method": "8",
+          "crc32": "259cd9c5"
+        }
+      ]
+    },
+    {
+      "document_id": "aze_passport/03",
+      "video_id": "aze_passport/03.or0001",
+      "label": "or",
+      "camera": "android",
+      "condition_or_display": "colored light + flash",
+      "available_frames": 58,
+      "frames": [
+        {
+          "path": "or/clips/images/aze_passport/03.or0001/000001.jpg",
+          "compressed_bytes": "215240",
+          "uncompressed_bytes": "215714",
+          "start_disk": "0",
+          "local_header_offset": "394256396",
+          "method": "8",
+          "crc32": "6ecdfced"
+        },
+        {
+          "path": "or/clips/images/aze_passport/03.or0001/000033.jpg",
+          "compressed_bytes": "94009",
+          "uncompressed_bytes": "94616",
+          "start_disk": "0",
+          "local_header_offset": "395202627",
+          "method": "8",
+          "crc32": "55fcd015"
+        },
+        {
+          "path": "or/clips/images/aze_passport/03.or0001/000065.jpg",
+          "compressed_bytes": "91730",
+          "uncompressed_bytes": "92270",
+          "start_disk": "0",
+          "local_header_offset": "395950796",
+          "method": "8",
+          "crc32": "4f4eeebb"
+        },
+        {
+          "path": "or/clips/images/aze_passport/03.or0001/000097.jpg",
+          "compressed_bytes": "93453",
+          "uncompressed_bytes": "94058",
+          "start_disk": "0",
+          "local_header_offset": "396690203",
+          "method": "8",
+          "crc32": "baf8524d"
+        },
+        {
+          "path": "or/clips/images/aze_passport/03.or0001/000133.jpg",
+          "compressed_bytes": "90706",
+          "uncompressed_bytes": "91294",
+          "start_disk": "0",
+          "local_header_offset": "397525658",
+          "method": "8",
+          "crc32": "f8acfde2"
+        },
+        {
+          "path": "or/clips/images/aze_passport/03.or0001/000165.jpg",
+          "compressed_bytes": "93763",
+          "uncompressed_bytes": "94239",
+          "start_disk": "0",
+          "local_header_offset": "398269878",
+          "method": "8",
+          "crc32": "def56b8a"
+        },
+        {
+          "path": "or/clips/images/aze_passport/03.or0001/000197.jpg",
+          "compressed_bytes": "94482",
+          "uncompressed_bytes": "94919",
+          "start_disk": "0",
+          "local_header_offset": "399017517",
+          "method": "8",
+          "crc32": "4756acf0"
+        },
+        {
+          "path": "or/clips/images/aze_passport/03.or0001/000229.jpg",
+          "compressed_bytes": "96893",
+          "uncompressed_bytes": "97357",
+          "start_disk": "0",
+          "local_header_offset": "399782086",
+          "method": "8",
+          "crc32": "aefc0e11"
+        }
+      ]
+    },
+    {
+      "document_id": "aze_passport/03",
+      "video_id": "aze_passport/03.re0002",
+      "label": "re",
+      "camera": "iphone",
+      "condition_or_display": "macbook pro",
+      "available_frames": 53,
+      "frames": [
+        {
+          "path": "re/clips/images/aze_passport/03.re0002/000001.jpg",
+          "compressed_bytes": "356131",
+          "uncompressed_bytes": "356131",
+          "start_disk": "0",
+          "local_header_offset": "1102366920",
+          "method": "0",
+          "crc32": "a3a78a2f"
+        },
+        {
+          "path": "re/clips/images/aze_passport/03.re0002/000085.jpg",
+          "compressed_bytes": "233083",
+          "uncompressed_bytes": "233083",
+          "start_disk": "0",
+          "local_header_offset": "1104113107",
+          "method": "0",
+          "crc32": "6a75e7f0"
+        },
+        {
+          "path": "re/clips/images/aze_passport/03.re0002/000181.jpg",
+          "compressed_bytes": "232174",
+          "uncompressed_bytes": "232174",
+          "start_disk": "0",
+          "local_header_offset": "1105881875",
+          "method": "0",
+          "crc32": "27eab1ca"
+        },
+        {
+          "path": "re/clips/images/aze_passport/03.re0002/000265.jpg",
+          "compressed_bytes": "213028",
+          "uncompressed_bytes": "213028",
+          "start_disk": "0",
+          "local_header_offset": "1107522145",
+          "method": "0",
+          "crc32": "7d0f722a"
+        },
+        {
+          "path": "re/clips/images/aze_passport/03.re0002/000361.jpg",
+          "compressed_bytes": "225366",
+          "uncompressed_bytes": "225366",
+          "start_disk": "0",
+          "local_header_offset": "1109296133",
+          "method": "0",
+          "crc32": "1487facc"
+        },
+        {
+          "path": "re/clips/images/aze_passport/03.re0002/000445.jpg",
+          "compressed_bytes": "234257",
+          "uncompressed_bytes": "234257",
+          "start_disk": "0",
+          "local_header_offset": "1110925278",
+          "method": "0",
+          "crc32": "3bb036b0"
+        },
+        {
+          "path": "re/clips/images/aze_passport/03.re0002/000541.jpg",
+          "compressed_bytes": "254058",
+          "uncompressed_bytes": "254058",
+          "start_disk": "0",
+          "local_header_offset": "1112785242",
+          "method": "0",
+          "crc32": "902bcb8f"
+        },
+        {
+          "path": "re/clips/images/aze_passport/03.re0002/000625.jpg",
+          "compressed_bytes": "238802",
+          "uncompressed_bytes": "238802",
+          "start_disk": "0",
+          "local_header_offset": "1114428578",
+          "method": "0",
+          "crc32": "5ae0910e"
+        }
+      ]
+    },
+    {
+      "document_id": "aze_passport/03",
+      "video_id": "aze_passport/03.re0005",
+      "label": "re",
+      "camera": "android",
+      "condition_or_display": "macbook pro",
+      "available_frames": 52,
+      "frames": [
+        {
+          "path": "re/clips/images/aze_passport/03.re0005/000001.jpg",
+          "compressed_bytes": "523778",
+          "uncompressed_bytes": "523778",
+          "start_disk": "0",
+          "local_header_offset": "1162806361",
+          "method": "0",
+          "crc32": "e0107910"
+        },
+        {
+          "path": "re/clips/images/aze_passport/03.re0005/000036.jpg",
+          "compressed_bytes": "208031",
+          "uncompressed_bytes": "208031",
+          "start_disk": "0",
+          "local_header_offset": "1164719022",
+          "method": "0",
+          "crc32": "0088a26b"
+        },
+        {
+          "path": "re/clips/images/aze_passport/03.re0005/000076.jpg",
+          "compressed_bytes": "225917",
+          "uncompressed_bytes": "225917",
+          "start_disk": "0",
+          "local_header_offset": "1166503990",
+          "method": "0",
+          "crc32": "cd7c1269"
+        },
+        {
+          "path": "re/clips/images/aze_passport/03.re0005/000111.jpg",
+          "compressed_bytes": "270672",
+          "uncompressed_bytes": "270672",
+          "start_disk": "0",
+          "local_header_offset": "1168313322",
+          "method": "0",
+          "crc32": "5967a309"
+        },
+        {
+          "path": "re/clips/images/aze_passport/03.re0005/000146.jpg",
+          "compressed_bytes": "277518",
+          "uncompressed_bytes": "277518",
+          "start_disk": "0",
+          "local_header_offset": "1170147010",
+          "method": "0",
+          "crc32": "fa7d52b3"
+        },
+        {
+          "path": "re/clips/images/aze_passport/03.re0005/000181.jpg",
+          "compressed_bytes": "260030",
+          "uncompressed_bytes": "260030",
+          "start_disk": "0",
+          "local_header_offset": "1171994331",
+          "method": "0",
+          "crc32": "0800a6f6"
+        },
+        {
+          "path": "re/clips/images/aze_passport/03.re0005/000221.jpg",
+          "compressed_bytes": "265261",
+          "uncompressed_bytes": "265261",
+          "start_disk": "0",
+          "local_header_offset": "1174089733",
+          "method": "0",
+          "crc32": "e92751f6"
+        },
+        {
+          "path": "re/clips/images/aze_passport/03.re0005/000256.jpg",
+          "compressed_bytes": "254468",
+          "uncompressed_bytes": "254468",
+          "start_disk": "0",
+          "local_header_offset": "1175980677",
+          "method": "0",
+          "crc32": "15fb458b"
+        }
+      ]
+    },
+    {
+      "document_id": "esp_id/01",
+      "video_id": "esp_id/01.or0002",
+      "label": "or",
+      "camera": "iphone",
+      "condition_or_display": "daylight + alternating shadow",
+      "available_frames": 54,
+      "frames": [
+        {
+          "path": "or/clips/images/esp_id/01.or0002/000001.jpg",
+          "compressed_bytes": "609116",
+          "uncompressed_bytes": "611106",
+          "start_disk": "0",
+          "local_header_offset": "596317148",
+          "method": "8",
+          "crc32": "54eb7ecc"
+        },
+        {
+          "path": "or/clips/images/esp_id/01.or0002/000073.jpg",
+          "compressed_bytes": "336501",
+          "uncompressed_bytes": "338595",
+          "start_disk": "0",
+          "local_header_offset": "599481209",
+          "method": "8",
+          "crc32": "3dd1ce02"
+        },
+        {
+          "path": "or/clips/images/esp_id/01.or0002/000136.jpg",
+          "compressed_bytes": "342788",
+          "uncompressed_bytes": "345380",
+          "start_disk": "0",
+          "local_header_offset": "601870799",
+          "method": "8",
+          "crc32": "b0e097f2"
+        },
+        {
+          "path": "or/clips/images/esp_id/01.or0002/000208.jpg",
+          "compressed_bytes": "351722",
+          "uncompressed_bytes": "354083",
+          "start_disk": "0",
+          "local_header_offset": "604638140",
+          "method": "8",
+          "crc32": "0d8ea363"
+        },
+        {
+          "path": "or/clips/images/esp_id/01.or0002/000271.jpg",
+          "compressed_bytes": "353455",
+          "uncompressed_bytes": "355408",
+          "start_disk": "0",
+          "local_header_offset": "607110847",
+          "method": "8",
+          "crc32": "f0a1fc4f"
+        },
+        {
+          "path": "or/clips/images/esp_id/01.or0002/000343.jpg",
+          "compressed_bytes": "345687",
+          "uncompressed_bytes": "348091",
+          "start_disk": "0",
+          "local_header_offset": "609915556",
+          "method": "8",
+          "crc32": "d983af95"
+        },
+        {
+          "path": "or/clips/images/esp_id/01.or0002/000406.jpg",
+          "compressed_bytes": "346371",
+          "uncompressed_bytes": "348543",
+          "start_disk": "0",
+          "local_header_offset": "612361520",
+          "method": "8",
+          "crc32": "f07eac65"
+        },
+        {
+          "path": "or/clips/images/esp_id/01.or0002/000478.jpg",
+          "compressed_bytes": "349895",
+          "uncompressed_bytes": "352014",
+          "start_disk": "0",
+          "local_header_offset": "615106570",
+          "method": "8",
+          "crc32": "c75b7998"
+        }
+      ]
+    },
+    {
+      "document_id": "esp_id/01",
+      "video_id": "esp_id/01.or0003",
+      "label": "or",
+      "camera": "android",
+      "condition_or_display": "artificial light",
+      "available_frames": 51,
+      "frames": [
+        {
+          "path": "or/clips/images/esp_id/01.or0003/000001.jpg",
+          "compressed_bytes": "401882",
+          "uncompressed_bytes": "402505",
+          "start_disk": "0",
+          "local_header_offset": "615456601",
+          "method": "8",
+          "crc32": "bbe02989"
+        },
+        {
+          "path": "or/clips/images/esp_id/01.or0003/000134.jpg",
+          "compressed_bytes": "182385",
+          "uncompressed_bytes": "183731",
+          "start_disk": "0",
+          "local_header_offset": "617082187",
+          "method": "8",
+          "crc32": "eb6976ca"
+        },
+        {
+          "path": "or/clips/images/esp_id/01.or0003/000267.jpg",
+          "compressed_bytes": "241790",
+          "uncompressed_bytes": "242504",
+          "start_disk": "0",
+          "local_header_offset": "618531890",
+          "method": "8",
+          "crc32": "1c7e000c"
+        },
+        {
+          "path": "or/clips/images/esp_id/01.or0003/000400.jpg",
+          "compressed_bytes": "235816",
+          "uncompressed_bytes": "236622",
+          "start_disk": "0",
+          "local_header_offset": "620130769",
+          "method": "8",
+          "crc32": "2c7bb549"
+        },
+        {
+          "path": "or/clips/images/esp_id/01.or0003/000552.jpg",
+          "compressed_bytes": "246807",
+          "uncompressed_bytes": "247706",
+          "start_disk": "0",
+          "local_header_offset": "622098348",
+          "method": "8",
+          "crc32": "1ec65c48"
+        },
+        {
+          "path": "or/clips/images/esp_id/01.or0003/000685.jpg",
+          "compressed_bytes": "256210",
+          "uncompressed_bytes": "257073",
+          "start_disk": "0",
+          "local_header_offset": "623875227",
+          "method": "8",
+          "crc32": "52acdde7"
+        },
+        {
+          "path": "or/clips/images/esp_id/01.or0003/000818.jpg",
+          "compressed_bytes": "229363",
+          "uncompressed_bytes": "229858",
+          "start_disk": "0",
+          "local_header_offset": "625539705",
+          "method": "8",
+          "crc32": "1c4d9e75"
+        },
+        {
+          "path": "or/clips/images/esp_id/01.or0003/000951.jpg",
+          "compressed_bytes": "216008",
+          "uncompressed_bytes": "216936",
+          "start_disk": "0",
+          "local_header_offset": "627092865",
+          "method": "8",
+          "crc32": "7d9e2169"
+        }
+      ]
+    },
+    {
+      "document_id": "esp_id/01",
+      "video_id": "esp_id/01.re0002",
+      "label": "re",
+      "camera": "iphone",
+      "condition_or_display": "macbook pro",
+      "available_frames": 54,
+      "frames": [
+        {
+          "path": "re/clips/images/esp_id/01.re0002/000001.jpg",
+          "compressed_bytes": "425634",
+          "uncompressed_bytes": "425634",
+          "start_disk": "0",
+          "local_header_offset": "1542945194",
+          "method": "0",
+          "crc32": "421b609c"
+        },
+        {
+          "path": "re/clips/images/esp_id/01.re0002/000081.jpg",
+          "compressed_bytes": "176780",
+          "uncompressed_bytes": "176780",
+          "start_disk": "0",
+          "local_header_offset": "1544895534",
+          "method": "0",
+          "crc32": "3dce4494"
+        },
+        {
+          "path": "re/clips/images/esp_id/01.re0002/000151.jpg",
+          "compressed_bytes": "216756",
+          "uncompressed_bytes": "216756",
+          "start_disk": "0",
+          "local_header_offset": "1546283012",
+          "method": "0",
+          "crc32": "c1009efb"
+        },
+        {
+          "path": "re/clips/images/esp_id/01.re0002/000231.jpg",
+          "compressed_bytes": "197256",
+          "uncompressed_bytes": "197256",
+          "start_disk": "0",
+          "local_header_offset": "1548142093",
+          "method": "0",
+          "crc32": "7479c5bf"
+        },
+        {
+          "path": "re/clips/images/esp_id/01.re0002/000301.jpg",
+          "compressed_bytes": "249166",
+          "uncompressed_bytes": "249166",
+          "start_disk": "0",
+          "local_header_offset": "1549639542",
+          "method": "0",
+          "crc32": "ef479d2b"
+        },
+        {
+          "path": "re/clips/images/esp_id/01.re0002/000381.jpg",
+          "compressed_bytes": "274666",
+          "uncompressed_bytes": "274666",
+          "start_disk": "0",
+          "local_header_offset": "1551645377",
+          "method": "0",
+          "crc32": "125d5978"
+        },
+        {
+          "path": "re/clips/images/esp_id/01.re0002/000451.jpg",
+          "compressed_bytes": "205654",
+          "uncompressed_bytes": "205654",
+          "start_disk": "0",
+          "local_header_offset": "1553145177",
+          "method": "0",
+          "crc32": "e9b139d5"
+        },
+        {
+          "path": "re/clips/images/esp_id/01.re0002/000531.jpg",
+          "compressed_bytes": "198583",
+          "uncompressed_bytes": "198583",
+          "start_disk": "0",
+          "local_header_offset": "1554950376",
+          "method": "0",
+          "crc32": "832eff45"
+        }
+      ]
+    },
+    {
+      "document_id": "esp_id/01",
+      "video_id": "esp_id/01.re0004",
+      "label": "re",
+      "camera": "android",
+      "condition_or_display": "lenovo",
+      "available_frames": 60,
+      "frames": [
+        {
+          "path": "re/clips/images/esp_id/01.re0004/000001.jpg",
+          "compressed_bytes": "437228",
+          "uncompressed_bytes": "437228",
+          "start_disk": "0",
+          "local_header_offset": "1575157196",
+          "method": "0",
+          "crc32": "94bb7eda"
+        },
+        {
+          "path": "re/clips/images/esp_id/01.re0004/000033.jpg",
+          "compressed_bytes": "297312",
+          "uncompressed_bytes": "297312",
+          "start_disk": "0",
+          "local_header_offset": "1577459314",
+          "method": "0",
+          "crc32": "db2e31cc"
+        },
+        {
+          "path": "re/clips/images/esp_id/01.re0004/000069.jpg",
+          "compressed_bytes": "276745",
+          "uncompressed_bytes": "276745",
+          "start_disk": "0",
+          "local_header_offset": "1580109271",
+          "method": "0",
+          "crc32": "2a643400"
+        },
+        {
+          "path": "re/clips/images/esp_id/01.re0004/000101.jpg",
+          "compressed_bytes": "313834",
+          "uncompressed_bytes": "313834",
+          "start_disk": "0",
+          "local_header_offset": "1582212056",
+          "method": "0",
+          "crc32": "7ac813d2"
+        },
+        {
+          "path": "re/clips/images/esp_id/01.re0004/000137.jpg",
+          "compressed_bytes": "289927",
+          "uncompressed_bytes": "289927",
+          "start_disk": "0",
+          "local_header_offset": "1584728289",
+          "method": "0",
+          "crc32": "33d5e1f8"
+        },
+        {
+          "path": "re/clips/images/esp_id/01.re0004/000169.jpg",
+          "compressed_bytes": "328271",
+          "uncompressed_bytes": "328271",
+          "start_disk": "0",
+          "local_header_offset": "1587189153",
+          "method": "0",
+          "crc32": "ab645e8f"
+        },
+        {
+          "path": "re/clips/images/esp_id/01.re0004/000205.jpg",
+          "compressed_bytes": "288938",
+          "uncompressed_bytes": "288938",
+          "start_disk": "0",
+          "local_header_offset": "1589801662",
+          "method": "0",
+          "crc32": "320430bb"
+        },
+        {
+          "path": "re/clips/images/esp_id/01.re0004/000237.jpg",
+          "compressed_bytes": "294398",
+          "uncompressed_bytes": "294398",
+          "start_disk": "0",
+          "local_header_offset": "1592053340",
+          "method": "0",
+          "crc32": "197001ba"
+        }
+      ]
+    },
+    {
+      "document_id": "aze_passport/04",
+      "video_id": "aze_passport/04.or0002",
+      "label": "or",
+      "camera": "iphone",
+      "condition_or_display": "colored light",
+      "available_frames": 52,
+      "frames": [
+        {
+          "path": "or/clips/images/aze_passport/04.or0002/000001.jpg",
+          "compressed_bytes": "161295",
+          "uncompressed_bytes": "161975",
+          "start_disk": "0",
+          "local_header_offset": "410538309",
+          "method": "8",
+          "crc32": "8117369a"
+        },
+        {
+          "path": "or/clips/images/aze_passport/04.or0002/000036.jpg",
+          "compressed_bytes": "45555",
+          "uncompressed_bytes": "45972",
+          "start_disk": "0",
+          "local_header_offset": "411069222",
+          "method": "8",
+          "crc32": "19e21d4e"
+        },
+        {
+          "path": "or/clips/images/aze_passport/04.or0002/000076.jpg",
+          "compressed_bytes": "48061",
+          "uncompressed_bytes": "48495",
+          "start_disk": "0",
+          "local_header_offset": "411447718",
+          "method": "8",
+          "crc32": "67c13f89"
+        },
+        {
+          "path": "or/clips/images/aze_passport/04.or0002/000111.jpg",
+          "compressed_bytes": "50388",
+          "uncompressed_bytes": "50713",
+          "start_disk": "0",
+          "local_header_offset": "411788640",
+          "method": "8",
+          "crc32": "54d7d75c"
+        },
+        {
+          "path": "or/clips/images/aze_passport/04.or0002/000146.jpg",
+          "compressed_bytes": "49081",
+          "uncompressed_bytes": "49445",
+          "start_disk": "0",
+          "local_header_offset": "412132938",
+          "method": "8",
+          "crc32": "f27980e0"
+        },
+        {
+          "path": "or/clips/images/aze_passport/04.or0002/000181.jpg",
+          "compressed_bytes": "50999",
+          "uncompressed_bytes": "51217",
+          "start_disk": "0",
+          "local_header_offset": "412472925",
+          "method": "8",
+          "crc32": "89bef1d6"
+        },
+        {
+          "path": "or/clips/images/aze_passport/04.or0002/000221.jpg",
+          "compressed_bytes": "43816",
+          "uncompressed_bytes": "44343",
+          "start_disk": "0",
+          "local_header_offset": "412875506",
+          "method": "8",
+          "crc32": "6c4ead40"
+        },
+        {
+          "path": "or/clips/images/aze_passport/04.or0002/000256.jpg",
+          "compressed_bytes": "50267",
+          "uncompressed_bytes": "50560",
+          "start_disk": "0",
+          "local_header_offset": "413203783",
+          "method": "8",
+          "crc32": "a8ad0e4b"
+        }
+      ]
+    },
+    {
+      "document_id": "aze_passport/04",
+      "video_id": "aze_passport/04.or0007",
+      "label": "or",
+      "camera": "android",
+      "condition_or_display": "frontally average range projectivity average",
+      "available_frames": 58,
+      "frames": [
+        {
+          "path": "or/clips/images/aze_passport/04.or0007/000001.jpg",
+          "compressed_bytes": "310681",
+          "uncompressed_bytes": "314996",
+          "start_disk": "0",
+          "local_header_offset": "443444926",
+          "method": "8",
+          "crc32": "952875e1"
+        },
+        {
+          "path": "or/clips/images/aze_passport/04.or0007/000033.jpg",
+          "compressed_bytes": "109440",
+          "uncompressed_bytes": "119951",
+          "start_disk": "0",
+          "local_header_offset": "444996949",
+          "method": "8",
+          "crc32": "982fde88"
+        },
+        {
+          "path": "or/clips/images/aze_passport/04.or0007/000065.jpg",
+          "compressed_bytes": "127543",
+          "uncompressed_bytes": "133356",
+          "start_disk": "0",
+          "local_header_offset": "446007424",
+          "method": "8",
+          "crc32": "fbad9610"
+        },
+        {
+          "path": "or/clips/images/aze_passport/04.or0007/000097.jpg",
+          "compressed_bytes": "124294",
+          "uncompressed_bytes": "130087",
+          "start_disk": "0",
+          "local_header_offset": "447008339",
+          "method": "8",
+          "crc32": "5672bad6"
+        },
+        {
+          "path": "or/clips/images/aze_passport/04.or0007/000133.jpg",
+          "compressed_bytes": "179457",
+          "uncompressed_bytes": "183270",
+          "start_disk": "0",
+          "local_header_offset": "448280613",
+          "method": "8",
+          "crc32": "00cafa24"
+        },
+        {
+          "path": "or/clips/images/aze_passport/04.or0007/000165.jpg",
+          "compressed_bytes": "105726",
+          "uncompressed_bytes": "116176",
+          "start_disk": "0",
+          "local_header_offset": "449683093",
+          "method": "8",
+          "crc32": "31b02054"
+        },
+        {
+          "path": "or/clips/images/aze_passport/04.or0007/000197.jpg",
+          "compressed_bytes": "131482",
+          "uncompressed_bytes": "136552",
+          "start_disk": "0",
+          "local_header_offset": "450682077",
+          "method": "8",
+          "crc32": "fc229f4c"
+        },
+        {
+          "path": "or/clips/images/aze_passport/04.or0007/000229.jpg",
+          "compressed_bytes": "173449",
+          "uncompressed_bytes": "176926",
+          "start_disk": "0",
+          "local_header_offset": "451971133",
+          "method": "8",
+          "crc32": "3c54d193"
+        }
+      ]
+    },
+    {
+      "document_id": "aze_passport/04",
+      "video_id": "aze_passport/04.re0002",
+      "label": "re",
+      "camera": "iphone",
+      "condition_or_display": "philips",
+      "available_frames": 55,
+      "frames": [
+        {
+          "path": "re/clips/images/aze_passport/04.re0002/000001.jpg",
+          "compressed_bytes": "564535",
+          "uncompressed_bytes": "564535",
+          "start_disk": "0",
+          "local_header_offset": "1212986148",
+          "method": "0",
+          "crc32": "7ed58a97"
+        },
+        {
+          "path": "re/clips/images/aze_passport/04.re0002/000073.jpg",
+          "compressed_bytes": "362468",
+          "uncompressed_bytes": "362468",
+          "start_disk": "0",
+          "local_header_offset": "1216401899",
+          "method": "0",
+          "crc32": "c2323d7e"
+        },
+        {
+          "path": "re/clips/images/aze_passport/04.re0002/000136.jpg",
+          "compressed_bytes": "332059",
+          "uncompressed_bytes": "332059",
+          "start_disk": "0",
+          "local_header_offset": "1218715824",
+          "method": "0",
+          "crc32": "ffcccc65"
+        },
+        {
+          "path": "re/clips/images/aze_passport/04.re0002/000208.jpg",
+          "compressed_bytes": "410918",
+          "uncompressed_bytes": "410918",
+          "start_disk": "0",
+          "local_header_offset": "1221343695",
+          "method": "0",
+          "crc32": "4b858e83"
+        },
+        {
+          "path": "re/clips/images/aze_passport/04.re0002/000280.jpg",
+          "compressed_bytes": "359649",
+          "uncompressed_bytes": "359649",
+          "start_disk": "0",
+          "local_header_offset": "1224594904",
+          "method": "0",
+          "crc32": "ae5b1030"
+        },
+        {
+          "path": "re/clips/images/aze_passport/04.re0002/000352.jpg",
+          "compressed_bytes": "386892",
+          "uncompressed_bytes": "386892",
+          "start_disk": "0",
+          "local_header_offset": "1227686710",
+          "method": "0",
+          "crc32": "0f42aca1"
+        },
+        {
+          "path": "re/clips/images/aze_passport/04.re0002/000415.jpg",
+          "compressed_bytes": "370292",
+          "uncompressed_bytes": "370292",
+          "start_disk": "0",
+          "local_header_offset": "1230603199",
+          "method": "0",
+          "crc32": "c4778faf"
+        },
+        {
+          "path": "re/clips/images/aze_passport/04.re0002/000487.jpg",
+          "compressed_bytes": "449330",
+          "uncompressed_bytes": "449330",
+          "start_disk": "0",
+          "local_header_offset": "1234045112",
+          "method": "0",
+          "crc32": "22ad025b"
+        }
+      ]
+    },
+    {
+      "document_id": "aze_passport/04",
+      "video_id": "aze_passport/04.re0004",
+      "label": "re",
+      "camera": "android",
+      "condition_or_display": "philips",
+      "available_frames": 58,
+      "frames": [
+        {
+          "path": "re/clips/images/aze_passport/04.re0004/000001.jpg",
+          "compressed_bytes": "606348",
+          "uncompressed_bytes": "606348",
+          "start_disk": "0",
+          "local_header_offset": "1249546901",
+          "method": "0",
+          "crc32": "1e858b42"
+        },
+        {
+          "path": "re/clips/images/aze_passport/04.re0004/000033.jpg",
+          "compressed_bytes": "375714",
+          "uncompressed_bytes": "375714",
+          "start_disk": "0",
+          "local_header_offset": "1252963217",
+          "method": "0",
+          "crc32": "ae5d4c6a"
+        },
+        {
+          "path": "re/clips/images/aze_passport/04.re0004/000065.jpg",
+          "compressed_bytes": "401533",
+          "uncompressed_bytes": "401533",
+          "start_disk": "0",
+          "local_header_offset": "1256037995",
+          "method": "0",
+          "crc32": "4bdd2eea"
+        },
+        {
+          "path": "re/clips/images/aze_passport/04.re0004/000097.jpg",
+          "compressed_bytes": "419196",
+          "uncompressed_bytes": "419196",
+          "start_disk": "0",
+          "local_header_offset": "1259187092",
+          "method": "0",
+          "crc32": "c9d804c9"
+        },
+        {
+          "path": "re/clips/images/aze_passport/04.re0004/000133.jpg",
+          "compressed_bytes": "429295",
+          "uncompressed_bytes": "429295",
+          "start_disk": "0",
+          "local_header_offset": "1262821790",
+          "method": "0",
+          "crc32": "d6fe7ac8"
+        },
+        {
+          "path": "re/clips/images/aze_passport/04.re0004/000165.jpg",
+          "compressed_bytes": "299938",
+          "uncompressed_bytes": "299938",
+          "start_disk": "0",
+          "local_header_offset": "1266131240",
+          "method": "0",
+          "crc32": "fc1e264c"
+        },
+        {
+          "path": "re/clips/images/aze_passport/04.re0004/000197.jpg",
+          "compressed_bytes": "411086",
+          "uncompressed_bytes": "411086",
+          "start_disk": "0",
+          "local_header_offset": "1269302717",
+          "method": "0",
+          "crc32": "e99d45c1"
+        },
+        {
+          "path": "re/clips/images/aze_passport/04.re0004/000229.jpg",
+          "compressed_bytes": "422440",
+          "uncompressed_bytes": "422440",
+          "start_disk": "0",
+          "local_header_offset": "1272618656",
+          "method": "0",
+          "crc32": "693e877c"
+        }
+      ]
+    },
+    {
+      "document_id": "rus_internalpassport/01",
+      "video_id": "rus_internalpassport/01.or0002",
+      "label": "or",
+      "camera": "iphone",
+      "condition_or_display": "colored light + flash",
+      "available_frames": 59,
+      "frames": [
+        {
+          "path": "or/clips/images/rus_internalpassport/01.or0002/000001.jpg",
+          "compressed_bytes": "121591",
+          "uncompressed_bytes": "122446",
+          "start_disk": "0",
+          "local_header_offset": "2001288816",
+          "method": "8",
+          "crc32": "708fe5cb"
+        },
+        {
+          "path": "or/clips/images/rus_internalpassport/01.or0002/000033.jpg",
+          "compressed_bytes": "56780",
+          "uncompressed_bytes": "57304",
+          "start_disk": "0",
+          "local_header_offset": "2001889598",
+          "method": "8",
+          "crc32": "4b8fa5a8"
+        },
+        {
+          "path": "or/clips/images/rus_internalpassport/01.or0002/000069.jpg",
+          "compressed_bytes": "56602",
+          "uncompressed_bytes": "57183",
+          "start_disk": "0",
+          "local_header_offset": "2002400798",
+          "method": "8",
+          "crc32": "fc3cb71c"
+        },
+        {
+          "path": "or/clips/images/rus_internalpassport/01.or0002/000101.jpg",
+          "compressed_bytes": "58600",
+          "uncompressed_bytes": "59150",
+          "start_disk": "0",
+          "local_header_offset": "2002865032",
+          "method": "8",
+          "crc32": "d7a39583"
+        },
+        {
+          "path": "or/clips/images/rus_internalpassport/01.or0002/000133.jpg",
+          "compressed_bytes": "53876",
+          "uncompressed_bytes": "54549",
+          "start_disk": "0",
+          "local_header_offset": "2003312620",
+          "method": "8",
+          "crc32": "239f9d9f"
+        },
+        {
+          "path": "or/clips/images/rus_internalpassport/01.or0002/000165.jpg",
+          "compressed_bytes": "54989",
+          "uncompressed_bytes": "55550",
+          "start_disk": "0",
+          "local_header_offset": "2003753150",
+          "method": "8",
+          "crc32": "e28e57a8"
+        },
+        {
+          "path": "or/clips/images/rus_internalpassport/01.or0002/000201.jpg",
+          "compressed_bytes": "56757",
+          "uncompressed_bytes": "57286",
+          "start_disk": "0",
+          "local_header_offset": "2004255008",
+          "method": "8",
+          "crc32": "27896315"
+        },
+        {
+          "path": "or/clips/images/rus_internalpassport/01.or0002/000233.jpg",
+          "compressed_bytes": "56931",
+          "uncompressed_bytes": "57494",
+          "start_disk": "0",
+          "local_header_offset": "2004708416",
+          "method": "8",
+          "crc32": "a86dc4b0"
+        }
+      ]
+    },
+    {
+      "document_id": "rus_internalpassport/01",
+      "video_id": "rus_internalpassport/01.or0001",
+      "label": "or",
+      "camera": "android",
+      "condition_or_display": "colored light + flash",
+      "available_frames": 59,
+      "frames": [
+        {
+          "path": "or/clips/images/rus_internalpassport/01.or0001/000001.jpg",
+          "compressed_bytes": "105189",
+          "uncompressed_bytes": "106194",
+          "start_disk": "0",
+          "local_header_offset": "1998129805",
+          "method": "8",
+          "crc32": "20c9e53d"
+        },
+        {
+          "path": "or/clips/images/rus_internalpassport/01.or0001/000033.jpg",
+          "compressed_bytes": "50821",
+          "uncompressed_bytes": "51542",
+          "start_disk": "0",
+          "local_header_offset": "1998674456",
+          "method": "8",
+          "crc32": "4768ea0e"
+        },
+        {
+          "path": "or/clips/images/rus_internalpassport/01.or0001/000069.jpg",
+          "compressed_bytes": "51139",
+          "uncompressed_bytes": "51840",
+          "start_disk": "0",
+          "local_header_offset": "1999135720",
+          "method": "8",
+          "crc32": "4c4a33ab"
+        },
+        {
+          "path": "or/clips/images/rus_internalpassport/01.or0001/000101.jpg",
+          "compressed_bytes": "51131",
+          "uncompressed_bytes": "51745",
+          "start_disk": "0",
+          "local_header_offset": "1999545026",
+          "method": "8",
+          "crc32": "bcfda2eb"
+        },
+        {
+          "path": "or/clips/images/rus_internalpassport/01.or0001/000133.jpg",
+          "compressed_bytes": "51223",
+          "uncompressed_bytes": "51888",
+          "start_disk": "0",
+          "local_header_offset": "1999955497",
+          "method": "8",
+          "crc32": "5ad1ac04"
+        },
+        {
+          "path": "or/clips/images/rus_internalpassport/01.or0001/000165.jpg",
+          "compressed_bytes": "51440",
+          "uncompressed_bytes": "52135",
+          "start_disk": "0",
+          "local_header_offset": "2000365061",
+          "method": "8",
+          "crc32": "70f1e2c4"
+        },
+        {
+          "path": "or/clips/images/rus_internalpassport/01.or0001/000201.jpg",
+          "compressed_bytes": "51000",
+          "uncompressed_bytes": "51708",
+          "start_disk": "0",
+          "local_header_offset": "2000827093",
+          "method": "8",
+          "crc32": "d23794b7"
+        },
+        {
+          "path": "or/clips/images/rus_internalpassport/01.or0001/000233.jpg",
+          "compressed_bytes": "52076",
+          "uncompressed_bytes": "52641",
+          "start_disk": "0",
+          "local_header_offset": "2001236576",
+          "method": "8",
+          "crc32": "6c1d484a"
+        }
+      ]
+    },
+    {
+      "document_id": "rus_internalpassport/01",
+      "video_id": "rus_internalpassport/01.re0002",
+      "label": "re",
+      "camera": "iphone",
+      "condition_or_display": "macbook pro",
+      "available_frames": 53,
+      "frames": [
+        {
+          "path": "re/clips/images/rus_internalpassport/01.re0002/000001.jpg",
+          "compressed_bytes": "394685",
+          "uncompressed_bytes": "394685",
+          "start_disk": "1",
+          "local_header_offset": "917358304",
+          "method": "0",
+          "crc32": "29c6bbfa"
+        },
+        {
+          "path": "re/clips/images/rus_internalpassport/01.re0002/000064.jpg",
+          "compressed_bytes": "201938",
+          "uncompressed_bytes": "201938",
+          "start_disk": "1",
+          "local_header_offset": "918948270",
+          "method": "0",
+          "crc32": "d4d92de4"
+        },
+        {
+          "path": "re/clips/images/rus_internalpassport/01.re0002/000136.jpg",
+          "compressed_bytes": "196578",
+          "uncompressed_bytes": "196578",
+          "start_disk": "1",
+          "local_header_offset": "920546495",
+          "method": "0",
+          "crc32": "c1cfaaee"
+        },
+        {
+          "path": "re/clips/images/rus_internalpassport/01.re0002/000199.jpg",
+          "compressed_bytes": "218676",
+          "uncompressed_bytes": "218676",
+          "start_disk": "1",
+          "local_header_offset": "921919176",
+          "method": "0",
+          "crc32": "50a310b1"
+        },
+        {
+          "path": "re/clips/images/rus_internalpassport/01.re0002/000271.jpg",
+          "compressed_bytes": "203410",
+          "uncompressed_bytes": "203410",
+          "start_disk": "1",
+          "local_header_offset": "923604588",
+          "method": "0",
+          "crc32": "a7c3d096"
+        },
+        {
+          "path": "re/clips/images/rus_internalpassport/01.re0002/000334.jpg",
+          "compressed_bytes": "212573",
+          "uncompressed_bytes": "212573",
+          "start_disk": "1",
+          "local_header_offset": "925011596",
+          "method": "0",
+          "crc32": "418a4907"
+        },
+        {
+          "path": "re/clips/images/rus_internalpassport/01.re0002/000406.jpg",
+          "compressed_bytes": "217072",
+          "uncompressed_bytes": "217072",
+          "start_disk": "1",
+          "local_header_offset": "926709671",
+          "method": "0",
+          "crc32": "d6b17872"
+        },
+        {
+          "path": "re/clips/images/rus_internalpassport/01.re0002/000469.jpg",
+          "compressed_bytes": "222596",
+          "uncompressed_bytes": "222596",
+          "start_disk": "1",
+          "local_header_offset": "928237436",
+          "method": "0",
+          "crc32": "6b7ec6ca"
+        }
+      ]
+    },
+    {
+      "document_id": "rus_internalpassport/01",
+      "video_id": "rus_internalpassport/01.re0006",
+      "label": "re",
+      "camera": "android",
+      "condition_or_display": "philips",
+      "available_frames": 58,
+      "frames": [
+        {
+          "path": "re/clips/images/rus_internalpassport/01.re0006/000001.jpg",
+          "compressed_bytes": "615951",
+          "uncompressed_bytes": "615951",
+          "start_disk": "1",
+          "local_header_offset": "981589276",
+          "method": "0",
+          "crc32": "989e6e86"
+        },
+        {
+          "path": "re/clips/images/rus_internalpassport/01.re0006/000033.jpg",
+          "compressed_bytes": "456229",
+          "uncompressed_bytes": "456229",
+          "start_disk": "1",
+          "local_header_offset": "985637853",
+          "method": "0",
+          "crc32": "a72b00a3"
+        },
+        {
+          "path": "re/clips/images/rus_internalpassport/01.re0006/000065.jpg",
+          "compressed_bytes": "591142",
+          "uncompressed_bytes": "591142",
+          "start_disk": "1",
+          "local_header_offset": "989896959",
+          "method": "0",
+          "crc32": "b621976e"
+        },
+        {
+          "path": "re/clips/images/rus_internalpassport/01.re0006/000097.jpg",
+          "compressed_bytes": "481448",
+          "uncompressed_bytes": "481448",
+          "start_disk": "1",
+          "local_header_offset": "994283316",
+          "method": "0",
+          "crc32": "059f9f2b"
+        },
+        {
+          "path": "re/clips/images/rus_internalpassport/01.re0006/000133.jpg",
+          "compressed_bytes": "485284",
+          "uncompressed_bytes": "485284",
+          "start_disk": "1",
+          "local_header_offset": "998639831",
+          "method": "0",
+          "crc32": "a34549b4"
+        },
+        {
+          "path": "re/clips/images/rus_internalpassport/01.re0006/000165.jpg",
+          "compressed_bytes": "334054",
+          "uncompressed_bytes": "334054",
+          "start_disk": "1",
+          "local_header_offset": "1002641303",
+          "method": "0",
+          "crc32": "6829d8e4"
+        },
+        {
+          "path": "re/clips/images/rus_internalpassport/01.re0006/000197.jpg",
+          "compressed_bytes": "478375",
+          "uncompressed_bytes": "478375",
+          "start_disk": "1",
+          "local_header_offset": "1006087562",
+          "method": "0",
+          "crc32": "8708aebd"
+        },
+        {
+          "path": "re/clips/images/rus_internalpassport/01.re0006/000229.jpg",
+          "compressed_bytes": "493833",
+          "uncompressed_bytes": "493833",
+          "start_disk": "1",
+          "local_header_offset": "1009680516",
+          "method": "0",
+          "crc32": "ad7beabb"
+        }
+      ]
+    },
+    {
+      "document_id": "lva_passport/02",
+      "video_id": "lva_passport/02.or0002",
+      "label": "or",
+      "camera": "iphone",
+      "condition_or_display": "daylight + alternating shadow",
+      "available_frames": 52,
+      "frames": [
+        {
+          "path": "or/clips/images/lva_passport/02.or0002/000001.jpg",
+          "compressed_bytes": "482486",
+          "uncompressed_bytes": "486355",
+          "start_disk": "0",
+          "local_header_offset": "1710251592",
+          "method": "8",
+          "crc32": "b9adf362"
+        },
+        {
+          "path": "or/clips/images/lva_passport/02.or0002/000064.jpg",
+          "compressed_bytes": "360139",
+          "uncompressed_bytes": "365433",
+          "start_disk": "0",
+          "local_header_offset": "1712913959",
+          "method": "8",
+          "crc32": "292c3f83"
+        },
+        {
+          "path": "or/clips/images/lva_passport/02.or0002/000136.jpg",
+          "compressed_bytes": "318655",
+          "uncompressed_bytes": "324259",
+          "start_disk": "0",
+          "local_header_offset": "1715692682",
+          "method": "8",
+          "crc32": "22d7c677"
+        },
+        {
+          "path": "or/clips/images/lva_passport/02.or0002/000199.jpg",
+          "compressed_bytes": "335473",
+          "uncompressed_bytes": "340451",
+          "start_disk": "0",
+          "local_header_offset": "1717955796",
+          "method": "8",
+          "crc32": "4f1e4e61"
+        },
+        {
+          "path": "or/clips/images/lva_passport/02.or0002/000262.jpg",
+          "compressed_bytes": "332489",
+          "uncompressed_bytes": "337918",
+          "start_disk": "0",
+          "local_header_offset": "1720300247",
+          "method": "8",
+          "crc32": "daa0debe"
+        },
+        {
+          "path": "or/clips/images/lva_passport/02.or0002/000325.jpg",
+          "compressed_bytes": "334867",
+          "uncompressed_bytes": "339884",
+          "start_disk": "0",
+          "local_header_offset": "1722619308",
+          "method": "8",
+          "crc32": "ae481f00"
+        },
+        {
+          "path": "or/clips/images/lva_passport/02.or0002/000397.jpg",
+          "compressed_bytes": "330096",
+          "uncompressed_bytes": "335614",
+          "start_disk": "0",
+          "local_header_offset": "1725283812",
+          "method": "8",
+          "crc32": "6c44b181"
+        },
+        {
+          "path": "or/clips/images/lva_passport/02.or0002/000460.jpg",
+          "compressed_bytes": "309798",
+          "uncompressed_bytes": "315771",
+          "start_disk": "0",
+          "local_header_offset": "1727526127",
+          "method": "8",
+          "crc32": "96dd8b5e"
+        }
+      ]
+    },
+    {
+      "document_id": "lva_passport/02",
+      "video_id": "lva_passport/02.or0001",
+      "label": "or",
+      "camera": "android",
+      "condition_or_display": "daylight + alternating shadow",
+      "available_frames": 59,
+      "frames": [
+        {
+          "path": "or/clips/images/lva_passport/02.or0001/000001.jpg",
+          "compressed_bytes": "469437",
+          "uncompressed_bytes": "471399",
+          "start_disk": "0",
+          "local_header_offset": "1689580069",
+          "method": "8",
+          "crc32": "dde77527"
+        },
+        {
+          "path": "or/clips/images/lva_passport/02.or0001/000033.jpg",
+          "compressed_bytes": "366494",
+          "uncompressed_bytes": "369355",
+          "start_disk": "0",
+          "local_header_offset": "1692639887",
+          "method": "8",
+          "crc32": "2c0e1bf4"
+        },
+        {
+          "path": "or/clips/images/lva_passport/02.or0001/000069.jpg",
+          "compressed_bytes": "334409",
+          "uncompressed_bytes": "338548",
+          "start_disk": "0",
+          "local_header_offset": "1695857111",
+          "method": "8",
+          "crc32": "78bc35c8"
+        },
+        {
+          "path": "or/clips/images/lva_passport/02.or0001/000101.jpg",
+          "compressed_bytes": "329077",
+          "uncompressed_bytes": "333036",
+          "start_disk": "0",
+          "local_header_offset": "1698496296",
+          "method": "8",
+          "crc32": "c8470f30"
+        },
+        {
+          "path": "or/clips/images/lva_passport/02.or0001/000133.jpg",
+          "compressed_bytes": "345445",
+          "uncompressed_bytes": "348956",
+          "start_disk": "0",
+          "local_header_offset": "1701158030",
+          "method": "8",
+          "crc32": "bb1cdb9d"
+        },
+        {
+          "path": "or/clips/images/lva_passport/02.or0001/000165.jpg",
+          "compressed_bytes": "358171",
+          "uncompressed_bytes": "361121",
+          "start_disk": "0",
+          "local_header_offset": "1703976709",
+          "method": "8",
+          "crc32": "83a4fbec"
+        },
+        {
+          "path": "or/clips/images/lva_passport/02.or0001/000201.jpg",
+          "compressed_bytes": "344522",
+          "uncompressed_bytes": "348137",
+          "start_disk": "0",
+          "local_header_offset": "1707176230",
+          "method": "8",
+          "crc32": "b8e30bda"
+        },
+        {
+          "path": "or/clips/images/lva_passport/02.or0001/000233.jpg",
+          "compressed_bytes": "339822",
+          "uncompressed_bytes": "343818",
+          "start_disk": "0",
+          "local_header_offset": "1709911622",
+          "method": "8",
+          "crc32": "630e61ad"
+        }
+      ]
+    },
+    {
+      "document_id": "lva_passport/02",
+      "video_id": "lva_passport/02.re0002",
+      "label": "re",
+      "camera": "iphone",
+      "condition_or_display": "macbook pro",
+      "available_frames": 56,
+      "frames": [
+        {
+          "path": "re/clips/images/lva_passport/02.re0002/000001.jpg",
+          "compressed_bytes": "359259",
+          "uncompressed_bytes": "359259",
+          "start_disk": "1",
+          "local_header_offset": "259110729",
+          "method": "0",
+          "crc32": "02286c75"
+        },
+        {
+          "path": "re/clips/images/lva_passport/02.re0002/000065.jpg",
+          "compressed_bytes": "261910",
+          "uncompressed_bytes": "261910",
+          "start_disk": "1",
+          "local_header_offset": "261322685",
+          "method": "0",
+          "crc32": "24264eaa"
+        },
+        {
+          "path": "re/clips/images/lva_passport/02.re0002/000129.jpg",
+          "compressed_bytes": "252555",
+          "uncompressed_bytes": "252555",
+          "start_disk": "1",
+          "local_header_offset": "263357707",
+          "method": "0",
+          "crc32": "7504d76c"
+        },
+        {
+          "path": "re/clips/images/lva_passport/02.re0002/000193.jpg",
+          "compressed_bytes": "256069",
+          "uncompressed_bytes": "256069",
+          "start_disk": "1",
+          "local_header_offset": "265379372",
+          "method": "0",
+          "crc32": "a8d0ccb5"
+        },
+        {
+          "path": "re/clips/images/lva_passport/02.re0002/000249.jpg",
+          "compressed_bytes": "249787",
+          "uncompressed_bytes": "249787",
+          "start_disk": "1",
+          "local_header_offset": "267212508",
+          "method": "0",
+          "crc32": "41340bbe"
+        },
+        {
+          "path": "re/clips/images/lva_passport/02.re0002/000313.jpg",
+          "compressed_bytes": "266606",
+          "uncompressed_bytes": "266606",
+          "start_disk": "1",
+          "local_header_offset": "269302367",
+          "method": "0",
+          "crc32": "a0c61cb2"
+        },
+        {
+          "path": "re/clips/images/lva_passport/02.re0002/000377.jpg",
+          "compressed_bytes": "262250",
+          "uncompressed_bytes": "262250",
+          "start_disk": "1",
+          "local_header_offset": "271414718",
+          "method": "0",
+          "crc32": "2a0b9951"
+        },
+        {
+          "path": "re/clips/images/lva_passport/02.re0002/000441.jpg",
+          "compressed_bytes": "255902",
+          "uncompressed_bytes": "255902",
+          "start_disk": "1",
+          "local_header_offset": "273500343",
+          "method": "0",
+          "crc32": "fa367374"
+        }
+      ]
+    },
+    {
+      "document_id": "lva_passport/02",
+      "video_id": "lva_passport/02.re0005",
+      "label": "re",
+      "camera": "android",
+      "condition_or_display": "macbook pro",
+      "available_frames": 52,
+      "frames": [
+        {
+          "path": "re/clips/images/lva_passport/02.re0005/000001.jpg",
+          "compressed_bytes": "379804",
+          "uncompressed_bytes": "379804",
+          "start_disk": "1",
+          "local_header_offset": "296481814",
+          "method": "0",
+          "crc32": "62218d83"
+        },
+        {
+          "path": "re/clips/images/lva_passport/02.re0005/000029.jpg",
+          "compressed_bytes": "266153",
+          "uncompressed_bytes": "266153",
+          "start_disk": "1",
+          "local_header_offset": "298478007",
+          "method": "0",
+          "crc32": "590670c2"
+        },
+        {
+          "path": "re/clips/images/lva_passport/02.re0005/000061.jpg",
+          "compressed_bytes": "261103",
+          "uncompressed_bytes": "261103",
+          "start_disk": "1",
+          "local_header_offset": "300594156",
+          "method": "0",
+          "crc32": "046348c2"
+        },
+        {
+          "path": "re/clips/images/lva_passport/02.re0005/000089.jpg",
+          "compressed_bytes": "256010",
+          "uncompressed_bytes": "256010",
+          "start_disk": "1",
+          "local_header_offset": "302403820",
+          "method": "0",
+          "crc32": "94b7cb40"
+        },
+        {
+          "path": "re/clips/images/lva_passport/02.re0005/000117.jpg",
+          "compressed_bytes": "255595",
+          "uncompressed_bytes": "255595",
+          "start_disk": "1",
+          "local_header_offset": "304189091",
+          "method": "0",
+          "crc32": "be0807d6"
+        },
+        {
+          "path": "re/clips/images/lva_passport/02.re0005/000145.jpg",
+          "compressed_bytes": "255528",
+          "uncompressed_bytes": "255528",
+          "start_disk": "1",
+          "local_header_offset": "305971148",
+          "method": "0",
+          "crc32": "b9b9c811"
+        },
+        {
+          "path": "re/clips/images/lva_passport/02.re0005/000177.jpg",
+          "compressed_bytes": "254376",
+          "uncompressed_bytes": "254376",
+          "start_disk": "1",
+          "local_header_offset": "308002642",
+          "method": "0",
+          "crc32": "e5c6c150"
+        },
+        {
+          "path": "re/clips/images/lva_passport/02.re0005/000205.jpg",
+          "compressed_bytes": "254930",
+          "uncompressed_bytes": "254930",
+          "start_disk": "1",
+          "local_header_offset": "309785562",
+          "method": "0",
+          "crc32": "3018352f"
+        }
+      ]
+    }
+  ],
+  "maximum_payload_and_header_bytes": 50338081,
+  "frozen_before_model_results": true
+}

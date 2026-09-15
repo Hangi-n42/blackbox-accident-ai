@@ -1,0 +1,17 @@
+{
+  "status": "NOT_READY",
+  "errors": [
+    "protocol selection/freeze missing",
+    "no acquired records; preparation is not acquisition",
+    "no complete verified road original/physical-recapture classes"
+  ],
+  "warnings": [
+    "development-versus-holdout separation not empirically tested: one side absent"
+  ],
+  "provisional_row_eligible_counts": {
+    "road_originals": 0,
+    "road_physical_recaptures": 0
+  },
+  "accepted_counts": null,
+  "limitations": "Metadata/file checks do not prove real capture, truthful rights, semantic non-overlap, decoding correctness, statistical adequacy, or model performance."
+}

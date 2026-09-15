@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "tests_run": 9,
+  "failures": [],
+  "helper_sha256": "fce7dc5a669f6e09072282815b3e899aa72147387da33f4331edfa49872dde28",
+  "test_sha256": "16ba9fd1187c01abfef8c0ec57d65bead4077cf3ee26574b1a542ba2a6dee9fb",
+  "torch_imported": false,
+  "GPU_or_model_execution": false,
+  "real_weights_read": false,
+  "export_created": false,
+  "scope": "Synthetic schema and rejection contracts. Does not validate GPU export or reload behavior."
+}

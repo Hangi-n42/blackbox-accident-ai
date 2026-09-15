@@ -1,0 +1,344 @@
+{
+  "created_utc": "2026-09-15T04:45:46.297931+00:00",
+  "phase": "reserved",
+  "gate_passed": false,
+  "conditions": {
+    "all_three_known_contact_labels": true,
+    "additional_correct_at_least_one": true,
+    "previously_correct_losses_zero": true,
+    "mean_absolute_error_nonincrease": false,
+    "noncollision_fields_identical": true,
+    "offline_and_calls_and_original_numbers_valid": true
+  },
+  "baseline_correct_count": 0,
+  "candidate_correct_count": 1,
+  "additional_correct_count": 1,
+  "gained": 1,
+  "lost": 0,
+  "baseline_mean_abs_error_seconds": 4.551416122004357,
+  "candidate_mean_abs_error_seconds": 6.6762527233115465,
+  "tolerance_seconds": 0.3,
+  "roundoff_epsilon_seconds": 1e-12,
+  "videos": [
+    {
+      "ID": "00005",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00005_review_1789444069007.json",
+      "review_sha256": "738909ecd54c0b3d53e926bb81ed929b282c6556e8905ed7505e94f756922b3b",
+      "source_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00005.mp4",
+      "source_sha256": "e68188e582398fcf8e8b2731cb1a79fee7542246184cafb967c3d816ccc1cce1",
+      "label_binding": {
+        "intake_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_review_intake_integrity_addendum.json",
+        "intake_sha256": "486838bfcc551d54caf2889a61cf3dba178b1c1b2e3d66af2a23c35707cbe937",
+        "expected_review_sha256": "738909ecd54c0b3d53e926bb81ed929b282c6556e8905ed7505e94f756922b3b",
+        "expected_source_sha256": "e68188e582398fcf8e8b2731cb1a79fee7542246184cafb967c3d816ccc1cce1"
+      },
+      "human_contact_draft": {
+        "status": "observed",
+        "frame": 643,
+        "pts_seconds": 21.013071895424837
+      },
+      "baseline": {
+        "collision_frame": 624,
+        "entry_frame": 89,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "candidate": {
+        "collision_frame": 636,
+        "entry_frame": 89,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "baseline_signed_error_seconds": -0.6209150326797399,
+      "candidate_signed_error_seconds": -0.2287581699346397,
+      "baseline_abs_error_seconds": 0.6209150326797399,
+      "candidate_abs_error_seconds": 0.2287581699346397,
+      "baseline_correct": false,
+      "candidate_correct": true,
+      "gained": true,
+      "lost": false,
+      "other_fields_identical": true,
+      "score_audit": {
+        "jerk": {
+          "median": 0.023789482191205025,
+          "mad": 0.01491069421172142,
+          "scaled_mad": 0.022106595238298176,
+          "denominator": 0.022106595238298176,
+          "denominator_floor_active": false,
+          "upper_clip_count": 25
+        },
+        "residual": {
+          "median": 0.40417391061782837,
+          "mad": 0.3487088084220886,
+          "scaled_mad": 0.5169956793665885,
+          "denominator": 0.5169956793665885,
+          "denominator_floor_active": false,
+          "upper_clip_count": 6
+        },
+        "appearance": {
+          "median": 1.943099021911621,
+          "mad": 1.103255271911621,
+          "scaled_mad": 1.6356862661361693,
+          "denominator": 1.6356862661361693,
+          "denominator_floor_active": false,
+          "upper_clip_count": 9
+        },
+        "baseline_top_two": [
+          {
+            "frame": 624,
+            "score": 18.5,
+            "pts_seconds": 20.392156862745097,
+            "signed_error_seconds": -0.6209150326797399
+          },
+          {
+            "frame": 627,
+            "score": 18.5,
+            "pts_seconds": 20.49019607843137,
+            "signed_error_seconds": -0.5228758169934657
+          }
+        ],
+        "candidate_top_two": [
+          {
+            "frame": 636,
+            "score": 74.15254974365234,
+            "pts_seconds": 20.784313725490197,
+            "signed_error_seconds": -0.2287581699346397
+          },
+          {
+            "frame": 633,
+            "score": 57.123321533203125,
+            "pts_seconds": 20.686274509803923,
+            "signed_error_seconds": -0.32679738562091387
+          }
+        ],
+        "baseline_score_sha256": "209c8e2af61e95bbb20f12796f6797854a486401fe2a3d987c547c6d4bb696bc",
+        "candidate_score_sha256": "2ab5faa555e788ac79282229831585df3805d8ecfd0f6547a8b4ccb16c45d680",
+        "float32_exact": true,
+        "earliest_tie_policy_verified": true
+      },
+      "independent_score_recalculation": true,
+      "label_scope": "Single-human local contact reference only; not official/adjudicated GT"
+    },
+    {
+      "ID": "00006",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00006_review_1789444072672.json",
+      "review_sha256": "be09435498362b3f75f2ffddbe60a9f989ea61ec8b479dcafa4d8a73a7d3ad24",
+      "source_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00006.mp4",
+      "source_sha256": "c9117737cef3990cc27ed9413c85330cf53b0ec91c06840523fe491f2be2c14a",
+      "label_binding": {
+        "intake_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_review_intake_integrity_addendum.json",
+        "intake_sha256": "486838bfcc551d54caf2889a61cf3dba178b1c1b2e3d66af2a23c35707cbe937",
+        "expected_review_sha256": "be09435498362b3f75f2ffddbe60a9f989ea61ec8b479dcafa4d8a73a7d3ad24",
+        "expected_source_sha256": "c9117737cef3990cc27ed9413c85330cf53b0ec91c06840523fe491f2be2c14a"
+      },
+      "human_contact_draft": {
+        "status": "observed",
+        "frame": 579,
+        "pts_seconds": 19.3
+      },
+      "baseline": {
+        "collision_frame": 495,
+        "entry_frame": 765,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "candidate": {
+        "collision_frame": 594,
+        "entry_frame": 765,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "baseline_signed_error_seconds": -2.8000000000000007,
+      "candidate_signed_error_seconds": 0.5,
+      "baseline_abs_error_seconds": 2.8000000000000007,
+      "candidate_abs_error_seconds": 0.5,
+      "baseline_correct": false,
+      "candidate_correct": false,
+      "gained": false,
+      "lost": false,
+      "other_fields_identical": true,
+      "score_audit": {
+        "jerk": {
+          "median": 0.003228007350116968,
+          "mad": 0.0017606891924515367,
+          "scaled_mad": 0.0026103977967286483,
+          "denominator": 0.0026103977967286483,
+          "denominator_floor_active": false,
+          "upper_clip_count": 31
+        },
+        "residual": {
+          "median": 0.07137714326381683,
+          "mad": 0.028170809149742126,
+          "scaled_mad": 0.041766041645407675,
+          "denominator": 0.041766041645407675,
+          "denominator_floor_active": false,
+          "upper_clip_count": 54
+        },
+        "appearance": {
+          "median": 0.37285155057907104,
+          "mad": 0.1406249850988388,
+          "scaled_mad": 0.2084906029075384,
+          "denominator": 0.2084906029075384,
+          "denominator_floor_active": false,
+          "upper_clip_count": 41
+        },
+        "baseline_top_two": [
+          {
+            "frame": 495,
+            "score": 18.5,
+            "pts_seconds": 16.5,
+            "signed_error_seconds": -2.8000000000000007
+          },
+          {
+            "frame": 498,
+            "score": 18.5,
+            "pts_seconds": 16.6,
+            "signed_error_seconds": -2.6999999999999993
+          }
+        ],
+        "candidate_top_two": [
+          {
+            "frame": 594,
+            "score": 382.9489440917969,
+            "pts_seconds": 19.8,
+            "signed_error_seconds": 0.5
+          },
+          {
+            "frame": 588,
+            "score": 303.0434265136719,
+            "pts_seconds": 19.6,
+            "signed_error_seconds": 0.3000000000000007
+          }
+        ],
+        "baseline_score_sha256": "2a7ee009e815ef34f28137914d1d1316d57415792d897c8617f487ecfbf0eadb",
+        "candidate_score_sha256": "9049573f5acbb5b05eb5e9ff0f1de9b0bcea13cf8b05f8d23632e3231455c412",
+        "float32_exact": true,
+        "earliest_tie_policy_verified": true
+      },
+      "independent_score_recalculation": true,
+      "label_scope": "Single-human local contact reference only; not official/adjudicated GT"
+    },
+    {
+      "ID": "00007",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00007_review_1789404064071.json",
+      "review_sha256": "724ab536dea876fbd653857d91d4fe04a5105afcfcf8f5e5e1ad24afcc2e296f",
+      "source_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00007.mp4",
+      "source_sha256": "0a7ebda789db958382dbe41e823e7b9466e4d806d3184c9222afe3671d361ed3",
+      "label_binding": {
+        "intake_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_review_intake_integrity.json",
+        "intake_sha256": "23c9a7d4413e184eebd8550dd8b2c1fb1462b1d6a4916b95963485f64b90f1fe",
+        "expected_review_sha256": "724ab536dea876fbd653857d91d4fe04a5105afcfcf8f5e5e1ad24afcc2e296f",
+        "expected_source_sha256": "0a7ebda789db958382dbe41e823e7b9466e4d806d3184c9222afe3671d361ed3"
+      },
+      "human_contact_draft": {
+        "status": "observed",
+        "frame": 625,
+        "pts_seconds": 20.833333333333332
+      },
+      "baseline": {
+        "collision_frame": 318,
+        "entry_frame": 114,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "candidate": {
+        "collision_frame": 1204,
+        "entry_frame": 114,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "baseline_signed_error_seconds": -10.233333333333333,
+      "candidate_signed_error_seconds": 19.3,
+      "baseline_abs_error_seconds": 10.233333333333333,
+      "candidate_abs_error_seconds": 19.3,
+      "baseline_correct": false,
+      "candidate_correct": false,
+      "gained": false,
+      "lost": false,
+      "other_fields_identical": true,
+      "score_audit": {
+        "jerk": {
+          "median": 0.07714789360761642,
+          "mad": 0.0502086840569973,
+          "scaled_mad": 0.0744393949829042,
+          "denominator": 0.0744393949829042,
+          "denominator_floor_active": false,
+          "upper_clip_count": 2
+        },
+        "residual": {
+          "median": 2.0651729106903076,
+          "mad": 0.7254021167755127,
+          "scaled_mad": 1.0754811783313751,
+          "denominator": 1.0754811783313751,
+          "denominator_floor_active": false,
+          "upper_clip_count": 0
+        },
+        "appearance": {
+          "median": 8.769726753234863,
+          "mad": 2.8895177841186523,
+          "scaled_mad": 4.283999066734314,
+          "denominator": 4.283999066734314,
+          "denominator_floor_active": false,
+          "upper_clip_count": 2
+        },
+        "baseline_top_two": [
+          {
+            "frame": 318,
+            "score": 10.449487686157227,
+            "pts_seconds": 10.6,
+            "signed_error_seconds": -10.233333333333333
+          },
+          {
+            "frame": 1204,
+            "score": 10.040545463562012,
+            "pts_seconds": 40.13333333333333,
+            "signed_error_seconds": 19.3
+          }
+        ],
+        "candidate_top_two": [
+          {
+            "frame": 1204,
+            "score": 20.181039810180664,
+            "pts_seconds": 40.13333333333333,
+            "signed_error_seconds": 19.3
+          },
+          {
+            "frame": 318,
+            "score": 10.621158599853516,
+            "pts_seconds": 10.6,
+            "signed_error_seconds": -10.233333333333333
+          }
+        ],
+        "baseline_score_sha256": "00bd7da54a55854f4cb565159dba94320a9605741b2e7c69693eceb5cadd9727",
+        "candidate_score_sha256": "1a54dcea2aa2bc2a1c151203d1c58d6f8e9057ac6e37e4944c05de31d306abe5",
+        "float32_exact": true,
+        "earliest_tie_policy_verified": true
+      },
+      "independent_score_recalculation": true,
+      "label_scope": "Single-human local contact reference only; not official/adjudicated GT"
+    }
+  ],
+  "offline_calls_valid": true,
+  "freeze_sha256": "ed42b8d14708e85bb06a140fdcae4d42b8b52ea602f17a6525299c947d9e416d",
+  "report_sha256": "00eca04dc8386427c34595ac94ac655db6f9fc86aae4f029e20f21808c6b819d",
+  "evaluator_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\evaluate_uncapped_jerk_v6c.py",
+  "evaluator_sha256": "7896bb095be2d3825f31d02a4423013f5b59db8269d95bca24dfe3a95a754b58",
+  "protocol_sha256": "3a7a1a43196da4e4316cc6cd6a14ca45c78e616ce6dd4011f20d9e8d40d01077",
+  "reserved_guard": {
+    "development_evaluation_sha256": "b5f284fe3abc62f07be9e17d1fbb6b645e97400f3b8ae0a731f047251e67fee9",
+    "development_report_sha256": "990a7194b7b1ed08c2213324ed67e575538abd1946bcb1b0542138cceb7a234c",
+    "development_freeze_sha256": "b13ab39b5c9fb40404dcba64fdc5f9ec5d96c1913cbf75bfd0502f58356a7ee3"
+  },
+  "review_file_sha256s": {
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00005_review_1789444069007.json": "738909ecd54c0b3d53e926bb81ed929b282c6556e8905ed7505e94f756922b3b",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00006_review_1789444072672.json": "be09435498362b3f75f2ffddbe60a9f989ea61ec8b479dcafa4d8a73a7d3ad24",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00007_review_1789404064071.json": "724ab536dea876fbd653857d91d4fe04a5105afcfcf8f5e5e1ad24afcc2e296f"
+  },
+  "S2": null,
+  "official_accuracy": null,
+  "ground_truth_promotion": false,
+  "independent_validation_proven": false,
+  "package_weights_rehashed_by_evaluator": false,
+  "interpretation": "Predeclared three-case contact gate on single-human drafts, not complete S2 or a leaderboard guarantee.",
+  "missing_fields_policy": "Other human labels not read. Three baseline fields checked for value equality only."
+}

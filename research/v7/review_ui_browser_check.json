@@ -1,0 +1,9 @@
+{
+  "status":"PASS_basic_visual_navigation",
+  "url":"http://127.0.0.1:8766/",
+  "surface":"Codex in-app browser",
+  "observed":["Updated app loaded", "Two consecutive next actions displayed original frame2 and0.069204seconds", "Image currentSrc ends frame_000002.png; complete=true; natural1280x720", "Screenshot shows left/right/unknown and space yes/no/unknown controls", "Restored original frame0 and0.000000seconds"],
+  "annotations_changed":false,
+  "draft_exported":false,
+  "limitation":"Real browser rendering/basic navigation only. Delayed image decoding/race behavior was covered by controlled tests, not artificially network-throttled browser testing. Browser-local draft differs from latest archived user review; it was not used as GT or overwritten."
+}

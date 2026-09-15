@@ -1,0 +1,55 @@
+{
+  "operation": "Audits only before training",
+  "threads": 2,
+  "gpu": false,
+  "same_pixel_gate": "Train20/stride2 selected rows must exactly match deploy10/stride1 from identical gray frames; flow midpoint seconds and mapping must match.",
+  "cache_gate": "Regenerated train20 must equal existing training feature cache; mismatch requires investigation before fitting.",
+  "corrected_10hz_gate": "Frame mapping/count must match. CRF18 re-encoding can change pixels/features; report rather than require bit identity.",
+  "proxy_policy": {
+    "speed_stop_m_s": 0.3,
+    "acceleration_m_s2": 0.25,
+    "steering_degrees": 2,
+    "speed_smoothing_frames20hz": 21,
+    "steer_smoothing_frames20hz": 11
+  },
+  "no_threshold_or_time_shift_search": true,
+  "public_can_use": "Known excluded exact-match OPEN_001 segment; diagnostic only, never external training.",
+  "protection_before": {
+    "solution\\stage3.py": {
+      "bytes": 4120,
+      "mtime_ns": 1789121208393627300,
+      "sha256": "4b211a1c4f731bbd28b0f6e60de172e9692bfc1fe0f46d49ce21d89ad44f3835"
+    },
+    "solution\\stage3_fast.py": {
+      "bytes": 4310,
+      "mtime_ns": 1789124835536566200,
+      "sha256": "b93fc1565e476c8b84627fe5d6379f2314b129444942044987fb6b75ca660dca"
+    },
+    "model\\stage3\\motion_model.joblib": {
+      "bytes": 1192151,
+      "mtime_ns": 1789121448670626800,
+      "sha256": "c52ecd15cf68856f2a7b0b37b120c7a961b3bd8889a33af4ec47f8b9719bb3b3"
+    },
+    "artifacts\\submissions\\candidate_nf4_fast.zip": {
+      "bytes": 2914581099,
+      "mtime_ns": 1789125447604419500,
+      "sha256": null
+    },
+    "artifacts\\submissions\\submit_v1.zip": {
+      "bytes": 3653603309,
+      "mtime_ns": 1789121877491584000,
+      "sha256": null
+    },
+    "artifacts\\submissions\\submit_v2_nf4.zip": {
+      "bytes": 2914579028,
+      "mtime_ns": 1789123807718839000,
+      "sha256": null
+    },
+    "artifacts\\submissions\\submit_v3_motion_fast.zip": {
+      "bytes": 2914582277,
+      "mtime_ns": 1789128384326864600,
+      "sha256": null
+    }
+  },
+  "script_sha256": "2f551885474b093c8ce3d99b59c687552dce173e9231cca531870b30e6b3b6f3"
+}

@@ -1,0 +1,88 @@
+{
+  "ID": "00016",
+  "label_origin": "AI_secondary_evidence",
+  "is_human": false,
+  "is_official_GT": false,
+  "source_sha256": "87b96caf17ebd8a76ee7ccc93aec6f5932def39fd5f6d2ccaf65690b72e0f67e",
+  "native_pts_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00016\\native_pts.json",
+  "native_pts_sha256": "6e2caa0bda0afbb4bb83d2be640d959f67047cae5ff26d995b227eb5f5b134f7",
+  "native_frame_count": 1210,
+  "full_decode_complete": true,
+  "overview_sampling": "first native frame at/after each integer second",
+  "dense_inspection": "native PNG every frame in selected event window; no model candidate/GT used to choose it",
+  "observed_event": {
+    "frame_interval": [
+      530,
+      576
+    ],
+    "pts_seconds_interval": [
+      17.78523489932886,
+      19.328859060402685
+    ],
+    "meaning": "AI-selected observed-event inspection interval, NOT a verified contact interval"
+  },
+  "contact": {
+    "status": "unknown",
+    "frame": null,
+    "pts_seconds": null,
+    "verified_interval": null,
+    "reason": "하단 접촉 가능 부분이 가려져 실제 최초 접촉이 보이지 않는다. 옆 정지와 이후 사람 등장만으로 접촉을 확정하지 않는다."
+  },
+  "entry": {
+    "status": "unknown",
+    "frame": null,
+    "pts_seconds": null,
+    "verified_interval": null,
+    "reason": "은색 SUV의 첫 바퀴가 ego 주행 차로 경계를 넘어온 장면을 분리하지 못했다. 카메라 차량의 접근과 상대 차량의 진입을 같은 사건으로 치환하지 않는다."
+  },
+  "entry_side": {
+    "status": "unknown",
+    "value": null
+  },
+  "evasion_space": {
+    "status": "unknown",
+    "value": null
+  },
+  "accuracy_evaluation_eligible": false,
+  "evidence_sha256": {
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00016\\overview_00.png": "dc8e8ca05ea764c7846d840b9b0588261b7cb4db8f068db721f51dcffd10de4d",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00016\\overview_01.png": "0474f571c942a29f8919184ab92b97c8c7770c5cb91de19365b0554dd860e7c7",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00016\\overview_02.png": "05fe40df8b0f8269edd3e7cc981b33fd662261cac5c4ad8fc5957d4fc5c96f23",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00016\\event_15_20_00.png": "23d77d6554815b69fea9120247d070ad7d74c1c606b52d5f386474fecee9bda7",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00016\\event_15_20_01.png": "a086e57d47c64607ddcd404cf5f47a75144a3225feef7f2cca2d7237626c847c",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00016\\event_15_20_02.png": "b5ea34d51b4edac0a4638a73345933f17a14535117b1cdca0c6adc3f30505325",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00016\\dense_530_576_00.png": "b2bfa931a5813cbe9a32610ae696ad670f72e15060704fd45ae8dc11bbb6a23d",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00016\\dense_530_576_01.png": "8e05b958d93a52fca82c2cfffd04d5f486a0bc7772de3b19c2c24fb3d4b2454e",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00016\\dense_530_576_02.png": "647fe3a028fd158318427dc3e5720a6adf2d3ae883eb43ab565844b8b1168a18",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00016\\native_frame000544.png": "5e455da9d332309d68b90a011cb2f7b2607487a0bf0cd3f8ba799e76050ebc80",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00016\\native_frame000549.png": "439b3f81f5f203f416314ab323110fe2f34674ccaa69d8b8fac5d253bdc96b5d"
+  },
+  "applicability": "close_side_approach_and_stop_physical_contact_uncertain",
+  "observed_facts": [
+    "도심 회전 후 카메라 차량이 우측 도로 가장자리의 은색 SUV 옆으로 접근한다. 은색 SUV 앞에는 파란 차량이 있다.",
+    "530~576에서 은색 SUV 옆면이 화면 오른쪽을 크게 차지하고 카메라 차량이 옆에 멈춘다.",
+    "544 및549 원본에서 SUV 바퀴와 도로 가장자리 표시 일부가 보이지만 카메라 차량과 닿을 수 있는 하단 부분은 가려져 있다.",
+    "이후 같은 위치에서 정지한 장면이 이어지고 뒤쪽 시간대에는 사람이 차량 옆으로 온다. 이것만으로 사고를 확정하지 않는다."
+  ],
+  "counterpart": {
+    "status": "same_visible_silver_SUV_identified_contact_unconfirmed",
+    "description": "우측 은색 SUV, 바로 앞에 파란 차량이 있는 차량",
+    "reason": "사건 전후 동일 외형과 앞 파란 차량의 배치가 유지된다. 물리접촉 상대라는 결론은 미확정이다."
+  },
+  "conditional": [
+    {
+      "field": "entry_side",
+      "value": "RIGHT",
+      "status": "conditional_AI_spatial_observation",
+      "condition": "은색 SUV를 상대라고 가정할 때의 위치",
+      "reason": "상대 차량은 이미지 오른쪽 도로 가장자리에서 보인다. 실제 lane-entry 발생과 최초 방향은 별도로 미확정이다."
+    },
+    {
+      "field": "evasion_space",
+      "value": 1,
+      "status": "conditional_AI_observation",
+      "condition": "530~576 접근/정지 구간을 접촉 문맥으로 가정한 경우",
+      "reason": "차량 왼쪽과 전방에 차가 진입할 수 있는 도로가 보인다. 접촉 정확한 시점과 속도/회피 성공은 판정하지 않는다."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "excluded": [
+    {
+      "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10",
+      "rmse": 0.0
+    }
+  ],
+  "method": "4 aligned decoded-frame grayscale thumbnails RMSE < .025. Detects aligned video duplicates; cannot rule out all route/source overlap."
+}

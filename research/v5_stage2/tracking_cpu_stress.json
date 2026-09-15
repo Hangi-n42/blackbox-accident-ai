@@ -1,0 +1,30 @@
+{
+  "cpu_threads": 2,
+  "GPU_used": false,
+  "passed": true,
+  "synthetic_repeated_texture": true,
+  "not_representative_video_runtime": true,
+  "candidate_sha256": "620911e7ff91b1518938dace444a3517a5c666bc8e8461d7b78cbe7d36f83af1",
+  "rows": [
+    {
+      "real_png_count": 301,
+      "decode_calls": 302,
+      "tracked_frames": 301,
+      "seconds": 1.506620700005442,
+      "events": []
+    },
+    {
+      "real_png_count": 302,
+      "decode_calls": 0,
+      "tracked_frames": 1,
+      "seconds": 0.00021840000408701599,
+      "events": [
+        {
+          "reason": "tracking_budget_full_frame_fallback",
+          "required_steps": 301,
+          "budget": 300
+        }
+      ]
+    }
+  ]
+}

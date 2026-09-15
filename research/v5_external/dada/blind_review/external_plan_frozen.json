@@ -1,0 +1,111 @@
+{
+  "frozen_at_utc": "2026-09-13T10:49:12.551573+00:00",
+  "purpose": "single paired V3 versus V5-simple falsification filter; not generalization validation or official accuracy",
+  "before_external_inference": true,
+  "consensus_sha256": "6c71ed570effa495bac9229a5ccf3e9640983e1f08f3a452ac84c97eec47cdd4",
+  "input_binding_sha256": "e7bc455361995d57171ddf933867b9320ccf3ccbff7c1d19ea5f5cf6084960fe",
+  "independent_review_sha256": {
+    "root_labels.json": "f45d4a96098192ed546dfba8dfa2bc26fe9300e2731625c7c42893349a7db016",
+    "agent1_labels.json": "d5b9bddd57718cfba9fd404851c53a1ae84d25de1d7515db04a967f941c1ab2b",
+    "root_reserve_labels.json": "e0254ce350e888e7222b60908e58d99864cf17cab10084c11870bd7ea0435dad",
+    "labels_reserve_agent1.json": "22f75578a5f24b4ac093a75e6f82ba92bf3ef681c8cfc778c8eaee8a2367c5cc"
+  },
+  "predictor_source_sha256": {
+    "solution/stage2_motion_collision.py": "091d1b4b53353cf08bc5431fb658d1c7fcc45604a4288546f3aac0fd6a207e2e",
+    "solution/stage2_v2.py": "89ae0bc640670d7ed76103ce7c829d405ad27cc25368c74d153d3b96962b8442",
+    "solution/stage2_v5_simple.py": "eb0abcefa84a37765945fda1f64af5989e66deb4ff2b942af0b63162b515561a",
+    "solution/vlm_candidate.py": "99b1cccb3de3172d08b4db8a40cbca3f6a1e595f6f6beb7250ab0c501d47ba7a",
+    "solution/vlm.py": "01680e84220c64a6ff8f3415cf59bb7cd225f425814c92f6d2fe8213c5fe1cda"
+  },
+  "baseline": "solution.stage2_motion_collision._predict_file with frozen Qwen4B NF4 and V3 renderer/preprocessor",
+  "candidate": "solution.stage2_v5_simple._predict_file; single already-defined candidate only",
+  "run_binding_required_before_first_prediction": [
+    "exact runtime/model asset hashes",
+    "runner and audit-wrapper hash",
+    "all input hashes match external_input_binding.json"
+  ],
+  "policy_changes_prohibited": "No predictor/output/prompt/candidate/model changes. Boundary logging only; logging wrapper must be frozen before inference.",
+  "input_and_run_order": [
+    "DADA_8_036",
+    "DADA_8_039",
+    "DADA_9_001",
+    "DADA_10_142",
+    "DADA_11_045",
+    "DADA_11_129"
+  ],
+  "paired_order": "V3 then SIMPLE within each clip; one fixed pass, no best repeat selection",
+  "shared_input": "same original PNG files and frame list, same motion scores, same model/preprocessor settings for both methods",
+  "origin_cohort": {
+    "DADA_10_142": "LEFT",
+    "DADA_11_045": "RIGHT",
+    "DADA_11_129": "LEFT",
+    "DADA_8_036": "LEFT",
+    "DADA_8_039": "RIGHT",
+    "DADA_9_001": "LEFT"
+  },
+  "entry_interval_cohort": {
+    "DADA_10_142": [
+      155,
+      169
+    ],
+    "DADA_11_045": [
+      57,
+      96
+    ],
+    "DADA_11_129": [
+      25,
+      68
+    ],
+    "DADA_8_036": [
+      102,
+      120
+    ],
+    "DADA_9_001": [
+      103,
+      146
+    ]
+  },
+  "metric_definition": {
+    "origin": "number of label agreements out of six conditional target-origin hypotheses; not Accuracy/F1",
+    "entry_frame_distance": "d(p,[L,U]) = max(L-p,0,p-U), measured in original filename-number units",
+    "invalid_prediction": "noninteger, missing, nonexistent original number, or invalid side category => contract FAIL; never clamp or silently omit",
+    "inside_interval": "d=0 means no contradiction found within a coarse hypothesis, NOT a correct prediction",
+    "primary_no_seconds": "Do not report Accuracy@0.3s or convert primary frame distances to real elapsed seconds",
+    "secondary_nominal_sensitivity": "Separately list count with d>9 using nominal author 30fps assumption only; not a gate or official timing accuracy. Actual per-PNG PTS unavailable.",
+    "contact": "three union contact hypotheses descriptive only, no collision timing adoption gate",
+    "space": "no confirmed space labels; record outputs only, never fabricate correctness"
+  },
+  "quality_audit": {
+    "malformed": "per clip any of four raw responses failing the frozen parser/object contract; count clips and calls separately",
+    "field_fallback": "per clip and output field: parser/value failure causing an explicit default or retained fallback; preserve raw response, offered frame list, parser result, and final provenance",
+    "intermediate_fallback": "record every consequential intermediate default; report per-clip any fallback and semantic stage separately, do not conflate different query roles",
+    "common_field_gate": "for entry_frame, entry_side, evasion_space separately, clips with explicit fallback must not increase; collision_frame is fixed motion for both, not a model-default event",
+    "valid_first": "a valid model-selected first original frame is distinct from an invalid default-first fallback; neither proves semantic observation",
+    "unobservable": "If malformed/default provenance cannot be compared reliably for either method, quality gate is INDETERMINATE, never assumed zero"
+  },
+  "gates": [
+    "All six paired outputs pass schema/original-number contract and preserve identical motion collision.",
+    "Candidate conditional origin agreement count >= V3 on fixed six.",
+    "On each of five entry intervals, candidate frame-distance <= V3.",
+    "Five entry distances: candidate sum strictly < V3 sum and candidate maximum <= V3 maximum.",
+    "Number of clips with malformed output and number with consequential fallback do not increase; shared-field fallback clip counts do not increase.",
+    "Audit fully observable; required unknown audit => INDETERMINATE, not PASS."
+  ],
+  "decision": "Any gate FAIL => reject this candidate under external filter. Any unmeasurable required gate => INDETERMINATE. All PASS => survives falsification filter only; does not prove official/generalization performance or authorize automatic deployment.",
+  "strict_decrease_edge_case": "If V3 total distance is already zero, strict improvement is impossible and candidate cannot pass; do not weaken rule after results.",
+  "gate_limitations": [
+    "Side count can hide which conditional examples differ; retain every paired row.",
+    "Wide visual unions reduce diagnostic power; do not narrow them after seeing outputs.",
+    "No exact official GT in sixteen scenes; six conditional cases are a reviewed subset, not a representative target-domain test.",
+    "No evasion-space ground truth, so unchanged or plausible-looking space answers do not establish nonregression.",
+    "External filter is supplemental to existing public-contract, runtime and package gates; six clips cannot prove full 60-minute execution."
+  ],
+  "after_results_forbidden": [
+    "relaxing thresholds",
+    "changing union intervals",
+    "replacing clips",
+    "selecting best fold or repeat",
+    "prompt/offset/ROI margin tuning on external outcomes",
+    "claiming interval membership is GT success"
+  ]
+}

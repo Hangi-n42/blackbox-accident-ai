@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "record_type": "human_review_draft",
+  "evaluation_eligible": false,
+  "created_at": "2026-09-14T14:53:14.081Z",
+  "ID": "PUBLIC_DEV_001",
+  "source_group_id": "DACON_PUBLIC_001",
+  "source_video_sha256": "877b6804d709acd31a8e7c4843590d674d3877fffab3d8c076332462787d2179",
+  "source_uri": "https://dacon.io/competitions/official/236753/data",
+  "split": "development",
+  "exposure": "seen",
+  "time_origin": "native source presentation timestamp seconds, no offset applied",
+  "frame_mapping_sha256": "0109981e70e14aa0100df9376e9a3da6e7fdf25c019838c51e4f02388a038b2e",
+  "review": {
+    "annotator": "나",
+    "target": "검은색의 차량이 오른쪽에서 왼쪽으로 직진하며 갑자기 튀어나옴.",
+    "side": "RIGHT",
+    "space": "",
+    "notes": "",
+    "annotation_blinded": true,
+    "contact": {
+      "status": "observed",
+      "frame": 33,
+      "pts_seconds": 3.3
+    },
+    "entry": {
+      "status": "observed",
+      "frame": 24,
+      "pts_seconds": 2.4
+    },
+    "already_entered_at_start": false
+  },
+  "requires": "Independent review and documented adjudication; no automatic promotion to ground truth."
+}

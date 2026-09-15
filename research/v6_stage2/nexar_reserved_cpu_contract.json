@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scope": "CPU contracts only, no media/GT/model reads in tests",
+  "checks": [
+    "reserved ID whitelist",
+    "12 baseline call cap",
+    "same 64/48/40/40 tokens",
+    "same sampler on three synthetic timelines",
+    "run unconditionally blocked before input access",
+    "protected files unchanged"
+  ],
+  "runner_sha256": "5d8acfca79402d84d917fea144ab330167ee68d9da7f0d06dec2b0366c0c7cd1"
+}

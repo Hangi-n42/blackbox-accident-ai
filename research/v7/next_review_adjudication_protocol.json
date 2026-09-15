@@ -1,0 +1,32 @@
+{
+  "purpose": "Establish what new-source evidence is actually usable before any candidate prediction is read",
+  "frozen_before_reviewer_results_read": true,
+  "source_plan": "research/v7/new_validation_sources/selection_plan.json",
+  "reviewers": ["/root/stage1_research", "/root/stage2_research"],
+  "reviewer_output_directories": ["research/v7/next_review_a", "research/v7/next_review_b"],
+  "no_candidate_or_V6_predictions_before_both_reviews_frozen": true,
+  "origin": "AI_secondary_evidence",
+  "is_human_ground_truth": false,
+  "is_official_ground_truth": false,
+  "independence_limits": "Blind independent review procedures do not prove independent model errors, different incident, or absence from pretrained model data.",
+  "preserve_all_selected_sources": true,
+  "rules": {
+    "applicability": "Keep actual ego-contact, near-miss, third-party event, and unknown separate. Positive-directory membership is not a contact label.",
+    "target_identity": "An agreed side or entry label is insufficient unless each reviewer ties it to the actual collision actor with image evidence. Preserve target disagreement.",
+    "contact": "Record directly observed contact separately from an inferred interval. Shake/debris alone must not become exact physical contact. If either reviewer cannot support timing, consensus timing remains unknown.",
+    "interval_combination": "When both support bounded timing for the same event, preserve both original intervals and their union hull. Do not narrow uncertainty by intersecting intervals or averaging endpoints.",
+    "entry": "Same collision actor, first wheel touching ego-lane boundary including intersection extension. Already inside at the first supplied frame is a distinct semantic status, not an invalid-output fallback.",
+    "side": "Require agreed image-origin LEFT/RIGHT for the same actor; otherwise unknown.",
+    "space": "Require agreed usable physical road space at the supported contact context. Keep conditional observations and reaction-time feasibility distinct.",
+    "time_mapping": "Use native rational PTS verified against the exact original source and selected PNG. Do not invent FPS or convert source-native frame IDs using a universal rate."
+  },
+  "possible_later_interval_diagnostic": {
+    "not_currently_authorized_as_official_accuracy": true,
+    "definitely_within_tolerance": "For a supported reference interval [a,b], a prediction p is within0.3s for every possible reference only if max(abs(p-a),abs(p-b))<=0.3.",
+    "definitely_outside_tolerance": "The minimum distance from p to [a,b] is greater than0.3s.",
+    "otherwise": "Indeterminate; do not force a binary correct/wrong label.",
+    "no_point_estimate_substitution": true
+  },
+  "selection_gate": "Review completion or AI agreement alone does not approve a new model, establish human-validated accuracy, or authorize bypassing failed development/resource gates.",
+  "stop_rule": "Finish this fixed six-source review. Preserve unavailable labels; do not keep replacing ambiguous cases until an apparently successful set appears."
+}

@@ -1,0 +1,86 @@
+{
+  "ID": "00015",
+  "label_origin": "AI_secondary_evidence",
+  "is_human": false,
+  "is_official_GT": false,
+  "source_sha256": "929e9e6f2494f30c47f5567e95412d168b458336f31024ab1cd6dea4c9b2cb1a",
+  "native_pts_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00015\\native_pts.json",
+  "native_pts_sha256": "ee500b16a90c71db5b43d55eed612e4b6f31c173a41a1e737bdccc72c671cf1b",
+  "native_frame_count": 1208,
+  "full_decode_complete": true,
+  "overview_sampling": "first native frame at/after each integer second",
+  "dense_inspection": "native PNG every frame in selected event window; no model candidate/GT used to choose it",
+  "observed_event": {
+    "frame_interval": [
+      580,
+      600
+    ],
+    "pts_seconds_interval": [
+      19.333333333333332,
+      20.0
+    ],
+    "meaning": "AI-selected observed-event inspection interval, NOT a verified contact interval"
+  },
+  "contact": {
+    "status": "unknown",
+    "frame": null,
+    "pts_seconds": null,
+    "verified_interval": null,
+    "reason": "근접 통과는 관찰되지만 접촉면/첫 물리접촉은 직접 확인되지 않는다. 흔들림과 붉은 물체 이동만으로 충돌을 확정하지 않는다."
+  },
+  "entry": {
+    "status": "unknown",
+    "frame": null,
+    "pts_seconds": null,
+    "verified_interval": null,
+    "reason": "접촉 상대가 이 세단이라는 조건에서 시작부터 같은 ego 차로 안에 있다. 실제 접촉 상대가 미확정이므로 주 평가 entry는 unknown으로 유지한다."
+  },
+  "entry_side": {
+    "status": "unknown",
+    "value": null
+  },
+  "evasion_space": {
+    "status": "unknown",
+    "value": null
+  },
+  "accuracy_evaluation_eligible": false,
+  "evidence_sha256": {
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00015\\overview_00.png": "01e903820b6280e719b0cef5cf698cf28d8981960407afa234e704512c84b598",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00015\\overview_01.png": "74c3781cc7958ee585d36116d7aa531136c13fa49d25f6a06132af21cf797378",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00015\\overview_02.png": "31a239fd73201955764e9900cf397ea94a2228a6b812d2bb38b961b116a192e1",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00015\\event_18_22_00.png": "f41044fa7cbda6f5da6083f4190bc7d74e5b71ef017e2c16b646cd464b7e44c9",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00015\\event_18_22_01.png": "b37e8fae0de1621ef42ddf3a4bb38de396f92b8e958188d6cf9a8ee5d7cc7b0d",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00015\\dense_580_600_00.png": "25bb277806b8057d6fdfea01a5aa44dcf6cb769a142e27dd36d5ba77b85d4f62",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00015\\native_frame000588.png": "9c23ec4a13fd40604b32ce1866b4599bddae88159901ff5894c6ce8e49dfc86f",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\ai_review_stage2\\00015\\native_frame000591.png": "30375938d19d4f90a2fb5438b88c84ebca90f6b76a70b9cf3310e112ed43dc35"
+  },
+  "applicability": "close_pass_observed_physical_contact_uncertain",
+  "observed_facts": [
+    "고속도로에서 짙은 회색 세단이 카메라 차량 바로 앞에 있고 밝은색 SUV는 오른쪽 차로에 있다.",
+    "580~591에서 앞 세단 후면이 커진 뒤 화면 왼쪽으로 이동하며 카메라 차량이 오른쪽 차로 쪽으로 지나간다.",
+    "588 및591 원본에서 세단 후측면과 카메라 차량의 간격은 작지만 차체가 닿는 면은 하단 가림/시야 밖에 있다.",
+    "592~599에서 붉은 물체가 화면 왼쪽 위쪽에 나타나고 움직인다. 이것을 파손물이나 충돌 확증으로 지정하지 않는다.",
+    "이후 카메라 차량은 계속 주행한다."
+  ],
+  "counterpart": {
+    "status": "same_visible_sedan_identified_contact_unconfirmed",
+    "description": "영상 시작부터 바로 앞 차로를 주행한 짙은 회색 세단",
+    "reason": "주행 위치와 외형이 이어진다. 오른쪽 밝은 SUV와 구별된다. 다만 실제 접촉 상대라는 결론은 조건부다."
+  },
+  "conditional": [
+    {
+      "field": "entry_frame",
+      "value": 0,
+      "status": "conditional_AI_observation",
+      "condition": "실제 접촉 상대가 해당 앞 회색 세단인 경우",
+      "reason": "원본 첫 프레임에서 이미 ego 차로 전방에 있다."
+    },
+    {
+      "field": "evasion_space",
+      "value": 1,
+      "status": "conditional_AI_observation",
+      "condition": "580~600 근접 사건을 접촉 문맥으로 가정한 경우",
+      "reason": "오른쪽 인접 차로에 실제 진입할 수 있는 도로가 보이며 카메라 차량이 그쪽으로 진행한다. 속도/성공가능성 판정은 하지 않았다."
+    }
+  ]
+}

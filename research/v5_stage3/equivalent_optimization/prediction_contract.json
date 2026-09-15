@@ -1,0 +1,7 @@
+{
+  "rows": 2998,
+  "all_indices_labels_finite_passed": true,
+  "renamed_and_other_file_invariance": true,
+  "single_frame_zero_policy": true,
+  "scope": "Contract only: in-memory existing864 heads with prefix adapter. No trained1128 head, no candidate performance claim or checkpoint."
+}

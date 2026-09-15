@@ -1,0 +1,26 @@
+{
+  "status": "compatible864_contract_and_runtime_passed_root_review",
+  "entry_module": "solution.stage3_v5_compatible",
+  "entry_function": "predict_stage3(data_dir,model_dir)",
+  "module_sha256": "8e9d3b5ce7c60cbcfcca674e42523b8a006e758ca92dd459171c5de8107b120d",
+  "required_internal_modules": [
+    "solution.stage3"
+  ],
+  "required_model_path": "model/stage3/motion_model.joblib",
+  "model_sha256": "c52ecd15cf68856f2a7b0b37b120c7a961b3bd8889a33af4ec47f8b9719bb3b3",
+  "feature_dimensions": 864,
+  "trained_model_changed": false,
+  "excluded_dependencies": [
+    "solution.stage3_v5",
+    "solution.stage3_v5_fast",
+    "IRLS/residual features",
+    "any1128trained model"
+  ],
+  "contract_report_sha256": "1be00b647e300305f4d922adbb8ed76e2c86330576d4f55b1a7eaf58856b5faf",
+  "runtime_ratios": {
+    "public": 0.8046361111395773,
+    "external_runtime": 0.8104659745788881
+  },
+  "cached_original_rows": 33569,
+  "root_packaging_review_pending": true
+}

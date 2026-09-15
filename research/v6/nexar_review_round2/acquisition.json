@@ -1,0 +1,59 @@
+{
+  "status": "three_round2_sources_acquired_not_validated",
+  "revision": "aa97deda5a59f00bb7187739053b7c72e14374df",
+  "repository": "nexar-ai/nexar_collision_prediction",
+  "manifest_sha256": "26f9316348a1f24f93714856afca5f1205dd90528e669f1024170ad67ac91aad",
+  "records": [
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\00008.mp4",
+      "source_uri": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00008.mp4",
+      "sha256": "d38a2b7c7feb21465ebebb962d8e6dd83a6bf25053d4952d097222b164f9b5d5",
+      "bytes": 12003133,
+      "frames": 1204,
+      "first_pts": 0.0,
+      "last_pts": 40.1,
+      "mapping_sha256": "69d91a19d467d91ca267052b6d7cb60ef10f856187c28d5e302a9f40b5d74dc4",
+      "human_review": "pending",
+      "contact_ground_truth": null,
+      "source_group_id": null,
+      "independence_verified": false
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\00010.mp4",
+      "source_uri": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00010.mp4",
+      "sha256": "bb0b2975bceaf9a9cfff779e2809ff3dc71d5ddbaecc9c7352c608419e2b7a02",
+      "bytes": 12941589,
+      "frames": 1214,
+      "first_pts": 0.0,
+      "last_pts": 40.43333333333333,
+      "mapping_sha256": "25c420bafc76528d74acdf47fc6412d13de7168dbec02d0de50e420787b17936",
+      "human_review": "pending",
+      "contact_ground_truth": null,
+      "source_group_id": null,
+      "independence_verified": false
+    },
+    {
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\00013.mp4",
+      "source_uri": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00013.mp4",
+      "sha256": "7d8bc01f07761c3f06178a38dccf2eb23a3dc6f6557c2cf486e0cafd5c9089d9",
+      "bytes": 17378253,
+      "frames": 1199,
+      "first_pts": 0.0,
+      "last_pts": 39.93333333333333,
+      "mapping_sha256": "0acdb075793c1e1a29cee0c5c5ca9b6ee45da8f5943bd20dd98ecdc94925e771",
+      "human_review": "pending",
+      "contact_ground_truth": null,
+      "source_group_id": null,
+      "independence_verified": false
+    }
+  ],
+  "video_requests": 3,
+  "labels_loaded": false,
+  "model_calls": 0,
+  "images_exported": 0,
+  "ground_truth_eligible": false,
+  "source_incident_independence_verified": false,
+  "bytes": 42322975,
+  "input_assets_unchanged": true,
+  "finished_utc": "2026-09-15T04:55:34.950221+00:00"
+}

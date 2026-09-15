@@ -1,0 +1,5596 @@
+{
+  "created_at": "2026-09-12T17:40:31.119901+00:00",
+  "status": "complete",
+  "scope": "repeatedly inspected public diagnostic, not independent accuracy",
+  "no_training": true,
+  "model_dir": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\candidates\\qwen3_vl_4b_nf4",
+  "model_manifest_sha256": "ca6a1131fd311ece208b953a3c4806b1448dd1eb19afafd2e11a2139ea7dcf0d",
+  "sources_sha256": {
+    "solution/stage2_v4.py": "38bb19fee746896b64065311725dab4803700b916d86c0290fe0f5c5ff231c61",
+    "scripts/evaluate_stage2_v4.py": "2080f9984fe633cb0c8f18476453be58865f509a4d99c94bb740bcbb8d40687c",
+    "scripts/test_stage2_v4.py": "b416f644eb5bd715aaef532b16abdade26a9421dfc12a508cfc69dcec39e7b95"
+  },
+  "frozen_inputs": {
+    "frozen_at": "2026-09-12T17:36:30.964757+00:00",
+    "status": "before_new_A_B_results",
+    "protected_sha256": {
+      "solution/stage2.py": "2323653c4271ec09e2bf1761f6938d5cec1f76bbe5a01df96ce7aa22b183dc1a",
+      "solution/stage2_v2.py": "89ae0bc640670d7ed76103ce7c829d405ad27cc25368c74d153d3b96962b8442",
+      "solution/stage2_nf4.py": "91e664e42d87e1062614bbe3bc28175f22b000d7938a9b5329e7f887871d0341",
+      "solution/stage2_motion_collision.py": "091d1b4b53353cf08bc5431fb658d1c7fcc45604a4288546f3aac0fd6a207e2e",
+      "solution/stage2_entry_refine.py": "d31bcebe7885828bf58cf51b3cb70cc4a9301c8586032fd3feac3c689dfad475",
+      "solution/vlm.py": "01680e84220c64a6ff8f3415cf59bb7cd225f425814c92f6d2fe8213c5fe1cda",
+      "solution/vlm_candidate.py": "99b1cccb3de3172d08b4db8a40cbca3f6a1e595f6f6beb7250ab0c501d47ba7a",
+      "research/v4_stage2/design_frozen_before_results.md": "9a66713a88e1c1ed6344cb1715f8921f5dce864db03ef23631b34f84714a1726",
+      "artifacts/candidates/qwen3_vl_4b_nf4/EXPORT_MANIFEST.json": "ca6a1131fd311ece208b953a3c4806b1448dd1eb19afafd2e11a2139ea7dcf0d"
+    }
+  },
+  "arms": {
+    "baseline": {
+      "videos": [
+        {
+          "ID": "S2_001",
+          "prediction": {
+            "collision_frame": 35,
+            "entry_frame": 24,
+            "entry_side": "LEFT",
+            "evasion_space": 0
+          },
+          "diagnostics": {
+            "version": "v2_final_separate_entry_direction",
+            "calls": 4,
+            "coarse": {
+              "collision_frame": 33,
+              "entry_side": "LEFT"
+            },
+            "collision": {
+              "collision_frame": 33
+            },
+            "entry": {
+              "entry_frame": 24
+            },
+            "space": {
+              "evasion_space": 0
+            },
+            "coarse_collision_frame": 33,
+            "motion_proposal": 35,
+            "retained_motion_peaks": [
+              35,
+              44
+            ],
+            "collision_candidates": [
+              27,
+              30,
+              32,
+              33,
+              34,
+              35,
+              36,
+              38,
+              41,
+              42,
+              43,
+              44,
+              45
+            ],
+            "entry_candidates": [
+              0,
+              3,
+              6,
+              9,
+              12,
+              15,
+              18,
+              21,
+              24,
+              27,
+              30,
+              33
+            ],
+            "collision_replacement": {
+              "policy": "existing_motion_scores_argmax_original_frame_number",
+              "base_collision_frame": 33,
+              "collision_frame": 35,
+              "other_fields_use_base_vlm_context": true
+            }
+          },
+          "frame_numbers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "motion_scores": [
+            0.0,
+            0.36833083629608154,
+            0.06803762167692184,
+            0.0,
+            0.8358830809593201,
+            0.2788100242614746,
+            0.11710022389888763,
+            1.475167155265808,
+            0.5692408084869385,
+            0.4822395145893097,
+            0.932756781578064,
+            0.4440177381038666,
+            0.6012362837791443,
+            0.05376405641436577,
+            0.0,
+            1.844958782196045,
+            1.146605134010315,
+            1.2627612352371216,
+            1.1306020021438599,
+            1.4986685514450073,
+            0.745961606502533,
+            0.20463207364082336,
+            1.2386138439178467,
+            0.2894057333469391,
+            0.27595916390419006,
+            0.36480218172073364,
+            0.0,
+            0.0,
+            0.0,
+            0.08424548804759979,
+            0.0,
+            2.4680914878845215,
+            1.7725163698196411,
+            11.521927833557129,
+            10.287602424621582,
+            12.433114051818848,
+            4.496638298034668,
+            3.0427463054656982,
+            0.0,
+            2.107837677001953,
+            1.6926888227462769,
+            0.05988558754324913,
+            1.5154637098312378,
+            1.6307837963104248,
+            3.0753703117370605,
+            0.05387550964951515,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "skipped_images": 0,
+          "scan_seconds": 0.6971945000113919,
+          "predict_seconds": 11.048926399991615,
+          "calls": [
+            {
+              "call": 1,
+              "name": "overview",
+              "prompt": "These are frames from one dashcam clip, ordered left to right, top to bottom. Which numbered frame first shows physical contact of the camera vehicle with another vehicle? From which side of the image did that other vehicle approach? Return JSON with collision_frame and entry_side (LEFT or RIGHT). Available frames: [0, 5, 11, 16, 22, 27, 33, 38, 44, 49].",
+              "offered_frames": {
+                "Available frames": [
+                  0,
+                  5,
+                  11,
+                  16,
+                  22,
+                  27,
+                  33,
+                  38,
+                  44,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    512
+                  ],
+                  "raw_rgb_sha256": "78f68e962184c612ffd65c3bb5945681ca1f44abf6663275dbdc82fbf183f4c2"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1920,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 983040,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 33,\n  \"entry_side\": \"LEFT\"\n}",
+              "seconds": 4.137715199991362,
+              "gpu_peak_allocated_bytes": 3716547072,
+              "gpu_peak_reserved_bytes": 3789553664
+            },
+            {
+              "call": 2,
+              "name": "collision_fine",
+              "prompt": "These dashcam frames are ordered left to right, top to bottom. Which numbered frame first shows actual contact of the camera car with the other vehicle? Look for contact, not the later strongest shake. Allowed frames: [27, 30, 32, 33, 34, 35, 36, 38, 41, 42, 43, 44, 45]. Return JSON with collision_frame.",
+              "offered_frames": {
+                "Allowed frames": [
+                  27,
+                  30,
+                  32,
+                  33,
+                  34,
+                  35,
+                  36,
+                  38,
+                  41,
+                  42,
+                  43,
+                  44,
+                  45
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    768
+                  ],
+                  "raw_rgb_sha256": "14faff48392103164bd64afc30dcbde56987169dff3163d1a5a5bee6fc6b9fd6"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1728,
+                  672
+                ]
+              ],
+              "bounded_pixel_total": 1161216,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 48,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 33\n}",
+              "seconds": 2.148399400000926,
+              "gpu_peak_allocated_bytes": 3886337024,
+              "gpu_peak_reserved_bytes": 4188012544
+            },
+            {
+              "call": 3,
+              "name": "entry_coarse",
+              "prompt": "These frames are chronological, left to right then top to bottom. The clip ends at a collision. When did the other collision vehicle first enter the camera car's driving lane? Entry is its first wheel touching the lane boundary. If it was already inside this lane at the first image, select the first image. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33]. Return JSON with entry_frame only.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  0,
+                  3,
+                  6,
+                  9,
+                  12,
+                  15,
+                  18,
+                  21,
+                  24,
+                  27,
+                  30,
+                  33
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    768
+                  ],
+                  "raw_rgb_sha256": "c18c62d64bb7ae8d403bd8ef715b979e404830933269b9e0842358c2fca05e9a"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  768
+                ]
+              ],
+              "bounded_pixel_total": 1179648,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"entry_frame\": 24\n}",
+              "seconds": 2.3163591000193264,
+              "gpu_peak_allocated_bytes": 3933626880,
+              "gpu_peak_reserved_bytes": 4615831552
+            },
+            {
+              "call": 4,
+              "name": "space",
+              "prompt": "These images show just before, during, and after a dashcam collision. At contact, is there usable road space for the camera car to continue or steer around the other vehicle? Account for nearby traffic, road edges, curbs and barriers. Return JSON with evasion_space: integer 1 if space exists, otherwise integer 0.",
+              "offered_frames": {},
+              "input_images": [
+                {
+                  "size": [
+                    1152,
+                    256
+                  ],
+                  "raw_rgb_sha256": "443ab735d2fc78b92de75c76a0b71ae812db505c72deb05c9f4ada1fed57ac6d"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1152,
+                  256
+                ]
+              ],
+              "bounded_pixel_total": 294912,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"evasion_space\": 0\n}",
+              "seconds": 1.4019325000117533,
+              "gpu_peak_allocated_bytes": 3215255552,
+              "gpu_peak_reserved_bytes": 4691329024
+            }
+          ],
+          "official_collision_diagnostic": {
+            "provided_label_frame": 32,
+            "prediction": 35,
+            "error_seconds_from_source_pts": 0.2999999999999998,
+            "within_0_3_seconds": true,
+            "provided_label_is_not_reannotated": true
+          },
+          "collision_candidate_oracle": {
+            "vlm_candidate_sets": [
+              {
+                "call": "overview",
+                "candidate_kind": "Available frames",
+                "nearest_gt_error_seconds": 0.09999999999999964,
+                "candidate_within_0_3": true
+              },
+              {
+                "call": "collision_fine",
+                "candidate_kind": "Allowed frames",
+                "nearest_gt_error_seconds": 0.0,
+                "candidate_within_0_3": true
+              }
+            ],
+            "final_output_set": [
+              35
+            ],
+            "final_motion_singleton_within_0_3": true,
+            "note": "All variants choose final collision from the same motion singleton; VLM coverage does not change final choice."
+          }
+        },
+        {
+          "ID": "S2_002",
+          "prediction": {
+            "collision_frame": 47,
+            "entry_frame": 36,
+            "entry_side": "LEFT",
+            "evasion_space": 0
+          },
+          "diagnostics": {
+            "version": "v2_final_separate_entry_direction",
+            "calls": 4,
+            "coarse": {
+              "collision_frame": 44,
+              "entry_side": "LEFT"
+            },
+            "collision": {
+              "collision_frame": 44
+            },
+            "entry": {
+              "entry_frame": 36
+            },
+            "space": {
+              "evasion_space": 0
+            },
+            "coarse_collision_frame": 44,
+            "motion_proposal": 47,
+            "retained_motion_peaks": [
+              47,
+              30
+            ],
+            "collision_candidates": [
+              27,
+              28,
+              29,
+              30,
+              31,
+              38,
+              41,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ],
+            "entry_candidates": [
+              0,
+              4,
+              8,
+              12,
+              16,
+              20,
+              24,
+              28,
+              32,
+              36,
+              40,
+              44
+            ],
+            "collision_replacement": {
+              "policy": "existing_motion_scores_argmax_original_frame_number",
+              "base_collision_frame": 44,
+              "collision_frame": 47,
+              "other_fields_use_base_vlm_context": true
+            }
+          },
+          "frame_numbers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "motion_scores": [
+            0.0,
+            1.4514776468276978,
+            0.5312491059303284,
+            0.7564764618873596,
+            2.557121753692627,
+            1.6686248779296875,
+            1.1367905139923096,
+            1.1333450078964233,
+            0.6178054809570312,
+            1.1840946674346924,
+            0.40756353735923767,
+            0.35210365056991577,
+            0.0,
+            0.0165858156979084,
+            0.0,
+            1.109062910079956,
+            0.6368404626846313,
+            0.34307435154914856,
+            0.0,
+            0.0,
+            0.0,
+            0.11650387942790985,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9239266514778137,
+            4.187233924865723,
+            4.209970474243164,
+            0.0,
+            0.0,
+            2.317345380783081,
+            1.8780403137207031,
+            0.49537354707717896,
+            4.157528877258301,
+            1.7852407693862915,
+            0.510452151298523,
+            2.0955474376678467,
+            2.9309399127960205,
+            2.565946102142334,
+            1.1613662242889404,
+            6.301788330078125,
+            2.659332036972046,
+            1.4290629625320435,
+            1.3475819826126099,
+            7.166168212890625,
+            0.5616134405136108,
+            4.722605228424072
+          ],
+          "skipped_images": 0,
+          "scan_seconds": 0.6574781999806874,
+          "predict_seconds": 9.803593500022544,
+          "calls": [
+            {
+              "call": 1,
+              "name": "overview",
+              "prompt": "These are frames from one dashcam clip, ordered left to right, top to bottom. Which numbered frame first shows physical contact of the camera vehicle with another vehicle? From which side of the image did that other vehicle approach? Return JSON with collision_frame and entry_side (LEFT or RIGHT). Available frames: [0, 5, 11, 16, 22, 27, 33, 38, 44, 49].",
+              "offered_frames": {
+                "Available frames": [
+                  0,
+                  5,
+                  11,
+                  16,
+                  22,
+                  27,
+                  33,
+                  38,
+                  44,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    512
+                  ],
+                  "raw_rgb_sha256": "d4cf9ad68156965191d99d2150777af09dbc181c34eff2456066755d501061ba"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1920,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 983040,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 44,\n  \"entry_side\": \"LEFT\"\n}",
+              "seconds": 2.9152363000030164,
+              "gpu_peak_allocated_bytes": 3715551744,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 2,
+              "name": "collision_fine",
+              "prompt": "These dashcam frames are ordered left to right, top to bottom. Which numbered frame first shows actual contact of the camera car with the other vehicle? Look for contact, not the later strongest shake. Allowed frames: [27, 28, 29, 30, 31, 38, 41, 44, 45, 46, 47, 48, 49]. Return JSON with collision_frame.",
+              "offered_frames": {
+                "Allowed frames": [
+                  27,
+                  28,
+                  29,
+                  30,
+                  31,
+                  38,
+                  41,
+                  44,
+                  45,
+                  46,
+                  47,
+                  48,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    768
+                  ],
+                  "raw_rgb_sha256": "a44e0e0ec005514416b3a021108e58b8d1677912b30907229d1764b089a9514e"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1728,
+                  672
+                ]
+              ],
+              "bounded_pixel_total": 1161216,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 48,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 44\n}",
+              "seconds": 2.1945981000026222,
+              "gpu_peak_allocated_bytes": 3886337024,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 3,
+              "name": "entry_coarse",
+              "prompt": "These frames are chronological, left to right then top to bottom. The clip ends at a collision. When did the other collision vehicle first enter the camera car's driving lane? Entry is its first wheel touching the lane boundary. If it was already inside this lane at the first image, select the first image. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44]. Return JSON with entry_frame only.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  0,
+                  4,
+                  8,
+                  12,
+                  16,
+                  20,
+                  24,
+                  28,
+                  32,
+                  36,
+                  40,
+                  44
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    768
+                  ],
+                  "raw_rgb_sha256": "7d88b3ef44d384ea969177ba86b9f3204e693f5e6d6ca24ddf2921e8d98df82c"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  768
+                ]
+              ],
+              "bounded_pixel_total": 1179648,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"entry_frame\": 36\n}",
+              "seconds": 2.271929900016403,
+              "gpu_peak_allocated_bytes": 3933803008,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 4,
+              "name": "space",
+              "prompt": "These images show just before, during, and after a dashcam collision. At contact, is there usable road space for the camera car to continue or steer around the other vehicle? Account for nearby traffic, road edges, curbs and barriers. Return JSON with evasion_space: integer 1 if space exists, otherwise integer 0.",
+              "offered_frames": {},
+              "input_images": [
+                {
+                  "size": [
+                    1152,
+                    256
+                  ],
+                  "raw_rgb_sha256": "66d68dee6b30b1c4b5996ad7ab33f1d4503eb42b7a1a566fe6fc21cf956bad15"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1152,
+                  256
+                ]
+              ],
+              "bounded_pixel_total": 294912,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"evasion_space\": 0\n}",
+              "seconds": 1.3968774999957532,
+              "gpu_peak_allocated_bytes": 3215255552,
+              "gpu_peak_reserved_bytes": 4691329024
+            }
+          ],
+          "official_collision_diagnostic": {
+            "provided_label_frame": 30,
+            "prediction": 47,
+            "error_seconds_from_source_pts": 1.7000000000000002,
+            "within_0_3_seconds": false,
+            "provided_label_is_not_reannotated": true
+          },
+          "collision_candidate_oracle": {
+            "vlm_candidate_sets": [
+              {
+                "call": "overview",
+                "candidate_kind": "Available frames",
+                "nearest_gt_error_seconds": 0.2999999999999998,
+                "candidate_within_0_3": true
+              },
+              {
+                "call": "collision_fine",
+                "candidate_kind": "Allowed frames",
+                "nearest_gt_error_seconds": 0.0,
+                "candidate_within_0_3": true
+              }
+            ],
+            "final_output_set": [
+              47
+            ],
+            "final_motion_singleton_within_0_3": false,
+            "note": "All variants choose final collision from the same motion singleton; VLM coverage does not change final choice."
+          }
+        },
+        {
+          "ID": "S2_003",
+          "prediction": {
+            "collision_frame": 33,
+            "entry_frame": 23,
+            "entry_side": "LEFT",
+            "evasion_space": 0
+          },
+          "diagnostics": {
+            "version": "v2_final_separate_entry_direction",
+            "calls": 4,
+            "coarse": {
+              "collision_frame": 27,
+              "entry_side": "LEFT"
+            },
+            "collision": {
+              "collision_frame": 31
+            },
+            "entry": {
+              "entry_frame": 23
+            },
+            "space": {
+              "evasion_space": 0
+            },
+            "coarse_collision_frame": 27,
+            "motion_proposal": 33,
+            "retained_motion_peaks": [
+              33,
+              48
+            ],
+            "collision_candidates": [
+              22,
+              25,
+              28,
+              30,
+              31,
+              32,
+              33,
+              34,
+              45,
+              46,
+              47,
+              48,
+              49
+            ],
+            "entry_candidates": [
+              0,
+              3,
+              6,
+              8,
+              11,
+              14,
+              17,
+              20,
+              23,
+              25,
+              28,
+              31
+            ],
+            "collision_replacement": {
+              "policy": "existing_motion_scores_argmax_original_frame_number",
+              "base_collision_frame": 31,
+              "collision_frame": 33,
+              "other_fields_use_base_vlm_context": true
+            }
+          },
+          "frame_numbers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "motion_scores": [
+            0.0,
+            0.0,
+            0.3927103579044342,
+            0.5039926767349243,
+            0.14361169934272766,
+            0.0,
+            0.0,
+            0.0,
+            0.2570275664329529,
+            0.0,
+            0.0,
+            0.2406146377325058,
+            1.310368299484253,
+            0.0,
+            0.8854655623435974,
+            0.0,
+            0.31843245029449463,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3156329095363617,
+            0.11826232820749283,
+            0.5471241474151611,
+            0.7317386269569397,
+            1.1397279500961304,
+            1.8779438734054565,
+            2.8094825744628906,
+            1.2599639892578125,
+            1.5354087352752686,
+            4.631425857543945,
+            3.658796787261963,
+            12.168205261230469,
+            9.661469459533691,
+            2.475512981414795,
+            0.9994469285011292,
+            4.608502388000488,
+            0.38392019271850586,
+            0.1786060929298401,
+            1.2580440044403076,
+            2.198723554611206,
+            0.8851821422576904,
+            0.8305960893630981,
+            0.9440709352493286,
+            1.3778289556503296,
+            1.3972030878067017,
+            0.4407730996608734,
+            4.171318054199219,
+            2.8104360103607178
+          ],
+          "skipped_images": 0,
+          "scan_seconds": 0.6651957000140101,
+          "predict_seconds": 9.971114699990721,
+          "calls": [
+            {
+              "call": 1,
+              "name": "overview",
+              "prompt": "These are frames from one dashcam clip, ordered left to right, top to bottom. Which numbered frame first shows physical contact of the camera vehicle with another vehicle? From which side of the image did that other vehicle approach? Return JSON with collision_frame and entry_side (LEFT or RIGHT). Available frames: [0, 5, 11, 16, 22, 27, 33, 38, 44, 49].",
+              "offered_frames": {
+                "Available frames": [
+                  0,
+                  5,
+                  11,
+                  16,
+                  22,
+                  27,
+                  33,
+                  38,
+                  44,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    512
+                  ],
+                  "raw_rgb_sha256": "1ebd3d8cc19988e8ff7e418e2922b6efc32a140fcf1dc7f6e6bd4131b3fd593f"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1920,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 983040,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 27,\n  \"entry_side\": \"LEFT\"\n}",
+              "seconds": 2.8984586000151467,
+              "gpu_peak_allocated_bytes": 3715551744,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 2,
+              "name": "collision_fine",
+              "prompt": "These dashcam frames are ordered left to right, top to bottom. Which numbered frame first shows actual contact of the camera car with the other vehicle? Look for contact, not the later strongest shake. Allowed frames: [22, 25, 28, 30, 31, 32, 33, 34, 45, 46, 47, 48, 49]. Return JSON with collision_frame.",
+              "offered_frames": {
+                "Allowed frames": [
+                  22,
+                  25,
+                  28,
+                  30,
+                  31,
+                  32,
+                  33,
+                  34,
+                  45,
+                  46,
+                  47,
+                  48,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    768
+                  ],
+                  "raw_rgb_sha256": "6b0f237f8095aca22aca10acedceee98fe91201fa7a942c8142cbe7a1fc0eca5"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1728,
+                  672
+                ]
+              ],
+              "bounded_pixel_total": 1161216,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 48,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 31\n}",
+              "seconds": 2.2319908999779727,
+              "gpu_peak_allocated_bytes": 3886337024,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 3,
+              "name": "entry_coarse",
+              "prompt": "These frames are chronological, left to right then top to bottom. The clip ends at a collision. When did the other collision vehicle first enter the camera car's driving lane? Entry is its first wheel touching the lane boundary. If it was already inside this lane at the first image, select the first image. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [0, 3, 6, 8, 11, 14, 17, 20, 23, 25, 28, 31]. Return JSON with entry_frame only.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  0,
+                  3,
+                  6,
+                  8,
+                  11,
+                  14,
+                  17,
+                  20,
+                  23,
+                  25,
+                  28,
+                  31
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    768
+                  ],
+                  "raw_rgb_sha256": "01805caaa632815e3e16127e4df52acc63163a8d80f50ab54ec9c9910a314c92"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  768
+                ]
+              ],
+              "bounded_pixel_total": 1179648,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"entry_frame\": 23\n}",
+              "seconds": 2.294557300017914,
+              "gpu_peak_allocated_bytes": 3933626880,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 4,
+              "name": "space",
+              "prompt": "These images show just before, during, and after a dashcam collision. At contact, is there usable road space for the camera car to continue or steer around the other vehicle? Account for nearby traffic, road edges, curbs and barriers. Return JSON with evasion_space: integer 1 if space exists, otherwise integer 0.",
+              "offered_frames": {},
+              "input_images": [
+                {
+                  "size": [
+                    1152,
+                    256
+                  ],
+                  "raw_rgb_sha256": "58645be344ee7083c24903a17bef3984dcbfd4d5129845073fd2b3ff779b09c1"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1152,
+                  256
+                ]
+              ],
+              "bounded_pixel_total": 294912,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"evasion_space\": 0\n}",
+              "seconds": 1.4372041000169702,
+              "gpu_peak_allocated_bytes": 3215255552,
+              "gpu_peak_reserved_bytes": 4691329024
+            }
+          ],
+          "official_collision_diagnostic": {
+            "provided_label_frame": 31,
+            "prediction": 33,
+            "error_seconds_from_source_pts": 0.19999999999999973,
+            "within_0_3_seconds": true,
+            "provided_label_is_not_reannotated": true
+          },
+          "collision_candidate_oracle": {
+            "vlm_candidate_sets": [
+              {
+                "call": "overview",
+                "candidate_kind": "Available frames",
+                "nearest_gt_error_seconds": 0.19999999999999973,
+                "candidate_within_0_3": true
+              },
+              {
+                "call": "collision_fine",
+                "candidate_kind": "Allowed frames",
+                "nearest_gt_error_seconds": 0.0,
+                "candidate_within_0_3": true
+              }
+            ],
+            "final_output_set": [
+              33
+            ],
+            "final_motion_singleton_within_0_3": true,
+            "note": "All variants choose final collision from the same motion singleton; VLM coverage does not change final choice."
+          }
+        },
+        {
+          "ID": "S2_004",
+          "prediction": {
+            "collision_frame": 42,
+            "entry_frame": 4,
+            "entry_side": "RIGHT",
+            "evasion_space": 0
+          },
+          "diagnostics": {
+            "version": "v2_final_separate_entry_direction",
+            "calls": 4,
+            "coarse": {
+              "collision_frame": 44,
+              "entry_side": "RIGHT"
+            },
+            "collision": {
+              "collision_frame": 40
+            },
+            "entry": {
+              "entry_frame": 4
+            },
+            "space": {
+              "evasion_space": 0
+            },
+            "coarse_collision_frame": 44,
+            "motion_proposal": 42,
+            "retained_motion_peaks": [
+              42,
+              1
+            ],
+            "collision_candidates": [
+              0,
+              1,
+              2,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              46,
+              49
+            ],
+            "entry_candidates": [
+              0,
+              4,
+              7,
+              11,
+              15,
+              18,
+              22,
+              25,
+              29,
+              33,
+              36,
+              40
+            ],
+            "collision_replacement": {
+              "policy": "existing_motion_scores_argmax_original_frame_number",
+              "base_collision_frame": 40,
+              "collision_frame": 42,
+              "other_fields_use_base_vlm_context": true
+            }
+          },
+          "frame_numbers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "motion_scores": [
+            0.0,
+            5.4773945808410645,
+            5.112627029418945,
+            3.287022113800049,
+            0.9229856133460999,
+            1.0349838733673096,
+            1.7067991495132446,
+            0.31410834193229675,
+            0.10185492038726807,
+            0.0,
+            0.8728116750717163,
+            0.5349076390266418,
+            0.685904860496521,
+            3.7742347717285156,
+            0.0,
+            0.05481676384806633,
+            0.0,
+            0.9862160086631775,
+            1.5531929731369019,
+            0.0,
+            0.0,
+            0.0,
+            0.150532528758049,
+            0.5743275880813599,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.24864546954631805,
+            0.0,
+            0.0,
+            0.0,
+            0.2854571044445038,
+            0.20030508935451508,
+            0.8967195749282837,
+            1.4279239177703857,
+            2.397592306137085,
+            3.93674373626709,
+            4.952219486236572,
+            4.520334243774414,
+            8.766565322875977,
+            17.327106475830078,
+            13.313913345336914,
+            4.732539653778076,
+            5.129762172698975,
+            5.777622222900391,
+            2.9258179664611816,
+            1.6191365718841553,
+            0.8252824544906616
+          ],
+          "skipped_images": 0,
+          "scan_seconds": 0.6698682999995071,
+          "predict_seconds": 9.703122400009306,
+          "calls": [
+            {
+              "call": 1,
+              "name": "overview",
+              "prompt": "These are frames from one dashcam clip, ordered left to right, top to bottom. Which numbered frame first shows physical contact of the camera vehicle with another vehicle? From which side of the image did that other vehicle approach? Return JSON with collision_frame and entry_side (LEFT or RIGHT). Available frames: [0, 5, 11, 16, 22, 27, 33, 38, 44, 49].",
+              "offered_frames": {
+                "Available frames": [
+                  0,
+                  5,
+                  11,
+                  16,
+                  22,
+                  27,
+                  33,
+                  38,
+                  44,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    512
+                  ],
+                  "raw_rgb_sha256": "1603890b8532c97180718c290c2c8418846a4dddec24f21f798a96b7d7b4c76f"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1920,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 983040,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 44,\n  \"entry_side\": \"RIGHT\"\n}",
+              "seconds": 2.8843652000068687,
+              "gpu_peak_allocated_bytes": 3715551744,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 2,
+              "name": "collision_fine",
+              "prompt": "These dashcam frames are ordered left to right, top to bottom. Which numbered frame first shows actual contact of the camera car with the other vehicle? Look for contact, not the later strongest shake. Allowed frames: [0, 1, 2, 38, 39, 40, 41, 42, 43, 44, 46, 49]. Return JSON with collision_frame.",
+              "offered_frames": {
+                "Allowed frames": [
+                  0,
+                  1,
+                  2,
+                  38,
+                  39,
+                  40,
+                  41,
+                  42,
+                  43,
+                  44,
+                  46,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    768
+                  ],
+                  "raw_rgb_sha256": "c5de1a94244d79e8abee38d0ce9dcef178f560fbac87948e6fa33e9ae3715b5a"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1728,
+                  672
+                ]
+              ],
+              "bounded_pixel_total": 1161216,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 48,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 40\n}",
+              "seconds": 2.1419882000191137,
+              "gpu_peak_allocated_bytes": 3877506048,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 3,
+              "name": "entry_coarse",
+              "prompt": "These frames are chronological, left to right then top to bottom. The clip ends at a collision. When did the other collision vehicle first enter the camera car's driving lane? Entry is its first wheel touching the lane boundary. If it was already inside this lane at the first image, select the first image. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [0, 4, 7, 11, 15, 18, 22, 25, 29, 33, 36, 40]. Return JSON with entry_frame only.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  0,
+                  4,
+                  7,
+                  11,
+                  15,
+                  18,
+                  22,
+                  25,
+                  29,
+                  33,
+                  36,
+                  40
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    768
+                  ],
+                  "raw_rgb_sha256": "4f4cde88e8bd77c1d08cb9a5074ba9f235c8749805b9b193214722c7fcf8c0e1"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  768
+                ]
+              ],
+              "bounded_pixel_total": 1179648,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"entry_frame\": 4\n}",
+              "seconds": 2.1690186000196263,
+              "gpu_peak_allocated_bytes": 3933803008,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 4,
+              "name": "space",
+              "prompt": "These images show just before, during, and after a dashcam collision. At contact, is there usable road space for the camera car to continue or steer around the other vehicle? Account for nearby traffic, road edges, curbs and barriers. Return JSON with evasion_space: integer 1 if space exists, otherwise integer 0.",
+              "offered_frames": {},
+              "input_images": [
+                {
+                  "size": [
+                    1152,
+                    256
+                  ],
+                  "raw_rgb_sha256": "9ed36a55fb10e2c24868b54020eb9db4c1cbb33033acd0604e86f6055cc609d8"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1152,
+                  256
+                ]
+              ],
+              "bounded_pixel_total": 294912,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"evasion_space\": 0\n}",
+              "seconds": 1.3903694000036921,
+              "gpu_peak_allocated_bytes": 3215255552,
+              "gpu_peak_reserved_bytes": 4691329024
+            }
+          ],
+          "official_collision_diagnostic": {
+            "provided_label_frame": 41,
+            "prediction": 42,
+            "error_seconds_from_source_pts": 0.10000000000000053,
+            "within_0_3_seconds": true,
+            "provided_label_is_not_reannotated": true
+          },
+          "collision_candidate_oracle": {
+            "vlm_candidate_sets": [
+              {
+                "call": "overview",
+                "candidate_kind": "Available frames",
+                "nearest_gt_error_seconds": 0.2999999999999998,
+                "candidate_within_0_3": true
+              },
+              {
+                "call": "collision_fine",
+                "candidate_kind": "Allowed frames",
+                "nearest_gt_error_seconds": 0.0,
+                "candidate_within_0_3": true
+              }
+            ],
+            "final_output_set": [
+              42
+            ],
+            "final_motion_singleton_within_0_3": true,
+            "note": "All variants choose final collision from the same motion singleton; VLM coverage does not change final choice."
+          }
+        },
+        {
+          "ID": "S2_005",
+          "prediction": {
+            "collision_frame": 33,
+            "entry_frame": 23,
+            "entry_side": "RIGHT",
+            "evasion_space": 0
+          },
+          "diagnostics": {
+            "version": "v2_final_separate_entry_direction",
+            "calls": 4,
+            "coarse": {
+              "collision_frame": 27,
+              "entry_side": "RIGHT"
+            },
+            "collision": {
+              "collision_frame": 32
+            },
+            "entry": {
+              "entry_frame": 23
+            },
+            "space": {
+              "evasion_space": 0
+            },
+            "coarse_collision_frame": 27,
+            "motion_proposal": 33,
+            "retained_motion_peaks": [
+              33,
+              49
+            ],
+            "collision_candidates": [
+              22,
+              25,
+              28,
+              30,
+              31,
+              32,
+              33,
+              34,
+              46,
+              47,
+              48,
+              49
+            ],
+            "entry_candidates": [
+              0,
+              3,
+              6,
+              9,
+              12,
+              15,
+              17,
+              20,
+              23,
+              26,
+              29,
+              32
+            ],
+            "collision_replacement": {
+              "policy": "existing_motion_scores_argmax_original_frame_number",
+              "base_collision_frame": 32,
+              "collision_frame": 33,
+              "other_fields_use_base_vlm_context": true
+            }
+          },
+          "frame_numbers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "motion_scores": [
+            0.0,
+            0.5193955302238464,
+            1.0425004959106445,
+            1.0926215648651123,
+            1.0293142795562744,
+            0.4029749631881714,
+            0.0,
+            0.3315278887748718,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.026683909818530083,
+            0.20555254817008972,
+            0.0,
+            0.0,
+            0.948710024356842,
+            0.23957183957099915,
+            0.10385873913764954,
+            0.0,
+            0.32604312896728516,
+            0.0,
+            0.9612730145454407,
+            0.1300809532403946,
+            1.2482595443725586,
+            0.5595969557762146,
+            2.1165435314178467,
+            1.5259747505187988,
+            1.7937979698181152,
+            7.223968505859375,
+            3.4943974018096924,
+            6.844736099243164,
+            8.499244689941406,
+            9.335519790649414,
+            4.293272972106934,
+            0.8757643699645996,
+            0.25043079257011414,
+            1.2759660482406616,
+            0.39599794149398804,
+            0.34701210260391235,
+            0.33033543825149536,
+            0.0,
+            1.3447239398956299,
+            0.8263024091720581,
+            0.44830888509750366,
+            2.196848154067993,
+            4.83689546585083,
+            0.7262572050094604,
+            0.4357295632362366,
+            5.257941246032715
+          ],
+          "skipped_images": 0,
+          "scan_seconds": 0.6736822999955621,
+          "predict_seconds": 9.781939400010742,
+          "calls": [
+            {
+              "call": 1,
+              "name": "overview",
+              "prompt": "These are frames from one dashcam clip, ordered left to right, top to bottom. Which numbered frame first shows physical contact of the camera vehicle with another vehicle? From which side of the image did that other vehicle approach? Return JSON with collision_frame and entry_side (LEFT or RIGHT). Available frames: [0, 5, 11, 16, 22, 27, 33, 38, 44, 49].",
+              "offered_frames": {
+                "Available frames": [
+                  0,
+                  5,
+                  11,
+                  16,
+                  22,
+                  27,
+                  33,
+                  38,
+                  44,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    512
+                  ],
+                  "raw_rgb_sha256": "ed3ff12df99acf013980c835542f1af69af62c1f16c3fa130f1269c4e809f774"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1920,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 983040,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 27,\n  \"entry_side\": \"RIGHT\"\n}",
+              "seconds": 2.9261716999753844,
+              "gpu_peak_allocated_bytes": 3715551744,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 2,
+              "name": "collision_fine",
+              "prompt": "These dashcam frames are ordered left to right, top to bottom. Which numbered frame first shows actual contact of the camera car with the other vehicle? Look for contact, not the later strongest shake. Allowed frames: [22, 25, 28, 30, 31, 32, 33, 34, 46, 47, 48, 49]. Return JSON with collision_frame.",
+              "offered_frames": {
+                "Allowed frames": [
+                  22,
+                  25,
+                  28,
+                  30,
+                  31,
+                  32,
+                  33,
+                  34,
+                  46,
+                  47,
+                  48,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    768
+                  ],
+                  "raw_rgb_sha256": "6e071eb69e08267758e98c931c0088cf292ace0d8968cb5bfe35cfc7a01e6c27"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1728,
+                  672
+                ]
+              ],
+              "bounded_pixel_total": 1161216,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 48,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 32\n}",
+              "seconds": 2.1649436999869067,
+              "gpu_peak_allocated_bytes": 3881181696,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 3,
+              "name": "entry_coarse",
+              "prompt": "These frames are chronological, left to right then top to bottom. The clip ends at a collision. When did the other collision vehicle first enter the camera car's driving lane? Entry is its first wheel touching the lane boundary. If it was already inside this lane at the first image, select the first image. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [0, 3, 6, 9, 12, 15, 17, 20, 23, 26, 29, 32]. Return JSON with entry_frame only.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  0,
+                  3,
+                  6,
+                  9,
+                  12,
+                  15,
+                  17,
+                  20,
+                  23,
+                  26,
+                  29,
+                  32
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    768
+                  ],
+                  "raw_rgb_sha256": "9d03db9fe4612fbfb730fbb5956b0a728e6dbf78096b64285b8be712fa75bee2"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  768
+                ]
+              ],
+              "bounded_pixel_total": 1179648,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"entry_frame\": 23\n}",
+              "seconds": 2.3069679999898653,
+              "gpu_peak_allocated_bytes": 3933626880,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 4,
+              "name": "space",
+              "prompt": "These images show just before, during, and after a dashcam collision. At contact, is there usable road space for the camera car to continue or steer around the other vehicle? Account for nearby traffic, road edges, curbs and barriers. Return JSON with evasion_space: integer 1 if space exists, otherwise integer 0.",
+              "offered_frames": {},
+              "input_images": [
+                {
+                  "size": [
+                    1152,
+                    256
+                  ],
+                  "raw_rgb_sha256": "90e93dd650bec1fe3cbd91a8d6724f24dc1a33e9ee66a683f488d0f513ea2140"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1152,
+                  256
+                ]
+              ],
+              "bounded_pixel_total": 294912,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"evasion_space\": 0\n}",
+              "seconds": 1.4343799000198487,
+              "gpu_peak_allocated_bytes": 3215255552,
+              "gpu_peak_reserved_bytes": 4691329024
+            }
+          ],
+          "official_collision_diagnostic": {
+            "provided_label_frame": 30,
+            "prediction": 33,
+            "error_seconds_from_source_pts": 0.2999999999999998,
+            "within_0_3_seconds": true,
+            "provided_label_is_not_reannotated": true
+          },
+          "collision_candidate_oracle": {
+            "vlm_candidate_sets": [
+              {
+                "call": "overview",
+                "candidate_kind": "Available frames",
+                "nearest_gt_error_seconds": 0.2999999999999998,
+                "candidate_within_0_3": true
+              },
+              {
+                "call": "collision_fine",
+                "candidate_kind": "Allowed frames",
+                "nearest_gt_error_seconds": 0.0,
+                "candidate_within_0_3": true
+              }
+            ],
+            "final_output_set": [
+              33
+            ],
+            "final_motion_singleton_within_0_3": true,
+            "note": "All variants choose final collision from the same motion singleton; VLM coverage does not change final choice."
+          }
+        }
+      ],
+      "summary": {
+        "videos": 5,
+        "official_collision_correct": 4,
+        "official_collision_accuracy": 0.8,
+        "mean_predict_seconds": 10.061739280004986,
+        "mean_scan_seconds": 0.6726838000002318,
+        "mean_call_seconds": 9.012692720018094,
+        "calls_total": 20,
+        "no_official_entry_side_space_gt": true
+      }
+    },
+    "A": {
+      "videos": [
+        {
+          "ID": "S2_001",
+          "prediction": {
+            "collision_frame": 35,
+            "entry_frame": 25,
+            "entry_side": "LEFT",
+            "evasion_space": 0
+          },
+          "diagnostics": {
+            "version": "v4_A",
+            "calls": 3,
+            "coarse": {
+              "collision_frame": 33,
+              "entry_side": "LEFT"
+            },
+            "entry": {
+              "entry_frame": 25
+            },
+            "space": {
+              "evasion_space": 0
+            },
+            "motion_proposal": 35,
+            "collision_context_frame": 35,
+            "overview_candidates": [
+              0,
+              5,
+              11,
+              16,
+              22,
+              27,
+              33,
+              38,
+              44,
+              49
+            ],
+            "entry_candidates": [
+              0,
+              3,
+              6,
+              10,
+              13,
+              16,
+              19,
+              22,
+              25,
+              29,
+              32,
+              35
+            ],
+            "space_context_frames": [
+              33,
+              35,
+              37
+            ]
+          },
+          "frame_numbers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "motion_scores": [
+            0.0,
+            0.36833083629608154,
+            0.06803762167692184,
+            0.0,
+            0.8358830809593201,
+            0.2788100242614746,
+            0.11710022389888763,
+            1.475167155265808,
+            0.5692408084869385,
+            0.4822395145893097,
+            0.932756781578064,
+            0.4440177381038666,
+            0.6012362837791443,
+            0.05376405641436577,
+            0.0,
+            1.844958782196045,
+            1.146605134010315,
+            1.2627612352371216,
+            1.1306020021438599,
+            1.4986685514450073,
+            0.745961606502533,
+            0.20463207364082336,
+            1.2386138439178467,
+            0.2894057333469391,
+            0.27595916390419006,
+            0.36480218172073364,
+            0.0,
+            0.0,
+            0.0,
+            0.08424548804759979,
+            0.0,
+            2.4680914878845215,
+            1.7725163698196411,
+            11.521927833557129,
+            10.287602424621582,
+            12.433114051818848,
+            4.496638298034668,
+            3.0427463054656982,
+            0.0,
+            2.107837677001953,
+            1.6926888227462769,
+            0.05988558754324913,
+            1.5154637098312378,
+            1.6307837963104248,
+            3.0753703117370605,
+            0.05387550964951515,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "skipped_images": 0,
+          "scan_seconds": 0.6148294000013266,
+          "predict_seconds": 7.144015099998796,
+          "calls": [
+            {
+              "call": 1,
+              "name": "overview",
+              "prompt": "These are frames from one dashcam clip, ordered left to right, top to bottom. Which numbered frame first shows physical contact of the camera vehicle with another vehicle? From which side of the image did that other vehicle approach? Return JSON with collision_frame and entry_side (LEFT or RIGHT). Available frames: [0, 5, 11, 16, 22, 27, 33, 38, 44, 49].",
+              "offered_frames": {
+                "Available frames": [
+                  0,
+                  5,
+                  11,
+                  16,
+                  22,
+                  27,
+                  33,
+                  38,
+                  44,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    512
+                  ],
+                  "raw_rgb_sha256": "78f68e962184c612ffd65c3bb5945681ca1f44abf6663275dbdc82fbf183f4c2"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1920,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 983040,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 33,\n  \"entry_side\": \"LEFT\"\n}",
+              "seconds": 2.8660785000247415,
+              "gpu_peak_allocated_bytes": 3715551744,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 2,
+              "name": "entry_coarse",
+              "prompt": "These frames are chronological, left to right then top to bottom. The clip ends at a collision. When did the other collision vehicle first enter the camera car's driving lane? Entry is its first wheel touching the lane boundary. If it was already inside this lane at the first image, select the first image. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [0, 3, 6, 10, 13, 16, 19, 22, 25, 29, 32, 35]. Return JSON with entry_frame only.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  0,
+                  3,
+                  6,
+                  10,
+                  13,
+                  16,
+                  19,
+                  22,
+                  25,
+                  29,
+                  32,
+                  35
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    768
+                  ],
+                  "raw_rgb_sha256": "caf8e431c579ba6bbed173acbc0fcbdecde4f18b5a295f4ac0a3f8bee1734070"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  768
+                ]
+              ],
+              "bounded_pixel_total": 1179648,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"entry_frame\": 25\n}",
+              "seconds": 2.219472600001609,
+              "gpu_peak_allocated_bytes": 3933803008,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 3,
+              "name": "space",
+              "prompt": "These images show just before, during, and after a dashcam collision. At contact, is there usable road space for the camera car to continue or steer around the other vehicle? Account for nearby traffic, road edges, curbs and barriers. Return JSON with evasion_space: integer 1 if space exists, otherwise integer 0.",
+              "offered_frames": {},
+              "input_images": [
+                {
+                  "size": [
+                    1152,
+                    256
+                  ],
+                  "raw_rgb_sha256": "1fe1bef71da2890179e3e173d58cf0c6fa839ed09620937489c3bed56e3f06c2"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1152,
+                  256
+                ]
+              ],
+              "bounded_pixel_total": 294912,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"evasion_space\": 0\n}",
+              "seconds": 1.368196800001897,
+              "gpu_peak_allocated_bytes": 3215255552,
+              "gpu_peak_reserved_bytes": 4691329024
+            }
+          ],
+          "official_collision_diagnostic": {
+            "provided_label_frame": 32,
+            "prediction": 35,
+            "error_seconds_from_source_pts": 0.2999999999999998,
+            "within_0_3_seconds": true,
+            "provided_label_is_not_reannotated": true
+          },
+          "collision_candidate_oracle": {
+            "vlm_candidate_sets": [
+              {
+                "call": "overview",
+                "candidate_kind": "Available frames",
+                "nearest_gt_error_seconds": 0.09999999999999964,
+                "candidate_within_0_3": true
+              }
+            ],
+            "final_output_set": [
+              35
+            ],
+            "final_motion_singleton_within_0_3": true,
+            "note": "All variants choose final collision from the same motion singleton; VLM coverage does not change final choice."
+          }
+        },
+        {
+          "ID": "S2_002",
+          "prediction": {
+            "collision_frame": 47,
+            "entry_frame": 4,
+            "entry_side": "LEFT",
+            "evasion_space": 0
+          },
+          "diagnostics": {
+            "version": "v4_A",
+            "calls": 3,
+            "coarse": {
+              "collision_frame": 44,
+              "entry_side": "LEFT"
+            },
+            "entry": {
+              "entry_frame": 4
+            },
+            "space": {
+              "evasion_space": 0
+            },
+            "motion_proposal": 47,
+            "collision_context_frame": 47,
+            "overview_candidates": [
+              0,
+              5,
+              11,
+              16,
+              22,
+              27,
+              33,
+              38,
+              44,
+              49
+            ],
+            "entry_candidates": [
+              0,
+              4,
+              9,
+              13,
+              17,
+              21,
+              26,
+              30,
+              34,
+              38,
+              43,
+              47
+            ],
+            "space_context_frames": [
+              45,
+              47,
+              49
+            ]
+          },
+          "frame_numbers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "motion_scores": [
+            0.0,
+            1.4514776468276978,
+            0.5312491059303284,
+            0.7564764618873596,
+            2.557121753692627,
+            1.6686248779296875,
+            1.1367905139923096,
+            1.1333450078964233,
+            0.6178054809570312,
+            1.1840946674346924,
+            0.40756353735923767,
+            0.35210365056991577,
+            0.0,
+            0.0165858156979084,
+            0.0,
+            1.109062910079956,
+            0.6368404626846313,
+            0.34307435154914856,
+            0.0,
+            0.0,
+            0.0,
+            0.11650387942790985,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9239266514778137,
+            4.187233924865723,
+            4.209970474243164,
+            0.0,
+            0.0,
+            2.317345380783081,
+            1.8780403137207031,
+            0.49537354707717896,
+            4.157528877258301,
+            1.7852407693862915,
+            0.510452151298523,
+            2.0955474376678467,
+            2.9309399127960205,
+            2.565946102142334,
+            1.1613662242889404,
+            6.301788330078125,
+            2.659332036972046,
+            1.4290629625320435,
+            1.3475819826126099,
+            7.166168212890625,
+            0.5616134405136108,
+            4.722605228424072
+          ],
+          "skipped_images": 0,
+          "scan_seconds": 0.6358001000189688,
+          "predict_seconds": 7.316817399987485,
+          "calls": [
+            {
+              "call": 1,
+              "name": "overview",
+              "prompt": "These are frames from one dashcam clip, ordered left to right, top to bottom. Which numbered frame first shows physical contact of the camera vehicle with another vehicle? From which side of the image did that other vehicle approach? Return JSON with collision_frame and entry_side (LEFT or RIGHT). Available frames: [0, 5, 11, 16, 22, 27, 33, 38, 44, 49].",
+              "offered_frames": {
+                "Available frames": [
+                  0,
+                  5,
+                  11,
+                  16,
+                  22,
+                  27,
+                  33,
+                  38,
+                  44,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    512
+                  ],
+                  "raw_rgb_sha256": "d4cf9ad68156965191d99d2150777af09dbc181c34eff2456066755d501061ba"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1920,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 983040,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 44,\n  \"entry_side\": \"LEFT\"\n}",
+              "seconds": 2.864393600000767,
+              "gpu_peak_allocated_bytes": 3715551744,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 2,
+              "name": "entry_coarse",
+              "prompt": "These frames are chronological, left to right then top to bottom. The clip ends at a collision. When did the other collision vehicle first enter the camera car's driving lane? Entry is its first wheel touching the lane boundary. If it was already inside this lane at the first image, select the first image. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [0, 4, 9, 13, 17, 21, 26, 30, 34, 38, 43, 47]. Return JSON with entry_frame only.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  0,
+                  4,
+                  9,
+                  13,
+                  17,
+                  21,
+                  26,
+                  30,
+                  34,
+                  38,
+                  43,
+                  47
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    768
+                  ],
+                  "raw_rgb_sha256": "17d9521f5da8fa4d37240213e1cd9bc88ec72e7ef5b104b75c20f252b67e8002"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  768
+                ]
+              ],
+              "bounded_pixel_total": 1179648,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"entry_frame\": 4\n}",
+              "seconds": 2.1336595000175294,
+              "gpu_peak_allocated_bytes": 3933803008,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 3,
+              "name": "space",
+              "prompt": "These images show just before, during, and after a dashcam collision. At contact, is there usable road space for the camera car to continue or steer around the other vehicle? Account for nearby traffic, road edges, curbs and barriers. Return JSON with evasion_space: integer 1 if space exists, otherwise integer 0.",
+              "offered_frames": {},
+              "input_images": [
+                {
+                  "size": [
+                    1152,
+                    256
+                  ],
+                  "raw_rgb_sha256": "e4f6be8d955a742b6f8f306397c43075c8d391292d88791cc8478706f8214954"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1152,
+                  256
+                ]
+              ],
+              "bounded_pixel_total": 294912,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"evasion_space\": 0\n}",
+              "seconds": 1.6114531000202987,
+              "gpu_peak_allocated_bytes": 3215255552,
+              "gpu_peak_reserved_bytes": 4691329024
+            }
+          ],
+          "official_collision_diagnostic": {
+            "provided_label_frame": 30,
+            "prediction": 47,
+            "error_seconds_from_source_pts": 1.7000000000000002,
+            "within_0_3_seconds": false,
+            "provided_label_is_not_reannotated": true
+          },
+          "collision_candidate_oracle": {
+            "vlm_candidate_sets": [
+              {
+                "call": "overview",
+                "candidate_kind": "Available frames",
+                "nearest_gt_error_seconds": 0.2999999999999998,
+                "candidate_within_0_3": true
+              }
+            ],
+            "final_output_set": [
+              47
+            ],
+            "final_motion_singleton_within_0_3": false,
+            "note": "All variants choose final collision from the same motion singleton; VLM coverage does not change final choice."
+          }
+        },
+        {
+          "ID": "S2_003",
+          "prediction": {
+            "collision_frame": 33,
+            "entry_frame": 24,
+            "entry_side": "LEFT",
+            "evasion_space": 0
+          },
+          "diagnostics": {
+            "version": "v4_A",
+            "calls": 3,
+            "coarse": {
+              "collision_frame": 27,
+              "entry_side": "LEFT"
+            },
+            "entry": {
+              "entry_frame": 24
+            },
+            "space": {
+              "evasion_space": 0
+            },
+            "motion_proposal": 33,
+            "collision_context_frame": 33,
+            "overview_candidates": [
+              0,
+              5,
+              11,
+              16,
+              22,
+              27,
+              33,
+              38,
+              44,
+              49
+            ],
+            "entry_candidates": [
+              0,
+              3,
+              6,
+              9,
+              12,
+              15,
+              18,
+              21,
+              24,
+              27,
+              30,
+              33
+            ],
+            "space_context_frames": [
+              31,
+              33,
+              35
+            ]
+          },
+          "frame_numbers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "motion_scores": [
+            0.0,
+            0.0,
+            0.3927103579044342,
+            0.5039926767349243,
+            0.14361169934272766,
+            0.0,
+            0.0,
+            0.0,
+            0.2570275664329529,
+            0.0,
+            0.0,
+            0.2406146377325058,
+            1.310368299484253,
+            0.0,
+            0.8854655623435974,
+            0.0,
+            0.31843245029449463,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3156329095363617,
+            0.11826232820749283,
+            0.5471241474151611,
+            0.7317386269569397,
+            1.1397279500961304,
+            1.8779438734054565,
+            2.8094825744628906,
+            1.2599639892578125,
+            1.5354087352752686,
+            4.631425857543945,
+            3.658796787261963,
+            12.168205261230469,
+            9.661469459533691,
+            2.475512981414795,
+            0.9994469285011292,
+            4.608502388000488,
+            0.38392019271850586,
+            0.1786060929298401,
+            1.2580440044403076,
+            2.198723554611206,
+            0.8851821422576904,
+            0.8305960893630981,
+            0.9440709352493286,
+            1.3778289556503296,
+            1.3972030878067017,
+            0.4407730996608734,
+            4.171318054199219,
+            2.8104360103607178
+          ],
+          "skipped_images": 0,
+          "scan_seconds": 0.6625316000136081,
+          "predict_seconds": 7.316134199994849,
+          "calls": [
+            {
+              "call": 1,
+              "name": "overview",
+              "prompt": "These are frames from one dashcam clip, ordered left to right, top to bottom. Which numbered frame first shows physical contact of the camera vehicle with another vehicle? From which side of the image did that other vehicle approach? Return JSON with collision_frame and entry_side (LEFT or RIGHT). Available frames: [0, 5, 11, 16, 22, 27, 33, 38, 44, 49].",
+              "offered_frames": {
+                "Available frames": [
+                  0,
+                  5,
+                  11,
+                  16,
+                  22,
+                  27,
+                  33,
+                  38,
+                  44,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    512
+                  ],
+                  "raw_rgb_sha256": "1ebd3d8cc19988e8ff7e418e2922b6efc32a140fcf1dc7f6e6bd4131b3fd593f"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1920,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 983040,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 27,\n  \"entry_side\": \"LEFT\"\n}",
+              "seconds": 2.8685414000065066,
+              "gpu_peak_allocated_bytes": 3715551744,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 2,
+              "name": "entry_coarse",
+              "prompt": "These frames are chronological, left to right then top to bottom. The clip ends at a collision. When did the other collision vehicle first enter the camera car's driving lane? Entry is its first wheel touching the lane boundary. If it was already inside this lane at the first image, select the first image. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33]. Return JSON with entry_frame only.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  0,
+                  3,
+                  6,
+                  9,
+                  12,
+                  15,
+                  18,
+                  21,
+                  24,
+                  27,
+                  30,
+                  33
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    768
+                  ],
+                  "raw_rgb_sha256": "5cf2952007321c12aceac5d8d45b2af66d378dd5298b51fbe701111e9e14a90d"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  768
+                ]
+              ],
+              "bounded_pixel_total": 1179648,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"entry_frame\": 24\n}",
+              "seconds": 2.230681100016227,
+              "gpu_peak_allocated_bytes": 3933626880,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 3,
+              "name": "space",
+              "prompt": "These images show just before, during, and after a dashcam collision. At contact, is there usable road space for the camera car to continue or steer around the other vehicle? Account for nearby traffic, road edges, curbs and barriers. Return JSON with evasion_space: integer 1 if space exists, otherwise integer 0.",
+              "offered_frames": {},
+              "input_images": [
+                {
+                  "size": [
+                    1152,
+                    256
+                  ],
+                  "raw_rgb_sha256": "ff7c483ced38096bf4c5470b62a428a90161087432abd15182d9025c31946eb7"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1152,
+                  256
+                ]
+              ],
+              "bounded_pixel_total": 294912,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"evasion_space\": 0\n}",
+              "seconds": 1.446377099986421,
+              "gpu_peak_allocated_bytes": 3215255552,
+              "gpu_peak_reserved_bytes": 4691329024
+            }
+          ],
+          "official_collision_diagnostic": {
+            "provided_label_frame": 31,
+            "prediction": 33,
+            "error_seconds_from_source_pts": 0.19999999999999973,
+            "within_0_3_seconds": true,
+            "provided_label_is_not_reannotated": true
+          },
+          "collision_candidate_oracle": {
+            "vlm_candidate_sets": [
+              {
+                "call": "overview",
+                "candidate_kind": "Available frames",
+                "nearest_gt_error_seconds": 0.19999999999999973,
+                "candidate_within_0_3": true
+              }
+            ],
+            "final_output_set": [
+              33
+            ],
+            "final_motion_singleton_within_0_3": true,
+            "note": "All variants choose final collision from the same motion singleton; VLM coverage does not change final choice."
+          }
+        },
+        {
+          "ID": "S2_004",
+          "prediction": {
+            "collision_frame": 42,
+            "entry_frame": 15,
+            "entry_side": "RIGHT",
+            "evasion_space": 0
+          },
+          "diagnostics": {
+            "version": "v4_A",
+            "calls": 3,
+            "coarse": {
+              "collision_frame": 44,
+              "entry_side": "RIGHT"
+            },
+            "entry": {
+              "entry_frame": 15
+            },
+            "space": {
+              "evasion_space": 0
+            },
+            "motion_proposal": 42,
+            "collision_context_frame": 42,
+            "overview_candidates": [
+              0,
+              5,
+              11,
+              16,
+              22,
+              27,
+              33,
+              38,
+              44,
+              49
+            ],
+            "entry_candidates": [
+              0,
+              4,
+              8,
+              11,
+              15,
+              19,
+              23,
+              27,
+              31,
+              34,
+              38,
+              42
+            ],
+            "space_context_frames": [
+              40,
+              42,
+              44
+            ]
+          },
+          "frame_numbers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "motion_scores": [
+            0.0,
+            5.4773945808410645,
+            5.112627029418945,
+            3.287022113800049,
+            0.9229856133460999,
+            1.0349838733673096,
+            1.7067991495132446,
+            0.31410834193229675,
+            0.10185492038726807,
+            0.0,
+            0.8728116750717163,
+            0.5349076390266418,
+            0.685904860496521,
+            3.7742347717285156,
+            0.0,
+            0.05481676384806633,
+            0.0,
+            0.9862160086631775,
+            1.5531929731369019,
+            0.0,
+            0.0,
+            0.0,
+            0.150532528758049,
+            0.5743275880813599,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.24864546954631805,
+            0.0,
+            0.0,
+            0.0,
+            0.2854571044445038,
+            0.20030508935451508,
+            0.8967195749282837,
+            1.4279239177703857,
+            2.397592306137085,
+            3.93674373626709,
+            4.952219486236572,
+            4.520334243774414,
+            8.766565322875977,
+            17.327106475830078,
+            13.313913345336914,
+            4.732539653778076,
+            5.129762172698975,
+            5.777622222900391,
+            2.9258179664611816,
+            1.6191365718841553,
+            0.8252824544906616
+          ],
+          "skipped_images": 0,
+          "scan_seconds": 0.6084390000032727,
+          "predict_seconds": 7.2361725000082515,
+          "calls": [
+            {
+              "call": 1,
+              "name": "overview",
+              "prompt": "These are frames from one dashcam clip, ordered left to right, top to bottom. Which numbered frame first shows physical contact of the camera vehicle with another vehicle? From which side of the image did that other vehicle approach? Return JSON with collision_frame and entry_side (LEFT or RIGHT). Available frames: [0, 5, 11, 16, 22, 27, 33, 38, 44, 49].",
+              "offered_frames": {
+                "Available frames": [
+                  0,
+                  5,
+                  11,
+                  16,
+                  22,
+                  27,
+                  33,
+                  38,
+                  44,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    512
+                  ],
+                  "raw_rgb_sha256": "1603890b8532c97180718c290c2c8418846a4dddec24f21f798a96b7d7b4c76f"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1920,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 983040,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 44,\n  \"entry_side\": \"RIGHT\"\n}",
+              "seconds": 2.782578000013018,
+              "gpu_peak_allocated_bytes": 3715551744,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 2,
+              "name": "entry_coarse",
+              "prompt": "These frames are chronological, left to right then top to bottom. The clip ends at a collision. When did the other collision vehicle first enter the camera car's driving lane? Entry is its first wheel touching the lane boundary. If it was already inside this lane at the first image, select the first image. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [0, 4, 8, 11, 15, 19, 23, 27, 31, 34, 38, 42]. Return JSON with entry_frame only.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  0,
+                  4,
+                  8,
+                  11,
+                  15,
+                  19,
+                  23,
+                  27,
+                  31,
+                  34,
+                  38,
+                  42
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    768
+                  ],
+                  "raw_rgb_sha256": "5ae7070bd656dfd7f41601a24c22de6bb600ca01ab0803a7bd5218d725c715a9"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  768
+                ]
+              ],
+              "bounded_pixel_total": 1179648,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"entry_frame\": 15\n}",
+              "seconds": 2.2707147000182886,
+              "gpu_peak_allocated_bytes": 3933803008,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 3,
+              "name": "space",
+              "prompt": "These images show just before, during, and after a dashcam collision. At contact, is there usable road space for the camera car to continue or steer around the other vehicle? Account for nearby traffic, road edges, curbs and barriers. Return JSON with evasion_space: integer 1 if space exists, otherwise integer 0.",
+              "offered_frames": {},
+              "input_images": [
+                {
+                  "size": [
+                    1152,
+                    256
+                  ],
+                  "raw_rgb_sha256": "a0be4fc4a63b88d2f6644e424d4e01148e692156f22836e4bb1ef021e0defbf7"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1152,
+                  256
+                ]
+              ],
+              "bounded_pixel_total": 294912,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"evasion_space\": 0\n}",
+              "seconds": 1.3953536999761127,
+              "gpu_peak_allocated_bytes": 3215255552,
+              "gpu_peak_reserved_bytes": 4691329024
+            }
+          ],
+          "official_collision_diagnostic": {
+            "provided_label_frame": 41,
+            "prediction": 42,
+            "error_seconds_from_source_pts": 0.10000000000000053,
+            "within_0_3_seconds": true,
+            "provided_label_is_not_reannotated": true
+          },
+          "collision_candidate_oracle": {
+            "vlm_candidate_sets": [
+              {
+                "call": "overview",
+                "candidate_kind": "Available frames",
+                "nearest_gt_error_seconds": 0.2999999999999998,
+                "candidate_within_0_3": true
+              }
+            ],
+            "final_output_set": [
+              42
+            ],
+            "final_motion_singleton_within_0_3": true,
+            "note": "All variants choose final collision from the same motion singleton; VLM coverage does not change final choice."
+          }
+        },
+        {
+          "ID": "S2_005",
+          "prediction": {
+            "collision_frame": 33,
+            "entry_frame": 24,
+            "entry_side": "RIGHT",
+            "evasion_space": 0
+          },
+          "diagnostics": {
+            "version": "v4_A",
+            "calls": 3,
+            "coarse": {
+              "collision_frame": 27,
+              "entry_side": "RIGHT"
+            },
+            "entry": {
+              "entry_frame": 24
+            },
+            "space": {
+              "evasion_space": 0
+            },
+            "motion_proposal": 33,
+            "collision_context_frame": 33,
+            "overview_candidates": [
+              0,
+              5,
+              11,
+              16,
+              22,
+              27,
+              33,
+              38,
+              44,
+              49
+            ],
+            "entry_candidates": [
+              0,
+              3,
+              6,
+              9,
+              12,
+              15,
+              18,
+              21,
+              24,
+              27,
+              30,
+              33
+            ],
+            "space_context_frames": [
+              31,
+              33,
+              35
+            ]
+          },
+          "frame_numbers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "motion_scores": [
+            0.0,
+            0.5193955302238464,
+            1.0425004959106445,
+            1.0926215648651123,
+            1.0293142795562744,
+            0.4029749631881714,
+            0.0,
+            0.3315278887748718,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.026683909818530083,
+            0.20555254817008972,
+            0.0,
+            0.0,
+            0.948710024356842,
+            0.23957183957099915,
+            0.10385873913764954,
+            0.0,
+            0.32604312896728516,
+            0.0,
+            0.9612730145454407,
+            0.1300809532403946,
+            1.2482595443725586,
+            0.5595969557762146,
+            2.1165435314178467,
+            1.5259747505187988,
+            1.7937979698181152,
+            7.223968505859375,
+            3.4943974018096924,
+            6.844736099243164,
+            8.499244689941406,
+            9.335519790649414,
+            4.293272972106934,
+            0.8757643699645996,
+            0.25043079257011414,
+            1.2759660482406616,
+            0.39599794149398804,
+            0.34701210260391235,
+            0.33033543825149536,
+            0.0,
+            1.3447239398956299,
+            0.8263024091720581,
+            0.44830888509750366,
+            2.196848154067993,
+            4.83689546585083,
+            0.7262572050094604,
+            0.4357295632362366,
+            5.257941246032715
+          ],
+          "skipped_images": 0,
+          "scan_seconds": 0.6104791999969166,
+          "predict_seconds": 7.141488499997649,
+          "calls": [
+            {
+              "call": 1,
+              "name": "overview",
+              "prompt": "These are frames from one dashcam clip, ordered left to right, top to bottom. Which numbered frame first shows physical contact of the camera vehicle with another vehicle? From which side of the image did that other vehicle approach? Return JSON with collision_frame and entry_side (LEFT or RIGHT). Available frames: [0, 5, 11, 16, 22, 27, 33, 38, 44, 49].",
+              "offered_frames": {
+                "Available frames": [
+                  0,
+                  5,
+                  11,
+                  16,
+                  22,
+                  27,
+                  33,
+                  38,
+                  44,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    512
+                  ],
+                  "raw_rgb_sha256": "ed3ff12df99acf013980c835542f1af69af62c1f16c3fa130f1269c4e809f774"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1920,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 983040,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 27,\n  \"entry_side\": \"RIGHT\"\n}",
+              "seconds": 2.908856599999126,
+              "gpu_peak_allocated_bytes": 3715551744,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 2,
+              "name": "entry_coarse",
+              "prompt": "These frames are chronological, left to right then top to bottom. The clip ends at a collision. When did the other collision vehicle first enter the camera car's driving lane? Entry is its first wheel touching the lane boundary. If it was already inside this lane at the first image, select the first image. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33]. Return JSON with entry_frame only.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  0,
+                  3,
+                  6,
+                  9,
+                  12,
+                  15,
+                  18,
+                  21,
+                  24,
+                  27,
+                  30,
+                  33
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    768
+                  ],
+                  "raw_rgb_sha256": "1af3f787f163dcbc0f3f225b7dc91149ced8113e0da9650148f304178f88797d"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  768
+                ]
+              ],
+              "bounded_pixel_total": 1179648,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"entry_frame\": 24\n}",
+              "seconds": 2.206113499996718,
+              "gpu_peak_allocated_bytes": 3933626880,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 3,
+              "name": "space",
+              "prompt": "These images show just before, during, and after a dashcam collision. At contact, is there usable road space for the camera car to continue or steer around the other vehicle? Account for nearby traffic, road edges, curbs and barriers. Return JSON with evasion_space: integer 1 if space exists, otherwise integer 0.",
+              "offered_frames": {},
+              "input_images": [
+                {
+                  "size": [
+                    1152,
+                    256
+                  ],
+                  "raw_rgb_sha256": "2a67771956a61f20ff85779873051ade7e833d5f3a3dea69b0905efd341b80e0"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1152,
+                  256
+                ]
+              ],
+              "bounded_pixel_total": 294912,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"evasion_space\": 0\n}",
+              "seconds": 1.389008800004376,
+              "gpu_peak_allocated_bytes": 3215255552,
+              "gpu_peak_reserved_bytes": 4691329024
+            }
+          ],
+          "official_collision_diagnostic": {
+            "provided_label_frame": 30,
+            "prediction": 33,
+            "error_seconds_from_source_pts": 0.2999999999999998,
+            "within_0_3_seconds": true,
+            "provided_label_is_not_reannotated": true
+          },
+          "collision_candidate_oracle": {
+            "vlm_candidate_sets": [
+              {
+                "call": "overview",
+                "candidate_kind": "Available frames",
+                "nearest_gt_error_seconds": 0.2999999999999998,
+                "candidate_within_0_3": true
+              }
+            ],
+            "final_output_set": [
+              33
+            ],
+            "final_motion_singleton_within_0_3": true,
+            "note": "All variants choose final collision from the same motion singleton; VLM coverage does not change final choice."
+          }
+        }
+      ],
+      "summary": {
+        "videos": 5,
+        "official_collision_correct": 4,
+        "official_collision_accuracy": 0.8,
+        "mean_predict_seconds": 7.230925539997406,
+        "mean_scan_seconds": 0.6264158600068186,
+        "mean_call_seconds": 6.5122958000167275,
+        "calls_total": 15,
+        "no_official_entry_side_space_gt": true
+      }
+    },
+    "B": {
+      "videos": [
+        {
+          "ID": "S2_001",
+          "prediction": {
+            "collision_frame": 35,
+            "entry_frame": 25,
+            "entry_side": "LEFT",
+            "evasion_space": 0
+          },
+          "diagnostics": {
+            "version": "v4_B",
+            "calls": 4,
+            "coarse": {
+              "collision_frame": 33,
+              "entry_side": "LEFT"
+            },
+            "entry": {
+              "entry_frame": 25
+            },
+            "space": {
+              "evasion_space": 0
+            },
+            "motion_proposal": 35,
+            "collision_context_frame": 35,
+            "overview_candidates": [
+              0,
+              5,
+              11,
+              16,
+              22,
+              27,
+              33,
+              38,
+              44,
+              49
+            ],
+            "entry_candidates": [
+              0,
+              3,
+              6,
+              10,
+              13,
+              16,
+              19,
+              22,
+              25,
+              29,
+              32,
+              35
+            ],
+            "space_context_frames": [
+              33,
+              35,
+              37
+            ],
+            "entry_refinement": {
+              "coarse_entry_frame": 25,
+              "additional_calls": 1,
+              "accepted": false,
+              "fine_candidates": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+              ],
+              "skip_reason": null,
+              "interval_positions": [
+                22,
+                29
+              ],
+              "interval_frames": [
+                22,
+                29
+              ],
+              "prompt": "These dashcam frames are chronological, left to right then top to bottom. This is a local time window of the full clip; its first image may not be the start of the clip. Find the collision vehicle's first wheel touching the camera car's lane boundary. At an intersection continue the camera car's lane boundaries forward. Return status OBSERVED only if this entry is visible in these images. If entry happened before this window use BEFORE_WINDOW; if after it use AFTER_WINDOW; if the event or the collision vehicle cannot be determined use UNCERTAIN. Do not call the first shown image the actual entry merely because the vehicle is already inside. Lane entry candidates: [22, 23, 24, 25, 26, 27, 28, 29]. Return JSON with status and entry_frame; entry_frame must be a shown integer only when status is OBSERVED.",
+              "raw_output": "{\n  \"status\": \"BEFORE_WINDOW\",\n  \"entry_frame\": null\n}",
+              "parsed": {
+                "status": "BEFORE_WINDOW",
+                "entry_frame": null
+              },
+              "fallback_reason": "entry_not_observed_or_invalid_frame"
+            }
+          },
+          "frame_numbers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "motion_scores": [
+            0.0,
+            0.36833083629608154,
+            0.06803762167692184,
+            0.0,
+            0.8358830809593201,
+            0.2788100242614746,
+            0.11710022389888763,
+            1.475167155265808,
+            0.5692408084869385,
+            0.4822395145893097,
+            0.932756781578064,
+            0.4440177381038666,
+            0.6012362837791443,
+            0.05376405641436577,
+            0.0,
+            1.844958782196045,
+            1.146605134010315,
+            1.2627612352371216,
+            1.1306020021438599,
+            1.4986685514450073,
+            0.745961606502533,
+            0.20463207364082336,
+            1.2386138439178467,
+            0.2894057333469391,
+            0.27595916390419006,
+            0.36480218172073364,
+            0.0,
+            0.0,
+            0.0,
+            0.08424548804759979,
+            0.0,
+            2.4680914878845215,
+            1.7725163698196411,
+            11.521927833557129,
+            10.287602424621582,
+            12.433114051818848,
+            4.496638298034668,
+            3.0427463054656982,
+            0.0,
+            2.107837677001953,
+            1.6926888227462769,
+            0.05988558754324913,
+            1.5154637098312378,
+            1.6307837963104248,
+            3.0753703117370605,
+            0.05387550964951515,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "skipped_images": 0,
+          "scan_seconds": 0.6408205000043381,
+          "predict_seconds": 10.217520000005607,
+          "calls": [
+            {
+              "call": 1,
+              "name": "overview",
+              "prompt": "These are frames from one dashcam clip, ordered left to right, top to bottom. Which numbered frame first shows physical contact of the camera vehicle with another vehicle? From which side of the image did that other vehicle approach? Return JSON with collision_frame and entry_side (LEFT or RIGHT). Available frames: [0, 5, 11, 16, 22, 27, 33, 38, 44, 49].",
+              "offered_frames": {
+                "Available frames": [
+                  0,
+                  5,
+                  11,
+                  16,
+                  22,
+                  27,
+                  33,
+                  38,
+                  44,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    512
+                  ],
+                  "raw_rgb_sha256": "78f68e962184c612ffd65c3bb5945681ca1f44abf6663275dbdc82fbf183f4c2"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1920,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 983040,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 33,\n  \"entry_side\": \"LEFT\"\n}",
+              "seconds": 3.1521108000015374,
+              "gpu_peak_allocated_bytes": 3715551744,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 2,
+              "name": "entry_coarse",
+              "prompt": "These frames are chronological, left to right then top to bottom. The clip ends at a collision. When did the other collision vehicle first enter the camera car's driving lane? Entry is its first wheel touching the lane boundary. If it was already inside this lane at the first image, select the first image. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [0, 3, 6, 10, 13, 16, 19, 22, 25, 29, 32, 35]. Return JSON with entry_frame only.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  0,
+                  3,
+                  6,
+                  10,
+                  13,
+                  16,
+                  19,
+                  22,
+                  25,
+                  29,
+                  32,
+                  35
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    768
+                  ],
+                  "raw_rgb_sha256": "caf8e431c579ba6bbed173acbc0fcbdecde4f18b5a295f4ac0a3f8bee1734070"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  768
+                ]
+              ],
+              "bounded_pixel_total": 1179648,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"entry_frame\": 25\n}",
+              "seconds": 2.203582500020275,
+              "gpu_peak_allocated_bytes": 3933803008,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 3,
+              "name": "space",
+              "prompt": "These images show just before, during, and after a dashcam collision. At contact, is there usable road space for the camera car to continue or steer around the other vehicle? Account for nearby traffic, road edges, curbs and barriers. Return JSON with evasion_space: integer 1 if space exists, otherwise integer 0.",
+              "offered_frames": {},
+              "input_images": [
+                {
+                  "size": [
+                    1152,
+                    256
+                  ],
+                  "raw_rgb_sha256": "1fe1bef71da2890179e3e173d58cf0c6fa839ed09620937489c3bed56e3f06c2"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1152,
+                  256
+                ]
+              ],
+              "bounded_pixel_total": 294912,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"evasion_space\": 0\n}",
+              "seconds": 1.4048920999921393,
+              "gpu_peak_allocated_bytes": 3215255552,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 4,
+              "name": "entry_fine",
+              "prompt": "These dashcam frames are chronological, left to right then top to bottom. This is a local time window of the full clip; its first image may not be the start of the clip. Find the collision vehicle's first wheel touching the camera car's lane boundary. At an intersection continue the camera car's lane boundaries forward. Return status OBSERVED only if this entry is visible in these images. If entry happened before this window use BEFORE_WINDOW; if after it use AFTER_WINDOW; if the event or the collision vehicle cannot be determined use UNCERTAIN. Do not call the first shown image the actual entry merely because the vehicle is already inside. Lane entry candidates: [22, 23, 24, 25, 26, 27, 28, 29]. Return JSON with status and entry_frame; entry_frame must be a shown integer only when status is OBSERVED.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    512
+                  ],
+                  "raw_rgb_sha256": "b7aecae661ac11f00e2a65aad1f4da7c00cf591125f0e5695da129f6ad34a046"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 786432,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"status\": \"BEFORE_WINDOW\",\n  \"entry_frame\": null\n}",
+              "seconds": 2.552150800009258,
+              "gpu_peak_allocated_bytes": 3638837760,
+              "gpu_peak_reserved_bytes": 4691329024
+            }
+          ],
+          "official_collision_diagnostic": {
+            "provided_label_frame": 32,
+            "prediction": 35,
+            "error_seconds_from_source_pts": 0.2999999999999998,
+            "within_0_3_seconds": true,
+            "provided_label_is_not_reannotated": true
+          },
+          "collision_candidate_oracle": {
+            "vlm_candidate_sets": [
+              {
+                "call": "overview",
+                "candidate_kind": "Available frames",
+                "nearest_gt_error_seconds": 0.09999999999999964,
+                "candidate_within_0_3": true
+              }
+            ],
+            "final_output_set": [
+              35
+            ],
+            "final_motion_singleton_within_0_3": true,
+            "note": "All variants choose final collision from the same motion singleton; VLM coverage does not change final choice."
+          }
+        },
+        {
+          "ID": "S2_002",
+          "prediction": {
+            "collision_frame": 47,
+            "entry_frame": 4,
+            "entry_side": "LEFT",
+            "evasion_space": 0
+          },
+          "diagnostics": {
+            "version": "v4_B",
+            "calls": 4,
+            "coarse": {
+              "collision_frame": 44,
+              "entry_side": "LEFT"
+            },
+            "entry": {
+              "entry_frame": 4
+            },
+            "space": {
+              "evasion_space": 0
+            },
+            "motion_proposal": 47,
+            "collision_context_frame": 47,
+            "overview_candidates": [
+              0,
+              5,
+              11,
+              16,
+              22,
+              27,
+              33,
+              38,
+              44,
+              49
+            ],
+            "entry_candidates": [
+              0,
+              4,
+              9,
+              13,
+              17,
+              21,
+              26,
+              30,
+              34,
+              38,
+              43,
+              47
+            ],
+            "space_context_frames": [
+              45,
+              47,
+              49
+            ],
+            "entry_refinement": {
+              "coarse_entry_frame": 4,
+              "additional_calls": 1,
+              "accepted": false,
+              "fine_candidates": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "skip_reason": null,
+              "interval_positions": [
+                0,
+                9
+              ],
+              "interval_frames": [
+                0,
+                9
+              ],
+              "prompt": "These dashcam frames are chronological, left to right then top to bottom. This is a local time window of the full clip; its first image may not be the start of the clip. Find the collision vehicle's first wheel touching the camera car's lane boundary. At an intersection continue the camera car's lane boundaries forward. Return status OBSERVED only if this entry is visible in these images. If entry happened before this window use BEFORE_WINDOW; if after it use AFTER_WINDOW; if the event or the collision vehicle cannot be determined use UNCERTAIN. Do not call the first shown image the actual entry merely because the vehicle is already inside. Lane entry candidates: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]. Return JSON with status and entry_frame; entry_frame must be a shown integer only when status is OBSERVED.",
+              "raw_output": "{\n  \"status\": \"BEFORE_WINDOW\",\n  \"entry_frame\": null\n}",
+              "parsed": {
+                "status": "BEFORE_WINDOW",
+                "entry_frame": null
+              },
+              "fallback_reason": "entry_not_observed_or_invalid_frame"
+            }
+          },
+          "frame_numbers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "motion_scores": [
+            0.0,
+            1.4514776468276978,
+            0.5312491059303284,
+            0.7564764618873596,
+            2.557121753692627,
+            1.6686248779296875,
+            1.1367905139923096,
+            1.1333450078964233,
+            0.6178054809570312,
+            1.1840946674346924,
+            0.40756353735923767,
+            0.35210365056991577,
+            0.0,
+            0.0165858156979084,
+            0.0,
+            1.109062910079956,
+            0.6368404626846313,
+            0.34307435154914856,
+            0.0,
+            0.0,
+            0.0,
+            0.11650387942790985,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9239266514778137,
+            4.187233924865723,
+            4.209970474243164,
+            0.0,
+            0.0,
+            2.317345380783081,
+            1.8780403137207031,
+            0.49537354707717896,
+            4.157528877258301,
+            1.7852407693862915,
+            0.510452151298523,
+            2.0955474376678467,
+            2.9309399127960205,
+            2.565946102142334,
+            1.1613662242889404,
+            6.301788330078125,
+            2.659332036972046,
+            1.4290629625320435,
+            1.3475819826126099,
+            7.166168212890625,
+            0.5616134405136108,
+            4.722605228424072
+          ],
+          "skipped_images": 0,
+          "scan_seconds": 0.6022316000016872,
+          "predict_seconds": 10.505272500013234,
+          "calls": [
+            {
+              "call": 1,
+              "name": "overview",
+              "prompt": "These are frames from one dashcam clip, ordered left to right, top to bottom. Which numbered frame first shows physical contact of the camera vehicle with another vehicle? From which side of the image did that other vehicle approach? Return JSON with collision_frame and entry_side (LEFT or RIGHT). Available frames: [0, 5, 11, 16, 22, 27, 33, 38, 44, 49].",
+              "offered_frames": {
+                "Available frames": [
+                  0,
+                  5,
+                  11,
+                  16,
+                  22,
+                  27,
+                  33,
+                  38,
+                  44,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    512
+                  ],
+                  "raw_rgb_sha256": "d4cf9ad68156965191d99d2150777af09dbc181c34eff2456066755d501061ba"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1920,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 983040,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 44,\n  \"entry_side\": \"LEFT\"\n}",
+              "seconds": 2.753908800019417,
+              "gpu_peak_allocated_bytes": 3715551744,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 2,
+              "name": "entry_coarse",
+              "prompt": "These frames are chronological, left to right then top to bottom. The clip ends at a collision. When did the other collision vehicle first enter the camera car's driving lane? Entry is its first wheel touching the lane boundary. If it was already inside this lane at the first image, select the first image. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [0, 4, 9, 13, 17, 21, 26, 30, 34, 38, 43, 47]. Return JSON with entry_frame only.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  0,
+                  4,
+                  9,
+                  13,
+                  17,
+                  21,
+                  26,
+                  30,
+                  34,
+                  38,
+                  43,
+                  47
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    768
+                  ],
+                  "raw_rgb_sha256": "17d9521f5da8fa4d37240213e1cd9bc88ec72e7ef5b104b75c20f252b67e8002"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  768
+                ]
+              ],
+              "bounded_pixel_total": 1179648,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"entry_frame\": 4\n}",
+              "seconds": 2.1960056999814697,
+              "gpu_peak_allocated_bytes": 3933803008,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 3,
+              "name": "space",
+              "prompt": "These images show just before, during, and after a dashcam collision. At contact, is there usable road space for the camera car to continue or steer around the other vehicle? Account for nearby traffic, road edges, curbs and barriers. Return JSON with evasion_space: integer 1 if space exists, otherwise integer 0.",
+              "offered_frames": {},
+              "input_images": [
+                {
+                  "size": [
+                    1152,
+                    256
+                  ],
+                  "raw_rgb_sha256": "e4f6be8d955a742b6f8f306397c43075c8d391292d88791cc8478706f8214954"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1152,
+                  256
+                ]
+              ],
+              "bounded_pixel_total": 294912,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"evasion_space\": 0\n}",
+              "seconds": 1.4348287000029813,
+              "gpu_peak_allocated_bytes": 3215255552,
+              "gpu_peak_reserved_bytes": 4691329024
+            },
+            {
+              "call": 4,
+              "name": "entry_fine",
+              "prompt": "These dashcam frames are chronological, left to right then top to bottom. This is a local time window of the full clip; its first image may not be the start of the clip. Find the collision vehicle's first wheel touching the camera car's lane boundary. At an intersection continue the camera car's lane boundaries forward. Return status OBSERVED only if this entry is visible in these images. If entry happened before this window use BEFORE_WINDOW; if after it use AFTER_WINDOW; if the event or the collision vehicle cannot be determined use UNCERTAIN. Do not call the first shown image the actual entry merely because the vehicle is already inside. Lane entry candidates: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]. Return JSON with status and entry_frame; entry_frame must be a shown integer only when status is OBSERVED.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    768
+                  ],
+                  "raw_rgb_sha256": "912367faa45a56e1ae839e87e128002fa45d03c05310ceb6303daf2eef01628a"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  768
+                ]
+              ],
+              "bounded_pixel_total": 1179648,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"status\": \"BEFORE_WINDOW\",\n  \"entry_frame\": null\n}",
+              "seconds": 3.1172771000128705,
+              "gpu_peak_allocated_bytes": 3987474432,
+              "gpu_peak_reserved_bytes": 5156896768
+            }
+          ],
+          "official_collision_diagnostic": {
+            "provided_label_frame": 30,
+            "prediction": 47,
+            "error_seconds_from_source_pts": 1.7000000000000002,
+            "within_0_3_seconds": false,
+            "provided_label_is_not_reannotated": true
+          },
+          "collision_candidate_oracle": {
+            "vlm_candidate_sets": [
+              {
+                "call": "overview",
+                "candidate_kind": "Available frames",
+                "nearest_gt_error_seconds": 0.2999999999999998,
+                "candidate_within_0_3": true
+              }
+            ],
+            "final_output_set": [
+              47
+            ],
+            "final_motion_singleton_within_0_3": false,
+            "note": "All variants choose final collision from the same motion singleton; VLM coverage does not change final choice."
+          }
+        },
+        {
+          "ID": "S2_003",
+          "prediction": {
+            "collision_frame": 33,
+            "entry_frame": 24,
+            "entry_side": "LEFT",
+            "evasion_space": 0
+          },
+          "diagnostics": {
+            "version": "v4_B",
+            "calls": 4,
+            "coarse": {
+              "collision_frame": 27,
+              "entry_side": "LEFT"
+            },
+            "entry": {
+              "entry_frame": 24
+            },
+            "space": {
+              "evasion_space": 0
+            },
+            "motion_proposal": 33,
+            "collision_context_frame": 33,
+            "overview_candidates": [
+              0,
+              5,
+              11,
+              16,
+              22,
+              27,
+              33,
+              38,
+              44,
+              49
+            ],
+            "entry_candidates": [
+              0,
+              3,
+              6,
+              9,
+              12,
+              15,
+              18,
+              21,
+              24,
+              27,
+              30,
+              33
+            ],
+            "space_context_frames": [
+              31,
+              33,
+              35
+            ],
+            "entry_refinement": {
+              "coarse_entry_frame": 24,
+              "additional_calls": 1,
+              "accepted": false,
+              "fine_candidates": [
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27
+              ],
+              "skip_reason": null,
+              "interval_positions": [
+                21,
+                27
+              ],
+              "interval_frames": [
+                21,
+                27
+              ],
+              "prompt": "These dashcam frames are chronological, left to right then top to bottom. This is a local time window of the full clip; its first image may not be the start of the clip. Find the collision vehicle's first wheel touching the camera car's lane boundary. At an intersection continue the camera car's lane boundaries forward. Return status OBSERVED only if this entry is visible in these images. If entry happened before this window use BEFORE_WINDOW; if after it use AFTER_WINDOW; if the event or the collision vehicle cannot be determined use UNCERTAIN. Do not call the first shown image the actual entry merely because the vehicle is already inside. Lane entry candidates: [21, 22, 23, 24, 25, 26, 27]. Return JSON with status and entry_frame; entry_frame must be a shown integer only when status is OBSERVED.",
+              "raw_output": "{\n  \"status\": \"BEFORE_WINDOW\",\n  \"entry_frame\": null\n}",
+              "parsed": {
+                "status": "BEFORE_WINDOW",
+                "entry_frame": null
+              },
+              "fallback_reason": "entry_not_observed_or_invalid_frame"
+            }
+          },
+          "frame_numbers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "motion_scores": [
+            0.0,
+            0.0,
+            0.3927103579044342,
+            0.5039926767349243,
+            0.14361169934272766,
+            0.0,
+            0.0,
+            0.0,
+            0.2570275664329529,
+            0.0,
+            0.0,
+            0.2406146377325058,
+            1.310368299484253,
+            0.0,
+            0.8854655623435974,
+            0.0,
+            0.31843245029449463,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3156329095363617,
+            0.11826232820749283,
+            0.5471241474151611,
+            0.7317386269569397,
+            1.1397279500961304,
+            1.8779438734054565,
+            2.8094825744628906,
+            1.2599639892578125,
+            1.5354087352752686,
+            4.631425857543945,
+            3.658796787261963,
+            12.168205261230469,
+            9.661469459533691,
+            2.475512981414795,
+            0.9994469285011292,
+            4.608502388000488,
+            0.38392019271850586,
+            0.1786060929298401,
+            1.2580440044403076,
+            2.198723554611206,
+            0.8851821422576904,
+            0.8305960893630981,
+            0.9440709352493286,
+            1.3778289556503296,
+            1.3972030878067017,
+            0.4407730996608734,
+            4.171318054199219,
+            2.8104360103607178
+          ],
+          "skipped_images": 0,
+          "scan_seconds": 0.6151057999813929,
+          "predict_seconds": 10.533802299993113,
+          "calls": [
+            {
+              "call": 1,
+              "name": "overview",
+              "prompt": "These are frames from one dashcam clip, ordered left to right, top to bottom. Which numbered frame first shows physical contact of the camera vehicle with another vehicle? From which side of the image did that other vehicle approach? Return JSON with collision_frame and entry_side (LEFT or RIGHT). Available frames: [0, 5, 11, 16, 22, 27, 33, 38, 44, 49].",
+              "offered_frames": {
+                "Available frames": [
+                  0,
+                  5,
+                  11,
+                  16,
+                  22,
+                  27,
+                  33,
+                  38,
+                  44,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    512
+                  ],
+                  "raw_rgb_sha256": "1ebd3d8cc19988e8ff7e418e2922b6efc32a140fcf1dc7f6e6bd4131b3fd593f"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1920,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 983040,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 27,\n  \"entry_side\": \"LEFT\"\n}",
+              "seconds": 2.9031199000019114,
+              "gpu_peak_allocated_bytes": 3715551744,
+              "gpu_peak_reserved_bytes": 5156896768
+            },
+            {
+              "call": 2,
+              "name": "entry_coarse",
+              "prompt": "These frames are chronological, left to right then top to bottom. The clip ends at a collision. When did the other collision vehicle first enter the camera car's driving lane? Entry is its first wheel touching the lane boundary. If it was already inside this lane at the first image, select the first image. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33]. Return JSON with entry_frame only.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  0,
+                  3,
+                  6,
+                  9,
+                  12,
+                  15,
+                  18,
+                  21,
+                  24,
+                  27,
+                  30,
+                  33
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    768
+                  ],
+                  "raw_rgb_sha256": "5cf2952007321c12aceac5d8d45b2af66d378dd5298b51fbe701111e9e14a90d"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  768
+                ]
+              ],
+              "bounded_pixel_total": 1179648,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"entry_frame\": 24\n}",
+              "seconds": 2.3524472000135574,
+              "gpu_peak_allocated_bytes": 3933626880,
+              "gpu_peak_reserved_bytes": 5156896768
+            },
+            {
+              "call": 3,
+              "name": "space",
+              "prompt": "These images show just before, during, and after a dashcam collision. At contact, is there usable road space for the camera car to continue or steer around the other vehicle? Account for nearby traffic, road edges, curbs and barriers. Return JSON with evasion_space: integer 1 if space exists, otherwise integer 0.",
+              "offered_frames": {},
+              "input_images": [
+                {
+                  "size": [
+                    1152,
+                    256
+                  ],
+                  "raw_rgb_sha256": "ff7c483ced38096bf4c5470b62a428a90161087432abd15182d9025c31946eb7"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1152,
+                  256
+                ]
+              ],
+              "bounded_pixel_total": 294912,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"evasion_space\": 0\n}",
+              "seconds": 1.4957850000064354,
+              "gpu_peak_allocated_bytes": 3215255552,
+              "gpu_peak_reserved_bytes": 5156896768
+            },
+            {
+              "call": 4,
+              "name": "entry_fine",
+              "prompt": "These dashcam frames are chronological, left to right then top to bottom. This is a local time window of the full clip; its first image may not be the start of the clip. Find the collision vehicle's first wheel touching the camera car's lane boundary. At an intersection continue the camera car's lane boundaries forward. Return status OBSERVED only if this entry is visible in these images. If entry happened before this window use BEFORE_WINDOW; if after it use AFTER_WINDOW; if the event or the collision vehicle cannot be determined use UNCERTAIN. Do not call the first shown image the actual entry merely because the vehicle is already inside. Lane entry candidates: [21, 22, 23, 24, 25, 26, 27]. Return JSON with status and entry_frame; entry_frame must be a shown integer only when status is OBSERVED.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    512
+                  ],
+                  "raw_rgb_sha256": "7c0655e0bac4de890c3437353ae271212c5c710054bf35c8c48c3f5427a50d18"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 786432,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"status\": \"BEFORE_WINDOW\",\n  \"entry_frame\": null\n}",
+              "seconds": 2.8124325999815483,
+              "gpu_peak_allocated_bytes": 3634463744,
+              "gpu_peak_reserved_bytes": 5156896768
+            }
+          ],
+          "official_collision_diagnostic": {
+            "provided_label_frame": 31,
+            "prediction": 33,
+            "error_seconds_from_source_pts": 0.19999999999999973,
+            "within_0_3_seconds": true,
+            "provided_label_is_not_reannotated": true
+          },
+          "collision_candidate_oracle": {
+            "vlm_candidate_sets": [
+              {
+                "call": "overview",
+                "candidate_kind": "Available frames",
+                "nearest_gt_error_seconds": 0.19999999999999973,
+                "candidate_within_0_3": true
+              }
+            ],
+            "final_output_set": [
+              33
+            ],
+            "final_motion_singleton_within_0_3": true,
+            "note": "All variants choose final collision from the same motion singleton; VLM coverage does not change final choice."
+          }
+        },
+        {
+          "ID": "S2_004",
+          "prediction": {
+            "collision_frame": 42,
+            "entry_frame": 15,
+            "entry_side": "RIGHT",
+            "evasion_space": 0
+          },
+          "diagnostics": {
+            "version": "v4_B",
+            "calls": 4,
+            "coarse": {
+              "collision_frame": 44,
+              "entry_side": "RIGHT"
+            },
+            "entry": {
+              "entry_frame": 15
+            },
+            "space": {
+              "evasion_space": 0
+            },
+            "motion_proposal": 42,
+            "collision_context_frame": 42,
+            "overview_candidates": [
+              0,
+              5,
+              11,
+              16,
+              22,
+              27,
+              33,
+              38,
+              44,
+              49
+            ],
+            "entry_candidates": [
+              0,
+              4,
+              8,
+              11,
+              15,
+              19,
+              23,
+              27,
+              31,
+              34,
+              38,
+              42
+            ],
+            "space_context_frames": [
+              40,
+              42,
+              44
+            ],
+            "entry_refinement": {
+              "coarse_entry_frame": 15,
+              "additional_calls": 1,
+              "accepted": false,
+              "fine_candidates": [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "skip_reason": null,
+              "interval_positions": [
+                11,
+                19
+              ],
+              "interval_frames": [
+                11,
+                19
+              ],
+              "prompt": "These dashcam frames are chronological, left to right then top to bottom. This is a local time window of the full clip; its first image may not be the start of the clip. Find the collision vehicle's first wheel touching the camera car's lane boundary. At an intersection continue the camera car's lane boundaries forward. Return status OBSERVED only if this entry is visible in these images. If entry happened before this window use BEFORE_WINDOW; if after it use AFTER_WINDOW; if the event or the collision vehicle cannot be determined use UNCERTAIN. Do not call the first shown image the actual entry merely because the vehicle is already inside. Lane entry candidates: [11, 12, 13, 14, 15, 16, 17, 18, 19]. Return JSON with status and entry_frame; entry_frame must be a shown integer only when status is OBSERVED.",
+              "raw_output": "{\n  \"status\": \"BEFORE_WINDOW\",\n  \"entry_frame\": null\n}",
+              "parsed": {
+                "status": "BEFORE_WINDOW",
+                "entry_frame": null
+              },
+              "fallback_reason": "entry_not_observed_or_invalid_frame"
+            }
+          },
+          "frame_numbers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "motion_scores": [
+            0.0,
+            5.4773945808410645,
+            5.112627029418945,
+            3.287022113800049,
+            0.9229856133460999,
+            1.0349838733673096,
+            1.7067991495132446,
+            0.31410834193229675,
+            0.10185492038726807,
+            0.0,
+            0.8728116750717163,
+            0.5349076390266418,
+            0.685904860496521,
+            3.7742347717285156,
+            0.0,
+            0.05481676384806633,
+            0.0,
+            0.9862160086631775,
+            1.5531929731369019,
+            0.0,
+            0.0,
+            0.0,
+            0.150532528758049,
+            0.5743275880813599,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.24864546954631805,
+            0.0,
+            0.0,
+            0.0,
+            0.2854571044445038,
+            0.20030508935451508,
+            0.8967195749282837,
+            1.4279239177703857,
+            2.397592306137085,
+            3.93674373626709,
+            4.952219486236572,
+            4.520334243774414,
+            8.766565322875977,
+            17.327106475830078,
+            13.313913345336914,
+            4.732539653778076,
+            5.129762172698975,
+            5.777622222900391,
+            2.9258179664611816,
+            1.6191365718841553,
+            0.8252824544906616
+          ],
+          "skipped_images": 0,
+          "scan_seconds": 0.6059883999987505,
+          "predict_seconds": 11.486870799999451,
+          "calls": [
+            {
+              "call": 1,
+              "name": "overview",
+              "prompt": "These are frames from one dashcam clip, ordered left to right, top to bottom. Which numbered frame first shows physical contact of the camera vehicle with another vehicle? From which side of the image did that other vehicle approach? Return JSON with collision_frame and entry_side (LEFT or RIGHT). Available frames: [0, 5, 11, 16, 22, 27, 33, 38, 44, 49].",
+              "offered_frames": {
+                "Available frames": [
+                  0,
+                  5,
+                  11,
+                  16,
+                  22,
+                  27,
+                  33,
+                  38,
+                  44,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    512
+                  ],
+                  "raw_rgb_sha256": "1603890b8532c97180718c290c2c8418846a4dddec24f21f798a96b7d7b4c76f"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1920,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 983040,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 44,\n  \"entry_side\": \"RIGHT\"\n}",
+              "seconds": 3.0363077000074554,
+              "gpu_peak_allocated_bytes": 3715551744,
+              "gpu_peak_reserved_bytes": 5156896768
+            },
+            {
+              "call": 2,
+              "name": "entry_coarse",
+              "prompt": "These frames are chronological, left to right then top to bottom. The clip ends at a collision. When did the other collision vehicle first enter the camera car's driving lane? Entry is its first wheel touching the lane boundary. If it was already inside this lane at the first image, select the first image. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [0, 4, 8, 11, 15, 19, 23, 27, 31, 34, 38, 42]. Return JSON with entry_frame only.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  0,
+                  4,
+                  8,
+                  11,
+                  15,
+                  19,
+                  23,
+                  27,
+                  31,
+                  34,
+                  38,
+                  42
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    768
+                  ],
+                  "raw_rgb_sha256": "5ae7070bd656dfd7f41601a24c22de6bb600ca01ab0803a7bd5218d725c715a9"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  768
+                ]
+              ],
+              "bounded_pixel_total": 1179648,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"entry_frame\": 15\n}",
+              "seconds": 2.338742599997204,
+              "gpu_peak_allocated_bytes": 3933803008,
+              "gpu_peak_reserved_bytes": 5156896768
+            },
+            {
+              "call": 3,
+              "name": "space",
+              "prompt": "These images show just before, during, and after a dashcam collision. At contact, is there usable road space for the camera car to continue or steer around the other vehicle? Account for nearby traffic, road edges, curbs and barriers. Return JSON with evasion_space: integer 1 if space exists, otherwise integer 0.",
+              "offered_frames": {},
+              "input_images": [
+                {
+                  "size": [
+                    1152,
+                    256
+                  ],
+                  "raw_rgb_sha256": "a0be4fc4a63b88d2f6644e424d4e01148e692156f22836e4bb1ef021e0defbf7"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1152,
+                  256
+                ]
+              ],
+              "bounded_pixel_total": 294912,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"evasion_space\": 0\n}",
+              "seconds": 1.553468600002816,
+              "gpu_peak_allocated_bytes": 3215255552,
+              "gpu_peak_reserved_bytes": 5156896768
+            },
+            {
+              "call": 4,
+              "name": "entry_fine",
+              "prompt": "These dashcam frames are chronological, left to right then top to bottom. This is a local time window of the full clip; its first image may not be the start of the clip. Find the collision vehicle's first wheel touching the camera car's lane boundary. At an intersection continue the camera car's lane boundaries forward. Return status OBSERVED only if this entry is visible in these images. If entry happened before this window use BEFORE_WINDOW; if after it use AFTER_WINDOW; if the event or the collision vehicle cannot be determined use UNCERTAIN. Do not call the first shown image the actual entry merely because the vehicle is already inside. Lane entry candidates: [11, 12, 13, 14, 15, 16, 17, 18, 19]. Return JSON with status and entry_frame; entry_frame must be a shown integer only when status is OBSERVED.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    768
+                  ],
+                  "raw_rgb_sha256": "1b4203f5c90c91fc5a6066cce82af91f7aae4333c9f5e23500a64ef060b138cc"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  768
+                ]
+              ],
+              "bounded_pixel_total": 1179648,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"status\": \"BEFORE_WINDOW\",\n  \"entry_frame\": null\n}",
+              "seconds": 3.4601745000109076,
+              "gpu_peak_allocated_bytes": 3994135040,
+              "gpu_peak_reserved_bytes": 5626658816
+            }
+          ],
+          "official_collision_diagnostic": {
+            "provided_label_frame": 41,
+            "prediction": 42,
+            "error_seconds_from_source_pts": 0.10000000000000053,
+            "within_0_3_seconds": true,
+            "provided_label_is_not_reannotated": true
+          },
+          "collision_candidate_oracle": {
+            "vlm_candidate_sets": [
+              {
+                "call": "overview",
+                "candidate_kind": "Available frames",
+                "nearest_gt_error_seconds": 0.2999999999999998,
+                "candidate_within_0_3": true
+              }
+            ],
+            "final_output_set": [
+              42
+            ],
+            "final_motion_singleton_within_0_3": true,
+            "note": "All variants choose final collision from the same motion singleton; VLM coverage does not change final choice."
+          }
+        },
+        {
+          "ID": "S2_005",
+          "prediction": {
+            "collision_frame": 33,
+            "entry_frame": 24,
+            "entry_side": "RIGHT",
+            "evasion_space": 0
+          },
+          "diagnostics": {
+            "version": "v4_B",
+            "calls": 4,
+            "coarse": {
+              "collision_frame": 27,
+              "entry_side": "RIGHT"
+            },
+            "entry": {
+              "entry_frame": 24
+            },
+            "space": {
+              "evasion_space": 0
+            },
+            "motion_proposal": 33,
+            "collision_context_frame": 33,
+            "overview_candidates": [
+              0,
+              5,
+              11,
+              16,
+              22,
+              27,
+              33,
+              38,
+              44,
+              49
+            ],
+            "entry_candidates": [
+              0,
+              3,
+              6,
+              9,
+              12,
+              15,
+              18,
+              21,
+              24,
+              27,
+              30,
+              33
+            ],
+            "space_context_frames": [
+              31,
+              33,
+              35
+            ],
+            "entry_refinement": {
+              "coarse_entry_frame": 24,
+              "additional_calls": 1,
+              "accepted": false,
+              "fine_candidates": [
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27
+              ],
+              "skip_reason": null,
+              "interval_positions": [
+                21,
+                27
+              ],
+              "interval_frames": [
+                21,
+                27
+              ],
+              "prompt": "These dashcam frames are chronological, left to right then top to bottom. This is a local time window of the full clip; its first image may not be the start of the clip. Find the collision vehicle's first wheel touching the camera car's lane boundary. At an intersection continue the camera car's lane boundaries forward. Return status OBSERVED only if this entry is visible in these images. If entry happened before this window use BEFORE_WINDOW; if after it use AFTER_WINDOW; if the event or the collision vehicle cannot be determined use UNCERTAIN. Do not call the first shown image the actual entry merely because the vehicle is already inside. Lane entry candidates: [21, 22, 23, 24, 25, 26, 27]. Return JSON with status and entry_frame; entry_frame must be a shown integer only when status is OBSERVED.",
+              "raw_output": "{\n  \"status\": \"BEFORE_WINDOW\",\n  \"entry_frame\": null\n}",
+              "parsed": {
+                "status": "BEFORE_WINDOW",
+                "entry_frame": null
+              },
+              "fallback_reason": "entry_not_observed_or_invalid_frame"
+            }
+          },
+          "frame_numbers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "motion_scores": [
+            0.0,
+            0.5193955302238464,
+            1.0425004959106445,
+            1.0926215648651123,
+            1.0293142795562744,
+            0.4029749631881714,
+            0.0,
+            0.3315278887748718,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.026683909818530083,
+            0.20555254817008972,
+            0.0,
+            0.0,
+            0.948710024356842,
+            0.23957183957099915,
+            0.10385873913764954,
+            0.0,
+            0.32604312896728516,
+            0.0,
+            0.9612730145454407,
+            0.1300809532403946,
+            1.2482595443725586,
+            0.5595969557762146,
+            2.1165435314178467,
+            1.5259747505187988,
+            1.7937979698181152,
+            7.223968505859375,
+            3.4943974018096924,
+            6.844736099243164,
+            8.499244689941406,
+            9.335519790649414,
+            4.293272972106934,
+            0.8757643699645996,
+            0.25043079257011414,
+            1.2759660482406616,
+            0.39599794149398804,
+            0.34701210260391235,
+            0.33033543825149536,
+            0.0,
+            1.3447239398956299,
+            0.8263024091720581,
+            0.44830888509750366,
+            2.196848154067993,
+            4.83689546585083,
+            0.7262572050094604,
+            0.4357295632362366,
+            5.257941246032715
+          ],
+          "skipped_images": 0,
+          "scan_seconds": 0.66767309998977,
+          "predict_seconds": 11.31443689999287,
+          "calls": [
+            {
+              "call": 1,
+              "name": "overview",
+              "prompt": "These are frames from one dashcam clip, ordered left to right, top to bottom. Which numbered frame first shows physical contact of the camera vehicle with another vehicle? From which side of the image did that other vehicle approach? Return JSON with collision_frame and entry_side (LEFT or RIGHT). Available frames: [0, 5, 11, 16, 22, 27, 33, 38, 44, 49].",
+              "offered_frames": {
+                "Available frames": [
+                  0,
+                  5,
+                  11,
+                  16,
+                  22,
+                  27,
+                  33,
+                  38,
+                  44,
+                  49
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1920,
+                    512
+                  ],
+                  "raw_rgb_sha256": "ed3ff12df99acf013980c835542f1af69af62c1f16c3fa130f1269c4e809f774"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1920,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 983040,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"collision_frame\": 27,\n  \"entry_side\": \"RIGHT\"\n}",
+              "seconds": 3.238734699989436,
+              "gpu_peak_allocated_bytes": 3715551744,
+              "gpu_peak_reserved_bytes": 5626658816
+            },
+            {
+              "call": 2,
+              "name": "entry_coarse",
+              "prompt": "These frames are chronological, left to right then top to bottom. The clip ends at a collision. When did the other collision vehicle first enter the camera car's driving lane? Entry is its first wheel touching the lane boundary. If it was already inside this lane at the first image, select the first image. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33]. Return JSON with entry_frame only.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  0,
+                  3,
+                  6,
+                  9,
+                  12,
+                  15,
+                  18,
+                  21,
+                  24,
+                  27,
+                  30,
+                  33
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    768
+                  ],
+                  "raw_rgb_sha256": "1af3f787f163dcbc0f3f225b7dc91149ced8113e0da9650148f304178f88797d"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  768
+                ]
+              ],
+              "bounded_pixel_total": 1179648,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"entry_frame\": 24\n}",
+              "seconds": 2.506920399988303,
+              "gpu_peak_allocated_bytes": 3933626880,
+              "gpu_peak_reserved_bytes": 5626658816
+            },
+            {
+              "call": 3,
+              "name": "space",
+              "prompt": "These images show just before, during, and after a dashcam collision. At contact, is there usable road space for the camera car to continue or steer around the other vehicle? Account for nearby traffic, road edges, curbs and barriers. Return JSON with evasion_space: integer 1 if space exists, otherwise integer 0.",
+              "offered_frames": {},
+              "input_images": [
+                {
+                  "size": [
+                    1152,
+                    256
+                  ],
+                  "raw_rgb_sha256": "2a67771956a61f20ff85779873051ade7e833d5f3a3dea69b0905efd341b80e0"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1152,
+                  256
+                ]
+              ],
+              "bounded_pixel_total": 294912,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 40,
+              "status": "complete",
+              "raw_output": "{\n  \"evasion_space\": 0\n}",
+              "seconds": 1.6718271000136156,
+              "gpu_peak_allocated_bytes": 3215255552,
+              "gpu_peak_reserved_bytes": 5626658816
+            },
+            {
+              "call": 4,
+              "name": "entry_fine",
+              "prompt": "These dashcam frames are chronological, left to right then top to bottom. This is a local time window of the full clip; its first image may not be the start of the clip. Find the collision vehicle's first wheel touching the camera car's lane boundary. At an intersection continue the camera car's lane boundaries forward. Return status OBSERVED only if this entry is visible in these images. If entry happened before this window use BEFORE_WINDOW; if after it use AFTER_WINDOW; if the event or the collision vehicle cannot be determined use UNCERTAIN. Do not call the first shown image the actual entry merely because the vehicle is already inside. Lane entry candidates: [21, 22, 23, 24, 25, 26, 27]. Return JSON with status and entry_frame; entry_frame must be a shown integer only when status is OBSERVED.",
+              "offered_frames": {
+                "Lane entry candidates": [
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27
+                ]
+              },
+              "input_images": [
+                {
+                  "size": [
+                    1536,
+                    512
+                  ],
+                  "raw_rgb_sha256": "7732c4e9e6fa784a8f5bf6434407e39139a7924948c16ac97ca1459ead4ec56c"
+                }
+              ],
+              "bounded_image_sizes": [
+                [
+                  1536,
+                  512
+                ]
+              ],
+              "bounded_pixel_total": 786432,
+              "pixel_budget": 1200000,
+              "max_new_tokens": 64,
+              "status": "complete",
+              "raw_output": "{\n  \"status\": \"BEFORE_WINDOW\",\n  \"entry_frame\": null\n}",
+              "seconds": 2.9927331999933813,
+              "gpu_peak_allocated_bytes": 3634463744,
+              "gpu_peak_reserved_bytes": 5626658816
+            }
+          ],
+          "official_collision_diagnostic": {
+            "provided_label_frame": 30,
+            "prediction": 33,
+            "error_seconds_from_source_pts": 0.2999999999999998,
+            "within_0_3_seconds": true,
+            "provided_label_is_not_reannotated": true
+          },
+          "collision_candidate_oracle": {
+            "vlm_candidate_sets": [
+              {
+                "call": "overview",
+                "candidate_kind": "Available frames",
+                "nearest_gt_error_seconds": 0.2999999999999998,
+                "candidate_within_0_3": true
+              }
+            ],
+            "final_output_set": [
+              33
+            ],
+            "final_motion_singleton_within_0_3": true,
+            "note": "All variants choose final collision from the same motion singleton; VLM coverage does not change final choice."
+          }
+        }
+      ],
+      "summary": {
+        "videos": 5,
+        "official_collision_correct": 4,
+        "official_collision_accuracy": 0.8,
+        "mean_predict_seconds": 10.811580500000854,
+        "mean_scan_seconds": 0.6263638799951877,
+        "mean_call_seconds": 9.835490000009305,
+        "calls_total": 20,
+        "no_official_entry_side_space_gt": true
+      }
+    }
+  },
+  "network_attempts": 0,
+  "model_runtime": {
+    "precision": "nf4",
+    "compute_dtype": "float16",
+    "attention": "sdpa",
+    "prequantized_checkpoint": true,
+    "quantization_config_source": "saved_config",
+    "double_quant": false,
+    "model_load_seconds": 5.991177499992773,
+    "load_peak_allocated_bytes": 3087007744,
+    "load_peak_reserved_bytes": 3189768192,
+    "loaded_allocated_bytes": 3062069248,
+    "model_memory_footprint_bytes": 2809095488,
+    "device_map": {
+      "": "0"
+    },
+    "max_memory": null,
+    "versions": {
+      "torch": "2.8.0+cu128",
+      "transformers": "4.57.6",
+      "accelerate": "1.9.0",
+      "bitsandbytes": "0.48.1"
+    },
+    "ask_implementation": "inherited unchanged from solution.vlm.LocalVLM.ask"
+  },
+  "source_time_maps": {
+    "S2_001": {
+      "decoded_frame_pts_seconds": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.2,
+        1.3,
+        1.4,
+        1.5,
+        1.6,
+        1.7,
+        1.8,
+        1.9,
+        2.0,
+        2.1,
+        2.2,
+        2.3,
+        2.4,
+        2.5,
+        2.6,
+        2.7,
+        2.8,
+        2.9,
+        3.0,
+        3.1,
+        3.2,
+        3.3,
+        3.4,
+        3.5,
+        3.6,
+        3.7,
+        3.8,
+        3.9,
+        4.0,
+        4.1,
+        4.2,
+        4.3,
+        4.4,
+        4.5,
+        4.6,
+        4.7,
+        4.8,
+        4.9
+      ],
+      "mapping_scope": "public extracted filename number = original decoded frame index only"
+    },
+    "S2_002": {
+      "decoded_frame_pts_seconds": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.2,
+        1.3,
+        1.4,
+        1.5,
+        1.6,
+        1.7,
+        1.8,
+        1.9,
+        2.0,
+        2.1,
+        2.2,
+        2.3,
+        2.4,
+        2.5,
+        2.6,
+        2.7,
+        2.8,
+        2.9,
+        3.0,
+        3.1,
+        3.2,
+        3.3,
+        3.4,
+        3.5,
+        3.6,
+        3.7,
+        3.8,
+        3.9,
+        4.0,
+        4.1,
+        4.2,
+        4.3,
+        4.4,
+        4.5,
+        4.6,
+        4.7,
+        4.8,
+        4.9
+      ],
+      "mapping_scope": "public extracted filename number = original decoded frame index only"
+    },
+    "S2_003": {
+      "decoded_frame_pts_seconds": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.2,
+        1.3,
+        1.4,
+        1.5,
+        1.6,
+        1.7,
+        1.8,
+        1.9,
+        2.0,
+        2.1,
+        2.2,
+        2.3,
+        2.4,
+        2.5,
+        2.6,
+        2.7,
+        2.8,
+        2.9,
+        3.0,
+        3.1,
+        3.2,
+        3.3,
+        3.4,
+        3.5,
+        3.6,
+        3.7,
+        3.8,
+        3.9,
+        4.0,
+        4.1,
+        4.2,
+        4.3,
+        4.4,
+        4.5,
+        4.6,
+        4.7,
+        4.8,
+        4.9
+      ],
+      "mapping_scope": "public extracted filename number = original decoded frame index only"
+    },
+    "S2_004": {
+      "decoded_frame_pts_seconds": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.2,
+        1.3,
+        1.4,
+        1.5,
+        1.6,
+        1.7,
+        1.8,
+        1.9,
+        2.0,
+        2.1,
+        2.2,
+        2.3,
+        2.4,
+        2.5,
+        2.6,
+        2.7,
+        2.8,
+        2.9,
+        3.0,
+        3.1,
+        3.2,
+        3.3,
+        3.4,
+        3.5,
+        3.6,
+        3.7,
+        3.8,
+        3.9,
+        4.0,
+        4.1,
+        4.2,
+        4.3,
+        4.4,
+        4.5,
+        4.6,
+        4.7,
+        4.8,
+        4.9
+      ],
+      "mapping_scope": "public extracted filename number = original decoded frame index only"
+    },
+    "S2_005": {
+      "decoded_frame_pts_seconds": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.2,
+        1.3,
+        1.4,
+        1.5,
+        1.6,
+        1.7,
+        1.8,
+        1.9,
+        2.0,
+        2.1,
+        2.2,
+        2.3,
+        2.4,
+        2.5,
+        2.6,
+        2.7,
+        2.8,
+        2.9,
+        3.0,
+        3.1,
+        3.2,
+        3.3,
+        3.4,
+        3.5,
+        3.6,
+        3.7,
+        3.8,
+        3.9,
+        4.0,
+        4.1,
+        4.2,
+        4.3,
+        4.4,
+        4.5,
+        4.6,
+        4.7,
+        4.8,
+        4.9
+      ],
+      "mapping_scope": "public extracted filename number = original decoded frame index only"
+    }
+  },
+  "a_b_contract": [
+    {
+      "ID": "S2_001",
+      "other_three_fields_identical": true,
+      "first_three_calls_identical": true
+    },
+    {
+      "ID": "S2_002",
+      "other_three_fields_identical": true,
+      "first_three_calls_identical": true
+    },
+    {
+      "ID": "S2_003",
+      "other_three_fields_identical": true,
+      "first_three_calls_identical": true
+    },
+    {
+      "ID": "S2_004",
+      "other_three_fields_identical": true,
+      "first_three_calls_identical": true
+    },
+    {
+      "ID": "S2_005",
+      "other_three_fields_identical": true,
+      "first_three_calls_identical": true
+    }
+  ],
+  "protected_sources_unchanged": true,
+  "protected_model_assets_unchanged": true
+}

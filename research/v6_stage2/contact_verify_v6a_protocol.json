@@ -1,0 +1,26 @@
+{
+  "experiment": "V6A single collision-output physical-contact verification",
+  "phase": "before first candidate prediction",
+  "development_ids": ["00000", "00003", "00004"],
+  "reserved_ids": ["00005", "00006", "00007"],
+  "target_error": "The final V5 output unconditionally equates maximum motion with first physical contact.",
+  "change": "Keep original V5 four calls and other three outputs. One additional local contact verification call replaces only collision_frame.",
+  "candidate_windows": "Internal VLM contact and final motion centers, each +/-10 valid input indices, clipped; nine uniform samples per window, retain each center by replacing its nearest sampled index if absent (earlier index removed on ties); sorted union at most18. No GT-based crop or source-frame FPS arithmetic.",
+  "parser": "Accept only JSON integer collision_frame present in offered original numbers. Null, boolean, string, float, invalid or missing return original V5 motion prediction.",
+  "extra_call_tokens": 48,
+  "development_execution": "Reuse the frozen actual V5 four-call outputs on identical bound PNG inputs, then run the exact candidate refine_collision function once. No reranking across multiple candidates.",
+  "reserved_execution": "Only after development gate passes: same frozen code, actual V5 four calls plus candidate one call per file, once on all three reserved sources. No retuning after reserved results.",
+  "ground_truth": "User's blinded single-review contact frames and native PTS. These are local human references, not official Nexar or DACON labels, and not multi-reviewer adjudication. Do not promote source JSON certification flags.",
+  "gate_each_cohort": {
+    "all_three_known_contact_labels_required": true,
+    "minimum_additional_correct_within_0_3_seconds": 1,
+    "maximum_previously_correct_cases_lost": 0,
+    "mean_absolute_contact_time_error_must_not_increase": true,
+    "noncollision_prediction_fields_must_be_identical": true,
+    "no_network_attempts_and_valid_original_frame_outputs": true
+  },
+  "development_failure": "Reject this frozen candidate; do not consume reserved predictions or package it as improved.",
+  "reserved_failure": "Reject candidate for improvement submission. Preserve all results; do not adjust on reserved set and call it independent.",
+  "submission_additional_requirements": "No local dev/reserved duplicate source evidence; actual ZIP extracted offline output equivalence and interface checks; published size/install/runtime constraints checked. Runtime projection is not a hidden-test guarantee.",
+  "scope_of_inference": "Three development and three reserved clips are a small pilot; passing supports a measured collision-component improvement on these human references only, not a guaranteed leaderboard gain or complete Stage2 score. Missing direction/entry labels remain missing. No Stage1/3 change. No artificial human annotation."
+}

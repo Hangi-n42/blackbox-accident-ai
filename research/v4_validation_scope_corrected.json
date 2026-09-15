@@ -1,0 +1,36 @@
+{
+  "frozen_at": "2026-09-12T18:02:56.273982+00:00",
+  "selected_stage1": "guarded decoder, frozen models and normal inputs unchanged",
+  "selected_stage2": "D: V3 first overview origin-side sentence only",
+  "selected_stage3": "unchanged V3 weights and fast feature path",
+  "rejected": [
+    "Stage2 A/B/C",
+    "Stage3 source weighting 1:1"
+  ],
+  "scope": "Public development diagnostics; no independent hidden-set performance guarantee",
+  "allowed_added_paths": [
+    "model/stage2/code/solution/stage1_v4.py",
+    "model/stage2/code/solution/stage2_v4_d.py"
+  ],
+  "allowed_changed_paths": [
+    "inference.py"
+  ],
+  "allowed_removed_paths": [],
+  "unchanged_output_stages": [
+    1,
+    3
+  ],
+  "expected_stage2_csv": "research/v4_stage2/repro_run/D_predictions.csv",
+  "sources_sha256": {
+    "inference_v4.py": "50c7f348242d4290f87a2124966fd6137928dab96733b01f3426d743d874e717",
+    "solution/stage1_v4.py": "624fc836bc83b09cd273204206ae5b5f0de57ab19bc2b0a428e2957ef08d5c54",
+    "solution/stage2_v4_d.py": "5dc50281d04a9310adeb5e1e42b11ff6d28ee0868828d3964ef652788e5b3e73",
+    "scripts/build_submission.py": "01a6a3228ab096a7552d9b3a01ca1782139315eece8c1c99a6a1041f749bc138",
+    "scripts/verify_v4_package.py": "87a52f1ceded8231e90d7d7e5173fc250c4a3052a0b6bbf5200d1637a27ad583"
+  },
+  "validation_scope_corrected_at": "2026-09-12T18:10:28.430653+00:00",
+  "original_selection": "research/v4_selection_frozen.json",
+  "validation_input": "artifacts/public_eval/stage2/images",
+  "previous_comparison_input": "research/stage2_public/images",
+  "correction_reason": "Exact prediction equivalence requires identical input pixels. First full ZIP run differs on S2_002; compare frozen V3 and D on actual packaged-test input before acceptance."
+}

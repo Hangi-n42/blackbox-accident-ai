@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>사고 영상 정밀 검수</title><link rel="stylesheet" href="style.css?v=choices2"></head>
+<body><header><strong>사고 영상 정밀 검수</strong><span>로컬 작업 · 검수 초안</span></header>
+<main><section class="viewer"><div class="toolbar"><label>영상 <select id="case"></select></label><output id="scope"></output></div>
+<div class="imagewrap"><img id="frame" alt="선택한 원본 영상의 프레임"></div>
+<div class="transport"><button id="previous">← 이전</button><input aria-label="프레임 이동" type="range" id="slider" min="0" value="0"><button id="next">다음 →</button></div>
+<output id="position"></output><p>← → 한 프레임 이동 · Shift + ← → 열 프레임 이동</p>
+<details><summary>무엇을 표시하나요?</summary><p>블랙박스 차량과 실제로 접촉한 상대를 먼저 식별합니다. 큰 흔들림을 접촉으로 대신하지 않습니다. 진입은 같은 상대의 바퀴가 블랙박스 차로 경계 또는 연장 영역에 최초로 닿는 순간입니다. 영상 시작부터 진입한 경우 첫 프레임을 기록합니다.</p><p>접촉이나 진입이 가려져 확정할 수 없으면 ‘판정 불가’를 선택합니다. 모델 예측이나 다른 검수자의 초안을 보지 않고 기록하세요. 단일 검수는 확정 정답이 아니며, 독립 검수와 불일치 조정이 필요합니다.</p></details></section>
+<aside><label>검수자 식별명<input id="annotator" placeholder="본인이 사용하는 식별명"></label><label>실제 접촉 상대 설명<textarea id="target" placeholder="차종·색상·위치·이동 경로로 구분"></textarea></label>
+<fieldset><legend>최초 접촉</legend><button id="contact">현재 프레임 기록</button><button id="contactUnknown">판정 불가</button><output id="contactValue">미기록</output></fieldset>
+<fieldset><legend>차선 최초 진입</legend><button id="entry">현재 프레임 기록</button><button id="atStart">시작부터 진입</button><button id="entryUnknown">판정 불가</button><output id="entryValue">미기록</output></fieldset>
+<fieldset class="choice-field"><legend>진입한 쪽</legend><div class="choice-options">
+<label class="choice-option"><input type="radio" id="side-left" name="side" value="LEFT"><span>왼쪽</span></label>
+<label class="choice-option"><input type="radio" id="side-right" name="side" value="RIGHT"><span>오른쪽</span></label>
+<label class="choice-option choice-unknown"><input type="radio" id="side-unknown" name="side" value="" checked><span>미기록 / 판정 불가</span></label>
+</div></fieldset>
+<fieldset class="choice-field"><legend>접촉 당시 회피 공간</legend><div class="choice-options">
+<label class="choice-option"><input type="radio" id="space-yes" name="space" value="1"><span>있음</span></label>
+<label class="choice-option"><input type="radio" id="space-no" name="space" value="0"><span>없음</span></label>
+<label class="choice-option choice-unknown"><input type="radio" id="space-unknown" name="space" value="" checked><span>미기록 / 판정 불가</span></label>
+</div></fieldset>
+<label>관찰 근거와 불확실한 부분<textarea id="notes" placeholder="차선 경계, 가림, 여러 상대 등"></textarea></label>
+<label class="check"><input type="checkbox" id="blind">이 검수 전에 모델 예측·다른 검수자의 답을 보지 않았습니다.</label>
+<button class="primary" id="export">검수 초안 저장</button><p id="status" role="status">초안은 이 브라우저에 임시 저장됩니다. 완료 후 파일로 저장하세요.</p></aside></main>
+<footer><p>NEXAR_REVIEW 영상 출처: Nexar Inc., Nexar Collision Prediction Dataset (2025). <a href="https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction">공식 자료</a> · <a href="NEXAR_LICENSE.txt">사용 조건</a>. 충돌 직전 회피 영상도 포함될 수 있습니다. 실제 접촉이 없으면 접촉을 기록하지 말고 판정 불가와 사유를 남기세요.</p></footer>
+<script src="cases.js"></script><script src="app.js?v=choices2"></script></body></html>

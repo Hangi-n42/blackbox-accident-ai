@@ -1,0 +1,66 @@
+{
+  "frozen_at_utc": "2026-09-13T10:10:18.530852+00:00",
+  "experiment": "single two-logit L2 fusion; no candidate search",
+  "features": [
+    "logit(pT)",
+    "logit(pF)"
+  ],
+  "clip_epsilon": 1e-06,
+  "standardization": "fit on each calibration training fold only",
+  "C": 0.1,
+  "penalty": "l2",
+  "solver": "lbfgs",
+  "fit_intercept": true,
+  "seed": 20260913,
+  "max_iter": 1000,
+  "threshold": 0.5,
+  "class_weight": null,
+  "sample_weight": null,
+  "cpu_thread_limit": 2,
+  "documents": [
+    "aze_passport/03",
+    "aze_passport/04",
+    "esp_id/01",
+    "lva_passport/02",
+    "rus_internalpassport/01",
+    "srb_passport/04"
+  ],
+  "cameras": [
+    "android",
+    "iphone"
+  ],
+  "main_split": "6 leave-document-out folds, all four rows of held document excluded",
+  "stress_split": "12 held-document plus held-camera folds; train other camera and other documents",
+  "comma": "all 23 original segments excluded from fitting; report every main fold separately",
+  "public": "clean/jpeg75/half_resolution; final forensic fitted on these source labels: training-fit diagnostic only",
+  "primary_go": "main DLC OOF FN < 6, FP <= 0; all six comma guards FP == 0; all six folds and all public variants do not reduce same-row baseline macro-F1",
+  "camera_gate": "each camera stress pooled held-document predictions: FN <= matching baseline FN and FP <= matching baseline FP",
+  "source_stability_gate": "main per-document FN and FP may not exceed corresponding baseline counts",
+  "decision": "any failed gate STOP; all passed only GO to new real-road-recapture validation, never automatic deployment",
+  "forbidden": [
+    "threshold/C/feature search",
+    "best-fold selection",
+    "GPU",
+    "base model updates",
+    "deployment export",
+    "new data download"
+  ],
+  "input_sha256": {
+    "research/stage1/dlc_subset/frozen_predictions.json": "0c948137628a5afe55bdc01cc5c464476abf2036931e80d85d40d52cc87e4c82",
+    "research/stage1/dlc_subset/acquisition_manifest.json": "129046ec27d8ff851594fe8e2880db47e30a15a30945fa75d0550f0d23df798d",
+    "research/stage1/dlc_subset/frozen_diagnostic_manifest.json": "503c1183cdc4e0e34781ac6dfa3fc98232776442ba69a19d21d39a6eebfc08b8",
+    "research/stage1/comma_original_diagnostic/predictions.json": "2cd01ceb5b0cb3c1f24ed211da62d5baaf7786ae76b624688238dbd09287bdae",
+    "research/stage1/comma_original_diagnostic/sources.json": "ed52c2a7f1955d4c42dfa78cf4458c459517c8bb393c736be341677582abdfe2",
+    "research/stage1/comma_original_diagnostic/frozen_manifest.json": "91a3cb793f22bba0350edc324fd3d1febc8a0f0d4ffca274e26bb9dae3821380",
+    "research/stage1/training_manifest.json": "0c8c87f318aa865cf9cc7aa099855cdb67f5cb1a536da9c361582e808b74fb22",
+    "research/stage1/tpo_judgments.json": "c5b498bab6831d4077b9ea522a0eb9b57a5e051e965c6752f095ac0961c75776",
+    "research/stage1/robustness_features.npz": "519a82212b4fe5be1cdfe76b4cc117d5ced1ca2976e73ce6a4746d42d0be170e",
+    "research/stage1/features.csv": "fcaf7ea1790cac1d3eba46c83483f2c68b441162a6b454073a854c151931397e",
+    "Baseline/data/stage1/labels.csv": "d448bd87ab3d25eb557b2ad428e6153ad86b0bb08dcd9aae96fb2e102bfc90fe",
+    "research/stage3_external_overlap.json": "c6c1506989337f8304a0dddc03a212586466a327ecb9141438d154d4cd41d47e",
+    "model/stage1/config.json": "10e1c0d0c9cc0fa69cfa829db7f1454b2ce63c365dde02a847120f29165d8a8a",
+    "model/stage1/forensic_frequency_augmented.json": "46ccafe0477b30889d572524fe2f0f3856dd1dead6cd1b9f7aa54118870f854b",
+    "evaluate_stage1.py": "c7c2cf9a5c4b720e7bdd2604d6c040bfefbb12cc5eef3f3dcc1f8d5006f5d453",
+    "research/v5_stage1/run_fusion_experiment.py": "79d0c96e98d868630eb7dc4b698e148d137cd51958b0485a7bd3176d8c138577"
+  }
+}

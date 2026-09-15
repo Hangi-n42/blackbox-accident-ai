@@ -1,0 +1,11 @@
+{
+  "frozen_at_kst": "2026-09-11T20:52:48+09:00",
+  "public_oof_result_exists": false,
+  "external_gate": "Augmented weighted Stage3 strictly greater than both baseline and identical threefold replication",
+  "public_same17_gate": "Augmented weighted Stage3 greater than or equal to both baseline and identical threefold replication",
+  "action_if_pass": "Prepare a separate final refit using all 23 external routes plus 50 public sparse labels and the unchanged fixed scale augmentation",
+  "action_if_fail": "Do not refit or adopt the scale candidate",
+  "no_official_submission_score_used": true,
+  "final_refit_caveat": "The six external validation routes will be included only after selection; their prior scores are not an independent evaluation of the final refitted model",
+  "preserve_existing_models_and_zips": true
+}

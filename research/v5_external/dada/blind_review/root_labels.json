@@ -1,0 +1,21 @@
+{
+  "reviewer": "root AI visual review, not official ground truth or human expert annotation",
+  "prediction_blind": true,
+  "evidence": "All twelve overview and contact sheets viewed; contact sheets were centered using author accident metadata, so this is NOT blind to the author-selected time window.",
+  "entry_definition": "First wheel touching ego driving corridor or its extension, not first screen appearance.",
+  "interval_policy": "Intervals below are coarse visual hypotheses for independent reconciliation. None is an exact ground-truth label. Physical contact is often hidden by the hood or outside frame.",
+  "clips": [
+    {"ID":"DADA_8_036","target":"orange small pickup turning across from left","ego_contact":"visually_supported_event_contact_surface_occluded","contact_hypothesis":[121,125],"entry_hypothesis":[102,116],"entry_side":"LEFT","space":null,"note":"Vehicle approaches left front; abrupt view/dashboard ornament displacement after frame121."},
+    {"ID":"DADA_8_039","target":"blue pickup ahead-right","ego_contact":"uncertain","contact_hypothesis":null,"entry_hypothesis":[182,245],"entry_side":"RIGHT","space":null,"note":"Pickup changes relative lane alignment and ego approaches its rear; exact first contact not directly visible. Frame1 visibility does not establish lane entry."},
+    {"ID":"DADA_9_001","target":"small gray open-bed truck overtaking from left","ego_contact":"uncertain","contact_hypothesis":null,"entry_hypothesis":[103,146],"entry_side":"LEFT","space":null,"note":"Close lateral pass; camera-front contact surface hidden. Do not equate author accident timestamp with visible contact."},
+    {"ID":"DADA_9_009","target":null,"ego_contact":"uncertain_target","contact_hypothesis":null,"entry_hypothesis":null,"entry_side":null,"space":null,"note":"Black sedan close on right and orange truck on left. Sheets do not establish which physically contacts ego first."},
+    {"ID":"DADA_10_120","target":null,"ego_contact":"not_discernible","contact_hypothesis":null,"entry_hypothesis":null,"entry_side":null,"space":null,"note":"Several white crossing vehicles leave left edge before camera shake; collision partner cannot be established from sheets."},
+    {"ID":"DADA_10_142","target":"black sedan crossing left to right","ego_contact":"visually_supported_event_contact_surface_occluded","contact_hypothesis":[166,180],"entry_hypothesis":[155,166],"entry_side":"LEFT","space":null,"note":"Sedan crosses directly ahead and scene changes orientation; exact contact hidden below camera."},
+    {"ID":"DADA_11_045","target":"silver sedan along ego right","ego_contact":"uncertain","contact_hypothesis":null,"entry_hypothesis":[57,96],"entry_side":"RIGHT","space":null,"note":"Already visible on right at clip start but not established inside ego lane then. Closely approaches ego front-right."},
+    {"ID":"DADA_11_129","target":"white SUV crossing left to right","ego_contact":"visually_supported_event_contact_surface_occluded","contact_hypothesis":[71,80],"entry_hypothesis":[47,68],"entry_side":"LEFT","space":null,"note":"SUV body crosses camera front, ego stops, exact surface contact hidden by hood."},
+    {"ID":"DADA_49_002","target":null,"ego_contact":"not_discernible","contact_hypothesis":null,"entry_hypothesis":null,"entry_side":null,"space":null,"note":"Red truck ahead shifts left with persistent visible road gap. Cannot establish ego contact."},
+    {"ID":"DADA_49_015","target":null,"ego_contact":"third_party_interaction_visible_ego_contact_not_discernible","contact_hypothesis":null,"entry_hypothesis":null,"entry_side":null,"space":null,"note":"Green truck crowds red sedan ahead; ego remains behind. Not eligible as confirmed ego collision."},
+    {"ID":"DADA_50_031","target":"silver Volkswagen directly ahead, tentative","ego_contact":"uncertain","contact_hypothesis":null,"entry_hypothesis":[1,1],"entry_side":null,"space":null,"note":"VW is already directly in ego corridor at first frame; ego approaches rear. Contact and whether VW is true collision partner remain uncertain; first-frame entry conditional on target identity."},
+    {"ID":"DADA_50_172","target":null,"ego_contact":"not_discernible","contact_hypothesis":null,"entry_hypothesis":null,"entry_side":null,"space":null,"note":"Taxi and motorbike ahead with road gap; no identifiable ego contact in viewed sheets."}
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "status": "complete_secondary_diagnostic",
+  "not_human_or_official_accuracy": true,
+  "previous_human9_adoption_gate_still_failed": true,
+  "adopt_candidate": false,
+  "reason": "Inferred intervals remain conditional; this diagnostic does not override failed accuracy gate or validate other fields.",
+  "bindings": {
+    "next_review_adjudication.json": "a47bf006bb192bec46cbe24e4b5a499b390e3659fec2c2e3f8e07a230338dee8",
+    "next_motion_diagnostic\\report.json": "e05a14d674e14c78bde0992d96e0a044893f2d45842dde9966e905e0376eb8b1",
+    "next_review_adjudication_protocol.json": "75fd167e7c3578f721a611a9e3fe9dcb9340570ffaccca465fc87e28658ace12",
+    "assess_next_motion_consistency.py": "2ba8b9d07c596b0caa9344c1dadf88067e241ca2b2f5a081a3fd19f48cb6ae2a"
+  },
+  "source_count": 6,
+  "conditional_reference_count": 3,
+  "changed_prediction_count": 0,
+  "records": [
+    {
+      "ID": "00017",
+      "v6_decoded_index": 576,
+      "corrected_decoded_index": 576,
+      "prediction_changed": false,
+      "conditional_reference": null,
+      "v6_pts_seconds": 19.2,
+      "v6_conditional_consistency": "unknown_reference_not_scored",
+      "corrected_pts_seconds": 19.2,
+      "corrected_conditional_consistency": "unknown_reference_not_scored"
+    },
+    {
+      "ID": "00018",
+      "v6_decoded_index": 615,
+      "corrected_decoded_index": 615,
+      "prediction_changed": false,
+      "conditional_reference": null,
+      "v6_pts_seconds": 20.5,
+      "v6_conditional_consistency": "unknown_reference_not_scored",
+      "corrected_pts_seconds": 20.5,
+      "corrected_conditional_consistency": "unknown_reference_not_scored"
+    },
+    {
+      "ID": "00019",
+      "v6_decoded_index": 615,
+      "corrected_decoded_index": 615,
+      "prediction_changed": false,
+      "conditional_reference": {
+        "frame_interval": [
+          608,
+          616
+        ],
+        "pts_seconds_interval": [
+          19.869281045751634,
+          20.130718954248366
+        ],
+        "combination": "union_hull_not_intersection",
+        "status": "conditional_inferred_contact_interval"
+      },
+      "v6_pts_seconds": 20.098039215686274,
+      "v6_conditional_consistency": "within_tolerance_for_entire_conditional_interval",
+      "corrected_pts_seconds": 20.098039215686274,
+      "corrected_conditional_consistency": "within_tolerance_for_entire_conditional_interval"
+    },
+    {
+      "ID": "00021",
+      "v6_decoded_index": 629,
+      "corrected_decoded_index": 629,
+      "prediction_changed": false,
+      "conditional_reference": {
+        "frame_interval": [
+          598,
+          606
+        ],
+        "pts_seconds_interval": [
+          19.933333333333334,
+          20.2
+        ],
+        "combination": "union_hull_not_intersection",
+        "status": "conditional_inferred_contact_interval"
+      },
+      "v6_pts_seconds": 20.966666666666665,
+      "v6_conditional_consistency": "outside_tolerance_of_conditional_interval",
+      "corrected_pts_seconds": 20.966666666666665,
+      "corrected_conditional_consistency": "outside_tolerance_of_conditional_interval"
+    },
+    {
+      "ID": "00022",
+      "v6_decoded_index": 608,
+      "corrected_decoded_index": 608,
+      "prediction_changed": false,
+      "conditional_reference": null,
+      "v6_pts_seconds": 20.266666666666666,
+      "v6_conditional_consistency": "unknown_reference_not_scored",
+      "corrected_pts_seconds": 20.266666666666666,
+      "corrected_conditional_consistency": "unknown_reference_not_scored"
+    },
+    {
+      "ID": "00023",
+      "v6_decoded_index": 598,
+      "corrected_decoded_index": 598,
+      "prediction_changed": false,
+      "conditional_reference": {
+        "frame_interval": [
+          596,
+          604
+        ],
+        "pts_seconds_interval": [
+          19.866666666666667,
+          20.133333333333333
+        ],
+        "combination": "union_hull_not_intersection",
+        "status": "conditional_inferred_contact_interval"
+      },
+      "v6_pts_seconds": 19.933333333333334,
+      "v6_conditional_consistency": "within_tolerance_for_entire_conditional_interval",
+      "corrected_pts_seconds": 19.933333333333334,
+      "corrected_conditional_consistency": "within_tolerance_for_entire_conditional_interval"
+    }
+  ]
+}

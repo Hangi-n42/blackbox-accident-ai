@@ -1,0 +1,44 @@
+{
+  "call": 3,
+  "name": "entry_coarse",
+  "prompt": "These frames are chronological, left to right then top to bottom. The clip ends at a collision. When did the other collision vehicle first enter the camera car's driving lane? Entry is its first wheel touching the lane boundary. If it was already inside this lane at the first image, select the first image. At an intersection continue the camera car's lane boundaries forward. Lane entry candidates: [0, 4, 7, 11, 15, 18, 22, 25, 29, 33, 36, 40]. Return JSON with entry_frame only.",
+  "offered_frames": {
+    "Lane entry candidates": [
+      0,
+      4,
+      7,
+      11,
+      15,
+      18,
+      22,
+      25,
+      29,
+      33,
+      36,
+      40
+    ]
+  },
+  "input_images": [
+    {
+      "size": [
+        1536,
+        768
+      ],
+      "raw_rgb_sha256": "4f4cde88e8bd77c1d08cb9a5074ba9f235c8749805b9b193214722c7fcf8c0e1"
+    }
+  ],
+  "bounded_image_sizes": [
+    [
+      1536,
+      768
+    ]
+  ],
+  "bounded_pixel_total": 1179648,
+  "pixel_budget": 1200000,
+  "max_new_tokens": 40,
+  "status": "complete",
+  "raw_output": "{\n  \"entry_frame\": 4\n}",
+  "seconds": 2.1690186000196263,
+  "gpu_peak_allocated_bytes": 3933803008,
+  "gpu_peak_reserved_bytes": 4691329024
+}

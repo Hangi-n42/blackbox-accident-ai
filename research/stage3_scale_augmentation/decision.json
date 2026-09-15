@@ -1,0 +1,15 @@
+{
+  "recommendation": "do_not_adopt_no_final23_retraining_justified_by_this_experiment",
+  "basis": "Same-external17 public OOF declined against original baseline and showed no gain over triplication control. External improvement did not establish target-domain development gain.",
+  "augmented_vs_replicated_changed_rows": {
+    "accel": 0,
+    "steer": 0
+  },
+  "augmented_vs_baseline_changed_rows": {
+    "accel": 2,
+    "steer": 0
+  },
+  "production_changed": false,
+  "further_scale_search_performed": false,
+  "private_scores_used": false
+}

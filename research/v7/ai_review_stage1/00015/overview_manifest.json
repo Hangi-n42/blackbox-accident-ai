@@ -1,0 +1,375 @@
+{
+  "source": {
+    "ID": "00015",
+    "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\fresh_sources_retry1\\00015.mp4",
+    "url": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00015.mp4",
+    "bytes": 8094504,
+    "sha256": "929e9e6f2494f30c47f5567e95412d168b458336f31024ab1cd6dea4c9b2cb1a"
+  },
+  "selection": "Uniform original decoded indices within requested inclusive range; actual native PTS labels",
+  "indices": [
+    0,
+    34,
+    69,
+    103,
+    138,
+    172,
+    207,
+    241,
+    276,
+    310,
+    345,
+    379,
+    414,
+    448,
+    483,
+    517,
+    552,
+    586,
+    621,
+    655,
+    690,
+    724,
+    759,
+    793,
+    828,
+    862,
+    897,
+    931,
+    966,
+    1000,
+    1035,
+    1069,
+    1104,
+    1138,
+    1173,
+    1207
+  ],
+  "selected": [
+    {
+      "frame": 0,
+      "pts": 0,
+      "time_base": "1/15360",
+      "seconds": 0.0,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000000.png",
+      "sha256": "24664dcd1789b7406c02095bd5683d966b62175afddee547245020f2668035d1",
+      "RGB_sha256": "830bf34ce8831234316c484250b7085e40817a5906f87c278c61630e9921ead4"
+    },
+    {
+      "frame": 34,
+      "pts": 17408,
+      "time_base": "1/15360",
+      "seconds": 1.1333333333333333,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000034.png",
+      "sha256": "33472d604a8a8e6c08684b73038b4c21a3f3bea0dfbbf96750ca9d2d67ff69a5",
+      "RGB_sha256": "bbf498cf0c325a830f4929feab7bd1b87cd21b7cc0635af10a1ab96138a9755d"
+    },
+    {
+      "frame": 69,
+      "pts": 35328,
+      "time_base": "1/15360",
+      "seconds": 2.3,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000069.png",
+      "sha256": "7b77e66def85453b1ab19d4220ff21b92aab08859342220857351aa70f04a0a3",
+      "RGB_sha256": "23f96256fa7daced9183f8adfd23bdb98056719c72dd4ac10935847e99b23e0d"
+    },
+    {
+      "frame": 103,
+      "pts": 52736,
+      "time_base": "1/15360",
+      "seconds": 3.433333333333333,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000103.png",
+      "sha256": "94317eebaca78559fa7872600a94e6de47c54f700cc6dd6c00a333e12672818f",
+      "RGB_sha256": "9cebbdaaf020e404cf5b8842eae0fbdbfc632bb8ad113874ce4866f1e29bd6d5"
+    },
+    {
+      "frame": 138,
+      "pts": 70656,
+      "time_base": "1/15360",
+      "seconds": 4.6,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000138.png",
+      "sha256": "fc0c9ece617eae3bd76f3192a565c7389730ad67fee53ba6befad031295fc112",
+      "RGB_sha256": "95d10ebdfb0f09123112a089d7c8bc330d3366804ce8076d248a2d1144d8dd29"
+    },
+    {
+      "frame": 172,
+      "pts": 88064,
+      "time_base": "1/15360",
+      "seconds": 5.733333333333333,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000172.png",
+      "sha256": "d8c4caef7582147687d6426ff826d3b7889d467964844e579b7ce8987be045d3",
+      "RGB_sha256": "d2fdfb09fe00d3f130290c9c31cc526dcb20a20b65af11e3cfc52cf0c7f2cc63"
+    },
+    {
+      "frame": 207,
+      "pts": 105984,
+      "time_base": "1/15360",
+      "seconds": 6.9,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000207.png",
+      "sha256": "0e5325517499f62e7ad723055e7b5994ce7cb605c36c42d38ac14c66f0d57fdd",
+      "RGB_sha256": "78e8c58bca555f5d07e921cfc914efbff10ce0adc2492554d6fd50a4bd4a42c1"
+    },
+    {
+      "frame": 241,
+      "pts": 123392,
+      "time_base": "1/15360",
+      "seconds": 8.033333333333333,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000241.png",
+      "sha256": "f83a84ad5440651dffc5cc011853d0382ccc87fcb6639cb7ad0343db70914ccd",
+      "RGB_sha256": "2004aed037be830bfbf5def7174c5f0269dd7d260e463df7024fbde6d8aa223b"
+    },
+    {
+      "frame": 276,
+      "pts": 141312,
+      "time_base": "1/15360",
+      "seconds": 9.2,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000276.png",
+      "sha256": "e4b65875a4f43378c4e2a74df7221057aee391e4e1ca2aac7121b17c1fcea551",
+      "RGB_sha256": "734da15a39b26b2634022d5274626b83b95001b5a13110d77850c4b11a9f08c7"
+    },
+    {
+      "frame": 310,
+      "pts": 158720,
+      "time_base": "1/15360",
+      "seconds": 10.333333333333334,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000310.png",
+      "sha256": "4a879c5bf996d746abb49d4aafe0fbd1077c53a6f5bf045c74d6e4af7ab0635f",
+      "RGB_sha256": "529e9f9744e1605821ea4cde206698df9fbfbf99754a33fc60e5897facd79b95"
+    },
+    {
+      "frame": 345,
+      "pts": 176640,
+      "time_base": "1/15360",
+      "seconds": 11.5,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000345.png",
+      "sha256": "8fc7d6aecff36c4e3256b0993cbbe78726838100bc8e78a30e47438183328bee",
+      "RGB_sha256": "6ebfa7904764e7b635e41418b0c52da63b309c6c00a5a035bf2c636b559fb165"
+    },
+    {
+      "frame": 379,
+      "pts": 194048,
+      "time_base": "1/15360",
+      "seconds": 12.633333333333333,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000379.png",
+      "sha256": "830f48e76c82781e2121f8cb25b8d5a6ffb11a7f450d3e91b91055cc36ac856f",
+      "RGB_sha256": "af6b01d1c5ffbecd7da1327a8555b3acfe21c7dab80b8d41e3166647efa92a34"
+    },
+    {
+      "frame": 414,
+      "pts": 211968,
+      "time_base": "1/15360",
+      "seconds": 13.8,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000414.png",
+      "sha256": "41db5c8ac5210f881aca5473c42bcb479d0f3dd304c29189c31c9e88c01ec3f2",
+      "RGB_sha256": "23835b60e61a30370e0e635a374a1f0f6d6ece7411bc2ff898b18baac9ce2b46"
+    },
+    {
+      "frame": 448,
+      "pts": 229376,
+      "time_base": "1/15360",
+      "seconds": 14.933333333333334,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000448.png",
+      "sha256": "fad566da4d9657260fff18dfb19bb8cbc4a6cb1e87d971187ff89c0369afa5ef",
+      "RGB_sha256": "aa53ddb030432d97a983a18fe97b40d99f183b645f45169b21be9fb39f4f058f"
+    },
+    {
+      "frame": 483,
+      "pts": 247296,
+      "time_base": "1/15360",
+      "seconds": 16.1,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000483.png",
+      "sha256": "6ab75c93eb1a9b3f933a977bb7c0cd3fe29bed95d22d595be914c70b6a66faa8",
+      "RGB_sha256": "74aa67a6303bea7571d601af3b2610a6a73169a218d5f0bac873a8a32c1fcc73"
+    },
+    {
+      "frame": 517,
+      "pts": 264704,
+      "time_base": "1/15360",
+      "seconds": 17.233333333333334,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000517.png",
+      "sha256": "fe8a7a6efdae8071f806b455519a4c3fc733c5f7acecfc98102548d80d8662ab",
+      "RGB_sha256": "9fc36e422534d8bf6ccea31d0b039eb64ee56639ac0d0e9218fa485a87540221"
+    },
+    {
+      "frame": 552,
+      "pts": 282624,
+      "time_base": "1/15360",
+      "seconds": 18.4,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000552.png",
+      "sha256": "69420a4e2a058caf8acef0a120fa578cdb0c5957e86113291e2698105ce99969",
+      "RGB_sha256": "2063c94373078ebc9dbd0d8a520e84c79a59df42ca11fe154c35a05cb1457b5a"
+    },
+    {
+      "frame": 586,
+      "pts": 300032,
+      "time_base": "1/15360",
+      "seconds": 19.533333333333335,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000586.png",
+      "sha256": "d0470e42587eb909741bf1575ad1c651dcef2d9bcf2faf10d8cb41d0ac677919",
+      "RGB_sha256": "1bd0c52c659924339a9bb4f8938b1491077186632e666c8f6ee561cead1ad986"
+    },
+    {
+      "frame": 621,
+      "pts": 317952,
+      "time_base": "1/15360",
+      "seconds": 20.7,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000621.png",
+      "sha256": "b7da90f4eb13145a2ff0f86e60691275cede6f43d467c56828a65b19ea164833",
+      "RGB_sha256": "8e4e4e3c49574cd18708fdbb3a2087addb05b12fdd7a3c834c0c37a18a7ddd3d"
+    },
+    {
+      "frame": 655,
+      "pts": 335360,
+      "time_base": "1/15360",
+      "seconds": 21.833333333333332,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000655.png",
+      "sha256": "245d149b688f1802bf0efb8ded388976820807d7ecfaafd76a0d6a988d036fb7",
+      "RGB_sha256": "3cbe3c54c4b40259de59f9fd6702a0a1e4eb2b44ba08c6de7f9af2c7c642e102"
+    },
+    {
+      "frame": 690,
+      "pts": 353280,
+      "time_base": "1/15360",
+      "seconds": 23.0,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000690.png",
+      "sha256": "e96f5943f805da700b6a391ef7cc7a581bc710d88474d8e1238d088046ac76bb",
+      "RGB_sha256": "b6ff956ca2408837490235d2520fd259262e230813f1bdd986ea45c2b2e6a738"
+    },
+    {
+      "frame": 724,
+      "pts": 370688,
+      "time_base": "1/15360",
+      "seconds": 24.133333333333333,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000724.png",
+      "sha256": "f287a8a458c1af41591b8c44eb51255ea91b4bb649dea7a40fecb537453471eb",
+      "RGB_sha256": "ae0ccd21d165c3744488d6a41fc33b27b276dd9d96b7220306ffbb78f848004d"
+    },
+    {
+      "frame": 759,
+      "pts": 388608,
+      "time_base": "1/15360",
+      "seconds": 25.3,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000759.png",
+      "sha256": "5010a61ad54a20d09babffc028ca0f18ca91ccdc16804b54de704da9a68cc68e",
+      "RGB_sha256": "dfe0d7e597e0bb2ebb50435b514e2ac5512ac05a6b010d61ecb855853b555076"
+    },
+    {
+      "frame": 793,
+      "pts": 406016,
+      "time_base": "1/15360",
+      "seconds": 26.433333333333334,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000793.png",
+      "sha256": "dd27de8db3531228533bb0c7e88784a4768ff200ddf449fd834a07165ef4d651",
+      "RGB_sha256": "8a86022732f20d273beadfbefcb27c12cc3b9f87adddd8cd877828b54c2a9917"
+    },
+    {
+      "frame": 828,
+      "pts": 423936,
+      "time_base": "1/15360",
+      "seconds": 27.6,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000828.png",
+      "sha256": "4afec9c8d7a746924f58370d6c7fb25f236a283099d5b863dd74ffa6d262ceef",
+      "RGB_sha256": "4b250fecaf561dc01cdc54da6bbe383245e87e29db1e77189b2294ce4edcee4f"
+    },
+    {
+      "frame": 862,
+      "pts": 441344,
+      "time_base": "1/15360",
+      "seconds": 28.733333333333334,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000862.png",
+      "sha256": "ba57ad6d0915bb0032e2eb70af32ab40045c20fda95222ab1a347d96bdddcf8e",
+      "RGB_sha256": "ed62a7358516b58a475c899941b16f079e963af2fca468fab383374c32e82a40"
+    },
+    {
+      "frame": 897,
+      "pts": 459264,
+      "time_base": "1/15360",
+      "seconds": 29.9,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000897.png",
+      "sha256": "204e5043a79de6d7ff07daf6ad84228a43e25a4efdfb4a2ac18e6031d91da77f",
+      "RGB_sha256": "bbc52993e60418a2b5876044f1410f29a13728934befd6f47e7458d5a48b246f"
+    },
+    {
+      "frame": 931,
+      "pts": 476672,
+      "time_base": "1/15360",
+      "seconds": 31.033333333333335,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000931.png",
+      "sha256": "c8888b6a7ff33c11dcefd0c8cd42de1c2fcc5247f9085f34afed239a1b08825d",
+      "RGB_sha256": "8c2c9f24a9a12b3d7a4c76d344bf1bc8e1b0ac317c8877f77f94d1cbb695ef08"
+    },
+    {
+      "frame": 966,
+      "pts": 494592,
+      "time_base": "1/15360",
+      "seconds": 32.2,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000966.png",
+      "sha256": "8fc319f77fa350ad2a463311897af40ca872f6810b528fbb7db56f65271f69d8",
+      "RGB_sha256": "da04b769346b1bc6ebe70929b2087e57e489f74ebf62efe12fa736768d93e704"
+    },
+    {
+      "frame": 1000,
+      "pts": 512000,
+      "time_base": "1/15360",
+      "seconds": 33.333333333333336,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_001000.png",
+      "sha256": "7cab7ddd4d20c2b267e652fdb4e7c2cfef89a4a9b3a249825ebb1d69ef8f2ab5",
+      "RGB_sha256": "e1bc339afbd2ee94012fa57de7045ab5c00448310c75475d97a6a3b7ed0526e9"
+    },
+    {
+      "frame": 1035,
+      "pts": 529920,
+      "time_base": "1/15360",
+      "seconds": 34.5,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_001035.png",
+      "sha256": "78d815ad3355a86db7b44742300313b068e59bc169369bf63245fbabeaaa6468",
+      "RGB_sha256": "5d18febeac04d771711850180c680b0a8f5c732a8a38a7525841ab3384f40635"
+    },
+    {
+      "frame": 1069,
+      "pts": 547328,
+      "time_base": "1/15360",
+      "seconds": 35.63333333333333,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_001069.png",
+      "sha256": "dcc3fd0be56241d5f204cce9bea5650ab7dd3fe9f9b76507d417ffe8794b568a",
+      "RGB_sha256": "bef4f626101439906535e102b2aec2af2a99ed4f752d6f49f1c746371cf2ea87"
+    },
+    {
+      "frame": 1104,
+      "pts": 565248,
+      "time_base": "1/15360",
+      "seconds": 36.8,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_001104.png",
+      "sha256": "7adcf8874dd6b726f58e22818327c6d8c1ff09040a7d78b0bce43023bdbf4cf3",
+      "RGB_sha256": "86d759de84da0787564ce774094b1bb8c2c53571c5d6f592682d79f6c64c2fd5"
+    },
+    {
+      "frame": 1138,
+      "pts": 582656,
+      "time_base": "1/15360",
+      "seconds": 37.93333333333333,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_001138.png",
+      "sha256": "754c015a2769c1e32f1db7dc0b4a1738108f483338509744c6024ef72f4b4bf4",
+      "RGB_sha256": "6168debfee2dbc4ee3c0508e0cec8e66b79764c4c01f8ef6186a59c9ef5c3438"
+    },
+    {
+      "frame": 1173,
+      "pts": 600576,
+      "time_base": "1/15360",
+      "seconds": 39.1,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_001173.png",
+      "sha256": "f04f6001a3fa59858588d6b57f3725f25b702999d61e387da78b8bd11b22e02b",
+      "RGB_sha256": "ed2611db20fc01c184c7a698e49002793e7042226412513482e8dea4f401b043"
+    },
+    {
+      "frame": 1207,
+      "pts": 617984,
+      "time_base": "1/15360",
+      "seconds": 40.233333333333334,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_001207.png",
+      "sha256": "6bc3123ce894479d9c582972ca626ab8312a01ebb7e3bfbf89999a46e14b521a",
+      "RGB_sha256": "e7b049a63c189d4ed8ac2b1ffcfb1c8d719fd206e98e801e9de3f10c6c3cc3f1"
+    }
+  ],
+  "sheet_sha256": "f5c01b743dafe1d933abab661680631ece814685b1a8ccbec1b675ecdd9ea5c2"
+}

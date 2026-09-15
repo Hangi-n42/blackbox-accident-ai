@@ -1,0 +1,82 @@
+[
+  {
+    "path": "original/000001.mp4",
+    "label": "ORIGINAL",
+    "source_group": "000001",
+    "sha256": "877b6804d709acd31a8e7c4843590d674d3877fffab3d8c076332462787d2179",
+    "origin": "DACON competition-provided baseline sample",
+    "recapture_kind": "original"
+  },
+  {
+    "path": "original/000002.mp4",
+    "label": "ORIGINAL",
+    "source_group": "000002",
+    "sha256": "11400de54cd39aaaf96c9ec0a47566f15dc5db86166e4d620e5a53a341252662",
+    "origin": "DACON competition-provided baseline sample",
+    "recapture_kind": "original"
+  },
+  {
+    "path": "original/000003.mp4",
+    "label": "ORIGINAL",
+    "source_group": "000003",
+    "sha256": "37aa2954975cb3de5263edc5084d7fb10512db055d5eb5eaf226d0ef94c1c003",
+    "origin": "DACON competition-provided baseline sample",
+    "recapture_kind": "original"
+  },
+  {
+    "path": "original/000004.mp4",
+    "label": "ORIGINAL",
+    "source_group": "000004",
+    "sha256": "beeb68a9eeeccb610030fc06fd898551321532f1961eadc82ac5fe7ec893c93b",
+    "origin": "DACON competition-provided baseline sample",
+    "recapture_kind": "original"
+  },
+  {
+    "path": "original/000005.mp4",
+    "label": "ORIGINAL",
+    "source_group": "000005",
+    "sha256": "9753763c372b7bf2526a38fc60835dcab9cbe725ed984d1cb32a10c349fb0caf",
+    "origin": "DACON competition-provided baseline sample",
+    "recapture_kind": "original"
+  },
+  {
+    "path": "rerecorded/000001.mp4",
+    "label": "RERECORDED",
+    "source_group": "000001",
+    "sha256": "e7bced4cb87a0a778584f5cb04624ca3c53138ee657db9d28a9b33cd94460c98",
+    "origin": "DACON competition-provided baseline sample",
+    "recapture_kind": "simulated"
+  },
+  {
+    "path": "rerecorded/000002.mp4",
+    "label": "RERECORDED",
+    "source_group": "000002",
+    "sha256": "a2cfefb07f354ed469314cd8ee1b5a0f23b087a74abbdc878d44f16c98c1257d",
+    "origin": "DACON competition-provided baseline sample",
+    "recapture_kind": "simulated"
+  },
+  {
+    "path": "rerecorded/000003.mp4",
+    "label": "RERECORDED",
+    "source_group": "000003",
+    "sha256": "475146cbbdd77fed97916d62aa65de45e7ed2b456b181331a6a34ff6a3c11353",
+    "origin": "DACON competition-provided baseline sample",
+    "recapture_kind": "simulated"
+  },
+  {
+    "path": "rerecorded/000004.mp4",
+    "label": "RERECORDED",
+    "source_group": "000004",
+    "sha256": "5b8e36586ebc9dcc7f454806996aa56eb10c3b561480d2688f4c81d0db6c139f",
+    "origin": "DACON competition-provided baseline sample",
+    "recapture_kind": "simulated"
+  },
+  {
+    "path": "rerecorded/000005.mp4",
+    "label": "RERECORDED",
+    "source_group": "000005",
+    "sha256": "78e60339638c58c07af33d03fedd8076d7014eb16f62c3baeb8c067730907011",
+    "origin": "DACON competition-provided baseline sample",
+    "recapture_kind": "simulated"
+  }
+]

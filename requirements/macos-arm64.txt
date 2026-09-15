@@ -1,0 +1,24 @@
+# macOS ARM64 / Python3.12. CPU analysis + Stage1/3 + VLM processor development.
+# CUDA local suffix removed; no bitsandbytes/CUDA installation on this profile.
+# Full V6 Stage2 still requires its existing CUDA environment; see HANDOFF.md.
+torch==2.8.0
+torchvision==0.23.0
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.15.3
+scikit-learn==1.5.2
+joblib==1.5.2
+pillow==10.4.0
+opencv-python-headless==4.10.0.84
+av==16.0.1
+transformers==4.57.6
+accelerate==1.9.0
+huggingface-hub==0.34.4
+safetensors==0.6.2
+tokenizers==0.22.2
+regex==2026.9.10
+ftfy==6.3.1
+tqdm==4.66.5
+requests==2.34.2
+psutil==6.1.1
+threadpoolctl==3.5.0

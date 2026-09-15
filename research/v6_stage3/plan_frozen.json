@@ -1,0 +1,102 @@
+{
+  "timestamp_unix": 1789396379.7096512,
+  "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10",
+  "public_id": "OPEN_001",
+  "source_manifest_record": {
+    "route": "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57",
+    "segment": "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10",
+    "local": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-03-57\\10",
+    "source": "https://huggingface.co/datasets/commaai/comma2k19/resolve/main/raw_data/Chunk_1.zip",
+    "members": [
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10/global_pose/frame_times",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10/processed_log/CAN/speed/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10/processed_log/CAN/speed/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10/processed_log/CAN/steering_angle/t",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10/processed_log/CAN/steering_angle/value",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/10/video.hevc"
+    ]
+  },
+  "inputs_and_code_sha256": {
+    "Baseline\\data\\stage3\\videos\\OPEN_001.mp4": "3d6590bc9cbe1c8d1956a1ff1e173dca610288821609d93aefa7ee25ab80b254",
+    "Baseline\\data\\stage3\\labels.csv": "ab2fe896aaf120ab11cc016876e6e28b515b0697556d7871b314bee3b3bf54cf",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-03-57\\10\\global_pose\\frame_times": "18ba8f5fcdc616cb1ad89e93cd2932e98ec35c4ff6f332f6396e15e2a1f7e76c",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-03-57\\10\\processed_log\\CAN\\speed\\t": "d6f47abde691674c30a3ba29f9b4c372d03d4c9c1c019bf1ceead55a9922a436",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-03-57\\10\\processed_log\\CAN\\speed\\value": "f0fd89ca1d0c1abdfbb0e088ce38fae9a1de7a9171d6d5bd448f738b31e66f50",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-03-57\\10\\processed_log\\CAN\\steering_angle\\t": "e962f505c0c005c357453a24906258a45e378a4d0f9a3026da2a63ed152215b5",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-03-57\\10\\processed_log\\CAN\\steering_angle\\value": "c9b80eae1d13172c4f9438430adbe896b87b9f74836ba68966724ce04433d8af",
+    "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-03-57\\10\\video.hevc": "5f3ad3c056dda7fc480e4344ac2199c0320af0cfce52637cbc8885cc004f0e33",
+    "external_data\\comma2k19\\chunk1_manifest.json": "6be1c00bdd5c4e17b8d892bc58c6b17eba285b6e109bd1dd998285db47919e65",
+    "external_data\\comma2k19\\chunk1_members.json": "1782e994e9767bfc3e2f7ffdf088d45d468525ea3ae528c65b3eac89fca45f40",
+    "external_data\\comma2k19\\inventory.json": "2952ae71044c1bc964581001cffda52279fd10d1aacaea61b03a21c200a0d74f",
+    "external_data\\comma2k19\\LICENSE": "89bc004605a774df644fb4166f39c11fe680d508b2ea9e27d9ad714021efeefb",
+    "research\\v4_stage3\\audit_report.json": "799defa8cc912ec5fa5a7d0faa05a654b2f575ac9f70f462ae7e6b76822a353e",
+    "research\\v4_stage3\\audit_plan_frozen.json": "1d42572a94647ffacac9de1bb4aab1246425c89f523ba072a0d13cad8e0f7097",
+    "research\\v4_stage3\\overlap_audit.json": "2a9fe4f2e8f819539708afee12ef194468cbdf0769271a9599ea479974900006",
+    "research\\v4_stage3\\public_can_proxy_comparison.csv": "4adda7cff1ba4bbb3381e1ec6d53cbf29b5fb7effb31266abf6cad23ccebeaa4",
+    "research\\stage3_external_overlap.json": "c6c1506989337f8304a0dddc03a212586466a327ecb9141438d154d4cd41d47e",
+    "research\\stage3_temporal_experiment.py": "5386ad5cb8095171ce4a339bbf9af0334d163e959130692f7456c9ca57fd16fe",
+    "\ub300\ud68c_\ud1b5\ud569_\uc815\ubcf4.md": "990cfa2f2e3565f5f43faa690207116795bd6a4fc0f854d87be259c3f4cf3127",
+    "research\\v6_stage3\\audit.py": "0cd4f2ea9a60cea142f1dfb57fe3cd28eb1c41d1b6f873a3dbe0fb3ba05ec862"
+  },
+  "protected_stage3_sha256": {
+    "solution\\stage3.py": "4b211a1c4f731bbd28b0f6e60de172e9692bfc1fe0f46d49ce21d89ad44f3835",
+    "solution\\stage3_fast.py": "b93fc1565e476c8b84627fe5d6379f2314b129444942044987fb6b75ca660dca",
+    "solution\\stage3_v5_compatible.py": "8e9d3b5ce7c60cbcfcca674e42523b8a006e758ca92dd459171c5de8107b120d",
+    "model\\stage3\\motion_model.joblib": "c52ecd15cf68856f2a7b0b37b120c7a961b3bd8889a33af4ec47f8b9719bb3b3"
+  },
+  "existing_zip_stat": {
+    "artifacts\\submissions\\candidate_nf4_fast.zip": {
+      "bytes": 2914581099,
+      "mtime_ns": 1789125447604419500
+    },
+    "artifacts\\submissions\\submit_v1.zip": {
+      "bytes": 3653603309,
+      "mtime_ns": 1789121877491584000
+    },
+    "artifacts\\submissions\\submit_v2_nf4.zip": {
+      "bytes": 2914579028,
+      "mtime_ns": 1789123807718839000
+    },
+    "artifacts\\submissions\\submit_v3_motion_fast.zip": {
+      "bytes": 2914582277,
+      "mtime_ns": 1789128384326864600
+    },
+    "artifacts\\submissions\\submit_v4.zip": {
+      "bytes": 2914586291,
+      "mtime_ns": 1789236309993404000
+    },
+    "artifacts\\submissions\\submit_v5.zip": {
+      "bytes": 2914587768,
+      "mtime_ns": 1789297334061625600
+    }
+  },
+  "fixed_policy": {
+    "speed_stop_m_s": 0.3,
+    "acceleration_m_s2": 0.25,
+    "steering_degrees": 2.0,
+    "speed_filter_samples": 21,
+    "steering_filter_samples": 11,
+    "filter_mode": "reflect",
+    "filter_origin": 0,
+    "interpolation": "numpy.interp at actual frame_times, endpoint hold default",
+    "acceleration": "numpy.gradient(filtered_speed, frame_times, edge_order=1)",
+    "label_join": "public frame_index directly into matching original20Hz frame_times; no timestamp shift or search"
+  },
+  "reuse": "V4 full decoded pixel match and time/overlap audit are prior known evidence. Reconfirm only the two matching raw-file decoded hashes, not five-video feature extraction.",
+  "prior_results_already_known": true,
+  "not_holdout": true,
+  "public_scope": "Only10 sparse official labels of OPEN_001; all other public files excluded without exact source proof.",
+  "comparison": "Canonical proxy versus existing public GT. Numeric interpolated-versus-filtered values only; no alternative proxy labels or new thresholds.",
+  "no_model_load_or_inference": true,
+  "no_training": true,
+  "no_candidate_search": true,
+  "no_download": true,
+  "gpu": false,
+  "cpu_threads": 2,
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "opencv": "4.10.0",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+  }
+}

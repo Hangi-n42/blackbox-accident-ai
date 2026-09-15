@@ -1,0 +1,307 @@
+{
+  "OPEN_001": {
+    "source": {
+      "decoded_frames": 1200,
+      "decoded_bgr_sequence_sha256": "301db67f589c3d41de5a174106b51b47ebc76aa2e14e03282cd8b906a4bc94d2",
+      "shape": [
+        874,
+        1164,
+        3
+      ]
+    },
+    "corrected": {
+      "decoded_frames": 600,
+      "decoded_bgr_sequence_sha256": "41117926b9635464b61d1cbb59d7e63d7a20b4e7073ebe895ad7ad5c4e8e1161",
+      "shape": [
+        874,
+        1164,
+        3
+      ]
+    },
+    "same_pixel_features": {
+      "shape_equal": true,
+      "shape": [
+        600,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "cached_training_features": {
+      "shape_equal": true,
+      "shape": [
+        1200,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "same_flow_midpoints_seconds": true,
+    "mapping_exact": true,
+    "corrected_feature_difference": {
+      "shape_equal": true,
+      "shape": [
+        600,
+        864
+      ],
+      "bit_equal": false,
+      "max_absolute_error": 0.6738514751195908,
+      "mean_absolute_error": 0.00452747688085096,
+      "unequal_values": 518399
+    },
+    "corrected_gray_mae": 0.6203745524088542,
+    "corrected_predictions_changed": {
+      "accel": 28,
+      "steer": 47
+    },
+    "seconds": 26.861343500000658
+  },
+  "OPEN_002": {
+    "source": {
+      "decoded_frames": 1201,
+      "decoded_bgr_sequence_sha256": "12ef325822dfd62de7d533dac5d73e55a65dec6f019d745e1bed322cd118969f",
+      "shape": [
+        874,
+        1164,
+        3
+      ]
+    },
+    "corrected": {
+      "decoded_frames": 601,
+      "decoded_bgr_sequence_sha256": "ea15b5cc70650d74ced839f3b586e1fcfec24845444856f7cc400a9a30386596",
+      "shape": [
+        874,
+        1164,
+        3
+      ]
+    },
+    "same_pixel_features": {
+      "shape_equal": true,
+      "shape": [
+        601,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "cached_training_features": {
+      "shape_equal": true,
+      "shape": [
+        1201,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "same_flow_midpoints_seconds": true,
+    "mapping_exact": true,
+    "corrected_feature_difference": {
+      "shape_equal": true,
+      "shape": [
+        601,
+        864
+      ],
+      "bit_equal": false,
+      "max_absolute_error": 0.3653210401535034,
+      "mean_absolute_error": 0.00357704692547064,
+      "unequal_values": 519264
+    },
+    "corrected_gray_mae": 0.6264864751780886,
+    "corrected_predictions_changed": {
+      "accel": 13,
+      "steer": 35
+    },
+    "seconds": 26.025145699997665
+  },
+  "OPEN_003": {
+    "source": {
+      "decoded_frames": 1197,
+      "decoded_bgr_sequence_sha256": "af6616efb29e1240dc863dcfa0511ac6577d871c197ebe5c2d9c76c15dd4e25f",
+      "shape": [
+        874,
+        1164,
+        3
+      ]
+    },
+    "corrected": {
+      "decoded_frames": 599,
+      "decoded_bgr_sequence_sha256": "a8afd2cf3915731aa60b08a390965b0c5ca7d417fc17f9893effdacaef40a83a",
+      "shape": [
+        874,
+        1164,
+        3
+      ]
+    },
+    "same_pixel_features": {
+      "shape_equal": true,
+      "shape": [
+        599,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "cached_training_features": {
+      "shape_equal": true,
+      "shape": [
+        1197,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "same_flow_midpoints_seconds": true,
+    "mapping_exact": true,
+    "corrected_feature_difference": {
+      "shape_equal": true,
+      "shape": [
+        599,
+        864
+      ],
+      "bit_equal": false,
+      "max_absolute_error": 0.31075291335582733,
+      "mean_absolute_error": 0.002828353723841846,
+      "unequal_values": 517536
+    },
+    "corrected_gray_mae": 0.6283723876817265,
+    "corrected_predictions_changed": {
+      "accel": 28,
+      "steer": 11
+    },
+    "seconds": 28.439243300003
+  },
+  "OPEN_004": {
+    "source": {
+      "decoded_frames": 1197,
+      "decoded_bgr_sequence_sha256": "deb0e8e87091c216bd267e86bc0c73630649067d9d2ac8970a935a4cc22449f1",
+      "shape": [
+        874,
+        1164,
+        3
+      ]
+    },
+    "corrected": {
+      "decoded_frames": 599,
+      "decoded_bgr_sequence_sha256": "f0fd0b9528e1806bb0e3118949bb4b48c499d73a00ff6bda43761bf4586b0a15",
+      "shape": [
+        874,
+        1164,
+        3
+      ]
+    },
+    "same_pixel_features": {
+      "shape_equal": true,
+      "shape": [
+        599,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "cached_training_features": {
+      "shape_equal": true,
+      "shape": [
+        1197,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "same_flow_midpoints_seconds": true,
+    "mapping_exact": true,
+    "corrected_feature_difference": {
+      "shape_equal": true,
+      "shape": [
+        599,
+        864
+      ],
+      "bit_equal": false,
+      "max_absolute_error": 0.17527449131011963,
+      "mean_absolute_error": 0.0014241245325861778,
+      "unequal_values": 517535
+    },
+    "corrected_gray_mae": 0.6595846525350411,
+    "corrected_predictions_changed": {
+      "accel": 21,
+      "steer": 13
+    },
+    "seconds": 28.063806999998633
+  },
+  "OPEN_005": {
+    "source": {
+      "decoded_frames": 1197,
+      "decoded_bgr_sequence_sha256": "768bbe9847a5b726e03b099102528e1fe86f59e11f132b3bd00009b2ba935542",
+      "shape": [
+        874,
+        1164,
+        3
+      ]
+    },
+    "corrected": {
+      "decoded_frames": 599,
+      "decoded_bgr_sequence_sha256": "55d97470e66ef3308bdf69a287a97126cb84ae819e2d66272446dd81d81882fa",
+      "shape": [
+        874,
+        1164,
+        3
+      ]
+    },
+    "same_pixel_features": {
+      "shape_equal": true,
+      "shape": [
+        599,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "cached_training_features": {
+      "shape_equal": true,
+      "shape": [
+        1197,
+        864
+      ],
+      "bit_equal": true,
+      "max_absolute_error": 0.0,
+      "mean_absolute_error": 0.0,
+      "unequal_values": 0
+    },
+    "same_flow_midpoints_seconds": true,
+    "mapping_exact": true,
+    "corrected_feature_difference": {
+      "shape_equal": true,
+      "shape": [
+        599,
+        864
+      ],
+      "bit_equal": false,
+      "max_absolute_error": 0.4048383831977844,
+      "mean_absolute_error": 0.002276628587567649,
+      "unequal_values": 517535
+    },
+    "corrected_gray_mae": 0.640575071408076,
+    "corrected_predictions_changed": {
+      "accel": 38,
+      "steer": 24
+    },
+    "seconds": 27.722009099990828
+  }
+}

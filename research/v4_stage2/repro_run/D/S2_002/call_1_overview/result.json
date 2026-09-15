@@ -1,0 +1,38 @@
+{
+  "name": "overview",
+  "prompt": "These are frames from one dashcam clip, ordered left to right, top to bottom. Which numbered frame first shows physical contact of the camera vehicle with another vehicle? From which image side did that same vehicle originate before entering the camera car's driving corridor? Track the collision vehicle backwards. Report its image side of origin before lane entry, not its direction of travel, side of impact, or position after entry. Return JSON with collision_frame and entry_side (LEFT or RIGHT). Available frames: [0, 5, 11, 16, 22, 27, 33, 38, 44, 49].",
+  "max_new_tokens": 64,
+  "input_images": [
+    {
+      "size": [
+        1920,
+        512
+      ],
+      "rgb_sha256": "d7889ef754a73548c52982e0b77c0ba8770b6e44e1bab4f3bbf8ae879b358b0c"
+    }
+  ],
+  "bounded_image_sizes": [
+    [
+      1920,
+      512
+    ]
+  ],
+  "pixel_budget": 1200000,
+  "offered_frames": {
+    "Available frames": [
+      0,
+      5,
+      11,
+      16,
+      22,
+      27,
+      33,
+      38,
+      44,
+      49
+    ]
+  },
+  "status": "complete",
+  "raw_output": "{\n  \"collision_frame\": 38,\n  \"entry_side\": \"RIGHT\"\n}",
+  "seconds": 3.4646930000162683
+}

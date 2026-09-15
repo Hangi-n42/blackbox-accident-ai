@@ -1,0 +1,371 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "input_policy": "native video TCHW; synthetic2fps playback, not source/capture FPS",
+      "synthetic_prefix": "Frames are ordered chronologically. The playback timestamps are synthetic and do not represent physical capture time; answer using the original frame numbers printed on the images.\n",
+      "source_FPS_or_GT_argument_used": false,
+      "original_candidate_count": 3,
+      "encoded_frame_count": 4,
+      "temporal_padding_frames": 1,
+      "temporal_padding_policy": "processor repeats last frame once for oddK; no offered candidate discarded",
+      "metadata_before_processor": {
+        "fps": 2.0,
+        "frames_indices": [
+          0,
+          1,
+          2
+        ],
+        "total_num_frames": 3
+      },
+      "processor_synthetic_timestamp_strings": [
+        "0.2",
+        "1.0"
+      ],
+      "original_tile_size": [
+        384,
+        256
+      ],
+      "bounded_tile_size": [
+        384,
+        256
+      ],
+      "budget_divisor": 4,
+      "pixel_budget": 1200000,
+      "original_candidate_pixels": 294912,
+      "encoded_pixels_including_padding": 393216,
+      "video_tensor_shape": [
+        3,
+        3,
+        256,
+        384
+      ],
+      "video_tensor_dtype": "torch.uint8",
+      "video_grid_thw": [
+        [
+          2,
+          16,
+          24
+        ]
+      ],
+      "pixel_values_videos_shape": [
+        768,
+        1536
+      ],
+      "pixel_values_videos_dtype": "torch.float32",
+      "input_tokens": 266,
+      "video_placeholder_tokens": 192,
+      "input_ids_sha256": "ebde0d0d37403d51dc0b55b931cab5d41381de8392a65d1b7d0c859123f19e31",
+      "input_tile_RGB_sha256": [
+        "e4b5df0c4bdb61da4e2c16dccd0dedaa51c8e3784669813c5b638c2fa3d96214",
+        "6a47072b99ba003daae5f89ad83cd4fe7379d66a1d111c1ef96b3abb67d396c5",
+        "f07e1b18184395b3559743e8581574a7d80dcb26c2d22928454a3bd6bb8fc982"
+      ],
+      "bounded_tile_RGB_sha256": [
+        "e4b5df0c4bdb61da4e2c16dccd0dedaa51c8e3784669813c5b638c2fa3d96214",
+        "6a47072b99ba003daae5f89ad83cd4fe7379d66a1d111c1ef96b3abb67d396c5",
+        "f07e1b18184395b3559743e8581574a7d80dcb26c2d22928454a3bd6bb8fc982"
+      ],
+      "processor_output_tensor_bytes": 4722872,
+      "processor_seconds": 0.039313699991907924,
+      "comparison_limit": "Spatial resize, pixel/token counts, synthetic timestamps and temporal patching differ from earlier sheet/multi-image. Not a pure packing comparison.",
+      "fake_irregular_original_frame_ids": [
+        7,
+        21,
+        57
+      ],
+      "last_encoded_temporal_pair_RGB_normalized_exact_equal": true,
+      "input_tiles_unmodified": true,
+      "model_invoked": false,
+      "GPU_invoked": false
+    },
+    {
+      "input_policy": "native video TCHW; synthetic2fps playback, not source/capture FPS",
+      "synthetic_prefix": "Frames are ordered chronologically. The playback timestamps are synthetic and do not represent physical capture time; answer using the original frame numbers printed on the images.\n",
+      "source_FPS_or_GT_argument_used": false,
+      "original_candidate_count": 15,
+      "encoded_frame_count": 16,
+      "temporal_padding_frames": 1,
+      "temporal_padding_policy": "processor repeats last frame once for oddK; no offered candidate discarded",
+      "metadata_before_processor": {
+        "fps": 2.0,
+        "frames_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "total_num_frames": 15
+      },
+      "processor_synthetic_timestamp_strings": [
+        "0.2",
+        "1.2",
+        "2.2",
+        "3.2",
+        "4.2",
+        "5.2",
+        "6.2",
+        "7.0"
+      ],
+      "original_tile_size": [
+        384,
+        256
+      ],
+      "bounded_tile_size": [
+        320,
+        192
+      ],
+      "budget_divisor": 16,
+      "pixel_budget": 1200000,
+      "original_candidate_pixels": 921600,
+      "encoded_pixels_including_padding": 983040,
+      "video_tensor_shape": [
+        15,
+        3,
+        192,
+        320
+      ],
+      "video_tensor_dtype": "torch.uint8",
+      "video_grid_thw": [
+        [
+          8,
+          12,
+          20
+        ]
+      ],
+      "pixel_values_videos_shape": [
+        1920,
+        1536
+      ],
+      "pixel_values_videos_dtype": "torch.float32",
+      "input_tokens": 667,
+      "video_placeholder_tokens": 480,
+      "input_ids_sha256": "f2bd019bf7e362be563864222407fe50c894d035d9a02246da27a12d3e2a0d95",
+      "input_tile_RGB_sha256": [
+        "e4b5df0c4bdb61da4e2c16dccd0dedaa51c8e3784669813c5b638c2fa3d96214",
+        "6a47072b99ba003daae5f89ad83cd4fe7379d66a1d111c1ef96b3abb67d396c5",
+        "f07e1b18184395b3559743e8581574a7d80dcb26c2d22928454a3bd6bb8fc982",
+        "a95a57ab3300a77fdc77af70200d79ed4bf1b7594e4a1df4d5654fa19499d7c8",
+        "3cf62f6e600e50599ddbb15675ccf6fbc617a26d571fc872035d89371f2afb42",
+        "8e7cbc4140a11eb5e1d17c7f6ff5be70b2e7f1b09a8fdb6b0673841bae0d5ca5",
+        "b9f7563772f16b48a71b7d102b1d4df77d940c210395244a0153e6e53d142632",
+        "eb36464cd9a58f45ae5ccfbb1670236e676a9f9c4e3a11abcc7e9b61c7eec66a",
+        "73cd7b3164da449f179f943e1e3e4a6507c2a5cfb1c34ab16705f776ebb76577",
+        "4b8ed18b25b2d511dc330901c93f2e1db797b563038ccf8bb7541fb727e12d39",
+        "f203c0c20895c7418f0954787f4f461b4595eeb6fb15bc44cd114f1847583139",
+        "3aa7e46996e4ef31ebb0cbce1d01d117267636974560075bd3dae8d7cb114e68",
+        "9d7b88c5c06535de28a0e4f5f0a7a7fa18983d678ac9139aa2cf600be323eb8a",
+        "b14031c524ac6204dc2b853ec5fc21e85b758b6c3ab1b25cc7c630c4aea1fa73",
+        "85f9a444b8c6d052c06199d088a700a554d02940010ae9c842f40b3b35bdbda0"
+      ],
+      "bounded_tile_RGB_sha256": [
+        "b9f84555a307ca0dde037b5450f5248533a7ea8aaaf34815f6814bc8476c3f5a",
+        "74893274ee38ddc90c9ef8a73a8ccf3581dd47cf2950d4659f8531302f6b7e83",
+        "30c2d45f05b02d7ca6cb2b1454d468a5651cef1f0ca1b1428505552a814f6580",
+        "ad0e15fd03a092a50b16e9586b364d3d0a722d5dde553bb31a07b051109670e7",
+        "c326b7fcb71f6a8cf320b13d8e81b6943bb8528525f159d79a17d70cdd7e5312",
+        "b92d157a2480d6f448f8c027d4486df94b942bcfd425b1e8df1c8ef3864e0825",
+        "02b962998b1e535e19dd675e2a1e02ed98f6a6425f56ac698f75bc13a337f614",
+        "a45ff6f2c248d53057b97c71dc84ecce188fa8363dd90b298afbbe80bd3082f3",
+        "6bc986d52baf9865b5539b94b425d53f3df730e05c6b8daae33efd0b4b0e9948",
+        "6dfd3940b72202e0eedeca6d4bf4f36587aaf1b0d294753fd4aa5789819d9d63",
+        "7365f4e3df2fd1cffa4134d60eb78106b1b75c1e3ae7cc5904c5a8fcd994a547",
+        "76661df2c7b230d02138e618b8e6572486a546a1a4744168174ef9df544b115f",
+        "5b89a1a67ff0dd9dd9dc987811cb775c53d8f39c833bee6aaff3f5ba8f2910bf",
+        "f1066c16cee9eb939d8d7ae9ff24fef09183e217965761f5ce7accff73347717",
+        "32914049718a1b9b55c57f2c7e9942e29e2d6a03e494daa6ce9b00fbc567f523"
+      ],
+      "processor_output_tensor_bytes": 11807176,
+      "processor_seconds": 0.04862939997110516,
+      "comparison_limit": "Spatial resize, pixel/token counts, synthetic timestamps and temporal patching differ from earlier sheet/multi-image. Not a pure packing comparison.",
+      "fake_irregular_original_frame_ids": [
+        7,
+        21,
+        57,
+        115,
+        195,
+        297,
+        421,
+        567,
+        735,
+        925,
+        1137,
+        1371,
+        1627,
+        1905,
+        2205
+      ],
+      "last_encoded_temporal_pair_RGB_normalized_exact_equal": true,
+      "input_tiles_unmodified": true,
+      "model_invoked": false,
+      "GPU_invoked": false
+    },
+    {
+      "input_policy": "native video TCHW; synthetic2fps playback, not source/capture FPS",
+      "synthetic_prefix": "Frames are ordered chronologically. The playback timestamps are synthetic and do not represent physical capture time; answer using the original frame numbers printed on the images.\n",
+      "source_FPS_or_GT_argument_used": false,
+      "original_candidate_count": 18,
+      "encoded_frame_count": 18,
+      "temporal_padding_frames": 0,
+      "temporal_padding_policy": "processor repeats last frame once for oddK; no offered candidate discarded",
+      "metadata_before_processor": {
+        "fps": 2.0,
+        "frames_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "total_num_frames": 18
+      },
+      "processor_synthetic_timestamp_strings": [
+        "0.2",
+        "1.2",
+        "2.2",
+        "3.2",
+        "4.2",
+        "5.2",
+        "6.2",
+        "7.2",
+        "8.2"
+      ],
+      "original_tile_size": [
+        384,
+        256
+      ],
+      "bounded_tile_size": [
+        288,
+        192
+      ],
+      "budget_divisor": 18,
+      "pixel_budget": 1200000,
+      "original_candidate_pixels": 995328,
+      "encoded_pixels_including_padding": 995328,
+      "video_tensor_shape": [
+        18,
+        3,
+        192,
+        288
+      ],
+      "video_tensor_dtype": "torch.uint8",
+      "video_grid_thw": [
+        [
+          9,
+          12,
+          18
+        ]
+      ],
+      "pixel_values_videos_shape": [
+        1944,
+        1536
+      ],
+      "pixel_values_videos_dtype": "torch.float32",
+      "input_tokens": 699,
+      "video_placeholder_tokens": 486,
+      "input_ids_sha256": "154ab4f1153355df24ea328bfcd949350bc3dd3525b6c0d3c6e4bf5aedbf44fe",
+      "input_tile_RGB_sha256": [
+        "e4b5df0c4bdb61da4e2c16dccd0dedaa51c8e3784669813c5b638c2fa3d96214",
+        "6a47072b99ba003daae5f89ad83cd4fe7379d66a1d111c1ef96b3abb67d396c5",
+        "f07e1b18184395b3559743e8581574a7d80dcb26c2d22928454a3bd6bb8fc982",
+        "a95a57ab3300a77fdc77af70200d79ed4bf1b7594e4a1df4d5654fa19499d7c8",
+        "3cf62f6e600e50599ddbb15675ccf6fbc617a26d571fc872035d89371f2afb42",
+        "8e7cbc4140a11eb5e1d17c7f6ff5be70b2e7f1b09a8fdb6b0673841bae0d5ca5",
+        "b9f7563772f16b48a71b7d102b1d4df77d940c210395244a0153e6e53d142632",
+        "eb36464cd9a58f45ae5ccfbb1670236e676a9f9c4e3a11abcc7e9b61c7eec66a",
+        "73cd7b3164da449f179f943e1e3e4a6507c2a5cfb1c34ab16705f776ebb76577",
+        "4b8ed18b25b2d511dc330901c93f2e1db797b563038ccf8bb7541fb727e12d39",
+        "f203c0c20895c7418f0954787f4f461b4595eeb6fb15bc44cd114f1847583139",
+        "3aa7e46996e4ef31ebb0cbce1d01d117267636974560075bd3dae8d7cb114e68",
+        "9d7b88c5c06535de28a0e4f5f0a7a7fa18983d678ac9139aa2cf600be323eb8a",
+        "b14031c524ac6204dc2b853ec5fc21e85b758b6c3ab1b25cc7c630c4aea1fa73",
+        "85f9a444b8c6d052c06199d088a700a554d02940010ae9c842f40b3b35bdbda0",
+        "ef6e658a57facd4fd49c3932e00f24a18dc6adf3e9c38a16bfca260b52935284",
+        "74052fcdab86075eb79d81aa971689d95b6a5f8550bddfd03fba5ffdf835c4ff",
+        "c1fb175dc19d989c1b8c5843b9bb00d94f0d40db7e97ddc37a0356bd5611bdcb"
+      ],
+      "bounded_tile_RGB_sha256": [
+        "2e5ad25fda8240e11bbe4e22f3507e7fa8a54fdd082c3549a3814ccd39372777",
+        "26fc9e69b3a1dad56f626c840816c033615347300b097a9066f685e61e048498",
+        "97c8d0d6cb38104e3cbeed6211cd43a739e5867c2bebb13bb7c812e1ab196f11",
+        "dc4dac216e2be499603d6e1361f0100211be7623bb42e9459180fc72ca0cb9f6",
+        "31d0dd8aa9076ac3939ffc621b3ef693c77d878b23b3ddc3ee46994300f16ebd",
+        "fe59ff0291af1c580772d32cbb90c3a169ed7e79cad0701dfa0d193c9de884ba",
+        "261602452b64c881ac96da979540abad758169f57e0fc8ba912f8c2068b3d1ed",
+        "b62e28d1dc8e7aca88a6d907319529947f70a3ac60bd767edae041af4e736de4",
+        "81bfcb04a9451b59364b54b16cd73c29715982965c7a90e4d02500e15bb7f735",
+        "d6ca5a83e1a5854945c3fdc6e726eadc56328dde23b9a74885c4de9289efdad4",
+        "1985c235f6687ee49862818a9ac004098773b49690c317cda5b55a063acdf0c5",
+        "961e9c3579436a1c714efa263dee9fd1c65af880ddee2af3677b39efaba99f89",
+        "fb48bd96c070949b6e343477b00c3e7da4affa5c0f2017518b06cc6b692edcbf",
+        "4a4a943b2cc16af526704e79a79d491084a5fd9d08daf4bbd602896529964e8c",
+        "7de4e27de653ad0b96f4f696897d70a2ccaceff9e958b0e94cd40ca5d63df3e3",
+        "58fd6a66bf6ffdc0b9b45b2fa71a65474c2850f14acb79e96f3d71f7b9b36b2d",
+        "a107135e9fe5891d2b00db95430472b55f3a5ed6e2b84771e384b7370c64a468",
+        "844f95e2cf5846b5f04782c6fbb6928cb63cfa053f1068e7a2175f0f579cb632"
+      ],
+      "processor_output_tensor_bytes": 11955144,
+      "processor_seconds": 0.050304300035350025,
+      "comparison_limit": "Spatial resize, pixel/token counts, synthetic timestamps and temporal patching differ from earlier sheet/multi-image. Not a pure packing comparison.",
+      "fake_irregular_original_frame_ids": [
+        7,
+        21,
+        57,
+        115,
+        195,
+        297,
+        421,
+        567,
+        735,
+        925,
+        1137,
+        1371,
+        1627,
+        1905,
+        2205,
+        2527,
+        2871,
+        3237
+      ],
+      "last_encoded_temporal_pair_RGB_normalized_exact_equal": false,
+      "input_tiles_unmodified": true,
+      "model_invoked": false,
+      "GPU_invoked": false
+    }
+  ],
+  "rejection_checks": [
+    "empty",
+    "wrong_size",
+    "too_many"
+  ],
+  "all_bindings_unchanged": true,
+  "elapsed_seconds": 9.171451600035653,
+  "actual_saved_processor": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\artifacts\\submissions\\verify_v6\\model\\stage2\\vlm",
+  "model_or_weights_loaded": false,
+  "GPU_used": false,
+  "scope": "CPU tensor/processor contracts only. No accuracy or GPU memory/runtime proof."
+}

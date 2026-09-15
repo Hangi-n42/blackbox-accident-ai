@@ -1,0 +1,4799 @@
+{
+  "scope": "Read-only input representation audit; no model inference",
+  "roots": [
+    "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\stage2_public\\images",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\artifacts\\public_eval\\stage2\\images"
+  ],
+  "videos": [
+    {
+      "ID": "S2_001",
+      "frames": 50,
+      "rgb_equal_frames": 0,
+      "mean_absolute_rgb_difference": 0.6400168041087962,
+      "rows": [
+        {
+          "frame": "frame_000000.jpg",
+          "file_bytes": [
+            47296,
+            83441
+          ],
+          "file_sha256": [
+            "41101efe3b3b1b8483e9602a839142f9bdf8110db0672c2f2420e7c765e33cf7",
+            "abb76f4a32d7faf636878e406bf088a96d5caef3bd7a5018d815d63ba1a15040"
+          ],
+          "rgb_sha256": [
+            "8200c35346b0d8cc1daf718dff9b89c2fbef97ec3bf581547dc63b07cf81c007",
+            "5691135662bd9b6c175a183dc1a641824d39f3f4a31e1570adaceb058e6dea3c"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.3968171296296296,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000001.jpg",
+          "file_bytes": [
+            56337,
+            127098
+          ],
+          "file_sha256": [
+            "fb5679ea6b4b01655c6f3f602696a3bb36cfc4139099f704cb808383c807bc7c",
+            "e1178c94077001fc013ed12d21d190299e84ccacb5b31b6adcb39f84c7080bd4"
+          ],
+          "rgb_sha256": [
+            "f95886608077ad89eaba02c2692758b7482ee82aa8c17922964fe1c2d4e38c96",
+            "64b8a999d85f39b35a8c0d34c789154dcf30f4ff4188a8b50eb423c06c15df1b"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.8367111545138889,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000002.jpg",
+          "file_bytes": [
+            56217,
+            129848
+          ],
+          "file_sha256": [
+            "e62af078f93288874359cae4c3f6003ae02045505867b988ffbf7f1644ff4634",
+            "817a67d56388de75c05dbcf758838a9a01cb415c8f37c3ee955cef49d5e0c957"
+          ],
+          "rgb_sha256": [
+            "db84c788d7c84beda94c95b6a11050cd536411bb815833303e1fb0740b108d7e",
+            "c20cba7901acad0c3b8269fd97a527ba508e5887a45557421e3506bffbe58fb5"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.8677936921296296,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000003.jpg",
+          "file_bytes": [
+            54985,
+            129269
+          ],
+          "file_sha256": [
+            "af9f29440d862d5c682d0fd68742966c4760647f824181b12e419342030cc89d",
+            "57f22d489f4824c1d09a1e61073924886257bf322a24f888b9eb3ef0f089600f"
+          ],
+          "rgb_sha256": [
+            "3002375259e48a2e8d391602fdb4a5b9de9f3b9861e40de4f258172401ed1ef4",
+            "1e663c18ce3f5395e7b43ae30a99f61960e71bbdd41133f9ea021a892638771b"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.8789449508101852,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000004.jpg",
+          "file_bytes": [
+            53817,
+            122158
+          ],
+          "file_sha256": [
+            "273b414d80e10492c536b311ef12a5a00442828153d3c1c45a540bad58b6cb59",
+            "9e9509021f6342e64593a728753341dd37e70757f65215e5f998fc540a08c55d"
+          ],
+          "rgb_sha256": [
+            "ef39c56e80569b6ca438a8a0d1e881e25dc1688b3377ff26648691e61cb20bfd",
+            "f9d74c0b94db4fbd5919cc6eb70acc1a84b92ff8345cbaff4fc24e6c7a0e5f75"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.796144386574074,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000005.jpg",
+          "file_bytes": [
+            52936,
+            119322
+          ],
+          "file_sha256": [
+            "f3e6bba358e633d87ee929593363efcd16f46604c85293a45d4c881e31294358",
+            "b8ccc81a7d42c02b5ca0d60f0e18999cda21777f1a552d8945ec14f4f5f0fb02"
+          ],
+          "rgb_sha256": [
+            "6c1c0217cdc682f4a0aef56f4694a90a0228ab14f1ae3e60c6aec215cb9d1007",
+            "05f937b6111b0979138d62375cb0f2c4682c2ba7d0e2f2e5432c9a3170f6158f"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7641380931712963,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000006.jpg",
+          "file_bytes": [
+            51447,
+            115223
+          ],
+          "file_sha256": [
+            "56a313346baf1c902b5bf911ee48a88c6a39c9221d3e5c3b6f43b8024f54a1e6",
+            "7e936ef8b62d3c01e4a015920ea562d983f8d7b176c14f0d171b3700e68223be"
+          ],
+          "rgb_sha256": [
+            "233197f903f442488417b9026ac3e5ecd3cb989c04aea7c262b17adb75b3a21c",
+            "18483c2487952256de6afdcc4e8f1941604e3ab536c2051f55596192eaa8f2cf"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7589312065972222,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000007.jpg",
+          "file_bytes": [
+            52392,
+            117975
+          ],
+          "file_sha256": [
+            "720f1d5e5b692fc2ad8356512281767a3dcf5e314b50f4ad0cf36b8e00b821aa",
+            "7572a468f2d785fbd4a5a1b7ef0d6fc2370c3d36465f0a66fa8f9e4577cca10c"
+          ],
+          "rgb_sha256": [
+            "02e7ef04db831699722541aea31d8a8e72610c9c787700b6022662c968da3732",
+            "8558f58feb1c70f8c6dbaa13ed272d780ddd0e5cad80c7f3879b27418c435ba8"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7909389467592592,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000008.jpg",
+          "file_bytes": [
+            52677,
+            117835
+          ],
+          "file_sha256": [
+            "b7ce653c4cbbf3eaa563bbadb9f62f69aa34c9295aa55712ac1ff14473defece",
+            "10cf06bec0eefdb911e7b5f13c9d3c11727d3b52b8bbbbe5ed49c327ee18ae5b"
+          ],
+          "rgb_sha256": [
+            "3e9624190889521c939b24c969be6f0f30e3994f0427edf1b6213591a9da994f",
+            "dab7c80a76b323002e760c565380df87a0979e137b3944ee2797070e40c8376f"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.8213700810185185,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000009.jpg",
+          "file_bytes": [
+            53983,
+            121074
+          ],
+          "file_sha256": [
+            "7269d581ab693d917db164ac33676c6726436ff420ab059cd92477b58620a85f",
+            "2e5baf6ce27fdca3891b6ab2aec41ea4407a815d17975ec3b1ad1590a5606391"
+          ],
+          "rgb_sha256": [
+            "4cd172f12697f0d44c407b2bdb2e739554de3066c732b5f5ca97e9591fea4bfa",
+            "3592aa12a1115ff0a4f5c0a01d278920627718a4ad06b08a4145ef2a9fb33d29"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.8564073350694444,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000010.jpg",
+          "file_bytes": [
+            49725,
+            108524
+          ],
+          "file_sha256": [
+            "3ca2b508236953f901c0b9fec6b1791d618d27e0120466cc85562701b052ad56",
+            "29216bb331e2de9089618c5f4a68905986e361f38966ad7ba3d34e010ebac3b0"
+          ],
+          "rgb_sha256": [
+            "404f6533e47db698f077895e8cd421ed86e7657477393985c7489e145752e0c8",
+            "b15bc059ed3c1eaee971bc6bea99a15a770eb813282f61dc15768a81c50ae357"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7517418981481482,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000011.jpg",
+          "file_bytes": [
+            46508,
+            98918
+          ],
+          "file_sha256": [
+            "b40932652d00c91836615a79867ad225b68049d939d91805dfb892aeee5d6521",
+            "55dea952a55bec2e8b26c7d163e65974fff12d1f4762f66ec80f6b47d2abce00"
+          ],
+          "rgb_sha256": [
+            "e79f98536202d113d0ee727c199d35e97325507493785a3c4b4587281813a5bf",
+            "5267a581089166a7c7ef2fa21f76f6c8e22f572b7db199c9131bfacf1008a81b"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6776533564814815,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000012.jpg",
+          "file_bytes": [
+            31114,
+            47164
+          ],
+          "file_sha256": [
+            "2447e6992c9b1949bc73242fe0f4441031f9e9c7da0955935923b53058037ccf",
+            "89d740cd17871e66da1be45bc32856d1cccebde3fd6a80a4f3a1d8e129e5c81a"
+          ],
+          "rgb_sha256": [
+            "ce106d3364ee0bf4aed2e3c2ea01449a8c1334988cb0be1441a2b736545199fd",
+            "c7a24eb6175d363019097cd4343184136b34f8578db11e36d73cbdcdd3c3a59d"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.21295826099537038,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000013.jpg",
+          "file_bytes": [
+            46088,
+            90845
+          ],
+          "file_sha256": [
+            "aaad57db76368ca36acf76d95ab012f61633d19a94181168da794f49212927b3",
+            "87430873b59dca42217e5746c5e9a81a22e3ee80538f3082f7274784b831e945"
+          ],
+          "rgb_sha256": [
+            "f86e0ec30b3a620b678fa2b69d40072de5af1afdd0daf098da869b88492a4b49",
+            "55a942014e163970dc89e2db0dd7df81175afa06705ec372212321ee151765c5"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5631130642361111,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000014.jpg",
+          "file_bytes": [
+            53668,
+            112511
+          ],
+          "file_sha256": [
+            "86d32f4ec52a94fda4dc6b5a47def7f3e06ecb19008a2a54f4bff7b0476785c8",
+            "dbe8eb12a9355766b50db4dbae6b3f871940667a2575dc67f71bf555d33cea03"
+          ],
+          "rgb_sha256": [
+            "ffaf4ce2fecbb5d13dce9cab938ca5de012f27c5ee911362156e3d7fa762934f",
+            "1985462a690debe034a30c8fe12f63da35e8ed65567398e94eebe5ad9620b750"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7576812065972223,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000015.jpg",
+          "file_bytes": [
+            42118,
+            82185
+          ],
+          "file_sha256": [
+            "b700a7f30c63fa1584311e0f52872271421eda23c46ac8f9504156cdc41301d9",
+            "027f80075ace02503e204a61147224ae3f35fade925b83ea6a602526b10cc92b"
+          ],
+          "rgb_sha256": [
+            "a5375005b4619eb7602f8a014a1bf4a5c50ce35b785e0aa849904a274302551a",
+            "d5aeb5293fec0028223c1740e62023f67cfceb1044ddafa3537708ec292b07e7"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5471021412037037,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000016.jpg",
+          "file_bytes": [
+            45072,
+            88570
+          ],
+          "file_sha256": [
+            "be9a8f2475b55bd2bff185f2fd437f480c2bf857a91fbe2f537e06e9c2996648",
+            "2c28cc6a48fdae84083631523d1ff194144afcdc8606297f5089bfb47fd747f3"
+          ],
+          "rgb_sha256": [
+            "7831a40283ea606f7f7640f90e0b6e9551c9031574d94d30084d7c7a39510ffb",
+            "09de5d67f752cd118e5a0a1f70a712be1a68846405b6a4d90b5d6cc7a0fc9d66"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6105313223379629,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000017.jpg",
+          "file_bytes": [
+            45093,
+            88948
+          ],
+          "file_sha256": [
+            "d3fab03b6ef6d11e625e11bc23e7a0cb486e6e0afc4497ba87dda7c8e0f99886",
+            "68ae0ba4e644f49b951640d002c820fe1fbc977a5246c1da976cc6a70f65eb95"
+          ],
+          "rgb_sha256": [
+            "2bc32a5706f210f5accaf3d8bb9cb6c020c18a0d6a61b9229436b793dd57bda9",
+            "c4d7627aac17a43770094fd6433240a2be40a98bcc2fdfcf1c0778a509b7a81b"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6139489293981482,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000018.jpg",
+          "file_bytes": [
+            39326,
+            73964
+          ],
+          "file_sha256": [
+            "c7679b376dd7229e76a23aa5f98adace58d5bb1268f1341f47bb1028f2094622",
+            "a51f9accdc8c86e5c2a505897bcd1cb378a70efa49c2dccc1b7aadeb32f05cd7"
+          ],
+          "rgb_sha256": [
+            "fdeb3085fb8036b9928b593862ca9a931398179392bf9ebbb598b54e65cf25a9",
+            "441ced0583b980cff81b3cb481fa28bb24842a86ba8b64d39ecb4a08ec7c4be9"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4814771412037037,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000019.jpg",
+          "file_bytes": [
+            40699,
+            77940
+          ],
+          "file_sha256": [
+            "0a06f65e788db1a62fdc6a088463d4025f5bd095326402c2797c2902508431bb",
+            "4bdc25a038b648fa32e119a8ed95566c31a98801370c54a1912c44fdecf9266d"
+          ],
+          "rgb_sha256": [
+            "5cfac92228a52c18a0f6216ab0be065ba2efd995096aa2228eef4fdb016886b2",
+            "6829bfd385169110d76f73751c4c829e615f957412ede9c5b890ef4db5ff7b9c"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5237829137731481,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000020.jpg",
+          "file_bytes": [
+            45849,
+            91163
+          ],
+          "file_sha256": [
+            "5be826fbbcb09e544cd7bee0741f7c0c42612270c1b7a8a3383880e4b4185653",
+            "96195ac4f6d10e023947b36bc7d31a44c0d36dc101b86506ad6c4b21ae7bb67b"
+          ],
+          "rgb_sha256": [
+            "f57e9197fde23f79abf81ccb9605c90bdf2ac457aa82eff1c10bcbe7afdfb59d",
+            "5fec2d58b6a803d4723c159cb116789193b4cf8f1e14fa75a51334759e14086d"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6121708622685185,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000021.jpg",
+          "file_bytes": [
+            42637,
+            83992
+          ],
+          "file_sha256": [
+            "843406c914a15b427e2b7828889e1caabfc8bdf26d992b13af3be460c5661d3e",
+            "07b9e7c712fcc5d177a1fdbd0f0cda837cd69d237feb83ecde4ece2be332bec4"
+          ],
+          "rgb_sha256": [
+            "d70a33acdb1121eb96cc5e5d7208e80b6963a278a1949fb4c54e4d5574774c0a",
+            "99bdf797198ce26bc7718c308e9df380339a12c26fbed3ef554d8b1d76781b11"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5589359085648148,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000022.jpg",
+          "file_bytes": [
+            44795,
+            89334
+          ],
+          "file_sha256": [
+            "60d6be85545dc8305d6c530bf9daba880e7f4e49ec3a1acef952a84d8468044f",
+            "c1ea2b6278f173202ddc97a407d0c13cdcb7e9cc180a205f2f0a980274d48cbe"
+          ],
+          "rgb_sha256": [
+            "6460e703c83ea05b66d8a706f1d34b3109dd1f082a83e28f1e29ad184e83016f",
+            "3c8cbb0c08379194a62d7b089219f848bfa77dd57b9f0eed9f9661840cf98b59"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6076989293981482,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000023.jpg",
+          "file_bytes": [
+            47248,
+            95717
+          ],
+          "file_sha256": [
+            "1347fda2a080ac0c480c389c5077714279d8824dc31d30646fcd7de34d92bc12",
+            "699d8e92e7af733ff24ea40d35e4aafe6f4cc820bc1ce94f4d1353b5145c30cb"
+          ],
+          "rgb_sha256": [
+            "485806febd67011642f3abed988cfcbc6eae4fdec5fe57282b2d0cf03f33ff1f",
+            "ef368f015b3cee901bd1c815cff0feb83105da9a5ee9f0f6c578f8745e4cee6b"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6639228877314814,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000024.jpg",
+          "file_bytes": [
+            28492,
+            41736
+          ],
+          "file_sha256": [
+            "5f91ee0185898087930b7b3aa073cdf39ad50818f09f2653a317915d8c617826",
+            "9bdc2e2c704b78057da92940ff3747444d74dcb99d6e8ad5f5a7274b9eb81673"
+          ],
+          "rgb_sha256": [
+            "34d03a443931e32c21923fdc11ec6933d3c6036e29b37df72b5bf9663ab4bfc2",
+            "41947229c9609789d9633def869fb47fbc874b39172ea16c4ab2ac5d5dce4d38"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.22211986400462963,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000025.jpg",
+          "file_bytes": [
+            41741,
+            79599
+          ],
+          "file_sha256": [
+            "a7f0581c79c171486ce30d5483b2f223d6a711178a2ac1cf29738cd54c64db22",
+            "2847fdd75c146249f3fecb6591f9f2cc0fc238119d53117c01ebdaf075094294"
+          ],
+          "rgb_sha256": [
+            "7c65d454b94afd1d065dc7797a3e25af4ec15a24e519527a6bcc507d00373282",
+            "42ea9fa117e8e0c00b2c37243a7314893dde5cdfe0e8a0e8fe189442b84555ce"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5360684317129629,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000026.jpg",
+          "file_bytes": [
+            46198,
+            91726
+          ],
+          "file_sha256": [
+            "c9acd34aed3c4106e7dce3282f4c0d7a8a1c9085b619f6618f18b851fd8f0927",
+            "d243e658e2574f7e12741c36bd74a4bc26e3edbb121fe026cfd949209bd9e419"
+          ],
+          "rgb_sha256": [
+            "2922956abdac66da4d36743562ab17019649629220c2994ce93f04a09bd3c9c9",
+            "4e0a2e4c1f9500081f249e02851d9b21d24b1e2387f1587c6b5b68d16bc6bd71"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6339391637731482,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000027.jpg",
+          "file_bytes": [
+            45005,
+            89848
+          ],
+          "file_sha256": [
+            "491cf918a370f9d58fa4f0c8f61b1c251054e5b14999458415b513a01f7d90e2",
+            "62ed8ea6afc8250fdc6cc94141bfa89fdeb3319cfb81ff3e59597b31a5b7b7e7"
+          ],
+          "rgb_sha256": [
+            "f039ad5aa997f37ca17026ad5740bbcd2fc65659efde60831f62a7895bb3040e",
+            "129dc0bbffc1c298eea13f2c3b6316f0b586dc07690f617a8dea64989ead0e57"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6243663194444444,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000028.jpg",
+          "file_bytes": [
+            45450,
+            91566
+          ],
+          "file_sha256": [
+            "e1a5b0c25857e272bea5a3d9bebb70814e11231fec57ef59233cf1a5b658d368",
+            "0198f8109d561c2d8024333f539ea2332fb2d25b8e0258d3feef41942a296838"
+          ],
+          "rgb_sha256": [
+            "fe091d2da0128ff9f481f846d704b22c6b542fa043e9a7c29499ecb0389836a5",
+            "b7618c28bf19a7c69c1ef80d42a7ff35d213041ac1917d107019d657d080d23b"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.654916087962963,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000029.jpg",
+          "file_bytes": [
+            44318,
+            88583
+          ],
+          "file_sha256": [
+            "baf24fc2c5dd4dcd74baf234d6a60d1579725f613e0875d5f1bf52b2d2c26cce",
+            "007264d08181b575d49fa5f70556853a6f50e67eefe3c4156883fab54cb0a25e"
+          ],
+          "rgb_sha256": [
+            "6cb4f349f26b8f7da3caac23d6c379e10ba8aa83e79de185e0c7871ba6d330fa",
+            "25cb740c728e350101c25cf0e6464c54cdaee2de6eaff115fee62cb60483ce2f"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6335499855324074,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000030.jpg",
+          "file_bytes": [
+            47590,
+            98271
+          ],
+          "file_sha256": [
+            "9c2d0c95c9715296d30794e2a4b3c66a3099ce82498a52ab0c20eb4931c66016",
+            "efaafb9ff16bcbf44494aa1f67f5e32f451082889f9462d19ed5fa66bdaa3ff9"
+          ],
+          "rgb_sha256": [
+            "7c073b3650df8d1b14e8ec20674a2aa663bccb0974e78376d273342ad6fc5862",
+            "a7932018ff2a329d58751773266835129b3f9ae662cdbe46a6844799e55f0585"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7214822048611111,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000031.jpg",
+          "file_bytes": [
+            42090,
+            82493
+          ],
+          "file_sha256": [
+            "2d8f40ee56ca590f8fd360c44a401e835213bf920f811e47b4c450e12cb15973",
+            "14b687feff9ccdc8f88afea54d9b6ed9e1f3a4c567aa8c1889c3dee17f59ec10"
+          ],
+          "rgb_sha256": [
+            "a994665e8b678e1c4457f9534d267aed502bc83dfaab79dc9a08d60014a13687",
+            "8685830233200902eb5071c5fafa305ea62503339e47c3d039eb89852b914ff6"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5970775462962963,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000032.jpg",
+          "file_bytes": [
+            44323,
+            88518
+          ],
+          "file_sha256": [
+            "91ee119f74f0c4fc87e0462a6bfb841f6ff35a2b9db31a290cb62de773313c71",
+            "a1f63b627bb9d20b5db889fdafefd02b7b9ca9742b536cbb5b3ebcdf9407a6e0"
+          ],
+          "rgb_sha256": [
+            "5038b9a7f128341b385a1336719ea16c1fd946a3926a1906258d04adc133ee66",
+            "033f95d4a15c33e2d1a884a2452295e21e1fc8cb709bf5d738f75a653c351b4a"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6505580873842592,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000033.jpg",
+          "file_bytes": [
+            37751,
+            70647
+          ],
+          "file_sha256": [
+            "4b3778f5e7fdc15395aeb36e5a2af289736a8692b1df2315cfd40ccaec4cb09f",
+            "524a66697dfd5d0afa79d5be3da55628b9369faf2cecb3204309052baba8378b"
+          ],
+          "rgb_sha256": [
+            "aabf82a60723900b20116291ba46f5bdcaf782e4cc208dd86be2f76753c9dec5",
+            "b1365eefc87dfa537802a771ab33105c9568d2820860b9d6bc8cee00034f0176"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5074768518518519,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000034.jpg",
+          "file_bytes": [
+            43391,
+            85847
+          ],
+          "file_sha256": [
+            "08bb6e197f9156bb65267a9c18b785af1da76d6073a6a76d7aea888511043752",
+            "ff47993a8168aec4660c4848364f24cd9e75ae90eaa2aa2344a5c89e80a9e36e"
+          ],
+          "rgb_sha256": [
+            "6a2e6de78fb45d78a49a51511b3af239c2c2833150166a96b54e7352ca40030b",
+            "af5c12f01f818488bc892a74d9e88f4a747e23fd61a0ee35d133851c1cceef37"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6306354890046296,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000035.jpg",
+          "file_bytes": [
+            37020,
+            67814
+          ],
+          "file_sha256": [
+            "b292367d79caa469c613bfbbfb63bf14f554280df91d5de10622544a50942d21",
+            "5546c6f465e795f156d4faaf823c7f3684a9a5d6c4dc07d542800fe6a0be3fd8"
+          ],
+          "rgb_sha256": [
+            "3f60ffa3e780fb9577d16e774ce311575354b559e917ccd4a98372abe39f370b",
+            "a4113220cfafaee7f11341958fbf1c0730d892ecfde1174b2be4bf1ab9423b66"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.47165653935185187,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000036.jpg",
+          "file_bytes": [
+            28356,
+            42341
+          ],
+          "file_sha256": [
+            "d7ae4464f4f4608a7d21bbf7f113e300fd674316e34e72803b6d100a32049ac8",
+            "bf24d0be77ccb5043616340f4de8a506ddfebe987bd282dab6ab291bc68794ed"
+          ],
+          "rgb_sha256": [
+            "2ebbb56298580284f73d9de7cb5ea4c2888bbd67329105e340ed8297223cb9dd",
+            "cb94ddcd8b1222b08cbe2521c218d7409fd6302ac9897532bba7d8eefebd165d"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.2749678096064815,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000037.jpg",
+          "file_bytes": [
+            44206,
+            86704
+          ],
+          "file_sha256": [
+            "f42cc976a00840477968ce59a8a4086cbdcc25dc75f94b9cd5d1ed7b28ed727c",
+            "4ef227be42ca8742bd82ec124620d88d6245721480d05c01d85b3186e549ae6a"
+          ],
+          "rgb_sha256": [
+            "ee7ef54bf1fd2b0304a49f0653f4a14abc21a97272af69a64497daaf46b00a30",
+            "5dd020f7cb3740b80b5ae14a66537bc573ab141949097745f8ac42cced1ae5d4"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6171961805555556,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000038.jpg",
+          "file_bytes": [
+            47330,
+            96927
+          ],
+          "file_sha256": [
+            "3bf7a034d1c2eacca824b2275bc64181c636f6a0dd16b900206759c8587702d6",
+            "f59c4391d4ed83c6eea200e39406e0dac5b5b1b5acba328dcf7fdafa9a89bd74"
+          ],
+          "rgb_sha256": [
+            "a4d15550fbddd06499def79938083a9bd666d7cb85e103405e69dce3b3d251c3",
+            "c99e31d3321dc54606ab022703273b4ffea7f85a98f73c0dde057f7da4007642"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6967071759259259,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000039.jpg",
+          "file_bytes": [
+            48525,
+            100183
+          ],
+          "file_sha256": [
+            "8bf08a4efc39fed86fc9685e020800c50b5227256c9b67121027d4efc7b32896",
+            "16ca4cb78a14381973dbe2a402a38ce84a7318cf81411c027d89d7d7d5164397"
+          ],
+          "rgb_sha256": [
+            "40b7af6aa44668e02d9019f88e21648d2031032cd4da18d8f17cabbe5db70362",
+            "c246494c494830ccb11d54bcec043ba501ffc91f1efe2a7961ff550c1e21226d"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7262586805555555,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000040.jpg",
+          "file_bytes": [
+            49415,
+            101337
+          ],
+          "file_sha256": [
+            "60a1611288653e14287d7806b1f41c72b26cb642375e349209e736ac84dcb38e",
+            "1236aedb32c3265d713c0f3e4e097f4f215cb69219b102151a42a4adf0dbf7da"
+          ],
+          "rgb_sha256": [
+            "283836c5eb4a02d0c1f6af6bce36f15d02d8c446372afc8152a1814077597cff",
+            "2c6fdeef850e84cae459c2cc91157d6dd4c1cfae9ae2d54b1ac78b8bf82f6a14"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7229521122685185,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000041.jpg",
+          "file_bytes": [
+            50722,
+            105624
+          ],
+          "file_sha256": [
+            "06feb642d22c107183c5fe4dd54c124cbe070795de2d3c7ab47485eb97faa177",
+            "bca63599476ad2bb99767749a76c063a31788aab664b7bb39543ff7ccd98b815"
+          ],
+          "rgb_sha256": [
+            "a7ff262e5b771e86e54a3307039c6fb8e70ec5d772c85fb3bf469b62bc9f42e8",
+            "1cc755f19c3d1bf0f6836e663c26ca369d211e3c2afc6b15720584c8525b283b"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7432092737268519,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000042.jpg",
+          "file_bytes": [
+            51397,
+            108836
+          ],
+          "file_sha256": [
+            "feaf8a53c81c15e81c04ee387725208b3296a280aae030d7749ea41c6025af6d",
+            "0e1e0bfeb7a6197ddf0a7453af7c755a978f96eed58c760e33f8bc69f3888db0"
+          ],
+          "rgb_sha256": [
+            "8a10ef0fcc26499b408bd9f5c6293300b09efd8dc35cec8781c3d597388bf60f",
+            "a470ec81f25316d64ed10d7d29e0d99ab2072de2bca87e937da045b06326d42b"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7668713831018519,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000043.jpg",
+          "file_bytes": [
+            51231,
+            107497
+          ],
+          "file_sha256": [
+            "cb6e5b5b7761cc9f87df09cd48f34a923ac9b9909c3dd2721f577efa7b87ce7b",
+            "51451c4562ba4f57ac9c72aad60f5f3fdc34518e7010b3de99331b77d8e068bb"
+          ],
+          "rgb_sha256": [
+            "ea5c2675a423c448d6a646f3ca721d95189a670d996e028503860c04f11c4062",
+            "e6650846b1fba56b9f96440e4934a6a5fdf4fc0a561b9a6c1a619888c7339944"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7570851417824074,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000044.jpg",
+          "file_bytes": [
+            52182,
+            109218
+          ],
+          "file_sha256": [
+            "47bfb106c8d0b809c2f52b1e8b732a02db0600dc5de8914f6fce330a78cba9bb",
+            "0035a87d0bcf77d830d71f64de6efc7a3bd7b1808c1f4363c501b763b6ea78b0"
+          ],
+          "rgb_sha256": [
+            "eb8d42c18ea20b98c1b79bb7525a1fc77e612ccd97db5aaceab8ef4e8df889e1",
+            "3c8b870d3b1e90ba40330afe445459b1f5dcc935b2a6baf57334bd8cbf06f713"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7628381799768519,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000045.jpg",
+          "file_bytes": [
+            54030,
+            114417
+          ],
+          "file_sha256": [
+            "faac27606ce7a9ce368b9355026c21d109f4a7a022ba135bf5863a67ee31d0f7",
+            "20b912314d9b265a986fd0e298556c5b795f5cd265970ff12ebf2bea3a56b503"
+          ],
+          "rgb_sha256": [
+            "2c54c9728fbd66954af75c5c96326b2bec3976a867132b20c5e0628c308041f2",
+            "c31e0d1adda42e69d1b897923b66c66bd9284c623e8dfb4b368bc6f7703f4d2f"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.8029513888888888,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000046.jpg",
+          "file_bytes": [
+            53431,
+            112662
+          ],
+          "file_sha256": [
+            "a7fafefe860476bd25593cb976d2c23c1a1cb584970e94798dca4062cb1d3a4a",
+            "504f52d7685add1cf5bb379f7e191a67e9cf6ba3e13a131af04d13ee005a247d"
+          ],
+          "rgb_sha256": [
+            "3405850e84e7e307ee8b06d5fbc99e014202a7141acfd6a4774319d63d3cee70",
+            "04336de17475ca78b35456442da3b750974df41f5d23072aa7c0b035cb39e9ae"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7794165943287037,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000047.jpg",
+          "file_bytes": [
+            52145,
+            108952
+          ],
+          "file_sha256": [
+            "4a8418d85a712222e5cbefd4e610fd6ec6552dde3005aaf112d5951d8a579854",
+            "56b55879d6a92804e08cf3c3905b0de7b7bedbe2fbeb125d4cd159b49b7adb32"
+          ],
+          "rgb_sha256": [
+            "de9cd8c320b214fcea2482a80c5d52b2f18f1811d554d8c98b4fc0e3913404e7",
+            "4eeae7c892d9c5c3db53c5dd6fb89392d059f01d8d6d9eb59c280d1e392dd959"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7489333767361112,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000048.jpg",
+          "file_bytes": [
+            29799,
+            44678
+          ],
+          "file_sha256": [
+            "80a97805ffd5d062a79ced69faddb42e3c0c179b51a3b5a5f36e968d920c3f8c",
+            "80ae1aad2153865f1a997672a718e466f11867d1a7bb3b7baf8a44de228326ca"
+          ],
+          "rgb_sha256": [
+            "ad94c92a32dfbbded91b40d2099f24d73cf2c652b51e0b1b7028bda85651d790",
+            "bf1a4f25a64e94dba876fd871eb1f99d1b78a7297c258b989e526c83a736c1fe"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.2434346064814815,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000049.jpg",
+          "file_bytes": [
+            41678,
+            79477
+          ],
+          "file_sha256": [
+            "bb79354cec6db6fd88045b57f00b8920ed0a39a72cadbab853f4b94e9255e88b",
+            "09bed108b4fc304f2d112a13d5a6b8327f013044c085076a85cbb27bc305e07a"
+          ],
+          "rgb_sha256": [
+            "6c7f66538c38a238d5be752eda16c35734d664a1f6a80bdb01e6c97066bd2378",
+            "476ba2212375b1880a00a3a09b22691c524e15a91cf6f3a1318cae8a486a3ef4"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5232559317129629,
+          "quantization_equal": false
+        }
+      ]
+    },
+    {
+      "ID": "S2_002",
+      "frames": 50,
+      "rgb_equal_frames": 0,
+      "mean_absolute_rgb_difference": 0.4519557074652778,
+      "rows": [
+        {
+          "frame": "frame_000000.jpg",
+          "file_bytes": [
+            32936,
+            57160
+          ],
+          "file_sha256": [
+            "c9c967f0b2d520dc3a67418f95ae51b9eebeced6a207ef95adfea440fb2c1491",
+            "ab71111fdbb7db4ce214c88108caeef69bf59fbcb7a244f3827c22dc83814261"
+          ],
+          "rgb_sha256": [
+            "5fa7b92065f3b30ade7917e9e87bd72e8d9c2a141fb396073e0325f6fd706f3d",
+            "2ff32f72e7ad21cbf249a1fa69bfcde5edead6b610eb7808a522a98616bcf772"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.2898347077546296,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000001.jpg",
+          "file_bytes": [
+            37765,
+            82410
+          ],
+          "file_sha256": [
+            "f1011b5313b70f7e05f9a10d686da2cadd29dfae48fc3573d8277a9209651c62",
+            "09d578b91c5c459eb313ede4e32da166048e66dfc274b0c68eddabcceccec093"
+          ],
+          "rgb_sha256": [
+            "dd07b7ff3543a7c9b16cb3b3bb03c4812dd885b84898c1905d1473dbd92c6c7b",
+            "89dfc8d7af72d7728035d0721dd03167f9c60662cdf34ca905ce419ad93ed638"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5363317418981481,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000002.jpg",
+          "file_bytes": [
+            38871,
+            89970
+          ],
+          "file_sha256": [
+            "1e93b5d0144b41e83b9d74aacfe0a7a61ff53850f0fd9d0b4d84aa3ee1c64cfb",
+            "87552fda72ff9d2cd74875492c1d7194b866feb6a7613e7b66825586152d0ff9"
+          ],
+          "rgb_sha256": [
+            "c5c91c5d366cf58dec84ca2fd84e05456077b8f025ec87b70b90aa19443e8ea8",
+            "e72027b431727c6319ed371327f8dc0112ca6e4c36e7dd90ef2694d929a71204"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6205457899305555,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000003.jpg",
+          "file_bytes": [
+            39519,
+            92837
+          ],
+          "file_sha256": [
+            "85574ba3aec521a3e458cc00cd96fbf97647d7a8e357a08b479755bb3d8110c0",
+            "ef6fcd2a6abb97f4a3cfdca5234c341426678f84a2b9b2a99a872e0cee323db4"
+          ],
+          "rgb_sha256": [
+            "4026152db1d28db8193aa0a059b7412531e59431d1e0a5ab518640e6bb0e4d38",
+            "d23c600e0de8946dad575113403fb3ed5c79251e9d1b93db9ed882d0c687f8e0"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6439156539351852,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000004.jpg",
+          "file_bytes": [
+            39772,
+            93176
+          ],
+          "file_sha256": [
+            "8ff9c32978da5e3d841368f1820d4b7bb40d7e70e10a0d7c1033d16fc30c73bd",
+            "c2f9c83c675b1653121c7a391c3b4946196ed603ff21f27536de629cb282edad"
+          ],
+          "rgb_sha256": [
+            "5706c6347c2d69461d86a807b28ed76abb73c1b56de0bb06435036c0fbaae828",
+            "0c0c738a0037e420eccd2d597e450bdc9c12e98b81447382386af3ebbbeaa12b"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6531774450231481,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000005.jpg",
+          "file_bytes": [
+            40088,
+            94423
+          ],
+          "file_sha256": [
+            "775aa845245c7bcabda0065089ae56ab2a6be0fdd41cf81581b194dacbdef80a",
+            "3b2ccef481d654a111ee8b1272d1ab386388c86507ce6ee01a2c26ee285fa8b5"
+          ],
+          "rgb_sha256": [
+            "df1a1ee773c03b6419abef25c406d37d75827133cc29710f822cd382ee3b6d49",
+            "76a3a1bce5ae9f296ba2013de91492a409b056cbaad7cea751eafc1965782e3c"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6558488859953704,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000006.jpg",
+          "file_bytes": [
+            40108,
+            94116
+          ],
+          "file_sha256": [
+            "7a95b7c88c77918208ddef1bc2d072a9b6087a3784c9c60df8e771724d0d9d73",
+            "b0c69e582a2845ae6383f83fca2f46223bc3922ad3f32f151b092fccbf0a6dcc"
+          ],
+          "rgb_sha256": [
+            "18dda7ef9688310de7c72cd01c5633f71c86df3e5c95a497fbe7a0a9654456c9",
+            "ee527c33bbf55b98b7d70e1a544fd8c1cde39724f42c22a9a250cf8f3585a71f"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6571006944444444,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000007.jpg",
+          "file_bytes": [
+            38303,
+            86494
+          ],
+          "file_sha256": [
+            "a8fac2cf8040527874fed033dfa3fd2f1bc324b5b67b8c97ee97b62df9ecdd41",
+            "5936b011a029837abf06663b7aadb619ab7562d6b091dc860cdea18c16b92db9"
+          ],
+          "rgb_sha256": [
+            "57662ceefaea1f33c5941c72a9fb99e347dd7d5ee9229fe8a3e2cc0a8cda57fb",
+            "d70764c282226221436cc33b31cef367a6be117c3fd16475e7a6720903787e06"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5916507523148148,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000008.jpg",
+          "file_bytes": [
+            40115,
+            92581
+          ],
+          "file_sha256": [
+            "439bdf6115bf33b88c0c2a1892ca8fc7ad25f3f47ff92236fb61776fb0b0eb68",
+            "7cfb88576cb953cc52982434349acc61b26ade0bf64c2914051e84aa1e2c245c"
+          ],
+          "rgb_sha256": [
+            "298e463454408689d65fd75b9252d8ec9407d521b04619a2064fde2cb45c9126",
+            "a28ed35fc5a9bb783d921fbbfe811381122bc3fe6b10b604fcdfd3c5f605b18d"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6499392361111112,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000009.jpg",
+          "file_bytes": [
+            37056,
+            84281
+          ],
+          "file_sha256": [
+            "28da21c76b2714daec50c7fcaddf4d0440c6719a65fc6fff1ce32fed67209d5a",
+            "f32a2a8584ba8bcd7c76868e091f2490191103350bfba7beaed0f3f360599149"
+          ],
+          "rgb_sha256": [
+            "a3cc70c8202443575a08f61d9c8a530fa43a6aa4ecf90e123ce222ce7b74a7f5",
+            "0826b3e21d8a5b813a54336117ea96b858206d7d14b62536c559a2edfbf84ea5"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5875831886574074,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000010.jpg",
+          "file_bytes": [
+            36890,
+            82962
+          ],
+          "file_sha256": [
+            "3fd8eecf2eb5b8c6e60ea0ee202e4e858d7d1b24a2c98a1e7094f55e5da736f8",
+            "f0fb26e5a0e2a39b8781c3ab565109bdb486dcb6f85c4ee4466117aff09ba169"
+          ],
+          "rgb_sha256": [
+            "81b280ed904ecd09ce90930796ff2a4aba0e950918292667f35c2f2863b97003",
+            "f0106d55529d794d9c9ea41950e92c3f24ad27b53d6ae42f80ee2291013b411c"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5730595341435185,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000011.jpg",
+          "file_bytes": [
+            35652,
+            77243
+          ],
+          "file_sha256": [
+            "fc21e6617fa7ea402996040202406370ed8c6a88021388e5ca8581fe8ab824fa",
+            "c02ff9ada7e43e82625c79836eff13cb68476e1d35666b528e64425c33f3c68d"
+          ],
+          "rgb_sha256": [
+            "f1a3f04a962d510e5903e1bec99c1ec1835ded33a95d602ed85d5118bfdf3689",
+            "7efc48afe4cfc41468cf8615d3b5b9177f9e1c5fee0ea469a2ca7f8fe3e60c83"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5077571614583334,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000012.jpg",
+          "file_bytes": [
+            26030,
+            38663
+          ],
+          "file_sha256": [
+            "f3168698f1caa4d5b175623056958eb5b9027251a07cb99067bb1aa6b228b9ac",
+            "a5dce86c39129fc2aa6e440048788b91531745ee0e73faee528ecd0e597f9b7f"
+          ],
+          "rgb_sha256": [
+            "8bf95d8bf387ec4d1e3e9cd196c79cc2c1a933e139343df75f51d9d3737ac6fd",
+            "5af4a261fea436ad8c751ae962a9388f8e687989173f692a06c80adc6bb5b70c"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.17135633680555556,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000013.jpg",
+          "file_bytes": [
+            30812,
+            57240
+          ],
+          "file_sha256": [
+            "7213e571bd0ec9b6aaaae9ef8d96d031287c54395689ec66bc4a833cfd317ca6",
+            "04f6431bf05b3ab6bf3daf0de8c5b30f616986dd25ef72aee149dbb93ed6f8f7"
+          ],
+          "rgb_sha256": [
+            "1a15f6b552188f58d13515af45268204e519baccefed8e88f32be0116f9dc7c1",
+            "7cfc2168012795e16732265645fca0cd7a0153e5bfe23f5f444533360f447d80"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.32606987847222224,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000014.jpg",
+          "file_bytes": [
+            31634,
+            59701
+          ],
+          "file_sha256": [
+            "bf90dd22b05d78212ac4f1895d88ff31bcf27ed345b240a4bb84bc40c2e2ba60",
+            "c3e5e0a3aa5c7538f1b0b177fc8df21256b13bb5da720f31abc4a9947c95608d"
+          ],
+          "rgb_sha256": [
+            "53370b7c745cc50241708f9c96eff59b22d19f8aa317a93dc0fe37f783dae1f5",
+            "70e8682b930d31952f3b421e64b7a2b7635eeb581a39f4662de35305a7e3ec74"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.34729890046296297,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000015.jpg",
+          "file_bytes": [
+            34132,
+            69227
+          ],
+          "file_sha256": [
+            "0c2ecd29ad633162384ed49d1f9b9f5203a7ce6c2e41c8095bd85aefb44a9f2b",
+            "da19ab8caa936ae085f0fb926dcef4899a63d6a0c481a17bfaf2feb4f454ca3b"
+          ],
+          "rgb_sha256": [
+            "84b93f32ed0b3b40e9f0da03cd6ef37b8c027d06624a3c75fa0efd4860c50613",
+            "2fe024b3c55c2e88967e3f509c25a7a1e9407e42ae204df818770e0ca946994a"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4316478587962963,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000016.jpg",
+          "file_bytes": [
+            34919,
+            72134
+          ],
+          "file_sha256": [
+            "045010e08172c45ebd43d88b56a517cb48218bee71502cac5851259b85fb88a1",
+            "5f1018a6bd4b1c8178ae5b9fa27a114b18f409aab86f460c6be9a284d4cd7a0c"
+          ],
+          "rgb_sha256": [
+            "610a63bf8548ca98d2488c76d85c33b72b39efd610f3f88b914cba5244e8a325",
+            "080114bed320b2d04318b9cc7b3f01854c395df92adebd184872d19b58448624"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4553877314814815,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000017.jpg",
+          "file_bytes": [
+            35578,
+            74459
+          ],
+          "file_sha256": [
+            "ab12f2150e03e90aeacb5850c717977a6196f38027c9a0e513e4cad77361be5f",
+            "f57349ceb950957c0a7a638b3de78764d355d52d2663faa9c9b0cc943a04ff34"
+          ],
+          "rgb_sha256": [
+            "bb058205e5a73ac5b9e05f65c6be2dc99ba8cf09dd08b3365f7c2c55526eae6f",
+            "f404029ebbe3f1b651b9ab926a8e8ece8bc01348dc853d2b07280d4594b3c2dc"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4732986111111111,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000018.jpg",
+          "file_bytes": [
+            36573,
+            78469
+          ],
+          "file_sha256": [
+            "51086b1e25be237d70d4e9713e0505c7d5cfd165e93758ed2f9348586a474b5f",
+            "10642535d2c86e06cc550347b1e7284cfa5d693cf89f85207cdb5a3152009dfe"
+          ],
+          "rgb_sha256": [
+            "1dbb1042127a377221c2e2cd43de2c8c4ea9cb86bd9ced903cd864ee6e494d5c",
+            "7b1fea7f03249800943aa5f1f303352bcee8e5c1c94bba5af8497eedb002a66d"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5135304542824074,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000019.jpg",
+          "file_bytes": [
+            37059,
+            79759
+          ],
+          "file_sha256": [
+            "0d2301c8ef10b2d6bc83b8bc5ef7f128c1000ee33a01ff56b99288fc3be0d4e4",
+            "10b8b53244aeba533d66023f989586ad2c037adf736cf137964bf5df87c03ac5"
+          ],
+          "rgb_sha256": [
+            "86260d55c57650b744d86086a135829410fb4931632c08d9b33c6e5fdff34ce5",
+            "bb8f163a16ceea3812135e9f5207647d5e3c1b55cec5c12432a58bae63b143fd"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5268247251157407,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000020.jpg",
+          "file_bytes": [
+            37585,
+            81033
+          ],
+          "file_sha256": [
+            "0fba57c79dd5344f07cc253f0dc00a4549c22c0c8f427c7c64562f28bc15a558",
+            "392e21c80c9d2e8a6419a2f2864cd19c33c6ca2aa5884e9f0969598ed0530de4"
+          ],
+          "rgb_sha256": [
+            "e9dc1f99baab14ccc206a0497d2e6697c68719a03386c5e0ec6d69cbdc3158be",
+            "cee333e3bbf01d00dbfaede7eaad0c05a35dee6a4a4e559adc50ec93ad8f12dd"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5400245949074074,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000021.jpg",
+          "file_bytes": [
+            37453,
+            80489
+          ],
+          "file_sha256": [
+            "8a6902f9b277369aa987355557424f8c92b6e0aefbd2391559eedf56a5074250",
+            "c59ed7ddbc81251bf660d7ea1b860c3d5288a7430064453d310ee15ed5bf2d7c"
+          ],
+          "rgb_sha256": [
+            "d6c0e09ecd15e3e63d78a5de6a7c077768b844d1659db25fb52079346a1687dd",
+            "8fa0eb484998f453d2ff310e076a920090acc9a2038f4e018b007b337ddfa885"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5442599826388889,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000022.jpg",
+          "file_bytes": [
+            37813,
+            81565
+          ],
+          "file_sha256": [
+            "a68a42beddb86d6c3ecbe2705aeb90abe94f8c2a5d6e76cf6cf95fe0e45ce348",
+            "e89996234f2de843fa6bdba966291cfdcdd94737525638f052c9a6e38020162b"
+          ],
+          "rgb_sha256": [
+            "1d8514ef4131e9412fe7fadf135115b807194a0e26514e5186d6ba2bcc7f65ec",
+            "0ee213e6204b55cbe9cdc4be28d12ae41b9a439bd1b7ad6ce0b91c66f6db42d2"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5560478153935186,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000023.jpg",
+          "file_bytes": [
+            37581,
+            80549
+          ],
+          "file_sha256": [
+            "37e9db9b78db022ecb26c5ee8e00fe89640c86baa66ccbc0fcc7f8ccdc60169d",
+            "81bfcc031e0fcc7deebc7313dbdfcfba6dc148b56293872d2fb940b980538b5d"
+          ],
+          "rgb_sha256": [
+            "512969c9a4b22ef4aa313884e1b130548682ecd6d0cd717a3c0eb53113e0edd8",
+            "e9bd1df26f1d75ed85d94971de6d20b9a8bc34a3b9b0579c97835e8ef6da7000"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5452629484953704,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000024.jpg",
+          "file_bytes": [
+            24249,
+            33433
+          ],
+          "file_sha256": [
+            "afb8b0ab393d7cf09b653ad5759a0484d04027b2b5f58b69dbeb97c2992721df",
+            "8923c707786b01852dc46f8cda4b2c94a32c921ac776132ddd95ad07db69147c"
+          ],
+          "rgb_sha256": [
+            "e113ea582161064ae65e3af14b3555b9627ebeeea1254a01cadc1dd65a4b39f7",
+            "ea62f3087fb7e188de1e8e2bfce05404bc583f73fa2f5bbcf0e663e08fb86bfa"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.14266565393518518,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000025.jpg",
+          "file_bytes": [
+            31017,
+            55252
+          ],
+          "file_sha256": [
+            "521b33f1dd7678f0544bda516d7c03a57b0f6f5a47efd18b7122d292f9e2faa9",
+            "31a873395a81868b657108c071590ccb0e060d9620f293f07c5db68b3831953a"
+          ],
+          "rgb_sha256": [
+            "3d24b277c8a5d993539c8771f7b4728c3f38a80a29daca69c8044ee35fc356f5",
+            "adbd41ca066ab11fdfe9a55a5becca7e6c8c0de9ca071b758e0f1a0170ab4a03"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.32338143807870373,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000026.jpg",
+          "file_bytes": [
+            31748,
+            58556
+          ],
+          "file_sha256": [
+            "1430ff59ea4ce67a9a8a45d54a76805617a7731842f8b060a87b2a056cf191a9",
+            "0d3c23a6e154b0ead2dd39c0693f1b9d71e02cf98b7badb8999b4fcc596cf2be"
+          ],
+          "rgb_sha256": [
+            "7bb4e765273c84f1e3c55ce24de30aadd1ddc6a92a5679f4cb3d5e725a21df6a",
+            "5f65ddd95e1548bb712e1848d7c671ae8ed8ced0c0a661ffb36feb4d0d1ecde2"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.3605573640046296,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000027.jpg",
+          "file_bytes": [
+            32735,
+            61290
+          ],
+          "file_sha256": [
+            "27d0bbafcd1a9f981c7fc5a20f22d6290dc7783e6328e484d010e718a9998048",
+            "411e3fb0679f2131bdc942ce03838a4688bee0396d8e48312bd2a0a05467bb21"
+          ],
+          "rgb_sha256": [
+            "9563221cdfab48d862c8a9230c413cb5c6d9c2e96a2bbafac2cd7e93cfdd4478",
+            "23dae0e3f55e64fa9662c8cc268b5963ae5cceb6ba3bde918d374efa3d209f32"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.38154984085648147,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000028.jpg",
+          "file_bytes": [
+            33755,
+            64291
+          ],
+          "file_sha256": [
+            "b3464dd3a33116d195bd7778c16bd35ac349be1d1d092e21581e3f19ebd8c0b5",
+            "5f1accd9e34aa335c6a19724342110e6944c5fdd0b1a9055fdcfa26fca897312"
+          ],
+          "rgb_sha256": [
+            "6c63d899bae81b617c7fd623a891d34e8b9c67b118282a92274e0bb9f31c489e",
+            "accd35686410809ad55a90f461e21958c24b60c587f2c6fa5973eba72ed4e016"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4067162181712963,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000029.jpg",
+          "file_bytes": [
+            35249,
+            69749
+          ],
+          "file_sha256": [
+            "793c5ffada9022e4ecc013dccd9aa194603a3bd961e3746fb90d9605eb4645dc",
+            "c190feb171a8c889791eb3a9e2355214d89f23dbf0747c629a2d328d9645c53b"
+          ],
+          "rgb_sha256": [
+            "f3f14211fd9aed1a0d7c90969fc5afa923c36140ddba22677a597b22a92f59ea",
+            "e461861c59a486a4d21d4de9c32aed3e3c78d1dff9ae3e116f2ab733c017b328"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.445630787037037,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000030.jpg",
+          "file_bytes": [
+            36407,
+            73055
+          ],
+          "file_sha256": [
+            "b7e59eb66c141ca5d203bc441149d9a9d22ab09914c020f0467f99ae200c58cc",
+            "7b9134f09cd7105b16303d6d60ad9abd3ce27f7973cdcb1cbe2d8c03f0ce1e28"
+          ],
+          "rgb_sha256": [
+            "913b9acc8ab3d022077e79542c4954206496f8396e86519da2c3f19a11ccae3a",
+            "132859b7129ca097276f9f2c0f3d53579d6b2f8674c206fb89dac76b85066c0d"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4715440538194444,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000031.jpg",
+          "file_bytes": [
+            36907,
+            74510
+          ],
+          "file_sha256": [
+            "7667e24bc011ea4bdad6b336ff29b83266e3b8f8dce7ddddaaeb4b611d5db0cc",
+            "436d2b6caa541213aa96df20e7a3fd38722f6ada29521616a2f14b745153b4d4"
+          ],
+          "rgb_sha256": [
+            "f1ef64f133dc7f4d1077cf08daf9b0563800ae51cf37103616db825a2086e101",
+            "7b4b4173b5d53c38b38bc95f58bf5df79f3e8898f729d509e31e8bc51a26c5a1"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4807400173611111,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000032.jpg",
+          "file_bytes": [
+            37462,
+            76097
+          ],
+          "file_sha256": [
+            "9a248ede0004fac4203a4a4f97fbff4ce3cc17796eb85cceb8c02e0e55894d0e",
+            "86e3e9da28b63db2ed3850ffb99299de4fb5b8ce7d1af846b0bf5f75fff64ed4"
+          ],
+          "rgb_sha256": [
+            "afa2eb1bed58a4807ffc63fe440535844db3a3331dcf211914da22d21fefb425",
+            "af775c692c5e79cbcd16985032e377eb71e1519075014c04458743601d731c9d"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4946943721064815,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000033.jpg",
+          "file_bytes": [
+            37731,
+            77581
+          ],
+          "file_sha256": [
+            "d0033df4dc029bf56f4137a8d259612f559bc259ac9960c631fd2d0c5296ec38",
+            "61eb8c987e366c184299e4cd1e834979a7b8d01844b8ee1da7d1799cc481a32d"
+          ],
+          "rgb_sha256": [
+            "031e91bad7dddc1e3f67aaf6409843065ce3b10af12d3118dd8975aa89626f62",
+            "1fd028fb5cb1d86979b062795afff6276aefb3bb3f5f3840d6779fc144fa9735"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5104774305555555,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000034.jpg",
+          "file_bytes": [
+            37455,
+            76708
+          ],
+          "file_sha256": [
+            "9a88708c3d4473fc03b9210454b7701412dac4ba526d527cd34026ba2b37f9a2",
+            "08a39403fed93ef4603476ec48a13a66457c71a8a7a45caa19081c3911d29c99"
+          ],
+          "rgb_sha256": [
+            "6ef268e6575cbcf8ab2979b17d71bbac255101e09fe5b26a357a7d686ab47978",
+            "a8787a26c30206729e1b4451c1f25531c0e321ba93b19fae8a0a7bc6c33e6666"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5166069878472223,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000035.jpg",
+          "file_bytes": [
+            37471,
+            76370
+          ],
+          "file_sha256": [
+            "c760a0d0e2c6c829e1eaf94d2e9d0f9764910feb439c31ad93b84e5a06573f2b",
+            "a5705752c9fe5c9666a734df3142952161279456d7d29dc7135b3c3fde86cf8c"
+          ],
+          "rgb_sha256": [
+            "d9e1bfee6cb885d992a48800c89b51f5aeedcebe7d4d3292f63344481d80c453",
+            "3ff360d02b3ff276c9eff125028fe112884fee6f1bff8677eb7df7745c19f9ba"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5019361255787037,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000036.jpg",
+          "file_bytes": [
+            23993,
+            33049
+          ],
+          "file_sha256": [
+            "b2ea088f128815d61f9adfb50322cb95d91524ba9734c20e5dbf9e463907fd83",
+            "ddc859c99f78679e94fd98f62340d64a2c6051604ce21b06ec92d57fea6d5346"
+          ],
+          "rgb_sha256": [
+            "b5154a5b57873fc6d455dc8de2df00289e96b396d1d63da14a4e0b11b7312f75",
+            "fc09272344c309ad5932b13c7c5f4fc6289461b437cb7c8efb2f625a884b312f"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.11057436342592593,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000037.jpg",
+          "file_bytes": [
+            32162,
+            57146
+          ],
+          "file_sha256": [
+            "2edb201b593f2ce3d3e464563affd76df7b19b60fb49d5ae4d3bb90a2356108c",
+            "d499f32bddfc46be06aa98d9263f640bbd15c589f6770a675db4e4177be6e7a8"
+          ],
+          "rgb_sha256": [
+            "59ba272def17998ec52105d7bbfe20591291c15edc1a436444a38936921d6d26",
+            "716215ce45741b7d853721c2e0f10016cb1a19d2187c18e45c227423a041544a"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.35075557002314817,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000038.jpg",
+          "file_bytes": [
+            34067,
+            64270
+          ],
+          "file_sha256": [
+            "b5d2ca25896eebd844ff87cf66d998007cf20bb0ecfb15a7ed0325a4466891fb",
+            "5ce6b7725663b5431ac01a4dbcc7e57038c1f9f9fec9f61409647ff373d1626e"
+          ],
+          "rgb_sha256": [
+            "a24670636fb38f4126a484f14f3b8a910db1e2d95f20301d118e687da6782d63",
+            "99e29c2c700303489699361dc0fa96841f7e236eae37d75a10cb82541c98dd4d"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.39153645833333334,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000039.jpg",
+          "file_bytes": [
+            34710,
+            66268
+          ],
+          "file_sha256": [
+            "9fbc1cbe258567ba4b92899f7ccf7eca0082f696a6ab407bf124432cfbe8c1d0",
+            "d31261da02e691df474a083e2757a391cdd7a1553f03b8b2ac73d0179de84d69"
+          ],
+          "rgb_sha256": [
+            "bc2c034eb560abbec0bc85efd766c5990c8de210917dfc0def06b39968f9dbdd",
+            "d0cf415b87418517bd9e8ad0a1699d359cba06c11b3c2316afc436e8aff46c14"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4243702980324074,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000040.jpg",
+          "file_bytes": [
+            36063,
+            69504
+          ],
+          "file_sha256": [
+            "0a1fe7a1338bb55f0e8b4c1ef491fc492cfd4405bd4ac06931e66a669877294a",
+            "7a3845037b5ac96467e39c4dd73c51be06424590ed3e09db95f3e22fb6f0e977"
+          ],
+          "rgb_sha256": [
+            "8b1eeb09ca6f38b29e02c3a3f70e602d940b943ddeadc8a5359c59a0da1ffc80",
+            "b410baec4173c57a8e958047960e10668806e3fa246dbbf6ec856e0a4c070c4a"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.44578269675925924,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000041.jpg",
+          "file_bytes": [
+            34259,
+            65067
+          ],
+          "file_sha256": [
+            "140bc27c2875403ef06c2f4602a406f6436e8586bd3499db594a1405e63a99df",
+            "b390d0f235f1fb4501153c08d0b8eea7dc79cec70d7f58df7679588f647f08e2"
+          ],
+          "rgb_sha256": [
+            "893b7a3efd0795df8f4c2a97430e4dd999571d8e7e6959f07b56bcd16c8d733e",
+            "2055a33f550a53d720c06e9f4292790b6efc9fb7d8088af696b8215f6e99fc5c"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.40720305266203705,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000042.jpg",
+          "file_bytes": [
+            36046,
+            69595
+          ],
+          "file_sha256": [
+            "e22b4e8682b1776e8f264e56fdaeee7b6c85d9bdc24435c246d45cc456459a70",
+            "4ee7ea7a54f5c959ea8e3c68989f996b8bbd2917a8c7b97de53b35667380445f"
+          ],
+          "rgb_sha256": [
+            "39d24418db978637d5ddf99c90b1b9b622ecd9b91c5cac19568a13c892dc31fd",
+            "6edb21d916b62cb10231bbace6c9795addde50cf0b4f0a2f8a65f7ac30521533"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4500213396990741,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000043.jpg",
+          "file_bytes": [
+            34122,
+            64361
+          ],
+          "file_sha256": [
+            "a615b27f965704600d51adbcd7e05b2b062fc933d18186f6384c38db4140e239",
+            "4b78339b762d82908d6af860133287fc8ea951d4ad68baa04e3e8262592888e9"
+          ],
+          "rgb_sha256": [
+            "7770e84a08f3581259e6a4f0c312566ccad7290c2fa987d80b1af39bae6a0167",
+            "047c096d5e8e0ee9edf2b5919e7caf88adddca248c76194e953632cea4fe426e"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4021462673611111,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000044.jpg",
+          "file_bytes": [
+            34680,
+            65784
+          ],
+          "file_sha256": [
+            "722c0ef6c53789859d8783ba79847aa13fcfbff723efaa0488b4e9fb86a3e037",
+            "3853e1e7d9b33711fb9e652234ccc35477b1b4be5f2796121e46179dbc3487a6"
+          ],
+          "rgb_sha256": [
+            "3df0d70ca88b13d37785b01e08e676d8d04fa209008ca1283e410bc3a84c2cb1",
+            "8f9227e6dc2c3c63cb4929ab9bc17950ff0577b47861b605d6a5c5f0ffbdbcf5"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4152756076388889,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000045.jpg",
+          "file_bytes": [
+            35082,
+            67332
+          ],
+          "file_sha256": [
+            "ee15eb208ea51dfdf87c7d98affd08c98b0df695a305f37ebbbacc27f43e30ce",
+            "942ab293b1ca0929a4e5acd146aed30f223d2bed0d966bbca795a5bab623cafc"
+          ],
+          "rgb_sha256": [
+            "0ac7946e87ebdcc543aaf6b74ba0205712da22f48fadce0cebddcf32608959ee",
+            "3bbcb1ce16c5ae17f32a9e3c93ea51342cf3dace71d15316b3a2a5893701b674"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4421028645833333,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000046.jpg",
+          "file_bytes": [
+            35446,
+            68403
+          ],
+          "file_sha256": [
+            "8b8736e960d4db6e920815a667b3334b1e5144ca4d2077f6a79d97adc04b846e",
+            "145ec03acb42ab9cd019a8f74b2abcf577726ce1e03292472e28670237e72887"
+          ],
+          "rgb_sha256": [
+            "17faa567e8976a23c678cd4d7674b25b2c63a2e9d5ed7e52c8826d36a60a27fb",
+            "451b52500dfc78e1085a5cee433c3c2bbd7927de9de349b6b951b3323247d438"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4554691116898148,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000047.jpg",
+          "file_bytes": [
+            33259,
+            62591
+          ],
+          "file_sha256": [
+            "529a92d6915d5395e7e1c3559152777bf36fc190d387b78528b2e3513e4691f0",
+            "946d3ebe15f17594506f3c9e26ecb0d263edc5029cc6bd078517dd73bd85a4a3"
+          ],
+          "rgb_sha256": [
+            "c016d8e15e21c8244a81149c60dc12b7309dc1d9496b5ecc6d545bc8aecad5e1",
+            "f2a3843a7a0e892f02bf6fc05e914a4d9ffa40e05e67b4ec0000cb479b5753b7"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4163523582175926,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000048.jpg",
+          "file_bytes": [
+            22712,
+            30105
+          ],
+          "file_sha256": [
+            "e2d837d38fe622f2d43ced98c7a1fa7ef8b259c44ab4d41e84cc54d3c7e37076",
+            "4f1a4e67f1d7fcdd98fce11bb3c0a7231ba5a4ab3f924e0bb228a7d7e9eae4c3"
+          ],
+          "rgb_sha256": [
+            "b111d7494b2a15265e317de9cb3b4a2a3ed83eb810778e635d6724404fb7447f",
+            "af95657adbf07964ad3e39149260346aa59a23471afcb390fc4214dfba408e7e"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.13206452546296296,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000049.jpg",
+          "file_bytes": [
+            30132,
+            51115
+          ],
+          "file_sha256": [
+            "e505e3bc1e0206485b5b3292db8cdf4169569b450f090c5b18046ce814af4c54",
+            "c66084d61956769afcbde9733a025c513fdb5769808848d8949614820c5bfc68"
+          ],
+          "rgb_sha256": [
+            "a99d7c7080fa81745499bb7f5aa2e7f0140ac783b90a149c60c9c6c7240178e5",
+            "c2a9adcfe7c48a6c2bd9ecf75817a3ddfdbab712c7b3d7b268e89a13afa672a8"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.3198759403935185,
+          "quantization_equal": false
+        }
+      ]
+    },
+    {
+      "ID": "S2_003",
+      "frames": 50,
+      "rgb_equal_frames": 0,
+      "mean_absolute_rgb_difference": 0.6442722294560186,
+      "rows": [
+        {
+          "frame": "frame_000000.jpg",
+          "file_bytes": [
+            47543,
+            79972
+          ],
+          "file_sha256": [
+            "20b9f8867b3baf2e2fc9ef075c9f23aa43019798e769b5ff58802ebccd36768d",
+            "eddecbc34b685d59b316c3063e71101ac9573b4a135ce0dd5e302c0d2f02d80e"
+          ],
+          "rgb_sha256": [
+            "8d48ee679b5a69038cc2672c8bc883e626472b635533c1c47ca27b57be9cca37",
+            "9440aa7ad86ac38b8e0b80bcba05868280fa9b706613f054283f3d5b6a05b38b"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.37420247395833334,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000001.jpg",
+          "file_bytes": [
+            57917,
+            131443
+          ],
+          "file_sha256": [
+            "dab210ee25b318c990c0254864dc77fec21e44fde279d360873ea5f51608540f",
+            "6a50f399dc7bd07ba90aa0bd5e26452cba324be8e2598f29930b5109a9f7ed8e"
+          ],
+          "rgb_sha256": [
+            "c0995a964aad687d57f95bd9cf8951f86c65a853723ca1996cf6b16dbaf15c68",
+            "d7f8e4753d728ea6c4857679c949340389d6f4bf0b1b0e990401a96de2d634b2"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.8973289207175926,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000002.jpg",
+          "file_bytes": [
+            57847,
+            135254
+          ],
+          "file_sha256": [
+            "1112a0a6025ec3ba180ad4ebaee2bd72aecf68fb8e720825fb21ec4862e7cd04",
+            "6303dd7458fb07ab97a907a318ff533f9a750387b6491b3c425fe25cc3c32fbb"
+          ],
+          "rgb_sha256": [
+            "054a04b16e77468c1876daca45dc51d8a67975527aa494160b39902499624533",
+            "2039e19c445877536dbbb700311288aec5987ce6d1383d13b23aaa24d7b0c2a5"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.9352133969907407,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000003.jpg",
+          "file_bytes": [
+            58047,
+            137229
+          ],
+          "file_sha256": [
+            "12dd7b149cbab1b3b78f0c829ce2d9eb3811de0126f543de5ac2f6900644f1b5",
+            "b53908dd2727d0ff56acbc6f9995fa9e87b1e494856eee4d2d05ccdd3a9fffa8"
+          ],
+          "rgb_sha256": [
+            "f92b106b33ce38fedb9316aecc512b1bb6da83e6a092dbfef647160945a51620",
+            "4d490f1700658752aac06e4bcef2c98764ce8f8309de7fed8085e1bac4bd92d4"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.9620601851851852,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000004.jpg",
+          "file_bytes": [
+            57978,
+            136260
+          ],
+          "file_sha256": [
+            "f6d3123051fbc66a8512ff96beca459d41d0d1134934e9d8a5837f7c9f217414",
+            "f688ea158d544c95fbb88ceb9e95dd84929eb962c16c74eb1a25bc9a3e82107a"
+          ],
+          "rgb_sha256": [
+            "c511c088e4f4581eb95a8f3b628fcb0bd10295e446f7d7d437f4d9b08d096908",
+            "8c3654c8bc9df28ddd265cabe85c9d54aa31f2f4ce5b8079300bba40c1c5fd54"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.957171947337963,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000005.jpg",
+          "file_bytes": [
+            57214,
+            134633
+          ],
+          "file_sha256": [
+            "b5ac10794775c4c6d57c1b63a80516e66ddce93cafd52b38fd3bec6a6cddf38a",
+            "8cd65fc31a644fb5dcd9c3ce21b39038c29b84a7cdde00edc07e63b200881784"
+          ],
+          "rgb_sha256": [
+            "8d16232648b2baa3451b34221d627e722dd13bdfea09fe94587dac089735356f",
+            "8cd20ad2a771d67f972d931ceea10a380965162bea14fb0e80d09e7547709d02"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.9502604166666667,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000006.jpg",
+          "file_bytes": [
+            56445,
+            132319
+          ],
+          "file_sha256": [
+            "61932c7d11fd524cb7eef233085873722a152c274726d6e611418cec70ddb3d1",
+            "75b0955c719c13276c9c499d5758b7bbe970a03a627bdde393c0489c983def21"
+          ],
+          "rgb_sha256": [
+            "7c3062c86f98aee982a76dee3d6d397b1434c75f176dba94ab7e055b4be6ddea",
+            "b836ce7d48427e036f90e8452ef8b5c67fced9ee867f861f10cae186dc9be11c"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.9322681568287037,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000007.jpg",
+          "file_bytes": [
+            56903,
+            133576
+          ],
+          "file_sha256": [
+            "853ec41f8b0117302ecf6248465877b88ae2765ca4ef99113de9044dc0c069b1",
+            "8dcc32900ad9a5c2a1dabc3a67f5eec128913edf60db5a149990511b3efc3aef"
+          ],
+          "rgb_sha256": [
+            "8d44f14551461bf37bea113e83d9325072ccf8142d049924b5096fc73f651a02",
+            "1df06950389d2632b10778993fd76ee41fafc9f5476ec4240b6c51b59344be42"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.9528931568287037,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000008.jpg",
+          "file_bytes": [
+            56156,
+            130536
+          ],
+          "file_sha256": [
+            "7c489727b007729d2bba8ad0d8c17b2636000f27b52a84e4c2b72f439497f1e3",
+            "9247dd715302951137dd5c08cac628b9a9e02c4192c61e91c6e92cbd180fcd54"
+          ],
+          "rgb_sha256": [
+            "09d2c603b89475d70c333cb79c5157dc4304a3a7ff0788b15c4d81b37298fc99",
+            "e3af08562275ecc882e42005c62fd42e4926d8e2838ed743046fd79f0d2b2bae"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.9015357349537036,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000009.jpg",
+          "file_bytes": [
+            56629,
+            132206
+          ],
+          "file_sha256": [
+            "bab4011a1d43d16158e4b9aacc1181b16e7b855c8d85e34ebb4ce41d106cefaf",
+            "671245671d210f068b6f8f5ecf6ef7734b9809ee016c2c9e180c24ea32e0ae18"
+          ],
+          "rgb_sha256": [
+            "bb3a7389a2872e05b36a15371bbf7f57832c8e4a09c7d83b7ba24dd433c8f8ab",
+            "10a9b78236fbfeb5334553ee2740d3e19b39ac7eb6df6fc1897af1679b8336ec"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.9380226417824075,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000010.jpg",
+          "file_bytes": [
+            55867,
+            130597
+          ],
+          "file_sha256": [
+            "e8160ad45b9424e9ee5773241847487f4bff83236cf8d4e9195cde19f00df2b5",
+            "6af70ebcb034b07d226b53313e7e093d9a7b10e050fd1e2374735f96d62e1d04"
+          ],
+          "rgb_sha256": [
+            "208c13bafa1fc154c13ff733362894dded086f7a9a150545f410472152ffb9f8",
+            "2d4fa828a00063e406494c4c3b10bab3fa7707e775e608929e8cd44ba46ef356"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.9384660734953704,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000011.jpg",
+          "file_bytes": [
+            55829,
+            130874
+          ],
+          "file_sha256": [
+            "73d0720968848fc2f789a19558afa46b6afdb7df93757ce8e1e3da17ea2204ed",
+            "fed301aec0fa4cd0251bdb108aa9ecc309135f234da6fcef0d056fff8d68a84c"
+          ],
+          "rgb_sha256": [
+            "5d86e1152bcc7ec034dc3151a4853e9aa12def7350fb6fcc838153fd8dd1f8ef",
+            "cc0b5d707ecc8c5575b20297309049b0b5d3f7b69f120f9ef2e33a0ce3affda9"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.9555284288194444,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000012.jpg",
+          "file_bytes": [
+            31921,
+            46176
+          ],
+          "file_sha256": [
+            "00908d5809952367a2e484731990ebf401341a4419fdb815816945d38db90753",
+            "136c92053802bcc3851e6a308462aab0e6234f934c023532dee7735231bc3e9d"
+          ],
+          "rgb_sha256": [
+            "46de64a13a74f80f1cd9810b9b770269d87efec28d14704ea5b9813c768e37d9",
+            "0dd1bad6d03841c0aff711880b9b05ac11dcddb777ed1b6d6d9bc768e345de34"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.12474392361111111,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000013.jpg",
+          "file_bytes": [
+            46776,
+            91267
+          ],
+          "file_sha256": [
+            "698f1d9eea76a9f876ad8c6237c273223386a2f98f7e5e3706345cfda886579e",
+            "ea8c4a20c4d53b5019c985201574df081eaa052c9f39739e9107647abb596f4c"
+          ],
+          "rgb_sha256": [
+            "02c8b2884d80b7b4ea93f96a6cad719ee16cb78bc5063282c833ff618ee74d08",
+            "6dfb5ec11f91f78b0a3eb132999ef2a278515e7333df6d31bb9f44d5f528bdc7"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5186461950231481,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000014.jpg",
+          "file_bytes": [
+            46859,
+            93009
+          ],
+          "file_sha256": [
+            "f7f6ab62b7d54feba04eba79fdb596d187b4eb76dcc08542b327765dbb9e995d",
+            "f627b6c8c4f51e5f792db901e730b68e323e1bab4f2cb1ad4165c7591fd251dc"
+          ],
+          "rgb_sha256": [
+            "10e3cf0ccb7491c5f6e80b5c58bbbe7d53736db8962590e90b56da23b1dd4ac6",
+            "7c77433016d672dc6b89d624785b766cba11330655b63ab9fae00c32792d9201"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5566142216435185,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000015.jpg",
+          "file_bytes": [
+            45959,
+            91044
+          ],
+          "file_sha256": [
+            "a011adeb42a25c559b05498d8616ff5572214db3b49e33ab7d409f6685ff556f",
+            "61e55f86f16a9ae34bab251804af50e4414a05f6101dc7ad6531c731dddd6c5f"
+          ],
+          "rgb_sha256": [
+            "822a57c96c4dd0aeba1434fec2447d192e9adb2bef4ffa1d703b531a4a664877",
+            "7f3e42b6c44774cd82138c49164784b211286a787620cf6b09385c1139452b46"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5529524739583334,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000016.jpg",
+          "file_bytes": [
+            45949,
+            92409
+          ],
+          "file_sha256": [
+            "b587878a4f1b074267aada8aec173f22d1ff6a9b0c63cb6bd5adccea14734a03",
+            "49b8b66827686f679b70dff0391b1cfb0f0b962a8b19543e4bb7c8a3dbef04ce"
+          ],
+          "rgb_sha256": [
+            "e0e3f24833c0661c3579c45ccf2343eb3f9a044dc0ebab0e0ce734448d687773",
+            "d8d6f8ab3923657490e3b6ff6131b10c5fb9d691529faefa3defe27e796ea5e6"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5718778935185185,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000017.jpg",
+          "file_bytes": [
+            45911,
+            93370
+          ],
+          "file_sha256": [
+            "c2f6393a35cb38c6ff91e6af7bc040368c79a62a621addfd3acd1fa1f9d97dd1",
+            "14b344a75e24449017a1e4b591b2b2ebe765961bce3954aef51e7bdce6406b45"
+          ],
+          "rgb_sha256": [
+            "af52091fa5d1f6a7da99ed6957a8273a34b786c14f4e5c4cdf0dd11cf5e003e7",
+            "73168c208a955f5ad03707fbb9e0432ecb1e2c7290b9c4ba7e2f20001c7b99fd"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5852770543981481,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000018.jpg",
+          "file_bytes": [
+            46652,
+            95356
+          ],
+          "file_sha256": [
+            "d0ddf8d38d7dfeb6ac0bf8e5a5d1603bfc85aab6c1b7f56c77c2a61f1886cf20",
+            "b29f5a256ca292c9a87a0517296cbcbb0f4cfb4adcc2639d2a122c00a8526f03"
+          ],
+          "rgb_sha256": [
+            "5183c1b0f16bf5114b1184f9aae6312e815e7584e3c2d3de5ba2b0666f80bb33",
+            "3187bcfb3eac383f48ab6c5858221d5a2f35f21a8c56081f8cd32258be977473"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5986516203703703,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000019.jpg",
+          "file_bytes": [
+            48237,
+            100057
+          ],
+          "file_sha256": [
+            "4e3aeb03d87cc45573a97473e7b56f9092f037bd612b5b984b018015c3ad080a",
+            "89995777a1cebd713cd62104ec07ccadb00a4edbfb7581271987d109e908a308"
+          ],
+          "rgb_sha256": [
+            "26c91ce140c871b950dd68bfb5202181c3b67cc5eee36e4b992f07d149006904",
+            "faaed132d6fd553735b1f2230b154a2bb4e64dc8b5e7b5eceb64248f357bfa3b"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6336461950231481,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000020.jpg",
+          "file_bytes": [
+            48433,
+            100498
+          ],
+          "file_sha256": [
+            "252eb40ce6424889d84b73768a6b17b2c51d8799bf35be7cbd4e90d1406af0e6",
+            "9575eafe0cd8977538e827b7be391313691e254ebff7d97205caeccbaec627ae"
+          ],
+          "rgb_sha256": [
+            "7ff9949b0e2b7252039aef7dc176037c2f37bcb370de887a291f24a5b2f163db",
+            "1ebe04d5f4b20f41f1d00c458967cdf7f7019927d10587397be464c3e4c0710d"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6338671875,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000021.jpg",
+          "file_bytes": [
+            48089,
+            98971
+          ],
+          "file_sha256": [
+            "7a47477532b6044c13ae50b6055d35491a1f34060d741b9d924072fc8870b894",
+            "59378d78516ede79da569db44ca185ef323151a3192c09ab2dbb1071285fc2e6"
+          ],
+          "rgb_sha256": [
+            "d08a7b7a4a17171be25a62e476ba14b120ec08fa15980ad30fd830519191b659",
+            "38d86170c47513f4c65971ada304919610cd7271d6a96f525128737a5bf02d13"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6200354456018519,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000022.jpg",
+          "file_bytes": [
+            50157,
+            106074
+          ],
+          "file_sha256": [
+            "86d698116a3bf45722b502f7c57370c056f9f7c80f8222e724eebb6a577808df",
+            "979ad36483cef367b151b46d4662e0d37d4162d5bcf5d2a3ff176c8f9ddf14e7"
+          ],
+          "rgb_sha256": [
+            "e3bfd5a6648167b757415f73a5e2d1909370626d5614af955a5f2264cc18d442",
+            "1e8d0811ddc2cc67a6614ec3b1be2bee606a0f8e3562643dd378f885f6d293e8"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6928971354166666,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000023.jpg",
+          "file_bytes": [
+            50432,
+            106789
+          ],
+          "file_sha256": [
+            "3e54647af1f1ed5639c40cc4a2e8d3119f6bbac55338253552deaadddfc658de",
+            "02653adce005487c065c3acaf62d96f876e466c6ff761bbecb8a8aba4e3bd641"
+          ],
+          "rgb_sha256": [
+            "9f8ae0a690ff9713d1938b3394bab247e9f1bfb43d53a0adf98e6d1ac5fad842",
+            "d84666fd6e1f17a51ed544eec2318f23e33a626786e0610dfc2e67fefe1f6829"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6988682725694444,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000024.jpg",
+          "file_bytes": [
+            29348,
+            42366
+          ],
+          "file_sha256": [
+            "99a2225b6d26fdfbdba9f1be4b965208a23977f7f5138cc9ac65f901584c7f8d",
+            "eeab846c5b00d6fe32cc8fc8f17f24d4ce8dcb737682b1d2ef4c3e5c3c03d736"
+          ],
+          "rgb_sha256": [
+            "92bd566c950022ce8105afa850816675a4dd343108572e8e2db9e3109bad88f6",
+            "bc06b29de4d2148d1997a56454d3a6f99d71206d4111f9c448bb3e6c561eca4f"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.2984031394675926,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000025.jpg",
+          "file_bytes": [
+            46854,
+            90759
+          ],
+          "file_sha256": [
+            "1cef1669f6106d37c89f2da0fa289cb4e5810fd41d0d7f45b58c5d100b8d25dd",
+            "6729068763e42551a97142cb487b840b165ef0669c23292fd43f8ce235f9b3dd"
+          ],
+          "rgb_sha256": [
+            "8f836b8ba2621c33d17a3cee36d641dc1748cf2f1209b996265420b2916820e4",
+            "26febf0cd98a12337282949502b6573e9dbb23c5bbb917296ebe5b1fc1230e98"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.644011863425926,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000026.jpg",
+          "file_bytes": [
+            46819,
+            92530
+          ],
+          "file_sha256": [
+            "f0ab902b5fa8b650e2ebc39a2deb3ce2c3012b9362c0c518c35d0e802df0c95f",
+            "ac8b11a22dc4090b23c70e927eab0adef4d96ad8e08c7952d18723900bf6a13f"
+          ],
+          "rgb_sha256": [
+            "59d36a47b0b6415574bd74bee5b9e017e80584ec47d190d72532f0467e31133f",
+            "27eefa142fb5777f4423fd974f623db72d5b86353a2fc631b31af03b66aa18d4"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6432761863425925,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000027.jpg",
+          "file_bytes": [
+            46748,
+            92553
+          ],
+          "file_sha256": [
+            "475d6f8056226cef7277acbfb6ee4d334f98f567fd0687f7a835cbe323c4c9e7",
+            "fdf7a3198b55a480f2124d2caede89a9526b7b7f68860e042333ac3e738e1f03"
+          ],
+          "rgb_sha256": [
+            "8b5f7a8d27614b22e16053483fcd95bf3ef16159d8bcf65f555cb5ef07d98109",
+            "56d314d5781ab328b5acb25aabfa57575e97823d99307633d54337157910e878"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.631302806712963,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000028.jpg",
+          "file_bytes": [
+            45086,
+            89739
+          ],
+          "file_sha256": [
+            "56cedad94232da05dcaadf3383ea8479be92de59327ef49fec375dcaac5bbea9",
+            "1695d6f8ce3035d735f76a83f092b6ff52cb06e21fd8f5aedbc8683ecc90f436"
+          ],
+          "rgb_sha256": [
+            "92bfbd7264e20c1f127ff356f4b74bf13fc50a14c00197d17c8e07d331559867",
+            "7c81f0936247817fa9461f6b37e52b7da0c7d37e55b0c9ed6be5225c667479a2"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5992180266203704,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000029.jpg",
+          "file_bytes": [
+            48047,
+            97586
+          ],
+          "file_sha256": [
+            "e0ecbe7f1547a69a28821030f73a5d28ffc35188160a2ce06b3184e04417015b",
+            "656b366495ca57f59b6393ae87577589f163883000f95b2cdab29eeccd6938ff"
+          ],
+          "rgb_sha256": [
+            "38678c0a18f7251def41c6133b5c17fb6cc168b76a56f3a1f78e9f5d3eaa6716",
+            "9b4668b418630886033abd2fc3a7722468e0c41a48348962b08ed7e6ce42a1d5"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6530881076388889,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000030.jpg",
+          "file_bytes": [
+            45404,
+            91334
+          ],
+          "file_sha256": [
+            "1b0fb2604246ada05acd2c45f564c5c68c6311a67f0df96f3e78df59329a2715",
+            "3080c7a675c7232a0371ee5f7106a5d88974b7941f8364756a2099e51ff3e7cc"
+          ],
+          "rgb_sha256": [
+            "1c6aba89510de9b121e03d7a95450874566a1a1d18429452c1995ed48a07f6b6",
+            "7820a94e4205bebe998feb3fdb4c9d0d9e5052a82ad0e7cb7b8be6fe4035d889"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6012554253472222,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000031.jpg",
+          "file_bytes": [
+            44326,
+            90157
+          ],
+          "file_sha256": [
+            "ef1eb5b7d2fa7b740f4cf447e2f5aa2f260197649cc3db4ef104b404f413dc0a",
+            "89d55d8a3e912398fa79b996057dafcaf744ba6312063da86d16cea73fcdc47d"
+          ],
+          "rgb_sha256": [
+            "0d61b333085eb87030cf2e2054b30e3563f2c14ec7408ce369373121a3d09e85",
+            "003564ce29df13e8af79d40e9d491a9264ea47a21e9653e39f0ab2c2ace409ea"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5959201388888888,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000032.jpg",
+          "file_bytes": [
+            42907,
+            87872
+          ],
+          "file_sha256": [
+            "dd12c361dbeed61de7b7fafa7d71b3bd14309949bac7c9e0d9e6cfa327f63173",
+            "f0aaa44bc742a4ace8bdb26962057716fab13abda5b02b50d538e919505f78a0"
+          ],
+          "rgb_sha256": [
+            "dd35b085e23c39da184f5c42cac1e89c93c8abc00b87059d6b1320009b724516",
+            "77fe2aaff4e1271feb2422e986503efbc8cd9c1c0956fa39c9b3b476b32cc2b0"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5715628616898148,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000033.jpg",
+          "file_bytes": [
+            34747,
+            63121
+          ],
+          "file_sha256": [
+            "e778ea43cec091f4b3197787febca729de5ceebca3be447fd039f782932f9782",
+            "c0b3d98b9705bc10a7f079b8c878f542b90d21bf3b9834fccb016a8091b3048b"
+          ],
+          "rgb_sha256": [
+            "097331b151575656030f893319fcf57764c5071b8bf77273f5c9785963c20cb3",
+            "52e3b43ef9f8beb08f0a8e18a85a0fa991860289f05e2389f394a23ddd2b25a7"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.36714228877314814,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000034.jpg",
+          "file_bytes": [
+            37435,
+            69550
+          ],
+          "file_sha256": [
+            "d40cfff8c978b6746edfeb5a06ae90754169ff98fba6f3b55e9e7ea46b874f8f",
+            "78998b0b4095b7e54da2401461ed938d6a3b708808013603f05264fc1bff25ce"
+          ],
+          "rgb_sha256": [
+            "60a29bc60af5a5ee0398d81ba050302c96df43937810245ee01ba2ef4c2d3838",
+            "7ce9230ca0af9dd8f404dab754fd15a69865dab53ed26540ad0f2e79c8d08315"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4324927662037037,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000035.jpg",
+          "file_bytes": [
+            40202,
+            77095
+          ],
+          "file_sha256": [
+            "9617d818bc454e856fc5f2d4f2177ce571d701de6a42c38aeedfb4144f4c9146",
+            "342d49bdc3f3492cf8847250f829335cd0b1e6c93efd507aa4c8f2c6d92d378f"
+          ],
+          "rgb_sha256": [
+            "3a0313c01a9bc249d7dc63b997dd1b6ddf486e3bfc282691de3dfc9bc96ccb7d",
+            "445816d8edff6809f6c015e2905f850aa2c9f50e2d46d0c7339c03de922be279"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4990744357638889,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000036.jpg",
+          "file_bytes": [
+            27411,
+            38471
+          ],
+          "file_sha256": [
+            "60060e3ce9b0f81d38dea7bdc7371753e34314adcd16bcc20ca74c1e79172b2a",
+            "8a20be7136ecde6ee161e42393817c1d289aefa39e1ad376ee95578c80b8f090"
+          ],
+          "rgb_sha256": [
+            "6b35a9de603e5eb31f4fd22c74abaef58dbeeabc88bbf6312f7b6143f87d800f",
+            "494d5f4db65f7780c8fc2d4bb568fea55ee314e89407fe1a6456c23b6569e48e"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.26477900752314815,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000037.jpg",
+          "file_bytes": [
+            40293,
+            75245
+          ],
+          "file_sha256": [
+            "69474fa1e203d8923011b5deee8a3ef2d2d217f7748d7df7b872dc8f1b67d44e",
+            "6e55d86d20e43c8e5621527baeabd1982f79d0d81e1d4ffd239222a31561cd3c"
+          ],
+          "rgb_sha256": [
+            "eef69e6084dcf9fcabd40f1c566336ea2ce8313a09a0c06af8e3127052b383a0",
+            "5056bfa2661fda2d3d984a6b20744f366bf84bc9ef49ecbc113b7acad7dd591b"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5151189959490741,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000038.jpg",
+          "file_bytes": [
+            42453,
+            82523
+          ],
+          "file_sha256": [
+            "f684eda8b0d1421ff1881edfdc5ce0287edb88fd6985160b0ef687b6192ec82a",
+            "9d6f17824134e0dd10c650b3d7ff3d8b00d0cc5c437b44d2ff3d68849f252b11"
+          ],
+          "rgb_sha256": [
+            "ac84428acfa82f5fb6f1a32d3dc7ff0ebc1499659cfc1bf2734d93c9be06e558",
+            "19b5f7b0ddfede7f916a8bca20bb8bc1b1fc68a13cd073c8c69838f3fd00bca3"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5574182581018519,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000039.jpg",
+          "file_bytes": [
+            44202,
+            88720
+          ],
+          "file_sha256": [
+            "e610543b075c681c38549ea7cfb16a709a6110669d32b37abedde8ea238a7489",
+            "470f8568ea8eaa74aef657a7ee055757b51db655f290ffe103bbf6aa33cf5b69"
+          ],
+          "rgb_sha256": [
+            "206dba6e992c30b70dd3b104567c82421e34ac0a8e6d3336e30ac3aa50264b0d",
+            "0a3de33892229dece7fe33d199aad782759d1eae7327b688fd82c9258c1fcf36"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6057436342592593,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000040.jpg",
+          "file_bytes": [
+            43298,
+            86671
+          ],
+          "file_sha256": [
+            "b8f49c8d4e9b2bc6b2df110ef392207aed187e29fc6df758d391b2c74af293ec",
+            "3de5d771a75d9f65ff1a0b9c3aa1493b60c254661c7700937c0c754a8fa8c444"
+          ],
+          "rgb_sha256": [
+            "8783f8ec05a8d923c6197e9d01a19898095fa06c8380f03853344d53e57c06ed",
+            "aa64978605cf64695f7cfebc13c079e35a59ac6e218d2f1fd034fc0354ffc3fe"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5938404224537037,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000041.jpg",
+          "file_bytes": [
+            43684,
+            87620
+          ],
+          "file_sha256": [
+            "1af239dc9e619a4fb4045873e975f31df0525318269fd92ef1ccff59f6242fb2",
+            "247a6db92ab79ce426f04ffb191d8db05a454aab85163e8b88e2fe891a1941f9"
+          ],
+          "rgb_sha256": [
+            "0ab8c3aa01542f2e00126db8e807555e9dae9c7938b5ca1568ac84d62abc0422",
+            "ce686960be2f26ce6362816ac882766c9d096c351f3fd336233df8b1068ee98b"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.598367332175926,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000042.jpg",
+          "file_bytes": [
+            44948,
+            91625
+          ],
+          "file_sha256": [
+            "210118c45d5c6234882e59cc0827aa5d400a63e6c56e851ae6556faa8e50d31e",
+            "56a41cf5dd105760cc8239ad6d03c06f98e16a4c5d285e780df215e44eaf79d0"
+          ],
+          "rgb_sha256": [
+            "bc9474badcd763bdd69a36f375a5c523580cbdd1db2d9762dfd812d9d2f0c67f",
+            "2723fe4d716aaefc68ff6922ab70eaf96684031869256830a05620edc312cb59"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6256011284722223,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000043.jpg",
+          "file_bytes": [
+            46211,
+            94757
+          ],
+          "file_sha256": [
+            "08c6a5b46555ec9b71df153cb70c0cfbcb24bf1e544da30f261847993487278a",
+            "e63deb8b5fb2acda85a8fa86abab7cf49117d7bec0c6d603e0077f4d40be2a35"
+          ],
+          "rgb_sha256": [
+            "0d03f84061688a13a87dc05dca91aa4b24774dffd3cc94ba59199d80a1ea1f04",
+            "39e87da06679e2ac1c3c70a27fe77e3131082bc31a4295711d92081a6ddaa583"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6474652777777777,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000044.jpg",
+          "file_bytes": [
+            47024,
+            97537
+          ],
+          "file_sha256": [
+            "96fa3d6bed0d8d490cc74521a531929fb19e90bf5dedcc4c7ba57a50caf31035",
+            "150369b1899b01757ccd0b423fb738f7fecd79cf4275d10236be70a84218e4f3"
+          ],
+          "rgb_sha256": [
+            "e1a560739de3234df4999a32f1b29f8df6875a1a8b56925179ba7f093fc3e30c",
+            "d0c7470ae56ae71e9ac6f89ce3839036ce99f7b24a7ab69d0e39703eea52bdc0"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6691612413194444,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000045.jpg",
+          "file_bytes": [
+            48321,
+            101148
+          ],
+          "file_sha256": [
+            "d22e8e2187ae69c578fef1d639d09fd26f87b382d275ad2bb5b1934706c1b69e",
+            "d98f04f54b334cdcd9a6849a8fdcf578c1e31a113ab778fe3e776902a7773676"
+          ],
+          "rgb_sha256": [
+            "35d98eef01d6a7ee0f50884364ec058f1f3fa91ea34ea760a77d2d1391f6968a",
+            "ffab1e60ccc8c45cd043e6c746f6615bd383441cc63075a1fbb251d9e22c1054"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7017643229166667,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000046.jpg",
+          "file_bytes": [
+            48523,
+            102003
+          ],
+          "file_sha256": [
+            "3c62b1b79d3503a4868a11e0593d821149bfdea008ef8d0ef690d06b4ab0ee77",
+            "8f95daaab990895c5d9088a0eeb96af860b29f79635ac305c5d718dee65136f4"
+          ],
+          "rgb_sha256": [
+            "82742848c986ac26bf4b789319535e3e13096cb6e10b84d12b1495f0cd6db9b8",
+            "b3bd5a66965e587dc50d5390e2cb6a0b660cf8179275feb8ca8d4853fa32c0ae"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7073777488425926,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000047.jpg",
+          "file_bytes": [
+            49580,
+            104796
+          ],
+          "file_sha256": [
+            "8bdc0b7c41a54ad80f4db9810414b8daa00d4d2ea2902722dd78ff4bb7181bb3",
+            "0d84bdbf741097a4b3cfd6a28985119a6773dbd49f3135afb6a3ca0b655f61e3"
+          ],
+          "rgb_sha256": [
+            "91d9b275eb7a59c1266373836a7e065b861528a9741b07bf76615c72ac6a798f",
+            "3a1cc11d4c0bf088d8aaff10ede7996c746e74409438e92bba8ecddde3e5e6eb"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7337630208333333,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000048.jpg",
+          "file_bytes": [
+            29553,
+            42227
+          ],
+          "file_sha256": [
+            "cca5316310a4874416272e4c47beb99571a85d2e8631df044d95f79fc0b0f541",
+            "08054b09cb9d8ce8559f8cadde476ad10c8ed7297e8b178b5c853e831c81babf"
+          ],
+          "rgb_sha256": [
+            "1c803dd5b05bba9e5b5ebd1310b98574481b8048bbf43a7504c8d82497a324aa",
+            "0e02fd65b500ddd28445c1c0e6de1643ab8323d2940331753cd697bf6b05785a"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.3322236689814815,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000049.jpg",
+          "file_bytes": [
+            44353,
+            84864
+          ],
+          "file_sha256": [
+            "f2c00664ae1246176d9b9bb22a563f3abd93cdce8f415e320c81580e80725c0a",
+            "db4a1ec9f3be07b3d7af7910f1c557eb6a8b7bd255e330b6e7453c283d003555"
+          ],
+          "rgb_sha256": [
+            "db3c0b3ffcdcc5df7f3b99a7e1914f4f515f8f80b5eb0a829035b87ae7e2d363",
+            "9e06ffffcda97f96a03d16f12427cbe92f57232767f2de66174f7e5df1a5d9b9"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6412102141203704,
+          "quantization_equal": false
+        }
+      ]
+    },
+    {
+      "ID": "S2_004",
+      "frames": 50,
+      "rgb_equal_frames": 0,
+      "mean_absolute_rgb_difference": 0.5929903718171297,
+      "rows": [
+        {
+          "frame": "frame_000000.jpg",
+          "file_bytes": [
+            36504,
+            63496
+          ],
+          "file_sha256": [
+            "ce4591dd77327c9902e469c1a30fdd728832907b319411cdb96df07bf8480965",
+            "3b1969edb10176b22c7099a716f9d16f6339ae8cc35e0a2117aeff19fa5d61d9"
+          ],
+          "rgb_sha256": [
+            "f5ba8b409a9e1a1f83051a99044bd00a720002bdd38439462e024deea2f0aea7",
+            "bd886bb53e56b530b10d8485a801ad557b56db3bc5aba4589a61223f73493a08"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.2945232928240741,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000001.jpg",
+          "file_bytes": [
+            44035,
+            101506
+          ],
+          "file_sha256": [
+            "81f27aea8db088636d6e8a6ae9591059475de6fd183f06cd57a8fb9bf1efe75f",
+            "3ce3a118afbd461caa65195d0b20c052179251d3b7ff47d407dafdcf4b60fcda"
+          ],
+          "rgb_sha256": [
+            "91ed3a1510912948b5eefd073bc21a71fa0eb7e450d276276cf259db451f2954",
+            "b75467575bf53a19d2b89a1690f36bd157241dbdf1cf57f2a71866d1f8f2669b"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6444473379629629,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000002.jpg",
+          "file_bytes": [
+            45316,
+            108220
+          ],
+          "file_sha256": [
+            "e06165cc0a6795a5eb926b8de50048bc788385926f5849c2ba2341cb43d068d2",
+            "ca49f853dcf09b6bf1ffbf5fb5d81828e84ca4998eeb4b733ade40844c225215"
+          ],
+          "rgb_sha256": [
+            "c38d88e9af02a29839697f6f8ceeb2ec8f4055691073cc1647bec0b41ac10d36",
+            "cd43bf64a823cefd1d766c576bd1b6e3d4f296b69ef276d1bdb187f723299f6a"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7124732349537037,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000003.jpg",
+          "file_bytes": [
+            45865,
+            112160
+          ],
+          "file_sha256": [
+            "2ea0301b36f265147b2659d49630b0068046584541d0ffcb765db57e442237dc",
+            "bccc75e3a5cbcbdfe1b5147757a1027df6d3b5d6addddb62e8764414d30afa81"
+          ],
+          "rgb_sha256": [
+            "d369c2b8289eb9a6835b023401876cb41444bf00f4ad54baa058d17eb7626d76",
+            "2ae69134fd3d6c5f624b080fb2b8be472695fd1fb9a25066a785eeea22d15b1f"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7518182146990741,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000004.jpg",
+          "file_bytes": [
+            46155,
+            113467
+          ],
+          "file_sha256": [
+            "fc74e73981e40e7de47bde64a6541d8d31c924d08f1bbebd2618988da0fba625",
+            "488043244a7e1b82e1a6bada5ae63b31682ec60fabdfcc61bccb0d7d3d7ac83c"
+          ],
+          "rgb_sha256": [
+            "8873ee094e3a99bb3c2d89c3bb051e739323f0e50867b87236d301bc95734fbb",
+            "f869a64360a294de8fb991e51fd73e9bc6e0bc2f221a90cd513b44e0da4b1b0f"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7653707320601851,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000005.jpg",
+          "file_bytes": [
+            46213,
+            113333
+          ],
+          "file_sha256": [
+            "00193593c9320730a0ff0987584db54d9c62a014dda6c7e6d86e92402e47c3fe",
+            "592abbd949b8614add18f13eb36887149f3f99c0ecbf59c50b8268af52fe97b1"
+          ],
+          "rgb_sha256": [
+            "7dea4e32005266bb65f65418c37a5ef3e291384caecb112416182869f50c57ba",
+            "de64a36d406ffb85f34649c672f94d005a51498867e0d02bc273473633cb9c99"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7641257957175925,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000006.jpg",
+          "file_bytes": [
+            46818,
+            114480
+          ],
+          "file_sha256": [
+            "808240e5179f07a1381dbbc361f32fb679b6a54c0fa6357da99e37bcea5c7be6",
+            "ffbda42eda4f663e65c3514515d34e80aa93f8145c475fc9409e84ff9e1c4585"
+          ],
+          "rgb_sha256": [
+            "e50404dd25f4674fd439a923a5bd17bc1825944af9cc674e43f2034b9b811b89",
+            "d5bd039bda9f8782c105675be46accc20ac4ed1b0b7bbfc4d14a097159283459"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7692632378472222,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000007.jpg",
+          "file_bytes": [
+            46944,
+            114288
+          ],
+          "file_sha256": [
+            "966b0d0abdd0c6a934865bafa938cc3c37b26f5bf8c014e2a8cbd414e86128f4",
+            "9d4df8227a8e64badd91c786533bbec7a5565f111ee3d1d4ff709949e6d43f82"
+          ],
+          "rgb_sha256": [
+            "47d6306969b12f923834f0992aa45a1306244c7a995210e914e54bf5b646d866",
+            "1ce4a8ae03311391dfc4ada81e5822410a52c40b1e21995608f76d8074e0674e"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7626215277777778,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000008.jpg",
+          "file_bytes": [
+            47077,
+            114602
+          ],
+          "file_sha256": [
+            "9d97e7ec08cbdef08afbadfd2acc52029170b32b2c2c4738b1e3f100153475a2",
+            "d2a4df9d85f9b75be46b201e18404d8c1edcd799746a985d25a3dcb886707e36"
+          ],
+          "rgb_sha256": [
+            "38cd1e9b0ec4f84d87fcbd5784ee669a57122b8359ae3d26e9cdd0a2f81536db",
+            "597c09213396e35b77d5d2c5a0025cff64ae92c57d4e6e43c3e04842752a247a"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7626425057870371,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000009.jpg",
+          "file_bytes": [
+            47084,
+            114651
+          ],
+          "file_sha256": [
+            "f1cc29830fd681335bc9c4d34668bee749b40b21228f0d7eacdf99dd88d86ee6",
+            "0c6270f964ea90791d37d37fb0f66a68b7dfc143d198863de667a0eb50d88785"
+          ],
+          "rgb_sha256": [
+            "18043becf7dbbf2088faa79cfbdac4a92e611ce566f67df131963f4d81ccadf1",
+            "61af26b344d979be2efebe24e048dca48ed126207b4169d3a3e117c63d26f402"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7613780381944445,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000010.jpg",
+          "file_bytes": [
+            47328,
+            114874
+          ],
+          "file_sha256": [
+            "8f511b8e1051c1a5cd8ceabadc36d74c15f707be97b702b2485ac1eb9a17d1e6",
+            "095a8cb2ed97c3032f3e007b43ae46592e833dc7688b4f9f55161ae4e33d5bf7"
+          ],
+          "rgb_sha256": [
+            "81bdbbd206b5069faf3188ce58dc3204e7108d2a214c0b8b598444c26418e735",
+            "61d529dc9e1610e9d59f33eb2434631337ae870d7bfabf29d349fa0e4773f516"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7597059461805555,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000011.jpg",
+          "file_bytes": [
+            47496,
+            115138
+          ],
+          "file_sha256": [
+            "0fc6c4fb565e846538357519426d74bec7d7e9ae61ade23c004165327284aff0",
+            "db7ca05755b7fdc6f93c6ec7a1cb169ae34f9e1f26f31a9f09471763fc793825"
+          ],
+          "rgb_sha256": [
+            "14553a30fe425a14dd26b59722d85f6386c1bcb219ac67a7edaa24c1fd9f9780",
+            "b33db777eeb11c4c1b7964bcff803eb12509473bc8b2a513a4e2eb3d08107c17"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.766232277199074,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000012.jpg",
+          "file_bytes": [
+            33305,
+            53226
+          ],
+          "file_sha256": [
+            "9ab1a96590d8865cb30dbddab1166d58d10662a754f77de2e191fc36449c9ae1",
+            "f4183603272d49d8cd4723dc76c6cacbbff5f39dc50feffe38d62a931d27514c"
+          ],
+          "rgb_sha256": [
+            "ce57ec822c0a5f245234a6f02acdd12b0024f0a7db1815038703b03e2edf12bd",
+            "d41446df2de66a7e3c53f4edf9311b861f482810b92fab7fe7f24586382e6284"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.22679325810185186,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000013.jpg",
+          "file_bytes": [
+            40740,
+            83479
+          ],
+          "file_sha256": [
+            "39facad03996ad6b20934d104c140732220598a92d3a201ff96b5cd4addb509c",
+            "7d87dc5fec1a82ddf3184a16a598c96dc0f66cf6999abdd5796490b6d2f8a742"
+          ],
+          "rgb_sha256": [
+            "ea44059cdc1ca9cca8bfaeb54271a9e9d3ada81caa6a60d9eabb7171a0e9dde8",
+            "6575e89db4fb9233be269ed32070d00ef481a1064c288e786f67ade892af239f"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4627162905092593,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000014.jpg",
+          "file_bytes": [
+            43070,
+            90935
+          ],
+          "file_sha256": [
+            "41295ba7d00ffb174d4032f5c19c27680dc78d80c2a61fa83bdd7dc0687ef152",
+            "4a9d1a7adea8410b72bd3f2c20f14c8aec8a838b6df074164e26b249cfe8e6be"
+          ],
+          "rgb_sha256": [
+            "d8705af941ad494e47161b60ff0aad6c1b906bb41e24374660b676d83f804823",
+            "4e245539a286cd0be3c3296a12a0be48e2b6630bdf9c788ac44795c3195dc205"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.523291015625,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000015.jpg",
+          "file_bytes": [
+            44325,
+            95170
+          ],
+          "file_sha256": [
+            "2e320211bd17b63c3e06b85174b95109c1592235ebb419eae53e464369582c85",
+            "ae77a70f32d13ae1c203a3c3868a0c455df8354076191da24a08c75ec16dfacb"
+          ],
+          "rgb_sha256": [
+            "521d7eae00c81ca93484768e17cdc5fc5cd6c7f86ff571c02aae3cf2a1499b42",
+            "5a7a2fe3d9694d4227f2187d4eca19f002ee9c6231562fe7bf6d7438000dcfd4"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5580060040509259,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000016.jpg",
+          "file_bytes": [
+            45467,
+            98451
+          ],
+          "file_sha256": [
+            "26ce5915ffc800eb8b1d1dbaec0c879fd2eb2aded1deb8955401b71175b807d1",
+            "ae14cd06dbf41bb7dd93fc69ed666d1a2d2743c173f50a137cc3ee9288b146f9"
+          ],
+          "rgb_sha256": [
+            "e3992bb5bc5fbaf58b2415e404a396f18e24a194afabfdad1de4389515415fc7",
+            "371f9dfa2d04a5357a526228c906121dffbf512d7a79e6bdc340583eee008710"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.58740234375,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000017.jpg",
+          "file_bytes": [
+            46279,
+            101206
+          ],
+          "file_sha256": [
+            "aab4ee40486f4426fdfa28401cb01aa26f5dfda3c379d86a435f1185a2f15ee5",
+            "7eddfe0fe2f6f8465269da2e4286fdb02a4c6f61a0a85d8c8aa9dce9ac663bee"
+          ],
+          "rgb_sha256": [
+            "866d29470225933c9c3e73491f2edc4bfca7ff4a8132f6392410599a7a25a180",
+            "9077970336e35494daac9ff2a13a61afa2bb39f0415d0407123933c81fe7d4e7"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6161990017361111,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000018.jpg",
+          "file_bytes": [
+            46217,
+            101474
+          ],
+          "file_sha256": [
+            "b215cef4d68c50952e7bd18084dc5a55c0bbd51015921aa8207498ea39294265",
+            "9ef7650514a673e97dfe2b8fe72f6487aa6c41c90fa0f9c3090439c6f654f0fb"
+          ],
+          "rgb_sha256": [
+            "0ba9549f4a387e65ff74069cf6d091932d40c3d680014dee7b2fe75f352ca9c9",
+            "265dbbfce493675e1057b3cf77495e95aaed5df2b7dcd452c9c0b076a186803f"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6189463975694445,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000019.jpg",
+          "file_bytes": [
+            46219,
+            101522
+          ],
+          "file_sha256": [
+            "9e5e0fda00526bead17961bec3e7ef451f1f6238923d0593a67c653dd1a2fce4",
+            "7aaac416068ecfec2b1d5b22d26371f89d167d49f1ac8ea9103c08b8c7a8b18c"
+          ],
+          "rgb_sha256": [
+            "9dd1ad2c6d1451479460eb7abb0e445a0cf13acd68a136f2ddd86d7291f9e02d",
+            "32ab05b310075f32a09dfcf485928badd96f5281473cc84806817214153962ca"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6206058304398148,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000020.jpg",
+          "file_bytes": [
+            46457,
+            102158
+          ],
+          "file_sha256": [
+            "f3a6071dc50ff62e25bd649691d57caf8226bc58130f95f961a4c613ee74f4da",
+            "65f94d2921fe3669e190aac67a0daf944ae4fa767216794479e77bc09003881f"
+          ],
+          "rgb_sha256": [
+            "20a5a795df324d91e5eb02559d2af11baf040b088471c2111d4c1e45224c5a4d",
+            "7a75c553c9cb6f4ac1e74a418b23088796fc86756355a6a231806ceca113e254"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6274305555555556,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000021.jpg",
+          "file_bytes": [
+            46556,
+            102640
+          ],
+          "file_sha256": [
+            "d353fb5f9dedec7bf62337b706b2e4c190f3f1c0af4181a17b8453184d154cde",
+            "5af5e9e62d3209710bb6819ee3aa4968fd4fa12d80f9ed2fa75cee0e1aa1bb12"
+          ],
+          "rgb_sha256": [
+            "aeb38323f17b24cc13e6b02fdfeed8626d5e6f8c84cfaf2e69642d5cd00561a9",
+            "8a542d223b21ae095dca089e8bf35d066158789f60c34dab9b91a102efecb848"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6295171440972223,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000022.jpg",
+          "file_bytes": [
+            46515,
+            102330
+          ],
+          "file_sha256": [
+            "e3539b441d5de4873391726ad541c819348f532c96e9af12640012b8c52aabc8",
+            "680e7714b53d0d05bb930ee71361f4111d9e34e831c70410e99f6e9e9d2bcbb8"
+          ],
+          "rgb_sha256": [
+            "4062a0edf95ab16fc6b6143e50f050d13314d8fe7582d916a5c3888b59fb080e",
+            "05795e904eddee770111d4347aeca2b3cf931d865881bce94a570dc446003997"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6277032696759259,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000023.jpg",
+          "file_bytes": [
+            46505,
+            102362
+          ],
+          "file_sha256": [
+            "2309bc7d0836414153899e9a426898d4063be31d8595419266f927d162bc4ace",
+            "487b8add3bff892a5f8358f5772604559f98eb2963b0b5c46e77bb40d61e0515"
+          ],
+          "rgb_sha256": [
+            "dd06b6228b3daf187ab6c4394f940b5709c2f0551edec415c2822d6bfb5afb22",
+            "633bc07be326ace000326669e3b12a3b22cc527b63a4aeb82aa4cae599b52689"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6278103298611111,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000024.jpg",
+          "file_bytes": [
+            31680,
+            49527
+          ],
+          "file_sha256": [
+            "a2c30774a3dd25f7a15b24403d8b332ecf3bcd09c603f95e6fd637b60b285af0",
+            "612d92afcec951139eda8853f5ae17bdf9ba7545d2155bd9fb2545e461edfab7"
+          ],
+          "rgb_sha256": [
+            "eb625d06dd15f7d7f00ee2587797430638556bbe4b5244e2b3396f5e878c5492",
+            "a7c3659da388f9cfd6e1aef593b34b262b2d2992218cca7b6ff520014989a5b6"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.3190733506944444,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000025.jpg",
+          "file_bytes": [
+            37387,
+            72632
+          ],
+          "file_sha256": [
+            "3e5f707218f9e034c3babaad9dfc0f63a5a850d5faf36028f8278bf8b49b6436",
+            "c5b04064a3a5447fcde4b58a548819cdecd77d3b94d99069d41dc68f7635a7e5"
+          ],
+          "rgb_sha256": [
+            "cd18a4df8e83ec1a27828481b672cfa5cb653e7b352d7f50569363f6b324c2c7",
+            "00e24519f3e010032952ec145a5e2d71f8d0615c6e60a69c8e5dca0033822bd6"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.46500108506944443,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000026.jpg",
+          "file_bytes": [
+            38725,
+            77187
+          ],
+          "file_sha256": [
+            "2677a9020bdeab20089c4fb3b912a14b023c01432c5a20dba6de37a54f9d45d9",
+            "f4d383ff44b4a1b3f6a08c14fcb1051370d30775c881776ec876e196de7636b2"
+          ],
+          "rgb_sha256": [
+            "1b29c53003f8d136bb7a3666335834fc7a713e26b687fb3989d12eca569902c4",
+            "c10132d05a5eb7390fbb3f61cb59f2a1be829fa503985bf5ff06d127a8433dd4"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.49345124421296294,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000027.jpg",
+          "file_bytes": [
+            41186,
+            84762
+          ],
+          "file_sha256": [
+            "1685df2e5c92203c7e68fa2026fe50bad8f6dfe232befede86647b9fcf261bb8",
+            "ce603ff5c2999dbc4213c65ea29ae076a950d09314dade639634368615565a2c"
+          ],
+          "rgb_sha256": [
+            "136b8e3a9ea14bbac443e99807f0478f05f272f595bbae232b231a6275592ab4",
+            "13858fbb602c923abd458c5b765238c0772016129e5fbb2ceed674bffdd677f6"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5473896846064815,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000028.jpg",
+          "file_bytes": [
+            41674,
+            86558
+          ],
+          "file_sha256": [
+            "b91d1014c0ea7e19cc2df3e5abc8dd5bb6e7c3e8a99bb89743ffae55f219ec19",
+            "3e455589f749e1242cdf8efef8ef6c9c7ec845a854547c2c034f754fd1adedf8"
+          ],
+          "rgb_sha256": [
+            "fe541ee35afc8eb0dd1ac76b6243d10ff0136a30ce28b6e0eb810c3db8aa085c",
+            "b810ca7ca4bab379645967684dc11fd3c5bc88d7e26a5bb3471c87b3546ffb71"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5594560185185186,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000029.jpg",
+          "file_bytes": [
+            42640,
+            89381
+          ],
+          "file_sha256": [
+            "87149ebd5a91a38729b0d21817eab2927724b9083ea35dc73630820b5d0c567e",
+            "493235b211a62915102cff0561bde812c8e6cabbbaf9cac090725022dc7b8531"
+          ],
+          "rgb_sha256": [
+            "112741ba7735b7862c03ac7f2ba415cd570e4247825c53e399eb680fd22772a0",
+            "eaa802c9c04978ee5b5a3dbd97728c3512c4b4463e2d351da2eceb04fed1f50b"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.574453125,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000030.jpg",
+          "file_bytes": [
+            43803,
+            92535
+          ],
+          "file_sha256": [
+            "b68395887f626bdc25ba82d0ca6f7aec7f0bec9d83790682307d42ed64d56333",
+            "57cb91bc808ced7a6b4f46632e93a56e63e6cdcf79a127f6b1dfa537ca9cfdba"
+          ],
+          "rgb_sha256": [
+            "1cec26ba74e821ffb57200886e09be68e65c9874b244853bbb7aa2df5ec687f7",
+            "9ff4182532fe38c04808acfacdba3afffb626e5e1e8877cb799c860b037049d3"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5932331452546297,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000031.jpg",
+          "file_bytes": [
+            44526,
+            94409
+          ],
+          "file_sha256": [
+            "eac7932b1684200f216ea07485b15e7e74dc98af1d5208aae35d8c6cb34c0f56",
+            "e41d7c5b5eeb0f3fdf50296c36adc094230d486ed676a16fdfc9b533a941e582"
+          ],
+          "rgb_sha256": [
+            "e12fa1181809623529bf4f514b4e031e2f08db5501c92c82cec954097a7d2c49",
+            "c8f2781c71b9692344401e501ea77da2ca90c8ff87bc7923360c04eb25280691"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5997099247685185,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000032.jpg",
+          "file_bytes": [
+            45095,
+            96215
+          ],
+          "file_sha256": [
+            "f78c42a5ee75ff76b154b1785b423074c526c4c635ef75510554d5bb3644ac2a",
+            "4d8e3fce4769b8c3d50104c61ff2c3a60d1f55f71cb71062d1b7c7f4e40937d5"
+          ],
+          "rgb_sha256": [
+            "36607a08645353dc17e6efe8189e07b9ff7017cb86c7ad971445a2762fc49aca",
+            "de85ce8b3a7caae5158d24ba0a974724b47c54c598f5d0fd2b16d4251b07a6fe"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6100774016203704,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000033.jpg",
+          "file_bytes": [
+            45115,
+            96570
+          ],
+          "file_sha256": [
+            "4de5bb0a980daab7748a40e28fa38392ad86d30bdd2c5fa0c1798adc0cc9b9c5",
+            "a3ee31aa255af59b5dcc4836c222d8e6823685d3a6de09ba65c66d3e4c8f245c"
+          ],
+          "rgb_sha256": [
+            "49389296b1fa6c321819034baf94a211f312259a4a06b773b4c95c8bcbb17846",
+            "743737460146e4c24d64472dd43492f776bb3ae484293932f9059c0eca21718e"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.610128761574074,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000034.jpg",
+          "file_bytes": [
+            45526,
+            97705
+          ],
+          "file_sha256": [
+            "15d1af154283dfa128215809ca74f0ffec14319efc13732da986de3badffb7c1",
+            "ea0fa3c642db44738359fc21e5300369acb9f2e4de3211283203736afb0a6e5f"
+          ],
+          "rgb_sha256": [
+            "e9311e9de0fb821ecb37749ffeb8ef0437d7de7dd592d9aee392321f7a026994",
+            "3b9dde2a967fc23ba48e21d8c2e5a97be90e0882407401139a19ea485d5cfe91"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.615390625,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000035.jpg",
+          "file_bytes": [
+            45665,
+            98144
+          ],
+          "file_sha256": [
+            "13f3949b3b62db59f092f58af3f9acd63d06248df1c83afce46a0be1563d4f78",
+            "a0c212f3f3afe0e471e9ad88457bd7a2775de84320838b5a6e64f1733e7cfd0e"
+          ],
+          "rgb_sha256": [
+            "73a492741b4c55a025bed9a249cdddb7cc371e3aaffebe72cc25829de02f372d",
+            "864f3f071f43985ef9b3710c16c2314f3b11dc47643fe5536eadc216640ab219"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6175542534722223,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000036.jpg",
+          "file_bytes": [
+            31373,
+            46928
+          ],
+          "file_sha256": [
+            "358689b2b600f31a54eb2e6ed61cb0685a421c744b3bbe7c794fe2da49fe87cd",
+            "f417ef1bc3f628b6fa26c0bb42029092bb995f2b2f8b495928a39498fa41dfed"
+          ],
+          "rgb_sha256": [
+            "f779ca1e2ed2a48ce9e204b696e847e4582b0175268a4738d8f7312a54e8f3a3",
+            "6c8bc6b39cc104888fdb903825d9237be375312a06b523e5ef7b40fc67a59b60"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.19254557291666666,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000037.jpg",
+          "file_bytes": [
+            41372,
+            83683
+          ],
+          "file_sha256": [
+            "f01eecbea03fa7973b71e8df62244716d23e73ed58c81415c1fbe6348ec56439",
+            "878ff263c5564ee93dee7a34ad5fc2e5d1d24cf4b3a8b525c37db7e83d66d2fc"
+          ],
+          "rgb_sha256": [
+            "b3a6320433940f435d6e43ba49e8be665ecc2d4fc0f9ef16c38a9b4fcbad0892",
+            "b2f4587edca0ab4d1de0900f65b51dbfcf71a2e3719a248bbf1d1ee61c4587f1"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.46865813078703705,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000038.jpg",
+          "file_bytes": [
+            43169,
+            88757
+          ],
+          "file_sha256": [
+            "5600ef42f376a89d6411e89bbd55dd681d9adeed1606027b3f4eff30594d032e",
+            "88000f56fdd21ae7cbc4d11f40363bd9caba327761bd071789b04fe44f3c8b97"
+          ],
+          "rgb_sha256": [
+            "4a03f8d88322a025566d82a22966a26915e6470f01e88c0ebde3c054bc996f3f",
+            "84ec55c01282accac2f540c9fea5a2df6506e834436c9f4c933f6a5004f6c268"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5037330005787037,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000039.jpg",
+          "file_bytes": [
+            44005,
+            90728
+          ],
+          "file_sha256": [
+            "8cc41ddb62002f66f496b705b91bfd9c2bdadb9cd47b954f77fbf65095b6c553",
+            "d5ba69c3a2a42049715db99bd66f24d053bf268dc077ac4a9e5d7a946743733c"
+          ],
+          "rgb_sha256": [
+            "cb9a6c88726435a263911f833f5a954aafea59024acd25495bd098b928c583ce",
+            "11f79f604843193681bab8f0b746919a54e0628478092af64ca3e3042cb8e7ef"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5171882233796297,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000040.jpg",
+          "file_bytes": [
+            44595,
+            92228
+          ],
+          "file_sha256": [
+            "cea2b4d9a8e843ee00f42b623f15278e3e9d1ce939ddbcd2226c75014cc5bf7f",
+            "a72a7cb46521edadfb8976a9569b91de1db4a26a5bbb319c1b93f3ac0c1be66d"
+          ],
+          "rgb_sha256": [
+            "dd9e1ff5bfae46ec95cf9e946ff5c5ee69a176a4a6a28f43d987a9922cff071f",
+            "1f168fcbb1fe393f45b8b31b67197faac8ec2ab076e57246330389f42f060c71"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5308832465277777,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000041.jpg",
+          "file_bytes": [
+            44770,
+            92682
+          ],
+          "file_sha256": [
+            "c7fe0e332156c60861c22afd283ddfa19162f586e66b77f9416c8f302627fd0f",
+            "d43c1d9a06e3e6b91de7a18ce20a816b58a3d5f7dfae8507115e00762c75baf8"
+          ],
+          "rgb_sha256": [
+            "59b0fe7816a6a1c25f046999037cac947cb63b0c32b44041dfe40061f094a3bb",
+            "d2fc4352d57af006cabea1f1697172d5d5a912b63a9fb6fb82b7dbbe059913c2"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5596969039351852,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000042.jpg",
+          "file_bytes": [
+            43432,
+            87721
+          ],
+          "file_sha256": [
+            "04c8335748a02844fd23699bdf52d1fafb9088dae3463ed9afa3062e490921ac",
+            "dd74a3e4b7cf07573bc2ee9f15ae31c5dc9febb624924db9bca360f23aa99dbc"
+          ],
+          "rgb_sha256": [
+            "bd448b039683b4537776bedde94b8a593009606b3675497cc8f68264cda23554",
+            "82044390abfcae4c3e5f3f1dfd309f3d8e40caed6cdd380eca4899fc0b825af9"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.585789207175926,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000043.jpg",
+          "file_bytes": [
+            50027,
+            106259
+          ],
+          "file_sha256": [
+            "188b5e50d6107a9d0cb7b3da188cf9e54f4667aad8d65db460b923ff173057f8",
+            "95a3bec4d5dee5aad5f4cb85536051d9582df22e0809cc0d34e5fac0d56c39b2"
+          ],
+          "rgb_sha256": [
+            "02bb6b5d260e0d15f0b3f15f9982d4bc0c89a6f36762b64dc19ac4b050bc161d",
+            "97328f0582eb36068917f5c875016ea75de3c7ff53a4bec2c309228a11852280"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6877018229166667,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000044.jpg",
+          "file_bytes": [
+            50567,
+            109029
+          ],
+          "file_sha256": [
+            "cb66779980aaebc92120b1d2fa187be6b246b4bded8beccd6037c8fe66b8fb09",
+            "3e28c327d21c49cb28c4b889a016b8dbe3ac6dbe05fe418270bb2fabaf062d86"
+          ],
+          "rgb_sha256": [
+            "a273cdabb894697b69b9dabc1e65590993dd7ce003e5ff07a86c1f76dddb8f74",
+            "115d9e09c83bdc1fb4aa8c807f477f93db75024883717bfdf65cc5f6dbbbc06a"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7123238570601852,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000045.jpg",
+          "file_bytes": [
+            51672,
+            113655
+          ],
+          "file_sha256": [
+            "d9d9490a6bce172253b3c885fd46788197311e5fa9968af5c80890aab82a0e1b",
+            "065c0cce8e188746d35230d74ce4c0944220dde58480d9ac60614b53627cbe96"
+          ],
+          "rgb_sha256": [
+            "1a90461a40ad07af856ee80f6b83a0d739f488f7cc272b2f21eedc570a628688",
+            "6934a30da53ae988d0f1cc3f0ef7a7ba08afcf06b8f5908bbb6b14c9189012f7"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.750015552662037,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000046.jpg",
+          "file_bytes": [
+            51819,
+            113975
+          ],
+          "file_sha256": [
+            "253eeda62442730fdea67e8efa2e9f29e8b4d64f7517d4856326c6e9b705ddf9",
+            "a02450fd3943433e7a1a7b26152d17f5b38ee7d892369938b375f1699d12f15c"
+          ],
+          "rgb_sha256": [
+            "938f6385fc1bc35224b72569a9763cac667ea830e1cfd767d9c837743edd8f05",
+            "351a9431f1336b970cdc341623ca24e301d5d2c6528027a2f7ff8206acfd2124"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7496274594907407,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000047.jpg",
+          "file_bytes": [
+            51740,
+            114364
+          ],
+          "file_sha256": [
+            "1fc8de965b75ce32f42b74e3475d49cdac30c01d51734c254a44ce3b45b02996",
+            "b59c825e12f718af7aa7e4397ef522e926de728c0e081ddc047b5cc7d0d75e9c"
+          ],
+          "rgb_sha256": [
+            "ce470f17aef05d02d20251563f633cc8f335ca3bf1bf3e401693bf5a9882d224",
+            "4de32121c0cbdedcc6545996b751e03ba8bafabb7d74ca92f820be3a58ecd691"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.7481684027777777,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000048.jpg",
+          "file_bytes": [
+            27466,
+            39876
+          ],
+          "file_sha256": [
+            "702ffacb88ae853a592f98ebdd26f50c3ac5da54376e1d26811e8f891ac8e004",
+            "f1aa2e22947a34227dc8c4466544de4adbb6591dea2ca20b180233aed27e6c35"
+          ],
+          "rgb_sha256": [
+            "bbcf1ab3850709a18e939eb864f777540f2c9a2fe3d55abc52d924690be4facd",
+            "550356f667be25f2934d5c07fe967cdd84d3ffa00da030a83f6b42ce30426ac5"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.2716109664351852,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000049.jpg",
+          "file_bytes": [
+            41312,
+            79157
+          ],
+          "file_sha256": [
+            "5521d93ee855d55ce48ca1ddb312e65586b2cfd93f41fee85e6d3516b966ccfa",
+            "751d7425e60bb1f69eea37a4db947d776ecf23b3709850f3679df3e861a0ea95"
+          ],
+          "rgb_sha256": [
+            "ec9a714f494191de4a3289f161b3e838e7b808127548fe06f53b355d8938f340",
+            "8fdbfb38752ff47f405fc040080ab04c4e95fed8ba49cf5ea0ba01c38f6767ab"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5256340422453704,
+          "quantization_equal": false
+        }
+      ]
+    },
+    {
+      "ID": "S2_005",
+      "frames": 50,
+      "rgb_equal_frames": 0,
+      "mean_absolute_rgb_difference": 0.5508306495949074,
+      "rows": [
+        {
+          "frame": "frame_000000.jpg",
+          "file_bytes": [
+            40650,
+            66852
+          ],
+          "file_sha256": [
+            "76b4b08cb334cb5950b8c4058733f7ea964897b8a0fdda9f91f4d5c2efb11b02",
+            "d3dc2c4307281616a0f056d2f47f5ce19f0fd47f2026082d2f61894c413ca4cb"
+          ],
+          "rgb_sha256": [
+            "fc951f660af5ace06fd0ab079d68f0be31642b212844ee92858ade4c18836966",
+            "08dc6bad2f52273014b49512faf363cf9a7c5fd2d0d605519813f0444d7a476f"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.2604419849537037,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000001.jpg",
+          "file_bytes": [
+            45505,
+            94446
+          ],
+          "file_sha256": [
+            "97c76e13033fb70ea354dcc9b580e38447d5ff720ca5c7e2086901db5b01babc",
+            "31bbc6968e6c269ed04691b1091f37c14c442129e6e5d47cb56fc797a7e0f4ae"
+          ],
+          "rgb_sha256": [
+            "0c2a18d3370deb59c839238f19189a2f0abe666c051ccaaa028f42d4130f6d43",
+            "0151be2c4ce36074b35167cb203ecc6bbc8b044182a71a95a626f95dcd8c15d8"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5735340711805555,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000002.jpg",
+          "file_bytes": [
+            44976,
+            97699
+          ],
+          "file_sha256": [
+            "9bcfce8ce89b05477d315f669fcbf78e4d427d0eb5c8e476f9b3e10a494182aa",
+            "21e272fbb74d84b615177102ae4a10a43e95a9fe055e2784987bf0f91f0dcdc3"
+          ],
+          "rgb_sha256": [
+            "1b2f9d2cf543ac39338a87e3f4d75fff2ab9c178f47ffab041bbb1ca2889d6d0",
+            "36012f862c24b2c94e22f91ffafba39601a5644732d7f955e6d3b82d8648e40a"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6209035011574074,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000003.jpg",
+          "file_bytes": [
+            44637,
+            99298
+          ],
+          "file_sha256": [
+            "1c2f9f378dc8552fd3a9e7ba32f5d9a68d6bb030add549606bcec8508d43b39d",
+            "03b832f21537ce77e245d10672d85c3cea5db06a266de5ecd7dbc8f6507a9816"
+          ],
+          "rgb_sha256": [
+            "00e41b08b6280d896815995db874dc27a55ad6da8a64dfd9d2fb2b5a33fdb965",
+            "6bf48c48e67cfd21e2ab533d33c8781fa7bc72227e16885dc065a14bed1d70b8"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6439011863425926,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000004.jpg",
+          "file_bytes": [
+            44870,
+            99175
+          ],
+          "file_sha256": [
+            "c740ac55840225705d81a4c5fe2ec65253e6fba1c20cfddb76d6b5c2af6ff086",
+            "cbb80ab4767c91991168143cb5bed10398866c95a8903c410195b43178073468"
+          ],
+          "rgb_sha256": [
+            "c5cb15db9bb24f4cc01622a956d8a12a9d694b4b0455890b0a63be3ec4a2cb40",
+            "8e8b2ee2ce6c5bfef4a6a03aadfac4f6ddfe478684917fa533fffc37f66e8765"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6413917824074075,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000005.jpg",
+          "file_bytes": [
+            43981,
+            97359
+          ],
+          "file_sha256": [
+            "a9ecd724d6f6fb1943d1ef55229ea9bb239ff27122d24f1309e80257a5e7ac46",
+            "c5c4261ba6c9fe3b9bb3b592f9b0984ecb304b7aebf95014af44b3602aaeac9c"
+          ],
+          "rgb_sha256": [
+            "05c505940139adbece8232e0d0a645294164770f1866b83cdd7f1942d8fb9301",
+            "18f56511634c7ffb2948093a8cc4ff3b6dd616d06194476a29f028435c9384b9"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6310217737268519,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000006.jpg",
+          "file_bytes": [
+            43456,
+            95040
+          ],
+          "file_sha256": [
+            "a6665e8c5579cc0c72a0a3c99ab4e89560aa4b9889c4284d3063ca2aedead29d",
+            "8d76ab2957b3bf77907a9eba9bd39503b5f1d128d31a692806cdeab62dd1ab52"
+          ],
+          "rgb_sha256": [
+            "68aeb64bbaa0c21e63e19ec9c56812f8d7286feee74b7fd5e6b5249f6e7c9ecc",
+            "7b99044756e70461430845a062cab9d54ad5c49c40b2b098287ba6445dc8a374"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6179087094907407,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000007.jpg",
+          "file_bytes": [
+            43672,
+            95647
+          ],
+          "file_sha256": [
+            "df88aeebc348549fbdbc530729279d7271a34b13503dd5b737245a9d70cbceec",
+            "44eabf9e180c957f79c78d27f8e8546c303c6923186a8a50ce914cdc5885765f"
+          ],
+          "rgb_sha256": [
+            "bc9ad4801ffa0c376b460475b4c63b822f4e963618a4f27eb2dd4803ca66011b",
+            "0a0e8f39b3d831b41a9087763c0a79bfea6f24674f866d2e4ec51b8fe35af816"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6230982349537038,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000008.jpg",
+          "file_bytes": [
+            42879,
+            92780
+          ],
+          "file_sha256": [
+            "da49ed85e5a47fc18575518e4dff2694443df6d3abf5b99a3c7e197191b74e96",
+            "c5a367e7dc45b8abb1756b73158a33ef4fb507e7bf868797a31b8973c5caabaf"
+          ],
+          "rgb_sha256": [
+            "51c5975d9a28ba51359142946328cac206e16292733d5a005081abbbe3bedb4b",
+            "c7ca1b3df930c709c354ee76b4b17ed37228f28fcde603129a0bc26596229996"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5939948640046296,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000009.jpg",
+          "file_bytes": [
+            43760,
+            95284
+          ],
+          "file_sha256": [
+            "832b14848a1088805136728dd3f8f741099d564f8945603f832a1147cd89426a",
+            "003bb5157a74a4e04ff66c0a65961245bcdfa641c4b4f0979076538e398cdd63"
+          ],
+          "rgb_sha256": [
+            "cb04c2687b4e2274e6fafe64a57627dc7bd3179f809f306d997abdcf235a93b9",
+            "931f39b256a8eb728ce3846499cb62aa0f283f052191d8acb90201acd0829b36"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.62435546875,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000010.jpg",
+          "file_bytes": [
+            43901,
+            95216
+          ],
+          "file_sha256": [
+            "445cd42cb4703e7458c3348ac8cda00d955272672d0f14269dbda04f9ac6ca68",
+            "599204cfd6a5f77fa1e9a552174ee324e9efaec1a90ab97a448e0356f2a5574e"
+          ],
+          "rgb_sha256": [
+            "846206670533c761bd9999199da14626b70236bba61a95486bdfb4b1f9541c89",
+            "8b603b43dfd8c5de45cecd3a332b1c4d54bda9d4286d2cc12c92f37d6a7b0620"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6206770833333334,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000011.jpg",
+          "file_bytes": [
+            44495,
+            96492
+          ],
+          "file_sha256": [
+            "9ebdf8d26d75e0b1b21eadc4a17846ffbb460f56a4426d0f18c57104079682d2",
+            "ae8d5bcd65bf9a3c11803bd58ee9b5450fb6cbb5e44f32bd91273a5fcce8c990"
+          ],
+          "rgb_sha256": [
+            "c7d5ca59023123c6daca20bc32f30df00b28bc56bb77a519c77fd6cb510bed40",
+            "882dcba7fe8baeff2252a0ab4611037ed5eefd85f5c304a7b163b4f56174c676"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6323636429398148,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000012.jpg",
+          "file_bytes": [
+            30338,
+            42678
+          ],
+          "file_sha256": [
+            "19a392b61e3172837b91e92b2b249164a2bfdebcbdce76f7ff9878e3e4bce6bf",
+            "af77fc242b07c81c53f8bd57bceeab24a710eef09fc6ac69317d6ca34b331131"
+          ],
+          "rgb_sha256": [
+            "7c947e80964a5a7b5010f4350843e047ca36b3d0950e868426c6cb93bd59ec35",
+            "83f57a0e0e55b1b397b21d5a0aaad6def697b3375af2ffbdeffdf7bb5dc366b1"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.2188429542824074,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000013.jpg",
+          "file_bytes": [
+            37649,
+            67444
+          ],
+          "file_sha256": [
+            "e4feff79a441bc700d3e963e9591190d68e1ff4cd576fe7204f70aad55ad8c29",
+            "6ecc53bc26097e53a9423c4b6b6db7781f0f09a5d6368a290345a386b24c6fd9"
+          ],
+          "rgb_sha256": [
+            "cb4e703094c7d3a990495d67d8a1efdb946437833465b016cb25906321d4d8af",
+            "318ea2d74ce1bf5b9a2cbd2f9335ecaffc43e083de67ef1b4c79eb0b0d59493d"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.40470847800925924,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000014.jpg",
+          "file_bytes": [
+            38635,
+            71374
+          ],
+          "file_sha256": [
+            "c0e8a337ee7ef512ead9576acb07955a4656687d3e4228191da03548180c55e5",
+            "5f01e1944836712a1e59925c758f23ab89a840666b98d8e8b83616e710e342e0"
+          ],
+          "rgb_sha256": [
+            "d5fcd37c22fe1e60fd4243983a6cd9e1bdb57da9069428289fa19e79f67639ce",
+            "178eb7b5ec3ea4764632f2871d3a790df8d5d86b805dc4641130ebd5b24604a7"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4436320891203704,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000015.jpg",
+          "file_bytes": [
+            38735,
+            71940
+          ],
+          "file_sha256": [
+            "de1b05a670f1d45d058827b037f7e4509fc3fa094a1377b1f85439b0d451cc86",
+            "647e5268dd125f53de127e0e12c30cfbd674eb9f46a458375535b931efc2db4d"
+          ],
+          "rgb_sha256": [
+            "b929fdf5386306ad21ebb4905e1d5a75531b0e3450ceb35a5ebfb5ba50137f54",
+            "dac372d3bc164ef46612a8e77e8d1c8b92741054d9b8cdabca2f80476e20615d"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4494896556712963,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000016.jpg",
+          "file_bytes": [
+            39600,
+            74689
+          ],
+          "file_sha256": [
+            "abbda516b0216d40e1f4733c6a2196a1cbc8c594b791180b1719a00737a54a67",
+            "0606d8043fd53ab9086fdee3612c2f90d357edfa617b93bcbdc5c3786bfcf31d"
+          ],
+          "rgb_sha256": [
+            "90b230290799565f3e75fb68344000cf7917bbd7c0fdbd7f6c6082c85216a1ff",
+            "b4fcb08a4d166f7961fba5c38171517e442c8e9dff9021d6960af3587a810ad8"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.4746462673611111,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000017.jpg",
+          "file_bytes": [
+            40990,
+            78317
+          ],
+          "file_sha256": [
+            "070804ad8d5d0f805546796fc3cb68fcadbab3bf01a0d996cc6313515529d61d",
+            "40461bc45ee19d815d9a07d6a55282824d4c27d96a56db009a7ef6e13ec34d57"
+          ],
+          "rgb_sha256": [
+            "40bab9f1630da044f4348c6420c8296ff4cf5a1a68f4e551f594ce3ddf232c40",
+            "ff895b650b718becb51675f4da8d9a27b0562344eef39d1392c372630cb92a08"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.49133174189814816,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000018.jpg",
+          "file_bytes": [
+            41180,
+            78896
+          ],
+          "file_sha256": [
+            "3bc19e02dbec2d6437a346fdd8d50f050f3b812923aa6f19e66f4a6d38bb588f",
+            "ba8ab835b7b75747bb285aa960753ff40c35c046c1c2dc64e4308d52fad60056"
+          ],
+          "rgb_sha256": [
+            "b1e5f761ac3f554cfd9184cd4fb424d06617b3955e4499eea0a5c866a059da07",
+            "7480ad54fca9b6a6d0987c826221aeb7cf12872b310cbd8c4eb7574e5cd224d1"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5018992332175926,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000019.jpg",
+          "file_bytes": [
+            41750,
+            80565
+          ],
+          "file_sha256": [
+            "3a6019d47d64bf9b17631ac1db07186862515eeb8c07c7d64e2dcbd5d0449ac9",
+            "d15c40bbe78b696d56ef4be8a63988a5e41974cd47daac3894627e086f1c22f1"
+          ],
+          "rgb_sha256": [
+            "4a24905179a68b9a00465c70c7ce1970d1b0eb06a9fa8423e335c218e8cd6d23",
+            "b2aeba8af1a375bdb5294384b94cefd51d174c2399af45517616af446c56a659"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5149819155092593,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000020.jpg",
+          "file_bytes": [
+            41317,
+            79539
+          ],
+          "file_sha256": [
+            "1cad140122a6c25342d891108c28751b0bb011f8fcf6e936a2907ef35fadadb7",
+            "34c070bf830a449628eb1331a368e6c82bbd9d2d875a5459e8405091f082d0b3"
+          ],
+          "rgb_sha256": [
+            "887c000bfcf86a8851039cfd34a68664f292e008de8dd4f604b65daf9c771c9d",
+            "bab154108ea84ee321050061a1b4d7206f91ac42c601769008acaa735673b05a"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5162131076388888,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000021.jpg",
+          "file_bytes": [
+            42367,
+            82417
+          ],
+          "file_sha256": [
+            "7b815f903c6a0235b874881000f0a8d8958c334c3ad1e61775e585e5c81739bc",
+            "0815d76d2ab33d2d0914d93571c10800f5b795fa2891d83fe6de147a4368218d"
+          ],
+          "rgb_sha256": [
+            "325b2ff2e4b0d0e4c1fc683d1664b809f125152010d1457939a9fb98a2178fdb",
+            "beea2878f7bff9dec6310c2ff7555e2f41e6c63e388b8ea7d471ddf51306a92f"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5491279658564815,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000022.jpg",
+          "file_bytes": [
+            41929,
+            81170
+          ],
+          "file_sha256": [
+            "353b452c8a014fadadf9264313ad48547ee2590fb0d2e6dec6d8e822fbcba166",
+            "bccb1dee66042e76247417dbf3a97b17ae1eac8947b6ec5ff2dce180b5a8f943"
+          ],
+          "rgb_sha256": [
+            "e839ab2003211f79e74f466b4979803a749b18fdd2d57de81564b156f62b2c65",
+            "005b52febf43647a54e7b443010fc712e9f980e9206449e62afe7c52fe920e9a"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5417784288194445,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000023.jpg",
+          "file_bytes": [
+            43211,
+            84210
+          ],
+          "file_sha256": [
+            "fc7850c4938c516aa29ca0bbc4da95b2acec2ab4d454d55f2e9bc0fe3890d432",
+            "53523269a9c2b2bc5b26bc9cefa674db09461e8a33a7818c213d116b9b0944da"
+          ],
+          "rgb_sha256": [
+            "683ee42aa328c22282fc0deb9413a6b6c14a85ab8a9a989a107e03456a7d0ad0",
+            "00e4c9dba1d722a3fee2e1d5a8e9c1dda9998c3062feb67ef6f14961ba56f9d1"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5619006799768519,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000024.jpg",
+          "file_bytes": [
+            28909,
+            41025
+          ],
+          "file_sha256": [
+            "7ccde34d96670e37bfd09121c2ccfe8e5a5725af96356f97454aba0ad5557f7c",
+            "73a7d5e1260ba69a0facc97d9877a5236ae29b412e2d7022bf36298734d5f378"
+          ],
+          "rgb_sha256": [
+            "0d3e071d3f81782ccda73a15e63ce328c2cfd90fe932bd50af0c5f28b9b37cf2",
+            "2ae2e00c7fe94a6916fb8be0831dd8ebfb3bc5cebc55dd209afa5e7697f72115"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.28325339988425924,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000025.jpg",
+          "file_bytes": [
+            38964,
+            70676
+          ],
+          "file_sha256": [
+            "55ec6cf07ea1e287fdb8f9cf1e1842ca26ce0bfcf102f5b6210406ceb7d33a8a",
+            "5e3e10f1521533026c3790ca229bdca0ece7e950b1ec0698f6fc92d4e8c22bcb"
+          ],
+          "rgb_sha256": [
+            "b4b0322f0c7ed38df04015f0fa9c9fe1693a969aa45cae7eb0d53ab6d99d7cf1",
+            "15c0cc2fd131a4a951e1473a5522717a09399a0398084f588595202683e7a3b2"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5011852575231481,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000026.jpg",
+          "file_bytes": [
+            40631,
+            76425
+          ],
+          "file_sha256": [
+            "4fe85724c354a213af98b437d5329fa4fb07e277680b84d03282e07866c9b0d8",
+            "f1d1fa8a94cf789639a7395e56220629e783d789969acfb994a78eab30b091a7"
+          ],
+          "rgb_sha256": [
+            "3da8dfaf1d5392fa2a426ede58f0b283b5fb58259a886a094a422b43f1f8e59b",
+            "8c95ee8fd9179fdaf5877fd38220bc09413251f67bf86f2095d3bd3edf963f96"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5452520978009259,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000027.jpg",
+          "file_bytes": [
+            41927,
+            80825
+          ],
+          "file_sha256": [
+            "bcb5774176d0c8421470ebda04d6af1f62cb5928ba77721c4659fa399df70871",
+            "18dfbb8f2ac5d96d01a2c4eead9a6a96e5bbbb3958b84f29b96a9d06cb9f8b56"
+          ],
+          "rgb_sha256": [
+            "feeb923f9c27d0322c7f03288b0d6d8c9d1bdbfcb10b95af4a3ddfe2882b0541",
+            "0f8540064dc8c1ae1ef210f89c5cbb3f57ae92fc39c4655203b4ca647621ddc6"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5704723668981482,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000028.jpg",
+          "file_bytes": [
+            40138,
+            75992
+          ],
+          "file_sha256": [
+            "24919f85094a2f7f4fe309f8f27812d225a19374664457604c9e2d674d30e32c",
+            "87f49639fb48bb93803932ad6f648f115714912d981ef8086c6200b1058f3c8d"
+          ],
+          "rgb_sha256": [
+            "cf8664eb46f589204f51a7daa95d3b9f9dbbc996f2c31a4936ae85401bcaeabf",
+            "e9067b6c6c62a94c36197ec2c16d1c2c8f4b5d842ca8e1f501f5ca9da0694afc"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5261657262731482,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000029.jpg",
+          "file_bytes": [
+            41260,
+            79745
+          ],
+          "file_sha256": [
+            "6c34ce2b1c3d2a1f4a5fa5a5e3aff5643b9f0f4c8d92a8ede1941e48178a8c7c",
+            "c28fdbb5ac121475461cdf5716fd6a6f9b54be6a63e850a7cd6f1822d437777d"
+          ],
+          "rgb_sha256": [
+            "38d4883c6ea23d1f4d4958ce46e7deef2c950e77549d9086ad140f0daa94c7c6",
+            "138d1a153b71267c02b9612090a20ca869bb7d69748bfb58cf7f7b533cb5c624"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5673933015046296,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000030.jpg",
+          "file_bytes": [
+            41500,
+            79451
+          ],
+          "file_sha256": [
+            "d152a76e73b3d56e1a4a795de837742036c686f03aaaf52ad19a60b228cfda71",
+            "b7c09cfc906ec71409794bb09cde90477579e1ef2f60a833131a4b560c1a98ba"
+          ],
+          "rgb_sha256": [
+            "bb0f684586d14748919a0a2e89f36fd3463d8369b2b768854d706b566bea5eb1",
+            "9be6d2798235dc6f08904772bcf69d5930bad05beab19da6839b6d11044aeb1a"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5543630642361111,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000031.jpg",
+          "file_bytes": [
+            42693,
+            83013
+          ],
+          "file_sha256": [
+            "832299ae8b45732efad02dd2df37d5d3ff00535aa08a5d2cf4ed9fcd925f7de1",
+            "84856b0f6291cbd3b1343b0748561cd18b257d8b2b24a759b4792e1cdca8bf8c"
+          ],
+          "rgb_sha256": [
+            "0dc21581dcdf4452e6d82380f41c38644ae32973907f0cec02e95b835da5a40a",
+            "3268f4e07ff8a909d1ac375d8d432906e4d5a1a4bc36b7872911386b7b5aaf1b"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5875141059027778,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000032.jpg",
+          "file_bytes": [
+            41926,
+            81632
+          ],
+          "file_sha256": [
+            "f7b889c191134cd4077d0931dafefe28783d2d417ed77d03b897e8b92903f392",
+            "e8fa226888669861764756a881bd46bf53aac0703fd87e100d937d76c2b380ba"
+          ],
+          "rgb_sha256": [
+            "f494b1cb25aea0f6c164c3290f2002a6e92ece43a45ae52c2d0c3a2622d94445",
+            "3bc144c193314c8c313ce3b17f16402c54dd9b95c3992086b26b2cbfedf25e7c"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5642545572916666,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000033.jpg",
+          "file_bytes": [
+            44687,
+            88763
+          ],
+          "file_sha256": [
+            "26b4fb02d385d255b109c36f47ed5e3aa5191a6ea0b955cad2e1687fd10ec9ff",
+            "b8b4632d879e518596603dbb1236cae44074581577dd0071b2321774d6c2d812"
+          ],
+          "rgb_sha256": [
+            "72e5794f7aff0a30ab45124bbe9811d55fbf7b7990c873c944ee5acdcd50a6c2",
+            "16845fd816f09efb3829c3ddecaa35fed48c9a1731fc2268b099c45f8165184e"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6187796585648148,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000034.jpg",
+          "file_bytes": [
+            45494,
+            90225
+          ],
+          "file_sha256": [
+            "dced6b546626d5fad4d36c7f7cde570227434770c52643fbea584bd91e2a7192",
+            "6d59236028870954f53dd7d85f4c4e357ac4c19b12bf95d804e0df29b729ed3c"
+          ],
+          "rgb_sha256": [
+            "63de6ddf3fd0a13710354ae6cf3693e1513f3ea22e21084294ee3252e3b476e0",
+            "358fd4d73f000d7382e643ad0d8f5b11c649ea39a2873f8d9ed2b37f20f7dee9"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6184816261574074,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000035.jpg",
+          "file_bytes": [
+            46096,
+            92249
+          ],
+          "file_sha256": [
+            "bd90f1cb2f31f4fa05ab689061df3fda54a935f20ee406299c1bb1c67987dd3e",
+            "c285f0dad8e1e2c701aa36791d1bd1d7d4a94b19a65918a310dc25f31a2e0569"
+          ],
+          "rgb_sha256": [
+            "fb88421e227cac8d1f3f48276f2d2b13282929ddbded3d74bfb6d4fca7d8a836",
+            "af730e63ef74c13634200a1b8a54ec4f898db16eb5bfc8036f3385105ad2c9aa"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6377336516203703,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000036.jpg",
+          "file_bytes": [
+            29159,
+            41182
+          ],
+          "file_sha256": [
+            "47ce082d1f8d954fe8e9d5c963aa2efb6b0ce8d44f801066960dbf041d1a8551",
+            "e3d7955f863e1fb95787c18a1953bf0ce138a64d3b1ea61e23ebec77b800a560"
+          ],
+          "rgb_sha256": [
+            "16cb816f3aee7982da5bed0437aac6ff5f26eb1c3fe09f88055cc489a92462dc",
+            "42d7d8e5e3976bc6ec579e2a53e6cc0e204ce66cc15348d6ba91ddb522eed025"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.2457103587962963,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000037.jpg",
+          "file_bytes": [
+            43044,
+            81156
+          ],
+          "file_sha256": [
+            "a0f7cccc7c9d4901dcc9289373654ccc8548f4717f3af0b3d36eefcb72623027",
+            "5942b0cf55b44c4d4bacca76a5fde4d009a90c1fdd73ec8332832b48c399438a"
+          ],
+          "rgb_sha256": [
+            "1630654899ba4772ee864444428d9ced55ddb7140109ec36a7de6274214ff91d",
+            "3543b3700966d1f651c0eb55c2a21befd674d15f577f06674d719f842e405881"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5454774305555555,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000038.jpg",
+          "file_bytes": [
+            44785,
+            87126
+          ],
+          "file_sha256": [
+            "bf906979c6d6aa7cc378759e252c8d1f6ec14a53180cbf6558e7013645553681",
+            "33bf4e48cf1bd6114892fc8d0eed6b1a786786159a4180a840678b39ceab2283"
+          ],
+          "rgb_sha256": [
+            "8ee5c476274dcef22a0a4a649c2abf5319e1eb3279bdaef8bf879486f8b4d4aa",
+            "e345dea76fda4915fd36f26c68334257aac89c26a03759a940b3ce0c788c87ba"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5959092881944444,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000039.jpg",
+          "file_bytes": [
+            45864,
+            90224
+          ],
+          "file_sha256": [
+            "7623aa452357d7a68c2a24ca7e304930282a11f2c9acfa7a0f409c4647d77a3c",
+            "95fc131b339565dc8b1154abc4dd86946d8f48cfbbf5d78f13db74f29b7ce57d"
+          ],
+          "rgb_sha256": [
+            "8abd17253eb43069a95b57f6cfa406585f37d16b5a4000cd85d55b914685782e",
+            "3ea1c9c80adb3b3242b9c7aef4ec633325730c369e92f8694b624bff2f9d3ae8"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6162970196759259,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000040.jpg",
+          "file_bytes": [
+            45531,
+            90104
+          ],
+          "file_sha256": [
+            "9375c883fbed8a35166b6a39fbe182337afb59f2fb6c190112f97e1d1248b606",
+            "ce73308d6d495be23686d2d4d7f71ebc82cf0032b41443017390d135e776ca47"
+          ],
+          "rgb_sha256": [
+            "de0a0af8931bfba39ccafa47bebbac15dab365d01fb0bb73297450558ea5fbc9",
+            "3ce2c313ebdc6185059a7f257a3554faea760f74675e64c45dbf55d939a0b19d"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6236418547453704,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000041.jpg",
+          "file_bytes": [
+            47179,
+            94293
+          ],
+          "file_sha256": [
+            "1c57749f6d9bbbe856a87a35eaabada8d7db4ca92a19a5eaaa551f7a287e6889",
+            "bd1cf1a998bf59b609508658f4ddf963bb7ab8c268157008981b63398cf126d2"
+          ],
+          "rgb_sha256": [
+            "9dcf99a497762ffd47722cd681f541bb2bf2d4da5a66c51569342ca5281946dd",
+            "c756608af89b0c3228a45296f320554c1ed8569771611d6b6418e66bc40acc30"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.660857566550926,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000042.jpg",
+          "file_bytes": [
+            46567,
+            93187
+          ],
+          "file_sha256": [
+            "0a7252be8ee07abeca3bf58f60ddc065c27fcd4c05fb895dced9b772018e0ef8",
+            "ec596ba1f587881d3d2bba20353c9a932568e223bdfb10b72e9e125a6e211c8e"
+          ],
+          "rgb_sha256": [
+            "33b52f3cc1d24d449cc28689746243eae87c0bb93e4daa6b9fc20b4434e02dee",
+            "b9aa2ebafbd7f530e049ecfaf5bc42539b5233299de4f8cc4422c9c878b6e0f1"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.652622974537037,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000043.jpg",
+          "file_bytes": [
+            48174,
+            97712
+          ],
+          "file_sha256": [
+            "bb9e474a6ec50a3d0850da28a8e1901f5da4925b04931237bb50df6666306c5a",
+            "8dffcd975a2fce0e5b3ab47d21791266493b8f4b6ebf4c65702f427390f170e7"
+          ],
+          "rgb_sha256": [
+            "7b595dd55b17b824a751be0f86e137d2d4f04905f69ad4755d0785706312441e",
+            "3d2e0242ceb5efac6d9f0d73bf926f8695bc7ea75e40b663da0523875cb562e1"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6810760271990741,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000044.jpg",
+          "file_bytes": [
+            47996,
+            96954
+          ],
+          "file_sha256": [
+            "6819c574c9db79416af498d37907294a07af31afad720198504f58a75eda245d",
+            "29d5c19b4fc1b405e6816c2925099d14a5d43d47e110ce608e37662bdbe23c32"
+          ],
+          "rgb_sha256": [
+            "f4b9dbf87a542e10b8f2dc6b2c7f29b0446957723d1a0f86dc017f8f9e32cfdf",
+            "5e721226f70d1a5c6f04cac28b19ac5e48fb4d41d6237e1621f82c555aa85550"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6816865596064815,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000045.jpg",
+          "file_bytes": [
+            48236,
+            98009
+          ],
+          "file_sha256": [
+            "38a2f71eb594d61cfd9cd1ee957958a93b62a9c5f15ab5f6cb6f2922b39151c5",
+            "04296877bc25b725dc214acb3367b20e3cd058a2af3243c3ac1ab73be75ab211"
+          ],
+          "rgb_sha256": [
+            "dc579aa915786a25ae554978785ee7745b072e89c8202b4b0f42f9946cc04fd1",
+            "b749f2b727b255eb1b8d1bdd376a06374c340469b9b218d3662f1d08ac3b6d8a"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6857385706018518,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000046.jpg",
+          "file_bytes": [
+            47611,
+            96135
+          ],
+          "file_sha256": [
+            "54b732e35d4b709edd434c3c4bb13ab2750c96014934b60e6082b43a47101539",
+            "f818d7ef268675f3c41a78f40271d350842fa1b60cf622367ee33d2015930dc5"
+          ],
+          "rgb_sha256": [
+            "b24138c95ad4bc02363ba8b79b65f618ffcb12c68c8a9521f0d55baf6e35b591",
+            "8c10adc39018aafc489818f1516bc3b0e1621ce8a6a7e954b4a2b20e9f225163"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6690382667824074,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000047.jpg",
+          "file_bytes": [
+            48901,
+            99438
+          ],
+          "file_sha256": [
+            "6187a6bc9f4d4de068cde5093366c9046d10b9432b52aa7d26b343acfd2d9dda",
+            "efb6b7db2dbefb50d3d4aa844984b3cb3aae5f474026cc71c70038cfc29762e7"
+          ],
+          "rgb_sha256": [
+            "f6d9073d8c0051a782c73906a76362dce2c18b0116d3cc40c83a33e1c0cb5386",
+            "eb1818f8fed8f2bc9090c48875ab4abcf3a1351eccb2de5c09dd833bceb45bad"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.6985434751157408,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000048.jpg",
+          "file_bytes": [
+            30499,
+            43425
+          ],
+          "file_sha256": [
+            "6b1a6a9017eb5f57a9ac9e7ad9a8a3fd24f5a2bc8750dbce8c29998d372c6da0",
+            "5943560c88bb84f513b6d3e2b98c2a07360ae6fca40f6aeeb3fda79bdde79cc8"
+          ],
+          "rgb_sha256": [
+            "5ce2dfadc64658b0662a50984b3f6e43d639215954d2b141895c53f14f667d4f",
+            "c11daa327af2982975d37aa9cbc0ca883ea747c5df262d7227fe94f843d16e77"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.28616319444444444,
+          "quantization_equal": false
+        },
+        {
+          "frame": "frame_000049.jpg",
+          "file_bytes": [
+            43873,
+            82387
+          ],
+          "file_sha256": [
+            "10dad410df7e82f55998466e461dc12cd6da6ae4be455f16237a1d92c82eb402",
+            "536310ad1eadf139b75419206b5c32e5452cfa741327937d6cd30c7bf70bf260"
+          ],
+          "rgb_sha256": [
+            "8fe9a45e027c65747998a7a215b870a5056a17d4da705e3a95331dd79d5f8a87",
+            "0ab8d88b45a357b57ae0cb276fd650fae06a7a5d6b072655bb93637f391ea49d"
+          ],
+          "same_shape": true,
+          "rgb_equal": false,
+          "mean_absolute_rgb_difference": 0.5717762586805556,
+          "quantization_equal": false
+        }
+      ]
+    }
+  ]
+}

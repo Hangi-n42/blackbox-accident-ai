@@ -1,0 +1,299 @@
+{
+  "status": "sparse_source_screen_complete",
+  "pair_count": 36,
+  "sample_count": 168,
+  "candidates": [],
+  "pairs": [
+    {
+      "a": "NEXAR_00008",
+      "b": "NEXAR_00010",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00008",
+      "b": "NEXAR_00013",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00008",
+      "b": "NEXAR_00000",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00008",
+      "b": "NEXAR_00003",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00008",
+      "b": "NEXAR_00004",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00008",
+      "b": "NEXAR_00005",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00008",
+      "b": "NEXAR_00006",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00008",
+      "b": "NEXAR_00007",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00008",
+      "b": "PUBLIC_000001",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00008",
+      "b": "PUBLIC_000002",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00008",
+      "b": "PUBLIC_000003",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00008",
+      "b": "PUBLIC_000004",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00008",
+      "b": "PUBLIC_000005",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00010",
+      "b": "NEXAR_00013",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00010",
+      "b": "NEXAR_00000",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00010",
+      "b": "NEXAR_00003",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00010",
+      "b": "NEXAR_00004",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00010",
+      "b": "NEXAR_00005",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00010",
+      "b": "NEXAR_00006",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00010",
+      "b": "NEXAR_00007",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00010",
+      "b": "PUBLIC_000001",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00010",
+      "b": "PUBLIC_000002",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00010",
+      "b": "PUBLIC_000003",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00010",
+      "b": "PUBLIC_000004",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00010",
+      "b": "PUBLIC_000005",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00013",
+      "b": "NEXAR_00000",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00013",
+      "b": "NEXAR_00003",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00013",
+      "b": "NEXAR_00004",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00013",
+      "b": "NEXAR_00005",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00013",
+      "b": "NEXAR_00006",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00013",
+      "b": "NEXAR_00007",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00013",
+      "b": "PUBLIC_000001",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00013",
+      "b": "PUBLIC_000002",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00013",
+      "b": "PUBLIC_000003",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00013",
+      "b": "PUBLIC_000004",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    },
+    {
+      "a": "NEXAR_00013",
+      "b": "PUBLIC_000005",
+      "exact": [],
+      "near": [],
+      "candidate": false,
+      "same_file_sha": false
+    }
+  ],
+  "model_calls": 0,
+  "labels_read": 0,
+  "independence_certified": false
+}

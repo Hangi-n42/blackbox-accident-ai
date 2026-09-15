@@ -1,0 +1,151 @@
+{
+  "recorded_utc": "2026-09-15T04:53:44.508277+00:00",
+  "record_type": "append_only_cohort_usage_history",
+  "experiment": "uncapped_jerk_v6c",
+  "decision": "REJECT_PREDECLARED_RESERVED_MAE_GATE",
+  "cohorts": [
+    {
+      "prior_role": "development",
+      "evaluation_created_utc": "2026-09-15T04:42:56.583125+00:00",
+      "gate_passed": true,
+      "binding": {
+        "research\\v6_stage2\\uncapped_jerk_v6c_development\\evaluation.json": "b5f284fe3abc62f07be9e17d1fbb6b645e97400f3b8ae0a731f047251e67fee9",
+        "research\\v6_stage2\\uncapped_jerk_v6c_development\\freeze.json": "b13ab39b5c9fb40404dcba64fdc5f9ec5d96c1913cbf75bfd0502f58356a7ee3",
+        "research\\v6_stage2\\uncapped_jerk_v6c_development\\report.json": "990a7194b7b1ed08c2213324ed67e575538abd1946bcb1b0542138cceb7a234c"
+      },
+      "independent_readonly_arithmetic_check": {
+        "baseline_correct_count": 1,
+        "candidate_correct_count": 2,
+        "baseline_mae_seconds": 2.834602076124567,
+        "candidate_mae_seconds": 0.30126874279123445,
+        "all_noncollision_fields_equal": true
+      },
+      "videos": [
+        {
+          "ID": "00000",
+          "source_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00000.mp4",
+          "source_sha256": "9b7364178cb8b6194db0ee0f96df0ad44615fc265efe435297394dcf6a9be5f9",
+          "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00000_review_1789400071868.json",
+          "review_sha256": "654e93fad5b32cadeef094e61d6a90a066ebcd7e332fa0a8e7ca21563a0afbc3",
+          "sampled_input_manifest_sha256": "0955b98de923af1433893eb108621c31803acaeab20a35afa1d19ebeeee72ee8",
+          "input_root": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_baseline_run",
+          "prior_role": "development",
+          "current_usage": "development_history",
+          "baseline_and_candidate_predictions_seen": true,
+          "available_as_unseen_future_holdout": false,
+          "lineage_rule": "Treat same source content and derivatives as exposed; renaming or resplitting cannot restore unseen status."
+        },
+        {
+          "ID": "00003",
+          "source_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00003.mp4",
+          "source_sha256": "d5969f23631b3462f68e3de0c3e72f42c731762aec8d47fb916da78e0d59b3e8",
+          "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00003_review_1789444125537.json",
+          "review_sha256": "97fd59c05279282f33998903e4c9aa57d18fb9a0e5a4effc06acd6b803a5f86d",
+          "sampled_input_manifest_sha256": "b5163361a77c74a91a8c5575299b74b8dea1ca163f658dbf6a4a0fdfebc35dd1",
+          "input_root": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_baseline_run",
+          "prior_role": "development",
+          "current_usage": "development_history",
+          "baseline_and_candidate_predictions_seen": true,
+          "available_as_unseen_future_holdout": false,
+          "lineage_rule": "Treat same source content and derivatives as exposed; renaming or resplitting cannot restore unseen status."
+        },
+        {
+          "ID": "00004",
+          "source_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00004.mp4",
+          "source_sha256": "001be406ca8eddc5e5ea61ed8b6104650879aacb1eff217630f7b932fd45be4f",
+          "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00004_review_1789444066492.json",
+          "review_sha256": "eccd40747a2ad28d72ec80c8cbaf8656a59732f81412750119cbc026656671f6",
+          "sampled_input_manifest_sha256": "ac05b99e898bdb24302cfedc2f3cb0ca80bdfd9894579d346d13da91a4fc6424",
+          "input_root": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_dev00004_baseline_run",
+          "prior_role": "development",
+          "current_usage": "development_history",
+          "baseline_and_candidate_predictions_seen": true,
+          "available_as_unseen_future_holdout": false,
+          "lineage_rule": "Treat same source content and derivatives as exposed; renaming or resplitting cannot restore unseen status."
+        }
+      ]
+    },
+    {
+      "prior_role": "reserved",
+      "evaluation_created_utc": "2026-09-15T04:45:46.297931+00:00",
+      "gate_passed": false,
+      "binding": {
+        "research\\v6_stage2\\uncapped_jerk_v6c_reserved\\evaluation.json": "d4564a93e1e575e18ee27a33aae4a5f00f6c81841c4368bb2b12651ff95d34be",
+        "research\\v6_stage2\\uncapped_jerk_v6c_reserved\\freeze.json": "ed42b8d14708e85bb06a140fdcae4d42b8b52ea602f17a6525299c947d9e416d",
+        "research\\v6_stage2\\uncapped_jerk_v6c_reserved\\report.json": "00eca04dc8386427c34595ac94ac655db6f9fc86aae4f029e20f21808c6b819d"
+      },
+      "independent_readonly_arithmetic_check": {
+        "baseline_correct_count": 0,
+        "candidate_correct_count": 1,
+        "baseline_mae_seconds": 4.551416122004357,
+        "candidate_mae_seconds": 6.6762527233115465,
+        "all_noncollision_fields_equal": true
+      },
+      "videos": [
+        {
+          "ID": "00005",
+          "source_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00005.mp4",
+          "source_sha256": "e68188e582398fcf8e8b2731cb1a79fee7542246184cafb967c3d816ccc1cce1",
+          "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00005_review_1789444069007.json",
+          "review_sha256": "738909ecd54c0b3d53e926bb81ed929b282c6556e8905ed7505e94f756922b3b",
+          "sampled_input_manifest_sha256": "8c76818b67acd81d0fa12e6af3e36db7061bff9d7b5deaec95174d6b8867fa34",
+          "input_root": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_reserved_inputs",
+          "prior_role": "reserved",
+          "current_usage": "consumed_reserved_evaluation",
+          "baseline_and_candidate_predictions_seen": true,
+          "available_as_unseen_future_holdout": false,
+          "lineage_rule": "Treat same source content and derivatives as exposed; renaming or resplitting cannot restore unseen status."
+        },
+        {
+          "ID": "00006",
+          "source_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00006.mp4",
+          "source_sha256": "c9117737cef3990cc27ed9413c85330cf53b0ec91c06840523fe491f2be2c14a",
+          "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00006_review_1789444072672.json",
+          "review_sha256": "be09435498362b3f75f2ffddbe60a9f989ea61ec8b479dcafa4d8a73a7d3ad24",
+          "sampled_input_manifest_sha256": "e0364d05aeb8f6948f835378d791b6ca0d14815eb0dfc921633c0a0b440b1f37",
+          "input_root": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_reserved_inputs",
+          "prior_role": "reserved",
+          "current_usage": "consumed_reserved_evaluation",
+          "baseline_and_candidate_predictions_seen": true,
+          "available_as_unseen_future_holdout": false,
+          "lineage_rule": "Treat same source content and derivatives as exposed; renaming or resplitting cannot restore unseen status."
+        },
+        {
+          "ID": "00007",
+          "source_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\00007.mp4",
+          "source_sha256": "0a7ebda789db958382dbe41e823e7b9466e4d806d3184c9222afe3671d361ed3",
+          "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00007_review_1789404064071.json",
+          "review_sha256": "724ab536dea876fbd653857d91d4fe04a5105afcfcf8f5e5e1ad24afcc2e296f",
+          "sampled_input_manifest_sha256": "aa60f9c29216a95eeba199e2a93c3a0b110ad6c3823cad76885c91759992d974",
+          "input_root": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_reserved_inputs",
+          "prior_role": "reserved",
+          "current_usage": "consumed_reserved_evaluation",
+          "baseline_and_candidate_predictions_seen": true,
+          "available_as_unseen_future_holdout": false,
+          "lineage_rule": "Treat same source content and derivatives as exposed; renaming or resplitting cannot restore unseen status."
+        }
+      ]
+    }
+  ],
+  "protocol_and_historical_intake_sha256": {
+    "research\\v6_stage2\\nexar_review_intake_integrity.json": "23c9a7d4413e184eebd8550dd8b2c1fb1462b1d6a4916b95963485f64b90f1fe",
+    "research\\v6_stage2\\nexar_review_intake_integrity_addendum.json": "486838bfcc551d54caf2889a61cf3dba178b1c1b2e3d66af2a23c35707cbe937",
+    "research\\v6_stage2\\uncapped_jerk_v6c_protocol.json": "3a7a1a43196da4e4316cc6cd6a14ca45c78e616ce6dd4011f20d9e8d40d01077"
+  },
+  "historical_frozen_files_mutated": false,
+  "reserved_ids_consumed": [
+    "00005",
+    "00006",
+    "00007"
+  ],
+  "remaining_unseen_from_this_six_video_cohort": [],
+  "new_training_or_inference_in_this_audit": false,
+  "gt_promotion": false,
+  "S2": null,
+  "packaging_authorized_by_these_results": false,
+  "notes": [
+    "Old intake exposure=unseen and old plan role=reserved remain historical values at export/freeze time. Current exposure is recorded here without rewriting bound artifacts.",
+    "Reserved result is known; do not tune another candidate on these results and present the same three clips as new independent validation.",
+    "All labels remain single-human local references; independent source grouping and adjudication are not implied."
+  ]
+}

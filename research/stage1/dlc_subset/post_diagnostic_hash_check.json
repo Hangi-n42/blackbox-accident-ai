@@ -1,0 +1,7 @@
+{
+  "model\\stage1\\config.json": true,
+  "model\\stage1\\forensic_frequency_augmented.json": true,
+  "model\\stage1\\tpo\\merged_visual.pt": true,
+  "solution\\stage1.py": true,
+  "solution\\stage1_tpo_merged.py": true
+}

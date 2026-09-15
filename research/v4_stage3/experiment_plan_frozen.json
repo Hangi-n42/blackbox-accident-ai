@@ -1,0 +1,148 @@
+{
+  "timestamp_unix": 1789234973.7200248,
+  "candidate_count": 1,
+  "baseline": "same rows, class_weight balanced, unit sample weights",
+  "candidate": "For each source s, sample_weight=N/(2*sum(class_weight_i for i in source s)); resulting combined class*sample weight sums are N/2 each source and total N.",
+  "source_codes": {
+    "0": "official public GT",
+    "1": "external CAN proxy"
+  },
+  "controls": "Same features, rows, y, class_weight numeric values, seed42, hyperparameters and unweighted scaler. No replication, no threshold search, no class-bias tuning.",
+  "unavoidable_class_mass_change": "Source weighting changes effective class mixture. In constant-only public stress, preserving source1:1 AND baseline class totals is mathematically impossible. Every fold logs resulting class totals.",
+  "public_oof": "5 public video groups, each trained on other4 official videos and all23 external segments; existing small-sample selection bias and unknown remaining public origins remain.",
+  "external_stress": {
+    "train_public": [
+      "OPEN_001"
+    ],
+    "train_external": [
+      "Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30",
+      "Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38",
+      "Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16"
+    ],
+    "validation_external": [
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--08-13-53",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--10-47-27",
+      "Chunk_3/99c94dc769b5d96e|2018-05-01--11-24-52",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--11-32-52",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--11-42-52",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--16-01-39",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--19-07-03",
+      "Chunk_3/99c94dc769b5d96e|2018-05-02--20-07-13",
+      "Chunk_3/99c94dc769b5d96e|2018-05-03--08-13-12",
+      "Chunk_3/99c94dc769b5d96e|2018-05-03--09-25-46",
+      "Chunk_3/99c94dc769b5d96e|2018-05-05--11-09-01",
+      "Chunk_3/99c94dc769b5d96e|2018-05-05--16-36-30"
+    ],
+    "validation_unit": "all10Hz proxy rows, stationary GT masks steering",
+    "independence": "Validation vehicle absent from this model fit; only known-RAV4 public clip allowed. Unknown-source public4 clips excluded. Data previously used in other experiments, not a fresh untouched test set.",
+    "limits": "One direction, two vehicles, one highway family. Public training10 labels are all CONSTANT. Stress model is not final full-public candidate."
+  },
+  "existing_17_6": "Already used development split; no additional repeated route experiment since source stress provides the intended new separation.",
+  "continuation_gate": "No final checkpoint/refit. If candidate improves neither same-condition public OOF nor source stress over baseline, stop with no candidate. Any improvement still requires root review; old public50 alone never auto-adopts.",
+  "gpu": false,
+  "threads": 2,
+  "audit_sha256": "799defa8cc912ec5fa5a7d0faa05a654b2f575ac9f70f462ae7e6b76822a353e",
+  "script_sha256": "6882e53a17abc76a2590c6f9c4faf43602ce31111dcd02cdd9538734e65b0ee1",
+  "model_params": {
+    "accel": {
+      "memory": null,
+      "steps": [
+        [
+          "standardscaler",
+          "StandardScaler()"
+        ],
+        [
+          "logisticregression",
+          "LogisticRegression(C=0.03, class_weight='balanced', max_iter=2000,\n                   random_state=42)"
+        ]
+      ],
+      "verbose": false,
+      "standardscaler": "StandardScaler()",
+      "logisticregression": "LogisticRegression(C=0.03, class_weight='balanced', max_iter=2000,\n                   random_state=42)",
+      "standardscaler__copy": true,
+      "standardscaler__with_mean": true,
+      "standardscaler__with_std": true,
+      "logisticregression__C": 0.03,
+      "logisticregression__class_weight": "balanced",
+      "logisticregression__dual": false,
+      "logisticregression__fit_intercept": true,
+      "logisticregression__intercept_scaling": 1,
+      "logisticregression__l1_ratio": null,
+      "logisticregression__max_iter": 2000,
+      "logisticregression__multi_class": "deprecated",
+      "logisticregression__n_jobs": null,
+      "logisticregression__penalty": "l2",
+      "logisticregression__random_state": 42,
+      "logisticregression__solver": "lbfgs",
+      "logisticregression__tol": 0.0001,
+      "logisticregression__verbose": 0,
+      "logisticregression__warm_start": false
+    },
+    "steer": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": "balanced",
+      "criterion": "gini",
+      "max_depth": 10,
+      "max_features": 0.4,
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 2,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 160,
+      "n_jobs": 2,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "protected_before": {
+    "solution\\stage3.py": {
+      "bytes": 4120,
+      "mtime_ns": 1789121208393627300,
+      "sha256": "4b211a1c4f731bbd28b0f6e60de172e9692bfc1fe0f46d49ce21d89ad44f3835"
+    },
+    "solution\\stage3_fast.py": {
+      "bytes": 4310,
+      "mtime_ns": 1789124835536566200,
+      "sha256": "b93fc1565e476c8b84627fe5d6379f2314b129444942044987fb6b75ca660dca"
+    },
+    "model\\stage3\\motion_model.joblib": {
+      "bytes": 1192151,
+      "mtime_ns": 1789121448670626800,
+      "sha256": "c52ecd15cf68856f2a7b0b37b120c7a961b3bd8889a33af4ec47f8b9719bb3b3"
+    },
+    "artifacts\\submissions\\candidate_nf4_fast.zip": {
+      "bytes": 2914581099,
+      "mtime_ns": 1789125447604419500,
+      "sha256": null
+    },
+    "artifacts\\submissions\\submit_v1.zip": {
+      "bytes": 3653603309,
+      "mtime_ns": 1789121877491584000,
+      "sha256": null
+    },
+    "artifacts\\submissions\\submit_v2_nf4.zip": {
+      "bytes": 2914579028,
+      "mtime_ns": 1789123807718839000,
+      "sha256": null
+    },
+    "artifacts\\submissions\\submit_v3_motion_fast.zip": {
+      "bytes": 2914582277,
+      "mtime_ns": 1789128384326864600,
+      "sha256": null
+    }
+  }
+}

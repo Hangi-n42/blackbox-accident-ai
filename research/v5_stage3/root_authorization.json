@@ -1,0 +1,9 @@
+{
+  "status": "root_authorized_single_candidate_gated_execution",
+  "scope": "Implement one frozen global/residual feature candidate; CPU2; source gate before public OOF; no final refit/checkpoint before root review.",
+  "gate_policy_unchanged": true,
+  "local_runtime_gate_not_server_guarantee": true,
+  "design_frozen_by": "plan_frozen.json",
+  "source_split_frozen_by": "plan_frozen.json",
+  "do_not_overwrite_prior_design_or_freeze": true
+}

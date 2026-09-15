@@ -1,0 +1,867 @@
+{
+  "created_utc": "2026-09-15T05:11:12.485079+00:00",
+  "purpose": "exposed-source sampling diagnostic only",
+  "videos": [
+    {
+      "ID": "00000",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00000_review_1789400071868.json",
+      "review_sha256": "654e93fad5b32cadeef094e61d6a90a066ebcd7e332fa0a8e7ca21563a0afbc3",
+      "label_binding": {
+        "intake_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_review_intake_integrity.json",
+        "intake_sha256": "23c9a7d4413e184eebd8550dd8b2c1fb1462b1d6a4916b95963485f64b90f1fe",
+        "expected_review_sha256": "654e93fad5b32cadeef094e61d6a90a066ebcd7e332fa0a8e7ca21563a0afbc3",
+        "expected_source_sha256": "9b7364178cb8b6194db0ee0f96df0ad44615fc265efe435297394dcf6a9be5f9"
+      },
+      "source_sha256": "9b7364178cb8b6194db0ee0f96df0ad44615fc265efe435297394dcf6a9be5f9",
+      "labels": {
+        "contact": {
+          "frame": 584,
+          "pts_seconds": 20.207612456747405
+        },
+        "entry": {
+          "frame": 555,
+          "pts_seconds": 19.20415224913495
+        },
+        "side": "LEFT",
+        "space": 0
+      },
+      "full_prediction": {
+        "collision_frame": 870,
+        "entry_frame": 596,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "old10hz_prediction": {
+        "collision_frame": 587,
+        "entry_frame": 702,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "full": {
+        "contact": {
+          "signed_error_seconds": 9.896193771626297,
+          "abs_error_seconds": 9.896193771626297,
+          "correct": false,
+          "predicted_frame": 870,
+          "predicted_pts_seconds": 30.103806228373703
+        },
+        "entry": {
+          "signed_error_seconds": 1.4186851211072664,
+          "abs_error_seconds": 1.4186851211072664,
+          "correct": false,
+          "predicted_frame": 596,
+          "predicted_pts_seconds": 20.622837370242216
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "RIGHT",
+          "correct": false
+        },
+        "space": {
+          "truth": 0,
+          "prediction": 0,
+          "correct": true
+        }
+      },
+      "old10hz": {
+        "contact": {
+          "signed_error_seconds": 0.10380622837370268,
+          "abs_error_seconds": 0.10380622837370268,
+          "correct": true,
+          "predicted_frame": 587,
+          "predicted_pts_seconds": 20.311418685121108
+        },
+        "entry": {
+          "signed_error_seconds": 5.086505190311417,
+          "abs_error_seconds": 5.086505190311417,
+          "correct": false,
+          "predicted_frame": 702,
+          "predicted_pts_seconds": 24.290657439446367
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "RIGHT",
+          "correct": false
+        },
+        "space": {
+          "truth": 0,
+          "prediction": 0,
+          "correct": true
+        }
+      },
+      "changes": {
+        "contact": {
+          "old_correct": true,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": true
+        },
+        "entry": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "side": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "space": {
+          "old_correct": true,
+          "full_correct": true,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        }
+      },
+      "full_frame_count": 1158,
+      "old10hz_frame_count": 402,
+      "old10hz_reference": {
+        "report_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_baseline_run\\report.json",
+        "report_sha256": "7e1a4c822f161c000d081db67e0a9b2d4c530980119938e337f573093d3fcfbf",
+        "freeze_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_baseline_run\\freeze.json",
+        "freeze_sha256": "93f041d51dbc8d4dfc6db279a5860d9dc2b7e84a4e561077e62dfd5972ff8c4b"
+      },
+      "full_internal_collision": 1093,
+      "old10hz_internal_collision": 858
+    },
+    {
+      "ID": "00003",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00003_review_1789444125537.json",
+      "review_sha256": "97fd59c05279282f33998903e4c9aa57d18fb9a0e5a4effc06acd6b803a5f86d",
+      "label_binding": {
+        "intake_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_review_intake_integrity_addendum.json",
+        "intake_sha256": "486838bfcc551d54caf2889a61cf3dba178b1c1b2e3d66af2a23c35707cbe937",
+        "expected_review_sha256": "97fd59c05279282f33998903e4c9aa57d18fb9a0e5a4effc06acd6b803a5f86d",
+        "expected_source_sha256": "d5969f23631b3462f68e3de0c3e72f42c731762aec8d47fb916da78e0d59b3e8"
+      },
+      "source_sha256": "d5969f23631b3462f68e3de0c3e72f42c731762aec8d47fb916da78e0d59b3e8",
+      "labels": {
+        "contact": {
+          "frame": 582,
+          "pts_seconds": 19.4
+        },
+        "entry": {
+          "frame": 0,
+          "pts_seconds": 0
+        },
+        "side": null,
+        "space": 1
+      },
+      "full_prediction": {
+        "collision_frame": 145,
+        "entry_frame": 492,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "old10hz_prediction": {
+        "collision_frame": 345,
+        "entry_frame": 492,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "full": {
+        "contact": {
+          "signed_error_seconds": -14.566666666666666,
+          "abs_error_seconds": 14.566666666666666,
+          "correct": false,
+          "predicted_frame": 145,
+          "predicted_pts_seconds": 4.833333333333333
+        },
+        "entry": {
+          "signed_error_seconds": 16.4,
+          "abs_error_seconds": 16.4,
+          "correct": false,
+          "predicted_frame": 492,
+          "predicted_pts_seconds": 16.4
+        },
+        "side": null,
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "old10hz": {
+        "contact": {
+          "signed_error_seconds": -7.899999999999999,
+          "abs_error_seconds": 7.899999999999999,
+          "correct": false,
+          "predicted_frame": 345,
+          "predicted_pts_seconds": 11.5
+        },
+        "entry": {
+          "signed_error_seconds": 16.4,
+          "abs_error_seconds": 16.4,
+          "correct": false,
+          "predicted_frame": 492,
+          "predicted_pts_seconds": 16.4
+        },
+        "side": null,
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "changes": {
+        "contact": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "entry": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "side": null,
+        "space": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        }
+      },
+      "full_frame_count": 1203,
+      "old10hz_frame_count": 402,
+      "old10hz_reference": {
+        "report_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_baseline_run\\report.json",
+        "report_sha256": "7e1a4c822f161c000d081db67e0a9b2d4c530980119938e337f573093d3fcfbf",
+        "freeze_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_baseline_run\\freeze.json",
+        "freeze_sha256": "93f041d51dbc8d4dfc6db279a5860d9dc2b7e84a4e561077e62dfd5972ff8c4b"
+      },
+      "full_internal_collision": 601,
+      "old10hz_internal_collision": 600
+    },
+    {
+      "ID": "00004",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00004_review_1789444066492.json",
+      "review_sha256": "eccd40747a2ad28d72ec80c8cbaf8656a59732f81412750119cbc026656671f6",
+      "label_binding": {
+        "intake_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_review_intake_integrity_addendum.json",
+        "intake_sha256": "486838bfcc551d54caf2889a61cf3dba178b1c1b2e3d66af2a23c35707cbe937",
+        "expected_review_sha256": "eccd40747a2ad28d72ec80c8cbaf8656a59732f81412750119cbc026656671f6",
+        "expected_source_sha256": "001be406ca8eddc5e5ea61ed8b6104650879aacb1eff217630f7b932fd45be4f"
+      },
+      "source_sha256": "001be406ca8eddc5e5ea61ed8b6104650879aacb1eff217630f7b932fd45be4f",
+      "labels": {
+        "contact": {
+          "frame": 579,
+          "pts_seconds": 19.3
+        },
+        "entry": null,
+        "side": "RIGHT",
+        "space": 1
+      },
+      "full_prediction": {
+        "collision_frame": 591,
+        "entry_frame": 971,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "old10hz_prediction": {
+        "collision_frame": 594,
+        "entry_frame": 387,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "full": {
+        "contact": {
+          "signed_error_seconds": 0.3999999999999986,
+          "abs_error_seconds": 0.3999999999999986,
+          "correct": false,
+          "predicted_frame": 591,
+          "predicted_pts_seconds": 19.7
+        },
+        "entry": null,
+        "side": {
+          "truth": "RIGHT",
+          "prediction": "RIGHT",
+          "correct": true
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "old10hz": {
+        "contact": {
+          "signed_error_seconds": 0.5,
+          "abs_error_seconds": 0.5,
+          "correct": false,
+          "predicted_frame": 594,
+          "predicted_pts_seconds": 19.8
+        },
+        "entry": null,
+        "side": {
+          "truth": "RIGHT",
+          "prediction": "RIGHT",
+          "correct": true
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "changes": {
+        "contact": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "entry": null,
+        "side": {
+          "old_correct": true,
+          "full_correct": true,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "space": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        }
+      },
+      "full_frame_count": 1202,
+      "old10hz_frame_count": 402,
+      "old10hz_reference": {
+        "report_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_dev00004_baseline_run\\report.json",
+        "report_sha256": "5e51659a40bf5e090553bc0eadfd50ccaae6a860564a77a1bbd1ef0a31a71e57",
+        "freeze_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_dev00004_baseline_run\\freeze.json",
+        "freeze_sha256": "aabe345d04045a3099e602b601b6984c73fc0afbddca98c62e2a9b24317ff8b1"
+      },
+      "full_internal_collision": 1068,
+      "old10hz_internal_collision": 1068
+    },
+    {
+      "ID": "00005",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00005_review_1789444069007.json",
+      "review_sha256": "738909ecd54c0b3d53e926bb81ed929b282c6556e8905ed7505e94f756922b3b",
+      "label_binding": {
+        "intake_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_review_intake_integrity_addendum.json",
+        "intake_sha256": "486838bfcc551d54caf2889a61cf3dba178b1c1b2e3d66af2a23c35707cbe937",
+        "expected_review_sha256": "738909ecd54c0b3d53e926bb81ed929b282c6556e8905ed7505e94f756922b3b",
+        "expected_source_sha256": "e68188e582398fcf8e8b2731cb1a79fee7542246184cafb967c3d816ccc1cce1"
+      },
+      "source_sha256": "e68188e582398fcf8e8b2731cb1a79fee7542246184cafb967c3d816ccc1cce1",
+      "labels": {
+        "contact": {
+          "frame": 643,
+          "pts_seconds": 21.013071895424837
+        },
+        "entry": {
+          "frame": 643,
+          "pts_seconds": 21.013071895424837
+        },
+        "side": "LEFT",
+        "space": 1
+      },
+      "full_prediction": {
+        "collision_frame": 86,
+        "entry_frame": 93,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "old10hz_prediction": {
+        "collision_frame": 624,
+        "entry_frame": 89,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "full": {
+        "contact": {
+          "signed_error_seconds": -18.202614379084967,
+          "abs_error_seconds": 18.202614379084967,
+          "correct": false,
+          "predicted_frame": 86,
+          "predicted_pts_seconds": 2.810457516339869
+        },
+        "entry": {
+          "signed_error_seconds": -17.973856209150327,
+          "abs_error_seconds": 17.973856209150327,
+          "correct": false,
+          "predicted_frame": 93,
+          "predicted_pts_seconds": 3.0392156862745097
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "RIGHT",
+          "correct": false
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "old10hz": {
+        "contact": {
+          "signed_error_seconds": -0.6209150326797399,
+          "abs_error_seconds": 0.6209150326797399,
+          "correct": false,
+          "predicted_frame": 624,
+          "predicted_pts_seconds": 20.392156862745097
+        },
+        "entry": {
+          "signed_error_seconds": -18.104575163398692,
+          "abs_error_seconds": 18.104575163398692,
+          "correct": false,
+          "predicted_frame": 89,
+          "predicted_pts_seconds": 2.9084967320261437
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "LEFT",
+          "correct": true
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "changes": {
+        "contact": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "entry": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "side": {
+          "old_correct": true,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": true
+        },
+        "space": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        }
+      },
+      "full_frame_count": 1227,
+      "old10hz_frame_count": 402,
+      "old10hz_reference": {
+        "report_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_reserved\\report.json",
+        "report_sha256": "00eca04dc8386427c34595ac94ac655db6f9fc86aae4f029e20f21808c6b819d",
+        "freeze_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_reserved\\freeze.json",
+        "freeze_sha256": "ed42b8d14708e85bb06a140fdcae4d42b8b52ea602f17a6525299c947d9e416d"
+      },
+      "full_internal_collision": 1022,
+      "old10hz_internal_collision": 973
+    },
+    {
+      "ID": "00006",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00006_review_1789444072672.json",
+      "review_sha256": "be09435498362b3f75f2ffddbe60a9f989ea61ec8b479dcafa4d8a73a7d3ad24",
+      "label_binding": {
+        "intake_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_review_intake_integrity_addendum.json",
+        "intake_sha256": "486838bfcc551d54caf2889a61cf3dba178b1c1b2e3d66af2a23c35707cbe937",
+        "expected_review_sha256": "be09435498362b3f75f2ffddbe60a9f989ea61ec8b479dcafa4d8a73a7d3ad24",
+        "expected_source_sha256": "c9117737cef3990cc27ed9413c85330cf53b0ec91c06840523fe491f2be2c14a"
+      },
+      "source_sha256": "c9117737cef3990cc27ed9413c85330cf53b0ec91c06840523fe491f2be2c14a",
+      "labels": {
+        "contact": {
+          "frame": 579,
+          "pts_seconds": 19.3
+        },
+        "entry": {
+          "frame": 0,
+          "pts_seconds": 0
+        },
+        "side": null,
+        "space": 1
+      },
+      "full_prediction": {
+        "collision_frame": 493,
+        "entry_frame": 762,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "old10hz_prediction": {
+        "collision_frame": 495,
+        "entry_frame": 765,
+        "entry_side": "RIGHT",
+        "evasion_space": 0
+      },
+      "full": {
+        "contact": {
+          "signed_error_seconds": -2.866666666666667,
+          "abs_error_seconds": 2.866666666666667,
+          "correct": false,
+          "predicted_frame": 493,
+          "predicted_pts_seconds": 16.433333333333334
+        },
+        "entry": {
+          "signed_error_seconds": 25.4,
+          "abs_error_seconds": 25.4,
+          "correct": false,
+          "predicted_frame": 762,
+          "predicted_pts_seconds": 25.4
+        },
+        "side": null,
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "old10hz": {
+        "contact": {
+          "signed_error_seconds": -2.8000000000000007,
+          "abs_error_seconds": 2.8000000000000007,
+          "correct": false,
+          "predicted_frame": 495,
+          "predicted_pts_seconds": 16.5
+        },
+        "entry": {
+          "signed_error_seconds": 25.5,
+          "abs_error_seconds": 25.5,
+          "correct": false,
+          "predicted_frame": 765,
+          "predicted_pts_seconds": 25.5
+        },
+        "side": null,
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "changes": {
+        "contact": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "entry": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "side": null,
+        "space": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        }
+      },
+      "full_frame_count": 1199,
+      "old10hz_frame_count": 401,
+      "old10hz_reference": {
+        "report_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_reserved\\report.json",
+        "report_sha256": "00eca04dc8386427c34595ac94ac655db6f9fc86aae4f029e20f21808c6b819d",
+        "freeze_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_reserved\\freeze.json",
+        "freeze_sha256": "ed42b8d14708e85bb06a140fdcae4d42b8b52ea602f17a6525299c947d9e416d"
+      },
+      "full_internal_collision": 1198,
+      "old10hz_internal_collision": 1198
+    },
+    {
+      "ID": "00007",
+      "review_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00007_review_1789404064071.json",
+      "review_sha256": "724ab536dea876fbd653857d91d4fe04a5105afcfcf8f5e5e1ad24afcc2e296f",
+      "label_binding": {
+        "intake_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\nexar_review_intake_integrity.json",
+        "intake_sha256": "23c9a7d4413e184eebd8550dd8b2c1fb1462b1d6a4916b95963485f64b90f1fe",
+        "expected_review_sha256": "724ab536dea876fbd653857d91d4fe04a5105afcfcf8f5e5e1ad24afcc2e296f",
+        "expected_source_sha256": "0a7ebda789db958382dbe41e823e7b9466e4d806d3184c9222afe3671d361ed3"
+      },
+      "source_sha256": "0a7ebda789db958382dbe41e823e7b9466e4d806d3184c9222afe3671d361ed3",
+      "labels": {
+        "contact": {
+          "frame": 625,
+          "pts_seconds": 20.833333333333332
+        },
+        "entry": {
+          "frame": 514,
+          "pts_seconds": 17.133333333333333
+        },
+        "side": "LEFT",
+        "space": 1
+      },
+      "full_prediction": {
+        "collision_frame": 316,
+        "entry_frame": 329,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "old10hz_prediction": {
+        "collision_frame": 318,
+        "entry_frame": 114,
+        "entry_side": "LEFT",
+        "evasion_space": 0
+      },
+      "full": {
+        "contact": {
+          "signed_error_seconds": -10.299999999999999,
+          "abs_error_seconds": 10.299999999999999,
+          "correct": false,
+          "predicted_frame": 316,
+          "predicted_pts_seconds": 10.533333333333333
+        },
+        "entry": {
+          "signed_error_seconds": -6.166666666666666,
+          "abs_error_seconds": 6.166666666666666,
+          "correct": false,
+          "predicted_frame": 329,
+          "predicted_pts_seconds": 10.966666666666667
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "LEFT",
+          "correct": true
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "old10hz": {
+        "contact": {
+          "signed_error_seconds": -10.233333333333333,
+          "abs_error_seconds": 10.233333333333333,
+          "correct": false,
+          "predicted_frame": 318,
+          "predicted_pts_seconds": 10.6
+        },
+        "entry": {
+          "signed_error_seconds": -13.333333333333332,
+          "abs_error_seconds": 13.333333333333332,
+          "correct": false,
+          "predicted_frame": 114,
+          "predicted_pts_seconds": 3.8
+        },
+        "side": {
+          "truth": "LEFT",
+          "prediction": "LEFT",
+          "correct": true
+        },
+        "space": {
+          "truth": 1,
+          "prediction": 0,
+          "correct": false
+        }
+      },
+      "changes": {
+        "contact": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "entry": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "side": {
+          "old_correct": true,
+          "full_correct": true,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        },
+        "space": {
+          "old_correct": false,
+          "full_correct": false,
+          "changed_to_correct": false,
+          "changed_to_wrong": false
+        }
+      },
+      "full_frame_count": 1205,
+      "old10hz_frame_count": 403,
+      "old10hz_reference": {
+        "report_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_reserved\\report.json",
+        "report_sha256": "00eca04dc8386427c34595ac94ac655db6f9fc86aae4f029e20f21808c6b819d",
+        "freeze_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\uncapped_jerk_v6c_reserved\\freeze.json",
+        "freeze_sha256": "ed42b8d14708e85bb06a140fdcae4d42b8b52ea602f17a6525299c947d9e416d"
+      },
+      "full_internal_collision": 402,
+      "old10hz_internal_collision": 312
+    }
+  ],
+  "full": {
+    "contact": {
+      "known_count": 6,
+      "unknown_count": 0,
+      "known_ids": [
+        "00000",
+        "00003",
+        "00004",
+        "00005",
+        "00006",
+        "00007"
+      ],
+      "correct_count": 0,
+      "accuracy": 0.0,
+      "mean_abs_error_seconds": 9.3720235806741,
+      "tolerance_seconds": 0.3
+    },
+    "entry": {
+      "known_count": 5,
+      "unknown_count": 1,
+      "known_ids": [
+        "00000",
+        "00003",
+        "00005",
+        "00006",
+        "00007"
+      ],
+      "correct_count": 0,
+      "accuracy": 0.0,
+      "mean_abs_error_seconds": 13.47184159938485,
+      "tolerance_seconds": 0.3
+    },
+    "side": {
+      "known_count": 4,
+      "unknown_count": 2,
+      "known_ids": [
+        "00000",
+        "00004",
+        "00005",
+        "00007"
+      ],
+      "correct_count": 2,
+      "accuracy": 0.5,
+      "macro_f1": 0.5,
+      "macro_classes": [
+        "LEFT",
+        "RIGHT"
+      ]
+    },
+    "space": {
+      "known_count": 6,
+      "unknown_count": 0,
+      "known_ids": [
+        "00000",
+        "00003",
+        "00004",
+        "00005",
+        "00006",
+        "00007"
+      ],
+      "correct_count": 1,
+      "accuracy": 0.16666666666666666,
+      "macro_f1": 0.14285714285714285,
+      "macro_classes": [
+        0,
+        1
+      ]
+    }
+  },
+  "old10hz": {
+    "contact": {
+      "known_count": 6,
+      "unknown_count": 0,
+      "known_ids": [
+        "00000",
+        "00003",
+        "00004",
+        "00005",
+        "00006",
+        "00007"
+      ],
+      "correct_count": 1,
+      "accuracy": 0.16666666666666666,
+      "mean_abs_error_seconds": 3.693009099064463,
+      "tolerance_seconds": 0.3
+    },
+    "entry": {
+      "known_count": 5,
+      "unknown_count": 1,
+      "known_ids": [
+        "00000",
+        "00003",
+        "00005",
+        "00006",
+        "00007"
+      ],
+      "correct_count": 0,
+      "accuracy": 0.0,
+      "mean_abs_error_seconds": 15.684882737408689,
+      "tolerance_seconds": 0.3
+    },
+    "side": {
+      "known_count": 4,
+      "unknown_count": 2,
+      "known_ids": [
+        "00000",
+        "00004",
+        "00005",
+        "00007"
+      ],
+      "correct_count": 3,
+      "accuracy": 0.75,
+      "macro_f1": 0.7333333333333334,
+      "macro_classes": [
+        "LEFT",
+        "RIGHT"
+      ]
+    },
+    "space": {
+      "known_count": 6,
+      "unknown_count": 0,
+      "known_ids": [
+        "00000",
+        "00003",
+        "00004",
+        "00005",
+        "00006",
+        "00007"
+      ],
+      "correct_count": 1,
+      "accuracy": 0.16666666666666666,
+      "macro_f1": 0.14285714285714285,
+      "macro_classes": [
+        0,
+        1
+      ]
+    }
+  },
+  "S2": null,
+  "official_S2": null,
+  "gate_passed": null,
+  "ground_truth_promotion": false,
+  "independent_validation": false,
+  "freeze_sha256": "9bfd867847b9a526006951c83466d7ab81c7415905d9367d0fc274ad82e884dc",
+  "report_sha256": "a0168656cecb4356d7e1ced432d37b57dc051cefcb4dfb5f6f69f9a8605bdf8c",
+  "evaluator_path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\evaluate_nexar_fullframe_v5.py",
+  "evaluator_sha256": "073d339e5a221f5baa86224a9f084dfea2110513b493edb18b1db7a7cece2709",
+  "review_file_sha256s": {
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00000_review_1789400071868.json": "654e93fad5b32cadeef094e61d6a90a066ebcd7e332fa0a8e7ca21563a0afbc3",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00003_review_1789444125537.json": "97fd59c05279282f33998903e4c9aa57d18fb9a0e5a4effc06acd6b803a5f86d",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00004_review_1789444066492.json": "eccd40747a2ad28d72ec80c8cbaf8656a59732f81412750119cbc026656671f6",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00005_review_1789444069007.json": "738909ecd54c0b3d53e926bb81ed929b282c6556e8905ed7505e94f756922b3b",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00006_review_1789444072672.json": "be09435498362b3f75f2ffddbe60a9f989ea61ec8b479dcafa4d8a73a7d3ad24",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00007_review_1789404064071.json": "724ab536dea876fbd653857d91d4fe04a5105afcfcf8f5e5e1ad24afcc2e296f"
+  },
+  "package_weights_rehashed_by_evaluator": false,
+  "shared_pixel_equivalence_independently_rechecked_by_evaluator": false,
+  "limitations": [
+    "Single-human draft labels, some entry/side labels unknown; no composite S2.",
+    "Full native PNG versus prior 10Hz PNG tests local sampling density, not hidden official JPEG rendering.",
+    "Hidden FPS and frame-to-time distribution are unknown; original frame integers are not general VFR timestamps.",
+    "All six sources are exposed; descriptive comparisons are not independent candidate acceptance."
+  ]
+}

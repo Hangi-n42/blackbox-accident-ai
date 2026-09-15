@@ -1,0 +1,1424 @@
+alb_id/00.cc0001;iphone;artificial light
+alb_id/00.cc0002;iphone;colored light + flash
+alb_id/00.cc0003;android;artificial light
+alb_id/00.cc0004;android;colored light + flash
+alb_id/00.cg0001;android;colored light + flash
+alb_id/00.cg0002;iphone;colored light + flash
+alb_id/00.or0001;android;colored light + flash
+alb_id/00.or0002;iphone;colored light + flash
+alb_id/00.re0001;iphone;lenovo
+alb_id/00.re0002;android;philips
+alb_id/00.re0003;iphone;philips
+alb_id/00.re0004;android;lenovo
+alb_id/00.re0005;android;macbook pro
+alb_id/01.cc0001;iphone;artificial light
+alb_id/01.cc0002;iphone;colored light
+alb_id/01.cc0003;android;artificial light
+alb_id/01.cc0004;android;colored light
+alb_id/01.cg0001;android;artificial light + color temperature 6300
+alb_id/01.cg0002;android;artificial light + color temperature 3600
+alb_id/01.or0001;android;artificial light + color temperature 6300
+alb_id/01.or0002;android;artificial light
+alb_id/01.or0003;iphone;artificial light
+alb_id/01.or0004;android;artificial light + color temperature 3600
+alb_id/01.re0001;iphone;lenovo
+alb_id/01.re0002;iphone;macbook pro
+alb_id/01.re0003;iphone;philips
+alb_id/01.re0004;android;lenovo
+alb_id/01.re0005;android;macbook pro
+alb_id/01.re0006;android;philips
+alb_id/01.re0007;iphone;macbook pro
+alb_id/01.re0008;iphone;philips
+alb_id/01.re0009;android;macbook pro
+alb_id/01.re0010;android;philips
+alb_id/02.cc0001;iphone;artificial light
+alb_id/02.cc0002;iphone;colored light + flash
+alb_id/02.cc0003;android;artificial light
+alb_id/02.cc0004;android;colored light + flash
+alb_id/02.cg0001;android;artificial light + bright objects
+alb_id/02.cg0002;iphone;artificial light + bright objects
+alb_id/02.cg0003;iphone;bright interference in the frame
+alb_id/02.cg0004;android;bright interference in the frame
+alb_id/02.or0001;android;artificial light + bright objects
+alb_id/02.or0002;iphone;artificial light + bright objects
+alb_id/02.or0003;iphone;bright interference in the frame
+alb_id/02.or0004;android;bright interference in the frame
+alb_id/02.re0001;iphone;hp
+alb_id/02.re0002;iphone;macbook pro
+alb_id/02.re0003;iphone;philips
+alb_id/02.re0004;android;hp
+alb_id/02.re0005;android;macbook pro
+alb_id/02.re0006;android;philips
+alb_id/03.cc0001;iphone;artificial light
+alb_id/03.cc0002;iphone;artificial light + flash
+alb_id/03.cc0003;iphone;low light
+alb_id/03.cc0004;android;artificial light
+alb_id/03.cc0005;android;artificial light + flash
+alb_id/03.cc0006;android;artificial light + color temperature 3600
+alb_id/03.cc0007;android;low light
+alb_id/03.cg0001;android;artificial light + flash
+alb_id/03.cg0002;iphone;artificial light + flash
+alb_id/03.cg0003;android;low light
+alb_id/03.cg0004;iphone;low light
+alb_id/03.or0001;android;artificial light + flash
+alb_id/03.or0002;iphone;artificial light + flash
+alb_id/03.or0003;android;low light
+alb_id/03.or0004;iphone;low light
+alb_id/03.re0001;iphone;hp
+alb_id/03.re0002;iphone;macbook pro
+alb_id/03.re0003;iphone;philips
+alb_id/03.re0004;android;hp
+alb_id/03.re0005;android;macbook pro
+alb_id/03.re0006;android;philips
+alb_id/04.cc0001;iphone;artificial light
+alb_id/04.cc0002;iphone;daylight
+alb_id/04.cc0003;iphone;artificial light + bright objects
+alb_id/04.cc0004;android;artificial light
+alb_id/04.cc0005;android;artificial light + color temperature 6300
+alb_id/04.cc0006;android;daylight
+alb_id/04.cc0007;android;artificial light + bright objects
+alb_id/04.cc0008;android;frontally close without much projectivity
+alb_id/04.cc0009;android;frontally medium range without special projectivity
+alb_id/04.cc0010;android;frontally close projectivity is average
+alb_id/04.cc0011;android;frontally average range projectivity average
+alb_id/04.cg0001;android;artificial light + fingers
+alb_id/04.cg0002;android;frontally close without much projectivity
+alb_id/04.cg0003;android;frontally medium range without special projectivity
+alb_id/04.cg0004;android;frontally close projectivity is average
+alb_id/04.cg0005;android;frontally average range projectivity average
+alb_id/04.cg0006;android;artificial light
+alb_id/04.cg0007;iphone;artificial light
+alb_id/04.or0001;android;artificial light + fingers
+alb_id/04.or0002;android;frontally close without much projectivity
+alb_id/04.or0003;android;frontally medium range without special projectivity
+alb_id/04.or0004;android;frontally close projectivity is average
+alb_id/04.or0005;android;frontally average range projectivity average
+alb_id/04.or0006;android;artificial light
+alb_id/04.or0007;iphone;artificial light
+alb_id/04.re0001;iphone;macbook pro
+alb_id/04.re0002;iphone;philips
+alb_id/04.re0003;android;macbook pro
+alb_id/04.re0004;android;philips
+alb_id/04.re0005;iphone;macbook pro
+alb_id/04.re0006;iphone;philips
+alb_id/04.re0007;android;macbook pro
+alb_id/04.re0008;android;philips
+alb_id/04.re0009;iphone;macbook pro
+alb_id/05.cc0001;iphone;artificial light
+alb_id/05.cc0002;iphone;colored light
+alb_id/05.cc0003;android;artificial light
+alb_id/05.cc0004;android;colored light
+alb_id/05.cg0001;android;daylight
+alb_id/05.cg0002;iphone;daylight
+alb_id/05.or0001;android;daylight
+alb_id/05.or0002;iphone;daylight
+alb_id/05.or0003;iphone;artificial light
+alb_id/05.or0004;android;artificial light
+alb_id/05.re0001;iphone;macbook pro
+alb_id/05.re0002;iphone;philips
+alb_id/05.re0003;android;macbook pro
+alb_id/05.re0004;android;philips
+alb_id/06.cc0001;iphone;artificial light
+alb_id/06.cc0002;iphone;daylight
+alb_id/06.cc0003;iphone;artificial light + bright objects
+alb_id/06.cc0004;android;artificial light
+alb_id/06.cc0005;android;artificial light + color temperature 6300
+alb_id/06.cc0006;android;daylight
+alb_id/06.cc0007;android;artificial light + bright objects
+alb_id/06.cg0001;android;colored light
+alb_id/06.cg0002;iphone;colored light
+alb_id/06.or0001;android;colored light
+alb_id/06.or0002;iphone;colored light
+alb_id/07.cc0001;iphone;artificial light
+alb_id/07.cc0002;iphone;artificial light + flash
+alb_id/07.cc0003;iphone;low light
+alb_id/07.cc0004;android;artificial light
+alb_id/07.cc0005;android;artificial light + flash
+alb_id/07.cc0006;android;artificial light + color temperature 3600
+alb_id/07.cc0007;android;low light
+alb_id/07.cg0001;android;daylight + alternating shadow
+alb_id/07.cg0002;iphone;daylight + alternating shadow
+alb_id/07.or0001;iphone;daylight + alternating shadow
+alb_id/07.or0002;android;daylight + alternating shadow
+aze_passport/00.cc0001;iphone;artificial light
+aze_passport/00.cc0002;iphone;artificial light + flash
+aze_passport/00.cc0003;iphone;low light
+aze_passport/00.cc0004;android;artificial light
+aze_passport/00.cc0005;android;artificial light + flash
+aze_passport/00.cc0006;android;artificial light + color temperature 3600
+aze_passport/00.cc0007;android;low light
+aze_passport/00.cg0001;android;daylight
+aze_passport/00.cg0002;iphone;daylight
+aze_passport/00.or0001;android;daylight
+aze_passport/00.or0002;iphone;daylight
+aze_passport/00.re0001;iphone;lenovo
+aze_passport/00.re0002;iphone;macbook pro
+aze_passport/00.re0003;iphone;philips
+aze_passport/00.re0004;android;lenovo
+aze_passport/00.re0005;android;macbook pro
+aze_passport/00.re0006;android;philips
+aze_passport/01.cc0001;iphone;artificial light
+aze_passport/01.cc0002;iphone;colored light + flash
+aze_passport/01.cc0003;android;artificial light
+aze_passport/01.cc0004;android;colored light + flash
+aze_passport/01.cg0001;android;daylight + alternating shadow
+aze_passport/01.cg0002;iphone;daylight + alternating shadow
+aze_passport/01.or0001;android;daylight + alternating shadow
+aze_passport/01.or0002;iphone;daylight + alternating shadow
+aze_passport/01.or0003;android;artificial light
+aze_passport/01.or0004;iphone;artificial light
+aze_passport/01.re0001;iphone;lenovo
+aze_passport/01.re0002;iphone;macbook pro
+aze_passport/01.re0003;iphone;philips
+aze_passport/01.re0004;android;lenovo
+aze_passport/01.re0005;android;macbook pro
+aze_passport/01.re0006;android;philips
+aze_passport/02.cc0001;iphone;artificial light
+aze_passport/02.cc0002;iphone;colored light + flash
+aze_passport/02.cc0003;android;artificial light
+aze_passport/02.cc0004;android;colored light + flash
+aze_passport/02.cg0001;android;artificial light + color temperature 6300
+aze_passport/02.cg0002;android;artificial light + color temperature 3600
+aze_passport/02.or0001;android;artificial light + color temperature 3600
+aze_passport/02.or0002;android;artificial light + color temperature 6300
+aze_passport/02.re0001;iphone;hp
+aze_passport/02.re0002;iphone;macbook pro
+aze_passport/02.re0003;iphone;philips
+aze_passport/02.re0004;android;hp
+aze_passport/02.re0005;android;macbook pro
+aze_passport/02.re0006;android;philips
+aze_passport/03.cc0001;iphone;artificial light
+aze_passport/03.cc0002;iphone;daylight
+aze_passport/03.cc0003;iphone;artificial light + bright objects
+aze_passport/03.cc0004;android;artificial light
+aze_passport/03.cc0005;android;artificial light + color temperature 6300
+aze_passport/03.cc0006;android;daylight
+aze_passport/03.cc0007;android;artificial light + bright objects
+aze_passport/03.cg0001;android;colored light + flash
+aze_passport/03.cg0002;iphone;colored light + flash
+aze_passport/03.or0001;android;colored light + flash
+aze_passport/03.or0002;iphone;colored light + flash
+aze_passport/03.re0001;iphone;hp
+aze_passport/03.re0002;iphone;macbook pro
+aze_passport/03.re0003;iphone;philips
+aze_passport/03.re0004;android;hp
+aze_passport/03.re0005;android;macbook pro
+aze_passport/03.re0006;android;philips
+aze_passport/04.cc0001;iphone;artificial light
+aze_passport/04.cc0002;iphone;artificial light + flash
+aze_passport/04.cc0003;iphone;low light
+aze_passport/04.cc0004;android;artificial light
+aze_passport/04.cc0005;android;artificial light + flash
+aze_passport/04.cc0006;android;artificial light + color temperature 3600
+aze_passport/04.cc0007;android;low light
+aze_passport/04.cc0008;android;frontally close without much projectivity
+aze_passport/04.cc0009;android;frontally medium range without special projectivity
+aze_passport/04.cc0010;android;frontally close projectivity is average
+aze_passport/04.cc0011;android;frontally average range projectivity average
+aze_passport/04.cg0001;android;colored light
+aze_passport/04.cg0002;iphone;colored light
+aze_passport/04.cg0003;android;artificial light + fingers
+aze_passport/04.cg0004;android;frontally close without much projectivity
+aze_passport/04.cg0005;android;frontally medium range without special projectivity
+aze_passport/04.cg0006;android;frontally close projectivity is average
+aze_passport/04.cg0007;android;frontally average range projectivity average
+aze_passport/04.or0001;android;colored light
+aze_passport/04.or0002;iphone;colored light
+aze_passport/04.or0003;android;artificial light + fingers
+aze_passport/04.or0004;android;frontally close without much projectivity
+aze_passport/04.or0005;android;frontally medium range without special projectivity
+aze_passport/04.or0006;android;frontally close projectivity is average
+aze_passport/04.or0007;android;frontally average range projectivity average
+aze_passport/04.re0001;iphone;macbook pro
+aze_passport/04.re0002;iphone;philips
+aze_passport/04.re0003;android;macbook pro
+aze_passport/04.re0004;android;philips
+aze_passport/05.cc0001;iphone;artificial light
+aze_passport/05.cc0002;iphone;colored light
+aze_passport/05.cc0003;android;artificial light
+aze_passport/05.cc0004;android;colored light
+aze_passport/05.cg0001;android;artificial light + bright objects
+aze_passport/05.cg0002;iphone;artificial light + bright objects
+aze_passport/05.cg0003;iphone;bright interference in the frame
+aze_passport/05.cg0004;android;bright interference in the frame
+aze_passport/05.or0001;android;artificial light + bright objects
+aze_passport/05.or0002;iphone;artificial light + bright objects
+aze_passport/05.or0003;android;bright interference in the frame
+aze_passport/05.or0004;iphone;bright interference in the frame
+aze_passport/05.or0005;android;artificial light
+aze_passport/05.or0006;iphone;artificial light
+aze_passport/05.re0001;iphone;macbook pro
+aze_passport/05.re0002;iphone;philips
+aze_passport/05.re0003;android;macbook pro
+aze_passport/05.re0004;android;philips
+aze_passport/06.cc0001;iphone;artificial light
+aze_passport/06.cc0002;iphone;daylight
+aze_passport/06.cc0003;iphone;artificial light + bright objects
+aze_passport/06.cc0004;android;artificial light
+aze_passport/06.cc0005;android;artificial light + color temperature 6300
+aze_passport/06.cc0006;android;daylight
+aze_passport/06.cc0007;android;artificial light + bright objects
+aze_passport/06.cg0001;android;artificial light
+aze_passport/06.cg0002;iphone;artificial light
+aze_passport/06.or0001;android;artificial light
+aze_passport/06.or0002;iphone;artificial light
+aze_passport/06.re0001;iphone;macbook pro
+aze_passport/06.re0002;iphone;philips
+aze_passport/06.re0003;android;macbook pro
+aze_passport/06.re0004;android;philips
+aze_passport/07.cc0001;iphone;artificial light
+aze_passport/07.cc0002;iphone;colored light
+aze_passport/07.cc0003;android;artificial light
+aze_passport/07.cc0004;android;colored light
+aze_passport/07.cg0001;android;artificial light + flash
+aze_passport/07.cg0002;iphone;artificial light + flash
+aze_passport/07.cg0003;android;low light
+aze_passport/07.cg0004;iphone;low light
+aze_passport/07.or0001;android;artificial light + flash
+aze_passport/07.or0002;iphone;artificial light + flash
+aze_passport/07.or0003;android;low light
+aze_passport/07.or0004;iphone;low light
+aze_passport/07.re0001;iphone;macbook pro
+aze_passport/07.re0002;iphone;philips
+aze_passport/07.re0003;android;macbook pro
+aze_passport/07.re0004;android;philips
+esp_id/00.cc0001;iphone;artificial light
+esp_id/00.cc0002;iphone;daylight
+esp_id/00.cc0003;iphone;artificial light + bright objects
+esp_id/00.cc0004;android;artificial light
+esp_id/00.cc0005;android;artificial light + color temperature 6300
+esp_id/00.cc0006;android;daylight
+esp_id/00.cc0007;android;daylight
+esp_id/00.cc0008;android;artificial light + bright objects
+esp_id/00.cg0001;android;colored light + flash
+esp_id/00.cg0002;iphone;colored light + flash
+esp_id/00.or0001;android;colored light + flash
+esp_id/00.or0002;iphone;colored light + flash
+esp_id/00.re0001;iphone;lenovo
+esp_id/00.re0002;iphone;macbook pro
+esp_id/00.re0003;iphone;philips
+esp_id/00.re0004;android;lenovo
+esp_id/00.re0005;android;macbook pro
+esp_id/00.re0006;android;philips
+esp_id/01.cc0001;iphone;artificial light
+esp_id/01.cc0002;iphone;daylight
+esp_id/01.cc0003;iphone;artificial light + bright objects
+esp_id/01.cc0004;android;artificial light
+esp_id/01.cc0005;android;artificial light + color temperature 6300
+esp_id/01.cc0006;android;daylight
+esp_id/01.cc0007;android;artificial light + bright objects
+esp_id/01.cg0001;android;daylight + alternating shadow
+esp_id/01.cg0002;iphone;daylight + alternating shadow
+esp_id/01.or0001;android;daylight + alternating shadow
+esp_id/01.or0002;iphone;daylight + alternating shadow
+esp_id/01.or0003;android;artificial light
+esp_id/01.or0004;iphone;artificial light
+esp_id/01.re0001;iphone;lenovo
+esp_id/01.re0002;iphone;macbook pro
+esp_id/01.re0003;iphone;philips
+esp_id/01.re0004;android;lenovo
+esp_id/01.re0005;android;macbook pro
+esp_id/01.re0006;android;philips
+esp_id/02.cc0001;iphone;artificial light
+esp_id/02.cc0002;iphone;artificial light + flash
+esp_id/02.cc0003;iphone;low light
+esp_id/02.cc0004;android;artificial light
+esp_id/02.cc0005;android;artificial light + flash
+esp_id/02.cc0006;android;artificial light + color temperature 3600
+esp_id/02.cc0007;android;low light
+esp_id/02.cg0001;android;artificial light + flash
+esp_id/02.cg0002;iphone;artificial light + flash
+esp_id/02.cg0003;android;low light
+esp_id/02.cg0004;iphone;low light
+esp_id/02.or0001;android;artificial light + flash
+esp_id/02.or0002;iphone;artificial light + flash
+esp_id/02.or0003;android;low light
+esp_id/02.or0004;iphone;low light
+esp_id/02.re0001;iphone;hp
+esp_id/02.re0002;iphone;macbook pro
+esp_id/02.re0003;iphone;philips
+esp_id/02.re0004;android;hp
+esp_id/02.re0005;android;macbook pro
+esp_id/02.re0006;android;philips
+esp_id/03.cc0001;iphone;artificial light
+esp_id/03.cc0002;iphone;colored light
+esp_id/03.cc0003;android;artificial light
+esp_id/03.cc0004;android;colored light
+esp_id/03.cg0001;android;daylight
+esp_id/03.cg0002;iphone;daylight
+esp_id/03.or0001;android;daylight
+esp_id/03.or0002;iphone;daylight
+esp_id/03.re0001;iphone;hp
+esp_id/03.re0002;iphone;macbook pro
+esp_id/03.re0003;iphone;philips
+esp_id/03.re0004;android;hp
+esp_id/03.re0005;android;macbook pro
+esp_id/03.re0006;android;philips
+esp_id/04.cc0001;iphone;artificial light
+esp_id/04.cc0002;iphone;colored light
+esp_id/04.cc0003;android;artificial light
+esp_id/04.cc0004;android;colored light
+esp_id/04.cc0005;android;frontally close without much projectivity
+esp_id/04.cc0006;android;frontally medium range without special projectivity
+esp_id/04.cc0007;android;frontally close projectivity is average
+esp_id/04.cc0008;android;frontally average range projectivity average
+esp_id/04.cg0001;android;frontally close projectivity is average
+esp_id/04.cg0002;android;frontally average range projectivity average
+esp_id/04.cg0003;android;artificial light + color temperature 3600
+esp_id/04.cg0004;android;artificial light + color temperature 6300
+esp_id/04.cg0005;android;artificial light + fingers
+esp_id/04.cg0006;android;frontally close without much projectivity
+esp_id/04.cg0007;android;frontally medium range without special projectivity
+esp_id/04.or0001;android;frontally close projectivity is average
+esp_id/04.or0002;android;frontally average range projectivity average
+esp_id/04.or0003;android;artificial light + color temperature 3600
+esp_id/04.or0004;android;artificial light + color temperature 6300
+esp_id/04.or0005;android;artificial light + fingers
+esp_id/04.or0006;android;frontally close without much projectivity
+esp_id/04.or0007;android;frontally medium range without special projectivity
+esp_id/04.re0001;iphone;macbook pro
+esp_id/04.re0002;iphone;philips
+esp_id/04.re0003;android;macbook pro
+esp_id/04.re0004;android;philips
+esp_id/05.cc0001;iphone;artificial light
+esp_id/05.cc0002;iphone;colored light + flash
+esp_id/05.cc0003;android;artificial light
+esp_id/05.cc0004;android;colored light + flash
+esp_id/05.cg0001;android;artificial light + bright objects
+esp_id/05.cg0002;iphone;artificial light + bright objects
+esp_id/05.cg0003;android;bright interference in the frame
+esp_id/05.cg0004;iphone;bright interference in the frame
+esp_id/05.or0001;android;artificial light + bright objects
+esp_id/05.or0002;iphone;artificial light + bright objects
+esp_id/05.or0003;android;bright interference in the frame
+esp_id/05.or0004;iphone;bright interference in the frame
+esp_id/05.or0005;android;artificial light
+esp_id/05.or0006;iphone;artificial light
+esp_id/05.re0001;iphone;macbook pro
+esp_id/05.re0002;iphone;philips
+esp_id/05.re0003;android;macbook pro
+esp_id/05.re0004;android;philips
+esp_id/05.re0005;iphone;macbook pro
+esp_id/05.re0006;iphone;philips
+esp_id/05.re0007;android;macbook pro
+esp_id/05.re0008;android;philips
+esp_id/06.cc0001;iphone;artificial light
+esp_id/06.cc0002;iphone;colored light + flash
+esp_id/06.cc0003;android;artificial light
+esp_id/06.cc0004;android;colored light + flash
+esp_id/06.cg0001;android;artificial light
+esp_id/06.cg0002;iphone;artificial light
+esp_id/06.or0001;android;artificial light
+esp_id/06.or0002;iphone;artificial light
+esp_id/06.re0001;iphone;macbook pro
+esp_id/06.re0002;iphone;philips
+esp_id/06.re0003;android;macbook pro
+esp_id/06.re0004;android;philips
+esp_id/07.cc0001;iphone;artificial light
+esp_id/07.cc0002;iphone;artificial light + flash
+esp_id/07.cc0003;iphone;low light
+esp_id/07.cc0004;android;artificial light
+esp_id/07.cc0005;android;artificial light + flash
+esp_id/07.cc0006;android;artificial light + color temperature 3600
+esp_id/07.cc0007;android;low light
+esp_id/07.cg0001;android;colored light
+esp_id/07.cg0002;iphone;colored light
+esp_id/07.or0001;android;colored light
+esp_id/07.or0002;iphone;colored light
+est_id/00.cc0001;iphone;artificial light
+est_id/00.cc0002;iphone;colored light + flash
+est_id/00.cc0003;android;artificial light
+est_id/00.cc0004;android;colored light + flash
+est_id/00.cg0001;android;artificial light + flash
+est_id/00.cg0002;iphone;artificial light + flash
+est_id/00.cg0003;android;low light
+est_id/00.cg0004;iphone;low light
+est_id/00.or0001;android;artificial light + flash
+est_id/00.or0002;iphone;artificial light + flash
+est_id/00.or0003;android;low light
+est_id/00.or0004;iphone;low light
+est_id/00.re0001;iphone;lenovo
+est_id/00.re0002;iphone;macbook pro
+est_id/00.re0003;iphone;philips
+est_id/00.re0004;android;lenovo
+est_id/00.re0005;android;macbook pro
+est_id/00.re0006;android;philips
+est_id/01.cc0001;iphone;artificial light
+est_id/01.cc0002;iphone;colored light + flash
+est_id/01.cc0003;android;artificial light
+est_id/01.cc0004;android;colored light + flash
+est_id/01.cg0001;android;artificial light + bright objects
+est_id/01.cg0002;iphone;artificial light + bright objects
+est_id/01.cg0003;android;bright interference in the frame
+est_id/01.cg0004;iphone;bright interference in the frame
+est_id/01.or0001;android;artificial light + bright objects
+est_id/01.or0002;iphone;artificial light + bright objects
+est_id/01.or0003;android;bright interference in the frame
+est_id/01.or0004;iphone;bright interference in the frame
+est_id/01.or0005;android;artificial light
+est_id/01.or0006;iphone;artificial light
+est_id/01.re0001;iphone;lenovo
+est_id/01.re0002;iphone;macbook pro
+est_id/01.re0003;iphone;philips
+est_id/01.re0004;android;lenovo
+est_id/01.re0005;android;macbook pro
+est_id/01.re0006;android;philips
+est_id/01.re0007;iphone;macbook pro
+est_id/01.re0008;iphone;philips
+est_id/01.re0009;android;macbook pro
+est_id/01.re0010;android;philips
+est_id/02.cc0001;iphone;artificial light
+est_id/02.cc0002;iphone;daylight
+est_id/02.cc0003;iphone;artificial light + bright objects
+est_id/02.cc0004;android;artificial light
+est_id/02.cc0005;android;artificial light + color temperature 6300
+est_id/02.cc0006;android;daylight
+est_id/02.cc0007;android;artificial light + bright objects
+est_id/02.cg0001;android;daylight + alternating shadow
+est_id/02.cg0002;iphone;daylight + alternating shadow
+est_id/02.or0001;android;daylight + alternating shadow
+est_id/02.or0002;iphone;daylight + alternating shadow
+est_id/02.re0001;iphone;hp
+est_id/02.re0002;iphone;macbook pro
+est_id/02.re0003;iphone;philips
+est_id/02.re0004;android;hp
+est_id/02.re0005;android;macbook pro
+est_id/02.re0006;android;philips
+est_id/03.cc0001;iphone;artificial light
+est_id/03.cc0002;iphone;artificial light + flash
+est_id/03.cc0003;iphone;low light
+est_id/03.cc0004;android;artificial light
+est_id/03.cc0005;android;artificial light + flash
+est_id/03.cc0006;android;artificial light + color temperature 3600
+est_id/03.cc0007;android;low light
+est_id/03.cg0001;android;artificial light + color temperature 3600
+est_id/03.cg0002;android;artificial light + color temperature 6300
+est_id/03.or0001;android;artificial light + color temperature 3600
+est_id/03.or0002;android;artificial light + color temperature 6300
+est_id/03.re0001;iphone;hp
+est_id/03.re0002;iphone;macbook pro
+est_id/03.re0003;iphone;philips
+est_id/03.re0004;android;hp
+est_id/03.re0005;android;macbook pro
+est_id/03.re0006;android;philips
+est_id/04.cc0001;iphone;artificial light
+est_id/04.cc0002;iphone;daylight
+est_id/04.cc0003;iphone;artificial light + bright objects
+est_id/04.cc0004;android;artificial light
+est_id/04.cc0005;android;artificial light + color temperature 6300
+est_id/04.cc0006;android;daylight
+est_id/04.cc0007;android;artificial light + bright objects
+est_id/04.cc0008;android;frontally average range projectivity average
+est_id/04.cc0009;android;frontally close without much projectivity
+est_id/04.cc0010;android;frontally medium range without special projectivity
+est_id/04.cc0011;android;frontally close projectivity is average
+est_id/04.cg0001;android;daylight
+est_id/04.cg0002;iphone;daylight
+est_id/04.cg0003;android;artificial light + fingers
+est_id/04.cg0004;android;frontally close without much projectivity
+est_id/04.cg0005;android;frontally medium range without special projectivity
+est_id/04.cg0006;android;frontally close projectivity is average
+est_id/04.cg0007;android;frontally average range projectivity average
+est_id/04.or0001;android;daylight
+est_id/04.or0002;iphone;daylight
+est_id/04.or0003;android;artificial light + fingers
+est_id/04.or0004;android;frontally close without much projectivity
+est_id/04.or0005;android;frontally medium range without special projectivity
+est_id/04.or0006;android;frontally close projectivity is average
+est_id/04.or0007;android;frontally average range projectivity average
+est_id/04.re0001;iphone;macbook pro
+est_id/04.re0002;iphone;philips
+est_id/04.re0003;android;macbook pro
+est_id/04.re0004;android;philips
+est_id/05.cc0001;iphone;artificial light
+est_id/05.cc0002;iphone;colored light
+est_id/05.cc0003;android;artificial light
+est_id/05.cc0004;android;colored light
+est_id/05.cg0001;android;artificial light
+est_id/05.cg0002;iphone;artificial light
+est_id/05.or0001;android;artificial light
+est_id/05.or0002;iphone;artificial light
+est_id/05.or0003;android;artificial light
+est_id/05.or0004;iphone;artificial light
+est_id/06.cc0001;iphone;artificial light
+est_id/06.cc0002;iphone;artificial light + flash
+est_id/06.cc0003;iphone;low light
+est_id/06.cc0004;android;artificial light
+est_id/06.cc0005;android;artificial light + flash
+est_id/06.cc0006;android;artificial light + color temperature 3600
+est_id/06.cc0007;android;low light
+est_id/06.cg0001;android;colored light
+est_id/06.cg0002;iphone;colored light
+est_id/06.or0001;android;colored light
+est_id/06.or0002;iphone;colored light
+est_id/06.re0001;iphone;macbook pro
+est_id/06.re0002;iphone;philips
+est_id/06.re0003;android;macbook pro
+est_id/06.re0004;android;philips
+est_id/07.cc0001;iphone;artificial light
+est_id/07.cc0002;iphone;colored light
+est_id/07.cc0003;android;artificial light
+est_id/07.cc0004;android;colored light
+est_id/07.cg0001;android;colored light + flash
+est_id/07.cg0002;iphone;colored light + flash
+est_id/07.or0001;android;colored light + flash
+est_id/07.or0002;iphone;colored light + flash
+est_id/07.re0001;iphone;macbook pro
+est_id/07.re0002;iphone;philips
+est_id/07.re0003;android;macbook pro
+est_id/07.re0004;android;philips
+fin_id/00.cc0001;iphone;artificial light
+fin_id/00.cc0002;iphone;daylight
+fin_id/00.cc0003;iphone;artificial light + bright objects
+fin_id/00.cc0004;android;artificial light
+fin_id/00.cc0005;android;artificial light + color temperature 6300
+fin_id/00.cc0006;android;daylight
+fin_id/00.cc0007;android;daylight
+fin_id/00.cc0008;android;artificial light + bright objects
+fin_id/00.cg0001;android;colored light
+fin_id/00.cg0002;iphone;colored light
+fin_id/00.or0001;android;colored light
+fin_id/00.or0002;iphone;colored light
+fin_id/00.re0001;iphone;lenovo
+fin_id/00.re0002;iphone;macbook pro
+fin_id/00.re0003;iphone;philips
+fin_id/00.re0004;android;lenovo
+fin_id/00.re0005;android;macbook pro
+fin_id/00.re0006;android;philips
+fin_id/01.cc0001;iphone;artificial light
+fin_id/01.cc0002;iphone;daylight
+fin_id/01.cc0003;iphone;artificial light + bright objects
+fin_id/01.cc0004;android;artificial light
+fin_id/01.cc0005;android;artificial light + color temperature 6300
+fin_id/01.cc0006;android;daylight
+fin_id/01.cc0007;android;daylight
+fin_id/01.cc0008;android;artificial light + bright objects
+fin_id/01.cg0001;android;colored light + flash
+fin_id/01.cg0002;iphone;colored light + flash
+fin_id/01.or0001;android;colored light + flash
+fin_id/01.or0002;iphone;colored light + flash
+fin_id/01.or0003;android;artificial light
+fin_id/01.or0004;iphone;artificial light
+fin_id/01.re0001;iphone;lenovo
+fin_id/01.re0002;iphone;macbook pro
+fin_id/01.re0003;iphone;philips
+fin_id/01.re0004;android;lenovo
+fin_id/01.re0005;android;macbook pro
+fin_id/01.re0006;android;philips
+fin_id/02.cc0001;iphone;artificial light
+fin_id/02.cc0002;iphone;colored light + flash
+fin_id/02.cc0003;android;artificial light
+fin_id/02.cc0004;android;colored light + flash
+fin_id/02.cg0001;android;artificial light + color temperature 3600
+fin_id/02.cg0002;android;artificial light + color temperature 6300
+fin_id/02.or0001;android;artificial light + color temperature 3600
+fin_id/02.or0002;android;artificial light + color temperature 6300
+fin_id/02.re0001;iphone;hp
+fin_id/02.re0002;iphone;macbook pro
+fin_id/02.re0003;iphone;philips
+fin_id/02.re0004;android;hp
+fin_id/02.re0005;android;macbook pro
+fin_id/02.re0006;android;philips
+fin_id/03.cc0001;iphone;artificial light
+fin_id/03.cc0002;iphone;artificial light + flash
+fin_id/03.cc0003;iphone;low light
+fin_id/03.cc0004;android;artificial light
+fin_id/03.cc0005;android;artificial light + flash
+fin_id/03.cc0006;android;artificial light + color temperature 3600
+fin_id/03.cc0007;android;low light
+fin_id/03.cg0001;android;daylight
+fin_id/03.cg0002;iphone;daylight
+fin_id/03.or0001;android;daylight
+fin_id/03.or0002;iphone;daylight
+fin_id/03.re0001;iphone;hp
+fin_id/03.re0002;iphone;macbook pro
+fin_id/03.re0003;iphone;philips
+fin_id/03.re0004;android;hp
+fin_id/03.re0005;android;macbook pro
+fin_id/03.re0006;android;philips
+fin_id/04.cc0001;iphone;artificial light
+fin_id/04.cc0002;iphone;colored light
+fin_id/04.cc0003;android;artificial light
+fin_id/04.cc0004;android;colored light
+fin_id/04.cc0005;android;frontally close without much projectivity
+fin_id/04.cc0006;android;frontally medium range without special projectivity
+fin_id/04.cc0007;android;frontally close projectivity is average
+fin_id/04.cc0008;android;frontally average range projectivity average
+fin_id/04.cg0001;android;artificial light + flash
+fin_id/04.cg0002;iphone;artificial light + flash
+fin_id/04.cg0003;android;low light
+fin_id/04.cg0004;iphone;low light
+fin_id/04.cg0005;android;artificial light + fingers
+fin_id/04.cg0006;android;frontally close without much projectivity
+fin_id/04.cg0007;android;frontally medium range without special projectivity
+fin_id/04.cg0008;android;frontally close projectivity is average
+fin_id/04.cg0009;android;frontally average range projectivity average
+fin_id/04.or0001;android;artificial light + flash
+fin_id/04.or0002;iphone;artificial light + flash
+fin_id/04.or0003;android;low light
+fin_id/04.or0004;iphone;low light
+fin_id/04.or0005;android;artificial light + fingers
+fin_id/04.or0006;android;frontally close without much projectivity
+fin_id/04.or0007;android;frontally medium range without special projectivity
+fin_id/04.or0008;android;frontally close projectivity is average
+fin_id/04.or0009;android;frontally average range projectivity average
+fin_id/04.re0001;iphone;macbook pro
+fin_id/04.re0002;iphone;philips
+fin_id/04.re0003;android;macbook pro
+fin_id/04.re0004;android;philips
+fin_id/05.cc0001;iphone;artificial light
+fin_id/05.cc0002;iphone;artificial light + flash
+fin_id/05.cc0003;iphone;low light
+fin_id/05.cc0004;android;artificial light
+fin_id/05.cc0005;android;artificial light + flash
+fin_id/05.cc0006;android;artificial light + color temperature 3600
+fin_id/05.cc0007;android;low light
+fin_id/05.cg0001;android;daylight + alternating shadow
+fin_id/05.cg0002;iphone;daylight + alternating shadow
+fin_id/05.or0001;android;daylight + alternating shadow
+fin_id/05.or0002;iphone;daylight + alternating shadow
+fin_id/05.or0003;android;artificial light
+fin_id/05.or0004;iphone;artificial light
+fin_id/05.re0001;iphone;macbook pro
+fin_id/05.re0002;iphone;philips
+fin_id/05.re0003;android;macbook pro
+fin_id/05.re0004;android;philips
+fin_id/05.re0005;iphone;macbook pro
+fin_id/05.re0006;iphone;philips
+fin_id/05.re0007;android;macbook pro
+fin_id/05.re0008;android;philips
+fin_id/06.cc0001;iphone;artificial light
+fin_id/06.cc0002;iphone;colored light + flash
+fin_id/06.cc0003;android;artificial light
+fin_id/06.cc0004;android;colored light + flash
+fin_id/06.cg0001;android;artificial light
+fin_id/06.cg0002;iphone;artificial light
+fin_id/06.or0001;android;artificial light
+fin_id/06.or0002;iphone;artificial light
+fin_id/07.cc0001;iphone;artificial light
+fin_id/07.cc0002;iphone;colored light
+fin_id/07.cc0003;android;artificial light
+fin_id/07.cc0004;android;colored light
+fin_id/07.cg0001;android;artificial light + bright objects
+fin_id/07.cg0002;iphone;artificial light + bright objects
+fin_id/07.cg0003;android;bright interference in the frame
+fin_id/07.cg0004;iphone;bright interference in the frame
+fin_id/07.or0001;android;artificial light + bright objects
+fin_id/07.or0002;iphone;artificial light + bright objects
+fin_id/07.or0003;android;bright interference in the frame
+fin_id/07.or0004;iphone;bright interference in the frame
+fin_id/07.re0001;iphone;macbook pro
+fin_id/07.re0002;iphone;philips
+fin_id/07.re0003;android;macbook pro
+fin_id/07.re0004;android;philips
+grc_passport/00.cc0001;iphone;artificial light
+grc_passport/00.cc0002;iphone;colored light
+grc_passport/00.cc0003;android;artificial light
+grc_passport/00.cc0004;android;colored light
+grc_passport/00.cg0001;android;artificial light + bright objects
+grc_passport/00.cg0002;iphone;artificial light + bright objects
+grc_passport/00.cg0003;android;bright interference in the frame
+grc_passport/00.cg0004;iphone;bright interference in the frame
+grc_passport/00.or0001;android;artificial light + bright objects
+grc_passport/00.or0002;iphone;artificial light + bright objects
+grc_passport/00.or0003;android;bright interference in the frame
+grc_passport/00.or0004;iphone;bright interference in the frame
+grc_passport/00.re0001;iphone;lenovo
+grc_passport/00.re0002;iphone;macbook pro
+grc_passport/00.re0003;iphone;philips
+grc_passport/00.re0004;android;lenovo
+grc_passport/00.re0005;android;macbook pro
+grc_passport/00.re0006;android;philips
+grc_passport/01.cc0001;iphone;artificial light
+grc_passport/01.cc0002;iphone;artificial light + flash
+grc_passport/01.cc0003;iphone;low light
+grc_passport/01.cc0004;android;artificial light
+grc_passport/01.cc0005;android;artificial light + flash
+grc_passport/01.cc0006;android;artificial light + color temperature 3600
+grc_passport/01.cc0007;android;low light
+grc_passport/01.cg0001;android;daylight + alternating shadow
+grc_passport/01.cg0002;iphone;daylight + alternating shadow
+grc_passport/01.or0001;android;daylight + alternating shadow
+grc_passport/01.or0002;iphone;daylight + alternating shadow
+grc_passport/01.or0003;android;artificial light
+grc_passport/01.or0004;iphone;artificial light
+grc_passport/01.re0001;iphone;lenovo
+grc_passport/01.re0002;iphone;macbook pro
+grc_passport/01.re0003;iphone;philips
+grc_passport/01.re0004;android;lenovo
+grc_passport/01.re0005;android;macbook pro
+grc_passport/01.re0006;android;philips
+grc_passport/02.cc0001;iphone;artificial light
+grc_passport/02.cc0002;iphone;colored light
+grc_passport/02.cc0003;android;artificial light
+grc_passport/02.cc0004;android;colored light
+grc_passport/02.cg0001;android;artificial light + color temperature 3600
+grc_passport/02.cg0002;android;artificial light + color temperature 6300
+grc_passport/02.or0001;android;artificial light + color temperature 3600
+grc_passport/02.or0002;android;artificial light + color temperature 6300
+grc_passport/02.re0001;iphone;hp
+grc_passport/02.re0002;iphone;macbook pro
+grc_passport/02.re0003;iphone;philips
+grc_passport/02.re0004;android;hp
+grc_passport/02.re0005;android;macbook pro
+grc_passport/02.re0006;android;philips
+grc_passport/02.re0007;iphone;macbook pro
+grc_passport/02.re0008;iphone;philips
+grc_passport/02.re0009;android;macbook pro
+grc_passport/02.re0010;android;philips
+grc_passport/03.cc0001;iphone;artificial light
+grc_passport/03.cc0002;iphone;artificial light + flash
+grc_passport/03.cc0003;iphone;low light
+grc_passport/03.cc0004;android;artificial light
+grc_passport/03.cc0005;android;artificial light + flash
+grc_passport/03.cc0006;android;artificial light + color temperature 3600
+grc_passport/03.cc0007;android;low light
+grc_passport/03.cg0001;android;colored light
+grc_passport/03.cg0002;iphone;colored light
+grc_passport/03.or0001;android;colored light
+grc_passport/03.or0002;iphone;colored light
+grc_passport/03.re0001;iphone;hp
+grc_passport/03.re0002;iphone;macbook pro
+grc_passport/03.re0003;iphone;philips
+grc_passport/03.re0004;android;hp
+grc_passport/03.re0005;android;macbook pro
+grc_passport/03.re0006;android;philips
+grc_passport/04.cc0001;iphone;artificial light
+grc_passport/04.cc0002;iphone;daylight
+grc_passport/04.cc0003;iphone;artificial light + bright objects
+grc_passport/04.cc0004;android;artificial light
+grc_passport/04.cc0005;android;artificial light + color temperature 6300
+grc_passport/04.cc0006;android;daylight
+grc_passport/04.cc0007;android;artificial light + bright objects
+grc_passport/04.cc0008;android;frontally close without much projectivity
+grc_passport/04.cc0009;android;frontally medium range without special projectivity
+grc_passport/04.cc0010;android;frontally close projectivity is average
+grc_passport/04.cc0011;android;frontally average range projectivity average
+grc_passport/04.cg0001;android;daylight
+grc_passport/04.cg0002;iphone;daylight
+grc_passport/04.cg0003;android;artificial light + fingers
+grc_passport/04.cg0004;android;frontally close without much projectivity
+grc_passport/04.cg0005;android;frontally medium range without special projectivity
+grc_passport/04.cg0006;android;frontally close projectivity is average
+grc_passport/04.cg0007;android;frontally average range projectivity average
+grc_passport/04.or0001;android;daylight
+grc_passport/04.or0002;iphone;daylight
+grc_passport/04.or0003;android;artificial light + fingers
+grc_passport/04.or0004;android;frontally close without much projectivity
+grc_passport/04.or0005;android;frontally medium range without special projectivity
+grc_passport/04.or0006;android;frontally close projectivity is average
+grc_passport/04.or0007;android;frontally average range projectivity average
+grc_passport/04.re0001;iphone;macbook pro
+grc_passport/04.re0002;iphone;philips
+grc_passport/04.re0003;android;macbook pro
+grc_passport/04.re0004;android;philips
+grc_passport/05.cc0001;iphone;artificial light
+grc_passport/05.cc0002;iphone;colored light + flash
+grc_passport/05.cc0003;android;artificial light
+grc_passport/05.cc0004;android;colored light + flash
+grc_passport/05.cg0001;android;artificial light + flash
+grc_passport/05.cg0002;iphone;artificial light + flash
+grc_passport/05.cg0003;android;low light
+grc_passport/05.cg0004;iphone;low light
+grc_passport/05.or0001;android;artificial light + flash
+grc_passport/05.or0002;iphone;artificial light + flash
+grc_passport/05.or0003;android;low light
+grc_passport/05.or0004;iphone;low light
+grc_passport/05.or0005;android;artificial light
+grc_passport/05.or0006;iphone;artificial light
+grc_passport/05.re0001;iphone;macbook pro
+grc_passport/05.re0002;iphone;philips
+grc_passport/05.re0003;android;macbook pro
+grc_passport/05.re0004;android;philips
+grc_passport/06.cc0001;iphone;artificial light
+grc_passport/06.cc0002;iphone;colored light + flash
+grc_passport/06.cc0003;android;artificial light
+grc_passport/06.cc0004;android;colored light + flash
+grc_passport/06.cg0001;android;artificial light
+grc_passport/06.cg0002;iphone;artificial light
+grc_passport/06.or0001;android;artificial light
+grc_passport/06.or0002;iphone;artificial light
+grc_passport/06.re0001;iphone;macbook pro
+grc_passport/06.re0002;iphone;philips
+grc_passport/06.re0003;android;macbook pro
+grc_passport/06.re0004;android;philips
+grc_passport/07.cc0001;iphone;artificial light
+grc_passport/07.cc0002;iphone;daylight
+grc_passport/07.cc0003;iphone;artificial light + bright objects
+grc_passport/07.cc0004;android;artificial light
+grc_passport/07.cc0005;android;artificial light + color temperature 6300
+grc_passport/07.cc0006;android;daylight
+grc_passport/07.cc0007;android;artificial light + bright objects
+grc_passport/07.cg0001;android;colored light + flash
+grc_passport/07.cg0002;iphone;colored light + flash
+grc_passport/07.or0001;android;colored light + flash
+grc_passport/07.or0002;iphone;colored light + flash
+lva_passport/00.cc0001;iphone;artificial light
+lva_passport/00.cc0002;iphone;colored light + flash
+lva_passport/00.cc0003;android;artificial light
+lva_passport/00.cc0004;android;colored light + flash
+lva_passport/00.cg0001;android;artificial light
+lva_passport/00.cg0002;iphone;artificial light
+lva_passport/00.or0001;android;artificial light
+lva_passport/00.or0002;iphone;artificial light
+lva_passport/00.re0001;iphone;lenovo
+lva_passport/00.re0002;iphone;macbook pro
+lva_passport/00.re0003;iphone;philips
+lva_passport/00.re0004;android;lenovo
+lva_passport/00.re0005;android;macbook pro
+lva_passport/00.re0006;android;philips
+lva_passport/01.cc0001;iphone;artificial light
+lva_passport/01.cc0002;iphone;daylight
+lva_passport/01.cc0003;iphone;artificial light + bright objects
+lva_passport/01.cc0004;android;artificial light
+lva_passport/01.cc0005;android;artificial light + color temperature 6300
+lva_passport/01.cc0006;android;daylight
+lva_passport/01.cc0007;android;artificial light + bright objects
+lva_passport/01.cg0001;android;colored light
+lva_passport/01.cg0002;iphone;colored light
+lva_passport/01.or0001;android;colored light
+lva_passport/01.or0002;iphone;colored light
+lva_passport/01.or0003;android;artificial light
+lva_passport/01.or0004;iphone;artificial light
+lva_passport/01.re0001;iphone;lenovo
+lva_passport/01.re0002;iphone;macbook pro
+lva_passport/01.re0003;iphone;philips
+lva_passport/01.re0004;android;lenovo
+lva_passport/01.re0005;android;macbook pro
+lva_passport/01.re0006;android;philips
+lva_passport/02.cc0001;iphone;artificial light
+lva_passport/02.cc0002;iphone;colored light + flash
+lva_passport/02.cc0003;android;artificial light
+lva_passport/02.cc0004;android;colored light + flash
+lva_passport/02.cg0001;android;daylight + alternating shadow
+lva_passport/02.cg0002;iphone;daylight + alternating shadow
+lva_passport/02.or0001;android;daylight + alternating shadow
+lva_passport/02.or0002;iphone;daylight + alternating shadow
+lva_passport/02.re0001;iphone;hp
+lva_passport/02.re0002;iphone;macbook pro
+lva_passport/02.re0003;iphone;philips
+lva_passport/02.re0004;android;hp
+lva_passport/02.re0005;android;macbook pro
+lva_passport/02.re0006;android;philips
+lva_passport/03.cc0001;iphone;artificial light
+lva_passport/03.cc0002;iphone;daylight
+lva_passport/03.cc0003;iphone;artificial light + bright objects
+lva_passport/03.cc0004;android;artificial light
+lva_passport/03.cc0005;android;artificial light + color temperature 6300
+lva_passport/03.cc0006;android;daylight
+lva_passport/03.cc0007;android;artificial light + bright objects
+lva_passport/03.cg0001;android;artificial light + color temperature 3600
+lva_passport/03.cg0002;android;artificial light + color temperature 6300
+lva_passport/03.or0001;android;artificial light + color temperature 3600
+lva_passport/03.or0002;android;artificial light + color temperature 6300
+lva_passport/03.re0001;iphone;macbook pro
+lva_passport/03.re0002;iphone;philips
+lva_passport/03.re0003;iphone;hp
+lva_passport/03.re0004;android;macbook pro
+lva_passport/03.re0005;android;philips
+lva_passport/03.re0006;android;hp
+lva_passport/04.cc0001;iphone;artificial light
+lva_passport/04.cc0002;iphone;artificial light + flash
+lva_passport/04.cc0003;iphone;low light
+lva_passport/04.cc0004;android;artificial light
+lva_passport/04.cc0005;android;artificial light + flash
+lva_passport/04.cc0006;android;artificial light + color temperature 3600
+lva_passport/04.cc0007;android;low light
+lva_passport/04.cc0008;android;frontally close without much projectivity
+lva_passport/04.cc0009;android;frontally medium range without special projectivity
+lva_passport/04.cc0010;android;frontally close projectivity is average
+lva_passport/04.cc0011;android;frontally average range projectivity average
+lva_passport/04.cg0001;android;daylight
+lva_passport/04.cg0002;iphone;daylight
+lva_passport/04.cg0003;android;artificial light + fingers
+lva_passport/04.cg0004;android;frontally close without much projectivity
+lva_passport/04.cg0005;android;frontally medium range without special projectivity
+lva_passport/04.cg0006;android;frontally close projectivity is average
+lva_passport/04.cg0007;android;frontally average range projectivity average
+lva_passport/04.or0001;android;daylight
+lva_passport/04.or0002;iphone;daylight
+lva_passport/04.or0003;android;artificial light + fingers
+lva_passport/04.or0004;android;frontally close without much projectivity
+lva_passport/04.or0005;android;frontally medium range without special projectivity
+lva_passport/04.or0006;android;frontally close projectivity is average
+lva_passport/04.or0007;android;frontally average range projectivity average
+lva_passport/04.re0001;iphone;macbook pro
+lva_passport/04.re0002;iphone;philips
+lva_passport/04.re0003;android;macbook pro
+lva_passport/04.re0004;android;philips
+lva_passport/05.cc0001;iphone;artificial light
+lva_passport/05.cc0002;iphone;colored light
+lva_passport/05.cc0003;android;artificial light
+lva_passport/05.cc0004;android;colored light
+lva_passport/05.cg0001;android;artificial light + bright objects
+lva_passport/05.cg0002;iphone;artificial light + bright objects
+lva_passport/05.cg0003;android;bright interference in the frame
+lva_passport/05.cg0004;iphone;bright interference in the frame
+lva_passport/05.or0001;android;artificial light + bright objects
+lva_passport/05.or0002;iphone;artificial light + bright objects
+lva_passport/05.or0003;android;bright interference in the frame
+lva_passport/05.or0004;iphone;bright interference in the frame
+lva_passport/05.or0005;android;artificial light
+lva_passport/05.or0006;iphone;artificial light
+lva_passport/05.re0001;iphone;macbook pro
+lva_passport/05.re0002;iphone;philips
+lva_passport/05.re0003;android;macbook pro
+lva_passport/05.re0004;android;philips
+lva_passport/06.cc0001;iphone;artificial light
+lva_passport/06.cc0002;iphone;artificial light + flash
+lva_passport/06.cc0003;iphone;low light
+lva_passport/06.cc0004;android;artificial light
+lva_passport/06.cc0005;android;artificial light + flash
+lva_passport/06.cc0006;android;artificial light + color temperature 3600
+lva_passport/06.cc0007;android;low light
+lva_passport/06.cg0001;android;colored light + flash
+lva_passport/06.cg0002;iphone;colored light + flash
+lva_passport/06.or0001;android;colored light + flash
+lva_passport/06.or0002;iphone;colored light + flash
+lva_passport/06.re0001;iphone;macbook pro
+lva_passport/06.re0002;iphone;philips
+lva_passport/06.re0003;android;macbook pro
+lva_passport/06.re0004;android;philips
+lva_passport/07.cc0001;iphone;artificial light
+lva_passport/07.cc0002;iphone;colored light
+lva_passport/07.cc0003;android;artificial light
+lva_passport/07.cc0004;android;colored light
+lva_passport/07.cg0001;android;artificial light + flash
+lva_passport/07.cg0002;iphone;artificial light + flash
+lva_passport/07.cg0003;android;low light
+lva_passport/07.cg0004;iphone;low light
+lva_passport/07.or0001;android;artificial light + flash
+lva_passport/07.or0002;iphone;artificial light + flash
+lva_passport/07.or0003;android;low light
+lva_passport/07.or0004;iphone;low light
+lva_passport/07.re0001;iphone;macbook pro
+lva_passport/07.re0002;iphone;philips
+lva_passport/07.re0003;android;macbook pro
+lva_passport/07.re0004;android;philips
+rus_internalpassport/00.cc0001;iphone;artificial light
+rus_internalpassport/00.cc0002;iphone;colored light
+rus_internalpassport/00.cc0003;android;artificial light
+rus_internalpassport/00.cc0004;android;colored light
+rus_internalpassport/00.cg0001;android;daylight
+rus_internalpassport/00.cg0002;iphone;daylight
+rus_internalpassport/00.or0001;android;daylight
+rus_internalpassport/00.or0002;iphone;daylight
+rus_internalpassport/00.re0001;iphone;lenovo
+rus_internalpassport/00.re0002;iphone;macbook pro
+rus_internalpassport/00.re0003;iphone;philips
+rus_internalpassport/00.re0004;android;lenovo
+rus_internalpassport/00.re0005;android;macbook pro
+rus_internalpassport/00.re0006;android;philips
+rus_internalpassport/01.cc0001;iphone;artificial light
+rus_internalpassport/01.cc0002;iphone;colored light + flash
+rus_internalpassport/01.cc0003;android;artificial light
+rus_internalpassport/01.cc0004;android;colored light + flash
+rus_internalpassport/01.cg0001;android;colored light + flash
+rus_internalpassport/01.cg0002;iphone;colored light + flash
+rus_internalpassport/01.or0001;android;colored light + flash
+rus_internalpassport/01.or0002;iphone;colored light + flash
+rus_internalpassport/01.or0003;android;artificial light
+rus_internalpassport/01.or0004;iphone;artificial light
+rus_internalpassport/01.re0001;iphone;lenovo
+rus_internalpassport/01.re0002;iphone;macbook pro
+rus_internalpassport/01.re0003;iphone;philips
+rus_internalpassport/01.re0004;android;lenovo
+rus_internalpassport/01.re0005;android;macbook pro
+rus_internalpassport/01.re0006;android;philips
+rus_internalpassport/02.cc0001;iphone;artificial light
+rus_internalpassport/02.cc0002;iphone;colored light
+rus_internalpassport/02.cc0003;android;artificial light
+rus_internalpassport/02.cc0004;android;colored light
+rus_internalpassport/02.cg0001;android;artificial light + bright objects
+rus_internalpassport/02.cg0002;iphone;artificial light + bright objects
+rus_internalpassport/02.cg0003;iphone;bright interference in the frame
+rus_internalpassport/02.cg0004;android;bright interference in the frame
+rus_internalpassport/02.or0001;android;artificial light + bright objects
+rus_internalpassport/02.or0002;iphone;artificial light + bright objects
+rus_internalpassport/02.or0003;android;bright interference in the frame
+rus_internalpassport/02.or0004;iphone;bright interference in the frame
+rus_internalpassport/02.re0001;iphone;hp
+rus_internalpassport/02.re0002;iphone;macbook pro
+rus_internalpassport/02.re0003;iphone;philips
+rus_internalpassport/02.re0004;android;hp
+rus_internalpassport/02.re0005;android;macbook pro
+rus_internalpassport/02.re0006;android;philips
+rus_internalpassport/03.cc0001;iphone;artificial light
+rus_internalpassport/03.cc0002;iphone;artificial light + flash
+rus_internalpassport/03.cc0003;iphone;low light
+rus_internalpassport/03.cc0004;android;artificial light
+rus_internalpassport/03.cc0005;android;artificial light + flash
+rus_internalpassport/03.cc0006;android;artificial light + color temperature 3600
+rus_internalpassport/03.cc0007;android;low light
+rus_internalpassport/03.cg0001;android;artificial light
+rus_internalpassport/03.cg0002;iphone;artificial light
+rus_internalpassport/03.or0001;android;artificial light
+rus_internalpassport/03.or0002;iphone;artificial light
+rus_internalpassport/03.re0001;iphone;hp
+rus_internalpassport/03.re0002;iphone;macbook pro
+rus_internalpassport/03.re0003;iphone;philips
+rus_internalpassport/03.re0004;android;hp
+rus_internalpassport/03.re0005;android;macbook pro
+rus_internalpassport/03.re0006;android;philips
+rus_internalpassport/04.cc0001;iphone;artificial light
+rus_internalpassport/04.cc0002;iphone;colored light + flash
+rus_internalpassport/04.cc0003;android;artificial light
+rus_internalpassport/04.cc0004;android;colored light + flash
+rus_internalpassport/04.cc0005;android;frontally close without much projectivity
+rus_internalpassport/04.cc0006;android;frontally medium range without special projectivity
+rus_internalpassport/04.cc0007;android;frontally close projectivity is average
+rus_internalpassport/04.cc0008;android;frontally average range projectivity average
+rus_internalpassport/04.cg0001;android;colored light
+rus_internalpassport/04.cg0002;iphone;colored light
+rus_internalpassport/04.cg0003;android;artificial light + fingers
+rus_internalpassport/04.cg0004;android;frontally close without much projectivity
+rus_internalpassport/04.cg0005;android;frontally medium range without special projectivity
+rus_internalpassport/04.cg0006;android;frontally close projectivity is average
+rus_internalpassport/04.cg0007;android;frontally average range projectivity average
+rus_internalpassport/04.or0001;android;colored light
+rus_internalpassport/04.or0002;iphone;colored light
+rus_internalpassport/04.or0003;android;artificial light + fingers
+rus_internalpassport/04.or0004;android;frontally close without much projectivity
+rus_internalpassport/04.or0005;android;frontally medium range without special projectivity
+rus_internalpassport/04.or0006;android;frontally close projectivity is average
+rus_internalpassport/04.or0007;android;frontally average range projectivity average
+rus_internalpassport/04.re0001;iphone;macbook pro
+rus_internalpassport/04.re0002;iphone;philips
+rus_internalpassport/04.re0003;android;macbook pro
+rus_internalpassport/04.re0004;android;philips
+rus_internalpassport/05.cc0001;iphone;artificial light
+rus_internalpassport/05.cc0002;iphone;daylight
+rus_internalpassport/05.cc0003;iphone;artificial light + bright objects
+rus_internalpassport/05.cc0004;android;artificial light
+rus_internalpassport/05.cc0005;android;artificial light + color temperature 6300
+rus_internalpassport/05.cc0006;android;daylight
+rus_internalpassport/05.cc0007;android;artificial light + bright objects
+rus_internalpassport/05.cg0001;android;artificial light + color temperature 3600
+rus_internalpassport/05.cg0002;android;artificial light + color temperature 6300
+rus_internalpassport/05.or0001;android;artificial light + color temperature 3600
+rus_internalpassport/05.or0002;android;artificial light + color temperature 6300
+rus_internalpassport/05.or0003;android;artificial light
+rus_internalpassport/05.or0004;iphone;artificial light
+rus_internalpassport/05.re0001;iphone;macbook pro
+rus_internalpassport/05.re0002;iphone;philips
+rus_internalpassport/05.re0003;android;macbook pro
+rus_internalpassport/05.re0004;android;philips
+rus_internalpassport/05.re0005;iphone;macbook pro
+rus_internalpassport/05.re0006;iphone;philips
+rus_internalpassport/05.re0007;android;macbook pro
+rus_internalpassport/05.re0008;android;philips
+rus_internalpassport/06.cc0001;iphone;artificial light
+rus_internalpassport/06.cc0002;iphone;artificial light + flash
+rus_internalpassport/06.cc0003;iphone;low light
+rus_internalpassport/06.cc0004;android;artificial light
+rus_internalpassport/06.cc0005;android;artificial light + flash
+rus_internalpassport/06.cc0006;android;artificial light + color temperature 3600
+rus_internalpassport/06.cc0007;android;low light
+rus_internalpassport/06.cg0001;android;artificial light + flash
+rus_internalpassport/06.cg0002;iphone;artificial light + flash
+rus_internalpassport/06.cg0003;android;low light
+rus_internalpassport/06.cg0004;iphone;low light
+rus_internalpassport/06.or0001;android;artificial light + flash
+rus_internalpassport/06.or0002;iphone;artificial light + flash
+rus_internalpassport/06.or0003;android;low light
+rus_internalpassport/06.or0004;iphone;low light
+rus_internalpassport/06.re0001;iphone;macbook pro
+rus_internalpassport/06.re0002;iphone;philips
+rus_internalpassport/06.re0003;android;macbook pro
+rus_internalpassport/06.re0004;android;philips
+rus_internalpassport/07.cc0001;iphone;artificial light
+rus_internalpassport/07.cc0002;iphone;daylight
+rus_internalpassport/07.cc0003;iphone;artificial light + bright objects
+rus_internalpassport/07.cc0004;android;artificial light
+rus_internalpassport/07.cc0005;android;artificial light + color temperature 6300
+rus_internalpassport/07.cc0006;android;daylight
+rus_internalpassport/07.cc0007;android;artificial light + bright objects
+rus_internalpassport/07.cg0001;android;daylight + alternating shadow
+rus_internalpassport/07.cg0002;iphone;daylight + alternating shadow
+rus_internalpassport/07.or0001;android;daylight + alternating shadow
+rus_internalpassport/07.or0002;iphone;daylight + alternating shadow
+srb_passport/00.cc0001;iphone;artificial light
+srb_passport/00.cc0002;iphone;colored light + flash
+srb_passport/00.cc0003;android;artificial light
+srb_passport/00.cc0004;android;colored light + flash
+srb_passport/00.cg0001;android;artificial light
+srb_passport/00.cg0002;iphone;artificial light
+srb_passport/00.or0001;android;artificial light
+srb_passport/00.or0002;iphone;artificial light
+srb_passport/00.re0001;iphone;lenovo
+srb_passport/00.re0002;iphone;macbook pro
+srb_passport/00.re0003;iphone;philips
+srb_passport/00.re0004;android;lenovo
+srb_passport/00.re0005;android;macbook pro
+srb_passport/00.re0006;android;philips
+srb_passport/01.cc0001;iphone;artificial light
+srb_passport/01.cc0002;iphone;daylight
+srb_passport/01.cc0003;iphone;artificial light + bright objects
+srb_passport/01.cc0004;android;artificial light
+srb_passport/01.cc0005;android;artificial light + color temperature 6300
+srb_passport/01.cc0006;android;daylight
+srb_passport/01.cc0007;android;artificial light + bright objects
+srb_passport/01.cg0001;android;artificial light + bright objects
+srb_passport/01.cg0002;iphone;bright interference in the frame
+srb_passport/01.cg0003;iphone;artificial light + bright objects
+srb_passport/01.cg0004;android;bright interference in the frame
+srb_passport/01.or0001;android;artificial light + bright objects
+srb_passport/01.or0002;iphone;artificial light + bright objects
+srb_passport/01.or0003;android;bright interference in the frame
+srb_passport/01.or0004;iphone;bright interference in the frame
+srb_passport/01.or0005;android;artificial light
+srb_passport/01.or0006;iphone;artificial light
+srb_passport/01.re0001;iphone;lenovo
+srb_passport/01.re0002;iphone;macbook pro
+srb_passport/01.re0003;iphone;philips
+srb_passport/01.re0004;android;lenovo
+srb_passport/01.re0005;android;macbook pro
+srb_passport/01.re0006;android;philips
+srb_passport/02.cc0001;iphone;artificial light
+srb_passport/02.cc0002;iphone;colored light
+srb_passport/02.cc0003;android;artificial light
+srb_passport/02.cc0004;android;colored light
+srb_passport/02.cg0001;android;artificial light + flash
+srb_passport/02.cg0002;iphone;artificial light + flash
+srb_passport/02.cg0003;android;low light
+srb_passport/02.cg0004;iphone;low light
+srb_passport/02.or0001;android;artificial light + flash
+srb_passport/02.or0002;iphone;artificial light + flash
+srb_passport/02.or0003;android;low light
+srb_passport/02.or0004;iphone;low light
+srb_passport/02.re0001;iphone;hp
+srb_passport/02.re0002;iphone;macbook pro
+srb_passport/02.re0003;iphone;philips
+srb_passport/02.re0004;android;hp
+srb_passport/02.re0005;android;macbook pro
+srb_passport/02.re0006;android;philips
+srb_passport/03.cc0001;iphone;artificial light
+srb_passport/03.cc0002;iphone;daylight
+srb_passport/03.cc0003;iphone;artificial light + bright objects
+srb_passport/03.cc0004;android;artificial light
+srb_passport/03.cc0005;android;artificial light + color temperature 6300
+srb_passport/03.cc0006;android;daylight
+srb_passport/03.cc0007;android;artificial light + bright objects
+srb_passport/03.cg0001;android;colored light
+srb_passport/03.cg0002;iphone;colored light
+srb_passport/03.or0001;android;colored light
+srb_passport/03.or0002;iphone;colored light
+srb_passport/03.re0001;iphone;hp
+srb_passport/03.re0002;iphone;macbook pro
+srb_passport/03.re0003;iphone;philips
+srb_passport/03.re0004;android;hp
+srb_passport/03.re0005;android;macbook pro
+srb_passport/03.re0006;android;philips
+srb_passport/04.cc0001;iphone;artificial light
+srb_passport/04.cc0002;iphone;artificial light + flash
+srb_passport/04.cc0003;iphone;low light
+srb_passport/04.cc0004;android;artificial light
+srb_passport/04.cc0005;android;artificial light + flash
+srb_passport/04.cc0006;android;artificial light + color temperature 3600
+srb_passport/04.cc0007;android;low light
+srb_passport/04.cc0008;android;frontally close without much projectivity
+srb_passport/04.cc0009;android;frontally medium range without special projectivity
+srb_passport/04.cc0010;android;frontally close projectivity is average
+srb_passport/04.cc0011;android;frontally average range projectivity average
+srb_passport/04.cg0001;android;daylight
+srb_passport/04.cg0002;iphone;daylight
+srb_passport/04.cg0003;android;artificial light + fingers
+srb_passport/04.cg0004;android;frontally close without much projectivity
+srb_passport/04.cg0005;android;frontally medium range without special projectivity
+srb_passport/04.cg0006;android;frontally close projectivity is average
+srb_passport/04.cg0007;android;frontally average range projectivity average
+srb_passport/04.or0001;android;daylight
+srb_passport/04.or0002;iphone;daylight
+srb_passport/04.or0003;android;artificial light + fingers
+srb_passport/04.or0004;android;frontally close without much projectivity
+srb_passport/04.or0005;android;frontally medium range without special projectivity
+srb_passport/04.or0006;android;frontally close projectivity is average
+srb_passport/04.or0007;android;frontally average range projectivity average
+srb_passport/04.re0001;iphone;macbook pro
+srb_passport/04.re0002;iphone;philips
+srb_passport/04.re0003;android;macbook pro
+srb_passport/04.re0004;android;philips
+srb_passport/05.cc0001;iphone;artificial light
+srb_passport/05.cc0002;iphone;colored light
+srb_passport/05.cc0003;android;artificial light
+srb_passport/05.cc0004;android;colored light
+srb_passport/05.cg0001;android;daylight + alternating shadow
+srb_passport/05.cg0002;iphone;daylight + alternating shadow
+srb_passport/05.or0001;android;daylight + alternating shadow
+srb_passport/05.or0002;iphone;daylight + alternating shadow
+srb_passport/05.or0003;android;artificial light
+srb_passport/05.or0004;iphone;artificial light
+srb_passport/05.re0001;iphone;macbook pro
+srb_passport/05.re0002;iphone;philips
+srb_passport/05.re0003;android;macbook pro
+srb_passport/05.re0004;android;philips
+srb_passport/06.cc0001;iphone;artificial light
+srb_passport/06.cc0002;iphone;artificial light + flash
+srb_passport/06.cc0003;iphone;low light
+srb_passport/06.cc0004;android;artificial light
+srb_passport/06.cc0005;android;artificial light + flash
+srb_passport/06.cc0006;android;artificial light + color temperature 3600
+srb_passport/06.cc0007;android;low light
+srb_passport/06.cg0001;android;artificial light + color temperature 6300
+srb_passport/06.cg0002;android;artificial light + color temperature 3600
+srb_passport/06.or0001;android;artificial light + color temperature 3600
+srb_passport/06.or0002;android;artificial light + color temperature 6300
+srb_passport/06.re0001;iphone;macbook pro
+srb_passport/06.re0002;iphone;philips
+srb_passport/06.re0003;android;macbook pro
+srb_passport/06.re0004;android;philips
+srb_passport/07.cc0001;iphone;artificial light
+srb_passport/07.cc0002;iphone;colored light + flash
+srb_passport/07.cc0003;android;artificial light
+srb_passport/07.cc0004;android;colored light + flash
+srb_passport/07.cg0001;android;colored light + flash
+srb_passport/07.cg0002;iphone;colored light + flash
+srb_passport/07.or0001;android;colored light + flash
+srb_passport/07.or0002;iphone;colored light + flash
+srb_passport/07.re0001;iphone;macbook pro
+srb_passport/07.re0002;iphone;philips
+srb_passport/07.re0003;android;macbook pro
+srb_passport/07.re0004;android;philips
+svk_id/00.cc0001;iphone;artificial light
+svk_id/00.cc0002;iphone;daylight
+svk_id/00.cc0003;iphone;artificial light + bright objects
+svk_id/00.cc0004;android;artificial light
+svk_id/00.cc0005;android;artificial light + color temperature 6300
+svk_id/00.cc0006;android;daylight
+svk_id/00.cc0007;android;artificial light + bright objects
+svk_id/00.cg0001;android;daylight
+svk_id/00.cg0002;iphone;daylight
+svk_id/00.or0001;android;daylight
+svk_id/00.or0002;iphone;daylight
+svk_id/00.re0001;iphone;lenovo
+svk_id/00.re0002;iphone;macbook pro
+svk_id/00.re0003;iphone;philips
+svk_id/00.re0004;android;lenovo
+svk_id/00.re0005;android;macbook pro
+svk_id/00.re0006;android;philips
+svk_id/01.cc0001;iphone;artificial light
+svk_id/01.cc0002;iphone;artificial light + flash
+svk_id/01.cc0003;iphone;low light
+svk_id/01.cc0004;iphone;low light
+svk_id/01.cc0005;android;artificial light
+svk_id/01.cc0006;android;artificial light + flash
+svk_id/01.cc0007;android;artificial light + color temperature 3600
+svk_id/01.cc0008;android;low light
+svk_id/01.cg0001;android;daylight + alternating shadow
+svk_id/01.cg0002;iphone;daylight + alternating shadow
+svk_id/01.or0001;android;daylight + alternating shadow
+svk_id/01.or0002;iphone;daylight + alternating shadow
+svk_id/01.or0003;android;artificial light
+svk_id/01.or0004;iphone;artificial light
+svk_id/01.re0001;iphone;lenovo
+svk_id/01.re0002;iphone;macbook pro
+svk_id/01.re0003;iphone;philips
+svk_id/01.re0004;android;lenovo
+svk_id/01.re0005;android;macbook pro
+svk_id/01.re0006;android;philips
+svk_id/02.cc0001;iphone;artificial light
+svk_id/02.cc0002;iphone;colored light + flash
+svk_id/02.cc0003;android;artificial light
+svk_id/02.cc0004;android;colored light + flash
+svk_id/02.cg0001;android;artificial light + color temperature 3600
+svk_id/02.cg0002;android;artificial light + color temperature 6300
+svk_id/02.or0001;android;artificial light + color temperature 3600
+svk_id/02.or0002;android;artificial light + color temperature 6300
+svk_id/02.re0001;iphone;hp
+svk_id/02.re0002;iphone;macbook pro
+svk_id/02.re0003;iphone;philips
+svk_id/02.re0004;android;hp
+svk_id/02.re0005;android;macbook pro
+svk_id/02.re0006;android;philips
+svk_id/03.cc0001;iphone;artificial light
+svk_id/03.cc0002;iphone;daylight
+svk_id/03.cc0003;iphone;artificial light + bright objects
+svk_id/03.cc0004;android;artificial light
+svk_id/03.cc0005;android;artificial light + color temperature 6300
+svk_id/03.cc0006;android;daylight
+svk_id/03.cc0007;android;artificial light + bright objects
+svk_id/03.cg0001;android;artificial light
+svk_id/03.cg0002;iphone;artificial light
+svk_id/03.or0001;android;artificial light
+svk_id/03.or0002;iphone;artificial light
+svk_id/03.re0001;iphone;hp
+svk_id/03.re0002;iphone;macbook pro
+svk_id/03.re0003;iphone;philips
+svk_id/03.re0004;android;hp
+svk_id/03.re0005;android;macbook pro
+svk_id/03.re0006;android;philips
+svk_id/04.cc0001;iphone;artificial light
+svk_id/04.cc0002;iphone;colored light + flash
+svk_id/04.cc0003;android;artificial light
+svk_id/04.cc0004;android;colored light + flash
+svk_id/04.cc0005;android;frontally close without much projectivity
+svk_id/04.cc0006;android;frontally medium range without special projectivity
+svk_id/04.cc0007;android;frontally close projectivity is average
+svk_id/04.cc0008;android;frontally average range projectivity average
+svk_id/04.cg0001;android;artificial light + bright objects
+svk_id/04.cg0002;iphone;artificial light + bright objects
+svk_id/04.cg0003;android;bright interference in the frame
+svk_id/04.cg0004;iphone;bright interference in the frame
+svk_id/04.cg0005;android;artificial light + fingers
+svk_id/04.cg0006;android;frontally close without much projectivity
+svk_id/04.cg0007;android;frontally medium range without special projectivity
+svk_id/04.cg0008;android;frontally close projectivity is average
+svk_id/04.cg0009;android;frontally average range projectivity average
+svk_id/04.or0001;android;artificial light + bright objects
+svk_id/04.or0002;iphone;artificial light + bright objects
+svk_id/04.or0003;android;bright interference in the frame
+svk_id/04.or0004;iphone;bright interference in the frame
+svk_id/04.or0005;android;artificial light + fingers
+svk_id/04.or0006;android;frontally close without much projectivity
+svk_id/04.or0007;android;frontally medium range without special projectivity
+svk_id/04.or0008;android;frontally close projectivity is average
+svk_id/04.or0009;android;frontally average range projectivity average
+svk_id/04.re0001;iphone;macbook pro
+svk_id/04.re0002;iphone;philips
+svk_id/04.re0003;android;macbook pro
+svk_id/04.re0004;android;philips
+svk_id/05.cc0001;iphone;artificial light
+svk_id/05.cc0002;iphone;artificial light + flash
+svk_id/05.cc0003;iphone;low light
+svk_id/05.cc0004;android;artificial light
+svk_id/05.cc0005;android;artificial light + flash
+svk_id/05.cc0006;android;artificial light + color temperature 3600
+svk_id/05.cc0007;android;low light
+svk_id/05.cg0001;android;colored light
+svk_id/05.cg0002;iphone;colored light
+svk_id/05.or0001;android;colored light
+svk_id/05.or0002;iphone;colored light
+svk_id/05.or0003;android;artificial light
+svk_id/05.or0004;iphone;artificial light
+svk_id/05.re0001;iphone;macbook pro
+svk_id/05.re0002;iphone;philips
+svk_id/05.re0003;android;macbook pro
+svk_id/05.re0004;android;philips
+svk_id/06.cc0001;iphone;artificial light
+svk_id/06.cc0002;iphone;colored light
+svk_id/06.cc0003;android;artificial light
+svk_id/06.cc0004;android;colored light
+svk_id/06.cg0001;android;artificial light + flash
+svk_id/06.cg0002;iphone;artificial light + flash
+svk_id/06.cg0003;android;low light
+svk_id/06.cg0004;iphone;low light
+svk_id/06.or0001;android;artificial light + flash
+svk_id/06.or0002;iphone;artificial light + flash
+svk_id/06.or0003;android;low light
+svk_id/06.or0004;iphone;low light
+svk_id/06.re0001;iphone;macbook pro
+svk_id/06.re0002;iphone;philips
+svk_id/06.re0003;android;macbook pro
+svk_id/06.re0004;android;philips
+svk_id/07.cc0001;iphone;artificial light
+svk_id/07.cc0002;iphone;colored light
+svk_id/07.cc0003;android;artificial light
+svk_id/07.cc0004;android;colored light
+svk_id/07.cg0001;android;colored light + flash
+svk_id/07.cg0002;iphone;colored light + flash
+svk_id/07.or0001;android;colored light + flash
+svk_id/07.or0002;iphone;colored light + flash
+svk_id/07.re0001;iphone;macbook pro
+svk_id/07.re0002;iphone;philips
+svk_id/07.re0003;android;macbook pro
+svk_id/07.re0004;android;philips

@@ -1,0 +1,11 @@
+{
+  "condition": "single",
+  "prompt": "Describe the vehicles and road scene visible in this image. State if the image is blank. Do not invent objects. Be concise.",
+  "raw": "A white U-Haul van is on the left. The scene is a nighttime street with blurred lights from other vehicles and a green traffic light ahead. The image is not blank.",
+  "seconds": 4.678726400015876,
+  "size": [
+    1280,
+    720
+  ],
+  "rgb_sha256": "04e74120a67693dde65bbf41aba2245158d7c72f862306e6e955a051972e8596"
+}

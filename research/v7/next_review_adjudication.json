@@ -1,0 +1,314 @@
+{
+  "created_utc": "2026-09-15T13:38:44.384251+00:00",
+  "status": "frozen_secondary_evidence",
+  "adjudicator": "root_AI",
+  "human_GT_count": 0,
+  "official_GT_count": 0,
+  "exact_contact_count": 0,
+  "exact_entry_count": 0,
+  "conditional_contact_interval_count": 3,
+  "conditional_side_count": 2,
+  "conditional_space_count": 1,
+  "source_count": 6,
+  "source_replacements": 0,
+  "predictions_read_before_adjudication": false,
+  "gate_override": false,
+  "limitations": "Blind procedures do not establish independent reviewer errors, incident independence, or absence from model pretraining. AI agreement is not human or official truth.",
+  "bindings": {
+    "research\\v7\\next_review_a\\review.json": "e8eec2f1889c97fbbe8ef05f029837d808047c30ffda7d723cc353fd2b789888",
+    "research\\v7\\next_review_b\\review_summary.json": "ce30cef736a69d12551ecf276ace4606a08d8b9f5910b861f7609b115c832c2c",
+    "research\\v7\\next_review_adjudication_protocol.json": "75fd167e7c3578f721a611a9e3fe9dcb9340570ffaccca465fc87e28658ace12",
+    "research\\v7\\new_validation_sources\\selection_plan.json": "fd23f561b30fb3a5917e1342ec964f7625c86f8aec3d5819749e202a08dcfc17",
+    "research\\v7\\next_review_native_qa\\report.json": "9dd81129c6bfd8e7ba8fb61800cef1b15903b5aa56f150c2755f25a1ed1de27e",
+    "research\\v7\\next_review_native_qa\\reviewer_png_check\\report.json": "a1ee63d21545472eb7628bd0bd02e7231e0e9f43504448d01d6608bbc26112ab",
+    "research\\v7\\adjudicate_next_review.py": "dea9fda9d7ee5072dfeddb5cdab439976280ef815d27d9b059c0ee1360064be5"
+  },
+  "records": [
+    {
+      "ID": "00017",
+      "source_sha256": "a4d5f57428376b354daf92e7394cc18582e9ac5b7830337d9ad6bb31a53f4f5f",
+      "same_inferred_actor_event_supported_by_both": false,
+      "actor_descriptions": {
+        "A": "White/silver Volkswagen sedan directly ahead; collision identity unconfirmed.",
+        "B": "정지 신호 대기 중 자차 바로 앞 은색 Volkswagen 세단. 실제 충돌 상대라고 확정하지 않음."
+      },
+      "contact_exact_frame": null,
+      "contact_interval": null,
+      "reviewer_contact_status": {
+        "A": "unknown",
+        "B": "unknown"
+      },
+      "original_intervals": {
+        "A": null,
+        "B": null
+      },
+      "entry": null,
+      "already_in_lane_at_original_start": null,
+      "conditional_side": null,
+      "conditional_space": null,
+      "reviewer_reasons": {
+        "A": "An occluded contact cannot be excluded. Near-miss or rear impact outside view also cannot be established.",
+        "B": "앞차와의 거리가 줄고 카메라 구도가 변하지만 범퍼 접촉면은 화면 아래에 가려져 있다. 앞차 또는 뒤차와의 물리 접촉을 입증하는 영상 단서를 확보하지 못했다. 정차/미세 전진과 구분 불가."
+      },
+      "conditions": "Contact and actor remain inferred; close approach/braking alternatives are not fully excluded. Side/space do not constitute unconditional GT.",
+      "disagreement": null
+    },
+    {
+      "ID": "00018",
+      "source_sha256": "57883863d65cfc233bcaada676a4cdf8a9fd76dabf56131470795bdfae64eb82",
+      "same_inferred_actor_event_supported_by_both": false,
+      "actor_descriptions": {
+        "A": null,
+        "B": null
+      },
+      "contact_exact_frame": null,
+      "contact_interval": null,
+      "reviewer_contact_status": {
+        "A": "unknown",
+        "B": "unknown"
+      },
+      "original_intervals": {
+        "A": null,
+        "B": null
+      },
+      "entry": null,
+      "already_in_lane_at_original_start": null,
+      "conditional_side": null,
+      "conditional_space": null,
+      "reviewer_reasons": {
+        "A": "Camera movement alone does not establish rear impact. The pedestrian, crossing van, and distant truck are not assigned as collision actors.",
+        "B": "교차로 정지 후 카메라가 움직인다. 앞쪽에 자차와 접촉하는 차량이 보이지 않고 실제 상대를 특정할 수 없다. 보이지 않는 후방 충돌 또는 단순 출발을 이 영상만으로 구별할 수 없다."
+      },
+      "conditions": "Contact and actor remain inferred; close approach/braking alternatives are not fully excluded. Side/space do not constitute unconditional GT.",
+      "disagreement": null
+    },
+    {
+      "ID": "00019",
+      "source_sha256": "9733cefb322507d6de2e4cbb7bcdde6bda02bc503aff1ccbe0001981d7e14006",
+      "same_inferred_actor_event_supported_by_both": true,
+      "actor_descriptions": {
+        "A": "Gray Honda CR-V/crossover crossing immediately ahead, right to left.",
+        "B": "오른쪽에서 왼쪽으로 자차 코앞을 가로지르는 회색 소형 SUV, 뒤쪽 세로형 적색 램프. 597~645에서 같은 차체를 연속 확인."
+      },
+      "contact_exact_frame": null,
+      "contact_interval": {
+        "frame_interval": [
+          608,
+          616
+        ],
+        "pts_seconds_interval": [
+          19.869281045751634,
+          20.130718954248366
+        ],
+        "combination": "union_hull_not_intersection",
+        "status": "conditional_inferred_contact_interval"
+      },
+      "reviewer_contact_status": {
+        "A": "inferred",
+        "B": "inferred_interval"
+      },
+      "original_intervals": {
+        "A": [
+          {
+            "frame": 608,
+            "pts": 389120,
+            "time_base": "1/19584",
+            "seconds": 19.869281045751634
+          },
+          {
+            "frame": 616,
+            "pts": 394240,
+            "time_base": "1/19584",
+            "seconds": 20.130718954248366
+          }
+        ],
+        "B": {
+          "frame_interval": [
+            609,
+            615
+          ],
+          "pts_seconds_interval": [
+            19.901960784313726,
+            20.098039215686274
+          ]
+        }
+      },
+      "entry": null,
+      "already_in_lane_at_original_start": null,
+      "conditional_side": "RIGHT",
+      "conditional_space": null,
+      "reviewer_reasons": {
+        "A": "First physical touch is not directly visible; the interval is inferred, not an exact annotation. No reliable full-width usable-space judgment.",
+        "B": "609 이전 SUV 앞부분이 자차 코앞으로 들어오고 612 부근에서 구도가 급변하며 차체가 화면 아래를 가로지른다. 이후 SUV가 왼쪽에 남고 자차가 정지한다. 근접만이 아닌 전후 상대 운동을 근거로 접촉을 추론했으나 실제 맞닿은 부위는 가려져 있어 정확한 첫 접촉 프레임은 확정하지 않는다. 급제동/극근접 대안이 완전히 배제된 것은 아니다."
+      },
+      "conditions": "Contact and actor remain inferred; close approach/braking alternatives are not fully excluded. Side/space do not constitute unconditional GT.",
+      "disagreement": null
+    },
+    {
+      "ID": "00021",
+      "source_sha256": "534021e279a9e51a309d8ab55452eb56986145598c8dd5e98c3d4c7154650410",
+      "same_inferred_actor_event_supported_by_both": true,
+      "actor_descriptions": {
+        "A": "White Volvo XC60 SUV followed in the ego lane.",
+        "B": "자차와 같은 차로에서 앞서 정차한 흰색 Volvo XC60 SUV. 360 이후부터 근접 구간까지 동일 후면을 확인."
+      },
+      "contact_exact_frame": null,
+      "contact_interval": {
+        "frame_interval": [
+          598,
+          606
+        ],
+        "pts_seconds_interval": [
+          19.933333333333334,
+          20.2
+        ],
+        "combination": "union_hull_not_intersection",
+        "status": "conditional_inferred_contact_interval"
+      },
+      "reviewer_contact_status": {
+        "A": "inferred",
+        "B": "inferred_interval"
+      },
+      "original_intervals": {
+        "A": [
+          {
+            "frame": 598,
+            "pts": 306176,
+            "time_base": "1/15360",
+            "seconds": 19.933333333333334
+          },
+          {
+            "frame": 606,
+            "pts": 310272,
+            "time_base": "1/15360",
+            "seconds": 20.2
+          }
+        ],
+        "B": {
+          "frame_interval": [
+            600,
+            604
+          ],
+          "pts_seconds_interval": [
+            20.0,
+            20.133333333333333
+          ]
+        }
+      },
+      "entry": null,
+      "already_in_lane_at_original_start": null,
+      "conditional_side": null,
+      "conditional_space": 1,
+      "reviewer_reasons": {
+        "A": "Contact interval is inferred. Space=1 is a conditional AI judgment of visible paved adjacent road to the right at the contact interval; no calibrated width or reaction-time claim.",
+        "B": "정차한 Volvo에 자차가 접근하여 600~604에서 차간 간격이 소실되고 상대 위치/카메라 구도가 급변한 후 근접 정지 상태가 지속된다. 이후 앞차 운전자가 나와 자차 쪽으로 다가오는 장면은 상황 추론의 보조 근거다. 범퍼 맞닿음은 자차 전면/영상 하단에 가려져 직접 관찰하지 못했다."
+      },
+      "conditions": "Contact and actor remain inferred; close approach/braking alternatives are not fully excluded. Side/space do not constitute unconditional GT.",
+      "disagreement": null
+    },
+    {
+      "ID": "00022",
+      "source_sha256": "58382210f3bc1ffde242d768572be5331373316af014e56c177eda26aa4c00b4",
+      "same_inferred_actor_event_supported_by_both": false,
+      "actor_descriptions": {
+        "A": "Black compact hatchback crossing from the immediate left into the road ahead.",
+        "B": "왼쪽 근접 위치에서 자차 바로 앞으로 이동해 정차하는 검은 소형 해치백. 600~645에서 같은 측면/후면을 확인하나 실제 접촉 상대인지는 확정 불가."
+      },
+      "contact_exact_frame": null,
+      "contact_interval": null,
+      "reviewer_contact_status": {
+        "A": "inferred",
+        "B": "unknown"
+      },
+      "original_intervals": {
+        "A": [
+          {
+            "frame": 598,
+            "pts": 306176,
+            "time_base": "1/15360",
+            "seconds": 19.933333333333334
+          },
+          {
+            "frame": 610,
+            "pts": 312320,
+            "time_base": "1/15360",
+            "seconds": 20.333333333333332
+          }
+        ],
+        "B": null
+      },
+      "entry": null,
+      "already_in_lane_at_original_start": null,
+      "conditional_side": null,
+      "conditional_space": null,
+      "reviewer_reasons": {
+        "A": "Inference is weaker than a directly visible touch; a very close pass plus steering is an alternative not conclusively excluded. Space=0 is conditional on this contact interpretation: right curb/grass and close left traffic constrain the visible paved corridor.",
+        "B": "검은 해치백이 왼쪽에서 매우 가깝게 끼어든 뒤 앞에서 멈추고 이후 사람이 나온다. 그러나 차체 접촉면이 아래쪽에 가려지고 영상상 확실한 접촉 전후의 불연속을 분리하지 못했다. 극근접 끼어들기/접촉을 판별할 근거가 부족하므로 시간 구간을 실제 접촉 정답으로 만들지 않는다."
+      },
+      "conditions": "Contact and actor remain inferred; close approach/braking alternatives are not fully excluded. Side/space do not constitute unconditional GT.",
+      "disagreement": "A supports an inferred interval; B cannot distinguish contact. Consensus timing unknown."
+    },
+    {
+      "ID": "00023",
+      "source_sha256": "7d0232cc2a4b7a5b6a74c050b7155e675e561513d40d132588f47217c874ac69",
+      "same_inferred_actor_event_supported_by_both": true,
+      "actor_descriptions": {
+        "A": "White Ford Ranger pickup turning across the ego hood.",
+        "B": "왼쪽에서 오른쪽으로 가로지르는 흰색 단일 캡 픽업, 긴 적재함과 검은 앞 범퍼. 578~630에서 동일 차량을 연속 확인."
+      },
+      "contact_exact_frame": null,
+      "contact_interval": {
+        "frame_interval": [
+          596,
+          604
+        ],
+        "pts_seconds_interval": [
+          19.866666666666667,
+          20.133333333333333
+        ],
+        "combination": "union_hull_not_intersection",
+        "status": "conditional_inferred_contact_interval"
+      },
+      "reviewer_contact_status": {
+        "A": "inferred",
+        "B": "inferred_interval"
+      },
+      "original_intervals": {
+        "A": [
+          {
+            "frame": 596,
+            "pts": 305152,
+            "time_base": "1/15360",
+            "seconds": 19.866666666666667
+          },
+          {
+            "frame": 600,
+            "pts": 307200,
+            "time_base": "1/15360",
+            "seconds": 20.0
+          }
+        ],
+        "B": {
+          "frame_interval": [
+            598,
+            604
+          ],
+          "pts_seconds_interval": [
+            19.933333333333334,
+            20.133333333333333
+          ]
+        }
+      },
+      "entry": null,
+      "already_in_lane_at_original_start": null,
+      "conditional_side": "LEFT",
+      "conditional_space": null,
+      "reviewer_reasons": {
+        "A": "Earliest-contact interval is inferred from before/after appearance, not exact direct touch. Usable full-vehicle road width to either side is not established.",
+        "B": "흰 픽업이 자차의 붉은 보닛 바로 앞을 지나며 598~604 사이 상대 차체와 카메라 구도가 급격하게 변한다. 이어 픽업이 바로 앞에 정지하고 운전자가 내려온다. 이 전후 증거로 자차 접촉을 추론하지만 최초 맞닿음은 붉은 보닛과 하단 가림 때문에 직접 보이지 않아 단일 프레임 정답은 부여하지 않는다."
+      },
+      "conditions": "Contact and actor remain inferred; close approach/braking alternatives are not fully excluded. Side/space do not constitute unconditional GT.",
+      "disagreement": null
+    }
+  ]
+}

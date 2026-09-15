@@ -1,0 +1,25 @@
+{
+  "experiment": "V6C remove only the upper clipping of the jerk score",
+  "phase": "before candidate rescoring",
+  "development_ids": ["00000", "00003", "00004"],
+  "reserved_ids": ["00005", "00006", "00007"],
+  "evidence": "Exact V5 feature audit: on development00003 raw jerk at human contact582 exceeds false peak345, but both normalized jerk contributions are clipped to10. Residual and appearance terms give345 the higher total score. This is not proof that unclipping fixes global argmax.",
+  "change": "New collision scores replace only normalized jerk clip(0,10) with lower clip0. Median, MAD*1.4826, denominator floor1e-3, residual/appearance clipping and weights remain identical. Original V5 scores still feed all four VLM calls; only final collision_frame uses new argmax.",
+  "risks": "Unbounded jerk can amplify flow failures, exposure artifacts, abrupt steering or potholes, especially when MAD hits its denominator floor. A different false extreme anywhere in the clip may win. This remains a motion proxy, not a contact detector.",
+  "search_limit": "Exactly one upper-clip removal candidate. No replacement cap, new weighting, temporal threshold, ID-specific rule or post-result rescaling.",
+  "development_execution": "CPU-only actual candidate scan on identical source PNG inputs; baseline float32 scores and decodevalid numbers must exactly equal frozen actual V5 traces. Reuse old four-call VLM outputs. No GPU model calls required.",
+  "reserved_execution": "Only after dev gate passes: one actual four-call V5 inference plus the same alternative collision score per reserved file, with one unchanged NF4 model lifecycle. No tuning on reserved outputs.",
+  "ground_truth": "User's single-review contact frames and native PTS, not official/adjudicated GT. Other unknown labels remain unknown. No human description injected into candidate.",
+  "gate_each_cohort": {
+    "all_three_known_contact_labels_required": true,
+    "minimum_additional_correct_within_0_3_seconds": 1,
+    "maximum_previously_correct_cases_lost": 0,
+    "mean_absolute_contact_time_error_must_not_increase": true,
+    "noncollision_prediction_fields_must_be_identical": true,
+    "no_network_attempts_and_valid_original_frame_outputs": true
+  },
+  "development_failure": "Reject candidate; preserve reserved predictions unseen. Do not fit a softer clipping threshold to the same results.",
+  "reserved_failure": "Reject improvement submission; preserve evaluation and do not retune on reserved data.",
+  "submission_requirements": "Both cohort gates, source-overlap audit, original frame and other-output invariants, actual extracted ZIP offline equivalence and published resource/runtime constraints. No full Stage2 score inferred from missing labels.",
+  "generalization_limit": "Three development and three reserved clips provide a small local pilot, not a guarantee of leaderboard improvement. No Stage1/3 changes."
+}

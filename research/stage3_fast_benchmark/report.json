@@ -1,0 +1,130 @@
+{
+  "numpy": "1.26.4",
+  "opencv": "4.10.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "threads": 2,
+  "same_flow": {
+    "shape": [
+      45,
+      144
+    ],
+    "bit_equal": true,
+    "unequal_values": 0,
+    "max_absolute_error": 0.0,
+    "synthetic_cases": 16,
+    "real_flow_cases": 29,
+    "seconds_for_three_passes": {
+      "old": 1.6164382999995723,
+      "fast": 0.5263549999945099
+    }
+  },
+  "production_sha256_before": {
+    "solution\\stage3.py": "4b211a1c4f731bbd28b0f6e60de172e9692bfc1fe0f46d49ce21d89ad44f3835",
+    "model\\stage3\\motion_model.joblib": "c52ecd15cf68856f2a7b0b37b120c7a961b3bd8889a33af4ec47f8b9719bb3b3"
+  },
+  "external_source": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-03-57\\10\\video.hevc",
+  "external_stress_description": "One 60-second external 20Hz clip sampled every second frame and repeated five times as 10Hz MP4. Synthetic runtime stress only; no independence or accuracy claim.",
+  "public": {
+    "rows": 2998,
+    "dataframe_equal": true,
+    "accel_changed": 0,
+    "steer_changed": 0,
+    "old_seconds": 48.73061680000683,
+    "fast_seconds": 23.510820700001204,
+    "speedup": 2.072688887462118,
+    "time_reduction_percent": 51.753492477858586,
+    "features": {
+      "OPEN_001.mp4": {
+        "shape": [
+          600,
+          864
+        ],
+        "bit_equal": true,
+        "unequal_values": 0,
+        "max_absolute_error": 0.0,
+        "old_extract_seconds": 9.577793400007067,
+        "fast_extract_seconds": 4.674788100004662
+      },
+      "OPEN_002.mp4": {
+        "shape": [
+          601,
+          864
+        ],
+        "bit_equal": true,
+        "unequal_values": 0,
+        "max_absolute_error": 0.0,
+        "old_extract_seconds": 9.587028099995223,
+        "fast_extract_seconds": 4.651046300001326
+      },
+      "OPEN_003.mp4": {
+        "shape": [
+          599,
+          864
+        ],
+        "bit_equal": true,
+        "unequal_values": 0,
+        "max_absolute_error": 0.0,
+        "old_extract_seconds": 9.590496699995128,
+        "fast_extract_seconds": 4.67711099999724
+      },
+      "OPEN_004.mp4": {
+        "shape": [
+          599,
+          864
+        ],
+        "bit_equal": true,
+        "unequal_values": 0,
+        "max_absolute_error": 0.0,
+        "old_extract_seconds": 9.58338399999775,
+        "fast_extract_seconds": 4.672375199996168
+      },
+      "OPEN_005.mp4": {
+        "shape": [
+          599,
+          864
+        ],
+        "bit_equal": true,
+        "unequal_values": 0,
+        "max_absolute_error": 0.0,
+        "old_extract_seconds": 9.590850900000078,
+        "fast_extract_seconds": 4.637930500000948
+      }
+    },
+    "execution_order": [
+      "old",
+      "fast"
+    ]
+  },
+  "external": {
+    "rows": 3000,
+    "dataframe_equal": true,
+    "accel_changed": 0,
+    "steer_changed": 0,
+    "old_seconds": 48.164721799999825,
+    "fast_seconds": 23.071711399999913,
+    "speedup": 2.087609408983852,
+    "time_reduction_percent": 52.098318981674275,
+    "features": {
+      "comma_repeat5.mp4": {
+        "shape": [
+          3000,
+          864
+        ],
+        "bit_equal": true,
+        "unequal_values": 0,
+        "max_absolute_error": 0.0,
+        "old_extract_seconds": 48.04401100000541,
+        "fast_extract_seconds": 22.962847999995574
+      }
+    },
+    "execution_order": [
+      "fast",
+      "old"
+    ]
+  },
+  "production_sha256_after": {
+    "solution\\stage3.py": "4b211a1c4f731bbd28b0f6e60de172e9692bfc1fe0f46d49ce21d89ad44f3835",
+    "model\\stage3\\motion_model.joblib": "c52ecd15cf68856f2a7b0b37b120c7a961b3bd8889a33af4ec47f8b9719bb3b3"
+  },
+  "total_seconds": 182.9676247999887
+}

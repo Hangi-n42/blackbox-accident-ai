@@ -1,0 +1,15 @@
+{
+  "scope": "Same frozen4B weights/images/prompts; allGPU then CPU input lookup;8 calls; no GT evaluation, no export",
+  "files": {
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\v5_fullframe_diagnostic\\traces\\00000\\call_1\\input_0.png": "77b48c3b471f65d7880e4361f4e2e6ce0fab44aa7f3f97a61c01ebc788022973",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\v5_fullframe_diagnostic\\traces\\00000\\call_1\\record.json": "a5836cc97adb49352e732238d9f8d0dfa46264c8053edaf1ffd5c74f9c48b573",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\v5_fullframe_diagnostic\\traces\\00000\\call_2\\input_0.png": "1e3be3d6b0c8ea50b029f01c77ea7ca1ce3ed0791bfbe28ca7a11a5a45908260",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\v5_fullframe_diagnostic\\traces\\00000\\call_2\\record.json": "9615517c19c05ae2fd412f131c687cf1d33ccad277c877bb09b92889928d4f85",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\v5_fullframe_diagnostic\\traces\\00000\\call_3\\input_0.png": "7d52fb28ad6a42cef07526c0588d01b0c8d9048f94557d3714d67c79ea58c5db",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\v5_fullframe_diagnostic\\traces\\00000\\call_3\\record.json": "5e4ce020080b4928880675e567bb118c07768d7a3a68a6068cf24d2675865493",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\v5_fullframe_diagnostic\\traces\\00000\\call_4\\input_0.png": "99d3f561a4bbd3a0847023494b39d9e37de2c74f305fa04c7117ae7d6dd7dd71",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6_stage2\\v5_fullframe_diagnostic\\traces\\00000\\call_4\\record.json": "ff0cb2564764e28bc50473778df12feb73573b8c4b8c161c9a77a228cd68229a",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v7\\solution\\cpu_embedding.py": "270035b2267c7b7f185ad940da61e46529741a41283459cda8828f85afdb1dbd"
+  },
+  "tied_4b_diagnostic_only": true
+}

@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-09-15T05:00:53.107211+00:00",
+  "status": "READY_FOR_HUMAN_REVIEW",
+  "sources": [
+    {
+      "ID": "NEXAR_REVIEW_00008",
+      "frames": 1204,
+      "source_sha256": "d38a2b7c7feb21465ebebb962d8e6dd83a6bf25053d4952d097222b164f9b5d5",
+      "case_sha256": "165ba4f98d1261d57c84a0864555651ddd2b4280e905c80dd33d785243e9e02c",
+      "full_pts_equal": true,
+      "all_png_hashes_equal": true,
+      "exact_rgb_sample_frames": [
+        0,
+        602,
+        1203
+      ],
+      "contact_ground_truth": null,
+      "review_pending": true
+    },
+    {
+      "ID": "NEXAR_REVIEW_00010",
+      "frames": 1214,
+      "source_sha256": "bb0b2975bceaf9a9cfff779e2809ff3dc71d5ddbaecc9c7352c608419e2b7a02",
+      "case_sha256": "dd92a37dc57f5c74f0cefefbca5899f073dc481fccd4192bc1ef7682299a26ac",
+      "full_pts_equal": true,
+      "all_png_hashes_equal": true,
+      "exact_rgb_sample_frames": [
+        0,
+        607,
+        1213
+      ],
+      "contact_ground_truth": null,
+      "review_pending": true
+    },
+    {
+      "ID": "NEXAR_REVIEW_00013",
+      "frames": 1199,
+      "source_sha256": "7d8bc01f07761c3f06178a38dccf2eb23a3dc6f6557c2cf486e0cafd5c9089d9",
+      "case_sha256": "d5df8724346312ec8962c74c80fb58c3c6214acda93f85fbcf8c2b5445299b7f",
+      "full_pts_equal": true,
+      "all_png_hashes_equal": true,
+      "exact_rgb_sample_frames": [
+        0,
+        599,
+        1198
+      ],
+      "contact_ground_truth": null,
+      "review_pending": true
+    }
+  ],
+  "new_frame_count": 3617,
+  "model_calls": 0,
+  "note": "Native PTS and image integrity verified; contact, incident independence and accuracy are not certified.",
+  "contact_review_scope": "Counterpart and first contact, or explicit uncertainty/no contact reason. Other fields may remain unknown."
+}

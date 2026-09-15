@@ -1,0 +1,105 @@
+{
+  "source": {
+    "ID": "00015",
+    "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\fresh_sources_retry1\\00015.mp4",
+    "url": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00015.mp4",
+    "bytes": 8094504,
+    "sha256": "929e9e6f2494f30c47f5567e95412d168b458336f31024ab1cd6dea4c9b2cb1a"
+  },
+  "selection": "Uniform original decoded indices within requested inclusive range; actual native PTS labels",
+  "indices": [
+    0,
+    12,
+    25,
+    38,
+    50,
+    62,
+    75,
+    88,
+    100
+  ],
+  "selected": [
+    {
+      "frame": 0,
+      "pts": 0,
+      "time_base": "1/15360",
+      "seconds": 0.0,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000000.png",
+      "sha256": "24664dcd1789b7406c02095bd5683d966b62175afddee547245020f2668035d1",
+      "RGB_sha256": "830bf34ce8831234316c484250b7085e40817a5906f87c278c61630e9921ead4"
+    },
+    {
+      "frame": 12,
+      "pts": 6144,
+      "time_base": "1/15360",
+      "seconds": 0.4,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000012.png",
+      "sha256": "78f57980780439198fc8ce2145939dbf83db5170cd9e7eec34085edd79a6aa34",
+      "RGB_sha256": "e9d3581c50d3409dcfe3b83ea7188d0cf00e0743b96cd3a55ed5d92fc6329640"
+    },
+    {
+      "frame": 25,
+      "pts": 12800,
+      "time_base": "1/15360",
+      "seconds": 0.8333333333333334,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000025.png",
+      "sha256": "fe88cf508c8343a8469a4d76679f31b6d12c589d4920c2a1488bc7bdd4abfabe",
+      "RGB_sha256": "5cd7aa32adfd94637ef5657458256581e422986c635215583f6aa9974d72bff9"
+    },
+    {
+      "frame": 38,
+      "pts": 19456,
+      "time_base": "1/15360",
+      "seconds": 1.2666666666666666,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000038.png",
+      "sha256": "d5f540e56ee5da15446e997adda303741367928ecbf56cb5cb010be33f7c4552",
+      "RGB_sha256": "d9e4342098b3663a4ab9f962d03e5ac9c6c0dc9c21fc4ffb7ec7e550d84b4e45"
+    },
+    {
+      "frame": 50,
+      "pts": 25600,
+      "time_base": "1/15360",
+      "seconds": 1.6666666666666667,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000050.png",
+      "sha256": "006f3c43daf9fb71b0933628bf12ea0b7f227f9d6f31eee205040c1378b83842",
+      "RGB_sha256": "7e93ed5284e81277f27ede3329436b916223a88168b60b4201973800789107db"
+    },
+    {
+      "frame": 62,
+      "pts": 31744,
+      "time_base": "1/15360",
+      "seconds": 2.066666666666667,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000062.png",
+      "sha256": "0842b1126deb9f17a0725cbce3cab74f34a51de7b494bb0fe0e99268ac0c200a",
+      "RGB_sha256": "41023f7247f6a70781906ec633bf99e48f32a4a724ad1490330d12a8a6f69c34"
+    },
+    {
+      "frame": 75,
+      "pts": 38400,
+      "time_base": "1/15360",
+      "seconds": 2.5,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000075.png",
+      "sha256": "2366cf7c38338f486b7112f9cc07523871ddad3411285f070c7b82b0525bbd3d",
+      "RGB_sha256": "53cee37a700c72a33640b508aad2d431aaf01ede028e56fc1e950f55b9085f3b"
+    },
+    {
+      "frame": 88,
+      "pts": 45056,
+      "time_base": "1/15360",
+      "seconds": 2.933333333333333,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000088.png",
+      "sha256": "60deeaf33b85f6eee91f55aca534fed572b7c7cd22c0dd7592b451b4085c56b6",
+      "RGB_sha256": "62a45f9797048ee5e516086f867371c860702df2f5dc19ee2286236dfc05883d"
+    },
+    {
+      "frame": 100,
+      "pts": 51200,
+      "time_base": "1/15360",
+      "seconds": 3.3333333333333335,
+      "path": "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v7\\ai_review_stage1\\00015\\frame_000100.png",
+      "sha256": "86cffb62bac0f696cecf5dee03294657602fcf966dcede16b2db2a87582ff97e",
+      "RGB_sha256": "683030da55dffa4d52603d77ca0cc78e04bfea4f23c1017b5f094b2a8d2454b1"
+    }
+  ],
+  "sheet_sha256": "0c352fb949d1be2a59736d4b97b04ce1a89725e5236260d61c13259bd06e8148"
+}

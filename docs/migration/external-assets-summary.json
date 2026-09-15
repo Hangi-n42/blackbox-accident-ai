@@ -1,0 +1,24 @@
+{
+  "groups": {
+    "resume-evidence": {
+      "files": 22357,
+      "bytes": 19543447111,
+      "sha256_verified_files": 22357
+    },
+    "archive-or-redownload": {
+      "files": 4766,
+      "bytes": 82244747758,
+      "sha256_verified_files": 0
+    }
+  },
+  "manifest_sha256": "8e6d2e5a3f8a8e236ec6bb2d38eca13a3a3e6fbc5837c2b37002e27a782f0ea7",
+  "destination_rule": "Same relative path under clone root",
+  "not_transferred": [
+    "Windows virtualenv/native binaries",
+    "download fragments/caches",
+    "machine-local hosting state",
+    "credentials",
+    "logs"
+  ],
+  "optional_sha_limitation": "Archive/redownload entries record size only, not a content-integrity proof."
+}

@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-09-15T04:55:09.957024+00:00",
+  "files_sha256": {
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\manifest.json": "26f9316348a1f24f93714856afca5f1205dd90528e669f1024170ad67ac91aad",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\download_sources.py": "0c796a5045e5426e83bbcf3ca8e19c012c05ed833108213c36a47dfda93e9cef",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\LICENSE": "9c62949a76b4a3039023a93a31aac964847cbcfcac8376daaa541cc620788824",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_candidates\\README.md": "edad8be48ad54b390de2ae116f0626ef3d9e7d3ae8eda7831b9d5e0f40bbf90b"
+  },
+  "revision": "aa97deda5a59f00bb7187739053b7c72e14374df",
+  "selected": [
+    {
+      "path": "train/positive/00008.mp4",
+      "bytes": 12003133,
+      "sha256": "d38a2b7c7feb21465ebebb962d8e6dd83a6bf25053d4952d097222b164f9b5d5",
+      "git_blob_oid": "4a9d746f7f97f11185ed15c9817bcdb783973943",
+      "xet_hash": "6ce0611be14fb3032a80915facc9dea18da1de725492bea5e242f0f885394734",
+      "source_uri": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00008.mp4",
+      "downloaded": false,
+      "human_review": "not_started",
+      "independence_verified": false
+    },
+    {
+      "path": "train/positive/00010.mp4",
+      "bytes": 12941589,
+      "sha256": "bb0b2975bceaf9a9cfff779e2809ff3dc71d5ddbaecc9c7352c608419e2b7a02",
+      "git_blob_oid": "ad4c676b30b6e053ceb64b09bd516b61c77ff377",
+      "xet_hash": "866ffcff039dd7d608efc48080a3a6363b40b4423d9a33703259b4d14231477c",
+      "source_uri": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00010.mp4",
+      "downloaded": false,
+      "human_review": "not_started",
+      "independence_verified": false
+    },
+    {
+      "path": "train/positive/00013.mp4",
+      "bytes": 17378253,
+      "sha256": "7d8bc01f07761c3f06178a38dccf2eb23a3dc6f6557c2cf486e0cafd5c9089d9",
+      "git_blob_oid": "a760682861d438fd524a3dbe2b0209c1511f2aae",
+      "xet_hash": "7e55ef4f33aefc9b50c942fe1f312361e70fa4266b18be290d69ba65631bf1a1",
+      "source_uri": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00013.mp4",
+      "downloaded": false,
+      "human_review": "not_started",
+      "independence_verified": false
+    }
+  ],
+  "total_bytes": 42322975,
+  "budget_bytes": 60000000,
+  "scope": "Only three fixed MP4 URLs. Copy existing same-revision attribution locally. Decode native PTS without exporting/viewing pixels. No model/GPU/labels requests.",
+  "overwrite": false,
+  "automatic_retry": false,
+  "failure_policy": "Preserve partial bytes and completed per-source records; do not silently select replacement sources."
+}

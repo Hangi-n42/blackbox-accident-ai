@@ -1,0 +1,60 @@
+{
+  "scope": "Assistant visual observations from public overview frames before reading V4 predictions; NOT official ground truth and NOT independent human labels.",
+  "reviewer": "root",
+  "rows": [
+    {
+      "ID": "S2_001",
+      "target": "Dark SUV crossing right to left at intersection, not the light sedan initially ahead",
+      "entry_frame": null,
+      "entry_interval_advisory": [
+        20,
+        30
+      ],
+      "entry_side": "RIGHT",
+      "evasion_space": null,
+      "confidence": "side high; entry/space uncertain",
+      "evidence": "SUV visible crossing from image right in frames24-32; unmarked intersection lane extension prevents exact first-wheel boundary identification."
+    },
+    {
+      "ID": "S2_002",
+      "target": "Orange dump truck initially ahead",
+      "entry_frame": 0,
+      "entry_side": null,
+      "evasion_space": null,
+      "confidence": "entry conditional on truck being the relevant target; side/space uncertain",
+      "evidence": "Truck is ahead in camera travel lane from frame0. Physical camera contact at provided frame30 cannot be confirmed from these images; preserve supplied label and flag disagreement instead of replacing it."
+    },
+    {
+      "ID": "S2_003",
+      "target": "Silver hatchback emerging from the right",
+      "entry_frame": null,
+      "entry_interval_advisory": [
+        20,
+        31
+      ],
+      "entry_side": "RIGHT",
+      "evasion_space": null,
+      "confidence": "side high; entry/space uncertain",
+      "evidence": "Silver hatchback moves from right parking/side area into path in frames20-28; lane markings absent and camera yaws left aroundframe32."
+    },
+    {
+      "ID": "S2_004",
+      "target": "White hatchback immediately ahead",
+      "entry_frame": 0,
+      "entry_side": null,
+      "evasion_space": null,
+      "confidence": "entry high; side/space uncertain",
+      "evidence": "Same white hatchback already directly ahead in same travel corridor at firstframe, camera approaches rear at end. Origin LEFT/RIGHT is not visible."
+    },
+    {
+      "ID": "S2_005",
+      "target": "Dark blue hatchback initially ahead; not teal sedan on right at start",
+      "entry_frame": 0,
+      "entry_side": null,
+      "evasion_space": null,
+      "confidence": "entry medium; identity/start lane requires detailed review",
+      "evidence": "Dark hatchback is ahead near center of travel corridor before close approach; no clear painted lane crossing can be established from overview. Median snow barrier on left."
+    }
+  ],
+  "use_restriction": "Do not fit or hardcode these IDs/labels into inference. Only qualitative review and clearly-labelled assistant-observation diagnostics. Missing values remain missing."
+}

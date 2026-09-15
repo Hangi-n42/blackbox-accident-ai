@@ -1,0 +1,515 @@
+{
+  "hf_revision": "540cb1277cb70e91a7022abe852decb3ee9adb0a",
+  "github_revision": "2b205a48d81f78b0c09d387d04a333aca9fc5949",
+  "downloaded_bytes": 26746273,
+  "records": [
+    {
+      "url": "https://huggingface.co/api/datasets/JeffreyChou/MM-AU",
+      "path": "hf_info.json",
+      "bytes": 15007,
+      "status": 200,
+      "content_range": null,
+      "sha256": "d71d1e5b0c20d6f1e20ccd486d29c229382b549d94a121f67fa0c90639102720"
+    },
+    {
+      "url": "https://api.github.com/repos/jeffreychou777/LOTVS-MM-AU/commits/main",
+      "path": "github_revision.json",
+      "bytes": 5069,
+      "status": 200,
+      "content_range": null,
+      "sha256": "e51c910503efc5acc2c5f93f65a503533ce3b6e5ea931b50fabccf0175b36a7c"
+    },
+    {
+      "url": "https://huggingface.co/datasets/JeffreyChou/MM-AU/raw/540cb1277cb70e91a7022abe852decb3ee9adb0a/README.md",
+      "path": "hf_README.md",
+      "bytes": 2667,
+      "status": 200,
+      "content_range": null,
+      "sha256": "f62c72f9092376141a35727ebc4ceb1f62111a2d415f34268650f4f77c9305a6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jeffreychou777/LOTVS-MM-AU/2b205a48d81f78b0c09d387d04a333aca9fc5949/README.md",
+      "path": "github_README.md",
+      "bytes": 7321,
+      "status": 200,
+      "content_range": null,
+      "sha256": "4b45b8dd5ad10d60404cf054a6fd2a4e93c0640ed3b98c7705562b5ebc0b6f26"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jeffreychou777/LOTVS-MM-AU/2b205a48d81f78b0c09d387d04a333aca9fc5949/video_metadata.json",
+      "path": "video_metadata.json",
+      "bytes": 9938993,
+      "status": 200,
+      "content_range": null,
+      "sha256": "493f9c95acb6f59f0b9717270707bde405c2d568e56face90395076e1f76dea8"
+    },
+    {
+      "url": "https://huggingface.co/datasets/JeffreyChou/MM-AU/resolve/540cb1277cb70e91a7022abe852decb3ee9adb0a/CAP-DATA_chunks/1-10/1-10.part_aa?probe=prefix16m",
+      "path": "cap_1_10_prefix16m.bin",
+      "bytes": 16777216,
+      "status": 206,
+      "content_range": "bytes 0-16777215/2147483648",
+      "sha256": "374f2f1a7c3013416bd76328722868779ea903c740156c232f1a06cd9da12d8f"
+    }
+  ],
+  "tar_entries": [
+    {
+      "name": "CAP-DATA/1-10",
+      "size": 0,
+      "type": "5"
+    },
+    {
+      "name": "CAP-DATA/1-10/8",
+      "size": 0,
+      "type": "5"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509",
+      "size": 0,
+      "type": "5"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images",
+      "size": 0,
+      "type": "5"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000125.jpg",
+      "size": 201919,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000221.jpg",
+      "size": 208180,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000190.jpg",
+      "size": 209411,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000185.jpg",
+      "size": 209121,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000078.jpg",
+      "size": 194290,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000139.jpg",
+      "size": 215478,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000126.jpg",
+      "size": 202721,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000069.jpg",
+      "size": 194140,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000179.jpg",
+      "size": 210953,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000113.jpg",
+      "size": 197694,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000115.jpg",
+      "size": 199863,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000162.jpg",
+      "size": 206915,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000045.jpg",
+      "size": 185513,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000172.jpg",
+      "size": 205702,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000081.jpg",
+      "size": 199189,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000194.jpg",
+      "size": 201890,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000117.jpg",
+      "size": 202006,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000106.jpg",
+      "size": 204657,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000065.jpg",
+      "size": 187222,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000131.jpg",
+      "size": 214241,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000064.jpg",
+      "size": 182310,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000168.jpg",
+      "size": 209346,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000018.jpg",
+      "size": 162977,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000182.jpg",
+      "size": 201963,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000217.jpg",
+      "size": 179695,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000088.jpg",
+      "size": 202834,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000029.jpg",
+      "size": 173376,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000033.jpg",
+      "size": 177709,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000164.jpg",
+      "size": 210860,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000050.jpg",
+      "size": 175447,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000104.jpg",
+      "size": 206676,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000127.jpg",
+      "size": 202631,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000043.jpg",
+      "size": 182099,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000010.jpg",
+      "size": 161112,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000063.jpg",
+      "size": 179603,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000173.jpg",
+      "size": 205364,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000021.jpg",
+      "size": 168700,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000105.jpg",
+      "size": 203618,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000166.jpg",
+      "size": 211888,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000161.jpg",
+      "size": 207826,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000138.jpg",
+      "size": 215622,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000040.jpg",
+      "size": 177071,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000006.jpg",
+      "size": 153849,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000059.jpg",
+      "size": 188472,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000215.jpg",
+      "size": 211202,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000054.jpg",
+      "size": 187836,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000095.jpg",
+      "size": 210809,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000149.jpg",
+      "size": 208535,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000177.jpg",
+      "size": 209114,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000111.jpg",
+      "size": 197024,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000036.jpg",
+      "size": 178139,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000150.jpg",
+      "size": 206548,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000219.jpg",
+      "size": 204853,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000213.jpg",
+      "size": 210174,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000158.jpg",
+      "size": 203340,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000154.jpg",
+      "size": 210790,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000052.jpg",
+      "size": 184833,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000202.jpg",
+      "size": 210446,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000079.jpg",
+      "size": 195212,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000093.jpg",
+      "size": 210278,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000015.jpg",
+      "size": 156620,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000097.jpg",
+      "size": 170150,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000208.jpg",
+      "size": 203895,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000209.jpg",
+      "size": 207790,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000223.jpg",
+      "size": 203272,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000130.jpg",
+      "size": 210717,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000211.jpg",
+      "size": 207614,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000156.jpg",
+      "size": 215374,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000167.jpg",
+      "size": 210218,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000072.jpg",
+      "size": 196892,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000086.jpg",
+      "size": 195909,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000193.jpg",
+      "size": 180226,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000089.jpg",
+      "size": 206606,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000216.jpg",
+      "size": 212097,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000005.jpg",
+      "size": 153376,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000134.jpg",
+      "size": 208265,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000053.jpg",
+      "size": 185500,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000062.jpg",
+      "size": 176297,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000049.jpg",
+      "size": 154262,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000147.jpg",
+      "size": 209013,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000178.jpg",
+      "size": 208157,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000121.jpg",
+      "size": 170445,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000085.jpg",
+      "size": 165369,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000026.jpg",
+      "size": 160521,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000030.jpg",
+      "size": 175472,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000165.jpg",
+      "size": 209836,
+      "type": "0"
+    },
+    {
+      "name": "CAP-DATA/1-10/8/009509/images/000039.jpg",
+      "size": 173928,
+      "type": "0"
+    },
+    {
+      "prefix_end": "ReadError: unexpected end of data"
+    }
+  ]
+}

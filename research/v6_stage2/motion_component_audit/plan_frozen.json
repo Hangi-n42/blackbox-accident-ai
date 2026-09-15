@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-09-15T04:31:21.422967+00:00",
+  "files": {
+    "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\artifacts\\submissions\\verify_v5\\model\\stage2\\code\\solution\\stage2.py": "2323653c4271ec09e2bf1761f6938d5cec1f76bbe5a01df96ce7aa22b183dc1a",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v6_stage2\\motion_component_audit\\audit.py": "f7f7b8d96d875d34a90cab69fa42472faa5f1e95778471406c644e83eda1cf4e",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v6_stage2\\nexar_baseline_run\\freeze.json": "93f041d51dbc8d4dfc6db279a5860d9dc2b7e84a4e561077e62dfd5972ff8c4b",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v6_stage2\\nexar_baseline_run\\report.json": "7e1a4c822f161c000d081db67e0a9b2d4c530980119938e337f573093d3fcfbf",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00000_review_1789400071868.json": "654e93fad5b32cadeef094e61d6a90a066ebcd7e332fa0a8e7ca21563a0afbc3",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v6\\nexar_review_candidates\\00000.mp4": "9b7364178cb8b6194db0ee0f96df0ad44615fc265efe435297394dcf6a9be5f9",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00003_review_1789444125537.json": "97fd59c05279282f33998903e4c9aa57d18fb9a0e5a4effc06acd6b803a5f86d",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v6\\nexar_review_candidates\\00003.mp4": "d5969f23631b3462f68e3de0c3e72f42c731762aec8d47fb916da78e0d59b3e8",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v6_stage2\\nexar_dev00004_baseline_run\\freeze.json": "aabe345d04045a3099e602b601b6984c73fc0afbddca98c62e2a9b24317ff8b1",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v6_stage2\\nexar_dev00004_baseline_run\\report.json": "5e51659a40bf5e090553bc0eadfd50ccaae6a860564a77a1bbd1ef0a31a71e57",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v6_stage2\\user_reviews\\NEXAR_REVIEW_00004_review_1789444066492.json": "eccd40747a2ad28d72ec80c8cbaf8656a59732f81412750119cbc026656671f6",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\\ube14\ub799\ubc15\uc2a4\\research\\v6\\nexar_review_candidates\\00004.mp4": "001be406ca8eddc5e5ea61ed8b6104650879aacb1eff217630f7b932fd45be4f"
+  },
+  "ids": [
+    "00000",
+    "00003",
+    "00004"
+  ],
+  "method": "Unchanged extracted V5 _motion_scan called directly. Wrap _robust_scale to capture input/output; wrap Farneback to collect observational statistics without changing returned flow.",
+  "comparison": "Exact float32 values against saved motion_scores before contribution interpretation",
+  "selection": "Global argmax; top10 rows by score descending, earlier index on ties, no NMS; human contact nearest input and all native-PTS rows within +/-1 second.",
+  "limitations": "Development diagnosis only. No candidate scores, parameter search, reserved data, model/GPU invocation or physical object identification.",
+  "diagnostics": "Median core flow vector and magnitude; signed mean gray change, mean absolute change, fraction abs gray change>20. These do not identify wiper or camera cause."
+}

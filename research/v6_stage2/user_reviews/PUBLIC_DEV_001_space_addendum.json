@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "record_type": "human_review_addendum",
+  "evaluation_eligible": false,
+  "ID": "PUBLIC_DEV_001",
+  "original_review_file": "PUBLIC_DEV_001_review_1789397594082.json",
+  "original_review_sha256": "6d4b917e3ae2b7b57ccbc73d5981a65527ce554400cedf1a56d64ac10efa973d",
+  "source_video_sha256": "877b6804d709acd31a8e7c4843590d674d3877fffab3d8c076332462787d2179",
+  "source": "Explicit user answer in this thread to the PUBLIC_DEV_001 evasion-space question",
+  "question": "PUBLIC_DEV_001 검수에서 회피 공간이 비어 있습니다. 실제 접촉 당시 블랙박스 차량이 진행하거나 피할 수 있는 도로 공간을 어떻게 판정했나요?",
+  "verbatim_answer": "공간 있음 (1)",
+  "field": "evasion_space",
+  "value": 1,
+  "adjudication_status": "single_user_development_review_not_independently_adjudicated",
+  "original_file_modified": false
+}

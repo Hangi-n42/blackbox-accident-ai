@@ -1,0 +1,50 @@
+{
+  "call": 4,
+  "name": "entry_fine",
+  "prompt": "Image 1 is the original full clip's first frame, numbered 0. Image 2 is a local chronological contact sheet, ordered left to right then top to bottom. Its first tile may not be the start of the clip. Find when the SAME vehicle that collides with the camera car first enters the camera car's lane. Do not substitute a different vehicle merely because it is ahead in Image 1. Entry is that vehicle's first wheel touching the lane boundary; at intersections extend the camera car's lane forward. If that same vehicle is already inside this lane in Image 1, use status ALREADY_IN_LANE_AT_START and entry_frame 0. Use status OBSERVED only when the actual lane entry is visible in Image 2. Otherwise use BEFORE_WINDOW or AFTER_WINDOW for entry outside the local window; use UNCERTAIN if the collision vehicle or its lane entry cannot be identified. Lane entry candidates: [21, 22, 23, 24, 25, 26, 27]. Return JSON with status and entry_frame. OBSERVED requires a shown local integer frame; ALREADY_IN_LANE_AT_START requires the original first frame number; other statuses use null.",
+  "offered_frames": {
+    "Lane entry candidates": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  "input_images": [
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "raw_rgb_sha256": "8d48ee679b5a69038cc2672c8bc883e626472b635533c1c47ca27b57be9cca37"
+    },
+    {
+      "size": [
+        1536,
+        512
+      ],
+      "raw_rgb_sha256": "7c0655e0bac4de890c3437353ae271212c5c710054bf35c8c48c3f5427a50d18"
+    }
+  ],
+  "bounded_image_sizes": [
+    [
+      1024,
+      576
+    ],
+    [
+      1312,
+      416
+    ]
+  ],
+  "bounded_pixel_total": 1135616,
+  "pixel_budget": 1200000,
+  "max_new_tokens": 64,
+  "status": "complete",
+  "raw_output": "{\n  \"status\": \"BEFORE_WINDOW\",\n  \"entry_frame\": null\n}",
+  "seconds": 2.812864500010619,
+  "gpu_peak_allocated_bytes": 4004194304,
+  "gpu_peak_reserved_bytes": 5291114496
+}

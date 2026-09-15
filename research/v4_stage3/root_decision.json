@@ -1,0 +1,7 @@
+{
+  "status": "root_decision_rejected_keep_v3",
+  "reason": "Both public heads declined; cross-vehicle stress gain is small and mixed across heads/routes, insufficient evidence for adoption.",
+  "retain_model_sha256": "c52ecd15cf68856f2a7b0b37b120c7a961b3bd8889a33af4ec47f8b9719bb3b3",
+  "full_refit_authorized": false,
+  "additional_candidates_authorized": false
+}

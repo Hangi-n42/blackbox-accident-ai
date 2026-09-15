@@ -1,0 +1,22 @@
+{
+  "public": {
+    "rows": 1200,
+    "shape": [
+      874,
+      1164,
+      3
+    ],
+    "decoded_bgr_sha256": "301db67f589c3d41de5a174106b51b47ebc76aa2e14e03282cd8b906a4bc94d2"
+  },
+  "external": {
+    "rows": 1200,
+    "shape": [
+      874,
+      1164,
+      3
+    ],
+    "decoded_bgr_sha256": "301db67f589c3d41de5a174106b51b47ebc76aa2e14e03282cd8b906a4bc94d2"
+  },
+  "matches_prior_V4_pixel_sha": true,
+  "known_segment_and_route_excluded_from_external_training": true
+}

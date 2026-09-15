@@ -1,0 +1,390 @@
+{
+  "scope": "one ordered distributed-JPEG subset per source video; not decoded-video evaluation",
+  "n_documents": 6,
+  "n_video_subsets": 24,
+  "n_images": 192,
+  "seconds": 19.5,
+  "image_resolution_counts_by_label": {
+    "or": {
+      "1080x1920": 48,
+      "2160x3840": 48
+    },
+    "re": {
+      "2160x3840": 96
+    }
+  },
+  "overall": {
+    "tpo": {
+      "macro_f1": 0.7883597883597884,
+      "confusion_rows_original_recaptured": [
+        [
+          11,
+          1
+        ],
+        [
+          4,
+          8
+        ]
+      ]
+    },
+    "forensic": {
+      "macro_f1": 0.4957983193277311,
+      "confusion_rows_original_recaptured": [
+        [
+          12,
+          0
+        ],
+        [
+          10,
+          2
+        ]
+      ]
+    },
+    "blend": {
+      "macro_f1": 0.7333333333333334,
+      "confusion_rows_original_recaptured": [
+        [
+          12,
+          0
+        ],
+        [
+          6,
+          6
+        ]
+      ]
+    }
+  },
+  "by_camera": {
+    "iphone": {
+      "tpo": {
+        "macro_f1": 0.7482517482517483,
+        "confusion_rows_original_recaptured": [
+          [
+            5,
+            1
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "forensic": {
+        "macro_f1": 0.4957983193277311,
+        "confusion_rows_original_recaptured": [
+          [
+            6,
+            0
+          ],
+          [
+            5,
+            1
+          ]
+        ]
+      },
+      "blend": {
+        "macro_f1": 0.625,
+        "confusion_rows_original_recaptured": [
+          [
+            6,
+            0
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      }
+    },
+    "android": {
+      "tpo": {
+        "macro_f1": 0.8285714285714285,
+        "confusion_rows_original_recaptured": [
+          [
+            6,
+            0
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "forensic": {
+        "macro_f1": 0.4957983193277311,
+        "confusion_rows_original_recaptured": [
+          [
+            6,
+            0
+          ],
+          [
+            5,
+            1
+          ]
+        ]
+      },
+      "blend": {
+        "macro_f1": 0.8285714285714285,
+        "confusion_rows_original_recaptured": [
+          [
+            6,
+            0
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      }
+    }
+  },
+  "by_document": {
+    "srb_passport/04": {
+      "tpo": {
+        "macro_f1": 0.7333333333333334,
+        "confusion_rows_original_recaptured": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "forensic": {
+        "macro_f1": 0.3333333333333333,
+        "confusion_rows_original_recaptured": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "blend": {
+        "macro_f1": 0.7333333333333334,
+        "confusion_rows_original_recaptured": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    "aze_passport/03": {
+      "tpo": {
+        "macro_f1": 1.0,
+        "confusion_rows_original_recaptured": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "forensic": {
+        "macro_f1": 0.7333333333333334,
+        "confusion_rows_original_recaptured": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "blend": {
+        "macro_f1": 0.7333333333333334,
+        "confusion_rows_original_recaptured": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    "esp_id/01": {
+      "tpo": {
+        "macro_f1": 0.7333333333333334,
+        "confusion_rows_original_recaptured": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "forensic": {
+        "macro_f1": 0.3333333333333333,
+        "confusion_rows_original_recaptured": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "blend": {
+        "macro_f1": 0.3333333333333333,
+        "confusion_rows_original_recaptured": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      }
+    },
+    "aze_passport/04": {
+      "tpo": {
+        "macro_f1": 1.0,
+        "confusion_rows_original_recaptured": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "forensic": {
+        "macro_f1": 0.7333333333333334,
+        "confusion_rows_original_recaptured": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "blend": {
+        "macro_f1": 1.0,
+        "confusion_rows_original_recaptured": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      }
+    },
+    "rus_internalpassport/01": {
+      "tpo": {
+        "macro_f1": 0.7333333333333334,
+        "confusion_rows_original_recaptured": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "forensic": {
+        "macro_f1": 0.3333333333333333,
+        "confusion_rows_original_recaptured": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "blend": {
+        "macro_f1": 1.0,
+        "confusion_rows_original_recaptured": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      }
+    },
+    "lva_passport/02": {
+      "tpo": {
+        "macro_f1": 0.3333333333333333,
+        "confusion_rows_original_recaptured": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "forensic": {
+        "macro_f1": 0.3333333333333333,
+        "confusion_rows_original_recaptured": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "blend": {
+        "macro_f1": 0.3333333333333333,
+        "confusion_rows_original_recaptured": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      }
+    }
+  },
+  "limitation": "Six document-content groups from an ID-document domain, distributed JPEG sampling and image rescaling differ from dashcam video decoding. No competition-score extrapolation."
+}

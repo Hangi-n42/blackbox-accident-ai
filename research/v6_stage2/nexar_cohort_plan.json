@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "phase": "before_first_nexar_model_prediction",
+  "selection_basis": "Original acquired filename order. First three for development, last three reserved. No model outputs used for the split.",
+  "development_ids": ["NEXAR_REVIEW_00000", "NEXAR_REVIEW_00003", "NEXAR_REVIEW_00004"],
+  "reserved_validation_ids": ["NEXAR_REVIEW_00005", "NEXAR_REVIEW_00006", "NEXAR_REVIEW_00007"],
+  "currently_authorized_diagnostic_ids": ["NEXAR_REVIEW_00000", "NEXAR_REVIEW_00003"],
+  "reserved_predictions_must_remain_unseen_until_candidate_frozen": true,
+  "group_independence_status": "Pending original-scene overlap verification; IDs alone are not independent groups.",
+  "review_status": "Three actual single-user JSON drafts received and integrity-checked; 00004/00005/00006 file location requested. No fabricated second reviewer.",
+  "baseline": "Actual extracted V5 code and model, package root artifacts/submissions/verify_v5",
+  "diagnostic_input_policy": "Full source time span; nearest native PTS to 0.1-second grid; tie chooses earlier frame; both endpoints retained; original decoded frame numbers; lossless PNG; no ground-truth-based time crop.",
+  "diagnostic_scope": "One frozen baseline run on available development clips only. Four calls per clip. No candidate tuning on reserved videos.",
+  "domain_limit": "These clips are approximately 40 seconds; this diagnostic does not establish official hidden-test performance.",
+  "candidate_gate_status": "No candidate chosen. Freeze the single target component, numerical improvement criterion and regression limits after development diagnosis but before candidate predictions.",
+  "submission_eligible": false
+}

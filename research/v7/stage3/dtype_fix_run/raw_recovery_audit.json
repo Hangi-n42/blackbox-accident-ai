@@ -1,0 +1,160 @@
+{
+  "all_cache_reconstruction": [
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-07-27--06-50-48_10.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-07-29--11-17-20_3.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-07-29--12-02-42_27.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-07-29--16-37-17_4.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-07-30--13-03-07_14.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-07-30--13-44-30_10.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-07-31--20-50-28_12.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-08-01--21-13-49_10.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-08-02--08-34-47_29.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-08-02--16-41-38_10.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_1_b0c9d2329ad1606b_2018-08-03--10-35-16_10.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-01--08-13-53_17.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-01--10-47-27_25.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-01--11-24-52_0.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-02--11-32-52_7.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-02--11-42-52_0.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-02--16-01-39_59.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-02--19-07-03_5.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-02--20-07-13_2.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-03--08-13-12_10.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-03--09-25-46_24.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-05--11-09-01_10.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\ext_Chunk_3_99c94dc769b5d96e_2018-05-05--16-36-30_10.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\OPEN_001.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\OPEN_002.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\OPEN_003.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\OPEN_004.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "cache": "research\\stage3_cache\\OPEN_005.npy",
+      "reconstruct864_bit_exact": true,
+      "max_abs": 0.0
+    }
+  ],
+  "direct_decode": [
+    {
+      "path": "Baseline\\data\\stage3\\videos\\OPEN_001.mp4",
+      "decoded": 1200,
+      "seconds": 6.8874850000138395,
+      "bit_exact": true,
+      "max_abs": 0.0
+    },
+    {
+      "path": "external_data\\comma2k19\\Chunk_1\\b0c9d2329ad1606b_2018-07-27--06-50-48\\10\\video.hevc",
+      "decoded": 1199,
+      "seconds": 7.176454000000376,
+      "bit_exact": true,
+      "max_abs": 0.0
+    }
+  ]
+}

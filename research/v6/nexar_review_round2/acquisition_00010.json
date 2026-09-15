@@ -1,0 +1,14 @@
+{
+  "path": "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\00010.mp4",
+  "source_uri": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00010.mp4",
+  "sha256": "bb0b2975bceaf9a9cfff779e2809ff3dc71d5ddbaecc9c7352c608419e2b7a02",
+  "bytes": 12941589,
+  "frames": 1214,
+  "first_pts": 0.0,
+  "last_pts": 40.43333333333333,
+  "mapping_sha256": "25c420bafc76528d74acdf47fc6412d13de7168dbec02d0de50e420787b17936",
+  "human_review": "pending",
+  "contact_ground_truth": null,
+  "source_group_id": null,
+  "independence_verified": false
+}

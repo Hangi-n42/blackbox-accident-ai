@@ -1,0 +1,147 @@
+{
+  "created_utc": "2026-09-13T10:53:47.569014+00:00",
+  "root_decision": "Reject ROI and SIMPLE candidates; stop additional candidate search and external inference; select original V3 Stage2 policy for V5 packaging.",
+  "ROI": {
+    "adopt": false,
+    "reason": "semantic fallback15/15 and all three1.25 timing gates failed"
+  },
+  "SIMPLE": {
+    "adopt": false,
+    "reason": "known-regression gate failed despite valid responses and timing gates passing"
+  },
+  "external_DADA_inference_performed": false,
+  "additional_search_stopped": true,
+  "restoration_selected_source": "solution/stage2_motion_collision.py",
+  "restoration_selected_source_sha256": "091d1b4b53353cf08bc5431fb658d1c7fcc45604a4288546f3aac0fd6a207e2e",
+  "selected_policy_details": {
+    "V3_first_call_unchanged": true,
+    "calls_per_video": 4,
+    "model": "frozen Qwen3-VL-4B NF4",
+    "final_collision": "unchanged existing motion scores argmax original file number",
+    "other_fields": "original stage2_v2 four-question responses and original internal VLM collision context"
+  },
+  "actual_V3_source_identity": {
+    "stage2.py": {
+      "workspace_sha256": "2323653c4271ec09e2bf1761f6938d5cec1f76bbe5a01df96ce7aa22b183dc1a",
+      "actual_V3_extracted_sha256": "2323653c4271ec09e2bf1761f6938d5cec1f76bbe5a01df96ce7aa22b183dc1a",
+      "identical": true
+    },
+    "stage2_v2.py": {
+      "workspace_sha256": "89ae0bc640670d7ed76103ce7c829d405ad27cc25368c74d153d3b96962b8442",
+      "actual_V3_extracted_sha256": "89ae0bc640670d7ed76103ce7c829d405ad27cc25368c74d153d3b96962b8442",
+      "identical": true
+    },
+    "stage2_motion_collision.py": {
+      "workspace_sha256": "091d1b4b53353cf08bc5431fb658d1c7fcc45604a4288546f3aac0fd6a207e2e",
+      "actual_V3_extracted_sha256": "091d1b4b53353cf08bc5431fb658d1c7fcc45604a4288546f3aac0fd6a207e2e",
+      "identical": true
+    },
+    "vlm.py": {
+      "workspace_sha256": "01680e84220c64a6ff8f3415cf59bb7cd225f425814c92f6d2fe8213c5fe1cda",
+      "actual_V3_extracted_sha256": "01680e84220c64a6ff8f3415cf59bb7cd225f425814c92f6d2fe8213c5fe1cda",
+      "identical": true
+    },
+    "vlm_candidate.py": {
+      "workspace_sha256": "99b1cccb3de3172d08b4db8a40cbca3f6a1e595f6f6beb7250ab0c501d47ba7a",
+      "actual_V3_extracted_sha256": "99b1cccb3de3172d08b4db8a40cbca3f6a1e595f6f6beb7250ab0c501d47ba7a",
+      "identical": true
+    }
+  },
+  "actual_V3_model_identity": {
+    "added_tokens.json": {
+      "frozen_experiment_sha256": "79f6ec6fcc423d3a82bfac8b9033b1daac7b7bce06a5f5f441637b480cc605de",
+      "actual_V3_extracted_sha256": "79f6ec6fcc423d3a82bfac8b9033b1daac7b7bce06a5f5f441637b480cc605de"
+    },
+    "CHANGES.md": {
+      "frozen_experiment_sha256": "439b76f32c0cab94fdffb1d1bb56abff150f2b66df7ef29890ceacf9b39e9f21",
+      "actual_V3_extracted_sha256": "439b76f32c0cab94fdffb1d1bb56abff150f2b66df7ef29890ceacf9b39e9f21"
+    },
+    "chat_template.jinja": {
+      "frozen_experiment_sha256": "24a1eb036569714fc3efe7908495159c19ac5138f652c9e524475e40ce87d716",
+      "actual_V3_extracted_sha256": "24a1eb036569714fc3efe7908495159c19ac5138f652c9e524475e40ce87d716"
+    },
+    "config.json": {
+      "frozen_experiment_sha256": "c4fbc3354ffa6bd557af9810ad972d7445329cfa7b90edf1c565caa5e71c582c",
+      "actual_V3_extracted_sha256": "c4fbc3354ffa6bd557af9810ad972d7445329cfa7b90edf1c565caa5e71c582c"
+    },
+    "generation_config.json": {
+      "frozen_experiment_sha256": "ad9868f17f3b0d352b2c2d45ac4ce71afa25a6f02580b24c7dd246e9f3655bb3",
+      "actual_V3_extracted_sha256": "ad9868f17f3b0d352b2c2d45ac4ce71afa25a6f02580b24c7dd246e9f3655bb3"
+    },
+    "LICENSE-APACHE-2.0.txt": {
+      "frozen_experiment_sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "actual_V3_extracted_sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    },
+    "merges.txt": {
+      "frozen_experiment_sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "actual_V3_extracted_sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    "model-00001-of-00002.safetensors": {
+      "frozen_experiment_sha256": "60cfa3b31933793fcbe97002a162e61e89abdd84876cbec4f3cae090fd8a57e0",
+      "actual_V3_extracted_sha256": "60cfa3b31933793fcbe97002a162e61e89abdd84876cbec4f3cae090fd8a57e0"
+    },
+    "model-00002-of-00002.safetensors": {
+      "frozen_experiment_sha256": "acddfb8561f15589c3816a8ad00ad8ef1bccd8f6eea9eba612fad1668f459e5f",
+      "actual_V3_extracted_sha256": "acddfb8561f15589c3816a8ad00ad8ef1bccd8f6eea9eba612fad1668f459e5f"
+    },
+    "model.safetensors.index.json": {
+      "frozen_experiment_sha256": "ffe51f7b55fbaa8c5e1db381934668136cfd3ea87fabb23723ec5557fd07603b",
+      "actual_V3_extracted_sha256": "ffe51f7b55fbaa8c5e1db381934668136cfd3ea87fabb23723ec5557fd07603b"
+    },
+    "preprocessor_config.json": {
+      "frozen_experiment_sha256": "932a67b907ae5ec809c4fb66cbcc951436ab686977e8b5fed9dce916c3a81e9e",
+      "actual_V3_extracted_sha256": "932a67b907ae5ec809c4fb66cbcc951436ab686977e8b5fed9dce916c3a81e9e"
+    },
+    "README.md": {
+      "frozen_experiment_sha256": "e1d74f17eb4dcaf72dd26b8ef5e8e8a352f4f1d35a899dbbab2c3089c1976533",
+      "actual_V3_extracted_sha256": "e1d74f17eb4dcaf72dd26b8ef5e8e8a352f4f1d35a899dbbab2c3089c1976533"
+    },
+    "README.original.md": {
+      "frozen_experiment_sha256": "a884e5e78f7d6f7bfe237f909dbc41a126542e259dc79d8ab33cc8980580ff79",
+      "actual_V3_extracted_sha256": "a884e5e78f7d6f7bfe237f909dbc41a126542e259dc79d8ab33cc8980580ff79"
+    },
+    "SOURCE_DOWNLOAD_MANIFEST.json": {
+      "frozen_experiment_sha256": "0455c7f4577bced191b5acfb3de853c4c8ebb88fbb8b7f090fd2de0ef65b0fca",
+      "actual_V3_extracted_sha256": "0455c7f4577bced191b5acfb3de853c4c8ebb88fbb8b7f090fd2de0ef65b0fca"
+    },
+    "special_tokens_map.json": {
+      "frozen_experiment_sha256": "57255613bbe23c9497211ca68561ff429a51e871dbaf5a59998fa4c8f7fe168a",
+      "actual_V3_extracted_sha256": "57255613bbe23c9497211ca68561ff429a51e871dbaf5a59998fa4c8f7fe168a"
+    },
+    "tokenizer.json": {
+      "frozen_experiment_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "actual_V3_extracted_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    "tokenizer_config.json": {
+      "frozen_experiment_sha256": "394a86fd18585e173a0b8ac275bf1a8a44ab1b155b11cb27141ff2c8ee29851d",
+      "actual_V3_extracted_sha256": "394a86fd18585e173a0b8ac275bf1a8a44ab1b155b11cb27141ff2c8ee29851d"
+    },
+    "video_preprocessor_config.json": {
+      "frozen_experiment_sha256": "7cbbda8582bde10b9d94184c676654967fbdf5668a1d1262e83dde7731d74649",
+      "actual_V3_extracted_sha256": "7cbbda8582bde10b9d94184c676654967fbdf5668a1d1262e83dde7731d74649"
+    },
+    "vocab.json": {
+      "frozen_experiment_sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "actual_V3_extracted_sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  },
+  "first_call_paired_identity_evidence": {
+    "report": "simple_analysis.json",
+    "same_first_prompt_images_tokens_raw_output_pairs": 15,
+    "paired_input_count": 15
+  },
+  "experimental_sources_preserved": [
+    "solution/stage2_v5.py",
+    "solution/stage2_v5_simple.py",
+    "research/v5_stage2/paired_run/source_snapshot",
+    "research/v5_stage2/paired_layout_run",
+    "research/v5_stage2/paired_simple_run"
+  ],
+  "submission_exclusion_required": [
+    "solution/stage2_v5.py",
+    "solution/stage2_v5_simple.py",
+    "research/v5_stage2"
+  ],
+  "packaging_owner": "root; this decision does not claim a new ZIP has already been built",
+  "not_a_claim_of_official_score_improvement": true
+}

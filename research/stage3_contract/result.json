@@ -1,0 +1,9 @@
+{
+  "expected_frames": 31,
+  "actual_frames": 31,
+  "all_indices": true,
+  "finite_allowed_accel": true,
+  "finite_allowed_steer": true,
+  "independent_of_filename_and_other_files": true,
+  "elapsed_seconds": 2.021567599993432
+}

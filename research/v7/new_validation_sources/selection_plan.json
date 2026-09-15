@@ -1,0 +1,74 @@
+{
+  "created_utc": "2026-09-15T13:16:03.224712+00:00",
+  "repository": "nexar-ai/nexar_collision_prediction",
+  "revision": "aa97deda5a59f00bb7187739053b7c72e14374df",
+  "selection": "Next six filename-ordered positive MP4 objects after00016 in the already pinned complete listing;00020 absent, no substitution by visibility,size or prediction",
+  "selected": [
+    {
+      "ID": "00017",
+      "relative_path": "train/positive/00017.mp4",
+      "bytes": 10779763,
+      "sha256": "a4d5f57428376b354daf92e7394cc18582e9ac5b7830337d9ad6bb31a53f4f5f",
+      "url": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00017.mp4"
+    },
+    {
+      "ID": "00018",
+      "relative_path": "train/positive/00018.mp4",
+      "bytes": 15665676,
+      "sha256": "57883863d65cfc233bcaada676a4cdf8a9fd76dabf56131470795bdfae64eb82",
+      "url": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00018.mp4"
+    },
+    {
+      "ID": "00019",
+      "relative_path": "train/positive/00019.mp4",
+      "bytes": 16203650,
+      "sha256": "9733cefb322507d6de2e4cbb7bcdde6bda02bc503aff1ccbe0001981d7e14006",
+      "url": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00019.mp4"
+    },
+    {
+      "ID": "00021",
+      "relative_path": "train/positive/00021.mp4",
+      "bytes": 11925567,
+      "sha256": "534021e279a9e51a309d8ab55452eb56986145598c8dd5e98c3d4c7154650410",
+      "url": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00021.mp4"
+    },
+    {
+      "ID": "00022",
+      "relative_path": "train/positive/00022.mp4",
+      "bytes": 19531161,
+      "sha256": "58382210f3bc1ffde242d768572be5331373316af014e56c177eda26aa4c00b4",
+      "url": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00022.mp4"
+    },
+    {
+      "ID": "00023",
+      "relative_path": "train/positive/00023.mp4",
+      "bytes": 11705867,
+      "sha256": "7d0232cc2a4b7a5b6a74c050b7155e675e561513d40d132588f47217c874ac69",
+      "url": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction/resolve/aa97deda5a59f00bb7187739053b7c72e14374df/train/positive/00023.mp4"
+    }
+  ],
+  "expected_bytes": 85811684,
+  "budget_bytes": 120000000,
+  "maximum_acquisition_seconds": 600,
+  "maximum_attempts_per_file": 1,
+  "source_bindings": {
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\manifest.json": "26f9316348a1f24f93714856afca5f1205dd90528e669f1024170ad67ac91aad",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\api_page_01.json": "fd5af373299fd9182fae7bceac8d87c3208cc2e037132a83bb268ddc8f69f949",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\LICENSE": "9c62949a76b4a3039023a93a31aac964847cbcfcac8376daaa541cc620788824",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\README.md": "edad8be48ad54b390de2ae116f0626ef3d9e7d3ae8eda7831b9d5e0f40bbf90b",
+    "C:\\Users\\dsl\\Desktop\\Dacon\\블랙박스\\research\\v6\\nexar_review_round2\\ATTRIBUTION.json": "d8b597c6203da7affc26d0b0adfcd548f567920944f70e57cffd2ca8157caa4d"
+  },
+  "review_policy": {
+    "two_independent_AI_reviewers": true,
+    "prediction_access_before_review_frozen": false,
+    "human_GT": false,
+    "official_GT": false,
+    "same_incident_or_pretraining_independence_proven": false,
+    "preserve_uncertainty_and_all_selected_cases": true,
+    "first_physical_ego_contact_distinct_from_shake_or_nearmiss": true,
+    "original_native_PTS_required": true,
+    "do_not_force_precision_when_contact_occluded": true
+  },
+  "model_policy": "No candidate inference or candidate fitting until both reviews are frozen. No automatic adoption/submission from AI consensus.",
+  "previous_three": "00014/15/16 remain in their original records; this is an additional fixed cohort, not replacement of ambiguous samples."
+}

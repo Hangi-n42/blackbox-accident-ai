@@ -1,0 +1,7 @@
+{
+  "prompt": "These dashcam frames are chronological, left to right, top to bottom. They come from two local time windows and do not show the whole clip; there may be a time gap between the windows. Which offered numbered frame first shows actual physical contact between the camera vehicle and the other vehicle? Do not select mere close proximity, braking, or camera shake without visible contact evidence. If the first physical contact cannot be determined from these images, return null. Allowed frames: [558, 566, 572, 578, 587, 595, 601, 607, 616, 829, 838, 844, 850, 858, 867, 873, 879, 887]. Return JSON only with collision_frame: an offered integer frame number, or null.",
+  "max_new_tokens": 48,
+  "status": "complete",
+  "raw": "{\n  \"collision_frame\": null\n}",
+  "seconds": 2.4352992000058293
+}

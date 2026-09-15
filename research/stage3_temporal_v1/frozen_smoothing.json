@@ -1,0 +1,53 @@
+{
+  "window_frames": 3,
+  "sample_rate_hz": 10,
+  "padding": "nearest",
+  "operation": "arithmetic mean of class probabilities",
+  "chosen_only_from_external_validation": true,
+  "external_validation_scores": [
+    {
+      "window_frames": 1,
+      "seconds": 0,
+      "accel": 0.5625932889968439,
+      "steer": 0.7006225906587118,
+      "stage3": 0.6040020794954042
+    },
+    {
+      "window_frames": 3,
+      "seconds": 0.3,
+      "accel": 0.5622310339550403,
+      "steer": 0.70379006012407,
+      "stage3": 0.6046987418057491
+    },
+    {
+      "window_frames": 5,
+      "seconds": 0.5,
+      "accel": 0.5611747208528937,
+      "steer": 0.7009930247883931,
+      "stage3": 0.6031202120335435
+    },
+    {
+      "window_frames": 11,
+      "seconds": 1.1,
+      "accel": 0.5636328236016431,
+      "steer": 0.6968755291788223,
+      "stage3": 0.6036056352747968
+    },
+    {
+      "window_frames": 21,
+      "seconds": 2.1,
+      "accel": 0.5658178631723638,
+      "steer": 0.6727092106489799,
+      "stage3": 0.5978852674153486
+    }
+  ],
+  "selected_external_score": {
+    "window_frames": 3,
+    "seconds": 0.3,
+    "accel": 0.5622310339550403,
+    "steer": 0.70379006012407,
+    "stage3": 0.6046987418057491
+  },
+  "frozen_before_public_oof": true,
+  "selection_elapsed_seconds": 31.88600860000588
+}
