@@ -250,5 +250,11 @@
     "version": "0.8.3",
     "wheel": "wcwidth-0.8.3-py3-none-any.whl",
     "sha256": "d5b73dba6158a595ec9370350e7f2637bcac8d6c5e4fde34f30fcffb6103a5e4"
+  },
+  {
+    "name": "hf-xet",
+    "version": "1.6.0",
+    "wheel": "hf_xet-1.6.0-cp38-abi3-macosx_11_0_arm64.whl",
+    "sha256": "f0906082d9932ae0c0057fa194041c22b4e2cdb46b2592ef3b91f020d62a081a"
   }
 ]

@@ -22,3 +22,5 @@ tqdm==4.66.5
 requests==2.34.2
 psutil==6.1.1
 threadpoolctl==3.5.0
+# Native macOS Hugging Face dependency, confirmed by clean ARM64 CI.
+hf-xet==1.6.0

@@ -51,7 +51,7 @@ V7의 여러 후보가 실패한 이유를 검증하던 상태입니다. 마지�
 
 실사 결과 전체 버전은 `docs/migration/windows-environment.json`. Windows11 AMD64, Python 3.12.14, PyTorch 2.8.0+cu128 / torchvision 0.23.0+cu128, CUDA build 12.8, cuDNN numeric 91002, RTX2080 SUPER 8GiB / driver 595.95. transformers 4.57.6, accelerate 1.9.0, bitsandbytes 0.48.1. NumPy 1.26.4, sklearn 1.5.2, OpenCV headless 4.10.0.84, PyAV 16.0.1. Node 24.14.1은 검수 UI의 내장 모듈 테스트용. Git 2.53.0.windows.1.
 
-macOS ARM64 Python 3.12 의존성은 `requirements/macos-arm64.txt`, 전이 의존성까지 42개 wheel SHA를 고정한 파일은 `requirements/macos-arm64.lock.txt`. Windows 원본 requirements는 보존했습니다. lock은 macOS14 ARM64 대상 PyPI 해석을 통과했습니다. 이는 native 실행 검증과 다릅니다. macOS15 ARM64 GitHub Actions smoke도 구성했습니다. 실제 실행 결과는 GitHub Actions에서 확인하십시오.
+macOS ARM64 Python 3.12 의존성은 `requirements/macos-arm64.txt`, 전이 의존성까지 43개 wheel SHA를 고정한 파일은 `requirements/macos-arm64.lock.txt`. Windows 원본 requirements는 보존했습니다. lock은 macOS14 ARM64 대상 PyPI 해석을 통과했습니다. 이는 native 실행 검증과 다릅니다. 첫 ARM64 CI에서 플랫폼 조건으로 hf-xet 누락이 드러나 1.6.0 버전과 공식 PyPI wheel 해시를 추가했습니다. macOS15 ARM64 GitHub Actions smoke도 구성했습니다. 실제 실행 결과는 GitHub Actions에서 확인하십시오.
 
 ## 8. 환경변수
 
