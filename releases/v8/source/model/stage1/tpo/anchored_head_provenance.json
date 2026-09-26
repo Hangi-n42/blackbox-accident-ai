@@ -1,0 +1,28 @@
+{
+  "candidate": "anchored_0.01",
+  "lambda": 0.01,
+  "parameters": 513,
+  "head_sha256": "9ede0a56fa79e92591da32d486937be79a92eef2d611cf153757284478360ed3",
+  "weights_sha256": "7a76e693b308f17b662636cad443eff72a5bac7b00fb2a79535595693297c91e",
+  "training": {
+    "vd": {
+      "feature_rows": 1152,
+      "groups": 8,
+      "recordings": 16
+    },
+    "dlc": {
+      "feature_rows": 2880,
+      "groups": 10,
+      "recordings": 40
+    },
+    "comma": {
+      "feature_rows": 792,
+      "groups": 5,
+      "recordings": 11
+    }
+  },
+  "inference": "12 full frames +12 horizontal flips, mean probability, threshold0.5; forensic disabled",
+  "validation": "Known regression guards and offline entry tests passed. Reserved DLC confirmation skipped by explicit user request. Official improvement unverified.",
+  "stage2_stage3": "Unchanged V7 assets; later experiments did not establish an adopted replacement.",
+  "original_v7_zip_sha256": "2cbdc77cab56dea781025c693a038fc3b0b6d23b108b9d904454b973b9a97fae"
+}

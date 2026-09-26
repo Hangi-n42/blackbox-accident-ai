@@ -1,0 +1,81 @@
+{
+  "decision": "not_adopted",
+  "public_S3_baseline": 0.808950934648875,
+  "public_S3_candidate": 0.8000630369384975,
+  "public_S3_delta": -0.008887897710377568,
+  "gates": {
+    "public_S3_improved": false,
+    "no_date_F1_regression": true,
+    "no_new_opposite_any_scope": false
+  },
+  "all_scope_changes": [
+    {
+      "scope": "zod_heldout",
+      "group": "all",
+      "new_opposite": 3,
+      "resolved_to_correct": 0,
+      "resolved_to_constant_wrong": 0,
+      "resolved_to_other_wrong": 0,
+      "corrected": 5,
+      "new_wrong": 5,
+      "constant_correct": 16,
+      "constant_to_AD": 283,
+      "constant_to_STOP": 84
+    },
+    {
+      "scope": "date_1",
+      "group": "all",
+      "new_opposite": 14,
+      "resolved_to_correct": 11,
+      "resolved_to_constant_wrong": 27,
+      "resolved_to_other_wrong": 0,
+      "corrected": 22,
+      "new_wrong": 15,
+      "constant_correct": 199,
+      "constant_to_AD": 136,
+      "constant_to_STOP": 0
+    },
+    {
+      "scope": "date_2",
+      "group": "all",
+      "new_opposite": 0,
+      "resolved_to_correct": 6,
+      "resolved_to_constant_wrong": 0,
+      "resolved_to_other_wrong": 0,
+      "corrected": 32,
+      "new_wrong": 13,
+      "constant_correct": 333,
+      "constant_to_AD": 431,
+      "constant_to_STOP": 0
+    },
+    {
+      "scope": "date_3",
+      "group": "all",
+      "new_opposite": 0,
+      "resolved_to_correct": 3,
+      "resolved_to_constant_wrong": 2,
+      "resolved_to_other_wrong": 0,
+      "corrected": 21,
+      "new_wrong": 10,
+      "constant_correct": 208,
+      "constant_to_AD": 212,
+      "constant_to_STOP": 0
+    },
+    {
+      "scope": "public_oof",
+      "group": "all",
+      "new_opposite": 0,
+      "resolved_to_correct": 0,
+      "resolved_to_constant_wrong": 0,
+      "resolved_to_other_wrong": 0,
+      "corrected": 0,
+      "new_wrong": 1,
+      "constant_correct": 25,
+      "constant_to_AD": 5,
+      "constant_to_STOP": 0
+    }
+  ],
+  "new_downloads": 0,
+  "operational_changes": 0,
+  "independent_improvement_claim": false
+}

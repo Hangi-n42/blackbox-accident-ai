@@ -1,0 +1,11 @@
+{
+  "adopted": false,
+  "continue_mixing_or_weight_search": false,
+  "scaler_partial_contribution_confirmed": true,
+  "mass_and_source_weight_combined_effect_confirmed": true,
+  "mass_vs_source_weight_individually_identified": false,
+  "zod_exposure": "development_diagnostic",
+  "public_S3_gain_scaler_only": 0.008383173843700242,
+  "public_S3_gain_weight_control": 0.0061403508771930015,
+  "public_S3_final_vs_comma": -0.028256578947368327
+}

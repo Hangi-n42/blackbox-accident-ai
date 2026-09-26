@@ -1,0 +1,13 @@
+{
+  "source": "User-provided screenshot, not a fresh authenticated server query",
+  "submission_id": 99976,
+  "submitted_at_kst": "2026-09-21 00:06:21",
+  "filename": "submit_v8.zip",
+  "stage1": 0.8074468535,
+  "stage2": 0.2817803332,
+  "stage3": 0.5266169416,
+  "runtime_seconds": 2503,
+  "v7_stage1": 0.7661036036,
+  "stage1_delta": 0.041343249900000045,
+  "hidden_video_labels_or_fp_fn": "Unavailable"
+}

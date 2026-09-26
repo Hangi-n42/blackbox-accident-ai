@@ -1,0 +1,47 @@
+{
+  "created_utc": "2026-09-19T18:10:30.569568+00:00",
+  "cases": [
+    "CCD_000688",
+    "CCD_000801",
+    "CCD_000453",
+    "CCD_000196",
+    "CCD_000728"
+  ],
+  "status": "specified_before_any_new_predictions",
+  "legend_sentence": "The vehicle marked in yellow is the collision counterpart. ",
+  "primary_change": "Prefix exactly one sentence to original Q3; original marked image bytes/path/candidate order/parser/token cap40/model/backend unchanged",
+  "control": "Fresh marker-only Q3 per case; prior marker experiment response and processor hashes required to reproduce. 5controls +5legend new calls. No old unmarked control mixed in.",
+  "success_gate": {
+    "definite_gains_min": 1,
+    "definite_losses_max": 0,
+    "paired_MAE_upper_bound_nonpositive": true,
+    "no_new_false_first_on_late_cases": true,
+    "fresh_control_matches_history": true
+  },
+  "labels": "Five exposed AI entry references unchanged; interval-aware shared truth paired accuracy and MAE. No new label selection or editing based on results.",
+  "other_outputs": "Replay original Q1/Q2/Q4, replace Q3 with each new response; final contact side space remain fixed",
+  "conditional_state_probe": {
+    "trigger": "Only if valid completed legend comparison fails success gate",
+    "cases": [
+      "CCD_000688",
+      "CCD_000801",
+      "CCD_000453",
+      "CCD_000196",
+      "CCD_000728"
+    ],
+    "image": "Exact384x256crop of first tile of existing marked model-input sheet; same pixel scale, no enlargement/new markup; separate task, not same-image Q3 ablation",
+    "prompt": "The vehicle marked in yellow is the collision counterpart. In this first frame, is this vehicle already inside the camera car's driving lane? At an intersection, extend the camera car's lane boundaries forward. Return JSON with lane_state: INSIDE, OUTSIDE, or UNCERTAIN. Use UNCERTAIN if the vehicle or lane relation cannot be determined.",
+    "max_new_tokens": 40,
+    "calls": 5,
+    "reference": "A reviews688801196; B reviews453728 before new prediction. Raw source and exact first tile reviewed. UNKNOWN labels excluded, uncertainty retained. These are AI state references distinct from timing labels.",
+    "scoring": "Strict lane_state INSIDE/OUTSIDE/UNCERTAIN enum; no fallback or automatic frame0 correction. Report accuracy on eligible references, class-specific confusion, uncertain/invalid counts. No automatic entry override.",
+    "limits": [
+      "Reduced temporal/context task and shorter image sequence; state success does not prove temporal localization",
+      "three initial-inside and two later-entry originals already exposed",
+      "state probe can separate observed state classification versus sequence selection only on these inputs; internal target recognition unverified"
+    ]
+  },
+  "runtime": "Mac MLX native/sync/deepstackfix, each arm fresh worker; shared verified previous worker for legend; no downloads/training/production edits",
+  "stop": "One fixed legend and at most one conditional state question. No prompt paraphrase/token/layout/marker retuning after result.",
+  "scope": "Privileged expert-marker development diagnosis; no official S2 or generalization claim"
+}

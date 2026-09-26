@@ -1,0 +1,10 @@
+{
+  "gates": {
+    "public_S3_improved": false,
+    "no_date_F1_regression": true,
+    "no_new_opposite_any_scope": false
+  },
+  "all_pass": false,
+  "independent_performance_claim": false,
+  "production_replaced": false
+}

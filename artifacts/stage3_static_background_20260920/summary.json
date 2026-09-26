@@ -1,0 +1,22 @@
+{
+  "windows": 8,
+  "pairs_per_variant": 160,
+  "depth_variants": 3,
+  "retained_point_observations": 1747,
+  "original_point_observations": 34705,
+  "pairs_below_30_points": 146,
+  "valid_pairs_first": 0,
+  "valid_windows": 0,
+  "q_available_first": 0,
+  "first_pair_reasons": {
+    "solve_failure": 125,
+    "no_points": 21,
+    "spread": 13,
+    "inliers,spread": 1
+  },
+  "score_measured": false,
+  "classifier_fits": 0,
+  "new_depth_calls": 0,
+  "downloads": 0,
+  "thresholds_changed": false
+}

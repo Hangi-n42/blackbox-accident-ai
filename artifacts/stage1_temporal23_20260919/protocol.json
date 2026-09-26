@@ -1,0 +1,106 @@
+{
+  "baseline_source_indices": [
+    1,
+    5,
+    11,
+    16,
+    21,
+    27,
+    32,
+    38,
+    43,
+    48,
+    54,
+    58
+  ],
+  "candidate_source_indices": [
+    1,
+    3,
+    5,
+    8,
+    11,
+    13,
+    16,
+    18,
+    21,
+    24,
+    27,
+    29,
+    32,
+    35,
+    38,
+    40,
+    43,
+    45,
+    48,
+    51,
+    54,
+    56,
+    58
+  ],
+  "candidate": "arithmetic mean of all original+hflip probabilities, threshold0.5, frozen V7 TPO",
+  "gate": "Strict primary-development Macro-F1 improvement required before candidate new-val inference. No tuning. If failed, reserve new-val unscored.",
+  "primary_modes": [
+    "full_frame",
+    "jpeg_75",
+    "blur_1"
+  ],
+  "stress_modes": [
+    "jpeg_50",
+    "blur_2",
+    "resize_050"
+  ],
+  "selection": {
+    "development": [
+      0,
+      2,
+      13,
+      16,
+      38,
+      39,
+      51,
+      67
+    ],
+    "holdout": [
+      103,
+      104,
+      109,
+      141,
+      142,
+      152,
+      154,
+      155
+    ],
+    "new_val": [
+      1,
+      4,
+      12,
+      13,
+      14
+    ]
+  },
+  "new_val_selection_basis": "AI paired thumbnails before scoring: val1 plaza with bordering road; val4 station street; val12 stone road with vehicle; val13 parked-car street; val14 street with car. Candidate subset, final crop content QA before model inference.",
+  "new_val_independence": "New split-qualified REDS clips, same camera/screen. Seoul and Turkey geography overlaps previous pool; val14 restaurant appears related to train142. NOT independent location/session/device holdout.",
+  "proxy_time_contract": "Preserve prior 12 source indices in safe interior 1..58 (existing proxy endpoint exclusion). Add integer midpoints. This proxy uses 60 source frames with roughly 3 recapture frames per source, NOT long dashcam videos. Native MP4 runtime checked separately with exact V7 linspace sampler.",
+  "acquisition_source": "Raw iPhone VDmoire plus official REDS camera sharp, no restored clean labels",
+  "training_gate": "No target training unless distinct source training/development/test AND held-out recapture device coverage are available. Do not train on new-val test.",
+  "created_before_inference": true,
+  "device": "iPhoneXR / MacBook Pro",
+  "original_weight": 0.5,
+  "hflip_weight": 0.5,
+  "threshold": 0.5,
+  "frozen_files": {
+    "releases/v7/source/model/stage1/tpo/merged_visual.pt": "2935322b6984ba7c3f314607ae8fdf1145d2d3d7671ede13b4b324659a5c51a9",
+    "releases/v7/source/model/stage1/config.json": "26b10c65c02d55e6e2b0c13084e3b79d0eb00284aa5330985866ab8b7a2cbdc5",
+    "releases/v7/source/model/stage2/code/solution/stage1_v7_tpo_hflip.py": "12b7e0f2cd2b13b795b2a588bb486e5d7dc08e49c81e1fbb8b051c4dad2f541f",
+    "scripts/data/experiment_stage1_temporal23.py": "bcdcbcb10744bbe4b9eb997b7a37bae87a65ff05f45deea0bd89534ff1ab6b2a",
+    "releases/v7/source/model/stage2/code/solution/stage1_tpo_merged.py": "e1ddcbd9956b2c3e2d9d0edee55d2162d3d164b16c6423f8968c176526ff5011",
+    "releases/v7/source/model/stage1/tpo/clip_source/clip/model.py": "9902cbe5ee90a1da2aa3e6f043e8a23dc1f8831193b963785c9af03d5c7bef2c"
+  },
+  "pre_inference_implementation_amendment": {
+    "reason": "Load detector directly from exact V7 source; imported shared metrics helper otherwise preloads identical V6 package module. No setting or result-driven change.",
+    "previous_script_sha256": "082d96705e0a0079302a3af4a2986f4fa660348684e747103874497155fec5af",
+    "script_sha256": "bcdcbcb10744bbe4b9eb997b7a37bae87a65ff05f45deea0bd89534ff1ab6b2a",
+    "model_inference_started": false
+  }
+}

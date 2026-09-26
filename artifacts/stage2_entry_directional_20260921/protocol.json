@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-09-21T06:01:19.124093+00:00",
+  "baseline": "artifacts/stage2_entry_l2_01_20260921",
+  "scope": "Fixed lambda.1 weights, standardized14features,train4,53pairs; no fit, lambda change, model forward, CCD or feature ablation.",
+  "direction": "d=(x_00000_f561-x_00000_f0)/L2norm. Increasing weights along d improves this pair margin.",
+  "pair_gradient": "-D*sigmoid(-D@w)/(4*n_incident_pairs)",
+  "regularization_gradient": "0.1*w",
+  "sign": "negative projected loss derivative supports +d locally; positive opposes; zero neutral. Not causal/global proof.",
+  "checks": "pair sums to incident sums to total; total matches original objective gradient; explicit f561 vs f0 pair.",
+  "readout": "Every pair, incident signed/support/opposition totals, L2 and total gradient projection; per-pair score sensitivity without changing weights."
+}

@@ -1,0 +1,61 @@
+{
+  "counts": {
+    "vd": {
+      "feature_rows": 1152,
+      "groups": 8,
+      "recordings": 16
+    },
+    "dlc": {
+      "feature_rows": 2880,
+      "groups": 10,
+      "recordings": 40
+    },
+    "comma": {
+      "feature_rows": 792,
+      "groups": 5,
+      "recordings": 11
+    }
+  },
+  "total_weight": 1.0,
+  "positive_weight": 0.5,
+  "gradient_check_error": 3.0033597701189124e-08,
+  "parameters": 513,
+  "models": {
+    "ordinary": {
+      "lambda": 0.001,
+      "iterations": 32,
+      "loss": 0.24327138557435732,
+      "seconds": 0.023025915994367097,
+      "gradient_max_abs": 1.4052409574974488e-08,
+      "distance_from_v7": 17.48027061924281,
+      "sha256": "8d97a0968f7828f91643e2c6400f172b28c3b4a74e2630ea8ee8362048fb7e0f"
+    },
+    "anchored_0.0001": {
+      "lambda": 0.0001,
+      "iterations": 45,
+      "loss": 0.07901128172016457,
+      "seconds": 0.03403829099988798,
+      "gradient_max_abs": 1.300452608320429e-07,
+      "distance_from_v7": 28.76304855470212,
+      "sha256": "9f7ffec850787427c7aa6a9270e0bd0b00832ce5095eb1c202356eb2f6c3699f"
+    },
+    "anchored_0.001": {
+      "lambda": 0.001,
+      "iterations": 29,
+      "loss": 0.2280665544136026,
+      "seconds": 0.020680458001152147,
+      "gradient_max_abs": 2.7592782236482948e-08,
+      "distance_from_v7": 13.26855741686494,
+      "sha256": "07437a02e90345976bf4c70a41ce64923be1aeb9e34476aea123baee4e6a874e"
+    },
+    "anchored_0.01": {
+      "lambda": 0.01,
+      "iterations": 15,
+      "loss": 0.4366115638246353,
+      "seconds": 0.010091374999319669,
+      "gradient_max_abs": 1.2230486433296647e-07,
+      "distance_from_v7": 3.876953471525446,
+      "sha256": "9ede0a56fa79e92591da32d486937be79a92eef2d611cf153757284478360ed3"
+    }
+  }
+}

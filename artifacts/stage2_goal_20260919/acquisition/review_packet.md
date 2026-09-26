@@ -1,0 +1,28 @@
+# Stage2 새 원본 사람 검수 묶음
+
+2026-09-19. 아래 원본·이미지·시간표에는 Stage2 모델 예측이 없습니다. 6개 파일은 취득·해시·전체 디코딩·native PTS 검사를 통과했습니다. **아직 사람 정답이나 정확 접촉 정답이 확보된 자료가 아닙니다.**
+
+파일명·frame_id는 원본 영상 전체를 0부터 디코딩한 순번입니다. 시간은 각 `.pts.json`의 native PTS를 사용합니다. 00028은 30.6Hz이므로 모든 영상을 30FPS로 환산하면 안 됩니다. `event` 이미지는 공급자의 collision/near-miss 혼합 이벤트 시각 주변 탐색용이며 정답이 아닙니다.
+
+| 원천 | 원본 영상 | 전체 문맥 | 이벤트 주변 | 원본 시간표 | 빈 사람 검수 양식 |
+|---|---|---|---|---|---|
+| 00024 | [MP4](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00024.mp4) | [overview](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00024.overview.jpg) | [event](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00024.event.jpg) | [native PTS](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00024.pts.json) | [JSON](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/human_review_templates/00024.json) |
+| 00025 | [MP4](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00025.mp4) | [overview](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00025.overview.jpg) | [event](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00025.event.jpg) | [native PTS](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00025.pts.json) | [JSON](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/human_review_templates/00025.json) |
+| 00026 | [MP4](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00026.mp4) | [overview](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00026.overview.jpg) | [event](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00026.event.jpg) | [native PTS](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00026.pts.json) | [JSON](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/human_review_templates/00026.json) |
+| 00027 | [MP4](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00027.mp4) | [overview](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00027.overview.jpg) | [event](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00027.event.jpg) | [native PTS](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00027.pts.json) | [JSON](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/human_review_templates/00027.json) |
+| 00028 | [MP4](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00028.mp4) | [overview](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00028.overview.jpg) | [event](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00028.event.jpg) | [native PTS](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00028.pts.json) | [JSON](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/human_review_templates/00028.json) |
+| 00029 | [MP4](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00029.mp4) | [overview](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00029.overview.jpg) | [event](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00029.event.jpg) | [native PTS](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00029.pts.json) | [JSON](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/human_review_templates/00029.json) |
+
+추가 원본 크기 이미지: [00024 f612](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00024.native.612.png), [00025 f601](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00025.native.601.png), [00026 f294](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00026.native.294.png), [00027 f585](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00027.native.585.png), [00028 f609](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00028.native.609.png), [00028 f612](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00028.native.612.png), [00029 f597](/Users/hyeongi/projects/blackbox-accident-ai/artifacts/stage2_goal_20260919/acquisition/00029.native.597.png)
+
+검수 시 확인할 내용:
+
+1. 자차와 상대 차량의 실제 물리접촉이 확인되는지, 같은 상대를 영상 앞부분까지 추적할 수 있는지 먼저 표시합니다. 근접·급제동·흔들림만으로 실제 접촉을 확정하지 않습니다.
+2. 접촉 및 첫 바퀴의 자차 차선 경계 접촉을 관측 가능한 경우에만 frame_id와 native 시각으로 기록합니다. 교차로는 판단 가능한 차선 연장선입니다. 관측 불가하면 unknown과 사유를 유지합니다.
+3. 시작부터 이미 진입한 같은 사고 상대가 확인되면 대회 제출 프레임은 입력 첫 프레임입니다. 영상 시작 전 물리 진입시점은 별도 미상으로 남깁니다.
+4. 방향은 화면 기준 LEFT/RIGHT, 공간은 충돌 당시 자차가 진행·회피할 공간입니다. 사고 상대의 공간과 혼동하지 않습니다.
+5. 독립된 검수자는 각자 빈 양식을 사용하고 다른 사람의 답과 AI 판독 결과를 먼저 보지 않습니다. 실제 접촉 여부가 미확정이면 비충돌 정답으로 만들지 않습니다.
+
+**현재 한계:** 6건 모두 AI 적격성 선별에는 노출됐습니다. 기존96개 MP4와 동일 바이트 중복은 없지만, 다른 편집본의 동일 사고·동일 주행·모델 사전학습 중복은 확인되지 않았습니다. 새 독립 평가 인증이 아닙니다.
+
+검수 후 작성한 파일은 원본 템플릿을 덮어쓰지 말고 별도 파일로 저장합니다. 단일 사람 초안은 자동으로 확정 GT가 되지 않습니다.

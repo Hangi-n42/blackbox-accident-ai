@@ -1,0 +1,17 @@
+{
+  "windows": 8,
+  "comma_windows": 6,
+  "zod_windows": 2,
+  "unique_input_frames": 168,
+  "depth_calls": 24,
+  "inference_seconds": 211.3005644989462,
+  "depth_intrinsics_stable": 4,
+  "q_stable": 0,
+  "all_gates_valid": 0,
+  "fixed_inlier_q_span_within_0_02": 1,
+  "fixed_inlier_span_reduced": 8,
+  "classifier_fits": 0,
+  "S3_measured": false,
+  "independent_evaluation": false,
+  "protected_hashes_unchanged": true
+}

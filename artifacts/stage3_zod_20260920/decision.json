@@ -1,0 +1,9 @@
+{
+  "candidate_adopted": false,
+  "reason": "PublicS3 and all three existing comma date-fold F1s decrease. ZOD macroF1 gain comes only from CONSTANT; A/Dcorrect39/89to8/89. No new ZOD/public opposites, but resolved opposites all remain wrong.",
+  "public_S3_delta": -0.04278010366826157,
+  "zod_proxy_4class_F1_delta": 0.06012177651300504,
+  "risk_and_score_separated": true,
+  "no_model_promotion": true,
+  "no_followup_tuning_on_heldout": true
+}

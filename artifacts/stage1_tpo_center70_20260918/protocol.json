@@ -1,0 +1,46 @@
+{
+  "scope": "one fixed candidate; same previously exposed 16-source proxy, NOT a fresh independent holdout",
+  "baseline": "mean TPO of same 12 full frames >=0.5",
+  "candidate": "0.5*mean TPO(full12)+0.5*mean TPO(center70%12) >=0.5",
+  "crop": "70% of width and height (49% area), rounded size, floor centered offset; after condition transform, before TPO224 resize",
+  "modes": [
+    "full_frame",
+    "jpeg_75",
+    "blur_1",
+    "jpeg_50",
+    "blur_2",
+    "resize_050"
+  ],
+  "primary_modes": [
+    "full_frame",
+    "jpeg_75",
+    "blur_1"
+  ],
+  "no_tuning": true,
+  "timing": "CPU 2 threads, warmed single loaded model. Baseline and candidate independently scored; order alternates per record. Includes TPO preprocessing, forward, means and candidate crop. Excludes common PNG decoding, condition transforms, disk I/O and shared model load. 192 paired measurements; not end-to-end MP4 timing.",
+  "versions": {
+    "torch": "2.8.0",
+    "numpy": "1.26.4",
+    "opencv": "4.10.0"
+  },
+  "files_sha256": {
+    "artifacts/submissions/verify_v6/model/stage1/config.json": "10e1c0d0c9cc0fa69cfa829db7f1454b2ce63c365dde02a847120f29165d8a8a",
+    "artifacts/submissions/verify_v6/model/stage1/forensic_frequency_augmented.json": "46ccafe0477b30889d572524fe2f0f3856dd1dead6cd1b9f7aa54118870f854b",
+    "artifacts/submissions/verify_v6/model/stage1/tpo/merged_visual.pt": "2935322b6984ba7c3f314607ae8fdf1145d2d3d7671ede13b4b324659a5c51a9",
+    "artifacts/submissions/verify_v6/model/stage1/tpo/clip_source/clip/model.py": "9902cbe5ee90a1da2aa3e6f043e8a23dc1f8831193b963785c9af03d5c7bef2c",
+    "scripts/data/evaluate_stage1_road_pairs.py": "57a96597f2ec7260dbf1cdb98ba549a33044632e3019e9cb70eebea7b1685913",
+    "artifacts/stage1_road_pairs_20260918/selection.json": "6097dd8cbb5c9d21222f53eaa7656ff45f81b032225a11bfeb157cfc1702269a",
+    "artifacts/stage1_road_pairs_20260918/prepared_frames.json": "adbd5431395259c17f34bbab683e679cf62b5d36276200b37fb8359b6aa082fd",
+    "artifacts/stage1_road_pairs_20260918/crop_qa.json": "dae06b10510a4d37a9747b08e95693a7e7fbca52c685e78735af06e726244a02",
+    "artifacts/stage1_road_pairs_20260918/integrity.json": "72c110f618e7d8c842198da1db10d5094ed3a8a9c0b6e1100bd1a9728eadc032",
+    "scripts/data/build_stage1_road_pairs.py": "954d1a1e4e5e2bda372c568cd883528aa35c96ff74be174bb27d2534bfb767b0",
+    "scripts/data/prepare_stage1_road_pairs.py": "4fbff5c284d14f8f04b5115d16802f8a0674031103b37d002719745cf3cf2e4b",
+    "scripts/data/verify_stage1_road_pairs.py": "06bc041753c42b07be52899e22b21961e30ea409bf7312877795c59d22a8f95c",
+    "artifacts/submissions/verify_v6/model/stage2/code/solution/stage1.py": "f9def79197fdfc949cc01ec373b7a019f11d7c276e81fedb2015c2bc6f24eeb9",
+    "artifacts/submissions/verify_v6/model/stage2/code/solution/stage1_v4.py": "624fc836bc83b09cd273204206ae5b5f0de57ab19bc2b0a428e2957ef08d5c54",
+    "artifacts/submissions/verify_v6/model/stage2/code/solution/stage1_tpo_merged.py": "e1ddcbd9956b2c3e2d9d0edee55d2162d3d164b16c6423f8968c176526ff5011",
+    "artifacts/stage1_road_comparison_20260918/development_scores.json": "21e7b22b47be4c5d6e7175d213f5ec4172e2e95a93ee3c41c31be68d609ea1d7",
+    "artifacts/stage1_road_comparison_20260918/holdout_scores.json": "354eecde4b247cfe6144451c063e96906372e8f370945b04f5291c1dcffa498d",
+    "scripts/data/evaluate_stage1_tpo_center70.py": "040393ad3a42572783d664a71b8b284ef6acdef424e85e3bbafd6212a369cd3b"
+  }
+}

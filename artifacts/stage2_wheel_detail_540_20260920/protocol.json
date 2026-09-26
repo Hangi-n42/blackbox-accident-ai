@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-09-19T20:42:32.067323+00:00",
+  "status": "fixed_before_new_detail_comparison_predictions",
+  "case": "CCD_000540",
+  "frames": [
+    31,
+    35,
+    39
+  ],
+  "arms": [
+    "upsampled",
+    "source_detail"
+  ],
+  "prompt": "The vehicle marked in yellow is the collision counterpart. In this image, has at least one of this vehicle's wheels reached or crossed the boundary of the camera car's driving lane? Use INSIDE if at least one wheel touches the lane boundary or lies on its inside, and OUTSIDE if all wheels remain outside without touching it. At gaps in the lane markings, continue the visible lane boundary. Return JSON with lane_state: INSIDE, OUTSIDE, or UNCERTAIN. Use UNCERTAIN if the relevant wheel or lane boundary cannot be determined.",
+  "max_new_tokens": 40,
+  "previous_experiment": "artifacts/stage2_wheel_state_540_20260920",
+  "source_manifest": "artifacts/stage2_first_frame_policy_20260920/intake/inputs.json",
+  "reference_source": "artifacts/stage2_wheel_state_540_20260920/references.json",
+  "reference_policy": "Byte-identical frozen refs and marks, no reannotation: f31 OUTSIDE/f35 UNKNOWN/f39 INSIDE. Prior-exposed AI references; f35 remains unscored regardless of response.",
+  "upsampled": "Exact previous1152x768 marked image bytes, repeated fresh as control.",
+  "source_detail": "Copy upsampled1152x768 canvas; replace only source scene at[0,84,1152,732] with original1280x720 RGB resized1152x648 using BICUBIC. Reapply exact old low2px raster marker mask after nearest3x; header/padding/marker pixels exactly equal.90percent native width, not untouched full native resolution.",
+  "held_fixed": [
+    "counterpart/frame/framing",
+    "canvas1152x768",
+    "exact marker pixels",
+    "header/padding",
+    "same wheel-state prompt",
+    "40token limit/strict parser/model/Mac native sync deepstack",
+    "existing AI refs"
+  ],
+  "comparison": "6fresh workers,1query perframe/arm. Equal grid/text/image-token exposure must be verified, only image pixel tensors differ. Compare control raw/enums and processor hashes with3historical upsampled calls.",
+  "metrics": "Score only fixed definite refs31/39; unknown35outputs retained but not scored. Definite-reference gain/loss and distinction of OUTSIDE/INSIDE; UNCERTAIN/invalid incorrect on definite refs.",
+  "success_gate": "At least1definite gain,0loss, historical control raw/enum reproduction and equal text/grid/token evidence. Conditional diagnostic only, not deployment.",
+  "limitations": [
+    "One exposed incident, privileged expert counterpart marks, AI refs not certifiedhuman GT.",
+    "Source detail/blur/aliasing differ jointly; cannot isolate one visual mechanism.",
+    "Do not infer originalQ3 f44 root cause or change entry output from this separate question.",
+    "No model download/retraining, no production change, no officialS2."
+  ],
+  "stop": "Finish these6fixed calls; no extra variants/prompt tuning/reference change after responses."
+}

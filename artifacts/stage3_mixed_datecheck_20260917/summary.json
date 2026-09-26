@@ -1,0 +1,565 @@
+{
+  "rows": [
+    {
+      "fold": 1,
+      "scope": "pooled",
+      "n": 1612,
+      "moving_gt_n": 840,
+      "hold_dates": {
+        "rav4": "2018-08-02",
+        "civic": "2018-05-02"
+      },
+      "training_samples": 385,
+      "rav4": {
+        "f1": 0.6575890258425263,
+        "opposite": 103,
+        "rate": 0.12261904761904761,
+        "accel_to_decel": 37,
+        "decel_to_accel": 66,
+        "constant_errors": 181
+      },
+      "mixed_budget_rav4": {
+        "f1": 0.6312398401257322,
+        "opposite": 140,
+        "rate": 0.16666666666666666,
+        "accel_to_decel": 107,
+        "decel_to_accel": 33,
+        "constant_errors": 137
+      },
+      "new_opposites": 103,
+      "fixed_opposites": 66,
+      "retained_opposites": 37,
+      "new_opposites_from_correct": 75,
+      "new_opposites_from_other_error": 28
+    },
+    {
+      "fold": 1,
+      "scope": "civic",
+      "n": 1346,
+      "moving_gt_n": 805,
+      "hold_dates": {
+        "rav4": "2018-08-02",
+        "civic": "2018-05-02"
+      },
+      "training_samples": 385,
+      "rav4": {
+        "f1": 0.5887414803564579,
+        "opposite": 103,
+        "rate": 0.12795031055900621,
+        "accel_to_decel": 37,
+        "decel_to_accel": 66,
+        "constant_errors": 93
+      },
+      "mixed_budget_rav4": {
+        "f1": 0.5821400218232313,
+        "opposite": 140,
+        "rate": 0.17391304347826086,
+        "accel_to_decel": 107,
+        "decel_to_accel": 33,
+        "constant_errors": 52
+      },
+      "new_opposites": 103,
+      "fixed_opposites": 66,
+      "retained_opposites": 37,
+      "new_opposites_from_correct": 75,
+      "new_opposites_from_other_error": 28
+    },
+    {
+      "fold": 1,
+      "scope": "rav4",
+      "n": 266,
+      "moving_gt_n": 35,
+      "hold_dates": {
+        "rav4": "2018-08-02",
+        "civic": "2018-05-02"
+      },
+      "training_samples": 385,
+      "rav4": {
+        "f1": 0.21038638780574265,
+        "opposite": 0,
+        "rate": 0.0,
+        "accel_to_decel": 0,
+        "decel_to_accel": 0,
+        "constant_errors": 88
+      },
+      "mixed_budget_rav4": {
+        "f1": 0.3402467891449428,
+        "opposite": 0,
+        "rate": 0.0,
+        "accel_to_decel": 0,
+        "decel_to_accel": 0,
+        "constant_errors": 85
+      },
+      "new_opposites": 0,
+      "fixed_opposites": 0,
+      "retained_opposites": 0,
+      "new_opposites_from_correct": 0,
+      "new_opposites_from_other_error": 0
+    },
+    {
+      "fold": 2,
+      "scope": "pooled",
+      "n": 1167,
+      "moving_gt_n": 158,
+      "hold_dates": {
+        "rav4": "2018-08-02",
+        "civic": "2018-05-03"
+      },
+      "training_samples": 385,
+      "rav4": {
+        "f1": 0.5228273862794154,
+        "opposite": 22,
+        "rate": 0.13924050632911392,
+        "accel_to_decel": 0,
+        "decel_to_accel": 22,
+        "constant_errors": 312
+      },
+      "mixed_budget_rav4": {
+        "f1": 0.576442875837039,
+        "opposite": 25,
+        "rate": 0.15822784810126583,
+        "accel_to_decel": 3,
+        "decel_to_accel": 22,
+        "constant_errors": 266
+      },
+      "new_opposites": 12,
+      "fixed_opposites": 9,
+      "retained_opposites": 13,
+      "new_opposites_from_correct": 4,
+      "new_opposites_from_other_error": 8
+    },
+    {
+      "fold": 2,
+      "scope": "civic",
+      "n": 901,
+      "moving_gt_n": 123,
+      "hold_dates": {
+        "rav4": "2018-08-02",
+        "civic": "2018-05-03"
+      },
+      "training_samples": 385,
+      "rav4": {
+        "f1": 0.5415240089815401,
+        "opposite": 22,
+        "rate": 0.17886178861788618,
+        "accel_to_decel": 0,
+        "decel_to_accel": 22,
+        "constant_errors": 224
+      },
+      "mixed_budget_rav4": {
+        "f1": 0.587783472292339,
+        "opposite": 25,
+        "rate": 0.2032520325203252,
+        "accel_to_decel": 3,
+        "decel_to_accel": 22,
+        "constant_errors": 155
+      },
+      "new_opposites": 12,
+      "fixed_opposites": 9,
+      "retained_opposites": 13,
+      "new_opposites_from_correct": 4,
+      "new_opposites_from_other_error": 8
+    },
+    {
+      "fold": 2,
+      "scope": "rav4",
+      "n": 266,
+      "moving_gt_n": 35,
+      "hold_dates": {
+        "rav4": "2018-08-02",
+        "civic": "2018-05-03"
+      },
+      "training_samples": 385,
+      "rav4": {
+        "f1": 0.21038638780574265,
+        "opposite": 0,
+        "rate": 0.0,
+        "accel_to_decel": 0,
+        "decel_to_accel": 0,
+        "constant_errors": 88
+      },
+      "mixed_budget_rav4": {
+        "f1": 0.28600064079458526,
+        "opposite": 0,
+        "rate": 0.0,
+        "accel_to_decel": 0,
+        "decel_to_accel": 0,
+        "constant_errors": 111
+      },
+      "new_opposites": 0,
+      "fixed_opposites": 0,
+      "retained_opposites": 0,
+      "new_opposites_from_correct": 0,
+      "new_opposites_from_other_error": 0
+    },
+    {
+      "fold": 3,
+      "scope": "pooled",
+      "n": 561,
+      "moving_gt_n": 141,
+      "hold_dates": {
+        "rav4": "2018-08-02",
+        "civic": "2018-05-05"
+      },
+      "training_samples": 385,
+      "rav4": {
+        "f1": 0.22445106945053095,
+        "opposite": 12,
+        "rate": 0.0851063829787234,
+        "accel_to_decel": 0,
+        "decel_to_accel": 12,
+        "constant_errors": 193
+      },
+      "mixed_budget_rav4": {
+        "f1": 0.26854040681693236,
+        "opposite": 12,
+        "rate": 0.0851063829787234,
+        "accel_to_decel": 0,
+        "decel_to_accel": 12,
+        "constant_errors": 178
+      },
+      "new_opposites": 3,
+      "fixed_opposites": 3,
+      "retained_opposites": 9,
+      "new_opposites_from_correct": 0,
+      "new_opposites_from_other_error": 3
+    },
+    {
+      "fold": 3,
+      "scope": "civic",
+      "n": 295,
+      "moving_gt_n": 106,
+      "hold_dates": {
+        "rav4": "2018-08-02",
+        "civic": "2018-05-05"
+      },
+      "training_samples": 385,
+      "rav4": {
+        "f1": 0.19024032615692726,
+        "opposite": 12,
+        "rate": 0.11320754716981132,
+        "accel_to_decel": 0,
+        "decel_to_accel": 12,
+        "constant_errors": 105
+      },
+      "mixed_budget_rav4": {
+        "f1": 0.23369460703516834,
+        "opposite": 12,
+        "rate": 0.11320754716981132,
+        "accel_to_decel": 0,
+        "decel_to_accel": 12,
+        "constant_errors": 75
+      },
+      "new_opposites": 3,
+      "fixed_opposites": 3,
+      "retained_opposites": 9,
+      "new_opposites_from_correct": 0,
+      "new_opposites_from_other_error": 3
+    },
+    {
+      "fold": 3,
+      "scope": "rav4",
+      "n": 266,
+      "moving_gt_n": 35,
+      "hold_dates": {
+        "rav4": "2018-08-02",
+        "civic": "2018-05-05"
+      },
+      "training_samples": 385,
+      "rav4": {
+        "f1": 0.21038638780574265,
+        "opposite": 0,
+        "rate": 0.0,
+        "accel_to_decel": 0,
+        "decel_to_accel": 0,
+        "constant_errors": 88
+      },
+      "mixed_budget_rav4": {
+        "f1": 0.3087574032545569,
+        "opposite": 0,
+        "rate": 0.0,
+        "accel_to_decel": 0,
+        "decel_to_accel": 0,
+        "constant_errors": 103
+      },
+      "new_opposites": 0,
+      "fixed_opposites": 0,
+      "retained_opposites": 0,
+      "new_opposites_from_correct": 0,
+      "new_opposites_from_other_error": 0
+    }
+  ],
+  "public": {
+    "1": {
+      "rav4": {
+        "n": 50,
+        "macro_f1": 0.6063076416337286,
+        "support": {
+          "ACCELERATING": 9,
+          "DECELERATING": 8,
+          "CONSTANT": 30,
+          "STOPPED": 3
+        },
+        "confusion": [
+          [
+            3,
+            0,
+            5,
+            1
+          ],
+          [
+            0,
+            2,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            28,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        "recall": {
+          "ACCELERATING": 0.3333333333333333,
+          "DECELERATING": 0.25,
+          "CONSTANT": 0.9333333333333333,
+          "STOPPED": 1.0
+        },
+        "constant_errors": 2,
+        "opposite_errors": 0
+      },
+      "mixed_budget_rav4": {
+        "n": 50,
+        "macro_f1": 0.7005295429208472,
+        "support": {
+          "ACCELERATING": 9,
+          "DECELERATING": 8,
+          "CONSTANT": 30,
+          "STOPPED": 3
+        },
+        "confusion": [
+          [
+            3,
+            1,
+            5,
+            0
+          ],
+          [
+            0,
+            3,
+            5,
+            0
+          ],
+          [
+            0,
+            1,
+            29,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        "recall": {
+          "ACCELERATING": 0.3333333333333333,
+          "DECELERATING": 0.375,
+          "CONSTANT": 0.9666666666666667,
+          "STOPPED": 1.0
+        },
+        "constant_errors": 1,
+        "opposite_errors": 1
+      }
+    },
+    "2": {
+      "rav4": {
+        "n": 50,
+        "macro_f1": 0.6063076416337286,
+        "support": {
+          "ACCELERATING": 9,
+          "DECELERATING": 8,
+          "CONSTANT": 30,
+          "STOPPED": 3
+        },
+        "confusion": [
+          [
+            3,
+            0,
+            5,
+            1
+          ],
+          [
+            0,
+            2,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            28,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        "recall": {
+          "ACCELERATING": 0.3333333333333333,
+          "DECELERATING": 0.25,
+          "CONSTANT": 0.9333333333333333,
+          "STOPPED": 1.0
+        },
+        "constant_errors": 2,
+        "opposite_errors": 0
+      },
+      "mixed_budget_rav4": {
+        "n": 50,
+        "macro_f1": 0.6962568681318682,
+        "support": {
+          "ACCELERATING": 9,
+          "DECELERATING": 8,
+          "CONSTANT": 30,
+          "STOPPED": 3
+        },
+        "confusion": [
+          [
+            4,
+            1,
+            4,
+            0
+          ],
+          [
+            0,
+            4,
+            4,
+            0
+          ],
+          [
+            0,
+            3,
+            26,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        "recall": {
+          "ACCELERATING": 0.4444444444444444,
+          "DECELERATING": 0.5,
+          "CONSTANT": 0.8666666666666667,
+          "STOPPED": 1.0
+        },
+        "constant_errors": 4,
+        "opposite_errors": 1
+      }
+    },
+    "3": {
+      "rav4": {
+        "n": 50,
+        "macro_f1": 0.6063076416337286,
+        "support": {
+          "ACCELERATING": 9,
+          "DECELERATING": 8,
+          "CONSTANT": 30,
+          "STOPPED": 3
+        },
+        "confusion": [
+          [
+            3,
+            0,
+            5,
+            1
+          ],
+          [
+            0,
+            2,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            28,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        "recall": {
+          "ACCELERATING": 0.3333333333333333,
+          "DECELERATING": 0.25,
+          "CONSTANT": 0.9333333333333333,
+          "STOPPED": 1.0
+        },
+        "constant_errors": 2,
+        "opposite_errors": 0
+      },
+      "mixed_budget_rav4": {
+        "n": 50,
+        "macro_f1": 0.6990142210730446,
+        "support": {
+          "ACCELERATING": 9,
+          "DECELERATING": 8,
+          "CONSTANT": 30,
+          "STOPPED": 3
+        },
+        "confusion": [
+          [
+            4,
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            3,
+            5,
+            0
+          ],
+          [
+            0,
+            1,
+            28,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        "recall": {
+          "ACCELERATING": 0.4444444444444444,
+          "DECELERATING": 0.375,
+          "CONSTANT": 0.9333333333333333,
+          "STOPPED": 1.0
+        },
+        "constant_errors": 2,
+        "opposite_errors": 0
+      }
+    }
+  },
+  "no_pooled_cross_fold_score": "RAV4 test date repeated; Civic different dates; results are dependent development checks"
+}

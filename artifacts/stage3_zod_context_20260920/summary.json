@@ -1,0 +1,21 @@
+{
+  "pairs": 4,
+  "pair_class_counts": {
+    "A": 0,
+    "D": 1,
+    "C": 3
+  },
+  "original_frames_reviewed": 56,
+  "independent_evaluation": false,
+  "score_improvement_claim": false,
+  "training_runs": 0,
+  "candidate": "Uniform training-only spatial ROI masking augmentation; not yet trained",
+  "D": {
+    "correct": 21,
+    "samples": 22
+  },
+  "C": {
+    "correct": 9,
+    "samples": 66
+  }
+}

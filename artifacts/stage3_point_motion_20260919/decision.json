@@ -1,0 +1,31 @@
+{
+  "gates": {
+    "train_coverage_atleast2_each": false,
+    "deadband_lt_005": true,
+    "held_support_atleast3_each": false,
+    "held_coverage_atleast06_each": false,
+    "held_constant_80percent": false,
+    "held_accel_decel_70percent": false,
+    "held_pair_order75percent": false,
+    "held_constant_better_than_raw": true
+  },
+  "classifier_addition_allowed": false,
+  "valid_windows": 6,
+  "total_windows": 28,
+  "train_only_deadband": 0.030443026891414933,
+  "held_class_pass_fractions": {
+    "0": null,
+    "1": 1.0,
+    "2": 0.0
+  },
+  "valid_held_pairs": 0,
+  "failure_reasons_overlapping": {
+    "half_center_drift20": 10,
+    "n15": 7,
+    "center_bounds": 2,
+    "both_sides": 5,
+    "fewer than15 full tracks": 7
+  },
+  "decision": "do not add feature or fit classifier; physical and support validation insufficient",
+  "missing_values": "quality rejected candidates remain diagnostic only, never imputed into classifier"
+}

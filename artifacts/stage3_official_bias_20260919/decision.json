@@ -1,0 +1,13 @@
+{
+  "gates": {
+    "public_S3_improved": false,
+    "no_new_public_opposite": true,
+    "at_least_two_public_videos_improve": false,
+    "each_date_F1_nondecrease": false,
+    "each_date_vehicle_opposite_rate_increase_at_most_001": false
+  },
+  "candidate": false,
+  "public_S3_delta": 0.0,
+  "improving_public_videos": [],
+  "action": "reject; no further bias/lambda sweep; production unchanged"
+}

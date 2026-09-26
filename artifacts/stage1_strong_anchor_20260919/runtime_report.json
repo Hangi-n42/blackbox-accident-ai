@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "network_attempts": 0,
+  "checks": [
+    {
+      "run": "public_0_v7",
+      "videos": 10,
+      "seconds_including_model_load_decode_inference": 7.874562500001048,
+      "max_probability_difference": 1.511368352691278e-08,
+      "missing_videos": 0
+    },
+    {
+      "run": "public_0_anchored_0.01",
+      "videos": 10,
+      "seconds_including_model_load_decode_inference": 7.698087500000838,
+      "max_probability_difference": 2.4679508658920213e-08,
+      "missing_videos": 0
+    },
+    {
+      "run": "public_1_anchored_0.01",
+      "videos": 10,
+      "seconds_including_model_load_decode_inference": 7.6568227500029025,
+      "max_probability_difference": 2.4679508658920213e-08,
+      "missing_videos": 0
+    },
+    {
+      "run": "public_1_v7",
+      "videos": 10,
+      "seconds_including_model_load_decode_inference": 7.708615499999723,
+      "max_probability_difference": 1.511368352691278e-08,
+      "missing_videos": 0
+    },
+    {
+      "run": "paired_proxy_candidate",
+      "videos": 32,
+      "seconds_including_model_load_decode_inference": 60.760426207998535,
+      "max_probability_difference": 2.2460358017895032e-08,
+      "missing_videos": 0
+    }
+  ],
+  "public_timings": [
+    {
+      "method": "v7",
+      "seconds": 7.874562500001048
+    },
+    {
+      "method": "anchored_0.01",
+      "seconds": 7.698087500000838
+    },
+    {
+      "method": "anchored_0.01",
+      "seconds": 7.6568227500029025
+    },
+    {
+      "method": "v7",
+      "seconds": 7.708615499999723
+    }
+  ],
+  "public_median_seconds": {
+    "v7": 7.791589000000386,
+    "anchored_0.01": 7.67745512500187
+  },
+  "export_frame_probability_max_error": 2.170964408243492e-07,
+  "export_equivalence_data": "Existing VD development features, not unseen DLC",
+  "unseen_confirmation": "SKIPPED_BY_EXPLICIT_USER_REQUEST",
+  "original_v7_and_prior_results_unchanged": true,
+  "scope": "Mac CPU2threads, Stage1 actual entry only. Stage2/3 unchanged by hash; no CUDA full-contest60minute assertion."
+}

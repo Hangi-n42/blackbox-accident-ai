@@ -1,0 +1,23 @@
+{
+  "source_groups": 5,
+  "unique_frames": 20,
+  "scoring_rows": 20,
+  "seconds": 1.7640810840021004,
+  "max_abs_delta_from_old": 1.1102230246251565e-16,
+  "by_mode": {
+    "full_frame": {
+      "screen_recapture_cases": 5,
+      "ensemble_misses": 0,
+      "forensic_below_point5": 5,
+      "tpo_below_point5": 0,
+      "mean_probability": 0.5832208627434418
+    },
+    "central_192": {
+      "screen_recapture_cases": 5,
+      "ensemble_misses": 4,
+      "forensic_below_point5": 5,
+      "tpo_below_point5": 1,
+      "mean_probability": 0.41153753580587826
+    }
+  }
+}

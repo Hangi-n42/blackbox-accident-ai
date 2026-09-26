@@ -1,0 +1,1 @@
+Local Stage1 validation fixture only. Based on V7 TPO/CLIP with frozen strong anchored head. Original licenses and provenance remain in releases/v7/source/model/stage1/tpo and the previous experiment DATA_SOURCES.md. Stage2/3 are read-only references to V7. No submission ZIP created.

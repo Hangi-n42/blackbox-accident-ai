@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-09-20T14:16:26.242843+00:00",
+  "candidate": "single frozen-vision temporal linear pairwise ranker",
+  "submission_policy": "Original Q3 candidate numbers and RGB preserved. Replace entry_frame only; cached other3 exact values preserved. No production edits.",
+  "data": "Nexar weak training4(00000,00003,00006,00013); CCD8 previously exposed AI-reference development evaluation only. No incident is intentionally shared; bounded overlap review required; hidden reuploads not ruled out.",
+  "training_refs": "Use full recorded conservative intervals. Learn only shared-T strict error dominance across full interval with1e-9sec numerical tie margin. Unknown/conflicting4 excluded;00004originalmissing staysmissing. Do not use nearest candidate as correct GT.",
+  "features": {
+    "encoder": "Existing frozen Mac MLX Qwen3-VL4bit vision_tower final merger output; no language-model hidden states or text generations",
+    "source": "Exact16 existing1536x768Q3 sheets; image_grid[1,48,96]",
+    "pooling": "1152 finalmerged tokens reshape24x48. Each candidate occupies8x12. Omit itsfirstrow,mean7x12. Globalvisionattention means tokens are context-mixed, not counterpart-specific.",
+    "projection": "Per-vector L2normalize, fit PCA4 on eligibletraining candidates only",
+    "temporal": "Current4, current-previous4, next-current4, relativePTS1, firstindicator1 =14features; edge differences0. current-first removed before any real fit because its pair difference duplicates current-feature difference in a linear ranker.",
+    "normalization": "Training4-only per-feature mean/std, std floor1e-6. No CCD/excluded features in fitted statistics."
+  },
+  "optimizer": {
+    "type": "SciPy L-BFGS-B",
+    "initial": "zero14weights",
+    "loss": "Meanwithinincident logistic pairloss then meanacross4incidents +.5*L2*sumw2",
+    "L2": 1.0,
+    "PCA_DIM": 4,
+    "maxiter": 500,
+    "ftol": 1e-12,
+    "gtol": 1e-08,
+    "maxls": 50,
+    "real_fits": 1
+  },
+  "feature_execution": "Macarm64offline;16visionforwards plus firsttrainingimage repeated once=17, textgenerations0. Cache float32hidden for CPU independent pooling replay. No model weight update.",
+  "preregistered_comparators": [
+    "cached originalQ3 (fresh controls verified previous experiment)",
+    "alwaysfirst candidate",
+    "constant candidate index minimizing meantraining worst-caseMAE; no CCDfit"
+  ],
+  "evaluation": "Same8 fixed reference intervals and inclusive±.3seconds; pairedaccuracy/MAE bounds share same truth within interval. Report training fit separately. Whole-interval candidate coverage and one robust candidate are different.",
+  "limited_development_signal": "Atleast1definite gain overoriginalQ3; no possible accuracy losses; no newwrongf0 on during_clip; pairedMAE upperdelta<=0; other3preserved. Always report shortcut controls; do not claim identity understanding.",
+  "stop": "One realfit,one frozenCCD comparison; no tuning/retraining after outcomes. Stop on failed integrity/optimizer or <4eligible incidents/lackofbothstrata; minimum4 is an engineering pilot guard, not statistical sufficiency.",
+  "promotion": "Even gatePASS is not submissionadoption. Need independent human-reviewed incident validation and actual CUDA path before promotion.",
+  "preparation_note": "Initial review-sheet attempt included uncertain00004 and stopped on nullPTS before anymodelcall; preserved partialattempt1, corrected to observed-only, rerendered known8. No references changed."
+}

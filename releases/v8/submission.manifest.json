@@ -1,0 +1,324 @@
+{
+  "zip": "/Users/hyeongi/projects/blackbox-accident-ai/artifacts/submissions/v8_20260920/submit_v8.zip",
+  "sha256": "a56a51c7d525fd9cb8fbfac265896d790464442b938c48cac1b0ddbae258129b",
+  "zip_bytes": 2914596910,
+  "uncompressed_bytes": 3424399347,
+  "files": [
+    {
+      "path": "inference.py",
+      "bytes": 837,
+      "sha256": "e4831a5999ae35b1d39ec783251dc5071acdb2b69e188feafc0fc3302522ad9e"
+    },
+    {
+      "path": "model/stage1/config.json",
+      "bytes": 254,
+      "sha256": "26b10c65c02d55e6e2b0c13084e3b79d0eb00284aa5330985866ab8b7a2cbdc5"
+    },
+    {
+      "path": "model/stage1/forensic_frequency_augmented.json",
+      "bytes": 2406,
+      "sha256": "46ccafe0477b30889d572524fe2f0f3856dd1dead6cd1b9f7aa54118870f854b"
+    },
+    {
+      "path": "model/stage1/tpo/DATA_SOURCES.md",
+      "bytes": 2282,
+      "sha256": "3f00cd1ef42da3827db59e2e0859015608789b34457d8d9a4313ff582375eead"
+    },
+    {
+      "path": "model/stage1/tpo/LICENSE.DLC-6466770.txt",
+      "bytes": 439,
+      "sha256": "3b6bc8eb8a4a6bba41619051803991d9de949f7f722eee30bc0954c7b38aed7d"
+    },
+    {
+      "path": "model/stage1/tpo/LICENSE.DLC-7467028.txt",
+      "bytes": 439,
+      "sha256": "3b6bc8eb8a4a6bba41619051803991d9de949f7f722eee30bc0954c7b38aed7d"
+    },
+    {
+      "path": "model/stage1/tpo/LICENSE.comma2k19.txt",
+      "bytes": 1063,
+      "sha256": "89bc004605a774df644fb4166f39c11fe680d508b2ea9e27d9ad714021efeefb"
+    },
+    {
+      "path": "model/stage1/tpo/MERGED_WEIGHTS_NOTICE.md",
+      "bytes": 2904,
+      "sha256": "fac6d02b39bc18405caf2720bd5f67b1e707ffcabf434a787eac88b4bc26906b"
+    },
+    {
+      "path": "model/stage1/tpo/anchored_head_provenance.json",
+      "bytes": 1010,
+      "sha256": "914da3286598704989fe605a357eaac2ab34046a8fcd48d318c8d87dbbc3e94d"
+    },
+    {
+      "path": "model/stage1/tpo/clip_source/LICENSE",
+      "bytes": 1064,
+      "sha256": "987e63b32f6c89ff5160e429458a872ff048e6860b590a3912e938f9da8f14db"
+    },
+    {
+      "path": "model/stage1/tpo/clip_source/clip/model.py",
+      "bytes": 17374,
+      "sha256": "9902cbe5ee90a1da2aa3e6f043e8a23dc1f8831193b963785c9af03d5c7bef2c"
+    },
+    {
+      "path": "model/stage1/tpo/merged_manifest.json",
+      "bytes": 4731,
+      "sha256": "4efd581c345e6b43529bb8969b39697834ee3278bbe7e0366b01311f8cd4d205"
+    },
+    {
+      "path": "model/stage1/tpo/merged_visual.pt",
+      "bytes": 344825035,
+      "sha256": "7a76e693b308f17b662636cad443eff72a5bac7b00fb2a79535595693297c91e"
+    },
+    {
+      "path": "model/stage1/tpo/original_merged_manifest.json",
+      "bytes": 4730,
+      "sha256": "7e6b971a1f230e2cf7a7113b3c2198c1e7cac4dff9e4946dff437ca01ca64a0a"
+    },
+    {
+      "path": "model/stage1/tpo/source/LICENSE",
+      "bytes": 20848,
+      "sha256": "9e502ba75fd0fd30cea5497b438a4bc12f07f02bc932a7a6041fd6a18b8f46a0"
+    },
+    {
+      "path": "model/stage2/code/solution/__init__.py",
+      "bytes": 55,
+      "sha256": "739a2c0be9d9b1445b83695ebfed3cac00e9dfc1e16e52b97fa8f51c77fb012a"
+    },
+    {
+      "path": "model/stage2/code/solution/stage1.py",
+      "bytes": 7704,
+      "sha256": "f9def79197fdfc949cc01ec373b7a019f11d7c276e81fedb2015c2bc6f24eeb9"
+    },
+    {
+      "path": "model/stage2/code/solution/stage1_tpo_merged.py",
+      "bytes": 2730,
+      "sha256": "e1ddcbd9956b2c3e2d9d0edee55d2162d3d164b16c6423f8968c176526ff5011"
+    },
+    {
+      "path": "model/stage2/code/solution/stage1_v4.py",
+      "bytes": 6761,
+      "sha256": "624fc836bc83b09cd273204206ae5b5f0de57ab19bc2b0a428e2957ef08d5c54"
+    },
+    {
+      "path": "model/stage2/code/solution/stage1_v7_tpo_hflip.py",
+      "bytes": 1590,
+      "sha256": "12b7e0f2cd2b13b795b2a588bb486e5d7dc08e49c81e1fbb8b051c4dad2f541f"
+    },
+    {
+      "path": "model/stage2/code/solution/stage2.py",
+      "bytes": 13808,
+      "sha256": "2323653c4271ec09e2bf1761f6938d5cec1f76bbe5a01df96ce7aa22b183dc1a"
+    },
+    {
+      "path": "model/stage2/code/solution/stage2_motion_collision.py",
+      "bytes": 2206,
+      "sha256": "091d1b4b53353cf08bc5431fb658d1c7fcc45604a4288546f3aac0fd6a207e2e"
+    },
+    {
+      "path": "model/stage2/code/solution/stage2_nf4.py",
+      "bytes": 1410,
+      "sha256": "91e664e42d87e1062614bbe3bc28175f22b000d7938a9b5329e7f887871d0341"
+    },
+    {
+      "path": "model/stage2/code/solution/stage2_uncapped_jerk_v6c.py",
+      "bytes": 6062,
+      "sha256": "3e86e5117230fb4680c1d4af630cb02dd7e9aca99b7c4184d7baed13f479d64e"
+    },
+    {
+      "path": "model/stage2/code/solution/stage2_v2.py",
+      "bytes": 8012,
+      "sha256": "89ae0bc640670d7ed76103ce7c829d405ad27cc25368c74d153d3b96962b8442"
+    },
+    {
+      "path": "model/stage2/code/solution/stage3.py",
+      "bytes": 4120,
+      "sha256": "4b211a1c4f731bbd28b0f6e60de172e9692bfc1fe0f46d49ce21d89ad44f3835"
+    },
+    {
+      "path": "model/stage2/code/solution/stage3_fast.py",
+      "bytes": 4310,
+      "sha256": "b93fc1565e476c8b84627fe5d6379f2314b129444942044987fb6b75ca660dca"
+    },
+    {
+      "path": "model/stage2/code/solution/stage3_v5_compatible.py",
+      "bytes": 7192,
+      "sha256": "8e9d3b5ce7c60cbcfcca674e42523b8a006e758ca92dd459171c5de8107b120d"
+    },
+    {
+      "path": "model/stage2/code/solution/vlm.py",
+      "bytes": 2848,
+      "sha256": "01680e84220c64a6ff8f3415cf59bb7cd225f425814c92f6d2fe8213c5fe1cda"
+    },
+    {
+      "path": "model/stage2/code/solution/vlm_candidate.py",
+      "bytes": 4339,
+      "sha256": "99b1cccb3de3172d08b4db8a40cbca3f6a1e595f6f6beb7250ab0c501d47ba7a"
+    },
+    {
+      "path": "model/stage2/vlm/CHANGES.md",
+      "bytes": 766,
+      "sha256": "439b76f32c0cab94fdffb1d1bb56abff150f2b66df7ef29890ceacf9b39e9f21"
+    },
+    {
+      "path": "model/stage2/vlm/EXPORT_MANIFEST.json",
+      "bytes": 4739,
+      "sha256": "ca6a1131fd311ece208b953a3c4806b1448dd1eb19afafd2e11a2139ea7dcf0d"
+    },
+    {
+      "path": "model/stage2/vlm/LICENSE-APACHE-2.0.txt",
+      "bytes": 11558,
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    },
+    {
+      "path": "model/stage2/vlm/README.md",
+      "bytes": 838,
+      "sha256": "e1d74f17eb4dcaf72dd26b8ef5e8e8a352f4f1d35a899dbbab2c3089c1976533"
+    },
+    {
+      "path": "model/stage2/vlm/README.original.md",
+      "bytes": 7133,
+      "sha256": "a884e5e78f7d6f7bfe237f909dbc41a126542e259dc79d8ab33cc8980580ff79"
+    },
+    {
+      "path": "model/stage2/vlm/SOURCE_DOWNLOAD_MANIFEST.json",
+      "bytes": 2885,
+      "sha256": "0455c7f4577bced191b5acfb3de853c4c8ebb88fbb8b7f090fd2de0ef65b0fca"
+    },
+    {
+      "path": "model/stage2/vlm/added_tokens.json",
+      "bytes": 735,
+      "sha256": "79f6ec6fcc423d3a82bfac8b9033b1daac7b7bce06a5f5f441637b480cc605de"
+    },
+    {
+      "path": "model/stage2/vlm/chat_template.jinja",
+      "bytes": 5412,
+      "sha256": "24a1eb036569714fc3efe7908495159c19ac5138f652c9e524475e40ce87d716"
+    },
+    {
+      "path": "model/stage2/vlm/config.json",
+      "bytes": 2106,
+      "sha256": "c4fbc3354ffa6bd557af9810ad972d7445329cfa7b90edf1c565caa5e71c582c"
+    },
+    {
+      "path": "model/stage2/vlm/generation_config.json",
+      "bytes": 226,
+      "sha256": "ad9868f17f3b0d352b2c2d45ac4ce71afa25a6f02580b24c7dd246e9f3655bb3"
+    },
+    {
+      "path": "model/stage2/vlm/merges.txt",
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    {
+      "path": "model/stage2/vlm/model-00001-of-00002.safetensors",
+      "bytes": 1997946675,
+      "sha256": "60cfa3b31933793fcbe97002a162e61e89abdd84876cbec4f3cae090fd8a57e0"
+    },
+    {
+      "path": "model/stage2/vlm/model-00002-of-00002.safetensors",
+      "bytes": 1064201593,
+      "sha256": "acddfb8561f15589c3816a8ad00ad8ef1bccd8f6eea9eba612fad1668f459e5f"
+    },
+    {
+      "path": "model/stage2/vlm/model.safetensors.index.json",
+      "bytes": 182671,
+      "sha256": "ffe51f7b55fbaa8c5e1db381934668136cfd3ea87fabb23723ec5557fd07603b"
+    },
+    {
+      "path": "model/stage2/vlm/preprocessor_config.json",
+      "bytes": 821,
+      "sha256": "932a67b907ae5ec809c4fb66cbcc951436ab686977e8b5fed9dce916c3a81e9e"
+    },
+    {
+      "path": "model/stage2/vlm/special_tokens_map.json",
+      "bytes": 644,
+      "sha256": "57255613bbe23c9497211ca68561ff429a51e871dbaf5a59998fa4c8f7fe168a"
+    },
+    {
+      "path": "model/stage2/vlm/tokenizer.json",
+      "bytes": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    {
+      "path": "model/stage2/vlm/tokenizer_config.json",
+      "bytes": 5685,
+      "sha256": "394a86fd18585e173a0b8ac275bf1a8a44ab1b155b11cb27141ff2c8ee29851d"
+    },
+    {
+      "path": "model/stage2/vlm/video_preprocessor_config.json",
+      "bytes": 858,
+      "sha256": "7cbbda8582bde10b9d94184c676654967fbdf5668a1d1262e83dde7731d74649"
+    },
+    {
+      "path": "model/stage2/vlm/vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    {
+      "path": "model/stage3/LICENSE.comma2k19.txt",
+      "bytes": 1063,
+      "sha256": "89bc004605a774df644fb4166f39c11fe680d508b2ea9e27d9ad714021efeefb"
+    },
+    {
+      "path": "model/stage3/motion_model.joblib",
+      "bytes": 1192151,
+      "sha256": "c52ecd15cf68856f2a7b0b37b120c7a961b3bd8889a33af4ec47f8b9719bb3b3"
+    },
+    {
+      "path": "model/stage3/training_provenance.json",
+      "bytes": 784,
+      "sha256": "37c976c7a18825a6e86a022a69cfad52575d8348c7ff7506ca7e464df22f8c05"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 101,
+      "sha256": "1f57ab984335af332a7fa31608c10bf919635b925ddf8d569757f3fa71a6aa55"
+    }
+  ],
+  "changed": [
+    "model/stage1/tpo/MERGED_WEIGHTS_NOTICE.md",
+    "model/stage1/tpo/merged_manifest.json",
+    "model/stage1/tpo/merged_visual.pt"
+  ],
+  "added": [
+    "model/stage1/tpo/DATA_SOURCES.md",
+    "model/stage1/tpo/LICENSE.DLC-6466770.txt",
+    "model/stage1/tpo/LICENSE.DLC-7467028.txt",
+    "model/stage1/tpo/LICENSE.comma2k19.txt",
+    "model/stage1/tpo/anchored_head_provenance.json",
+    "model/stage1/tpo/original_merged_manifest.json"
+  ],
+  "original_v7_preserved": true,
+  "stage2_stage3_byte_identical": true,
+  "entrypoint_requirements_config_unchanged": true,
+  "extracted_sha_and_crc_verified": true,
+  "selection": {
+    "candidate": "anchored_0.01",
+    "lambda": 0.01,
+    "parameters": 513,
+    "head_sha256": "9ede0a56fa79e92591da32d486937be79a92eef2d611cf153757284478360ed3",
+    "weights_sha256": "7a76e693b308f17b662636cad443eff72a5bac7b00fb2a79535595693297c91e",
+    "training": {
+      "vd": {
+        "feature_rows": 1152,
+        "groups": 8,
+        "recordings": 16
+      },
+      "dlc": {
+        "feature_rows": 2880,
+        "groups": 10,
+        "recordings": 40
+      },
+      "comma": {
+        "feature_rows": 792,
+        "groups": 5,
+        "recordings": 11
+      }
+    },
+    "inference": "12 full frames +12 horizontal flips, mean probability, threshold0.5; forensic disabled",
+    "validation": "Known regression guards and offline entry tests passed. Reserved DLC confirmation skipped by explicit user request. Official improvement unverified.",
+    "stage2_stage3": "Unchanged V7 assets; later experiments did not establish an adopted replacement.",
+    "original_v7_zip_sha256": "2cbdc77cab56dea781025c693a038fc3b0b6d23b108b9d904454b973b9a97fae"
+  },
+  "new_submission": false
+}

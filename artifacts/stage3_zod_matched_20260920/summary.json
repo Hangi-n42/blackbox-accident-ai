@@ -1,0 +1,31 @@
+{
+  "pairs": 12,
+  "class_counts": {
+    "0": 4,
+    "1": 2,
+    "2": 6
+  },
+  "comma_videos": 7,
+  "zod_videos": 9,
+  "full_context_pass_pairs": [
+    "D01",
+    "C01",
+    "C02",
+    "C03",
+    "C04"
+  ],
+  "within_comma_controls": 9,
+  "cross_larger_than_within": 8,
+  "cross_to_within_median_ratio": 1.1358532568954711,
+  "sensor_sign_checks_pass": true,
+  "max_AD_speed_difference": 0.37890114841993494,
+  "max_AD_accel_difference": 0.09340709135410741,
+  "feature_attribution_sum_checked": true,
+  "protected_hashes_pass": true,
+  "training_runs": 0,
+  "model_feature_changes": 0,
+  "downloads": 0,
+  "score_improvement_claim": false,
+  "primary_visual_review": "all6 A/D pairs plus C03,42source frames; additionalD02 temporal sheet10frames. Other5 C sheets exported but not manually inspected.",
+  "evidence_exported_frames": 72
+}

@@ -1,0 +1,442 @@
+{
+  "created_utc": "2026-09-21T05:46:22.662383+00:00",
+  "train_ids": [
+    "00000",
+    "00003",
+    "00006",
+    "00013"
+  ],
+  "cases": [
+    {
+      "ID": "00000",
+      "reference_seconds": [
+        18.408304498269896,
+        20.0
+      ],
+      "reference_frames": [
+        532,
+        578
+      ],
+      "frames": [
+        0,
+        93,
+        187,
+        280,
+        374,
+        467,
+        561,
+        654,
+        748,
+        841,
+        935,
+        1028
+      ],
+      "times": [
+        0.0,
+        3.217993079584775,
+        6.470588235294118,
+        9.688581314878892,
+        12.941176470588236,
+        16.15916955017301,
+        19.41176470588235,
+        22.629757785467127,
+        25.88235294117647,
+        29.100346020761247,
+        32.35294117647059,
+        35.57093425605537
+      ],
+      "possible_nearest_indices": [
+        6
+      ],
+      "possible_nearest_frames": [
+        561
+      ],
+      "old_pair_count": 61,
+      "top_pairs": [
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          6,
+          11
+        ]
+      ],
+      "top_pair_count": 11
+    },
+    {
+      "ID": "00003",
+      "reference_seconds": [
+        0.0,
+        0.0
+      ],
+      "reference_frames": [
+        0,
+        0
+      ],
+      "frames": [
+        0,
+        49,
+        97,
+        146,
+        194,
+        243,
+        291,
+        340,
+        388,
+        437,
+        485,
+        534
+      ],
+      "times": [
+        0.0,
+        1.6333333333333333,
+        3.2333333333333334,
+        4.866666666666666,
+        6.466666666666667,
+        8.1,
+        9.7,
+        11.333333333333334,
+        12.933333333333334,
+        14.566666666666666,
+        16.166666666666668,
+        17.8
+      ],
+      "possible_nearest_indices": [
+        0
+      ],
+      "possible_nearest_frames": [
+        0
+      ],
+      "old_pair_count": 66,
+      "top_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ]
+      ],
+      "top_pair_count": 11
+    },
+    {
+      "ID": "00006",
+      "reference_seconds": [
+        0.0,
+        0.0
+      ],
+      "reference_frames": [
+        0,
+        0
+      ],
+      "frames": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        653,
+        762,
+        871,
+        980,
+        1089,
+        1198
+      ],
+      "times": [
+        0.0,
+        3.6333333333333333,
+        7.266666666666667,
+        10.9,
+        14.533333333333333,
+        18.166666666666668,
+        21.766666666666666,
+        25.4,
+        29.033333333333335,
+        32.666666666666664,
+        36.3,
+        39.93333333333333
+      ],
+      "possible_nearest_indices": [
+        0
+      ],
+      "possible_nearest_frames": [
+        0
+      ],
+      "old_pair_count": 66,
+      "top_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ]
+      ],
+      "top_pair_count": 11
+    },
+    {
+      "ID": "00013",
+      "reference_seconds": [
+        18.566666666666666,
+        19.766666666666666
+      ],
+      "reference_frames": [
+        557,
+        593
+      ],
+      "frames": [
+        0,
+        54,
+        109,
+        163,
+        218,
+        272,
+        327,
+        381,
+        436,
+        490,
+        545,
+        599
+      ],
+      "times": [
+        0.0,
+        1.8,
+        3.6333333333333333,
+        5.433333333333334,
+        7.266666666666667,
+        9.066666666666666,
+        10.9,
+        12.7,
+        14.533333333333333,
+        16.333333333333332,
+        18.166666666666668,
+        19.966666666666665
+      ],
+      "possible_nearest_indices": [
+        10,
+        11
+      ],
+      "possible_nearest_frames": [
+        545,
+        599
+      ],
+      "old_pair_count": 65,
+      "top_pairs": [
+        [
+          10,
+          0
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          10,
+          9
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          11,
+          5
+        ],
+        [
+          11,
+          6
+        ],
+        [
+          11,
+          7
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          11,
+          9
+        ]
+      ],
+      "top_pair_count": 20
+    }
+  ],
+  "sole_change": "Keep all53pairs and other conditions; lambda1 -> lambda0.1.",
+  "fixed": "Original embeddings, PCA, normalization,14 features,12 candidates,PTS,weak reference intervals,linear model.",
+  "reference_status": "Human drafts filtered/widened by AI reviewers; weak training references, not adjudicated human GT.",
+  "loss": "Mean pair logistic per incident, equal mean over4 incidents + 0.1||w||²/2",
+  "L2": 0.1,
+  "initialization": "zeros(14); no warm start",
+  "optimizer": "L-BFGS-B",
+  "jac": true,
+  "options": {
+    "maxiter": 500,
+    "ftol": 1e-12,
+    "gtol": 1e-08,
+    "maxls": 50
+  },
+  "fits_authorized": 1,
+  "evaluation": "Train4 only vs53pair lambda1 baseline. Score gap, membership, error range, same-T paired MAE and ±0.3 status. No CCD.",
+  "success_rule": "Report top1 membership and time-error changes per case. Loss decrease alone is not success; membership is not ±0.3 correctness.",
+  "scope": "No CCD reads/evaluation, no visual forward, no submission changes, no follow-up trial.",
+  "user_wording_interpretation": "3 pairs interpreted as 53 pairs from immediately preceding proposal; stated to user before work.",
+  "baseline": "artifacts/stage2_entry_top_pairs_20260921",
+  "baseline_L2": 1.0
+}

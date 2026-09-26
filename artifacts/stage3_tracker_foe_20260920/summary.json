@@ -1,0 +1,24 @@
+{
+  "lk_pass": 5,
+  "dis_pass": 4,
+  "n": 10,
+  "lk_surviving_points": 498,
+  "dis_surviving_points": 557,
+  "recovered_windows": [],
+  "lost_windows": [
+    "expanded_19_275"
+  ],
+  "both_valid_windows": [
+    "expanded_11_225",
+    "extra_00_75",
+    "comma_01_315",
+    "expanded_08_85"
+  ],
+  "common_valid_ratio_MAE_LK": 0.07752910350566053,
+  "common_valid_ratio_MAE_DIS": 0.05341323747043057,
+  "MAE_limit": "4 selected windows only; not overall coverage-adjusted error, not independent or official score",
+  "adopt": false,
+  "reason": "no failed window recovered; one old accepted window lost; held constant still outside prior descriptive deadband",
+  "classifier_fits": 0,
+  "score_improvement_evaluated": false
+}

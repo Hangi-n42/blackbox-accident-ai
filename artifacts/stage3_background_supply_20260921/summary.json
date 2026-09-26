@@ -1,0 +1,16 @@
+{
+  "windows": 8,
+  "frame_pairs": 160,
+  "final_correspondence_observations": 4749,
+  "point_sufficient_pairs": 24,
+  "point_sufficient_windows": [
+    "zod_000026_161"
+  ],
+  "PnP_valid_pairs": 22,
+  "PnP_usable_windows": [],
+  "score_measured": false,
+  "classifier_fits": 0,
+  "new_depth_calls": 0,
+  "downloads": 0,
+  "status": "Partial point-supply recovery; full8-window bottleneck NOT resolved; no ready motion feature."
+}

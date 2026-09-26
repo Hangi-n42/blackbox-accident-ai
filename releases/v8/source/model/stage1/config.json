@@ -1,0 +1,9 @@
+{
+  "mode": "tpo_hflip",
+  "sample_frames": 12,
+  "original_weight": 0.5,
+  "hflip_weight": 0.5,
+  "forensic_weight": 0.0,
+  "threshold": 0.5,
+  "validation_scope": "Fixed public road proxy comparison; target dashcam/device generalization unverified."
+}

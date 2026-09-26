@@ -1,0 +1,48 @@
+{
+  "candidate": "L2 logistic binary head on frozen V7 normalized visual features, no backbone or LoRA updates",
+  "train_sources": [
+    0,
+    2,
+    13,
+    16,
+    38,
+    39,
+    51,
+    67
+  ],
+  "development_sources": [
+    103,
+    104,
+    109,
+    141,
+    142,
+    152,
+    154,
+    155
+  ],
+  "confirmation": "five new REDS val sources, iPhone and TCL separately. Source IDs never included in features. Same-region overlap caveat remains.",
+  "C": 1.0,
+  "solver": "lbfgs",
+  "max_iter": 2000,
+  "tol": 1e-08,
+  "random_state": 20260919,
+  "frame_sample_weight": "1/(12 frames * 2 views * 3 conditions), total one weight per source-class clip",
+  "input": "exact V7 12 full-frame original+hflip views, per-frame probabilities arithmetic mean, threshold 0.5",
+  "modes": [
+    "full_frame",
+    "jpeg_75",
+    "blur_1"
+  ],
+  "augmentations": "Use existing matching original/recapture base, JPEG75, blur1 conditions in training; no added candidate TTA beyond V7 hflip",
+  "gate": "Strictly higher primary development Macro-F1 AND original FP no larger than frozen V7; otherwise stop without confirmation scoring. No coefficient/threshold/hyperparameter search.",
+  "scope": "exploratory source-separated, device-reserved small-data pilot; not proof sufficient for target generalization",
+  "setup_before_new_source_scores": true,
+  "frozen_files": {
+    "scripts/data/experiment_stage1_frozen_head.py": "4e6c0d6579a435271960b2a1b16732e82dd1e709af8e19e1ae77a0f4bebd1fd7",
+    "releases/v7/source/model/stage1/tpo/merged_visual.pt": "2935322b6984ba7c3f314607ae8fdf1145d2d3d7671ede13b4b324659a5c51a9",
+    "releases/v7/source/model/stage1/tpo/clip_source/clip/model.py": "9902cbe5ee90a1da2aa3e6f043e8a23dc1f8831193b963785c9af03d5c7bef2c",
+    "releases/v7/source/model/stage2/code/solution/stage1_tpo_merged.py": "e1ddcbd9956b2c3e2d9d0edee55d2162d3d164b16c6423f8968c176526ff5011",
+    "artifacts/stage1_temporal23_20260919/content_qa.json": "13e780a419a0b0d23af271be02be9e2645fa1ef5499cd5a4996b8c371a509d1f",
+    "artifacts/stage1_temporal23_20260919/tcl_integrity.json": "73526ebc125a762d7f522bda6222a470fd89d40d9dde5a62b6924282b644be3a"
+  }
+}

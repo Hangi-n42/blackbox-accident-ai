@@ -1,0 +1,23 @@
+{
+  "seconds": 0.02324916699944879,
+  "iterations": [
+    9
+  ],
+  "frame_records": 1152,
+  "independent_train_sources": 8,
+  "total_sample_weight": 16.0,
+  "parameters": 513,
+  "train_source_ids": [
+    0,
+    2,
+    13,
+    16,
+    38,
+    39,
+    51,
+    67
+  ],
+  "head_sha256": "e876ed3bfa22fe9723699e141b889780c8ebb96a8c148a7d34fb12025288809c",
+  "candidate_has_been_fit": true,
+  "export_probability_max_difference": 0.0
+}

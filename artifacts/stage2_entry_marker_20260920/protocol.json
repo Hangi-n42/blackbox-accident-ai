@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-09-19T17:34:06.098863+00:00",
+  "status": "fixed_before_marker_predictions",
+  "cases": [
+    "CCD_000688",
+    "CCD_000801",
+    "CCD_000453",
+    "CCD_000196",
+    "CCD_000728"
+  ],
+  "scope": "Development diagnostic on the five previously exposed CCD entry reference cases; not independent confirmation or automatic submission policy",
+  "intervention": "Only fixed yellow RGB(255,255,0) width=2 sheet-pixel rectangle inside independently reviewed upper target body. Draw after original sheet rendering, before identical MLX resizing. No text/prompt/number/frame/order/canvas changes. Never cover wheel/lane/contact contour.",
+  "review": "A annotates 3 cases; B annotates 2; each original viewed individually, counterpart reference allowed, model outputs forbidden. Reciprocal rendered-sheet review before inference. Annotation not independent of historical human-readable target references.",
+  "frozen": [
+    "existing weights and MLX sync/native/deepstack fix",
+    "Q3 exact prompt and max_new_tokens40",
+    "existing original Q3 12 candidates and original sheet algorithm",
+    "existing parser and frame mapping",
+    "Q1 Q2 Q4 cached outputs and original final contact side space",
+    "original frame PTS and preexisting AI entry references"
+  ],
+  "execution": "Fresh process per case/arm, one actual Q3 query; 5 baseline +5 marked =10 actual calls. No other new model calls. Original 4-call diagnostics replayed with original responses except Q3; three other final outputs copied and checked.",
+  "contract_failure": "Any obscuring/wrong marker or pixel/hash/prompt/frame contract failure invalidates run, fixed before predictions. Historical baseline response mismatch investigated explicitly; no silent reuse as identical baseline.",
+  "scoring": "Reuse frozen interval grade and paired difference with epsilon0.3; unknown unchanged. Valid offered integer required for semantic success; fallback/snapped values reported, not rule recognition.",
+  "success_gate": {
+    "at_least_one_definite_gain": true,
+    "no_definite_loss": true,
+    "entry_MAE_nonincrease": "For the shared unknown true time in each fixed interval, mean paired absolute-error-difference upper bound <= 1e-9 seconds",
+    "no_new_false_first_frame_on_two_late_entry_cases": true
+  },
+  "limits": [
+    "baseline0/5 makes loss check weak; cannot certify regression robustness",
+    "marker supplies expert identity and attention jointly; cannot isolate pure identity effect",
+    "5case exposed development only; no official S2 or automatic deployment improvement",
+    "no mark/color/prompt/threshold retuning after output"
+  ],
+  "result_analysis": "Compare raw response, parsed selection, error bounds and selected frame visual evidence; trace selection failure and distinguish direct observations from causal hypotheses. If gate fails stop fixed candidate; no second tuning sweep.",
+  "comparison": "Fresh baseline of this experiment is primary paired control; historical response equality checked separately; mismatch forbids same-baseline success claim",
+  "small_marks": "Use the same 2px rectangle at all eligible boxes. Small distant upper-body boxes may rasterize to filled tiny rectangles. Never enlarge beyond verified body just to increase salience; record rendered size and inspect actual bounded images.",
+  "visual_review": "Review actual bounded model-input images, not only full-resolution sources. Save those explicitly."
+}

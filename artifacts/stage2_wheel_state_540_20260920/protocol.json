@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-09-19T20:14:30.642379+00:00",
+  "status": "fixed_before_new_frame_state_review_and_predictions",
+  "case": "CCD_000540",
+  "frames": [
+    31,
+    35,
+    39
+  ],
+  "arms": [
+    "low",
+    "upsampled"
+  ],
+  "prompt": "The vehicle marked in yellow is the collision counterpart. In this image, has at least one of this vehicle's wheels reached or crossed the boundary of the camera car's driving lane? Use INSIDE if at least one wheel touches the lane boundary or lies on its inside, and OUTSIDE if all wheels remain outside without touching it. At gaps in the lane markings, continue the visible lane boundary. Return JSON with lane_state: INSIDE, OUTSIDE, or UNCERTAIN. Use UNCERTAIN if the relevant wheel or lane boundary cannot be determined.",
+  "max_new_tokens": 40,
+  "source_manifest": "artifacts/stage2_first_frame_policy_20260920/intake/inputs.json",
+  "definition": "Current-frame first-wheel boundary status, not full-body membership or exact first historical entry time. INSIDE includes wheel touching boundary. UNCERTAIN for unreadable relation. UNKNOWN is reviewer reference only, excluded from accuracy without forcing any label.",
+  "selection": "Already exposed failure case; f31/35/39 fixed before new diagnostic responses. Do not derive f35 point-state label from its timing tolerance correctness. No new data or official score claim.",
+  "input": "Same source frame/same yellow upper-body raster marker/same framing/question/parser/model. low384x256 via existing _sheet, upsampled1152x768 exact3x nearest. No source-detail high arm; no crop or new detail.",
+  "references": "Independent A/B direct native image review. Past broad entry interval is known to these agents; only new diagnostic predictions and peer review are blinded. If both same definite state and same counterpart, score it; otherwise retain UNKNOWN. A boxes if both agree same visible counterpart then peer rendered QA. Any unavailable mark means no false-target query, report unavailable; no frame replacement.",
+  "metrics": "Per-frame strict state, agreement on eligible definite AI references, UNCERTAIN/invalid incorrect on definite references; unknown references not scored. Describe chronological response consistency and diagnostic success only, no entry_frame override or official temporal accuracy recomputation.",
+  "diagnostic_checks": "Report whether each arm distinguishes a definite OUTSIDE frame from a definite INSIDE frame, plus definite-reference gains/losses under enlargement. Do not infer model internal reasoning from labels alone.",
+  "runtime": "Mac native/sync/deepstack; old strict state_worker reused. Up to6 fresh workers with1actual call each. No repeat/extra variants after seeing responses.",
+  "freeze": "Source frames, references, marks, prompt, worker dependencies and inputs before calls. Independent CPU processor reconstruction and scoring afterward."
+}

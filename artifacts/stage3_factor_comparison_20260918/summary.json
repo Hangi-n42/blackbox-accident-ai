@@ -1,0 +1,159 @@
+{
+  "gates": {
+    "dis_base": [
+      {
+        "fold": 1,
+        "heldout_f1_improves": false,
+        "opposite_no_increase_all_scopes": true,
+        "both_directions_no_increase_all_scopes": true,
+        "public_f1_nonregression": true
+      },
+      {
+        "fold": 2,
+        "heldout_f1_improves": false,
+        "opposite_no_increase_all_scopes": true,
+        "both_directions_no_increase_all_scopes": true,
+        "public_f1_nonregression": true
+      },
+      {
+        "fold": 3,
+        "heldout_f1_improves": false,
+        "opposite_no_increase_all_scopes": true,
+        "both_directions_no_increase_all_scopes": true,
+        "public_f1_nonregression": true
+      }
+    ],
+    "dis_common": [
+      {
+        "fold": 1,
+        "heldout_f1_improves": true,
+        "opposite_no_increase_all_scopes": true,
+        "both_directions_no_increase_all_scopes": false,
+        "public_f1_nonregression": true
+      },
+      {
+        "fold": 2,
+        "heldout_f1_improves": true,
+        "opposite_no_increase_all_scopes": true,
+        "both_directions_no_increase_all_scopes": true,
+        "public_f1_nonregression": true
+      },
+      {
+        "fold": 3,
+        "heldout_f1_improves": false,
+        "opposite_no_increase_all_scopes": true,
+        "both_directions_no_increase_all_scopes": true,
+        "public_f1_nonregression": true
+      }
+    ],
+    "dis_residual": [
+      {
+        "fold": 1,
+        "heldout_f1_improves": false,
+        "opposite_no_increase_all_scopes": false,
+        "both_directions_no_increase_all_scopes": false,
+        "public_f1_nonregression": false
+      },
+      {
+        "fold": 2,
+        "heldout_f1_improves": true,
+        "opposite_no_increase_all_scopes": true,
+        "both_directions_no_increase_all_scopes": true,
+        "public_f1_nonregression": true
+      },
+      {
+        "fold": 3,
+        "heldout_f1_improves": false,
+        "opposite_no_increase_all_scopes": true,
+        "both_directions_no_increase_all_scopes": true,
+        "public_f1_nonregression": false
+      }
+    ],
+    "dis_common_residual": [
+      {
+        "fold": 1,
+        "heldout_f1_improves": false,
+        "opposite_no_increase_all_scopes": false,
+        "both_directions_no_increase_all_scopes": false,
+        "public_f1_nonregression": false
+      },
+      {
+        "fold": 2,
+        "heldout_f1_improves": true,
+        "opposite_no_increase_all_scopes": true,
+        "both_directions_no_increase_all_scopes": true,
+        "public_f1_nonregression": true
+      },
+      {
+        "fold": 3,
+        "heldout_f1_improves": false,
+        "opposite_no_increase_all_scopes": true,
+        "both_directions_no_increase_all_scopes": true,
+        "public_f1_nonregression": false
+      }
+    ],
+    "dis_all": [
+      {
+        "fold": 1,
+        "heldout_f1_improves": false,
+        "opposite_no_increase_all_scopes": false,
+        "both_directions_no_increase_all_scopes": false,
+        "public_f1_nonregression": false
+      },
+      {
+        "fold": 2,
+        "heldout_f1_improves": true,
+        "opposite_no_increase_all_scopes": true,
+        "both_directions_no_increase_all_scopes": true,
+        "public_f1_nonregression": true
+      },
+      {
+        "fold": 3,
+        "heldout_f1_improves": false,
+        "opposite_no_increase_all_scopes": true,
+        "both_directions_no_increase_all_scopes": true,
+        "public_f1_nonregression": false
+      }
+    ],
+    "raft_base": [
+      {
+        "fold": 1,
+        "heldout_f1_improves": false,
+        "opposite_no_increase_all_scopes": false,
+        "both_directions_no_increase_all_scopes": false,
+        "public_f1_nonregression": false
+      },
+      {
+        "fold": 2,
+        "heldout_f1_improves": false,
+        "opposite_no_increase_all_scopes": false,
+        "both_directions_no_increase_all_scopes": false,
+        "public_f1_nonregression": false
+      },
+      {
+        "fold": 3,
+        "heldout_f1_improves": false,
+        "opposite_no_increase_all_scopes": true,
+        "both_directions_no_increase_all_scopes": true,
+        "public_f1_nonregression": false
+      }
+    ]
+  },
+  "passed_candidates": [],
+  "timing": {
+    "dis": {
+      "clips": 28,
+      "frames": 16785,
+      "pairs": 16757,
+      "seconds": 220.28376703899085
+    },
+    "raft": {
+      "clips": 28,
+      "frames": 16785,
+      "pairs": 16757,
+      "seconds": 318.3977824589929
+    }
+  },
+  "production_and_inputs_unchanged": true,
+  "no_promotion": true
+}

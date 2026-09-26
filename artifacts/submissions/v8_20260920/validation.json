@@ -1,0 +1,100 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_SCOPE",
+  "zip_sha256": "a56a51c7d525fd9cb8fbfac265896d790464442b938c48cac1b0ddbae258129b",
+  "zip_bytes": 2914596910,
+  "files": 54,
+  "extraction_crc_sha": "PASS",
+  "stage1_actual_entry": {
+    "version": "v7",
+    "stage": 1,
+    "package": "/Users/hyeongi/projects/blackbox-accident-ai/artifacts/submissions/v8_20260920/extracted",
+    "data": "artifacts/public_eval/stage1",
+    "network_attempts": 0,
+    "status": "PASS",
+    "seconds": 7.827813374999096,
+    "experiment_prediction_match": true,
+    "max_probability_difference": 2.4679508769942515e-08,
+    "rows": 10,
+    "score_calls": [
+      {
+        "frames_per_view": 12,
+        "probability": 0.8040636194248993,
+        "seconds": 0.6260126660054084,
+        "ID": "S1_O_001"
+      },
+      {
+        "frames_per_view": 12,
+        "probability": 0.44581500565012294,
+        "seconds": 0.6064917919866275,
+        "ID": "S1_O_002"
+      },
+      {
+        "frames_per_view": 12,
+        "probability": 0.23935387035210925,
+        "seconds": 0.6325622920121532,
+        "ID": "S1_O_003"
+      },
+      {
+        "frames_per_view": 12,
+        "probability": 0.41856778909762704,
+        "seconds": 0.6134840000013355,
+        "ID": "S1_O_004"
+      },
+      {
+        "frames_per_view": 12,
+        "probability": 0.26878574676811695,
+        "seconds": 0.6048356670071371,
+        "ID": "S1_O_005"
+      },
+      {
+        "frames_per_view": 12,
+        "probability": 0.8105561410387357,
+        "seconds": 0.5966216249944409,
+        "ID": "S1_R_001"
+      },
+      {
+        "frames_per_view": 12,
+        "probability": 0.6863435705502827,
+        "seconds": 0.5931491670053219,
+        "ID": "S1_R_002"
+      },
+      {
+        "frames_per_view": 12,
+        "probability": 0.31783343851566315,
+        "seconds": 0.6241692090115976,
+        "ID": "S1_R_003"
+      },
+      {
+        "frames_per_view": 12,
+        "probability": 0.6321986901263397,
+        "seconds": 0.5920932080043713,
+        "ID": "S1_R_004"
+      },
+      {
+        "frames_per_view": 12,
+        "probability": 0.4105462022125721,
+        "seconds": 0.6197807090065908,
+        "ID": "S1_R_005"
+      }
+    ],
+    "package_files_unchanged": true
+  },
+  "stage3_actual_entry": {
+    "version": "v7",
+    "stage": 3,
+    "package": "/Users/hyeongi/projects/blackbox-accident-ai/artifacts/submissions/v8_20260920/extracted",
+    "data": "artifacts/public_eval_10hz/stage3",
+    "network_attempts": 0,
+    "status": "PASS",
+    "seconds": 11.896802749994094,
+    "reference_output_identical": true,
+    "rows": 2998,
+    "score_calls": [],
+    "package_files_unchanged": true
+  },
+  "stage2": "Preserved V7 code/weights byte-identical; CUDA NF4 not re-executed on Mac",
+  "original_zip_preserved": true,
+  "full_server_time": "Not newly verified",
+  "official_candidate_gain": "Unverified",
+  "submitted": false
+}

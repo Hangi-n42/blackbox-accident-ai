@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-09-19T16:15:35.154199+00:00",
+  "case_ids": [
+    "CCD_000174",
+    "CCD_000688",
+    "CCD_000801",
+    "CCD_001024",
+    "CCD_000453",
+    "CCD_001477",
+    "CCD_000703",
+    "CCD_000139",
+    "CCD_000196",
+    "CCD_000303",
+    "CCD_000815",
+    "CCD_000728"
+  ],
+  "selection_sha256": "e7487ddf985c31dcfff497a4e11c13dbdb974a99d5617055629bbd2a889781e6",
+  "plan": "12 preselected distinct CCD YouTube source groups, ego Yes, all 50 frames; no post-prediction replacement",
+  "review_evidence_protocol": "evidence_protocol_review.json",
+  "reviewers": "Two fresh-context independent AI experts. After both records are frozen, reviewer B performs explicitly labeled peer adjudication with original visual evidence; this is not a third independent reviewer.",
+  "labels": "All four targets with same counterpart linkage; actual-contact evidence bracket may be interval. Unknown preserved. Physical entry vs first-frame encoding distinguished. Evidence/synchrony bounds never invented.",
+  "scoring": "Point and valid-interval labels; interval dmin/dmax yields definite correct/wrong/indeterminate and identification bounds. Provider first-positive separate reference, never official DACON GT. Official S2 null unless full common local point cohort, still only local proxy.",
+  "policy": "Existing frozen jerk-only auxiliary-sum removal; candidate SHA48ef0159cb7b9e80fc832d84969851d95fdf1dd006584526bf5f2143a71d982e. No prompt/threshold/search changes.",
+  "adoption_gate": {
+    "contact": "on eligible confirmation cases at least one definite wrong->definite correct gain, no definite correct->definite wrong loss; report indeterminate changes and MAE bounds",
+    "regression": "public contact4/5 retained; original exposed human4/9->5/9 recorded not recomputed as new evidence; other three outputs unchanged",
+    "deployment": "Only research candidate; user requested Mac. No CUDA equivalence or official hidden score claim."
+  },
+  "duplicate_policy": "Public CCD-derived5 and known prior sources audited; duplicates removed before predictions, reasons preserved. Source ID alone not absolute incident-independence proof.",
+  "runtime": "Reuse verified Mac runner worker with arbitrary new jobs (image-only); four real calls shared baseline/candidate; freeze input, code, model, reviews before first inference.",
+  "status": "frozen_before_new_expert_reviews_and_predictions",
+  "adjudication_amendment": {
+    "created_utc": "2026-09-19T16:26:34.988691+00:00",
+    "reason": "Third-agent spawn and dormant-agent resume failed with agent thread limit reached; preserve both independent first reviews and perform transparent peer adjudication instead",
+    "before_model_predictions": true,
+    "prior_protocol_sha256": "7f7d740441cfa5b015200bb06818c5ed41c37ce360df347959d2bd17a3598628",
+    "no_label_or_model_result_used_to_change_scoring": true
+  },
+  "paired_reporting_clarification": {
+    "created_utc": "2026-09-19T16:28:30.463522+00:00",
+    "before_predictions": true,
+    "method": "For baseline and candidate sharing one true time in [a,b], evaluate accuracy change at boundaries a,b,p_baseline±epsilon,p_candidate±epsilon and each intervening midpoint; report minimum/maximum possible paired change and all nine outcome transitions. Identical predictions have exactly zero change even if both individually indeterminate.",
+    "purpose": "Original definite gain/no definite loss gate does not rule out uncertain harm; gate alone is not a net-improvement proof."
+  }
+}

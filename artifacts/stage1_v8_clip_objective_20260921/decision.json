@@ -1,0 +1,1396 @@
+{
+  "development_gate_pass": false,
+  "all_gates_pass": false,
+  "decision": "REJECT",
+  "reasons": [
+    "No strict full-frame primary improvement"
+  ],
+  "primary_full_frame_domain_average": {
+    "v8": 0.8956521739130435,
+    "clip_bce": 0.8956521739130435
+  },
+  "development": {
+    "vd": {
+      "v8": {
+        "overall": {
+          "fp": 0,
+          "fn": 1,
+          "original_n": 24,
+          "recapture_n": 24,
+          "fpr": 0.0,
+          "fnr": 0.041666666666666664,
+          "macro_f1": 0.9791576204950065,
+          "class_f1": {
+            "original": 0.9795918367346939,
+            "recapture": 0.9787234042553191
+          }
+        },
+        "modes": {
+          "blur_1": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 8,
+            "recapture_n": 8,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "full_frame": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 8,
+            "recapture_n": 8,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "jpeg_75": {
+            "fp": 0,
+            "fn": 1,
+            "original_n": 8,
+            "recapture_n": 8,
+            "fpr": 0.0,
+            "fnr": 0.125,
+            "macro_f1": 0.9372549019607843,
+            "class_f1": {
+              "original": 0.9411764705882353,
+              "recapture": 0.9333333333333333
+            }
+          }
+        },
+        "by_group": {
+          "REDS_train_103": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_104": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_109": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_141": {
+            "fp": 0,
+            "fn": 1,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.3333333333333333,
+            "macro_f1": 0.8285714285714285,
+            "class_f1": {
+              "original": 0.8571428571428571,
+              "recapture": 0.8
+            }
+          },
+          "REDS_train_142": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_152": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_154": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_155": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          }
+        },
+        "by_cluster": {
+          "REDS_train_103": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_104": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_109": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_141": {
+            "fp": 0,
+            "fn": 1,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.3333333333333333,
+            "macro_f1": 0.8285714285714285,
+            "class_f1": {
+              "original": 0.8571428571428571,
+              "recapture": 0.8
+            }
+          },
+          "REDS_train_142": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_152": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_154": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_155": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          }
+        }
+      },
+      "clip_bce": {
+        "overall": {
+          "fp": 0,
+          "fn": 1,
+          "original_n": 24,
+          "recapture_n": 24,
+          "fpr": 0.0,
+          "fnr": 0.041666666666666664,
+          "macro_f1": 0.9791576204950065,
+          "class_f1": {
+            "original": 0.9795918367346939,
+            "recapture": 0.9787234042553191
+          }
+        },
+        "modes": {
+          "blur_1": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 8,
+            "recapture_n": 8,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "full_frame": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 8,
+            "recapture_n": 8,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "jpeg_75": {
+            "fp": 0,
+            "fn": 1,
+            "original_n": 8,
+            "recapture_n": 8,
+            "fpr": 0.0,
+            "fnr": 0.125,
+            "macro_f1": 0.9372549019607843,
+            "class_f1": {
+              "original": 0.9411764705882353,
+              "recapture": 0.9333333333333333
+            }
+          }
+        },
+        "by_group": {
+          "REDS_train_103": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_104": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_109": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_141": {
+            "fp": 0,
+            "fn": 1,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.3333333333333333,
+            "macro_f1": 0.8285714285714285,
+            "class_f1": {
+              "original": 0.8571428571428571,
+              "recapture": 0.8
+            }
+          },
+          "REDS_train_142": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_152": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_154": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_155": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          }
+        },
+        "by_cluster": {
+          "REDS_train_103": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_104": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_109": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_141": {
+            "fp": 0,
+            "fn": 1,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.3333333333333333,
+            "macro_f1": 0.8285714285714285,
+            "class_f1": {
+              "original": 0.8571428571428571,
+              "recapture": 0.8
+            }
+          },
+          "REDS_train_142": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_152": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_154": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "REDS_train_155": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 3,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          }
+        }
+      },
+      "changes": {
+        "corrected": 0,
+        "new_errors": 0,
+        "unique_videos_changed": 0
+      }
+    },
+    "dlc": {
+      "v8": {
+        "overall": {
+          "fp": 6,
+          "fn": 8,
+          "original_n": 36,
+          "recapture_n": 36,
+          "fpr": 0.16666666666666666,
+          "fnr": 0.2222222222222222,
+          "macro_f1": 0.8054054054054054,
+          "class_f1": {
+            "original": 0.8108108108108109,
+            "recapture": 0.8
+          }
+        },
+        "modes": {
+          "blur_1": {
+            "fp": 2,
+            "fn": 2,
+            "original_n": 12,
+            "recapture_n": 12,
+            "fpr": 0.16666666666666666,
+            "fnr": 0.16666666666666666,
+            "macro_f1": 0.8333333333333334,
+            "class_f1": {
+              "original": 0.8333333333333334,
+              "recapture": 0.8333333333333334
+            }
+          },
+          "full_frame": {
+            "fp": 2,
+            "fn": 3,
+            "original_n": 12,
+            "recapture_n": 12,
+            "fpr": 0.16666666666666666,
+            "fnr": 0.25,
+            "macro_f1": 0.791304347826087,
+            "class_f1": {
+              "original": 0.8,
+              "recapture": 0.782608695652174
+            }
+          },
+          "jpeg_75": {
+            "fp": 2,
+            "fn": 3,
+            "original_n": 12,
+            "recapture_n": 12,
+            "fpr": 0.16666666666666666,
+            "fnr": 0.25,
+            "macro_f1": 0.791304347826087,
+            "class_f1": {
+              "original": 0.8,
+              "recapture": 0.782608695652174
+            }
+          }
+        },
+        "by_group": {
+          "alb_id/01": {
+            "fp": 3,
+            "fn": 0,
+            "original_n": 6,
+            "recapture_n": 6,
+            "fpr": 0.5,
+            "fnr": 0.0,
+            "macro_f1": 0.7333333333333334,
+            "class_f1": {
+              "original": 0.6666666666666666,
+              "recapture": 0.8
+            }
+          },
+          "alb_id/04": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 6,
+            "recapture_n": 6,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "alb_id/05": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 6,
+            "recapture_n": 6,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "est_id/02": {
+            "fp": 0,
+            "fn": 5,
+            "original_n": 6,
+            "recapture_n": 6,
+            "fpr": 0.0,
+            "fnr": 0.8333333333333334,
+            "macro_f1": 0.4957983193277311,
+            "class_f1": {
+              "original": 0.7058823529411765,
+              "recapture": 0.2857142857142857
+            }
+          },
+          "est_id/04": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 6,
+            "recapture_n": 6,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "est_id/06": {
+            "fp": 3,
+            "fn": 3,
+            "original_n": 6,
+            "recapture_n": 6,
+            "fpr": 0.5,
+            "fnr": 0.5,
+            "macro_f1": 0.5,
+            "class_f1": {
+              "original": 0.5,
+              "recapture": 0.5
+            }
+          }
+        },
+        "by_camera": {
+          "android": {
+            "fp": 3,
+            "fn": 5,
+            "original_n": 18,
+            "recapture_n": 18,
+            "fpr": 0.16666666666666666,
+            "fnr": 0.2777777777777778,
+            "macro_f1": 0.7770897832817337,
+            "class_f1": {
+              "original": 0.7894736842105263,
+              "recapture": 0.7647058823529411
+            }
+          },
+          "iphone": {
+            "fp": 3,
+            "fn": 3,
+            "original_n": 18,
+            "recapture_n": 18,
+            "fpr": 0.16666666666666666,
+            "fnr": 0.16666666666666666,
+            "macro_f1": 0.8333333333333334,
+            "class_f1": {
+              "original": 0.8333333333333334,
+              "recapture": 0.8333333333333334
+            }
+          }
+        },
+        "by_cluster": {
+          "alb_id": {
+            "fp": 3,
+            "fn": 0,
+            "original_n": 18,
+            "recapture_n": 18,
+            "fpr": 0.16666666666666666,
+            "fnr": 0.0,
+            "macro_f1": 0.916083916083916,
+            "class_f1": {
+              "original": 0.9090909090909091,
+              "recapture": 0.9230769230769231
+            }
+          },
+          "est_id": {
+            "fp": 3,
+            "fn": 8,
+            "original_n": 18,
+            "recapture_n": 18,
+            "fpr": 0.16666666666666666,
+            "fnr": 0.4444444444444444,
+            "macro_f1": 0.6884343036978757,
+            "class_f1": {
+              "original": 0.7317073170731707,
+              "recapture": 0.6451612903225806
+            }
+          }
+        }
+      },
+      "clip_bce": {
+        "overall": {
+          "fp": 6,
+          "fn": 8,
+          "original_n": 36,
+          "recapture_n": 36,
+          "fpr": 0.16666666666666666,
+          "fnr": 0.2222222222222222,
+          "macro_f1": 0.8054054054054054,
+          "class_f1": {
+            "original": 0.8108108108108109,
+            "recapture": 0.8
+          }
+        },
+        "modes": {
+          "blur_1": {
+            "fp": 2,
+            "fn": 2,
+            "original_n": 12,
+            "recapture_n": 12,
+            "fpr": 0.16666666666666666,
+            "fnr": 0.16666666666666666,
+            "macro_f1": 0.8333333333333334,
+            "class_f1": {
+              "original": 0.8333333333333334,
+              "recapture": 0.8333333333333334
+            }
+          },
+          "full_frame": {
+            "fp": 2,
+            "fn": 3,
+            "original_n": 12,
+            "recapture_n": 12,
+            "fpr": 0.16666666666666666,
+            "fnr": 0.25,
+            "macro_f1": 0.791304347826087,
+            "class_f1": {
+              "original": 0.8,
+              "recapture": 0.782608695652174
+            }
+          },
+          "jpeg_75": {
+            "fp": 2,
+            "fn": 3,
+            "original_n": 12,
+            "recapture_n": 12,
+            "fpr": 0.16666666666666666,
+            "fnr": 0.25,
+            "macro_f1": 0.791304347826087,
+            "class_f1": {
+              "original": 0.8,
+              "recapture": 0.782608695652174
+            }
+          }
+        },
+        "by_group": {
+          "alb_id/01": {
+            "fp": 3,
+            "fn": 0,
+            "original_n": 6,
+            "recapture_n": 6,
+            "fpr": 0.5,
+            "fnr": 0.0,
+            "macro_f1": 0.7333333333333334,
+            "class_f1": {
+              "original": 0.6666666666666666,
+              "recapture": 0.8
+            }
+          },
+          "alb_id/04": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 6,
+            "recapture_n": 6,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "alb_id/05": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 6,
+            "recapture_n": 6,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "est_id/02": {
+            "fp": 0,
+            "fn": 5,
+            "original_n": 6,
+            "recapture_n": 6,
+            "fpr": 0.0,
+            "fnr": 0.8333333333333334,
+            "macro_f1": 0.4957983193277311,
+            "class_f1": {
+              "original": 0.7058823529411765,
+              "recapture": 0.2857142857142857
+            }
+          },
+          "est_id/04": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 6,
+            "recapture_n": 6,
+            "fpr": 0.0,
+            "fnr": 0.0,
+            "macro_f1": 1.0,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 1.0
+            }
+          },
+          "est_id/06": {
+            "fp": 3,
+            "fn": 3,
+            "original_n": 6,
+            "recapture_n": 6,
+            "fpr": 0.5,
+            "fnr": 0.5,
+            "macro_f1": 0.5,
+            "class_f1": {
+              "original": 0.5,
+              "recapture": 0.5
+            }
+          }
+        },
+        "by_camera": {
+          "android": {
+            "fp": 3,
+            "fn": 5,
+            "original_n": 18,
+            "recapture_n": 18,
+            "fpr": 0.16666666666666666,
+            "fnr": 0.2777777777777778,
+            "macro_f1": 0.7770897832817337,
+            "class_f1": {
+              "original": 0.7894736842105263,
+              "recapture": 0.7647058823529411
+            }
+          },
+          "iphone": {
+            "fp": 3,
+            "fn": 3,
+            "original_n": 18,
+            "recapture_n": 18,
+            "fpr": 0.16666666666666666,
+            "fnr": 0.16666666666666666,
+            "macro_f1": 0.8333333333333334,
+            "class_f1": {
+              "original": 0.8333333333333334,
+              "recapture": 0.8333333333333334
+            }
+          }
+        },
+        "by_cluster": {
+          "alb_id": {
+            "fp": 3,
+            "fn": 0,
+            "original_n": 18,
+            "recapture_n": 18,
+            "fpr": 0.16666666666666666,
+            "fnr": 0.0,
+            "macro_f1": 0.916083916083916,
+            "class_f1": {
+              "original": 0.9090909090909091,
+              "recapture": 0.9230769230769231
+            }
+          },
+          "est_id": {
+            "fp": 3,
+            "fn": 8,
+            "original_n": 18,
+            "recapture_n": 18,
+            "fpr": 0.16666666666666666,
+            "fnr": 0.4444444444444444,
+            "macro_f1": 0.6884343036978757,
+            "class_f1": {
+              "original": 0.7317073170731707,
+              "recapture": 0.6451612903225806
+            }
+          }
+        }
+      },
+      "changes": {
+        "corrected": 0,
+        "new_errors": 0,
+        "unique_videos_changed": 0
+      }
+    },
+    "comma": {
+      "v8": {
+        "overall": {
+          "fp": 2,
+          "fn": 0,
+          "original_n": 36,
+          "recapture_n": 0,
+          "fpr": 0.05555555555555555,
+          "fnr": null,
+          "macro_f1": null,
+          "class_f1": {
+            "original": 0.9714285714285714,
+            "recapture": 0.0
+          }
+        },
+        "modes": {
+          "blur_1": {
+            "fp": 1,
+            "fn": 0,
+            "original_n": 12,
+            "recapture_n": 0,
+            "fpr": 0.08333333333333333,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 0.9565217391304348,
+              "recapture": 0.0
+            }
+          },
+          "full_frame": {
+            "fp": 1,
+            "fn": 0,
+            "original_n": 12,
+            "recapture_n": 0,
+            "fpr": 0.08333333333333333,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 0.9565217391304348,
+              "recapture": 0.0
+            }
+          },
+          "jpeg_75": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 12,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          }
+        },
+        "by_group": {
+          "2018-05-02": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 15,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          },
+          "2018-07-27": {
+            "fp": 2,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 0,
+            "fpr": 0.6666666666666666,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 0.5,
+              "recapture": 0.0
+            }
+          },
+          "2018-07-30": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 6,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          },
+          "2018-07-31": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          },
+          "2018-08-02": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 6,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          },
+          "2018-08-03": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          }
+        },
+        "by_cluster": {
+          "2018-05-02": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 15,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          },
+          "2018-07-27": {
+            "fp": 2,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 0,
+            "fpr": 0.6666666666666666,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 0.5,
+              "recapture": 0.0
+            }
+          },
+          "2018-07-30": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 6,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          },
+          "2018-07-31": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          },
+          "2018-08-02": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 6,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          },
+          "2018-08-03": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          }
+        }
+      },
+      "clip_bce": {
+        "overall": {
+          "fp": 2,
+          "fn": 0,
+          "original_n": 36,
+          "recapture_n": 0,
+          "fpr": 0.05555555555555555,
+          "fnr": null,
+          "macro_f1": null,
+          "class_f1": {
+            "original": 0.9714285714285714,
+            "recapture": 0.0
+          }
+        },
+        "modes": {
+          "blur_1": {
+            "fp": 1,
+            "fn": 0,
+            "original_n": 12,
+            "recapture_n": 0,
+            "fpr": 0.08333333333333333,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 0.9565217391304348,
+              "recapture": 0.0
+            }
+          },
+          "full_frame": {
+            "fp": 1,
+            "fn": 0,
+            "original_n": 12,
+            "recapture_n": 0,
+            "fpr": 0.08333333333333333,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 0.9565217391304348,
+              "recapture": 0.0
+            }
+          },
+          "jpeg_75": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 12,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          }
+        },
+        "by_group": {
+          "2018-05-02": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 15,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          },
+          "2018-07-27": {
+            "fp": 2,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 0,
+            "fpr": 0.6666666666666666,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 0.5,
+              "recapture": 0.0
+            }
+          },
+          "2018-07-30": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 6,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          },
+          "2018-07-31": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          },
+          "2018-08-02": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 6,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          },
+          "2018-08-03": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          }
+        },
+        "by_cluster": {
+          "2018-05-02": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 15,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          },
+          "2018-07-27": {
+            "fp": 2,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 0,
+            "fpr": 0.6666666666666666,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 0.5,
+              "recapture": 0.0
+            }
+          },
+          "2018-07-30": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 6,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          },
+          "2018-07-31": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          },
+          "2018-08-02": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 6,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          },
+          "2018-08-03": {
+            "fp": 0,
+            "fn": 0,
+            "original_n": 3,
+            "recapture_n": 0,
+            "fpr": 0.0,
+            "fnr": null,
+            "macro_f1": null,
+            "class_f1": {
+              "original": 1.0,
+              "recapture": 0.0
+            }
+          }
+        }
+      },
+      "changes": {
+        "corrected": 0,
+        "new_errors": 0,
+        "unique_videos_changed": 0
+      }
+    }
+  },
+  "guards": {},
+  "guard_candidate_scored": false,
+  "unseen_confirmation": "Not available; reserved incomplete data not scored",
+  "evaluation_seconds": 2.530704542004969,
+  "peak_process_rss_bytes": 414384128,
+  "max_candidate_runs": 1,
+  "original_hashes_unchanged": true,
+  "official_candidate_score": "Not measured",
+  "no_submission_or_model_replacement": true
+}

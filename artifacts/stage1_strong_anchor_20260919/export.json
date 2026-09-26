@@ -1,0 +1,10 @@
+{
+  "weights_sha256": "7a76e693b308f17b662636cad443eff72a5bac7b00fb2a79535595693297c91e",
+  "binary_head_sha256": "9ede0a56fa79e92591da32d486937be79a92eef2d611cf153757284478360ed3",
+  "visual_tensors_unchanged": true,
+  "head_class_order": [
+    "RERECORDED",
+    "ORIGINAL"
+  ],
+  "scope": "Local runtime validation fixture; stage2/3/code links point to immutable V7. Not a packaged submission."
+}

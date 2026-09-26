@@ -1,0 +1,48 @@
+{
+  "created_utc": "2026-09-19T19:05:24.441374+00:00",
+  "cases": [
+    "CCD_000688",
+    "CCD_000801",
+    "CCD_000453",
+    "CCD_000196",
+    "CCD_000728"
+  ],
+  "status": "fixed_before_new_predictions",
+  "arms": [
+    "low",
+    "upsampled",
+    "high"
+  ],
+  "low": "Exact prior384x256markedfirsttile RGB",
+  "upsampled": "Nearest-neighbor3x of low to1152x768; retains original low-detail blocks, no generated details",
+  "high": "Original1280x720frame0 bicubic-resampled to1152x648 and inserted in identically scaled scene rectangle. Header/padding/marker pixels exactly equal to upsampled arm. Uses90percent native width, not full untouched native image.",
+  "single_question": "Exact previous state prompt, same40token cap and strict INSIDE/OUTSIDE/UNCERTAIN JSON parser; no fallback",
+  "frozen": [
+    "same five first frames",
+    "same expert counterpart marks and normalized thickness/coordinates",
+    "same scene framing and aspect ratio",
+    "same existing AI state references from legend experiment",
+    "same model weights/native sync/deepstack backend",
+    "same1.2M pixel budget; all canvases within budget and multiples of32",
+    "no original timestamp or state reference passed to model"
+  ],
+  "comparison": "Fresh low vs high is primary; high vs equal-size upsampled control measures source-detail contribution conditional on1152x768canvas. Low vs upsampled changes canvas/grid/image-token exposure without adding source detail. No universal causality/generalization claim.",
+  "gate": {
+    "primary_definite_gains_min": 1,
+    "primary_losses_max": 0,
+    "fresh_low_raw_and_enum_match_history": true,
+    "correct_invalid_or_uncertain_disallowed": true,
+    "at_least_one_INSIDE_gain": true
+  },
+  "interpretation": "Report class-specific recalls, confusion and constant-label baseline. If all-inside raises rawaccuracy by sacrificingoutside cases, gate fails. Higher pixels may not increase processor grid if capped: inspect actual grid/tokens before resolution claims.",
+  "runtime": "15freshMacworkers one state query each; previous state_worker reused unchanged; no more prompt/resolution search after outputs",
+  "limits": [
+    "five exposed AI-labeled privileged-marker development cases",
+    "688INSIDE means unmarkeddrivingcorridor, not surveyedlane",
+    "strict categorical state differs fromfirst-wheel boundary contact timestamp",
+    "resolution may change processor/image-token grid and computation; equal-size upsampledcontrol added",
+    "no new timing outputs/automatic entry correction/officialS2"
+  ],
+  "stop": "Finish this fixed three-arm comparison. No additional variants or threshold tuning.",
+  "high_vs_upsampled_limit": "Difference includes source detail, blur and aliasing; cannot isolate one visual mechanism."
+}

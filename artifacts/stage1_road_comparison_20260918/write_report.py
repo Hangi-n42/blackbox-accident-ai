@@ -1,0 +1,74 @@
+import json,sys,collections
+from pathlib import Path
+ROOT=Path.cwd();sys.path.insert(0,str(ROOT/'scripts/data'))
+from evaluate_stage1_road_pairs import metrics
+from diagnose_uhdm_branches import sha
+P=ROOT/'artifacts/stage1_road_comparison_20260918';D=ROOT/'artifacts/stage1_road_pairs_20260918'
+s=json.loads((P/'summary.json').read_text());integrity=json.loads((D/'integrity.json').read_text());encoding=json.loads((P/'common_encoding_check.json').read_text());sel=s['selected']['selected'];proto=json.loads((P/'protocol.json').read_text());fail=json.loads((P/'failures.json').read_text())
+for path,digest in proto['files_sha256'].items():assert sha(ROOT/path)==digest,path
+assert sha(P/'development_scores.json')==s['selected']['development_scores_sha256']
+assert sha(P/'protocol.json')==s['selected']['protocol_sha256']
+for split in ['development','holdout']:
+ assert json.loads((P/f'{split}_verification.json').read_text())['hashes_unchanged']
+name={'current':'현행 50:50 / 0.5','tpo_only':'TPO 단독 / 0.5','fixed_tuned':'선택 후보: TPO 단독 / 0.6','forensic_only':'forensic 단독 / 0.5'}
+lines=['# Stage1 공개 도로·거리 물리 재촬영 비교 결과','',
+'2026-09-18. 공개 자료로 평가용 원천 대응 세트를 구성하고 현행, TPO 단독, 고정 결합 비율/임계값 후보 비교를 완료했다. 이 결과는 **소규모 도로·거리 보조 평가**이며 공식 대회 점수나 블랙박스·미지 장비 일반화 성능이 아니다. 제출 모델/설정은 변경하지 않았다.','',
+'## 핵심 결과','',
+'개발 자료에서 고정 결합 탐색은 forensic 0%, TPO 100%, 임계값 0.6을 선택했다. 최종 확인용에서 현행보다 원본 오탐과 재촬영 누락을 모두 줄였다. 그러나 TPO/0.5와 비교하면 오탐 3건을 줄이는 대신 누락 3건이 늘어, Macro-F1에서 우월하지 않았다.','',
+'### 최종 확인용: 기본·JPEG75·약한 블러 합산','',
+'8개 원천 × 3조건 = 클래스별 24개 평가 기록이다. 같은 원천의 조건별 기록은 독립 표본이 아니다. 각 기록은 12프레임을 V6와 동일한 방식으로 집계했다.','',
+'| 후보 | Macro-F1 | 원본 오탐 /24 | 재촬영 누락 /24 |','|---|---:|---:|---:|']
+for k,v in s['splits']['holdout']['primary_all'].items():lines.append(f"| {name[k]} | {v['macro_f1']:.4f} | {v['fp']} | {v['fn']} |")
+lines+=['','### 조건별 최종 확인용','',
+'각 칸은 **원본 오탐 / 재촬영 누락**, 각 클래스의 분모는 8이다. 기본은 원본 파일 그대로가 아니라 테두리 제거·공통 크기·JPEG95 처리를 거친 입력이다. 추가 조건들은 이 기본 입력에서 각각 독립적으로 생성했다.','',
+'| 조건 | 현행 | TPO /0.5 | 선택 후보 /0.6 |','|---|---:|---:|---:|']
+mode_names={'full_frame':'기본 640×360, JPEG95 공통처리','jpeg_75':'JPEG Q75','blur_1':'블러 σ1','jpeg_50':'JPEG Q50 (스트레스)','blur_2':'블러 σ2 (스트레스)','resize_050':'가로·세로 1/2 축소 (스트레스)'}
+for mode,label in mode_names.items():
+ r=s['splits']['holdout'][mode];lines.append('| '+label+' | '+' | '.join(f"{r[k]['fp']} / {r[k]['fn']}" for k in ['current','tpo_only','fixed_tuned'])+' |')
+lines+=['','JPEG50·블러σ2·축소 조건은 후보 선택에 사용하지 않았다. 축소에서는 현행이 재촬영을 모두 검출했지만 선택 후보는 1개를 놓쳤다. forensic 제거가 모든 조건에서 유리하다는 결론은 성립하지 않는다.','',
+'## 구성과 검수','',
+'- VDmoire raw iPhone 물리 재촬영과 REDS 공식 sharp 카메라 원천을 직접 연결했다. UHDM clean 참조나 화면 녹화를 ORIGINAL/물리 재촬영 대용으로 사용하지 않았다.',
+'- 대표 프레임 다운로드 118/122개 성공 자료를 AI가 육안 검수한 뒤, 차량이 보이는 도로·거리 16개 원천을 모델 점수 확인 전에 선택했다. 나머지 4개 미확보 원천을 검수했다고 주장하지 않는다.',
+'- 조정용: REDS 000, 002, 013, 016, 038, 039, 051, 067. 최종 확인용: 103, 104, 109, 141, 142, 152, 154, 155. 기존 개발에 노출된 002·016은 조정용에만 배치했다.',
+'- 원천당 원본 12 + 재촬영 12 = 총 384프레임, 32개 클래스별 프레임 묶음. 16개의 원천이지 384개의 독립 장면이 아니다. 원본/재촬영 각각의 12프레임 묶음을 평가하며 새 MP4 파일을 만들어 재인코딩하지 않았다.',
+'- 초기 3개 끝 프레임에서 흰 종료 표식으로 전환되는 장면을 확인했다. 추론 전에 전 원천의 시작/끝을 동일 규칙으로 피하고, 원본 프레임 [1,5,11,16,21,27,32,38,43,48,54,58]과 재촬영 3프레임 묶음의 가운데 프레임을 선택했다. 프레임 단위 완전한 시간 동기화/픽셀 정답은 아니다.',
+'- 대응점으로 화면 경계를 추정해 내부 640×360 사각 영역을 잘랐다. homography는 위치 검수에만 사용하고 추론용 재촬영 이미지를 원근 워핑하지 않았다. 원본의 대응 bounding crop은 640×360으로 축소했다. 두 클래스 모두 JPEG95 roundtrip 후 PNG 보관.',
+'- 모든 192개 프레임 대응 검사 통과: 최소 inlier 228개, 최소 화면 경계 여유 27.23px, 프레임별 중위 재투영 오차의 최댓값 0.956px. 이는 정적 장면 대응 근거이며 완전한 시간 일치의 증명은 아니다.',
+'- 384개 파생 파일 및 그 부모 384건의 SHA256 확인. 분할 간 원천/보수적 장소 묶음 중복 0, 클래스·분할 간 완전 중복 0. 원본 분할 간 최소 dHash 거리 11. 촬영 세션 메타데이터가 없어 세션 독립성은 확정할 수 없다.',
+'- 대표 대응 이미지에서 화면 테두리가 없는 도로·차량, 건물 창문·표지·포장무늬 등 자연 반복 구조를 확인했다. 흐림·압축 조건을 원본에도 동일 적용했다. 자연적으로 흐린 원본을 별도로 충분히 표집했다는 뜻은 아니다.',
+'- 재촬영 장비는 iPhoneXR/MacBook Pro 한 조합이다. TCL 원본 링크의 파일 목록을 확인하지 못했으므로 다른 장비 자료 확보나 장비 holdout 완료를 주장하지 않는다.','',
+'## 선택 절차와 조정용 결과','',
+'forensic 비중 {0, 0.25, 0.5, 0.75, 1} × 임계값 0.20~0.90/0.05 간격, 총 75개 고정 설정을 비교했다. 기본·JPEG75·블러σ1 조정용 기록에서 원본 오탐률이 현행 이하인 후보 중 Macro-F1 최대를 선택했다. 동률은 오탐, 누락, 현행과의 설정 거리 순으로 결정한다. 최종 확인용 추론 전에 selected.json을 저장했으며 이후 변경하지 않았다.','',
+'| 조정용 후보 | Macro-F1 | 원본 오탐 /24 | 재촬영 누락 /24 |','|---|---:|---:|---:|']
+for k in ['current','tpo_only','fixed_tuned']:
+ v=s['splits']['development']['primary_all'][k];lines.append(f"| {name[k]} | {v['macro_f1']:.4f} | {v['fp']} | {v['fn']} |")
+lines+=['','비중 25%의 최선 허용 후보(임계값 0.55)는 개발 Macro-F1 0.8730, 오탐 0/24, 누락 6/24로 선택 후보보다 낮았다. 이 후보를 최종 확인용 결과를 보고 다시 선택하지 않았다.','',
+'## 실패 분해와 해석','',
+'- 최종 확인용 주요 조건에서 현행의 재촬영 누락 18건 중 **15건은 TPO/0.5가 맞히지만 결합이 틀린 사례**, 3건은 두 분기 모두 틀린 사례다. 이 세트에서는 결합 변경을 먼저 시험할 근거가 확인됐다.',
+'- 두 분기가 함께 놓친 주요 조건: 원천141 기본·JPEG75, 원천142 JPEG75. 선택 후보의 추가 누락에는 104/109 JPEG75와 141 블러σ1처럼 TPO 점수가 0.5~0.6 사이인 사례가 있다. 이는 임계값을 올린 비용이다.',
+'- 선택 후보의 기본 원본 오탐은 원천152다(TPO 0.6269). 화면 콘텐츠의 어떤 요소가 오탐을 일으켰는지 인과적으로 검증하지 않았다.',
+'- 현재 결과만으로 품질별 동적 결합을 추가할 필요는 입증되지 않았다. forensic 학습을 다시 시작하기 전에 더 많은 실제 재촬영 원천·다른 기기를 확보해야 한다. 이번 최종 확인용 실패 원천을 학습에 쓰면 이후에는 독립 최종 확인용으로 재사용할 수 없다.','',
+'## 공통 JPEG 처리 민감도 추가 확인','',
+'최종 확인 결과를 본 뒤 설정을 바꾸지 않은 상태에서, 같은 crop의 추가 JPEG95 이전 입력을 별도로 점검했다. 이는 사후 진단이며 새 독립 검증이 아니다. 32개 프레임 묶음에서 forensic/0.5 결정 변화는 0건, 현행 결정 변화는 4건, 선택 후보 결정 변화는 3건이다. 점수는 입력 처리에 민감하므로 본 실험 수치를 모든 인코딩에 일반화하지 않는다.','',
+'| 최종 확인용 기본 입력 | 현행 오탐/누락 (각 /8) | 선택 후보 오탐/누락 (각 /8) |','|---|---:|---:|']
+r=[x for x in encoding['rows'] if x['split']=='holdout']
+for suffix,label in [('native','추가 JPEG95 이전 crop'),('jpeg95','본 실험의 공통 JPEG95 crop')]:
+ vals=[]
+ for method in ['current','selected']:
+  k=f'{method}_{suffix}';vals.append(f"{sum(x[k] and x['label']=='original' for x in r)} / {sum(not x[k] and x['label']=='recapture' for x in r)}")
+ lines.append('| '+label+' | '+' | '.join(vals)+' |')
+lines+=['','## 결론의 범위','',
+'구성·무결성·원천별 분할과 요청한 세 후보 비교는 완료했다. **현행 50:50이 이 자료에서 재촬영 검출을 크게 저해한다는 결과는 확인했지만, 임계값0.6이 TPO/0.5보다 우수하거나 실제 대회 점수를 올린다는 결론은 확인하지 못했다.**','',
+'최종 확인용 장소 묶음 4개를 단위로 한 paired bootstrap(2,000회)의 선택 후보−현행 Macro-F1 차이 95% percentile 범위는 +0.2874~+0.3978이었다. 장소 묶음 수가 4개뿐이고 정확한 촬영 세션도 미확인이므로 일반 도로/기기 모집단의 신뢰구간으로 해석하지 않는다.','',
+'추가 한계: handheld 거리 영상이며 주행 블랙박스가 아님; 낮 위주; 한 촬영 장비; 모아레 제거용 수집 편향; 원본 PNG와 재촬영 JPEG의 이전 처리 이력이 다름; source crop의 축소와 시야 차이; 사람 검수가 아닌 공급자 출처+AI 시각/기하 확인. 자료 문제를 숨기고 공식 검증 세트로 승격시키지 않았다.','',
+'## 근거와 재현','',
+'- 공급자: [VDmoire](https://github.com/CVMI-Lab/VideoDemoireing), [논문 §4](https://arxiv.org/pdf/2204.02957.pdf), [REDS 공식 배포/CC BY4.0](https://seungjunnah.github.io/Datasets/reds.html). VDmoire 사용은 기존 사용자 승인 범위이며 새로운 라이선스 판정을 선언하지 않는다.',
+'- 자료: `artifacts/stage1_road_pairs_20260918/`의 selection.json, prepared_frames.json, crop_qa.json, integrity.json, source 및 prepared 폴더.',
+'- 결과: `artifacts/stage1_road_comparison_20260918/`의 protocol.json, development_grid.json, selected.json, *_scores.json, summary.json, failures.json, common_encoding_check.json.',
+'- 수집: `scripts/data/build_stage1_road_pairs.py sequences`; 전처리: `prepare_stage1_road_pairs.py`; 검수: `verify_stage1_road_pairs.py`.',
+'- 평가: `evaluate_stage1_road_pairs.py init`, `development`, `select`, `holdout`, `report` 순서. 이미 holdout 결과가 있으면 select는 실패하도록 구성했다. 재실험은 기존 결과를 덮어쓰지 말고 새 출력 경로를 사용해야 한다.',
+'- Python: `artifacts/mac_experiments/scipy_compat/.venv/bin/python`. 라이브러리 추가 설치 없음. frozen V6 모델/런타임/설정과 실험 입력·스크립트 해시를 실행 전후 확인했다.',
+'- 클래스 오류율 및 Macro-F1의 완전 정답/전부 한 클래스 예측 sanity check와 Python 구문 검사를 통과했다.','']
+(ROOT/'docs/stage1-road-recapture-comparison-20260918.md').write_text('\n'.join(lines))
+(P/'final_verification.json').write_text(json.dumps({'frozen_hashes_unchanged':True,'selected_development_input_unchanged':True,'selected_protocol_unchanged':True,'selected_config':{'forensic_weight':sel['weight'],'threshold':sel['threshold']},'production_modified':False},indent=2))
+print('report and final verification written')

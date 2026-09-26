@@ -1,0 +1,195 @@
+{
+  "transformation": "Original frozen TPO/CLIP visual merge, followed by V7-anchored binary classifier fitting; visual tensors unchanged.",
+  "training_performed": true,
+  "source_backbone": "ViT-B-16.pt",
+  "source_backbone_sha256": "5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f",
+  "source_adapter": "foundpad_tpo.pth",
+  "source_adapter_sha256": "e2c7620049b163a2d36c4fcbaccc8a518668ad3c232fe8d6e4ef5e94c886abdb",
+  "output": "merged_visual.pt",
+  "output_sha256": "7a76e693b308f17b662636cad443eff72a5bac7b00fb2a79535595693297c91e",
+  "output_bytes": 344825035,
+  "architecture": {
+    "input_resolution": 224,
+    "patch_size": 16,
+    "width": 768,
+    "layers": 12,
+    "heads": 12,
+    "output_dim": 512
+  },
+  "merged_dtype": "float32",
+  "operations": [
+    {
+      "layer": 0,
+      "projection": "q",
+      "scale": 2.82842712474619,
+      "offset": 0,
+      "delta_l2": 0.27565374970436096
+    },
+    {
+      "layer": 0,
+      "projection": "v",
+      "scale": 2.82842712474619,
+      "offset": 1536,
+      "delta_l2": 0.34893161058425903
+    },
+    {
+      "layer": 1,
+      "projection": "q",
+      "scale": 2.82842712474619,
+      "offset": 0,
+      "delta_l2": 0.27839216589927673
+    },
+    {
+      "layer": 1,
+      "projection": "v",
+      "scale": 2.82842712474619,
+      "offset": 1536,
+      "delta_l2": 0.4049707353115082
+    },
+    {
+      "layer": 2,
+      "projection": "q",
+      "scale": 2.82842712474619,
+      "offset": 0,
+      "delta_l2": 0.44097429513931274
+    },
+    {
+      "layer": 2,
+      "projection": "v",
+      "scale": 2.82842712474619,
+      "offset": 1536,
+      "delta_l2": 0.4195038378238678
+    },
+    {
+      "layer": 3,
+      "projection": "q",
+      "scale": 2.82842712474619,
+      "offset": 0,
+      "delta_l2": 0.50301194190979
+    },
+    {
+      "layer": 3,
+      "projection": "v",
+      "scale": 2.82842712474619,
+      "offset": 1536,
+      "delta_l2": 0.3893299400806427
+    },
+    {
+      "layer": 4,
+      "projection": "q",
+      "scale": 2.82842712474619,
+      "offset": 0,
+      "delta_l2": 0.5532730221748352
+    },
+    {
+      "layer": 4,
+      "projection": "v",
+      "scale": 2.82842712474619,
+      "offset": 1536,
+      "delta_l2": 0.40691426396369934
+    },
+    {
+      "layer": 5,
+      "projection": "q",
+      "scale": 2.82842712474619,
+      "offset": 0,
+      "delta_l2": 0.5928824543952942
+    },
+    {
+      "layer": 5,
+      "projection": "v",
+      "scale": 2.82842712474619,
+      "offset": 1536,
+      "delta_l2": 0.4149794280529022
+    },
+    {
+      "layer": 6,
+      "projection": "q",
+      "scale": 2.82842712474619,
+      "offset": 0,
+      "delta_l2": 0.5725806951522827
+    },
+    {
+      "layer": 6,
+      "projection": "v",
+      "scale": 2.82842712474619,
+      "offset": 1536,
+      "delta_l2": 0.4171387553215027
+    },
+    {
+      "layer": 7,
+      "projection": "q",
+      "scale": 2.82842712474619,
+      "offset": 0,
+      "delta_l2": 0.4992331266403198
+    },
+    {
+      "layer": 7,
+      "projection": "v",
+      "scale": 2.82842712474619,
+      "offset": 1536,
+      "delta_l2": 0.41382911801338196
+    },
+    {
+      "layer": 8,
+      "projection": "q",
+      "scale": 2.82842712474619,
+      "offset": 0,
+      "delta_l2": 0.4911375939846039
+    },
+    {
+      "layer": 8,
+      "projection": "v",
+      "scale": 2.82842712474619,
+      "offset": 1536,
+      "delta_l2": 0.5216130614280701
+    },
+    {
+      "layer": 9,
+      "projection": "q",
+      "scale": 2.82842712474619,
+      "offset": 0,
+      "delta_l2": 0.49018028378486633
+    },
+    {
+      "layer": 9,
+      "projection": "v",
+      "scale": 2.82842712474619,
+      "offset": 1536,
+      "delta_l2": 0.542047917842865
+    },
+    {
+      "layer": 10,
+      "projection": "q",
+      "scale": 2.82842712474619,
+      "offset": 0,
+      "delta_l2": 0.5246405005455017
+    },
+    {
+      "layer": 10,
+      "projection": "v",
+      "scale": 2.82842712474619,
+      "offset": 1536,
+      "delta_l2": 0.7125166058540344
+    },
+    {
+      "layer": 11,
+      "projection": "q",
+      "scale": 2.82842712474619,
+      "offset": 0,
+      "delta_l2": 0.6891381740570068
+    },
+    {
+      "layer": 11,
+      "projection": "v",
+      "scale": 2.82842712474619,
+      "offset": 1536,
+      "delta_l2": 1.10960054397583
+    }
+  ],
+  "implementation": "Participant-authored matrix addition, no TPO/LoRA source imported",
+  "runtime_source": "Unmodified OpenAI CLIP model.py (MIT), custom inference wrapper",
+  "weights_license": "TPO adapter-derived merged weights: CC BY-NC-SA 4.0; underlying CLIP rights preserved",
+  "original_conversion_manifest": "original_merged_manifest.json",
+  "classifier_training_manifest": "anchored_head_provenance.json"
+}

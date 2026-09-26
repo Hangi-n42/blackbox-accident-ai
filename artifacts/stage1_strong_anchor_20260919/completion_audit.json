@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-09-19T14:49:36.599693+00:00",
+  "status": "COMPLETE_WITH_USER_WAIVED_DLC",
+  "requirements": {
+    "fixed_candidate_settings": "PASS",
+    "known_guard_per_source_fp_fn_and_new_public_fp": "PASS",
+    "unseen_dlc_confirmation": "EXPLICITLY_WAIVED_BY_USER_NOT_PASSED",
+    "actual_entry_decisions_format_missing_offline_timing": "PASS",
+    "preserve_v7_stage2_stage3_and_prior_failures": "PASS_HASHES",
+    "no_retuning": "PASS",
+    "no_new_submission": "PASS"
+  },
+  "scientific_conclusion": "Improvement on known validation only; unseen-source and official score improvement unverified.",
+  "runtime_report": "runtime_report.json",
+  "scope_amendment": "user_waiver.json",
+  "report": "docs/stage1-strong-anchor-confirmation-20260919.md"
+}

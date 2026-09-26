@@ -1,0 +1,25 @@
+{
+  "status": "fixed_before_new_visual_reviews_and_model_predictions",
+  "objective": "Test whether the enlarged marked first-frame state gate improves actual entry timing on new source groups",
+  "selection": "One fixed cohort of 12 ego-Yes CCD clips, unique source groups; exclude all prior 12 CCD groups and public CCD groups before SHA256 full-ID ordering. No replacement or expanded cohort after review/results.",
+  "baseline": "Unmodified frozen V6c Mac native/sync/deepstack path, four actual VLM calls per clip; use baseline_prediction from reused paired worker and ignore its unrelated contact ablation output.",
+  "treatment": "Share identical baseline outputs and calls. For every counterpart mark approved before prediction, ask the unchanged first-frame state prompt on a 1152x768 nearest-neighbor 3x enlargement of the same384x256 marked first tile. Strict valid INSIDE changes entry_frame to first original frame. OUTSIDE, UNCERTAIN, invalid JSON, or absent/unapproved mark preserve baseline. Other three fields remain exact.",
+  "state_input_choice": "Upsampled arm fixed without new resolution/prompt search; same previous state worker, 40-token cap, same first-frame prompt, yellow upper-body 2px outline at384x256 then3x. No original source detail reintroduction.",
+  "privileged_information": "Human-like expert-agent counterpart marking is privileged, not an automatic deployable target detector. Reference labels or source time metadata are not passed to workers; original burned-in content is retained.",
+  "review": "Two independent AI visual reviews on all12 full sequences and native details, blinded to provider accident labels/new model outputs/peer. Then documented peer adjudication before model execution; original independent reviews unchanged. Unknown labels remain unknown. Same counterpart, first-wheel boundary evidence and pre-start encoding checked.",
+  "reference_contract": "Use conservative union of compatible A/B entry intervals; disagreement or unsupported timing stays unknown. Before-start entry encodes first-frame 0 but physical entry time is unknown before video. State labels are secondary and separate from timing. Markability does not depend on timing eligibility.",
+  "coverage": "Baseline all12. State queries only for preapproved visible same-counterpart markers, including timing-unknown cases. No marker means baseline fallback; include these cases when entry reference is eligible. Missing timing references are not scored as wrong or correct.",
+  "evaluation": "Native PTS and original frame numbers, inclusive0.3second tolerance. Interval definite correct/wrong/indeterminate plus shared-true-time paired accuracy and MAE delta bounds; no midpoint labels. Report start-before/during strata, marker coverage, all state responses, new false-first choices and unchanged other3 outputs.",
+  "gate": {
+    "both_before_start_and_during_clip_references_required": true,
+    "definite_timing_gains_min": 1,
+    "definite_timing_losses_max": 0,
+    "any_possible_per_case_accuracy_loss_disallowed": true,
+    "new_false_first_for_known_during_clip_max": 0,
+    "paired_MAE_upper_delta_must_not_increase": true,
+    "new_first_for_known_OUTSIDE_state_max": 0
+  },
+  "runtime": "Mac only, offline model workers. At most60 actual VLM calls:48baseline plus at most12state. Baseline is shared for paired policy scoring, not separately re-inferred for treatment. Independent CPU replay/strict result validation after workers finish.",
+  "stop": "Complete frozen cohort and this single gate policy; no label revision or extra prompt/resolution variants based on model results. No production change or official S2 claim. Insufficient reference strata means inconclusive, not automatic cohort extension.",
+  "pre_prediction_amendment": "Expert preflight: additionally count/gate newly forced first frames on known OUTSIDE state across all queried cases, even if timing is unknown. State-based error is reported separately from timing accuracy."
+}

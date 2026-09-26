@@ -1,0 +1,19 @@
+{
+  "gates": {
+    "quality_coverage6": false,
+    "class_coverage": false,
+    "valid_AD_correct_and_close": false,
+    "valid_C_near_zero": false,
+    "MAE_below_zero": false
+  },
+  "expand": false,
+  "valid_counts": {
+    "0": 0,
+    "1": 0,
+    "2": 0
+  },
+  "valid_q_MAE": null,
+  "zero_baseline_MAE": null,
+  "classifier_fits": 0,
+  "score_measured": false
+}
